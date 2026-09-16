@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  },
+  "name": "nekobt_addon",
+  "version": "1.0.0",
+  "main": "nekobt_addon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

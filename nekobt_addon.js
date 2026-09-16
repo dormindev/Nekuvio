@@ -194,7 +194,7 @@ function toNekoBTExternalId(parsed) {
 /* HTTP client                                                                */
 /* -------------------------------------------------------------------------- */
 
-async function nekoFetch(path, options = {}, retry = true) {
+async function nekoFetch(url, options = {}, retry = true) {
   const headers = {
     Accept: 'application/json',
     'User-Agent': 'nekoBT-Stremio-Addon/1.2.0',
@@ -205,13 +205,27 @@ async function nekoFetch(path, options = {}, retry = true) {
     headers.Cookie = `ssid=${NEKOBT_SSID}`;
   }
 
-  const response = await fetch(
-    `${NEKOBT_BASE_URL}${path}`,
-    {
+  console.log('\n========== nekoFetch ==========');
+  console.log('→ FETCH URL:', url);
+  console.log('→ FETCH OPTIONS:', {
+    ...options,
+    headers
+  });
+  console.log('→ RETRY ENABLED:', retry);
+
+  let response;
+
+  try {
+    response = await fetch(url, {
       ...options,
       headers
-    }
-  );
+    });
+  } catch (error) {
+    console.error('✗ FETCH ERROR:', error);
+    throw error;
+  }
+
+  console.log('← FETCH STATUS:', response.status, response.statusText);
 
   /*
    * nekoBT documents two kinds of 429:
@@ -223,17 +237,23 @@ async function nekoFetch(path, options = {}, retry = true) {
    * in an empty Stremio result.
    */
   if (response.status === 429 && retry) {
+    console.warn('⚠️ Rate limited (429)');
+
     let waitSeconds = Number(response.headers.get('retry-after'));
+
+    console.log('→ Retry-After header:', waitSeconds);
 
     try {
       const cloned = response.clone();
       const data = await cloned.json();
 
+      console.log('→ 429 JSON:', data);
+
       if (Number.isFinite(Number(data?.retry_after))) {
         waitSeconds = Number(data.retry_after);
       }
     } catch {
-      // Cloudflare may return HTML instead of JSON.
+      console.log('→ 429 response is not JSON');
     }
 
     if (!Number.isFinite(waitSeconds)) {
@@ -243,20 +263,27 @@ async function nekoFetch(path, options = {}, retry = true) {
     // Don't make the addon sit around for an unreasonable amount of time.
     waitSeconds = Math.min(Math.max(waitSeconds, 0.25), 10);
 
+    console.log(`→ Waiting ${waitSeconds}s before retry...`);
+
     await new Promise(resolve =>
       setTimeout(resolve, waitSeconds * 1000)
     );
 
-    return nekoFetch(path, options, false);
+    console.log('→ Retrying request...');
+
+    return nekoFetch(url, options, false);
   }
 
   let data = null;
 
   try {
     data = await response.json();
+    console.log('← PARSED JSON:', data);
   } catch {
-    // Non-JSON response.
+    console.error('✗ Non-JSON response');
   }
+
+  console.log('========== nekoFetch done ==========\n');
 
   return {
     response,
@@ -355,9 +382,7 @@ async function resolveMediaId(externalId) {
 
   url.searchParams.set('id', externalId);
 
-  const result = await nekoFetch(
-    `${url.pathname}${url.search}`
-  );
+  const result = await nekoFetch(url);
 
   if (!result.response.ok || result.data?.error) {
     console.error(
@@ -386,9 +411,7 @@ async function getMedia(mediaId) {
 
   url.searchParams.set('force', 'true');
 
-  const result = await nekoFetch(
-    `${url.pathname}${url.search}`
-  );
+  const result = await nekoFetch(url);
 
   if (!result.response.ok || result.data?.error) {
     console.error(
@@ -500,9 +523,7 @@ async function searchTorrents({
     url.searchParams.set('episode_match_any', 'true');
   }
 
-  const result = await nekoFetch(
-    `${url.pathname}${url.search}`
-  );
+  const result = await nekoFetch(url);
 
   if (!result.response.ok || result.data?.error) {
     console.error(

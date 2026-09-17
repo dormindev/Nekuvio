@@ -11,12 +11,8 @@ const NEKOBT_BASE_URL = 'https://nekobt.to/api/v1';
 const NEKOBT_SSID = process.env.NEKOBT_SSID || null;
 
 const SUPPORTED_PROVIDERS = new Set([
-  'anilist',
   'mal',
-  'anidb',
   'imdb',
-  'tmdb',
-  'tvdb',
   'kitsu'
 ]);
 

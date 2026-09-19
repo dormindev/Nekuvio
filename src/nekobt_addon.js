@@ -34,7 +34,7 @@ app.get('/manifest.json', (req, res) => {
     description:
       'nekoBT streamer supporting AniList, MAL, AniDB, Kitsu, IMDb, TMDB, and TVDB',
     resources: ['stream'],
-    types: ['anime'],
+    types: ['anime','series','movie'],
     idPrefixes: [
       'tt',
       'kitsu',
@@ -138,14 +138,32 @@ function parseStremioId(rawId) {
    *   imdb:tt1234567:1:2
    */
   if (/^tt\d+$/i.test(parts[0])) {
+    // IMDb shorthand:
+    // tt1234567:1:7
     provider = 'imdb';
     externalId = parts[0];
     season = parseInteger(parts[1]);
     episode = parseInteger(parts[2]);
+
+  } else if (parts[0].toLowerCase() === 'kitsu') {
+    // Kitsu:
+    // kitsu:12345:7
+    //
+    // Kitsu doesn't have a season component.
+    provider = 'kitsu';
+    externalId = parts[1];
+    season = null;
+    episode = parseInteger(parts[2]);
+
   } else {
+    // Everything else:
+    // anilist:12345:1:7
+    // mal:12345:1:7
+    // anidb:12345:1:7
+    // tmdb:12345:1:7
+    // tvdb:12345:1:7
     provider = parts[0].toLowerCase();
     externalId = parts[1];
-
     season = parseInteger(parts[2]);
     episode = parseInteger(parts[3]);
   }
@@ -435,6 +453,8 @@ async function getMedia(mediaId) {
  * the most reliable bridge for externally sourced episode metadata.
  */
 function findEpisode(media, season, episode) {
+	
+  console.log(`find_episode: S${season} E${episode}`);
   if (!media || !Array.isArray(media.episodes)) {
     return null;
   }
@@ -539,10 +559,139 @@ async function searchTorrents({
 /* Stremio stream formatting                                                  */
 /* -------------------------------------------------------------------------- */
 
-function torrentToStream(torrent) {
+async function getTorrent(torrentId) {
+  const url = new URL(
+    `${NEKOBT_BASE_URL}/torrents/${encodeURIComponent(torrentId)}`
+  );
+
+  const result = await nekoFetch(url);
+
+  if (!result.response.ok || result.data?.error) {
+    console.error(
+      'nekoBT torrent lookup failed:',
+      result.response.status,
+      result.data?.message
+    );
+
+    return null;
+  }
+
+  return result.data?.data || null;
+}
+
+function findEpisodeFile(torrent, season, episode) {
+  
+  console.log('--- findEpisodeFile ---');
+  console.log('Season:', season);
+  console.log('Episode:', episode);
+  console.log('Torrent files:', torrent?.files);
+  
+  if (!torrent?.files || !Array.isArray(torrent.files)) {
+    console.log('No torrent files array');
+    return null;
+  }
+
+  if (season === null || episode === null) {
+    console.log('Missing season or episode');
+    return null;
+  }
+
+  const seasonNumber = Number(season);
+  const episodeNumber = Number(episode);
+  
+  console.log('Looking for:', `S${seasonNumber}E${episodeNumber}`);
+
+
+  if (
+    !Number.isInteger(seasonNumber) ||
+    !Number.isInteger(episodeNumber)
+  ) {
+    return null;
+  }
+
+  const pattern = new RegExp(
+    `\\bS0*${seasonNumber}E0*${episodeNumber}\\b`
+  );
+  
+  console.log('Regex:', pattern);
+
+  for (let index = 0; index < torrent.files.length; index++) {
+    const file = torrent.files[index];
+    const path = String(file?.path || file?.name || '');
+
+    const match = path.match(pattern);
+
+    console.log(
+      `File ${index}:`,
+      path,
+      '→ match:',
+      match
+    );
+
+    if (match) {
+      const result = {
+        index,
+        size: Number(file.length) || 0,
+        name: file.name || path
+      };
+
+      console.log('MATCH FOUND:', result);
+
+      return result;
+    }
+  }
+
+  return null;
+}
+
+
+
+async function torrentToStream(torrent,season = null, episode = null) {
+  const torrentInfo = await getTorrent(torrent.id);
+
+  if (!torrentInfo) {
+    return null;
+  }
+
+  let fileIdx = null;
+  let fileSize = Number(torrentInfo.filesize) || 0;
+
+  /*
+   * Batch torrents contain multiple episodes, so we need to
+   * identify the specific file Stremio requested.
+   *
+   * Non-batch torrents don't need episode matching. If fileIdx
+   * is omitted, Stremio will select the largest file.
+   */
+  console.log('Torrent:', torrent.id);
+  console.log('Torrent batch:', torrentInfo.batch);
+  console.log('Torrent files:', torrentInfo.files);
+
+   
+  //if (torrentInfo.batch) {
+    const matchedFile = findEpisodeFile(
+      torrentInfo,
+      season,
+      episode
+    );
+
+    if (!matchedFile) {
+      console.warn(
+        `Could not find S${season}E${episode} in batch torrent ${torrent.id}`
+      );
+
+      return null;
+    }
+
+    fileIdx = matchedFile.index;
+    fileSize = matchedFile.size;
+  //}
+	
   const audio = torrent.audio_lang || 'RAW';
   const fansub = torrent.fsub_lang || '';
   const sub = torrent.sub_lang || '';
+  
+  console.log(torrent);
 
   const languages = [
     ...new Set(
@@ -571,9 +720,12 @@ function torrentToStream(torrent) {
     title:
       `${torrent.title || 'nekoBT torrent'}\n` +
       `👥 S: ${seeders} | L: ${leechers} | ` +
-      `💾 ${formatBytes(torrent.filesize)}`,
+      `💾 Torrent: ${formatBytes(torrent.filesize)}\n` +
+      `📄 File: ${formatBytes(fileSize)}`,
 
     infoHash: torrent.infohash,
+    
+    ...(fileIdx !== null ? { fileIdx } : {}),
 
     behaviorHints: {
       configurable: false,
@@ -637,8 +789,18 @@ app.get('/stream/:type/:id.json', async (req, res) => {
         mediaId: nekoExternalId
       });
 
+      const streams = (
+        await Promise.all(
+          torrents.map(torrent =>
+            torrentToStream(torrent)
+          )
+        )
+      ).filter(Boolean);
+      
+      console.log('\nResult: ',  {streams});
+
       return res.json({
-        streams: torrents.map(torrentToStream)
+        streams
       });
     }
 
@@ -708,8 +870,23 @@ app.get('/stream/:type/:id.json', async (req, res) => {
       episodeId: episode.id
     });
 
+
+    const streams = (
+      await Promise.all(
+      torrents.map(torrent =>
+        torrentToStream(
+        torrent,
+        parsed.season,
+        parsed.episode
+        )
+      )
+      )
+    ).filter(Boolean);
+
+    console.log('\nResult: ', {streams});
+    
     return res.json({
-      streams: torrents.map(torrentToStream)
+      streams
     });
 
   } catch (error) {

@@ -169,12 +169,6 @@ export async function searchTorrents({
 
   if (episodeId !== null) {
     url.searchParams.set('episode_ids', String(episodeId));
-    /*
-     * For a single episode this doesn't materially change the result,
-     * but makes our intention explicit and is useful if this grows to
-     * support multiple episode IDs later.
-     */
-    url.searchParams.set('episode_match_any', 'true');
   }
 
   const result = await nekoFetch(url);

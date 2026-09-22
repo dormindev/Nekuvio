@@ -66,7 +66,7 @@ export function parseStremioId(rawId) {
    *
    *   imdb:tt1234567:1:2
    */
-  if (/^tt\d+$/i.test(parts[0])) {
+  if (/^tt\d+$/.test(parts[0])) {
     provider = 'imdb';
     externalId = parts[0];
     season = parseInteger(parts[1]);

@@ -2,20 +2,12 @@ import fetch from 'node-fetch';
 
 export const NEKOBT_BASE_URL = 'https://nekobt.to/api/v1';
 
-// Optional. Most of the endpoints used by this addon are auth-optional.
-// If you eventually want authenticated requests, set NEKOBT_SSID.
-export const NEKOBT_SSID = process.env.NEKOBT_SSID || null;
-
 export async function nekoFetch(url, options = {}, retry = true) {
   const headers = {
     Accept: 'application/json',
     'User-Agent': 'nekoBT-Stremio-Addon/1.2.0',
     ...(options.headers || {})
   };
-
-  if (NEKOBT_SSID) {
-    headers.Cookie = `ssid=${NEKOBT_SSID}`;
-  }
 
   console.log('\n========== nekoFetch ==========');
   console.log('→ FETCH URL:', url.toString());

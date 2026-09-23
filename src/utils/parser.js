@@ -43,42 +43,40 @@ export function parseStremioId(rawId) {
     return null;
   }
 
-  // Remove .json in case the route parameter still contains it.
-  const cleanId = rawId.replace(/\.json$/i, '');
+  const parts = cleanId.split(':');
 
-  const parts = cleanId.split(':').filter(Boolean);
-
-  if (!parts.length) {
+  if (parts.length > 4) {
     return null;
   }
+
 
   let provider;
   let externalId;
   let season = null;
   let episode = null;
 
-  /*
-   * IMDb is special because Stremio commonly uses:
-   *
-   *   tt1234567:1:2
-   *
-   * rather than:
-   *
-   *   imdb:tt1234567:1:2
-   */
   if (/^tt\d+$/.test(parts[0])) {
+    /*
+     * IMDb is special because Stremio commonly uses:
+     *
+     *   tt1234567:1:2
+     *
+     * rather than:
+     *
+     *   imdb:tt1234567:1:2
+     */
+    if (parts.length !== 1 && parts.length !== 3) return null;
     provider = 'imdb';
     externalId = parts[0];
     season = parseInteger(parts[1]);
     episode = parseInteger(parts[2]);
-
-  } else if (parts[0].toLowerCase() === 'kitsu') {
+  } else if (parts[0] === 'kitsu') {
     // Kitsu doesn't have a season component.
-    provider = 'kitsu';
+    if (parts.length !== 1 && parts.length !== 3) return null;
+    provider = parts[0];
     externalId = parts[1];
     season = null;
     episode = parseInteger(parts[2]);
-
   } else {
     // Everything else:
     // anilist:12345:1:7
@@ -86,19 +84,16 @@ export function parseStremioId(rawId) {
     // anidb:12345:1:7
     // tmdb:12345:1:7
     // tvdb:12345:1:7
-    provider = parts[0].toLowerCase();
+    if ((parts.length !== 1 && parts.length !== 4)
+      || !SUPPORTED_PROVIDERS.has(parts[0]))
+      return null;
+    provider = parts[0];
     externalId = parts[1];
     season = parseInteger(parts[2]);
     episode = parseInteger(parts[3]);
   }
 
-  if (!SUPPORTED_PROVIDERS.has(provider)) {
-    return null;
-  }
-
-  if (!externalId) {
-    return null;
-  }
+  if (!externalId) return null;
 
   /*
    * Do not require both season and episode.

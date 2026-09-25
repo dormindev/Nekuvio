@@ -1,42 +1,6 @@
-export const SUPPORTED_PROVIDERS = new Set([
-  'mal',
-  'imdb',
-  'kitsu'
-]);
-
-export function parseInteger(value) {
-  if (value === undefined || value === null || value === '') {
-    return null;
-  }
-
-  const parsed = Number(value);
-
-  return Number.isInteger(parsed) ? parsed : null;
-}
-
 /**
  * Parse Stremio's ID.
  *
- * Examples:
- *
- *   anilist:12345
- *   anilist:12345:1:7
- *   mal:54321:1:3
- *   anidb:1234:1:2
- *   tvdb:123456:1:5
- *   tmdb:98765
- *   imdb:tt1234567:1:4
- *   tt1234567:1:4
- *   kitsu:12345:1:2
- *
- * Returns:
- *
- * {
- *   provider: 'anilist',
- *   externalId: '12345',
- *   season: 1,
- *   episode: 7
- * }
  */
 export function parseStremioId(type, id) {
   const parts = id.split(':');
@@ -93,15 +57,4 @@ export function parseStremioId(type, id) {
     isAnimeProvider,
     isMovie
   };
-}
-
-/**
- * Convert our parsed provider ID into nekoBT's external-ID format.
- */
-export function toNekoBTExternalId(parsed) {
-  if (!parsed) {
-    return null;
-  }
-
-  return `${parsed.provider}-${parsed.externalId}`;
 }

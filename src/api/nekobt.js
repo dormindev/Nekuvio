@@ -133,16 +133,8 @@ export async function getMedia(mediaId) {
   url.searchParams.set('force', 'true');
 
   const result = await nekoFetch(url);
-
-  if (!result.response.ok || result.data?.error) {
-    console.error(
-      'nekoBT media lookup failed:',
-      result.response.status,
-      result.data?.message
-    );
-
-    return null;
-  }
+  if (!result.response.ok || result.data?.error)
+    throw new Error(`nekoBT media lookup failed: ${result.response.status} ${result.data?.message}`);
 
   return result.data?.data || null;
 }
@@ -150,18 +142,14 @@ export async function getMedia(mediaId) {
 /**
  * Search torrents by media ID and optional episode ID.
  */
-export async function searchTorrents({
-  mediaId,
-  episodeId = null
-}) {
+export async function searchTorrents(mediaId, episodeId) {
   const url = new URL(`${NEKOBT_BASE_URL}/torrents/search`);
 
   url.searchParams.set('media_id', mediaId);
   url.searchParams.set('limit', '10');
 
-  if (episodeId !== null) {
+  if (episodeId !== null)
     url.searchParams.set('episode_ids', String(episodeId));
-  }
 
   const result = await nekoFetch(url);
 

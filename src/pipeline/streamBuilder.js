@@ -35,6 +35,7 @@ export async function torrentToStream(torrent, info) {
   const leechers = torrent.leechers ?? 0;
 
   return {
+    url: torrent.magnet,
     name: `nekoBT\n[${languageText}]`,
 
     title:

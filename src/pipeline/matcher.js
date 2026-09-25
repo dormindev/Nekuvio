@@ -17,8 +17,8 @@ function fitEpisodeInfo(media, request, seasonInfo) {
   let req_episode = (request.isMovie ? 1 : request.episode);
   let episode = (req_episode - seasonInfo.dst_start) + seasonInfo.src_start;
 
-  console.log('media:', media);
-  console.log('media.episodes:', media?.episodes);
+  //console.log('media:', media);
+  //console.log('media.episodes:', media?.episodes);
 
   const episodeEntry = media.episodes.find(x =>
     x.season == seasonInfo.season && x.episode == episode

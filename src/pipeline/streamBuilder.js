@@ -14,7 +14,7 @@ export async function torrentToStream(torrent, info) {
   let fileSize = Number(torrentInfo.filesize) || 0;
 
   console.log('Torrent:', torrent.id);
-  console.log('Torrent files:', torrentInfo.files);
+  //console.log('Torrent files:', torrentInfo.files);
 
   const matchedFile = findEpisodeFile(torrentInfo, info);
 

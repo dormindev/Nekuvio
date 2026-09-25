@@ -81,7 +81,7 @@ export async function nekoFetch(url, options = {}, retry = true) {
 
   try {
     data = await response.json();
-    console.log('← PARSED JSON:', data);
+    //console.log('← PARSED JSON:', data);
   } catch {
     console.error('✗ Non-JSON response');
   }

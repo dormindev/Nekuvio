@@ -1,12 +1,26 @@
-import fetch from 'node-fetch';
+import fetch, { RequestInit, Response } from 'node-fetch';
+import {
+  NekoMediaData,
+  NekoMediaResolveData,
+  NekoTorrentItem
+} from '../types.js';
 
 export const NEKOBT_BASE_URL = 'https://nekobt.to/api/v1';
 
-export async function nekoFetch(url, options = {}, retry = true) {
+export interface NekoFetchResult {
+  response: Response;
+  data: any;
+}
+
+export async function nekoFetch(
+  url: string | URL,
+  options: RequestInit = {},
+  retry: boolean = true
+): Promise<NekoFetchResult> {
   const headers = {
     Accept: 'application/json',
     'User-Agent': 'nekoBT-Stremio-Addon/1.2.0',
-    ...(options.headers || {})
+    ...((options.headers as Record<string, string>) || {})
   };
 
   console.log('\n========== nekoFetch ==========');
@@ -17,7 +31,7 @@ export async function nekoFetch(url, options = {}, retry = true) {
   });
   console.log('→ RETRY ENABLED:', retry);
 
-  let response;
+  let response: Response;
 
   try {
     response = await fetch(url, {
@@ -48,7 +62,7 @@ export async function nekoFetch(url, options = {}, retry = true) {
 
     try {
       const cloned = response.clone();
-      const data = await cloned.json();
+      const data: any = await cloned.json();
 
       console.log('→ 429 JSON:', data);
 
@@ -77,7 +91,7 @@ export async function nekoFetch(url, options = {}, retry = true) {
     return nekoFetch(url, options, false);
   }
 
-  let data = null;
+  let data: any = null;
 
   try {
     data = await response.json();
@@ -100,7 +114,7 @@ export async function nekoFetch(url, options = {}, retry = true) {
  * Example:
  *   anilist-20594 -> s168
  */
-export async function resolveMediaId(externalId) {
+export async function resolveMediaId(externalId: string): Promise<NekoMediaResolveData | null> {
   const url = new URL(`${NEKOBT_BASE_URL}/media/resolve`);
   url.searchParams.set('id', externalId);
 
@@ -126,15 +140,16 @@ export async function resolveMediaId(externalId) {
  * discover the episode mapping. We don't want "no torrents" on a media
  * entry to prevent us from getting its episode list.
  */
-export async function getMedia(mediaId) {
+export async function getMedia(mediaId: string): Promise<NekoMediaData> {
   const url = new URL(
     `${NEKOBT_BASE_URL}/media/${encodeURIComponent(mediaId)}`
   );
   url.searchParams.set('force', 'true');
 
   const result = await nekoFetch(url);
-  if (!result.response.ok || result.data?.error)
+  if (!result.response.ok || result.data?.error) {
     throw new Error(`nekoBT media lookup failed: ${result.response.status} ${result.data?.message}`);
+  }
 
   return result.data?.data || null;
 }
@@ -142,14 +157,18 @@ export async function getMedia(mediaId) {
 /**
  * Search torrents by media ID and optional episode ID.
  */
-export async function searchTorrents(mediaId, episodeId) {
+export async function searchTorrents(
+  mediaId: string,
+  episodeId: number | string | null
+): Promise<NekoTorrentItem[]> {
   const url = new URL(`${NEKOBT_BASE_URL}/torrents/search`);
 
   url.searchParams.set('media_id', mediaId);
   url.searchParams.set('limit', '10');
 
-  if (episodeId !== null)
+  if (episodeId !== null) {
     url.searchParams.set('episode_ids', String(episodeId));
+  }
 
   const result = await nekoFetch(url);
 
@@ -171,7 +190,7 @@ export async function searchTorrents(mediaId, episodeId) {
 /**
  * Get detailed torrent information by torrent ID.
  */
-export async function getTorrent(torrentId) {
+export async function getTorrent(torrentId: string): Promise<NekoTorrentItem | null> {
   const url = new URL(
     `${NEKOBT_BASE_URL}/torrents/${encodeURIComponent(torrentId)}`
   );

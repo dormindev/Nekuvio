@@ -1,6 +1,7 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { torrentToStream } from '../src/pipeline/streamBuilder.js';
+import { NekoTorrentItem } from '../src/types.js';
 
 describe('torrentToStream', () => {
   const mockInfo = {
@@ -8,7 +9,7 @@ describe('torrentToStream', () => {
     episode: { season: 4, episode: 23, absolute: 95 }
   };
 
-  const mockTorrentListItem = {
+  const mockTorrentListItem: NekoTorrentItem = {
     id: 't12345',
     title: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p]',
     magnet: 'magnet:?xt=urn:btih:6a8456cf80660c40a8e87170c3454d79997e1c2c',
@@ -21,7 +22,7 @@ describe('torrentToStream', () => {
   };
 
   it('builds a stream object when episode file is matched', async () => {
-    const mockGetTorrent = async (torrentId) => {
+    const mockGetTorrent = async (torrentId: string): Promise<any> => {
       assert.equal(torrentId, 't12345');
       return {
         id: torrentId,
@@ -52,8 +53,8 @@ describe('torrentToStream', () => {
   });
 
   it('returns null if episode file is not found in torrent', async () => {
-    const mockGetTorrent = async () => ({
-      id: 't12345',
+    const mockGetTorrent = async (torrentId: string): Promise<any> => ({
+      id: torrentId,
       files: [
         { name: 'Slime S04E01.mkv', length: 100 }
       ]

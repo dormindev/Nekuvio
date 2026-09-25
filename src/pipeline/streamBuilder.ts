@@ -1,16 +1,21 @@
 import { getTorrent } from '../api/nekobt.js';
 import { findEpisodeFile } from './matcher.js';
 import { formatBytes, formatLanguages } from '../utils/format.js';
+import { FitInfoResult, NekoTorrentItem, StremioStream } from '../types.js';
 
 /**
  * Construct a Stremio stream object from a nekoBT torrent item.
  */
-export async function torrentToStream(torrent, info, getTorrentFn = getTorrent) {
+export async function torrentToStream(
+  torrent: NekoTorrentItem,
+  info: FitInfoResult | { season: { season: number }; episode: { season?: number; episode?: number; absolute?: number } },
+  getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
+): Promise<StremioStream | null> {
   const torrentInfo = await getTorrentFn(torrent.id);
 
   if (!torrentInfo) return null;
 
-  let fileIdx = null;
+  let fileIdx: number | null = null;
   let fileSize = Number(torrentInfo.filesize) || 0;
 
   console.log('Torrent:', torrent.id);

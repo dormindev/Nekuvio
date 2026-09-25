@@ -1,11 +1,12 @@
-import fetch from 'node-fetch';
+import fetch, { Response } from 'node-fetch';
+import { KitsuMappingsResponse } from '../types.js';
 
 /**
  * nekoBT doesn't natively list Kitsu as one of its external ID providers,
  * so translate Kitsu -> MAL first.
  */
-export async function resolveKitsuToExternal(kitsuId) {
-  const response = await fetch(
+export async function resolveKitsuToExternal(kitsuId: string | number): Promise<string> {
+  const response: Response = await fetch(
     `https://kitsu.io/api/edge/anime/${encodeURIComponent(kitsuId)}/mappings`,
     {
       headers: {
@@ -15,15 +16,16 @@ export async function resolveKitsuToExternal(kitsuId) {
     }
   );
 
-  if (!response.ok)
+  if (!response.ok) {
     throw new Error(
       `Failed to resolve Kitsu ID ${kitsuId}: ${response.status} ${response.statusText}`
     );
+  }
 
-  const data = await response.json();
+  const data = (await response.json()) as KitsuMappingsResponse;
   const mappings = Array.isArray(data?.data) ? data.data : [];
 
-  console.log("MAL Mappings:", mappings);
+  console.log('MAL Mappings:', mappings);
 
   const mal = mappings.find(
     mapping =>
@@ -31,8 +33,9 @@ export async function resolveKitsuToExternal(kitsuId) {
       mapping?.attributes?.externalId
   );
 
-  if (!mal)
+  if (!mal?.attributes?.externalId) {
     throw new Error(`MAL mapping not found for Kitsu ID ${kitsuId}`);
+  }
 
   return mal.attributes.externalId;
 }

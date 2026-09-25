@@ -1,14 +1,15 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { fitInfo, findEpisodeFile } from '../src/pipeline/matcher.js';
+import { NekoMediaData, NekoMediaResolveData, StremioParsedRequest } from '../src/types.js';
 
 describe('fitInfo', () => {
-  const mockNekoId = {
+  const mockNekoId: NekoMediaResolveData = {
     media_id: 's172',
     anilist_id: 182205
   };
 
-  const mockMedia = {
+  const mockMedia: NekoMediaData = {
     anilist: {
       entries: [
         {
@@ -33,7 +34,9 @@ describe('fitInfo', () => {
   };
 
   it('correctly maps request season and episode to anime episode', () => {
-    const request = {
+    const request: StremioParsedRequest = {
+      provider: 'imdb',
+      externalId: 'tt123',
       isMovie: false,
       isAnimeProvider: false,
       season: 4,
@@ -49,7 +52,7 @@ describe('fitInfo', () => {
   });
 
   it('supports offset dst_start and src_start calculations', () => {
-    const customMedia = {
+    const customMedia: NekoMediaData = {
       anilist: {
         entries: [
           {
@@ -72,10 +75,12 @@ describe('fitInfo', () => {
       ]
     };
 
-    const request = {
+    const request: StremioParsedRequest = {
+      provider: 'kitsu',
+      externalId: '123',
       isMovie: false,
       isAnimeProvider: true,
-      season: null,
+      season: NaN,
       episode: 14
     };
 
@@ -85,7 +90,7 @@ describe('fitInfo', () => {
   });
 
   it('treats movie request as episode 1', () => {
-    const movieMedia = {
+    const movieMedia: NekoMediaData = {
       anilist: {
         entries: [
           {
@@ -108,11 +113,13 @@ describe('fitInfo', () => {
       ]
     };
 
-    const request = {
+    const request: StremioParsedRequest = {
+      provider: 'imdb',
+      externalId: 'tt555',
       isMovie: true,
       isAnimeProvider: false,
-      season: null,
-      episode: undefined
+      season: NaN,
+      episode: NaN
     };
 
     const info = fitInfo({ media_id: 'm1', anilist_id: 1111 }, movieMedia, request);
@@ -122,19 +129,40 @@ describe('fitInfo', () => {
 
   it('throws error if season info is not found for nekoId.anilist_id', () => {
     assert.throws(() => {
-      fitInfo({ media_id: 's1', anilist_id: 999999 }, mockMedia, { isMovie: false, isAnimeProvider: false });
+      fitInfo({ media_id: 's1', anilist_id: 999999 }, mockMedia, {
+        provider: 'imdb',
+        externalId: 'tt1',
+        isMovie: false,
+        isAnimeProvider: false,
+        season: 1,
+        episode: 1
+      });
     }, /Season info with ID 999999 not found/);
   });
 
   it('throws error if request season mismatches anilist entry season for non-anime provider series', () => {
     assert.throws(() => {
-      fitInfo(mockNekoId, mockMedia, { isMovie: false, isAnimeProvider: false, season: 2, episode: 1 });
+      fitInfo(mockNekoId, mockMedia, {
+        provider: 'imdb',
+        externalId: 'tt1',
+        isMovie: false,
+        isAnimeProvider: false,
+        season: 2,
+        episode: 1
+      });
     }, /Request season 2 and anilist season 4 do not match/);
   });
 
   it('throws error if episode entry is not found in media.episodes', () => {
     assert.throws(() => {
-      fitInfo(mockNekoId, mockMedia, { isMovie: false, isAnimeProvider: false, season: 4, episode: 99 });
+      fitInfo(mockNekoId, mockMedia, {
+        provider: 'imdb',
+        externalId: 'tt1',
+        isMovie: false,
+        isAnimeProvider: false,
+        season: 4,
+        episode: 99
+      });
     }, /Episode entry with season 4 and episode 99 not found/);
   });
 });

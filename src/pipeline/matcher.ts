@@ -1,4 +1,19 @@
-function fitSeasonInfo(nekoId, media, request) {
+import {
+  FitInfoResult,
+  NekoAnilistEntry,
+  NekoEpisodeEntry,
+  NekoMediaData,
+  NekoMediaResolveData,
+  NekoTorrentItem,
+  StremioParsedRequest,
+  TorrentFile
+} from '../types.js';
+
+function fitSeasonInfo(
+  nekoId: NekoMediaResolveData,
+  media: NekoMediaData,
+  request: StremioParsedRequest
+): NekoAnilistEntry {
   const seasonInfo = media.anilist.entries.find(x => x.anilist_id == nekoId.anilist_id);
   if (!seasonInfo) {
     throw new Error(`Season info with ID ${nekoId.anilist_id} not found`);
@@ -6,16 +21,21 @@ function fitSeasonInfo(nekoId, media, request) {
 
   if (!request.isMovie && !request.isAnimeProvider &&
     seasonInfo.season != request.season
-  )
+  ) {
     throw new Error(`Request season ${request.season} and anilist season ${seasonInfo.season} do not match`);
+  }
 
   return seasonInfo;
 }
 
-function fitEpisodeInfo(media, request, seasonInfo) {
+function fitEpisodeInfo(
+  media: NekoMediaData,
+  request: StremioParsedRequest,
+  seasonInfo: NekoAnilistEntry
+): NekoEpisodeEntry {
   // convert episode number from request to nekoBT
-  let req_episode = (request.isMovie ? 1 : request.episode);
-  let episode = (req_episode - seasonInfo.dst_start) + seasonInfo.src_start;
+  const req_episode = (request.isMovie ? 1 : request.episode);
+  const episode = (req_episode - seasonInfo.dst_start) + seasonInfo.src_start;
 
   //console.log('media:', media);
   //console.log('media.episodes:', media?.episodes);
@@ -23,13 +43,18 @@ function fitEpisodeInfo(media, request, seasonInfo) {
   const episodeEntry = media.episodes.find(x =>
     x.season == seasonInfo.season && x.episode == episode
   );
-  if (!episodeEntry)
+  if (!episodeEntry) {
     throw new Error(`Episode entry with season ${seasonInfo.season} and episode ${episode} not found`);
+  }
 
   return episodeEntry;
 }
 
-export function fitInfo(nekoId, media, request) {
+export function fitInfo(
+  nekoId: NekoMediaResolveData,
+  media: NekoMediaData,
+  request: StremioParsedRequest
+): FitInfoResult {
   const seasonInfo = fitSeasonInfo(nekoId, media, request);
   const episodeInfo = fitEpisodeInfo(media, request, seasonInfo);
 
@@ -40,26 +65,29 @@ export function fitInfo(nekoId, media, request) {
   };
 }
 
-
 /**
  * Identify the requested episode file inside a torrent file list.
  */
-function matchEpisode(files, pattern) {
+function matchEpisode(files: TorrentFile[], pattern: RegExp): (TorrentFile & { index: number }) | null {
   for (let index = 0; index < files.length; index++) {
     if (!files[index]?.name) continue;
     const name = files[index].name;
     const match = pattern.test(name);
-    if (match) return { ...files[index], index: index };
+    if (match) return { ...files[index], index };
   }
 
-  return null
+  return null;
 }
 
 /**
  * Match heuristic 1: SxxEyy pattern (e.g. S01E02)
  */
-function matchSeasonEpisode(files, season, episode) {
-  if (season === null || episode === null) {
+function matchSeasonEpisode(
+  files: TorrentFile[],
+  season: number | null | undefined,
+  episode: number | null | undefined
+): (TorrentFile & { index: number }) | null {
+  if (season === null || season === undefined || episode === null || episode === undefined) {
     return null;
   }
 
@@ -75,8 +103,11 @@ function matchSeasonEpisode(files, season, episode) {
 /**
  * Match heuristic 2: Absolute episode number pattern (e.g. - 05, E05, EP05, etc.)
  */
-function matchAbsoluteEpisode(files, absoluteEpisode) {
-  if (absoluteEpisode === null) return null;
+function matchAbsoluteEpisode(
+  files: TorrentFile[],
+  absoluteEpisode: number | null | undefined
+): (TorrentFile & { index: number }) | null {
+  if (absoluteEpisode === null || absoluteEpisode === undefined) return null;
 
   const pattern = new RegExp(
     `(^|[\\s_.-])(S01)?(EP|E)?0*${absoluteEpisode}[\\s_.-]`,
@@ -89,11 +120,11 @@ function matchAbsoluteEpisode(files, absoluteEpisode) {
 
 /**
  * Identify the requested episode file inside a torrent file list.
- *
- * @param {object} torrent
- * @param {object} info - info about the season, episode, etc
  */
-export function findEpisodeFile(torrent, info) {
+export function findEpisodeFile(
+  torrent: Partial<NekoTorrentItem> | null | undefined,
+  info: FitInfoResult | { season: { season: number }; episode: { season?: number; episode?: number; absolute?: number } }
+): (TorrentFile & { index: number }) | null {
   console.log('--- findEpisodeFile ---');
   console.log('Episode Info:', info);
   console.log('Torrent files:', torrent?.files);

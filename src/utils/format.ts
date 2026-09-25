@@ -1,4 +1,6 @@
-export function formatBytes(bytes) {
+import { NekoTorrentItem } from '../types.js';
+
+export function formatBytes(bytes: number | string | null | undefined): string {
   const value = Number(bytes);
 
   if (!Number.isFinite(value) || value < 0) {
@@ -18,7 +20,7 @@ export function formatBytes(bytes) {
   return `${(value / Math.pow(1024, index)).toFixed(2)} ${units[index]}`;
 }
 
-export function formatLanguages(torrent) {
+export function formatLanguages(torrent: Partial<NekoTorrentItem>): string {
   const audio = torrent.audio_lang || 'RAW';
   const fansub = torrent.fsub_lang || '';
   const sub = torrent.sub_lang || '';

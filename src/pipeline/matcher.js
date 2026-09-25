@@ -64,7 +64,7 @@ function matchSeasonEpisode(files, season, episode) {
   }
 
   const pattern = new RegExp(
-    `(^|[\s_.-])S0*${season}E0*${episode}[\s_.-]`,
+    `(^|[\\s_.-])S0*${season}E0*${episode}[\\s_.-]`,
     'i'
   );
   console.log('Regex (SxxEyy):', pattern);
@@ -79,7 +79,7 @@ function matchAbsoluteEpisode(files, absoluteEpisode) {
   if (absoluteEpisode === null) return null;
 
   const pattern = new RegExp(
-    `(^|[\s_.-])(S01)?(EP|E)?0*${absoluteEpisode}[\s_.-]`,
+    `(^|[\\s_.-])(S01)?(EP|E)?0*${absoluteEpisode}[\\s_.-]`,
     'i'
   );
   console.log('Regex (Absolute):', pattern);

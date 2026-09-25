@@ -10,7 +10,9 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
-    "test": "node --import tsx --test \"test/**/*.test.ts\""
+    "test": "node --import tsx --test \"test/**/*.test.ts\"",
+    "docker:build": "docker build -t nekobt-addon .",
+    "docker:run": "docker run -p 7000:7000 nekobt-addon"
   },
   "keywords": [],
   "author": "",

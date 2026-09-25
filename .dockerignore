@@ -1,0 +1,10 @@
+node_modules
+dist
+.git
+.agent
+.vscode
+test
+docs
+stream_examples
+*.md
+npm-debug.log*

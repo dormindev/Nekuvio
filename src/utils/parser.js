@@ -24,7 +24,7 @@ export function parseStremioId(type, id) {
     // Anime providers don't have a season component.
     provider = parts[0];
     externalId = parts[1];
-    season = null;
+    season = NaN;
     episode = Number(parts[2]);
     isAnimeProvider = true;
   } else {

@@ -5,8 +5,8 @@ import { formatBytes, formatLanguages } from '../utils/format.js';
 /**
  * Construct a Stremio stream object from a nekoBT torrent item.
  */
-export async function torrentToStream(torrent, info) {
-  const torrentInfo = await getTorrent(torrent.id);
+export async function torrentToStream(torrent, info, getTorrentFn = getTorrent) {
+  const torrentInfo = await getTorrentFn(torrent.id);
 
   if (!torrentInfo) return null;
 

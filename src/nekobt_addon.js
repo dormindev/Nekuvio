@@ -2,7 +2,7 @@ import express from 'express';
 import { parseStremioId } from './utils/parser.js';
 import { getNekoBTExternalId } from './api/kitsu.js';
 import { resolveMediaId, getMedia, searchTorrents } from './api/nekobt.js';
-import { findEpisode } from './pipeline/matcher.js';
+import { fitInfo } from './pipeline/matcher.js';
 import { torrentToStream } from './pipeline/streamBuilder.js';
 
 const app = express();
@@ -55,15 +55,13 @@ function emptyStreams(res) {
 /* -------------------------------------------------------------------------- */
 
 app.get('/stream/:type/:id.json', async (req, res) => {
-  const rawId = req.params.id;
-
-  console.log(`Stream request: ${req.params.type}/${rawId}`);
+  console.log(`Stream request: ${req.params.type}/${req.params.id}`);
 
   try {
-    const parsed = parseStremioId(rawId);
+    const parsed = parseStremioId(req.params.type, req.params.id);
 
     if (!parsed) {
-      console.warn('Could not parse Stremio ID:', rawId);
+      console.warn('Could not parse Stremio ID:', req.params.id);
       return emptyStreams(res);
     }
 
@@ -89,7 +87,7 @@ app.get('/stream/:type/:id.json', async (req, res) => {
     /* Path 1: Movie / series request without an episode                    */
     /* -------------------------------------------------------------------- */
 
-    if (!parsed.hasEpisode) {
+    if (parsed.isMovie) {
       /*
        * nekoBT's torrent search accepts external media IDs directly.
        *
@@ -125,9 +123,9 @@ app.get('/stream/:type/:id.json', async (req, res) => {
      * We need the local media ID because the media endpoint gives us the
      * canonical nekoBT episode IDs.
      */
-    const mediaId = await resolveMediaId(nekoExternalId);
+    const nekoId = await resolveMediaId(nekoExternalId);
 
-    if (!mediaId) {
+    if (!nekoId) {
       console.warn(
         'Could not resolve media ID:',
         nekoExternalId
@@ -136,61 +134,38 @@ app.get('/stream/:type/:id.json', async (req, res) => {
       return emptyStreams(res);
     }
 
-    console.log('Resolved media ID:', mediaId);
+    console.log('Resolved neko ID:', nekoId);
 
     /*
      * Get the complete episode list.
      */
-    const media = await getMedia(mediaId);
+    const media = await getMedia(nekoId.media_id);
 
     if (!media) {
       console.warn(
         'Could not retrieve media:',
-        mediaId
+        nekoId
       );
 
       return emptyStreams(res);
     }
 
-    /*
-     * Convert Stremio's SxxExx reference into nekoBT's episode ID.
-     */
-    const episode = findEpisode(
-      media,
-      parsed.season,
-      parsed.episode
-    );
+    const info = fitInfo(nekoId, media, parsed);
 
-    if (!episode) {
-      console.warn(
-        `Could not find nekoBT episode for S${parsed.season}E${parsed.episode}`,
-        {
-          mediaId,
-          availableEpisodes: media.episodes?.length || 0
-        }
-      );
-
-      return emptyStreams(res);
-    }
-
-    console.log('Resolved episode:', episode);
+    console.log('Resolved info:', info);
 
     /*
      * Finally search for torrents belonging to this exact episode.
      */
     const torrents = await searchTorrents({
-      mediaId,
-      episodeId: episode.id
+      mediaId: nekoId.media_id,
+      episodeId: info.episode.id
     });
 
     const streams = (
       await Promise.all(
         torrents.map(torrent =>
-          torrentToStream(
-            torrent,
-            parsed.season,
-            parsed.episode
-          )
+          torrentToStream(torrent, info)
         )
       )
     ).filter(Boolean);

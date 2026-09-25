@@ -116,7 +116,7 @@ export async function resolveMediaId(externalId) {
     return null;
   }
 
-  return result.data?.data?.media_id || null;
+  return result.data?.data || null;
 }
 
 /**

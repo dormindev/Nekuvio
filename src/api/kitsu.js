@@ -30,15 +30,8 @@ export async function resolveKitsuToExternal(kitsuId) {
       ? data.data
       : [];
 
-    const anilist = mappings.find(
-      mapping =>
-        mapping?.attributes?.externalSite === 'anilist' &&
-        mapping?.attributes?.externalId
-    );
 
-    if (anilist) {
-      return `anilist-${anilist.attributes.externalId}`;
-    }
+    console.log("MAL Mappings:", mappings);
 
     const mal = mappings.find(
       mapping =>

@@ -1,77 +1,101 @@
-/**
- * Find the nekoBT episode ID corresponding to Stremio's season/episode.
- *
- * Normal case:
- *   Stremio S01E07 -> nekoBT { season: 1, episode: 7, id: 12345 }
- *
- * We also check TVDB IDs when available because TVDB numbering is often
- * the most reliable bridge for externally sourced episode metadata.
- */
-export function findEpisode(media, season, episode) {
-  console.log(`find_episode: S${season} E${episode}`);
-  if (!media || !Array.isArray(media.episodes)) {
-    return null;
+function fitSeasonInfo(nekoId, media, request) {
+  const seasonInfo = media.anilist.entries.find(x => x.anilist_id == nekoId.anilist_id);
+  if (!seasonInfo) {
+    throw new Error(`Season info with ID ${nekoId.anilist_id} not found`);
   }
 
-  if (episode === null) {
-    return null;
-  }
+  if (!request.isMovie && !request.isAnimeProvider &&
+    seasonInfo.season != request.season
+  )
+    throw new Error(`Request season ${request.season} and anilist season ${seasonInfo.season} do not match`);
 
-  /*
-   * First attempt: exact season + episode.
-   * This handles the normal SxxExx case and specials (season 0).
-   */
-  const exact = media.episodes.find(ep => {
-    return (
-      Number(ep.season) === Number(season) &&
-      Number(ep.episode) === Number(episode)
-    );
-  });
-
-  if (exact) {
-    return exact;
-  }
-
-  /*
-   * If Stremio did not provide a season, try episode-only matching.
-   * This is intentionally only used when there is exactly one match,
-   * otherwise we don't want to guess.
-   */
-  if (season === null) {
-    const matches = media.episodes.filter(
-      ep => Number(ep.episode) === Number(episode)
-    );
-
-    if (matches.length === 1) {
-      return matches[0];
-    }
-  }
-
-  /*
-   * Some Stremio catalogs can represent absolute anime episode numbers.
-   * nekoBT's media episode objects may contain `absolute`, depending on
-   * the endpoint/data involved. If available, use it as a fallback.
-   */
-  if (Array.isArray(media.episodes)) {
-    const absoluteMatches = media.episodes.filter(
-      ep => Number(ep.absolute) === Number(episode)
-    );
-
-    if (absoluteMatches.length === 1) {
-      return absoluteMatches[0];
-    }
-  }
-
-  return null;
+  return seasonInfo;
 }
+
+function fitEpisodeInfo(media, request, seasonInfo) {
+  // convert episode number from request to nekoBT
+  let req_episode = (request.isMovie ? 1 : request.episode);
+  let episode = (req_episode - seasonInfo.dst_start) + seasonInfo.src_start;
+
+  console.log('media:', media);
+  console.log('media.episodes:', media?.episodes);
+
+  const episodeEntry = media.episodes.find(x =>
+    x.season == seasonInfo.season && x.episode == episode
+  );
+  if (!episodeEntry)
+    throw new Error(`Episode entry with season ${seasonInfo.season} and episode ${episode} not found`);
+
+  return episodeEntry;
+}
+
+export function fitInfo(nekoId, media, request) {
+  const seasonInfo = fitSeasonInfo(nekoId, media, request);
+  const episodeInfo = fitEpisodeInfo(media, request, seasonInfo);
+
+  return {
+    media_id: nekoId.media_id,
+    season: seasonInfo,
+    episode: episodeInfo
+  };
+}
+
 
 /**
  * Identify the requested episode file inside a torrent file list.
  */
-export function findEpisodeFile(torrent, season, episode) {
+function matchEpisode(files, pattern) {
+  for (let index = 0; index < files.length; index++) {
+    if (!files[index]?.name) continue;
+    const name = files[index].name;
+    const match = pattern.test(name);
+    if (match) return { ...files[index], index: index };
+  }
+
+  return null
+}
+
+/**
+ * Match heuristic 1: SxxEyy pattern (e.g. S01E02)
+ */
+function matchSeasonEpisode(files, season, episode) {
+  if (season === null || episode === null) {
+    return null;
+  }
+
+  const pattern = new RegExp(
+    `(^|[\s_.-])S0*${season}E0*${episode}[\s_.-]`,
+    'i'
+  );
+  console.log('Regex (SxxEyy):', pattern);
+
+  return matchEpisode(files, pattern);
+}
+
+/**
+ * Match heuristic 2: Absolute episode number pattern (e.g. - 05, E05, EP05, etc.)
+ */
+function matchAbsoluteEpisode(files, absoluteEpisode) {
+  if (absoluteEpisode === null) return null;
+
+  const pattern = new RegExp(
+    `(^|[\s_.-])(S01)?(EP|E)?0*${absoluteEpisode}[\s_.-]`,
+    'i'
+  );
+  console.log('Regex (Absolute):', pattern);
+
+  return matchEpisode(files, pattern);
+}
+
+/**
+ * Identify the requested episode file inside a torrent file list.
+ *
+ * @param {object} torrent
+ * @param {object} info - info about the season, episode, etc
+ */
+export function findEpisodeFile(torrent, info) {
   console.log('--- findEpisodeFile ---');
-  console.log('Season:', season);
-  console.log('Episode:', episode);
+  console.log('Episode Info:', info);
   console.log('Torrent files:', torrent?.files);
 
   if (!torrent?.files || !Array.isArray(torrent.files)) {
@@ -79,53 +103,18 @@ export function findEpisodeFile(torrent, season, episode) {
     return null;
   }
 
-  if (season === null || episode === null) {
-    console.log('Missing season or episode');
-    return null;
+  // Heuristic 1: Look for SxxEyy
+  const sxxEyyMatch = matchSeasonEpisode(torrent.files, info.season.season, info.episode.episode);
+  if (sxxEyyMatch) {
+    console.log('MATCH FOUND (SxxEyy):', sxxEyyMatch);
+    return sxxEyyMatch;
   }
 
-  const seasonNumber = Number(season);
-  const episodeNumber = Number(episode);
-
-  console.log('Looking for:', `S${seasonNumber}E${episodeNumber}`);
-
-  if (
-    !Number.isInteger(seasonNumber) ||
-    !Number.isInteger(episodeNumber)
-  ) {
-    return null;
-  }
-
-  const pattern = new RegExp(
-    `\\bS0*${seasonNumber}E0*${episodeNumber}\\b`
-  );
-
-  console.log('Regex:', pattern);
-
-  for (let index = 0; index < torrent.files.length; index++) {
-    const file = torrent.files[index];
-    const path = String(file?.path || file?.name || '');
-
-    const match = path.match(pattern);
-
-    console.log(
-      `File ${index}:`,
-      path,
-      '→ match:',
-      match
-    );
-
-    if (match) {
-      const result = {
-        index,
-        size: Number(file.length) || 0,
-        name: file.name || path
-      };
-
-      console.log('MATCH FOUND:', result);
-
-      return result;
-    }
+  // Heuristic 2: Look for absolute episode number
+  const absoluteMatch = matchAbsoluteEpisode(torrent.files, info.episode.absolute);
+  if (absoluteMatch) {
+    console.log('MATCH FOUND (Absolute):', absoluteMatch);
+    return absoluteMatch;
   }
 
   return null;

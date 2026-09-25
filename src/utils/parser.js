@@ -38,76 +38,60 @@ export function parseInteger(value) {
  *   episode: 7
  * }
  */
-export function parseStremioId(rawId) {
-  if (!rawId || typeof rawId !== 'string') {
-    return null;
-  }
+export function parseStremioId(type, id) {
+  const parts = id.split(':');
 
-  const parts = cleanId.split(':');
-
-  if (parts.length > 4) {
-    return null;
-  }
-
+  console.log('id parts:', parts);
 
   let provider;
   let externalId;
-  let season = null;
-  let episode = null;
+  let season;
+  let episode;
+  let isAnimeProvider = false;
+
+  const isMovie = type === 'movie';
 
   if (/^tt\d+$/.test(parts[0])) {
-    /*
-     * IMDb is special because Stremio commonly uses:
-     *
-     *   tt1234567:1:2
-     *
-     * rather than:
-     *
-     *   imdb:tt1234567:1:2
-     */
-    if (parts.length !== 1 && parts.length !== 3) return null;
     provider = 'imdb';
     externalId = parts[0];
-    season = parseInteger(parts[1]);
-    episode = parseInteger(parts[2]);
-  } else if (parts[0] === 'kitsu') {
-    // Kitsu doesn't have a season component.
-    if (parts.length !== 1 && parts.length !== 3) return null;
+    season = Number(parts[1]);
+    episode = Number(parts[2]);
+  } else if (['kitsu', 'mal', 'anilist'].includes(parts[0])) {
+    // Anime providers don't have a season component.
     provider = parts[0];
     externalId = parts[1];
     season = null;
-    episode = parseInteger(parts[2]);
+    episode = Number(parts[2]);
+    isAnimeProvider = true;
   } else {
-    // Everything else:
-    // anilist:12345:1:7
-    // mal:12345:1:7
-    // anidb:12345:1:7
-    // tmdb:12345:1:7
-    // tvdb:12345:1:7
-    if ((parts.length !== 1 && parts.length !== 4)
-      || !SUPPORTED_PROVIDERS.has(parts[0]))
-      return null;
     provider = parts[0];
     externalId = parts[1];
-    season = parseInteger(parts[2]);
-    episode = parseInteger(parts[3]);
+    season = Number(parts[2]);
+    episode = Number(parts[3]);
   }
 
-  if (!externalId) return null;
+  if (!externalId)
+    throw new Error("External ID is empty");
 
-  /*
-   * Do not require both season and episode.
-   * We only consider this an episode request when an episode number
-   * was actually supplied.
-   */
-  const hasEpisode = episode !== null;
+  if (!isMovie) {
+    if (isAnimeProvider) {
+      if (episode == NaN) {
+        throw new Error("Episode is not a number");
+      }
+    } else {
+      if (season == NaN || episode == NaN) {
+        throw new Error("Season or episode is not a number");
+      }
+    }
+  }
 
   return {
     provider,
     externalId,
     season,
     episode,
-    hasEpisode
+    isAnimeProvider,
+    isMovie
   };
 }
 

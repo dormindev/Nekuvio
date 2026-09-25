@@ -39,11 +39,11 @@ export function parseStremioId(type, id) {
 
   if (!isMovie) {
     if (isAnimeProvider) {
-      if (episode == NaN) {
+      if (Number.isNaN(episode)) {
         throw new Error("Episode is not a number");
       }
     } else {
-      if (season == NaN || episode == NaN) {
+      if (Number.isNaN(season) || Number.isNaN(episode)) {
         throw new Error("Season or episode is not a number");
       }
     }

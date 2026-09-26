@@ -1,6 +1,10 @@
 import { NekoTorrentItem } from '../types.js';
 
 export function formatBytes(bytes: number | string | null | undefined): string {
+  if (bytes === null || bytes === undefined || bytes === '') {
+    return 'N/A';
+  }
+
   const value = Number(bytes);
 
   if (!Number.isFinite(value) || value < 0) {
@@ -29,9 +33,8 @@ export function formatLanguages(torrent: Partial<NekoTorrentItem>): string {
     ...new Set(
       [audio, fansub, sub]
         .filter(Boolean)
-        .flatMap(value =>
-          String(value)
-            .split(',')
+        .flatMap(lang =>
+          lang.split(',')
             .map(v => v.trim())
             .filter(Boolean)
         )

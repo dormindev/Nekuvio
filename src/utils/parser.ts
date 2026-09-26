@@ -1,12 +1,10 @@
 import { StremioParsedRequest } from '../types.js';
 
-/**
- * Parse Stremio's ID.
- */
+const ANIME_PROVIDERS = new Set(['kitsu', 'mal', 'anilist']);
+
 export function parseStremioId(type: string, id: string): StremioParsedRequest {
   const parts = id.split(':');
-
-  console.log('id parts:', parts);
+  const isMovie = type === 'movie';
 
   let provider: string;
   let externalId: string;
@@ -14,15 +12,12 @@ export function parseStremioId(type: string, id: string): StremioParsedRequest {
   let episode: number;
   let isAnimeProvider = false;
 
-  const isMovie = type === 'movie';
-
   if (/^tt\d+$/.test(parts[0])) {
     provider = 'imdb';
     externalId = parts[0];
     season = Number(parts[1]);
     episode = Number(parts[2]);
-  } else if (['kitsu', 'mal', 'anilist'].includes(parts[0])) {
-    // Anime providers don't have a season component.
+  } else if (ANIME_PROVIDERS.has(parts[0])) {
     provider = parts[0];
     externalId = parts[1];
     season = NaN;

@@ -1,38 +1,27 @@
 import { getTorrent } from '../api/nekobt.js';
 import { findEpisodeFile } from './matcher.js';
 import { formatBytes, formatLanguages } from '../utils/format.js';
-import { FitInfoResult, NekoTorrentItem, StremioStream } from '../types.js';
+import { EpisodeFileInfo, NekoTorrentItem, StremioStream } from '../types.js';
+import { logger } from '../utils/logger.js';
 
-/**
- * Construct a Stremio stream object from a nekoBT torrent item.
- */
 export async function torrentToStream(
   torrent: NekoTorrentItem,
-  info: FitInfoResult | { season: { season: number }; episode: { season?: number; episode?: number; absolute?: number } },
+  info: EpisodeFileInfo,
   getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
 ): Promise<StremioStream | null> {
   const torrentInfo = await getTorrentFn(torrent.id);
 
   if (!torrentInfo) return null;
 
-  let fileIdx: number | null = null;
-  let fileSize = Number(torrentInfo.filesize) || 0;
-
-  console.log('Torrent:', torrent.id);
-  //console.log('Torrent files:', torrentInfo.files);
-
   const matchedFile = findEpisodeFile(torrentInfo, info);
 
   if (!matchedFile) {
-    console.warn(
-      `Could not find episode file in torrent ${torrent.id}`
-    );
+    logger.warn(`Could not find episode file in torrent ${torrent.id}`);
+    logger.warn("torrentInfo.files:", torrentInfo.files);
+
 
     return null;
   }
-
-  fileIdx = matchedFile.index;
-  fileSize = matchedFile.length;
 
   const languageText = formatLanguages(torrent);
 
@@ -49,12 +38,12 @@ export async function torrentToStream(
     description:
       `${matchedFile.name}\n` +
       `👥 S: ${seeders} | L: ${leechers} | ` +
-      `📄 File: ${formatBytes(fileSize)}` +
+      `📄 File: ${formatBytes(matchedFile.length)} ` +
       `💾 Torrent: ${formatBytes(torrent.filesize)}\n`,
 
     infoHash: torrent.infohash,
 
-    ...(fileIdx !== null ? { fileIdx } : {}),
+    fileIdx: matchedFile.index,
 
     behaviorHints: {
       configurable: false,

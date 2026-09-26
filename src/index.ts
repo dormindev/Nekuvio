@@ -5,6 +5,7 @@ import { resolveMediaId, getMedia, searchTorrents } from './api/nekobt.js';
 import { fitInfo } from './pipeline/matcher.js';
 import { torrentToStream } from './pipeline/streamBuilder.js';
 import { StremioParsedRequest, StremioStream } from './types.js';
+import { logger } from './utils/logger.js';
 
 const app = express();
 
@@ -52,21 +53,15 @@ function emptyStreams(res: Response) {
 }
 
 /**
- * Return the ID that should actually be sent to nekoBT.
+ * Kitsu IDs must be translated to MAL first since nekoBT doesn't support Kitsu natively.
  */
 async function getNekoBTExternalId(request: StremioParsedRequest): Promise<string> {
-  let provider: string;
-  let externalId: string;
-
   if (request.provider === 'kitsu') {
-    provider = 'mal';
-    externalId = await resolveKitsuToExternal(request.externalId);
-  } else {
-    provider = request.provider;
-    externalId = request.externalId;
+    const malId = await resolveKitsuToExternal(request.externalId);
+    return `mal-${malId}`;
   }
 
-  return `${provider}-${externalId}`;
+  return `${request.provider}-${request.externalId}`;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -75,13 +70,13 @@ async function getNekoBTExternalId(request: StremioParsedRequest): Promise<strin
 
 async function streamRequest(type: string, id: string): Promise<StremioStream[]> {
   const request = parseStremioId(type, id);
-  console.log('Parsed ID:', request);
+  logger.debug('Parsed ID:', request);
 
   const nekoExternalId = await getNekoBTExternalId(request);
-  console.log('nekoBT external ID:', nekoExternalId);
+  logger.debug('nekoBT external ID:', nekoExternalId);
 
   const nekoId = await resolveMediaId(nekoExternalId);
-  console.log('Resolved neko ID:', nekoId);
+  logger.debug('Resolved neko ID:', nekoId);
 
   if (!nekoId) {
     return [];
@@ -95,19 +90,19 @@ async function streamRequest(type: string, id: string): Promise<StremioStream[]>
     await Promise.all(torrents.map(torrent => torrentToStream(torrent, info)))
   ).filter((s): s is StremioStream => s !== null);
 
-  console.log('\nResult: ', { streams });
+  logger.debug('\nResult: ', { streams });
 
   return streams;
 }
 
 app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string }>, res: Response) => {
-  console.log(`Stream request: ${req.params.type}/${req.params.id}`);
+  logger.debug(`Stream request: ${req.params.type}/${req.params.id}`);
 
   try {
     const streams = await streamRequest(req.params.type, req.params.id);
     return res.json({ streams });
   } catch (error) {
-    console.error('Stream processing error:', error);
+    logger.error('Stream processing error:', error);
     return emptyStreams(res);
   }
 });
@@ -117,7 +112,7 @@ app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string
 /* -------------------------------------------------------------------------- */
 
 app.listen(PORT, () => {
-  console.log(
+  logger.info(
     `nekoBT Stremio addon listening on port ${PORT}`
   );
 });

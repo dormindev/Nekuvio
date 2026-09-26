@@ -88,6 +88,15 @@ export interface FitInfoResult {
   episode: NekoEpisodeEntry;
 }
 
+/**
+ * Minimal episode-matching shape used by findEpisodeFile / torrentToStream.
+ * FitInfoResult satisfies this structurally.
+ */
+export interface EpisodeFileInfo {
+  season: { season: number };
+  episode: { episode: number; absolute: number };
+}
+
 export interface StremioStream {
   url: string;
   name: string;

@@ -4,7 +4,7 @@ import { formatBytes, formatLanguages } from '../src/utils/format.js';
 
 describe('formatBytes', () => {
   it('returns N/A for invalid or negative values', () => {
-    assert.equal(formatBytes(null), '0 B'); // Number(null) is 0
+    assert.equal(formatBytes(null), 'N/A'); // Number(null) is 0
     assert.equal(formatBytes(undefined), 'N/A');
     assert.equal(formatBytes('not-a-number'), 'N/A');
     assert.equal(formatBytes(-100), 'N/A');

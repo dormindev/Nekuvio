@@ -4,6 +4,7 @@ import {
   NekoMediaResolveData,
   NekoTorrentItem
 } from '../types.js';
+import { logger } from '../utils/logger.js';
 
 export const NEKOBT_BASE_URL = 'https://nekobt.to/api/v1';
 
@@ -23,13 +24,7 @@ export async function nekoFetch(
     ...((options.headers as Record<string, string>) || {})
   };
 
-  console.log('\n========== nekoFetch ==========');
-  console.log('→ FETCH URL:', url.toString());
-  console.log('→ FETCH OPTIONS:', {
-    ...options,
-    headers
-  });
-  console.log('→ RETRY ENABLED:', retry);
+  logger.debug('nekoFetch:', url.toString());
 
   let response: Response;
 
@@ -39,11 +34,11 @@ export async function nekoFetch(
       headers
     });
   } catch (error) {
-    console.error('✗ FETCH ERROR:', error);
+    logger.error('nekoFetch error:', error);
     throw error;
   }
 
-  console.log('← FETCH STATUS:', response.status, response.statusText);
+  logger.debug('nekoFetch status:', response.status, response.statusText);
 
   /*
    * nekoBT documents two kinds of 429:
@@ -54,23 +49,19 @@ export async function nekoFetch(
    * in an empty Stremio result.
    */
   if (response.status === 429 && retry) {
-    console.warn('⚠️ Rate limited (429)');
+    logger.warn('Rate limited (429)');
 
     let waitSeconds = Number(response.headers.get('retry-after'));
-
-    console.log('→ Retry-After header:', waitSeconds);
 
     try {
       const cloned = response.clone();
       const data: any = await cloned.json();
 
-      console.log('→ 429 JSON:', data);
-
       if (Number.isFinite(Number(data?.retry_after))) {
         waitSeconds = Number(data.retry_after);
       }
     } catch {
-      console.log('→ 429 response is not JSON');
+      // 429 response is not JSON — use header value or default
     }
 
     if (!Number.isFinite(waitSeconds)) {
@@ -80,13 +71,11 @@ export async function nekoFetch(
     // Don't make the addon sit around for an unreasonable amount of time.
     waitSeconds = Math.min(Math.max(waitSeconds, 0.25), 10);
 
-    console.log(`→ Waiting ${waitSeconds}s before retry...`);
+    logger.info(`Retrying in ${waitSeconds}s...`);
 
     await new Promise(resolve =>
       setTimeout(resolve, waitSeconds * 1000)
     );
-
-    console.log('→ Retrying request...');
 
     return nekoFetch(url, options, false);
   }
@@ -95,12 +84,9 @@ export async function nekoFetch(
 
   try {
     data = await response.json();
-    //console.log('← PARSED JSON:', data);
   } catch {
-    console.error('✗ Non-JSON response');
+    logger.error('Non-JSON response from', url.toString());
   }
-
-  console.log('========== nekoFetch done ==========\n');
 
   return {
     response,
@@ -109,10 +95,7 @@ export async function nekoFetch(
 }
 
 /**
- * Resolve an external ID into nekoBT's internal media ID.
- *
- * Example:
- *   anilist-20594 -> s168
+ * Resolve an external ID (e.g. anilist-20594) into nekoBT's internal media ID (e.g. s168).
  */
 export async function resolveMediaId(externalId: string): Promise<NekoMediaResolveData | null> {
   const url = new URL(`${NEKOBT_BASE_URL}/media/resolve`);
@@ -121,7 +104,7 @@ export async function resolveMediaId(externalId: string): Promise<NekoMediaResol
   const result = await nekoFetch(url);
 
   if (!result.response.ok || result.data?.error) {
-    console.error(
+    logger.error(
       'nekoBT media resolve failed:',
       result.response.status,
       result.data?.message
@@ -134,11 +117,8 @@ export async function resolveMediaId(externalId: string): Promise<NekoMediaResol
 }
 
 /**
- * Fetch full media information.
- *
- * force=true is useful here because we're using the media endpoint to
- * discover the episode mapping. We don't want "no torrents" on a media
- * entry to prevent us from getting its episode list.
+ * force=true ensures we get the episode list even if no torrents
+ * are currently indexed for this media entry.
  */
 export async function getMedia(mediaId: string): Promise<NekoMediaData> {
   const url = new URL(
@@ -154,9 +134,6 @@ export async function getMedia(mediaId: string): Promise<NekoMediaData> {
   return result.data?.data || null;
 }
 
-/**
- * Search torrents by media ID and optional episode ID.
- */
 export async function searchTorrents(
   mediaId: string,
   episodeId: number | string | null
@@ -173,7 +150,7 @@ export async function searchTorrents(
   const result = await nekoFetch(url);
 
   if (!result.response.ok || result.data?.error) {
-    console.error(
+    logger.error(
       'nekoBT torrent search failed:',
       result.response.status,
       result.data?.message
@@ -187,9 +164,6 @@ export async function searchTorrents(
     : [];
 }
 
-/**
- * Get detailed torrent information by torrent ID.
- */
 export async function getTorrent(torrentId: string): Promise<NekoTorrentItem | null> {
   const url = new URL(
     `${NEKOBT_BASE_URL}/torrents/${encodeURIComponent(torrentId)}`
@@ -198,7 +172,7 @@ export async function getTorrent(torrentId: string): Promise<NekoTorrentItem | n
   const result = await nekoFetch(url);
 
   if (!result.response.ok || result.data?.error) {
-    console.error(
+    logger.error(
       'nekoBT torrent lookup failed:',
       result.response.status,
       result.data?.message

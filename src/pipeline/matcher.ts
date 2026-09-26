@@ -1,10 +1,10 @@
 import {
+  EpisodeFileInfo,
   FitInfoResult,
   NekoAnilistEntry,
   NekoEpisodeEntry,
   NekoMediaData,
   NekoMediaResolveData,
-  NekoTorrentItem,
   StremioParsedRequest,
   TorrentFile
 } from '../types.js';
@@ -33,12 +33,9 @@ function fitEpisodeInfo(
   request: StremioParsedRequest,
   seasonInfo: NekoAnilistEntry
 ): NekoEpisodeEntry {
-  // convert episode number from request to nekoBT
+  // Convert the request's episode number to nekoBT's numbering using the offset mapping.
   const req_episode = (request.isMovie ? 1 : request.episode);
   const episode = (req_episode - seasonInfo.dst_start) + seasonInfo.src_start;
-
-  //console.log('media:', media);
-  //console.log('media.episodes:', media?.episodes);
 
   const episodeEntry = media.episodes.find(x =>
     x.season == seasonInfo.season && x.episode == episode
@@ -65,88 +62,57 @@ export function fitInfo(
   };
 }
 
-/**
- * Identify the requested episode file inside a torrent file list.
- */
 function matchEpisode(files: TorrentFile[], pattern: RegExp): (TorrentFile & { index: number }) | null {
   for (let index = 0; index < files.length; index++) {
-    if (!files[index]?.name) continue;
-    const name = files[index].name;
-    const match = pattern.test(name);
-    if (match) return { ...files[index], index };
+    if (pattern.test(files[index].name)) {
+      return { ...files[index], index };
+    }
   }
 
   return null;
 }
 
-/**
- * Match heuristic 1: SxxEyy pattern (e.g. S01E02)
- */
+/** SxxEyy pattern (e.g. S01E02) */
 function matchSeasonEpisode(
   files: TorrentFile[],
-  season: number | null | undefined,
-  episode: number | null | undefined
+  season: number,
+  episode: number
 ): (TorrentFile & { index: number }) | null {
-  if (season === null || season === undefined || episode === null || episode === undefined) {
-    return null;
-  }
-
   const pattern = new RegExp(
     `(^|[\\s_.-])S0*${season}E0*${episode}[\\s_.-]`,
     'i'
   );
-  console.log('Regex (SxxEyy):', pattern);
 
   return matchEpisode(files, pattern);
 }
 
-/**
- * Match heuristic 2: Absolute episode number pattern (e.g. - 05, E05, EP05, etc.)
- */
+/** Absolute episode number pattern (e.g. - 05, E05, EP05) */
 function matchAbsoluteEpisode(
   files: TorrentFile[],
-  absoluteEpisode: number | null | undefined
+  absoluteEpisode: number
 ): (TorrentFile & { index: number }) | null {
-  if (absoluteEpisode === null || absoluteEpisode === undefined) return null;
-
   const pattern = new RegExp(
     `(^|[\\s_.-])(S01)?(EP|E)?0*${absoluteEpisode}[\\s_.-]`,
     'i'
   );
-  console.log('Regex (Absolute):', pattern);
 
   return matchEpisode(files, pattern);
 }
 
 /**
- * Identify the requested episode file inside a torrent file list.
+ * Identify the requested episode file inside a torrent's file list.
+ * Tries SxxEyy first, then falls back to absolute episode number.
  */
 export function findEpisodeFile(
-  torrent: Partial<NekoTorrentItem> | null | undefined,
-  info: FitInfoResult | { season: { season: number }; episode: { season?: number; episode?: number; absolute?: number } }
+  torrent: { files?: TorrentFile[] } | null,
+  info: EpisodeFileInfo
 ): (TorrentFile & { index: number }) | null {
-  console.log('--- findEpisodeFile ---');
-  console.log('Episode Info:', info);
-  console.log('Torrent files:', torrent?.files);
-
-  if (!torrent?.files || !Array.isArray(torrent.files)) {
-    console.log('No torrent files array');
+  if (!torrent?.files || torrent.files.length === 0) {
     return null;
   }
 
-  // Heuristic 1: Look for SxxEyy
-  const sxxEyyMatch = matchSeasonEpisode(torrent.files, info.season.season, info.episode.episode);
-  if (sxxEyyMatch) {
-    console.log('MATCH FOUND (SxxEyy):', sxxEyyMatch);
-    return sxxEyyMatch;
-  }
-
-  // Heuristic 2: Look for absolute episode number
-  const absoluteMatch = matchAbsoluteEpisode(torrent.files, info.episode.absolute);
-  if (absoluteMatch) {
-    console.log('MATCH FOUND (Absolute):', absoluteMatch);
-    return absoluteMatch;
-  }
-
-  return null;
+  return matchSeasonEpisode(torrent.files, info.season.season, info.episode.episode)
+    ?? matchAbsoluteEpisode(torrent.files, info.episode.absolute)
+    ?? null;
 }
+

@@ -62,7 +62,10 @@ export function fitInfo(
   };
 }
 
-function matchEpisode(files: TorrentFile[], pattern: RegExp): (TorrentFile & { index: number }) | null {
+function matchEpisode(
+  files: TorrentFile[],
+  pattern: RegExp
+): (TorrentFile & { index: number }) | null {
   for (let index = 0; index < files.length; index++) {
     if (pattern.test(files[index].name)) {
       return { ...files[index], index };
@@ -72,47 +75,72 @@ function matchEpisode(files: TorrentFile[], pattern: RegExp): (TorrentFile & { i
   return null;
 }
 
-/** SxxEyy pattern (e.g. S01E02) */
-function matchSeasonEpisode(
-  files: TorrentFile[],
-  season: number,
-  episode: number
-): (TorrentFile & { index: number }) | null {
-  const pattern = new RegExp(
-    `(^|[\\s_.-])S0*${season}E0*${episode}[\\s_.-]`,
-    'i'
-  );
-
-  return matchEpisode(files, pattern);
-}
-
-/** Absolute episode number pattern (e.g. - 05, E05, EP05) */
-function matchAbsoluteEpisode(
-  files: TorrentFile[],
-  absoluteEpisode: number
-): (TorrentFile & { index: number }) | null {
-  const pattern = new RegExp(
-    `(^|[\\s_.-])(S01)?(EP|E)?0*${absoluteEpisode}[\\s_.-]`,
-    'i'
-  );
-
-  return matchEpisode(files, pattern);
-}
-
-/**
- * Identify the requested episode file inside a torrent's file list.
- * Tries SxxEyy first, then falls back to absolute episode number.
- */
 export function findEpisodeFile(
-  torrent: { files?: TorrentFile[] } | null,
+  torrent: { files: TorrentFile[] },
   info: EpisodeFileInfo
 ): (TorrentFile & { index: number }) | null {
-  if (!torrent?.files || torrent.files.length === 0) {
+  if (torrent.files.length === 0) {
     return null;
   }
 
-  return matchSeasonEpisode(torrent.files, info.season.season, info.episode.episode)
-    ?? matchAbsoluteEpisode(torrent.files, info.episode.absolute)
-    ?? null;
+  const files = torrent.files;
+  const season = info.season.season;
+  const episode = info.episode.episode;
+  const absolute = info.episode.absolute;
+
+
+  const SEP = `[\\s_.-]`; // Separator
+  const EP_PRE = `(EP?)`; // Episode Prefix
+  const EP_NUM = `(0*${episode}(?:v\\d+)?)`; // Episode Number (with optional version)
+
+  /** SxxEyy */
+  function matchSeasonEpisode(): (TorrentFile & { index: number }) | null {
+    const pattern = new RegExp(
+      `(^|${SEP})` +
+      `S0*${season}${EP_PRE}${EP_NUM}` +
+      `${SEP}`,
+      'i'
+    );
+
+    return matchEpisode(files, pattern);
+  }
+
+  /** S4 - 23 ; 4th Season - 23 ; etc */
+  function matchSeparatedSeasonEpisode(): (TorrentFile & { index: number }) | null {
+    const seasonParts =
+      `(` +
+      `S0*${season}` +
+      `|Season${SEP}+0*${season}` +
+      `|0*${season}(?:st|nd|rd|th)${SEP}+Season` +
+      `)`;
+
+    const pattern = new RegExp(
+      `(^|${SEP})` +
+      `${seasonParts}${SEP}+${EP_PRE}?${EP_NUM}` +
+      `${SEP}`,
+      'i'
+    );
+
+    return matchEpisode(files, pattern);
+  }
+
+  /** Absolute episode */
+  function matchAbsoluteEpisode(): (TorrentFile & { index: number }) | null {
+    const pattern = new RegExp(
+      `(^|${SEP})` +
+      `(S01)?${EP_PRE}?0*${absolute}` +
+      `${SEP}`,
+      'i'
+    );
+
+    return matchEpisode(files, pattern);
+  }
+
+  return (
+    matchSeasonEpisode() ??
+    matchSeparatedSeasonEpisode() ??
+    matchAbsoluteEpisode() ??
+    null
+  );
 }
 

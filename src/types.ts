@@ -69,16 +69,16 @@ export interface TorrentFile {
 
 export interface NekoTorrentItem {
   id: string;
-  title?: string;
+  title: string;
   magnet: string;
   infohash: string;
   filesize: number;
-  seeders?: number;
-  leechers?: number;
-  audio_lang?: string;
-  fsub_lang?: string;
-  sub_lang?: string;
-  files?: TorrentFile[];
+  seeders: number;
+  leechers: number;
+  audio_lang: string;
+  fsub_lang: string;
+  sub_lang: string;
+  files: TorrentFile[];
   [key: string]: any;
 }
 

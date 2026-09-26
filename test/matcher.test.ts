@@ -230,9 +230,7 @@ describe('findEpisodeFile', () => {
     assert.equal(match.index, 0);
   });
 
-  it('returns null if torrent files array is missing or empty', () => {
-    assert.equal(findEpisodeFile(null, info), null);
-    assert.equal(findEpisodeFile({}, info), null);
+  it('returns null if torrent files array is empty', () => {
     assert.equal(findEpisodeFile({ files: [] }, info), null);
   });
 

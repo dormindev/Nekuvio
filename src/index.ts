@@ -84,13 +84,14 @@ async function streamRequest(type: string, id: string): Promise<StremioStream[]>
 
   const media = await getMedia(nekoId.media_id);
   const info = fitInfo(nekoId, media, request);
-  const torrents = await searchTorrents(nekoId.media_id, info.episode.id);
+  const torrents = await searchTorrents(nekoId.media_id, info.episode?.id ?? null);
 
+  logger.debug('#torrents: ', torrents.length);
   const streams = (
-    await Promise.all(torrents.map(torrent => torrentToStream(torrent, info)))
+    await Promise.all(torrents.map(torrent => torrentToStream(torrent, request, info)))
   ).filter((s): s is StremioStream => s !== null);
 
-  logger.debug('\nResult: ', { streams });
+  //logger.debug('\nResult: ', { streams });
 
   return streams;
 }

@@ -1,25 +1,26 @@
 import { getTorrent } from '../api/nekobt.js';
-import { findEpisodeFile } from './matcher.js';
+import { findEpisodeFile, findMovieFile } from './matcher.js';
 import { formatBytes, formatLanguages } from '../utils/format.js';
-import { EpisodeFileInfo, NekoTorrentItem, StremioStream } from '../types.js';
+import { FitInfoResult, NekoTorrentItem, StremioParsedRequest, StremioStream } from '../types.js';
 import { logger } from '../utils/logger.js';
 
 export async function torrentToStream(
   torrent: NekoTorrentItem,
-  info: EpisodeFileInfo,
+  request: StremioParsedRequest,
+  info: FitInfoResult,
   getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
 ): Promise<StremioStream | null> {
   const torrentInfo = await getTorrentFn(torrent.id);
 
   if (!torrentInfo) return null;
 
-  const matchedFile = findEpisodeFile(torrentInfo, info);
+  const matchedFile = request.isMovie
+    ? findMovieFile(torrentInfo, info)
+    : findEpisodeFile(torrentInfo, info);
 
   if (!matchedFile) {
     logger.warn(`Could not find episode file in torrent ${torrent.id}`);
     logger.warn("torrentInfo.files:", torrentInfo.files);
-
-
     return null;
   }
 

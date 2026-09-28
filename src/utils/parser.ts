@@ -8,26 +8,31 @@ export function parseStremioId(type: string, id: string): StremioParsedRequest {
 
   let provider: string;
   let externalId: string;
-  let season: number;
-  let episode: number;
+  let season: number | null;
+  let episode: number | null;
   let isAnimeProvider = false;
+
+  const toNumber = (v?: string) => {
+    const n = Number(v);
+    return isNaN(n) ? null : n;
+  };
 
   if (/^tt\d+$/.test(parts[0])) {
     provider = 'imdb';
     externalId = parts[0];
-    season = Number(parts[1]);
-    episode = Number(parts[2]);
+    season = toNumber(parts[1]);
+    episode = toNumber(parts[2]);
   } else if (ANIME_PROVIDERS.has(parts[0])) {
     provider = parts[0];
     externalId = parts[1];
-    season = NaN;
-    episode = Number(parts[2]);
+    season = null;
+    episode = toNumber(parts[2]);
     isAnimeProvider = true;
   } else {
     provider = parts[0];
     externalId = parts[1];
-    season = Number(parts[2]);
-    episode = Number(parts[3]);
+    season = toNumber(parts[2]);
+    episode = toNumber(parts[3]);
   }
 
   if (!externalId) {
@@ -36,12 +41,12 @@ export function parseStremioId(type: string, id: string): StremioParsedRequest {
 
   if (!isMovie) {
     if (isAnimeProvider) {
-      if (Number.isNaN(episode)) {
-        throw new Error('Episode is not a number');
+      if (episode == null) {
+        throw new Error(`Episode is not a number`);
       }
     } else {
-      if (Number.isNaN(season) || Number.isNaN(episode)) {
-        throw new Error('Season or episode is not a number');
+      if (season == null || episode == null) {
+        throw new Error(`Season or episode is not a number`);
       }
     }
   }

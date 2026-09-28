@@ -113,7 +113,12 @@ export async function resolveMediaId(externalId: string): Promise<NekoMediaResol
     return null;
   }
 
-  return result.data?.data || null;
+  if (!result.data)
+    return null;
+
+  const isMovie = result.data.data.media_id.startsWith('m');
+
+  return { ...result.data.data, isMovie };
 }
 
 /**
@@ -143,9 +148,8 @@ export async function searchTorrents(
   url.searchParams.set('media_id', mediaId);
   url.searchParams.set('limit', '10');
 
-  if (episodeId !== null) {
+  if (episodeId !== null)
     url.searchParams.set('episode_ids', String(episodeId));
-  }
 
   const result = await nekoFetch(url);
 

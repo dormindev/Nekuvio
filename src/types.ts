@@ -1,8 +1,8 @@
 export interface StremioParsedRequest {
   provider: string;
   externalId: string;
-  season: number;
-  episode: number;
+  season: number | null;
+  episode: number | null;
   isAnimeProvider: boolean;
   isMovie: boolean;
 }
@@ -26,6 +26,7 @@ export interface NekoMediaResolveData {
   media_id: string;
   anilist_id?: number;
   mal_id?: number;
+  isMovie: Boolean;
   [key: string]: any;
 }
 
@@ -84,8 +85,8 @@ export interface NekoTorrentItem {
 
 export interface FitInfoResult {
   media_id: string;
-  season: NekoAnilistEntry;
-  episode: NekoEpisodeEntry;
+  season: NekoAnilistEntry | null;
+  episode: NekoEpisodeEntry | null;
 }
 
 /**

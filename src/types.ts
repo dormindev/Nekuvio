@@ -68,6 +68,17 @@ export interface TorrentFile {
   [key: string]: any;
 }
 
+export type IndexedTorrentFile =
+  TorrentFile & { index: number; };
+
+export interface TorrentGroup {
+  id: number;
+  name: string;
+  display_name: string;
+  display_tag: string;
+  [key: string]: any;
+}
+
 export interface NekoTorrentItem {
   id: string;
   title: string;
@@ -80,19 +91,17 @@ export interface NekoTorrentItem {
   fsub_lang: string;
   sub_lang: string;
   files: TorrentFile[];
+  groups: TorrentGroup[];
   [key: string]: any;
 }
 
 export interface FitInfoResult {
   media_id: string;
+  media: NekoMediaData;
   season: NekoAnilistEntry | null;
   episode: NekoEpisodeEntry | null;
 }
 
-/**
- * Minimal episode-matching shape used by findEpisodeFile / torrentToStream.
- * FitInfoResult satisfies this structurally.
- */
 export interface EpisodeFileInfo {
   season: { season: number };
   episode: { episode: number; absolute: number };
@@ -100,14 +109,13 @@ export interface EpisodeFileInfo {
 
 export interface StremioStream {
   url: string;
-  name: string;
-  title: string;
-  description: string;
+  fileIdx: number;
   infoHash: string;
-  fileIdx?: number;
-  behaviorHints?: {
-    configurable?: boolean;
-    notResponseVideo?: boolean;
-    [key: string]: any;
+  name: string;
+  description: string;
+  behaviorHints: {
+    bingeGroup: string
   };
 }
+
+export type BitrateUnit = 'Mbps' | 'MB/s' | 'Both';

@@ -6,7 +6,8 @@ import {
   NekoMediaData,
   NekoMediaResolveData,
   StremioParsedRequest,
-  TorrentFile
+  TorrentFile,
+  IndexedTorrentFile
 } from '../types.js';
 import { logger } from '../utils/logger.js';
 
@@ -115,6 +116,7 @@ export function fitInfo(
 
   return {
     media_id: nekoId.media_id,
+    media: media,
     season: seasonInfo,
     episode: episodeInfo
   };
@@ -139,7 +141,7 @@ function matchEpisode(
 export function findMovieFile(
   torrent: { files: TorrentFile[] },
   info: FitInfoResult
-): (TorrentFile & { index: number }) | null {
+): IndexedTorrentFile | null {
   if (torrent.files.length === 0) return null;
 
   const index = torrent.files.reduce(
@@ -154,7 +156,7 @@ export function findMovieFile(
 export function findEpisodeFile(
   torrent: { files: TorrentFile[] },
   info: FitInfoResult
-): (TorrentFile & { index: number }) | null {
+): IndexedTorrentFile | null {
   if (torrent.files.length === 0) {
     return null;
   }

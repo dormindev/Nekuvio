@@ -1,8 +1,28 @@
 import { getTorrent } from '../api/nekobt.js';
 import { findEpisodeFile, findMovieFile } from './matcher.js';
-import { formatBytes, formatLanguages } from '../utils/format.js';
-import { FitInfoResult, NekoTorrentItem, StremioParsedRequest, StremioStream } from '../types.js';
+import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages } from '../utils/format.js';
+import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, StremioParsedRequest, StremioStream } from '../types.js';
 import { logger } from '../utils/logger.js';
+
+
+
+
+function optional(
+  value: unknown,
+  template: string,
+  defaultValue?: unknown,
+): string {
+  const resolvedValue =
+    value === undefined || value === null || value === ''
+      ? defaultValue
+      : value;
+
+  if (resolvedValue === undefined || resolvedValue === null || resolvedValue === '') {
+    return '';
+  }
+
+  return template.replace('{}', String(resolvedValue));
+}
 
 export async function torrentToStream(
   torrent: NekoTorrentItem,
@@ -11,7 +31,6 @@ export async function torrentToStream(
   getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
 ): Promise<StremioStream | null> {
   const torrentInfo = await getTorrentFn(torrent.id);
-
   if (!torrentInfo) return null;
 
   const matchedFile = request.isMovie
@@ -19,36 +38,74 @@ export async function torrentToStream(
     : findEpisodeFile(torrentInfo, info);
 
   if (!matchedFile) {
-    logger.warn(`Could not find episode file in torrent ${torrent.id}`);
+    logger.warn(`Could not find episode file in torrent ${torrentInfo.id}`);
     logger.warn("torrentInfo.files:", torrentInfo.files);
     return null;
   }
 
-  const languageText = formatLanguages(torrent);
+  const languageText = formatLanguages(torrentInfo);
 
-  const seeders = torrent.seeders ?? 0;
-  const leechers = torrent.leechers ?? 0;
+  logger.debug(`${torrent.id} magnet:`, torrentInfo.magnet);
 
   return {
-    url: torrent.magnet,
-    name: `nekoBT\n[${languageText}]`,
-
-    title:
-      `${torrent.title || 'nekoBT torrent'}\n`,
-
-    description:
-      `${matchedFile.name}\n` +
-      `👥 S: ${seeders} | L: ${leechers} | ` +
-      `📄 File: ${formatBytes(matchedFile.length)} ` +
-      `💾 Torrent: ${formatBytes(torrent.filesize)}\n`,
-
-    infoHash: torrent.infohash,
-
+    url: torrentInfo.magnet,
+    infoHash: torrentInfo.infohash,
     fileIdx: matchedFile.index,
 
+    name: buildName(matchedFile, torrentInfo, request, info),
+    description: buildDescription(matchedFile, torrentInfo, request, info),
+
     behaviorHints: {
-      configurable: false,
-      notResponseVideo: false
+      bingeGroup: buildBingeGroup(matchedFile, torrentInfo, request, info)
     }
   };
 }
+
+
+function buildName(
+  file: IndexedTorrentFile,
+  torrent: NekoTorrentItem,
+  request: StremioParsedRequest,
+  info: FitInfoResult,
+): string {
+  return (
+    `NekoBT | ` +
+    optional(torrent.groups[0]?.display_name, '[{}]')
+  );
+}
+
+function buildDescription(
+  file: IndexedTorrentFile,
+  torrent: NekoTorrentItem,
+  request: StremioParsedRequest,
+  info: FitInfoResult
+): string {
+  const duration = info.episode?.runtime ?? info.season?.duration ?? info.media?.runtime ?? null;
+
+  return (
+    `🟢↑ ${torrent.seeders}    🔴↓ ${torrent.leechers}` +
+    `\n` +
+    optional(formatLanguageFlags(torrent.audio_lang), '\n🔊     {}') +
+    optional(formatLanguageFlags(torrent.fsub_lang), '\n💬✨ {}') +
+    optional(formatLanguageFlags(torrent.sub_lang), '\n💬     {}') +
+    '\n' +
+    `\n🎬 ${optional(formatBytes(file.length), '{}', '?? MB')}` +
+    optional(formatAverageBitrate(file.length, duration), '  ·  {}') +
+    `\n${file.name}` +
+    `\n` +
+    `\n📦 ${optional(formatBytes(torrent.filesize), '{}', '?? GB')}` +
+    `\n${torrent.title}`
+  );
+}
+
+
+function buildBingeGroup(
+  file: IndexedTorrentFile,
+  torrent: NekoTorrentItem,
+  request: StremioParsedRequest,
+  info: FitInfoResult
+): string {
+
+  return '';
+}
+

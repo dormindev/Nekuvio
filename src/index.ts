@@ -24,9 +24,9 @@ app.use((req, res, next) => {
 const MANIFEST = {
   id: 'org.nekobt.nuvio.addon',
   version: '1.2.0',
-  name: 'nekoBT Multi-Provider',
+  name: 'nekoBT',
   description:
-    'nekoBT streamer supporting AniList, MAL, AniDB, Kitsu, IMDb, TMDB, and TVDB',
+    'nekoBT streamer',
   resources: ['stream'],
   types: ['anime', 'series', 'movie'],
   idPrefixes: [

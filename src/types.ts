@@ -90,6 +90,13 @@ export interface NekoTorrentItem {
   audio_lang: string;
   fsub_lang: string;
   sub_lang: string;
+  level: number;
+  otl: boolean;
+  mtl: boolean;
+  hardsub: boolean;
+  video_type: number;
+  video_codec: number;
+  batch: boolean;
   files: TorrentFile[];
   groups: TorrentGroup[];
   [key: string]: any;

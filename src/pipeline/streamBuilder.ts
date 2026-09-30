@@ -3,6 +3,7 @@ import { findEpisodeFile, findMovieFile } from './matcher.js';
 import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages } from '../utils/format.js';
 import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, StremioParsedRequest, StremioStream } from '../types.js';
 import { logger } from '../utils/logger.js';
+import { encodeNekobtMetadata, NekobtMetadata } from '../generated/nekobt-metadata.js';
 
 
 
@@ -70,7 +71,16 @@ function buildName(
 ): string {
   return (
     `NekoBT | ` +
-    optional(torrent.groups[0]?.display_name, '[{}]')
+    optional(torrent.groups[0]?.display_name, '[{}]') +
+    encodeNekobtMetadata({
+      subLevel: torrent.level,
+      mtl: torrent.mtl,
+      otl: torrent.otl,
+      hardsubs: torrent.hardsubs,
+      videoType: torrent.video_type,
+      videoCodec: torrent.video_codec,
+      batch: torrent.batch
+    } as NekobtMetadata)
   );
 }
 

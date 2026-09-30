@@ -116,6 +116,6 @@ function buildBingeGroup(
   info: FitInfoResult
 ): string {
 
-  return '';
+  return `Nekuvio-${torrent.infohash}`;
 }
 

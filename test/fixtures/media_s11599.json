@@ -1,0 +1,113 @@
+{
+  "id": "s11599",
+  "title": "Tsukimonogatari",
+  "genres": [
+    "Animation",
+    "Anime"
+  ],
+  "overview": "One day, Araragi Koyomi suddenly realize that he is no longer reflected in the mirror - one characteristic of vampire. That is because he used vampire power too often and now his body is slowly turned into a vampire himself. Koyomi decided to ask Kagenui Yozoru and Ononoki Yotsugi, specialists about immortal oddities.",
+  "status": "ended",
+  "banner_url": "https://artworks.thetvdb.com/banners/v4/series/460809/posters/67c96aa8b76a2.jpg",
+  "runtime": 24,
+  "tvdbId": 460809,
+  "tmdbId": 295384,
+  "imdbId": "tt4213580",
+  "year": 2014,
+  "alternate_titles": [],
+  "anilist": null,
+  "notes": null,
+  "stats": {
+    "uploads": 1,
+    "seeders": "2",
+    "leechers": "0",
+    "downloads": "10"
+  },
+  "series": null,
+  "episodes": [
+    {
+      "id": 524767,
+      "title": "Yotsugi Doll, Part 1",
+      "season": 1,
+      "episode": 1,
+      "absolute": 1,
+      "overview": "Koyomi finds that he is not reflected in the mirror while he takes a shower.",
+      "runtime": 24,
+      "airDateUtc": "2014-12-31T05:00:00Z",
+      "tvdbId": 10992630
+    },
+    {
+      "id": 524768,
+      "title": "Yotsugi Doll, Part 2",
+      "season": 1,
+      "episode": 2,
+      "absolute": 2,
+      "overview": "Koyomi and Shinobu decide that they will go to Izuko Gaen for advice about his change. Then he has just received an email, that says Izuko has already sent Yotsugi to them to solve the problem. He leaves his sisters at Suruga just in case. The night of February 13th, Koyomi and Shinobu meet Yozuru and Yotsugi again.",
+      "runtime": 24,
+      "airDateUtc": "2015-01-01T05:00:00Z",
+      "tvdbId": 10992632
+    },
+    {
+      "id": 524769,
+      "title": "Yotsugi Doll, Part 3",
+      "season": 1,
+      "episode": 3,
+      "absolute": 3,
+      "overview": "Yozuru tells Koyomi that his body and soul have turned into a true vampire sooner than expected, because he has depended too much on the vampire power to solve problems until now. Yozuru forbids him to use his power. Then, they get a bad news that Suruga and Koyomi's sisters were kidnapped by a oddity specialist Tadatsuru Teori. He leave a message that says \"Kita-shirahebi shrine\".",
+      "runtime": 24,
+      "airDateUtc": "2015-01-02T05:00:00Z",
+      "tvdbId": 10992635
+    },
+    {
+      "id": 524770,
+      "title": "Yotsugi Doll, Part 4",
+      "season": 1,
+      "episode": 4,
+      "absolute": 4,
+      "overview": "Koyomi heads to Kita-shirahebi shrine with Shinobu and Yotsugi. They come across Ougi on the way to. After that, when Koyomi meets Tadatsuru, Tadatsuru tells him that we just act our given role. And then, he says \"Find Meme Oshino\".",
+      "runtime": 24,
+      "airDateUtc": "2015-01-03T05:00:00Z",
+      "tvdbId": 10992637
+    }
+  ],
+  "groups": [
+    {
+      "id": "13685989642558",
+      "name": "orion fansub",
+      "display_name": "Orion Fansub",
+      "tag": "orion",
+      "display_tag": "Orion",
+      "open": false,
+      "tagline": "",
+      "pfp_hash": "e53dc6ac8b8a6611f1ab67273c9e57ad0c4050efe6086ee7e77496d1b57e12fb",
+      "episodes": {
+        "524767": {
+          "level": 3,
+          "video_type": 13,
+          "mtl": false
+        },
+        "524768": {
+          "level": 3,
+          "video_type": 13,
+          "mtl": false
+        },
+        "524769": {
+          "level": 3,
+          "video_type": 13,
+          "mtl": false
+        },
+        "524770": {
+          "level": 3,
+          "video_type": 13,
+          "mtl": false
+        }
+      },
+      "max_level": 3,
+      "langs": {
+        "fsub": [
+          "pt-br"
+        ],
+        "sub": []
+      }
+    }
+  ]
+}

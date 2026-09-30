@@ -1,0 +1,536 @@
+{
+  "id": "m145",
+  "title": "A Silent Voice",
+  "year": 2016,
+  "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+  ],
+  "overview": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n\n(Source: Eleven Arts)",
+  "status": "ended",
+  "banner_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg",
+  "runtime": 130,
+  "tmdbId": 378064,
+  "imdbId": "tt5323662",
+  "alternate_titles": [
+    "The Shape of Voice",
+    "聲之形",
+    "Eiga Koe no Katachi",
+    "声之形",
+    "Koe no Katachi",
+    "Uma Voz Silenciosa",
+    "A Silent Voice",
+    "聲の形",
+    "Una Voz Silenciosa",
+    "A Voz do Silêncio: Koe no Katachi",
+    "รักไร้เสียง",
+    "صدای خاموش"
+  ],
+  "anilist": {
+    "display_id": 20954,
+    "primary": {
+      "id": 20954,
+      "id_mal": 28851,
+      "title": {
+        "romaji": "Koe no Katachi",
+        "english": "A Silent Voice",
+        "native": "聲の形",
+        "synonyms": [
+          "The Shape of Voice",
+          "A Voz do Silêncio",
+          "A Forma da Voz",
+          "La Forma della Voce",
+          "צורתו של קול",
+          "声之形",
+          "الحزن الصامت",
+          "Una voz silenciosa",
+          "La Forme de la voix",
+          "Форма голоса",
+          "Форма голосу",
+          "Tylus balsas",
+          "Balss forma",
+          "Дауыс пішіні",
+          "Sakit səs",
+          "รักไร้เสียง",
+          "Dáng hình thanh âm"
+        ]
+      },
+      "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n<br><br>\n(Source: Eleven Arts)",
+      "format": "MOVIE",
+      "status": "FINISHED",
+      "episodes": 1,
+      "duration": 130,
+      "season": "SUMMER",
+      "season_year": 2016,
+      "start_date": "2016-09-17",
+      "end_date": "2016-09-17",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg",
+      "cover_color": "#5dbbe4",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Slice of Life"
+      ],
+      "studios": [
+        {
+          "id": 2,
+          "name": "Kyoto Animation"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1219,
+          "name": "Disability",
+          "rank": 96,
+          "category": "Cast-Traits"
+        },
+        {
+          "id": 171,
+          "name": "Bullying",
+          "rank": 95,
+          "category": "Theme-Drama"
+        },
+        {
+          "id": 311,
+          "name": "Rehabilitation",
+          "rank": 93,
+          "category": "Theme-Drama"
+        },
+        {
+          "id": 516,
+          "name": "Language Barrier",
+          "rank": 91,
+          "category": "Theme-Other"
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "rank": 87,
+          "category": "Theme-Drama"
+        },
+        {
+          "id": 1046,
+          "name": "Suicide",
+          "rank": 83,
+          "category": "Theme-Drama"
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "rank": 78,
+          "category": "Cast-Main Cast"
+        },
+        {
+          "id": 85,
+          "name": "Tragedy",
+          "rank": 76,
+          "category": "Theme-Drama"
+        },
+        {
+          "id": 1228,
+          "name": "Primarily Teen Cast",
+          "rank": 76,
+          "category": "Cast-Main Cast"
+        },
+        {
+          "id": 46,
+          "name": "School",
+          "rank": 72,
+          "category": "Setting-Scene"
+        },
+        {
+          "id": 153,
+          "name": "Time Skip",
+          "rank": 72,
+          "category": "Setting-Time"
+        },
+        {
+          "id": 215,
+          "name": "POV",
+          "rank": 68,
+          "category": "Technical"
+        },
+        {
+          "id": 1045,
+          "name": "Heterosexual",
+          "rank": 67,
+          "category": "Theme-Romance"
+        },
+        {
+          "id": 98,
+          "name": "Female Protagonist",
+          "rank": 65,
+          "category": "Cast-Main Cast"
+        },
+        {
+          "id": 195,
+          "name": "Photography",
+          "rank": 60,
+          "category": "Theme-Arts"
+        },
+        {
+          "id": 391,
+          "name": "Philosophy",
+          "rank": 53,
+          "category": "Theme-Other"
+        },
+        {
+          "id": 595,
+          "name": "Urban",
+          "rank": 47,
+          "category": "Setting-Scene"
+        },
+        {
+          "id": 1539,
+          "name": "Unrequited Love",
+          "rank": 46,
+          "category": "Theme-Romance"
+        }
+      ],
+      "relations": [
+        {
+          "id": 85135,
+          "type": "MANGA",
+          "title": {
+            "native": "聲の形",
+            "romaji": "Koe no Katachi",
+            "english": "A Silent Voice",
+            "synonyms": []
+          },
+          "format": "MANGA",
+          "site_url": "https://anilist.co/manga/85135",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85135-11OOnyaqV71k.png",
+          "relation_type": "ADAPTATION"
+        },
+        {
+          "id": 107764,
+          "type": "ANIME",
+          "title": {
+            "native": "聲の形スペシャル",
+            "romaji": "Koe no Katachi Specials",
+            "english": "A Silent Voice Specials",
+            "synonyms": []
+          },
+          "format": "MUSIC",
+          "site_url": "https://anilist.co/anime/107764",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107764-AOA6o9Pukejl.jpg",
+          "relation_type": "OTHER"
+        }
+      ],
+      "external_links": [
+        {
+          "url": "http://koenokatachi-movie.com/",
+          "site": "Official Site",
+          "type": "INFO"
+        },
+        {
+          "url": "https://twitter.com/koenokatachi_M",
+          "site": "Twitter",
+          "type": "SOCIAL"
+        },
+        {
+          "url": "https://www.netflix.com/title/80223226",
+          "site": "Netflix",
+          "type": "STREAMING"
+        }
+      ],
+      "average_score": 88,
+      "popularity": 714281,
+      "favourites": 60464,
+      "country_of_origin": "JP",
+      "is_adult": false,
+      "site_url": "https://anilist.co/anime/20954",
+      "next_airing_episode": null,
+      "next_airing_at": null
+    },
+    "entries": [
+      {
+        "season": null,
+        "src_start": 1,
+        "src_end": 1,
+        "dst_start": 1,
+        "dst_end": 1,
+        "ratio": null,
+        "anilist_id": 20954,
+        "ord": 1,
+        "media": {
+          "id": 20954,
+          "id_mal": 28851,
+          "title": {
+            "romaji": "Koe no Katachi",
+            "english": "A Silent Voice",
+            "native": "聲の形",
+            "synonyms": [
+              "The Shape of Voice",
+              "A Voz do Silêncio",
+              "A Forma da Voz",
+              "La Forma della Voce",
+              "צורתו של קול",
+              "声之形",
+              "الحزن الصامت",
+              "Una voz silenciosa",
+              "La Forme de la voix",
+              "Форма голоса",
+              "Форма голосу",
+              "Tylus balsas",
+              "Balss forma",
+              "Дауыс пішіні",
+              "Sakit səs",
+              "รักไร้เสียง",
+              "Dáng hình thanh âm"
+            ]
+          },
+          "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n<br><br>\n(Source: Eleven Arts)",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "episodes": 1,
+          "duration": 130,
+          "season": "SUMMER",
+          "season_year": 2016,
+          "start_date": "2016-09-17",
+          "end_date": "2016-09-17",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg",
+          "cover_color": "#5dbbe4",
+          "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg",
+          "genres": [
+            "Drama",
+            "Romance",
+            "Slice of Life"
+          ],
+          "studios": [
+            {
+              "id": 2,
+              "name": "Kyoto Animation"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1219,
+              "name": "Disability",
+              "rank": 96,
+              "category": "Cast-Traits"
+            },
+            {
+              "id": 171,
+              "name": "Bullying",
+              "rank": 95,
+              "category": "Theme-Drama"
+            },
+            {
+              "id": 311,
+              "name": "Rehabilitation",
+              "rank": 93,
+              "category": "Theme-Drama"
+            },
+            {
+              "id": 516,
+              "name": "Language Barrier",
+              "rank": 91,
+              "category": "Theme-Other"
+            },
+            {
+              "id": 102,
+              "name": "Coming of Age",
+              "rank": 87,
+              "category": "Theme-Drama"
+            },
+            {
+              "id": 1046,
+              "name": "Suicide",
+              "rank": 83,
+              "category": "Theme-Drama"
+            },
+            {
+              "id": 82,
+              "name": "Male Protagonist",
+              "rank": 78,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 85,
+              "name": "Tragedy",
+              "rank": 76,
+              "category": "Theme-Drama"
+            },
+            {
+              "id": 1228,
+              "name": "Primarily Teen Cast",
+              "rank": 76,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 46,
+              "name": "School",
+              "rank": 72,
+              "category": "Setting-Scene"
+            },
+            {
+              "id": 153,
+              "name": "Time Skip",
+              "rank": 72,
+              "category": "Setting-Time"
+            },
+            {
+              "id": 215,
+              "name": "POV",
+              "rank": 68,
+              "category": "Technical"
+            },
+            {
+              "id": 1045,
+              "name": "Heterosexual",
+              "rank": 67,
+              "category": "Theme-Romance"
+            },
+            {
+              "id": 98,
+              "name": "Female Protagonist",
+              "rank": 65,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 195,
+              "name": "Photography",
+              "rank": 60,
+              "category": "Theme-Arts"
+            },
+            {
+              "id": 391,
+              "name": "Philosophy",
+              "rank": 53,
+              "category": "Theme-Other"
+            },
+            {
+              "id": 595,
+              "name": "Urban",
+              "rank": 47,
+              "category": "Setting-Scene"
+            },
+            {
+              "id": 1539,
+              "name": "Unrequited Love",
+              "rank": 46,
+              "category": "Theme-Romance"
+            }
+          ],
+          "relations": [
+            {
+              "id": 85135,
+              "type": "MANGA",
+              "title": {
+                "native": "聲の形",
+                "romaji": "Koe no Katachi",
+                "english": "A Silent Voice",
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/85135",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85135-11OOnyaqV71k.png",
+              "relation_type": "ADAPTATION"
+            },
+            {
+              "id": 107764,
+              "type": "ANIME",
+              "title": {
+                "native": "聲の形スペシャル",
+                "romaji": "Koe no Katachi Specials",
+                "english": "A Silent Voice Specials",
+                "synonyms": []
+              },
+              "format": "MUSIC",
+              "site_url": "https://anilist.co/anime/107764",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107764-AOA6o9Pukejl.jpg",
+              "relation_type": "OTHER"
+            }
+          ],
+          "external_links": [
+            {
+              "url": "http://koenokatachi-movie.com/",
+              "site": "Official Site",
+              "type": "INFO"
+            },
+            {
+              "url": "https://twitter.com/koenokatachi_M",
+              "site": "Twitter",
+              "type": "SOCIAL"
+            },
+            {
+              "url": "https://www.netflix.com/title/80223226",
+              "site": "Netflix",
+              "type": "STREAMING"
+            }
+          ],
+          "average_score": 88,
+          "popularity": 714281,
+          "favourites": 60464,
+          "country_of_origin": "JP",
+          "is_adult": false,
+          "site_url": "https://anilist.co/anime/20954",
+          "next_airing_episode": null,
+          "next_airing_at": null
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": 85135,
+        "type": "MANGA",
+        "title": {
+          "native": "聲の形",
+          "romaji": "Koe no Katachi",
+          "english": "A Silent Voice",
+          "synonyms": []
+        },
+        "format": "MANGA",
+        "site_url": "https://anilist.co/manga/85135",
+        "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85135-11OOnyaqV71k.png",
+        "relation_type": "ADAPTATION",
+        "media_id": null
+      },
+      {
+        "id": 107764,
+        "type": "ANIME",
+        "title": {
+          "native": "聲の形スペシャル",
+          "romaji": "Koe no Katachi Specials",
+          "english": "A Silent Voice Specials",
+          "synonyms": []
+        },
+        "format": "MUSIC",
+        "site_url": "https://anilist.co/anime/107764",
+        "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107764-AOA6o9Pukejl.jpg",
+        "relation_type": "OTHER",
+        "media_id": null
+      }
+    ],
+    "alt_ids": [
+      {
+        "anilist_id": 20954,
+        "mal_id": 28851,
+        "anidb_id": 10937,
+        "imdb_ids": [
+          "tt5323662"
+        ]
+      }
+    ],
+    "targets": [
+      {
+        "anilist_id": 20954,
+        "media_id": null,
+        "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg"
+      }
+    ]
+  },
+  "notes": null,
+  "stats": {
+    "uploads": 4,
+    "seeders": "38",
+    "leechers": "1",
+    "downloads": "1679"
+  },
+  "series": null,
+  "episodes": [],
+  "groups": null
+}

@@ -22,12 +22,16 @@ function fitSeasonInfo(
   media: NekoMediaData,
   request: StremioParsedRequest
 ): SeasonInfo | null {
-  const isPrimary = media.anilist.primary.id == nekoId.anilist_id;
+  if (!media.anilist) {
+    return null;
+  }
+
+  const isPrimary = media.anilist.primary?.id == nekoId.anilist_id;
 
   //logger.debug("Request: ", request);
   //logger.debug("media.anilist.entries: ", inspect(media.anilist.entries, { depth: 1 }));
 
-  const seasonInfo = media.anilist.entries.find(x => {
+  const seasonInfo = media.anilist.entries?.find(x => {
     //logger.debug("x: ", x.season, x.episode, x.anilist_id);
 
     if (nekoId.isMovie)

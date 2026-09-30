@@ -1,0 +1,98 @@
+{
+  "id": "14064189768715",
+  "uploaded_at": 1790627841284,
+  "title": "[FrixySubs] Tensei Shitara Slime Datta Ken - S04E24 (96) [1080p CR WEB-DL H.264 AAC] [Napisy PL].mkv",
+  "auto_title": "[FrixySubs] Tensei Shitara Slime Datta Ken - S04E24 (96) [1080p CR WEB-DL H.264 AAC] [Napisy PL].mkv {Tags:OTL;L3;V9;C1;A=ja;F=pl;}",
+  "description": "",
+  "mediainfo": "General\nUnique ID                                : 70071532872739525098596316946949097806 (0x34B7494DA2AA4B9E7A60650B39DA494E)\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.50 GiB\nDuration                                 : 23 min 59 s\nOverall bit rate                         : 8 974 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2026-09-28 20:12:16 UTC\nWriting application                      : mkvmerge 102.0 ('Little Houses') 64-bit\nWriting library                          : libebml v1.4.7 + libmatroska v1.7.2\nAttachments                              : handy3.ttf / FOT-ModeMin Std B PL.otf / FOT-RodinNTLG Pro EB.otf / GoudySans_Blk_BT_Black_(wwww.font-cat.com).ttf / Lato_Black_PL.otf / hebanus.ttf / Woodland ITC PL.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High@L4\nFormat settings                          : CABAC / 4 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, Reference frames        : 4 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 59 s\nBit rate                                 : 8 761 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 8 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.176\nStream size                              : 1.47 GiB (98%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : 2 / A_AAC-2\nDuration                                 : 23 min 59 s\nBit rate                                 : 192 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 33.0 MiB (2%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 22 s\nBit rate                                 : 267 b/s\nFrame rate                               : 0.251 FPS\nCount of elements                        : 352\nCompression mode                         : Lossless\nStream size                              : 45.7 KiB (0%)\nTitle                                    : FrixySubs\nLanguage                                 : Polish\nDefault                                  : Yes\nForced                                   : No",
+  "category": 1,
+  "deleted": null,
+  "hidden": false,
+  "otl": true,
+  "hardsub": false,
+  "level": 3,
+  "mtl": false,
+  "filesize": "1615219179",
+  "media_id": "s172",
+  "media_episode_ids": [
+    "220940"
+  ],
+  "anilist_id": 182205,
+  "anilist_ids": [
+    182205
+  ],
+  "audio_lang": "ja",
+  "sub_lang": "",
+  "fsub_lang": "pl",
+  "video_codec": 1,
+  "video_type": 9,
+  "files": [
+    {
+      "path": "[FrixySubs] Tensei Shitara Slime Datta Ken - S04E24 [1080p CR WEB-DL H.264 AAC] [Napisy PL].mkv",
+      "name": "[FrixySubs] Tensei Shitara Slime Datta Ken - S04E24 [1080p CR WEB-DL H.264 AAC] [Napisy PL].mkv",
+      "length": 1615219179,
+      "offset": 0
+    }
+  ],
+  "magnet": "magnet:?xt=urn:btih:4013b18d6e2a73b51b77822875f3943fd01332c4&dn=%5BFrixySubs%5D%20Tensei%20Shitara%20Slime%20Datta%20Ken%20-%20S04E24%20(96)%20%5B1080p%20CR%20WEB-DL%20H.264%20AAC%5D%20%5BNapisy%20PL%5D.mkv%20%7BTags%3AOTL%3BL3%3BV9%3BC1%3BA%3Dja%3BF%3Dpl%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+  "private_magnet": null,
+  "infohash": "4013b18d6e2a73b51b77822875f3943fd01332c4",
+  "anonymous": false,
+  "uploader": {
+    "id": "8553519359772",
+    "username": "piotersz",
+    "display_name": "Piotersz",
+    "pfp_hash": "6efd7480a74e7307c2b0eafb3df38ed84544bd254133f22bb3182cbfb99866a4"
+  },
+  "groups": [
+    {
+      "id": "8511749566261",
+      "name": "frixysubs",
+      "display_name": "FrixySubs",
+      "display_tag": "FrixySubs",
+      "pfp_hash": "ab6477c5390a7a1cdf70afd569e4b275fcb1b85123a6a448a65b6797284aa36d",
+      "tagline": "Lisie tłumaczenia po polsku! | Polish fansubs",
+      "open": false,
+      "members": [
+        {
+          "id": "10188170605387",
+          "invite": true,
+          "username": "Butcher",
+          "display_name": "Butcher",
+          "pfp_hash": null,
+          "role": "Tłumacz",
+          "weight": 1
+        },
+        {
+          "id": "8534038304274",
+          "invite": false,
+          "username": "likanc",
+          "display_name": "Likanc",
+          "pfp_hash": "15c222e08a6bea7c3babe08278e3f855ca5ce11220b2da8adb41d0f5bcd94b48",
+          "role": "Korektor",
+          "weight": 2
+        }
+      ],
+      "uploading_group": true,
+      "role": null
+    }
+  ],
+  "imported": null,
+  "seeders": "21",
+  "leechers": "6",
+  "completed": "101",
+  "activity": "290863",
+  "torrent_health": "100",
+  "upgraded": null,
+  "animetosho": null,
+  "animetosho_fetch_time": "1",
+  "screenshots": [],
+  "can_edit": false,
+  "waiting_approve": false,
+  "auto_approve_on_fix": false,
+  "disable_comments": false,
+  "lock_comments": false,
+  "disable_edits": false,
+  "nyaa_upload_time": null,
+  "batch": false
+}

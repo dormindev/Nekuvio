@@ -20,7 +20,7 @@ export async function nekoFetch(
 ): Promise<NekoFetchResult> {
   const headers = {
     Accept: 'application/json',
-    'User-Agent': 'nekoBT-Nuvio-Addon/1.2.0',
+    'User-Agent': 'Nuvio Addon Dev',
     ...((options.headers as Record<string, string>) || {})
   };
 

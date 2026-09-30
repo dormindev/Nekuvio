@@ -22,11 +22,11 @@ app.use((req, res, next) => {
 /* -------------------------------------------------------------------------- */
 
 const MANIFEST = {
-  id: 'org.nekobt.nuvio.addon',
-  version: '1.2.0',
-  name: 'nekoBT',
+  id: 'org.nekokuvio',
+  version: '0.1',
+  name: 'Nekuvio',
   description:
-    'nekoBT streamer',
+    'Nuvio addon to fetch streams from NekoBT',
   resources: ['stream'],
   types: ['anime', 'series', 'movie'],
   idPrefixes: [
@@ -114,6 +114,6 @@ app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string
 
 app.listen(PORT, () => {
   logger.info(
-    `nekoBT Nuvio addon listening on port ${PORT}`
+    `Nekuvio listening on port ${PORT}`
   );
 });

@@ -3,7 +3,7 @@
     "express": "^5.2.1",
     "node-fetch": "^3.3.2"
   },
-  "name": "nekobt_addon",
+  "name": "nekuvio",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "start": "node dist/index.js",
     "dev": "LOG_LEVEL=debug tsx watch src/index.ts",
     "test": "node --import tsx --test \"test/**/*.test.ts\"",
-    "docker:build": "docker build -t nekobt-addon .",
-    "docker:run": "docker run -p 7000:7000 nekobt-addon"
+    "docker:build": "docker build -t nekuvio .",
+    "docker:run": "docker run -p 7000:7000 nekuvio"
   },
   "keywords": [],
   "author": "",

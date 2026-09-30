@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nekobt-addon
+    container_name: nekuvio
     ports:
       - "${PORT:-7000}:7000"
     environment:

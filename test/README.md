@@ -1,6 +1,6 @@
 # Test Suite & Real-World Case Studies
 
-This directory contains automated unit tests and real API fixtures validating the NekoBT Nuvio addon pipeline:
+This directory contains automated unit tests and real API fixtures validating Nekuvio pipeline:
 Nuvio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selection → Stream Construction.
 
 ---

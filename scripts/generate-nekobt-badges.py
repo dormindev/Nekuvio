@@ -82,7 +82,7 @@ BADGE_FORMAT = "svg"
 # The exact local Ubuntu Bold font is used only at generation time.
 # Its glyph outlines are converted directly into SVG paths, so the generated
 # badges do not contain a font dependency.
-SVG_FONT_SIZE = 46
+SVG_FONT_SIZE = 24
 
 # Optional explicit path to the locally installed Ubuntu Bold font.
 SVG_FONT_PATH: Path | None = None
@@ -117,7 +117,7 @@ DEFAULT_NUVIO = {
     "tagColor": "#FF1A1A1A",
     "textColor": "#FFECF9FF",
     "borderColor": "#FF1A1A1A",
-    "tagStyle": "filled and bordered",
+    "tagStyle": "filled",
     "type": "filter",
 }
 
@@ -209,7 +209,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
         nuvio={
             "isEnabled": True,
             "textColor": "#FFECF9FF",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -228,7 +228,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
             "tagColor": "#FFFF6266",
             "textColor": "#FFECF9FF",
             "borderColor": "#FFFF6266",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -247,7 +247,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
             "tagColor": "#FF00A63E",
             "textColor": "#FFECF9FF",
             "borderColor": "#FF00A63E",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -266,7 +266,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
             "tagColor": "#FFFF6266",
             "textColor": "#FFECF9FF",
             "borderColor": "#FFFF6266",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -285,7 +285,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
             "tagColor": "#FF00A4F2",
             "textColor": "#FFECF9FF",
             "borderColor": "#FF00A4F2",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -304,7 +304,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
             "tagColor": "#FF00A4F2",
             "textColor": "#FFECF9FF",
             "borderColor": "#FF00A4F2",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -323,7 +323,7 @@ FIELD_CONFIG: tuple[FieldConfig, ...] = (
             "tagColor": "#FF0D542B",
             "textColor": "#FFECF9FF",
             "borderColor": "#FF0D542B",
-            "tagStyle": "filled and bordered",
+            "tagStyle": "filled",
             "type": "filter",
         },
     ),
@@ -369,7 +369,7 @@ NEKOBT_METADATA: dict[str, Any] = {
         },
         1: {
             "id": 1,
-            "description": "L1 - Slight Modifications",
+            "description": "L1 - Slight",
             "nuvio": {
                 "tagColor": "#FF7D7699",
                 "borderColor": "#FF7D7699",
@@ -377,7 +377,7 @@ NEKOBT_METADATA: dict[str, Any] = {
         },
         2: {
             "id": 2,
-            "description": "L2 - Small-scale Fansubs",
+            "description": "L2 - Small",
             "nuvio": {
                 "tagColor": "#FF937AD7",
                 "borderColor": "#FF937AD7",
@@ -385,7 +385,7 @@ NEKOBT_METADATA: dict[str, Any] = {
         },
         3: {
             "id": 3,
-            "description": "L3 - Full-scale Fansubs",
+            "description": "L3 - Full",
             "nuvio": {
                 "tagColor": "#FF8C4FFF",
                 "borderColor": "#FF8C4FFF",

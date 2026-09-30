@@ -10,46 +10,46 @@
       "tagColor": "#FF3D434A",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF3D434A",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
       "id": "nekobt-subLevel-1",
       "groupId": "nekobt-sub-level",
-      "name": "L1 - Slight Modifications",
+      "name": "L1 - Slight",
       "pattern": "\u2060\u2062\u2061\u2064\u2063\u2061\u2061\u2061\u2062\u2061\u2062\u034f",
       "imageURL": "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/badges/sub-level/1.svg",
       "isEnabled": true,
       "tagColor": "#FF7D7699",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF7D7699",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
       "id": "nekobt-subLevel-2",
       "groupId": "nekobt-sub-level",
-      "name": "L2 - Small-scale Fansubs",
+      "name": "L2 - Small",
       "pattern": "\u2060\u2062\u2061\u2064\u2063\u2061\u2061\u2061\u2062\u2061\u2063\u034f",
       "imageURL": "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/badges/sub-level/2.svg",
       "isEnabled": true,
       "tagColor": "#FF937AD7",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF937AD7",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
       "id": "nekobt-subLevel-3",
       "groupId": "nekobt-sub-level",
-      "name": "L3 - Full-scale Fansubs",
+      "name": "L3 - Full",
       "pattern": "\u2060\u2062\u2061\u2064\u2063\u2061\u2061\u2061\u2062\u2061\u2064\u034f",
       "imageURL": "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/badges/sub-level/3.svg",
       "isEnabled": true,
       "tagColor": "#FF8C4FFF",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF8C4FFF",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -62,7 +62,7 @@
       "tagColor": "#FFFF6266",
       "textColor": "#FFECF9FF",
       "borderColor": "#FFFF6266",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -75,7 +75,7 @@
       "tagColor": "#FF00A63E",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A63E",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -88,7 +88,7 @@
       "tagColor": "#FFFF6266",
       "textColor": "#FFECF9FF",
       "borderColor": "#FFFF6266",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -101,7 +101,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -114,7 +114,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -127,7 +127,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -140,7 +140,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -153,7 +153,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -166,7 +166,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -179,7 +179,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -192,7 +192,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -205,7 +205,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -218,7 +218,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -231,7 +231,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -244,7 +244,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -257,7 +257,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -270,7 +270,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -283,7 +283,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -296,7 +296,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -309,7 +309,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -322,7 +322,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -335,7 +335,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -348,7 +348,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -361,7 +361,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -374,7 +374,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -387,7 +387,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -400,7 +400,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -413,7 +413,7 @@
       "tagColor": "#FF00A4F2",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF00A4F2",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -426,7 +426,7 @@
       "tagColor": "#FF0D542B",
       "textColor": "#FFECF9FF",
       "borderColor": "#FF0D542B",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "type": "filter"
     }
   ]

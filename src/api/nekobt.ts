@@ -20,7 +20,7 @@ export async function nekoFetch(
 ): Promise<NekoFetchResult> {
   const headers = {
     Accept: 'application/json',
-    'User-Agent': 'nekoBT-Stremio-Addon/1.2.0',
+    'User-Agent': 'nekoBT-Nuvio-Addon/1.2.0',
     ...((options.headers as Record<string, string>) || {})
   };
 
@@ -46,7 +46,7 @@ export async function nekoFetch(
    *  - Cloudflare rate limiting, with Retry-After header
    *
    * Retry once so a temporary rate limit doesn't immediately result
-   * in an empty Stremio result.
+   * in an empty Nuvio result.
    */
   if (response.status === 429 && retry) {
     logger.warn('Rate limited (429)');

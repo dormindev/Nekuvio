@@ -12,7 +12,7 @@ export async function resolveKitsuToExternal(kitsuId: string | number): Promise<
     {
       headers: {
         Accept: 'application/vnd.api+json',
-        'User-Agent': 'nekoBT-Stremio-Addon/1.2.0'
+        'User-Agent': 'nekoBT-Nuvio-Addon/1.2.0'
       }
     }
   );

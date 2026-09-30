@@ -1,8 +1,8 @@
-import { StremioParsedRequest } from '../types.js';
+import { NuvioParsedRequest } from '../types.js';
 
 const ANIME_PROVIDERS = new Set(['kitsu', 'mal', 'anilist']);
 
-export function parseStremioId(type: string, id: string): StremioParsedRequest {
+export function parseNuvioId(type: string, id: string): NuvioParsedRequest {
   const parts = id.split(':');
   const isMovie = type === 'movie';
 

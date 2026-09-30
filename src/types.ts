@@ -1,4 +1,4 @@
-export interface StremioParsedRequest {
+export interface NuvioParsedRequest {
   provider: string;
   externalId: string;
   season: number | null;
@@ -114,7 +114,7 @@ export interface EpisodeFileInfo {
   episode: { episode: number; absolute: number };
 }
 
-export interface StremioStream {
+export interface NuvioStream {
   url: string;
   fileIdx: number;
   infoHash: string;

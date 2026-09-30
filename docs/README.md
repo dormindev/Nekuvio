@@ -1,6 +1,6 @@
 # Documentation
 
-This directory contains project decisions, technical assumptions, and rationale for the nekoBT Stremio addon.
+This directory contains project decisions, technical assumptions, and rationale for the nekoBT Nuvio addon.
 
 ## Decisions
 

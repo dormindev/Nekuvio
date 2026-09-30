@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fitInfo, findEpisodeFile, findMovieFile } from '../src/pipeline/matcher.js';
-import { NekoMediaData, NekoMediaResolveData, StremioParsedRequest, FitInfoResult } from '../src/types.js';
+import { NekoMediaData, NekoMediaResolveData, NuvioParsedRequest, FitInfoResult } from '../src/types.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -48,7 +48,7 @@ describe('fitInfo', () => {
   };
 
   it('correctly maps request season and episode to anime episode', () => {
-    const request: StremioParsedRequest = {
+    const request: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt123',
       isMovie: false,
@@ -94,7 +94,7 @@ describe('fitInfo', () => {
       ]
     };
 
-    const request: StremioParsedRequest = {
+    const request: NuvioParsedRequest = {
       provider: 'kitsu',
       externalId: '123',
       isMovie: false,
@@ -129,7 +129,7 @@ describe('fitInfo', () => {
       episodes: []
     };
 
-    const request: StremioParsedRequest = {
+    const request: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt555',
       isMovie: true,
@@ -158,7 +158,7 @@ describe('fitInfo', () => {
       ]
     };
 
-    const request: StremioParsedRequest = {
+    const request: NuvioParsedRequest = {
       provider: 'tvdb',
       externalId: '460809',
       isMovie: false,
@@ -176,7 +176,7 @@ describe('fitInfo', () => {
 
   it('resolves real fixture s172 (Slime S4) accurately', () => {
     const realMedia = loadFixture<NekoMediaData>('media_s172.json');
-    const request: StremioParsedRequest = {
+    const request: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt123',
       isMovie: false,
@@ -218,7 +218,7 @@ describe('fitInfo', () => {
       ]
     };
 
-    const request: StremioParsedRequest = {
+    const request: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt1',
       isMovie: false,

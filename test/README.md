@@ -1,13 +1,13 @@
 # Test Suite & Real-World Case Studies
 
-This directory contains automated unit tests and real API fixtures validating the NekoBT Stremio addon pipeline:
-Stremio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selection → Stream Construction.
+This directory contains automated unit tests and real API fixtures validating the NekoBT Nuvio addon pipeline:
+Nuvio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selection → Stream Construction.
 
 ---
 
 ## Real-World Cases That Inspired Tests & Verifications
 
-The tests in this repository are based on real-world Stremio requests (from `stream_examples`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`).
+The tests in this repository are based on real-world Nuvio requests (from `stream_examples`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`).
 
 ### 1. `media.anilist` Can Be `null` for Unmapped Media
 - **Discovery**: In the NekoBT catalog, anime titles are defined by having an AniDB, AniList, or MAL entry (Rule 6). While most popular anime have rich AniList metadata, certain titles (e.g. western animations, movies only indexed on TMDB/IMDb, or media mapped solely via TVDB) return `"anilist": null`.
@@ -88,7 +88,7 @@ curl -s "https://kitsu.io/api/edge/anime/49235/mappings" > test/fixtures/kitsu_4
 ## Test Files Overview
 
 - **`test/format.test.ts`**: Tests `formatBytes`, `formatAverageBitrate`, `formatLanguages`, and `formatLanguageFlags`.
-- **`test/parser.test.ts`**: Tests `parseStremioId` for movies, series, anime providers (Kitsu, MAL, AniList), and specials (Season 0).
+- **`test/parser.test.ts`**: Tests `parseNuvioId` for movies, series, anime providers (Kitsu, MAL, AniList), and specials (Season 0).
 - **`test/matcher.test.ts`**: Tests `fitInfo`, `findMovieFile`, and `findEpisodeFile` across all naming patterns and edge cases.
 - **`test/streamBuilder.test.ts`**: Tests `torrentToStream` stream object construction, magnet resolution, badges, and file index mapping.
 - **`test/metadata.test.ts`**: Tests `encodeNekobtMetadata` base-4 invisible unicode marker encoding for NekoBT badges.

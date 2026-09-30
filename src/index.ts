@@ -1,10 +1,10 @@
 import express, { Request, Response } from 'express';
-import { parseStremioId } from './utils/parser.js';
+import { parseNuvioId } from './utils/parser.js';
 import { resolveKitsuToExternal } from './api/kitsu.js';
 import { resolveMediaId, getMedia, searchTorrents } from './api/nekobt.js';
 import { fitInfo } from './pipeline/matcher.js';
 import { torrentToStream } from './pipeline/streamBuilder.js';
-import { StremioParsedRequest, StremioStream } from './types.js';
+import { NuvioParsedRequest, NuvioStream } from './types.js';
 import { logger } from './utils/logger.js';
 
 const app = express();
@@ -55,7 +55,7 @@ function emptyStreams(res: Response) {
 /**
  * Kitsu IDs must be translated to MAL first since nekoBT doesn't support Kitsu natively.
  */
-async function getNekoBTExternalId(request: StremioParsedRequest): Promise<string> {
+async function getNekoBTExternalId(request: NuvioParsedRequest): Promise<string> {
   if (request.provider === 'kitsu') {
     const malId = await resolveKitsuToExternal(request.externalId);
     return `mal-${malId}`;
@@ -68,8 +68,8 @@ async function getNekoBTExternalId(request: StremioParsedRequest): Promise<strin
 /* Stream endpoint                                                            */
 /* -------------------------------------------------------------------------- */
 
-async function streamRequest(type: string, id: string): Promise<StremioStream[]> {
-  const request = parseStremioId(type, id);
+async function streamRequest(type: string, id: string): Promise<NuvioStream[]> {
+  const request = parseNuvioId(type, id);
   logger.debug('Parsed ID:', request);
 
   const nekoExternalId = await getNekoBTExternalId(request);
@@ -89,7 +89,7 @@ async function streamRequest(type: string, id: string): Promise<StremioStream[]>
   logger.debug('#torrents: ', torrents.length);
   const streams = (
     await Promise.all(torrents.map(torrent => torrentToStream(torrent, request, info)))
-  ).filter((s): s is StremioStream => s !== null);
+  ).filter((s): s is NuvioStream => s !== null);
 
   //logger.debug('\nResult: ', { streams });
 
@@ -114,6 +114,6 @@ app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string
 
 app.listen(PORT, () => {
   logger.info(
-    `nekoBT Stremio addon listening on port ${PORT}`
+    `nekoBT Nuvio addon listening on port ${PORT}`
   );
 });

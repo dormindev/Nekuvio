@@ -36,7 +36,7 @@ Response provides:
 
 `anilist_id` may be null when the identifier refers to a whole series.
 
-Prefer resolving IDs supplied by Stremio rather than performing title
+Prefer resolving IDs supplied by Nuvio rather than performing title
 matching.
 
 ## GET /media/<media_id>
@@ -258,7 +258,7 @@ In particular:
 - `batch`
 
 The torrent's `title` and `description` are also directly useful when
-building the Stremio stream.
+building the Nuvio stream.
 
 ## Rate limiting
 

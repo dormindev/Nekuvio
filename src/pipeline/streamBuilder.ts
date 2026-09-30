@@ -1,7 +1,7 @@
 import { getTorrent } from '../api/nekobt.js';
 import { findEpisodeFile, findMovieFile } from './matcher.js';
 import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages } from '../utils/format.js';
-import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, StremioParsedRequest, StremioStream } from '../types.js';
+import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, NuvioParsedRequest, NuvioStream } from '../types.js';
 import { logger } from '../utils/logger.js';
 import { encodeNekobtMetadata, NekobtMetadata } from '../generated/nekobt-metadata.js';
 
@@ -27,10 +27,10 @@ function optional(
 
 export async function torrentToStream(
   torrent: NekoTorrentItem,
-  request: StremioParsedRequest,
+  request: NuvioParsedRequest,
   info: FitInfoResult,
   getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
-): Promise<StremioStream | null> {
+): Promise<NuvioStream | null> {
   const torrentInfo = await getTorrentFn(torrent.id);
   if (!torrentInfo) return null;
 
@@ -66,7 +66,7 @@ export async function torrentToStream(
 function buildName(
   file: IndexedTorrentFile,
   torrent: NekoTorrentItem,
-  request: StremioParsedRequest,
+  request: NuvioParsedRequest,
   info: FitInfoResult,
 ): string {
   return (
@@ -87,7 +87,7 @@ function buildName(
 function buildDescription(
   file: IndexedTorrentFile,
   torrent: NekoTorrentItem,
-  request: StremioParsedRequest,
+  request: NuvioParsedRequest,
   info: FitInfoResult
 ): string {
   const duration = info.episode?.runtime ?? info.season?.duration ?? info.media?.runtime ?? null;
@@ -112,7 +112,7 @@ function buildDescription(
 function buildBingeGroup(
   file: IndexedTorrentFile,
   torrent: NekoTorrentItem,
-  request: StremioParsedRequest,
+  request: NuvioParsedRequest,
   info: FitInfoResult
 ): string {
 

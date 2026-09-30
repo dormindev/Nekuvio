@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { torrentToStream } from '../src/pipeline/streamBuilder.js';
-import { FitInfoResult, NekoTorrentItem, StremioParsedRequest } from '../src/types.js';
+import { FitInfoResult, NekoTorrentItem, NuvioParsedRequest } from '../src/types.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -14,7 +14,7 @@ function loadFixture<T>(filename: string): T {
 }
 
 describe('torrentToStream', () => {
-  const mockRequest: StremioParsedRequest = {
+  const mockRequest: NuvioParsedRequest = {
     provider: 'imdb',
     externalId: 'tt123',
     season: 4,
@@ -125,7 +125,7 @@ describe('torrentToStream', () => {
       }
     };
 
-    const realRequest: StremioParsedRequest = {
+    const realRequest: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt123',
       season: 4,
@@ -145,7 +145,7 @@ describe('torrentToStream', () => {
   });
 
   it('builds a movie stream object using findMovieFile when request.isMovie is true', async () => {
-    const movieRequest: StremioParsedRequest = {
+    const movieRequest: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt5323662',
       season: null,

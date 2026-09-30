@@ -5,7 +5,7 @@ import {
   NekoEpisodeEntry,
   NekoMediaData,
   NekoMediaResolveData,
-  StremioParsedRequest,
+  NuvioParsedRequest,
   TorrentFile,
   IndexedTorrentFile
 } from '../types.js';
@@ -20,7 +20,7 @@ import { inspect } from "node:util";
 function fitSeasonInfo(
   nekoId: NekoMediaResolveData,
   media: NekoMediaData,
-  request: StremioParsedRequest
+  request: NuvioParsedRequest
 ): SeasonInfo | null {
   if (!media.anilist) {
     return null;
@@ -75,7 +75,7 @@ function fitSeasonInfo(
 function fitEpisodeInfo(
   nekoId: NekoMediaResolveData,
   media: NekoMediaData,
-  request: StremioParsedRequest,
+  request: NuvioParsedRequest,
   seasonInfo: SeasonInfo | null
 ): NekoEpisodeEntry | null {
 
@@ -113,7 +113,7 @@ function fitEpisodeInfo(
 export function fitInfo(
   nekoId: NekoMediaResolveData,
   media: NekoMediaData,
-  request: StremioParsedRequest
+  request: NuvioParsedRequest
 ): FitInfoResult {
   const seasonInfo = fitSeasonInfo(nekoId, media, request);
   const episodeInfo = fitEpisodeInfo(nekoId, media, request, seasonInfo);

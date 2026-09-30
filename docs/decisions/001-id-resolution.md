@@ -5,7 +5,7 @@
 
 ## Context
 
-Stremio can provide anime IDs from several providers. The addon supports:
+Nuvio can provide anime IDs from several providers. The addon supports:
 
 - AniList
 - Kitsu
@@ -25,7 +25,7 @@ The relevant nekoBT documentation is:
 
 ## Decision
 
-The addon will preserve the provider and external ID from the Stremio request and convert it to nekoBT's provider ID format.
+The addon will preserve the provider and external ID from the Nuvio request and convert it to nekoBT's provider ID format.
 
 For example:
 
@@ -53,9 +53,9 @@ The resulting provider ID is resolved through nekoBT to obtain the internal `med
 
 ### Episode requests
 
-When the Stremio request includes an episode reference, the addon must additionally resolve the requested episode to the corresponding nekoBT `episode_id`.
+When the Nuvio request includes an episode reference, the addon must additionally resolve the requested episode to the corresponding nekoBT `episode_id`.
 
-The general Stremio ID format is:
+The general Nuvio ID format is:
 
 ```text
 provider:external_id:season:episode
@@ -102,7 +102,7 @@ The resolved `media_id` and, when applicable, `episode_id` are then used for tor
 The overall flow is:
 
 ```text
-Stremio ID
+Nuvio ID
     ↓
 provider + external ID
     ↓
@@ -125,5 +125,5 @@ Keep external-ID resolution separate from torrent searching.
 
 The addon should use nekoBT's own media and episode relationships rather than attempting to infer internal IDs from external provider IDs or torrent names.
 
-The Kitsu exception is handled explicitly because its Stremio ID format does not contain a season component.
+The Kitsu exception is handled explicitly because its Nuvio ID format does not contain a season component.
 

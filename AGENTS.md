@@ -1,16 +1,16 @@
 # Project Context
 
-This is a Stremio addon that uses the NekoBT API to find anime torrents
-matching Stremio requests.
+This is a Nuvio addon that uses the NekoBT API to find anime torrents
+matching Nuvio requests.
 
 Core pipeline:
 
-Stremio input
+Nuvio input
   → media resolution
   → torrent discovery (multiple torrents)
   → file selection (per torrent)
   → stream construction
-  → Stremio response
+  → Nuvio response
 
 Each returned stream contains:
 - torrent

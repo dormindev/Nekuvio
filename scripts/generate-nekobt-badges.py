@@ -16,7 +16,7 @@ Generated files:
 
     src/generated/nekobt-metadata.ts
     nuvio/nekobt-badges.json
-    badges/**/*.{svg,png}
+    nuvio/badges/**/*.{svg,png}
 
 The generated TypeScript intentionally contains NO human-readable nekoBT
 metadata. It only contains the protocol definition and generic encoding
@@ -61,7 +61,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 TS_OUTPUT = ROOT / "src" / "generated" / "nekobt-metadata.ts"
 NUVIO_OUTPUT = ROOT / "nuvio" / "nekobt-badges.json"
-BADGES_DIR = ROOT / "badges"
+BADGES_DIR = ROOT / "nuvio" / "badges"
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ BADGES_DIR = ROOT / "badges"
 # =============================================================================
 
 # Change this to wherever the badge assets are hosted.
-BADGE_BASE_URL = "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/badges"
+BADGE_BASE_URL = "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/nuvio/badges"
 
 # Currently only SVG is generated.
 BADGE_FORMAT = "svg"

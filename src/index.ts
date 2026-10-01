@@ -57,8 +57,8 @@ function emptyStreams(res: Response) {
  */
 async function getNekoBTExternalId(request: NuvioParsedRequest): Promise<string> {
   if (request.provider === 'kitsu') {
-    const malId = await resolveKitsuToExternal(request.externalId);
-    return `mal-${malId}`;
+    const provider = await resolveKitsuToExternal(request.externalId);
+    return `${provider.name}-${provider.id}`;
   }
 
   return `${request.provider}-${request.externalId}`;

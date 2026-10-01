@@ -1,12 +1,12 @@
 import fetch, { Response } from 'node-fetch';
-import { KitsuMappingsResponse } from '../types.js';
+import { KitsuMappingsResponse, KitsuResolved } from '../types.js';
 import { logger } from '../utils/logger.js';
 
 /**
  * nekoBT doesn't natively list Kitsu as one of its external ID providers,
  * so translate Kitsu -> MAL first.
  */
-export async function resolveKitsuToExternal(kitsuId: string | number): Promise<string> {
+export async function resolveKitsuToExternal(kitsuId: string | number): Promise<KitsuResolved> {
   const response: Response = await fetch(
     `https://kitsu.io/api/edge/anime/${encodeURIComponent(kitsuId)}/mappings`,
     {
@@ -26,17 +26,30 @@ export async function resolveKitsuToExternal(kitsuId: string | number): Promise<
   const data = (await response.json()) as KitsuMappingsResponse;
   const mappings = Array.isArray(data?.data) ? data.data : [];
 
-  logger.debug('MAL Mappings:', mappings);
+  logger.debug('Kitsu Mappings:', mappings);
 
-  const mal = mappings.find(
-    mapping =>
-      mapping?.attributes?.externalSite === 'myanimelist/anime' &&
-      mapping?.attributes?.externalId
-  );
+  const providers = [
+    { name: 'mal', ref: 'myanimelist/anime' },
+    { name: 'anilist', ref: 'anilist/anime' },
+  ];
 
-  if (!mal?.attributes?.externalId) {
-    throw new Error(`MAL mapping not found for Kitsu ID ${kitsuId}`);
+  const result = providers
+    .map(provider => ({
+      ...provider,
+      mapping: mappings.find(
+        mapping =>
+          mapping?.attributes?.externalSite === provider.ref &&
+          mapping?.attributes?.externalId
+      ),
+    }))
+    .find(({ mapping }) => mapping);
+
+  if (!result?.mapping?.attributes?.externalId) {
+    throw new Error(`No useful mapping found for Kitsu ID ${kitsuId}`);
   }
 
-  return mal.attributes.externalId;
+  return {
+    name: result.name,
+    id: result.mapping.attributes.externalId,
+  };
 }

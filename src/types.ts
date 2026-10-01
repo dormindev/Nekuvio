@@ -22,6 +22,11 @@ export interface KitsuMappingsResponse {
   data?: KitsuMappingItem[];
 }
 
+export interface KitsuResolved {
+  name: string;
+  id: string;
+}
+
 export interface NekoMediaResolveData {
   media_id: string;
   anilist_id?: number;

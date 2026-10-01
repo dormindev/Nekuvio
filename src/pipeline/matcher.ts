@@ -169,18 +169,20 @@ export function findEpisodeFile(
 
   const files = torrent.files;
   const season = info.season?.season ?? info.episode!.season;
+  const season_titles = info.season?.media?.title ?? null;
   const episode = info.episode!.episode;
   const absolute = info.episode!.absolute;
 
   const SEP = `[\\s_.-]`; // Separator
   const EP_PRE = `(?:EP?)`; // Episode Prefix
-  const EP_NUM = `(?:0*${episode}(?:v\\d+)?)`; // Episode Number (with optional version)
+  const EP_VER = `(?:v\\d+)`; // Episode Version
+  const epNum = (ep: number) => `(?:0*${ep}${EP_VER}?)`; // Episode Number (with optional version)
 
   /** SxxEyy */
   function matchSeasonEpisode(): (TorrentFile & { index: number }) | null {
     const pattern = new RegExp(
       `(^|${SEP})` +
-      `S0*${season}${EP_PRE}${EP_NUM}` +
+      `S0*${season}${EP_PRE}${epNum(episode)}` +
       `${SEP}`,
       'i'
     );
@@ -194,7 +196,7 @@ export function findEpisodeFile(
 
     const pattern = new RegExp(
       `(?:^|${SEP})` +
-      `S0*${season}${EP_PRE}(\\d+)${RANGE_SEP}+${EP_PRE}(\\d+)` +
+      `S0*${season}${EP_PRE}(\\d+)${RANGE_SEP}+${EP_PRE}(\\d+)${EP_VER}?` +
       `${SEP}`,
       'i'
     );
@@ -218,7 +220,7 @@ export function findEpisodeFile(
 
     const pattern = new RegExp(
       `(^|${SEP})` +
-      `${seasonParts}${SEP}+${EP_PRE}?${EP_NUM}` +
+      `${seasonParts}${SEP}+${EP_PRE}?${epNum(episode)}` +
       `${SEP}`,
       'i'
     );
@@ -226,11 +228,48 @@ export function findEpisodeFile(
     return matchEpisode(files, pattern);
   }
 
-  /** Absolute episode */
-  function matchAbsoluteEpisode(): (TorrentFile & { index: number }) | null {
+  function matchNamedSeasonEpisode(): (TorrentFile & { index: number }) | null {
+    if (!season_titles)
+      return null;
+
+    let seasonNames =
+      `(` +
+      `${season_titles.romaji}` +
+      `|${season_titles.english}` +
+      `|${season_titles.native}`;
+
+    if (season_titles.synonyms.length > 0)
+      seasonNames += season_titles.synonyms.join('|');
+
+    seasonNames += `)`;
+
     const pattern = new RegExp(
       `(^|${SEP})` +
-      `(S01)?${EP_PRE}?0*${absolute}` +
+      `${seasonNames}${SEP}+${EP_PRE}?${epNum(episode)}` +
+      `${SEP}`,
+      'i'
+    );
+
+    return matchEpisode(files, pattern);
+  }
+
+  function matchAbsoluteEpisode(): (TorrentFile & { index: number }) | null {
+    if (!absolute) return null;
+
+    const pattern = new RegExp(
+      `(^|${SEP})` +
+      `(?:S01)?${EP_PRE}?${epNum(absolute)}` +
+      `${SEP}`,
+      'i'
+    );
+
+    return matchEpisode(files, pattern);
+  }
+
+  function matchEpisodeOnly(): (TorrentFile & { index: number }) | null {
+    const pattern = new RegExp(
+      `(^|${SEP})` +
+      `${EP_PRE}?${epNum(episode)}` +
       `${SEP}`,
       'i'
     );
@@ -242,7 +281,9 @@ export function findEpisodeFile(
     matchSeasonEpisode() ??
     matchSeasonEpisodeRange() ??
     matchSeparatedSeasonEpisode() ??
+    matchNamedSeasonEpisode() ??
     matchAbsoluteEpisode() ??
+    matchEpisodeOnly() ??
     null
   );
 }

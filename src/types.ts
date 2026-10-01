@@ -37,6 +37,15 @@ export interface NekoAnilistEntry {
   dst_start: number;
   dst_end: number;
   anilist_id: number;
+  media: {
+    title: {
+      romaji: string;
+      english: string;
+      native: string;
+      synonyms: string[];
+    }
+    [key: string]: any;
+  }
   [key: string]: any;
 }
 

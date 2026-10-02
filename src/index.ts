@@ -6,6 +6,7 @@ import { fitInfo } from './pipeline/matcher.js';
 import { torrentToStream } from './pipeline/streamBuilder.js';
 import { NuvioParsedRequest, NuvioStream } from './types.js';
 import { logger } from './utils/logger.js';
+import { scrapeTorrents } from './api/tracker-scrapper.js';
 
 const app = express();
 
@@ -87,8 +88,11 @@ async function streamRequest(type: string, id: string): Promise<NuvioStream[]> {
   const torrents = await searchTorrents(nekoId.media_id, info.episode?.id ?? null);
 
   logger.debug('#torrents: ', torrents.length);
+
+  const swarms = await scrapeTorrents(torrents);
+
   const streams = (
-    await Promise.all(torrents.map(torrent => torrentToStream(torrent, request, info)))
+    await Promise.all(swarms.map(swarm => torrentToStream(swarm, request, info)))
   ).filter((s): s is NuvioStream => s !== null);
 
   //logger.debug('\nResult: ', { streams });

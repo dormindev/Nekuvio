@@ -1,7 +1,14 @@
 {
   "dependencies": {
+    "bencode": "^4.0.1",
+    "bittorrent-tracker": "^11.2.3",
     "express": "^5.2.1",
     "node-fetch": "^3.3.2"
+  },
+  "overrides": {
+    "bittorrent-tracker": {
+      "ip": "npm:@bybrave/ip2@3.0.0"
+    }
   },
   "name": "nekuvio",
   "version": "0.1.0",
@@ -10,10 +17,12 @@
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "start": "node dist/index.js",
+    "run": "LOG_LEVEL=info tsx watch src/index.ts",
     "dev": "LOG_LEVEL=debug tsx watch src/index.ts",
     "test": "node --import tsx --test \"test/**/*.test.ts\"",
     "docker:build": "docker build -t nekuvio .",
-    "docker:run": "docker run -p 7000:7000 nekuvio"
+    "docker:run": "docker run -p 7000:7000 nekuvio",
+    "postinstall": "patch-package"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +32,7 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.2",
+    "patch-package": "^8.0.1",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }

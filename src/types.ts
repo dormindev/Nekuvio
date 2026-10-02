@@ -134,6 +134,7 @@ export interface NuvioStream {
   infoHash: string;
   name: string;
   description: string;
+  sources: string[];
   behaviorHints: {
     bingeGroup: string
   };

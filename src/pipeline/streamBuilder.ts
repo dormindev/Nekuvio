@@ -4,6 +4,7 @@ import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages
 import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, NuvioParsedRequest, NuvioStream } from '../types.js';
 import { logger } from '../utils/logger.js';
 import { encodeNekobtMetadata, NekobtMetadata } from '../generated/nekobt-metadata.js';
+import { TorrentSwarm } from '../api/tracker-scrapper.js';
 
 
 
@@ -26,12 +27,12 @@ function optional(
 }
 
 export async function torrentToStream(
-  torrent: NekoTorrentItem,
+  swarm: TorrentSwarm,
   request: NuvioParsedRequest,
   info: FitInfoResult,
   getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
 ): Promise<NuvioStream | null> {
-  const torrentInfo = await getTorrentFn(torrent.id);
+  const torrentInfo = await getTorrentFn(swarm.torrent.id);
   if (!torrentInfo) return null;
 
   const matchedFile = request.isMovie
@@ -46,15 +47,17 @@ export async function torrentToStream(
 
   const languageText = formatLanguages(torrentInfo);
 
-  logger.debug(`${torrent.id} magnet:`, torrentInfo.magnet);
+  logger.debug(`${swarm.torrent.id} magnet:`, torrentInfo.magnet);
 
   return {
     url: torrentInfo.magnet,
     infoHash: torrentInfo.infohash,
     fileIdx: matchedFile.index,
 
-    name: buildName(matchedFile, torrentInfo, request, info),
-    description: buildDescription(matchedFile, torrentInfo, request, info),
+    name: buildName(matchedFile, torrentInfo, swarm, request, info),
+    description: buildDescription(matchedFile, torrentInfo, swarm, request, info),
+
+    sources: swarm.trackers.map(tracker => `tracker:${tracker}`),
 
     behaviorHints: {
       bingeGroup: buildBingeGroup(matchedFile, torrentInfo, request, info)
@@ -66,6 +69,7 @@ export async function torrentToStream(
 function buildName(
   file: IndexedTorrentFile,
   torrent: NekoTorrentItem,
+  swarm: TorrentSwarm,
   request: NuvioParsedRequest,
   info: FitInfoResult,
 ): string {
@@ -87,13 +91,16 @@ function buildName(
 function buildDescription(
   file: IndexedTorrentFile,
   torrent: NekoTorrentItem,
+  swarm: TorrentSwarm,
   request: NuvioParsedRequest,
   info: FitInfoResult
 ): string {
   const duration = info.episode?.runtime ?? info.season?.duration ?? info.media?.runtime ?? null;
+  const seeders = Math.max(0, torrent.seeders, swarm.seeders);
+  const leechers = Math.max(0, torrent.leechers, swarm.leechers);
 
   return (
-    `🟢↑ ${torrent.seeders}    🔴↓ ${torrent.leechers}` +
+    `🟢↑ ${seeders}    🔴↓ ${leechers}` +
     `\n` +
     optional(formatLanguageFlags(torrent.audio_lang), '\n🔊     {}') +
     optional(formatLanguageFlags(torrent.fsub_lang), '\n💬✨ {}') +

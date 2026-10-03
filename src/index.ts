@@ -23,11 +23,11 @@ app.use((req, res, next) => {
 /* -------------------------------------------------------------------------- */
 
 const MANIFEST = {
-  id: 'org.nekokuvio',
+  id: 'org.nekuvio',
   version: '0.1',
   name: 'Nekuvio',
-  description:
-    'Nuvio addon to fetch streams from NekoBT',
+  description: 'Nuvio addon to fetch streams from NekoBT',
+  logo: "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/assets/logo.png",
   resources: ['stream'],
   types: ['anime', 'series', 'movie'],
   idPrefixes: [

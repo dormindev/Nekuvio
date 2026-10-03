@@ -95,6 +95,7 @@ export interface TorrentGroup {
 
 export interface NekoTorrentItem {
   id: string;
+  uploaded_at: number;
   title: string;
   magnet: string;
   infohash: string;

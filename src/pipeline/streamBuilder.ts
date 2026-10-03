@@ -1,6 +1,6 @@
 import { getTorrent } from '../api/nekobt.js';
 import { findEpisodeFile, findMovieFile } from './matcher.js';
-import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages } from '../utils/format.js';
+import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages, formatTimestamp } from '../utils/format.js';
 import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, NuvioParsedRequest, NuvioStream } from '../types.js';
 import { logger } from '../utils/logger.js';
 import { encodeNekobtMetadata, NekobtMetadata } from '../generated/nekobt-metadata.js';
@@ -74,8 +74,9 @@ function buildName(
   info: FitInfoResult,
 ): string {
   return (
-    `NekoBT | ` +
     optional(torrent.groups[0]?.display_name, '[{}]') +
+    ` | NekoBT` +
+
     encodeNekobtMetadata({
       subLevel: torrent.level,
       mtl: torrent.mtl,
@@ -100,11 +101,12 @@ function buildDescription(
   const leechers = Math.max(0, torrent.leechers, swarm.leechers);
 
   return (
-    `🟢↑ ${seeders}    🔴↓ ${leechers}` +
-    `\n` +
-    optional(formatLanguageFlags(torrent.audio_lang), '\n🔊     {}') +
+    `🟢↑ ${seeders} • 🔴↓ ${leechers}` +
+    `  | 📤 ${formatTimestamp(torrent.uploaded_at)}` +
+    '\n' +
     optional(formatLanguageFlags(torrent.fsub_lang), '\n💬✨ {}') +
     optional(formatLanguageFlags(torrent.sub_lang), '\n💬     {}') +
+    optional(formatLanguageFlags(torrent.audio_lang), '\n🔊     {}') +
     '\n' +
     `\n🎬 ${optional(formatBytes(file.length), '{}', '?? MB')}` +
     optional(formatAverageBitrate(file.length, duration), '  ·  {}') +

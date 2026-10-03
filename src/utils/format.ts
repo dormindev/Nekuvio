@@ -185,3 +185,32 @@ export function formatLanguageFlags(
 
   return flags.length > 0 ? flags.join(separator) : null;
 }
+
+export function formatTimestamp(
+  timestamp: number,
+  timezone: string = 'Europe/Lisbon',
+): string {
+  // 1. Instantly parse the millisecond epoch numeric payload
+  const now = Temporal.Now.instant();
+  const instant = Temporal.Instant.fromEpochMilliseconds(timestamp);
+
+  // 2. Project both coordinates into the target wall-clock timezone
+  const zonedNow = now.toZonedDateTimeISO(timezone);
+  const zonedTimestamp = instant.toZonedDateTimeISO(timezone);
+
+  // 3. Shift back exactly 1 calendar day to find the boundary
+  const yesterdayStart = zonedNow.startOfDay().subtract({ days: 1 });
+  const olderThanYesterday = Temporal.ZonedDateTime.compare(zonedTimestamp, yesterdayStart) < 0;
+
+  // 4. Format: YYYY-MM-DD
+  let ret = zonedTimestamp.toPlainDate().toString();
+
+  // 5. If yesterday or newer, append time: HH:MM
+  if (!olderThanYesterday) {
+    ret += ` ${zonedTimestamp.toPlainTime().toString({
+      smallestUnit: "minute",
+    })}`;
+  }
+
+  return ret;
+}

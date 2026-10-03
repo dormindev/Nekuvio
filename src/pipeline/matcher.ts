@@ -157,17 +157,35 @@ export function findMovieFile(
   return { ...torrent.files[index], index };
 }
 
+function excludeNonVideoFiles(files: TorrentFile[]): TorrentFile[] {
+  const videoExtensions = new Set([
+    "mkv",
+    "mp4",
+    "m4v",
+    "webm",
+    "avi",
+    "mov",
+    "mpg",
+    "mpeg",
+  ]);
+  return files.filter(file => {
+    const extension = file.name.split('.').pop()?.toLowerCase();
+    return extension && videoExtensions.has(extension);
+  });
+}
+
 export function findEpisodeFile(
   torrent: { files: TorrentFile[] },
   info: FitInfoResult
 ): IndexedTorrentFile | null {
-  if (torrent.files.length === 0) {
+
+  const files = excludeNonVideoFiles(torrent.files)
+  if (files.length === 0) {
     return null;
   }
 
   //  logger.debug("findEpisodeFile info: ", info);
 
-  const files = torrent.files;
   const season = info.season?.season ?? info.episode!.season;
   const season_titles = info.season?.media?.title ?? null;
   const episode = info.episode!.episode;

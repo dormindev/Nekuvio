@@ -98,7 +98,19 @@ function buildTorrentSwarms(
 }
 
 function getTrackers(magnet: string): string[] {
-  return [...new Set(new URL(magnet).searchParams.getAll("tr"))];
+  const defaultTrackers = [
+    "http://nyaa.tracker.wf:7777/announce",
+    "udp://open.stealth.si:80/announce",
+    "udp://tracker.opentrackr.org:1337/announce",
+    "udp://exodus.desync.com:6969/announce",
+    "udp://tracker.torrent.eu.org:451/announce",
+  ];
+
+  const magnetTrackers = new URL(magnet).searchParams
+    .getAll("tr")
+    .filter(Boolean);
+
+  return [...new Set([...defaultTrackers, ...magnetTrackers])];
 }
 
 function normalizeInfoHash(infoHash: string): string {

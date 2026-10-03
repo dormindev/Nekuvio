@@ -27,7 +27,7 @@ const MANIFEST = {
   version: '0.1',
   name: 'Nekuvio',
   description: 'Nuvio addon to fetch streams from NekoBT',
-  logo: "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/assets/logo.png",
+  logo: "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/assets/logo-small.png",
   resources: ['stream'],
   types: ['anime', 'series', 'movie'],
   idPrefixes: [

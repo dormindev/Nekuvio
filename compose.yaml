@@ -1,12 +1,16 @@
 services:
-  addon:
+  nekuvio:
+    image: nekuvio:dev
+    container_name: nekuvio
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nekuvio
+
     ports:
       - "${PORT:-7000}:7000"
+
     environment:
-      - PORT=7000
-      - NODE_ENV=production
+      PORT: 7000
+      NODE_ENV: production
+
     restart: unless-stopped

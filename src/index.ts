@@ -7,6 +7,7 @@ import { torrentToStream } from './pipeline/streamBuilder.js';
 import { NuvioParsedRequest, NuvioStream } from './types.js';
 import { logger } from './utils/logger.js';
 import { scrapeTorrents } from './api/tracker-scrapper.js';
+import { env } from './environment.js';
 
 const app = express();
 
@@ -23,9 +24,9 @@ app.use((req, res, next) => {
 /* -------------------------------------------------------------------------- */
 
 const MANIFEST = {
-  id: 'org.nekuvio',
-  version: '0.1',
-  name: 'Nekuvio',
+  id: env.app.addonId,
+  version: env.app.version,
+  name: env.app.displayName,
   description: 'Nuvio addon to fetch streams from NekoBT',
   logo: "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/assets/logo-small.png",
   resources: ['stream'],
@@ -118,6 +119,6 @@ app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string
 
 app.listen(PORT, () => {
   logger.info(
-    `Nekuvio listening on port ${PORT}`
+    `${env.app.displayName} listening on port ${PORT}`
   );
 });

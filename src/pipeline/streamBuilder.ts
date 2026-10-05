@@ -5,6 +5,7 @@ import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, NuvioParsedRequest,
 import { logger } from '../utils/logger.js';
 import { encodeNekobtMetadata, NekobtMetadata } from '../generated/nekobt-metadata.js';
 import { TorrentSwarm } from '../api/tracker-scrapper.js';
+import { env } from '../environment.js';
 
 
 
@@ -125,6 +126,6 @@ function buildBingeGroup(
   info: FitInfoResult
 ): string {
 
-  return `Nekuvio-${torrent.infohash}`;
+  return `${env.app.displayName}-${torrent.infohash}`;
 }
 

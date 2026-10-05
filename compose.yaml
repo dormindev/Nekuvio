@@ -1,6 +1,6 @@
 services:
   nekuvio:
-    image: nekuvio:dev
+    image: nekuvio:${IMAGE_TAG:-dev}
     container_name: nekuvio
     build:
       context: .

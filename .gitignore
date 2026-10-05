@@ -4,3 +4,4 @@
 .vscode/settings.json
 node_modules/
 dist/
+src/generated/build-info.ts

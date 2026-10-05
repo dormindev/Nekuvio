@@ -57,7 +57,7 @@ export async function torrentToStream(
     name: buildName(matchedFile, torrentInfo, swarm, request, info),
     description: buildDescription(matchedFile, torrentInfo, swarm, request, info),
 
-    sources: swarm.trackers.map(tracker => `tracker:${tracker}`),
+    sources: swarm.trackers.map(tracker => `tracker:${tracker.tracker}`),
 
     behaviorHints: {
       bingeGroup: buildBingeGroup(matchedFile, torrentInfo, request, info)

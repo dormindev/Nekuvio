@@ -1,0 +1,3 @@
+[submodule "submodules/nekuvio-badges"]
+	path = submodules/nekuvio-badges
+	url = https://github.com/dormindev/nekuvio-badges.git

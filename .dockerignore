@@ -1,6 +1,9 @@
 .git*
 .agent
 .venv
+.env
+.env.local
+.env.example
 .vscode
 
 dist
@@ -17,3 +20,5 @@ testing*
 npm-debug.log*
 
 *.md
+
+submodules/nekuvio-badges/nuvio/badges

@@ -1,4 +1,6 @@
-node_modules/
-cspell.json
+.env
+.env.local
+.venv
 .vscode/settings.json
+node_modules/
 dist/

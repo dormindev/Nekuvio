@@ -3,7 +3,7 @@
   "displayName": "Nekuvio",
   "addonId": "org.nekuvio",
   "version": "0.1.0",
-  "repository":"https://github.com/dormindev/Nekuvio.git",
+  "repository": "https://github.com/dormindev/Nekuvio.git",
 
   "main": "dist/index.js",
   "type": "module",

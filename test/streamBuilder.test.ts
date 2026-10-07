@@ -5,6 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { torrentToStream } from '../src/pipeline/streamBuilder.js';
 import { FitInfoResult, NekoTorrentItem, NuvioParsedRequest } from '../src/types.js';
+import { TorrentSwarm } from '../src/api/tracker-scrapper.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -45,6 +46,7 @@ describe('torrentToStream', () => {
 
   const mockTorrentListItem: NekoTorrentItem = {
     id: 't12345',
+    uploaded_at: 1790627841284,
     title: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p]',
     magnet: 'magnet:?xt=urn:btih:6a8456cf80660c40a8e87170c3454d79997e1c2c',
     infohash: '6a8456cf80660c40a8e87170c3454d79997e1c2c',
@@ -72,6 +74,15 @@ describe('torrentToStream', () => {
     ]
   };
 
+  const mockSwarm: TorrentSwarm = {
+    torrent: mockTorrentListItem,
+    trackers: [
+      { tracker: 'https://tracker.nekobt.to/announce', seeders: 15, leechers: 2 }
+    ],
+    seeders: 15,
+    leechers: 2
+  };
+
   it('builds a stream object when episode file is matched', async () => {
     const mockGetTorrent = async (torrentId: string): Promise<NekoTorrentItem | null> => {
       assert.equal(torrentId, 't12345');
@@ -87,19 +98,20 @@ describe('torrentToStream', () => {
       };
     };
 
-    const stream = await torrentToStream(mockTorrentListItem, mockRequest, mockInfo, mockGetTorrent);
+    const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
 
     assert.ok(stream);
     assert.equal(stream.url, mockTorrentListItem.magnet);
     assert.equal(stream.infoHash, '6a8456cf80660c40a8e87170c3454d79997e1c2c');
     assert.equal(stream.fileIdx, 0);
-    assert.match(stream.name, /^NekoBT \| \[Delta\]/);
-    assert.match(stream.description, /🟢↑ 15    🔴↓ 2/);
+    assert.match(stream.name, /^\[Delta\] \| NekoBT/);
+    assert.match(stream.description, /🟢↑ 15 • 🔴↓ 2/);
     assert.match(stream.description, /🔊 {5}🇯🇵/);
     assert.match(stream.description, /💬✨ 🇬🇧/);
     assert.match(stream.description, /🎬 279 MB/);
     assert.match(stream.description, /1\.63 Mbps/);
     assert.match(stream.description, /\[Delta\] That Time I Got Reincarnated as a Slime S04E23 \[1080p\]\.mkv/);
+    assert.deepEqual(stream.sources, ['tracker:https://tracker.nekobt.to/announce']);
   });
 
   it('builds stream from real fixture torrent_s172.json', async () => {
@@ -134,9 +146,16 @@ describe('torrentToStream', () => {
       isMovie: false
     };
 
+    const realSwarm: TorrentSwarm = {
+      torrent: realTorrent,
+      trackers: [],
+      seeders: realTorrent.seeders,
+      leechers: realTorrent.leechers
+    };
+
     const mockGetTorrent = async (): Promise<NekoTorrentItem | null> => realTorrent;
 
-    const stream = await torrentToStream(realTorrent, realRequest, realEpisodeInfo, mockGetTorrent);
+    const stream = await torrentToStream(realSwarm, realRequest, realEpisodeInfo, mockGetTorrent);
 
     assert.ok(stream);
     assert.equal(stream.infoHash, realTorrent.infohash);
@@ -171,9 +190,16 @@ describe('torrentToStream', () => {
       ]
     };
 
+    const movieSwarm: TorrentSwarm = {
+      torrent: movieTorrent,
+      trackers: [],
+      seeders: movieTorrent.seeders,
+      leechers: movieTorrent.leechers
+    };
+
     const mockGetTorrent = async (): Promise<NekoTorrentItem | null> => movieTorrent;
 
-    const stream = await torrentToStream(movieTorrent, movieRequest, movieInfo, mockGetTorrent);
+    const stream = await torrentToStream(movieSwarm, movieRequest, movieInfo, mockGetTorrent);
 
     assert.ok(stream);
     assert.equal(stream.fileIdx, 1);
@@ -183,7 +209,7 @@ describe('torrentToStream', () => {
   it('returns null if torrent info cannot be retrieved', async () => {
     const mockGetTorrent = async () => null;
 
-    const stream = await torrentToStream(mockTorrentListItem, mockRequest, mockInfo, mockGetTorrent);
+    const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
     assert.equal(stream, null);
   });
 
@@ -196,7 +222,7 @@ describe('torrentToStream', () => {
       ]
     });
 
-    const stream = await torrentToStream(mockTorrentListItem, mockRequest, mockInfo, mockGetTorrent);
+    const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
     assert.equal(stream, null);
   });
 });

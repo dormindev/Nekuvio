@@ -33,7 +33,22 @@ describe('torrentToStream', () => {
       src_end: 24,
       dst_start: 1,
       dst_end: 24,
-      anilist_id: 182205
+      anilist_id: 182205,
+      media: {
+        title: {
+          romaji: 'Tensei Shitara Slime Datta Ken 4th Season Part 1 & 2',
+          english: 'That Time I Got Reincarnated as a Slime Season 4',
+          native: '転生したらスライムだった件 第4期 第1&2クール',
+          synonyms: [
+            'Tensura 4',
+            '転スラ 4',
+            'เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4',
+            'О моём перерождении в слизь 4',
+            'Aquella vez que me convertí en slime - Temporada 4',
+            'Moi, quand je me réincarne en Slime Saison 4',
+          ]
+        }
+      }
     },
     episode: {
       id: 220939,
@@ -126,7 +141,22 @@ describe('torrentToStream', () => {
         src_end: 24,
         dst_start: 1,
         dst_end: 24,
-        anilist_id: 182205
+        anilist_id: 182205,
+        media: {
+          title: {
+            romaji: 'Tensei Shitara Slime Datta Ken 4th Season Part 1 & 2',
+            english: 'That Time I Got Reincarnated as a Slime Season 4',
+            native: '転生したらスライムだった件 第4期 第1&2クール',
+            synonyms: [
+              'Tensura 4',
+              '転スラ 4',
+              'เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4',
+              'О моём перерождении в слизь 4',
+              'Aquella vez que me convertí en slime - Temporada 4',
+              'Moi, quand je me réincarne en Slime Saison 4',
+            ]
+          }
+        }
       },
       episode: {
         id: 220940,

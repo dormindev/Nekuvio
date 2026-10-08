@@ -39,7 +39,7 @@ jobs:
         run: npm test
 
       - name: Validate Docker Compose
-        run: docker compose config
+        run: npm run docker:build:check
 
       - name: Build Docker image
-        run: docker compose build
+        run: npm run docker:build

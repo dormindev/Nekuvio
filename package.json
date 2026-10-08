@@ -34,23 +34,24 @@
   },
 
   "scripts": {
+    "postinstall": "patch-package",
+
     "build": "npm run build:prepare && npm run build:compile",
+    "build:check": "tsc --noEmit",
     "build:prepare": "tsx scripts/generate-build-info.ts",
     "build:compile": "tsc",
 
-    "start": "node dist/index.js",
-
-    "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test \"test/**/*.test.ts\"",
 
-    "dev:info": "LOG_LEVEL=info tsx watch src/index.ts",
-    "dev:debug": "LOG_LEVEL=debug tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "start:dev:info": "LOG_LEVEL=info tsx watch src/index.ts",
+    "start:dev:debug": "LOG_LEVEL=debug tsx watch src/index.ts",
 
     "docker:build": "npm run build:prepare && docker compose build",
-    "docker:up": "docker compose up -d",
-    "docker:down": "docker compose down",
-    "docker:logs": "docker compose logs -f",
+    "docker:build:check": "docker compose config",
 
-    "postinstall": "patch-package"
+    "docker:run:up": "docker compose up -d",
+    "docker:run:down": "docker compose down",
+    "docker:run:logs": "docker compose logs -f"
   }
 }

@@ -85,7 +85,9 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/dormindev/nekuvio:${{ github.ref_name }}
+          tags: |
+            ghcr.io/dormindev/nekuvio:${{ github.ref_name }}
+            ghcr.io/dormindev/nekuvio:latest
           labels: |
             org.opencontainers.image.source=https://github.com/dormindev/Nekuvio
             org.opencontainers.image.version=${{ github.ref_name }}

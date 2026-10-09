@@ -2,24 +2,20 @@
   "name": "nekuvio",
   "displayName": "Nekuvio",
   "addonId": "org.nekuvio",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "https://github.com/dormindev/Nekuvio.git",
-
   "main": "dist/index.js",
   "type": "module",
-
   "engines": {
     "node": "^26",
     "npm": "^11"
   },
-
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.2",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
-
   "dependencies": {
     "bencode": "^4.0.1",
     "bittorrent-tracker": "^11.2.3",
@@ -32,24 +28,18 @@
       "ip": "npm:@bybrave/ip2@3.0.0"
     }
   },
-
   "scripts": {
     "postinstall": "patch-package",
-
     "build": "npm run build:prepare && npm run build:compile",
     "build:check": "tsc --noEmit",
     "build:prepare": "tsx scripts/generate-build-info.ts",
     "build:compile": "tsc",
-
     "test": "node --import tsx --test \"test/**/*.test.ts\"",
-
     "start": "node dist/index.js",
     "start:dev:info": "LOG_LEVEL=info tsx watch src/index.ts",
     "start:dev:debug": "LOG_LEVEL=debug tsx watch src/index.ts",
-
     "docker:build": "npm run build:prepare && docker compose build",
     "docker:build:check": "docker compose config",
-
     "docker:run:up": "docker compose up -d",
     "docker:run:down": "docker compose down",
     "docker:run:logs": "docker compose logs -f"

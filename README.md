@@ -1,6 +1,13 @@
-[![CI](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml)[![Release](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml)
-
 # Nekuvio
+
+<div align="center">
+<img src="assets/banner.png" alt="Alt text" width="100%">
+</div>
+
+## Description
+
+[![CI](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml)
+[![Release](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml)
 
 Nekuvio is a [Nuvio](https://github.com/tapframe/Nuvio) addon to be a bridge to [NekoBT](https://www.nekobt.to/).
 

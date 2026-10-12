@@ -82,7 +82,7 @@ function buildName(
       subLevel: torrent.level,
       mtl: torrent.mtl,
       otl: torrent.otl,
-      hardsubs: torrent.hardsubs,
+      hardsubs: torrent.hardsub,
       videoType: torrent.video_type,
       videoCodec: torrent.video_codec,
       batch: torrent.batch

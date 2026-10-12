@@ -7,7 +7,7 @@ Nuvio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selectio
 
 ## Real-World Cases That Inspired Tests & Verifications
 
-The tests in this repository are based on real-world Nuvio requests (from `stream_examples`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`).
+The tests in this repository are based on real-world Nuvio requests (captured in `test/examples`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`). Note that `test/examples` documents real sample requests observed in the wild rather than an exhaustive specification.
 
 ### 1. `media.anilist` Can Be `null` for Unmapped Media
 - **Discovery**: In the NekoBT catalog, anime titles are defined by having an AniDB, AniList, or MAL entry (Rule 6). While most popular anime have rich AniList metadata, certain titles (e.g. western animations, movies only indexed on TMDB/IMDb, or media mapped solely via TVDB) return `"anilist": null`.

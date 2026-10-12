@@ -6,6 +6,7 @@ This document describes the purpose of the main directories and files in the Nek
 
 ```text
 .
+├── .agent/
 ├── src/
 ├── scripts/
 ├── submodules/
@@ -14,6 +15,7 @@ This document describes the purpose of the main directories and files in the Nek
 ├── docs/
 ├── Dockerfile
 ├── compose.yaml
+├── CONTRIBUTING.md
 ├── package.json
 ├── package-lock.json
 └── tsconfig.json
@@ -111,7 +113,7 @@ The generated file contains information about the GitHub revision associated wit
 
 The application imports this information through `src/environment.ts`.
 
-The complete design is documented in [GitHub-hosted assets and build metadata](architecture/github-assets.md).
+The complete design is documented in [GitHub-hosted assets and build metadata](github-assets.md).
 
 ## `patches/`
 
@@ -121,7 +123,7 @@ The patches are installed as part of the normal dependency installation process.
 
 ## `test/`
 
-Contains the automated test suite.
+Contains the automated test suite and fixture examples.
 
 Tests are executed through:
 
@@ -135,16 +137,21 @@ Contains project documentation that is not intended to be part of the normal use
 
 ```text
 docs/
-├── architecture/
-│   └── github-assets.md
+├── decisions/
+│   ├── 001-directory-structure.md
+│   └── 002-episode-filename-matching.md
 ├── development.md
+├── docker.md
+├── github-assets.md
 ├── project-structure.md
 └── versioning.md
 ```
 
-Architecture documentation records decisions and their reasoning.
+Decisions documentation records architecture decisions and their reasoning.
 
 Development documentation describes how to work with the project.
+
+Docker documentation describes container usage and environment variables.
 
 Project-structure documentation describes how the repository is organized.
 

@@ -45,7 +45,7 @@ Nekuvio provides two development server commands.
 ### Informational logging
 
 ```bash
-npm run dev:info
+npm run start:dev:info
 ```
 
 This runs the application directly from the TypeScript source with `tsx` watch mode and informational logging.
@@ -53,7 +53,7 @@ This runs the application directly from the TypeScript source with `tsx` watch m
 ### Debug logging
 
 ```bash
-npm run dev:debug
+npm run start:dev:debug
 ```
 
 This uses the same watch-based development setup with debug logging enabled.
@@ -94,7 +94,7 @@ The generated information is consumed by the application through `src/environmen
 
 This stage requires access to the Git information needed by the generator. In CI, the GitHub Actions environment provides the relevant revision information.
 
-See [GitHub-hosted assets and build metadata](architecture/github-assets.md) for the complete design.
+See [GitHub-hosted assets and build metadata](github-assets.md) for the complete design.
 
 ### TypeScript compilation
 
@@ -129,7 +129,7 @@ dist/index.js
 Type checking without producing compiled output:
 
 ```bash
-npm run typecheck
+npm run build:check
 ```
 
 This runs TypeScript with `--noEmit`.
@@ -177,19 +177,19 @@ The separation is intentional. The build-preparation stage needs Git information
 ### Starting the container
 
 ```bash
-npm run docker:up
+npm run docker:run:up
 ```
 
 ### Viewing logs
 
 ```bash
-npm run docker:logs
+npm run docker:run:logs
 ```
 
 ### Stopping the container
 
 ```bash
-npm run docker:down
+npm run docker:run:down
 ```
 
 ## Docker Image Tags
@@ -226,20 +226,21 @@ The registry-specific image name is a CI/release concern and is not hardcoded in
 
 The npm scripts are the primary interface for common development operations.
 
-| Command                 | Purpose                                                                 |
-| ----------------------- | ----------------------------------------------------------------------- |
-| `npm run dev:info`      | Run the TypeScript application in watch mode with informational logging |
-| `npm run dev:debug`     | Run the TypeScript application in watch mode with debug logging         |
-| `npm run build`         | Generate build metadata and compile the application                     |
-| `npm run build:prepare` | Generate GitHub-related build metadata                                  |
-| `npm run build:compile` | Compile TypeScript                                                      |
-| `npm start`             | Run the compiled application                                            |
-| `npm run typecheck`     | Type-check without emitting files                                       |
-| `npm test`              | Run the test suite                                                      |
-| `npm run docker:build`  | Prepare build metadata and build the Docker image                       |
-| `npm run docker:up`     | Start the Docker Compose service                                        |
-| `npm run docker:down`   | Stop the Docker Compose service                                         |
-| `npm run docker:logs`   | Follow Docker Compose logs                                              |
+| Command                    | Purpose                                                                 |
+| -------------------------- | ----------------------------------------------------------------------- |
+| `npm run start:dev:info`   | Run the TypeScript application in watch mode with informational logging |
+| `npm run start:dev:debug`  | Run the TypeScript application in watch mode with debug logging         |
+| `npm run build`            | Generate build metadata and compile the application                     |
+| `npm run build:check`      | Type-check without emitting files                                       |
+| `npm run build:prepare`    | Generate GitHub-related build metadata                                  |
+| `npm run build:compile`    | Compile TypeScript                                                      |
+| `npm start`                | Run the compiled application                                            |
+| `npm test`                 | Run the test suite                                                      |
+| `npm run docker:build`     | Prepare build metadata and build the Docker image                       |
+| `npm run docker:build:check` | Validate docker compose configuration                                 |
+| `npm run docker:run:up`    | Start the Docker Compose service in background                          |
+| `npm run docker:run:down`  | Stop the Docker Compose service                                         |
+| `npm run docker:run:logs`  | Follow Docker Compose logs                                              |
 
 Keeping these operations behind npm scripts provides a consistent interface for developers and, later, for CI workflows.
 
@@ -259,4 +260,4 @@ The Nekobt metadata under `src/generated/` is maintained by the `nekuvio-badges`
 
 Generated files should therefore not be treated as ordinary hand-maintained application source.
 
-See [Project Structure](project-structure.md) and [GitHub-hosted assets and build metadata](architecture/github-assets.md) for more detail.
+See [Project Structure](project-structure.md) and [GitHub-hosted assets and build metadata](github-assets.md) for more detail.

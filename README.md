@@ -1,7 +1,7 @@
 # Nekuvio
 
 <div align="center">
-<img src="assets/banner.png" alt="Alt text" width="100%">
+<img src="assets/banner.png" alt="Nekuvio Banner" width="100%">
 </div>
 
 ## Description
@@ -9,17 +9,60 @@
 [![CI](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml)
 [![Release](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml)
 
-Nekuvio is a [Nuvio](https://github.com/tapframe/Nuvio) addon to be a bridge to [NekoBT](https://www.nekobt.to/).
+Nekuvio is a [Nuvio](https://github.com/tapframe/Nuvio) addon that acts as a bridge to [NekoBT](https://www.nekobt.to/), resolving anime metadata requests to torrent streams.
 
+### Pipeline Overview
+
+```
+Nuvio Request
+  → Media Resolution (Kitsu / MAL / IMDb / TVDB / etc.)
+  → Torrent Discovery (NekoBT API)
+  → File Selection (multi-strategy episode matcher)
+  → Stream Construction (metadata enrichment & tracker scrape)
+  → Nuvio Response
+```
+
+## Usage
+
+Nekuvio is distributed as a Docker container image via GitHub Packages.
+
+### Quick Start with Docker Compose
+
+Create a `docker-compose.yml` file:
+
+```yaml
+services:
+  nekuvio:
+    image: ghcr.io/dormindev/nekuvio:latest
+    container_name: nekuvio
+    restart: unless-stopped
+    ports:
+      - "7000:7000"
+    environment:
+      - PORT=7000
+      - LOG_LEVEL=info
+```
+
+Run the container:
+
+```bash
+docker compose up -d
+```
+
+Once running, configure the addon in your Nuvio client using your server URL (e.g. `http://<your-ip>:7000/manifest.json`).
+
+For full configuration options and environment variable references, see [docs/docker.md](docs/docker.md).
 
 ## Development
 
-### Requirements
+### Prerequisites
 
 * Node.js `^26`
 * npm `^11`
 
-Clone the repository with its required submodules:
+### Quick Start
+
+Clone the repository with submodules:
 
 ```bash
 git clone --recurse-submodules https://github.com/dormindev/Nekuvio.git
@@ -39,41 +82,8 @@ npm run build
 npm start
 ```
 
-For development with automatic source reloading:
-
-```bash
-npm run dev:info
-```
-
-Debug logging is also available:
-
-```bash
-npm run dev:debug
-```
-
-## Docker
-
-A Docker setup is provided for running Nekuvio as a container.
-
-```bash
-npm run docker:build
-npm run docker:up
-```
-
-To view logs:
-
-```bash
-npm run docker:logs
-```
-
-Stop the container with:
-
-```bash
-npm run docker:down
-```
+For complete development workflow, testing, and debugging commands, see [docs/development.md](docs/development.md).
 
 ## Documentation
 
-Technical architecture and implementation decisions are documented in [`docs/`](docs/).
-
-* [GitHub-hosted assets and build metadata](docs/architecture/github-assets.md)
+* [Documentation Index](docs/README.md) - Guides, references, and architecture overview

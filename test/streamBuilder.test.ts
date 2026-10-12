@@ -1,5 +1,4 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert/strict';
+import { describe, it, expect, vi } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -99,8 +98,8 @@ describe('torrentToStream', () => {
   };
 
   it('builds a stream object when episode file is matched', async () => {
-    const mockGetTorrent = async (torrentId: string): Promise<NekoTorrentItem | null> => {
-      assert.equal(torrentId, 't12345');
+    const mockGetTorrent = vi.fn(async (torrentId: string): Promise<NekoTorrentItem | null> => {
+      expect(torrentId).toBe('t12345');
       return {
         ...mockTorrentListItem,
         files: [
@@ -111,22 +110,22 @@ describe('torrentToStream', () => {
           }
         ]
       };
-    };
+    });
 
     const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
 
-    assert.ok(stream);
-    assert.equal(stream.url, mockTorrentListItem.magnet);
-    assert.equal(stream.infoHash, '6a8456cf80660c40a8e87170c3454d79997e1c2c');
-    assert.equal(stream.fileIdx, 0);
-    assert.match(stream.name, /^\[Delta\] \| NekoBT/);
-    assert.match(stream.description, /🟢↑ 15 • 🔴↓ 2/);
-    assert.match(stream.description, /🔊 {5}🇯🇵/);
-    assert.match(stream.description, /💬✨ 🇬🇧/);
-    assert.match(stream.description, /🎬 279 MB/);
-    assert.match(stream.description, /1\.63 Mbps/);
-    assert.match(stream.description, /\[Delta\] That Time I Got Reincarnated as a Slime S04E23 \[1080p\]\.mkv/);
-    assert.deepEqual(stream.sources, ['tracker:https://tracker.nekobt.to/announce']);
+    expect(stream).toBeTruthy();
+    expect(stream?.url).toBe(mockTorrentListItem.magnet);
+    expect(stream?.infoHash).toBe('6a8456cf80660c40a8e87170c3454d79997e1c2c');
+    expect(stream?.fileIdx).toBe(0);
+    expect(stream?.name).toMatch(/^\[Delta\] \| NekoBT/);
+    expect(stream?.description).toMatch(/🟢↑ 15 • 🔴↓ 2/);
+    expect(stream?.description).toMatch(/🔊 {5}🇯🇵/);
+    expect(stream?.description).toMatch(/💬✨ 🇬🇧/);
+    expect(stream?.description).toMatch(/🎬 279 MB/);
+    expect(stream?.description).toMatch(/1\.63 Mbps/);
+    expect(stream?.description).toMatch(/\[Delta\] That Time I Got Reincarnated as a Slime S04E23 \[1080p\]\.mkv/);
+    expect(stream?.sources).toEqual(['tracker:https://tracker.nekobt.to/announce']);
   });
 
   it('builds stream from real fixture torrent_s172.json', async () => {
@@ -183,14 +182,14 @@ describe('torrentToStream', () => {
       leechers: realTorrent.leechers
     };
 
-    const mockGetTorrent = async (): Promise<NekoTorrentItem | null> => realTorrent;
+    const mockGetTorrent = vi.fn(async (): Promise<NekoTorrentItem | null> => realTorrent);
 
     const stream = await torrentToStream(realSwarm, realRequest, realEpisodeInfo, mockGetTorrent);
 
-    assert.ok(stream);
-    assert.equal(stream.infoHash, realTorrent.infohash);
-    assert.equal(stream.fileIdx, 0);
-    assert.match(stream.name, /FrixySubs/);
+    expect(stream).toBeTruthy();
+    expect(stream?.infoHash).toBe(realTorrent.infohash);
+    expect(stream?.fileIdx).toBe(0);
+    expect(stream?.name).toMatch(/FrixySubs/);
   });
 
   it('builds a movie stream object using findMovieFile when request.isMovie is true', async () => {
@@ -227,32 +226,32 @@ describe('torrentToStream', () => {
       leechers: movieTorrent.leechers
     };
 
-    const mockGetTorrent = async (): Promise<NekoTorrentItem | null> => movieTorrent;
+    const mockGetTorrent = vi.fn(async (): Promise<NekoTorrentItem | null> => movieTorrent);
 
     const stream = await torrentToStream(movieSwarm, movieRequest, movieInfo, mockGetTorrent);
 
-    assert.ok(stream);
-    assert.equal(stream.fileIdx, 1);
-    assert.match(stream.description, /Spirited Away 2001 1080p\.mkv/);
+    expect(stream).toBeTruthy();
+    expect(stream?.fileIdx).toBe(1);
+    expect(stream?.description).toMatch(/Spirited Away 2001 1080p\.mkv/);
   });
 
   it('returns null if torrent info cannot be retrieved', async () => {
-    const mockGetTorrent = async () => null;
+    const mockGetTorrent = vi.fn(async () => null);
 
     const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
-    assert.equal(stream, null);
+    expect(stream).toBeNull();
   });
 
   it('returns null if episode file is not found in torrent', async () => {
-    const mockGetTorrent = async (torrentId: string): Promise<NekoTorrentItem | null> => ({
+    const mockGetTorrent = vi.fn(async (torrentId: string): Promise<NekoTorrentItem | null> => ({
       ...mockTorrentListItem,
       id: torrentId,
       files: [
         { name: 'Slime S04E01.mkv', length: 100 }
       ]
-    });
+    }));
 
     const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
-    assert.equal(stream, null);
+    expect(stream).toBeNull();
   });
 });

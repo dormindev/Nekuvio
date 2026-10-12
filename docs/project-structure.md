@@ -123,12 +123,13 @@ The patches are installed as part of the normal dependency installation process.
 
 ## `test/`
 
-Contains the automated test suite and fixture examples.
+Contains the automated test suite and fixture examples powered by Vitest.
 
 Tests are executed through:
 
 ```bash
 npm test
+npm run test:coverage
 ```
 
 ## `docs/`
@@ -139,7 +140,8 @@ Contains project documentation that is not intended to be part of the normal use
 docs/
 ├── decisions/
 │   ├── 001-directory-structure.md
-│   └── 002-episode-filename-matching.md
+│   ├── 002-episode-filename-matching.md
+│   └── 003-vitest-test-migration.md
 ├── development.md
 ├── docker.md
 ├── github-assets.md
@@ -176,6 +178,10 @@ It is also the source of application metadata such as:
 Locks the dependency tree used by `npm ci`.
 
 It should be committed alongside `package.json`.
+
+### `vitest.config.ts`
+
+Defines the Vitest test runner and coverage configuration, specifying the Node environment, test pattern, and V8 coverage provider with `text`, `lcov`, and `json-summary` reporters.
 
 ### `tsconfig.json`
 

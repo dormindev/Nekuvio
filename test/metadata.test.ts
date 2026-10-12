@@ -1,5 +1,4 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert/strict';
+import { describe, it, expect } from 'vitest';
 import { encodeNekobtMetadata } from '../src/generated/nekobt-metadata.js';
 
 describe('encodeNekobtMetadata', () => {
@@ -7,36 +6,36 @@ describe('encodeNekobtMetadata', () => {
   const END_MARKER = '\u034f';
 
   it('returns empty string for null, undefined, or empty metadata', () => {
-    assert.equal(encodeNekobtMetadata(null), '');
-    assert.equal(encodeNekobtMetadata(undefined), '');
-    assert.equal(encodeNekobtMetadata({}), '');
+    expect(encodeNekobtMetadata(null)).toBe('');
+    expect(encodeNekobtMetadata(undefined)).toBe('');
+    expect(encodeNekobtMetadata({})).toBe('');
   });
 
   it('skips subLevel when value is -1', () => {
-    assert.equal(encodeNekobtMetadata({ subLevel: -1 }), '');
+    expect(encodeNekobtMetadata({ subLevel: -1 })).toBe('');
   });
 
   it('encodes subLevel when value is non-negative integer', () => {
     const encoded = encodeNekobtMetadata({ subLevel: 1 });
-    assert.ok(encoded.length > 0);
-    assert.ok(encoded.startsWith(START_MARKER));
-    assert.ok(encoded.endsWith(END_MARKER));
+    expect(encoded.length).toBeGreaterThan(0);
+    expect(encoded.startsWith(START_MARKER)).toBe(true);
+    expect(encoded.endsWith(END_MARKER)).toBe(true);
   });
 
   it('encodes boolean flags (mtl, otl, hardsubs, batch) only when true', () => {
-    assert.equal(encodeNekobtMetadata({ mtl: false }), '');
-    assert.equal(encodeNekobtMetadata({ mtl: null }), '');
+    expect(encodeNekobtMetadata({ mtl: false })).toBe('');
+    expect(encodeNekobtMetadata({ mtl: null })).toBe('');
 
     const encodedMtl = encodeNekobtMetadata({ mtl: true });
-    assert.ok(encodedMtl.length > 0);
-    assert.ok(encodedMtl.startsWith(START_MARKER));
-    assert.ok(encodedMtl.endsWith(END_MARKER));
+    expect(encodedMtl.length).toBeGreaterThan(0);
+    expect(encodedMtl.startsWith(START_MARKER)).toBe(true);
+    expect(encodedMtl.endsWith(END_MARKER)).toBe(true);
 
     const encodedOtl = encodeNekobtMetadata({ otl: true });
-    assert.ok(encodedOtl.length > 0);
+    expect(encodedOtl.length).toBeGreaterThan(0);
 
     const encodedBatch = encodeNekobtMetadata({ batch: true });
-    assert.ok(encodedBatch.length > 0);
+    expect(encodedBatch.length).toBeGreaterThan(0);
   });
 
   it('encodes numeric fields (videoType, videoCodec)', () => {
@@ -44,9 +43,9 @@ describe('encodeNekobtMetadata', () => {
       videoType: 1,
       videoCodec: 2
     });
-    assert.ok(encoded.length > 0);
-    assert.ok(encoded.includes(START_MARKER));
-    assert.ok(encoded.includes(END_MARKER));
+    expect(encoded.length).toBeGreaterThan(0);
+    expect(encoded.includes(START_MARKER)).toBe(true);
+    expect(encoded.includes(END_MARKER)).toBe(true);
   });
 
   it('combines multiple metadata fields into consecutive badge sequences', () => {
@@ -57,11 +56,11 @@ describe('encodeNekobtMetadata', () => {
       videoCodec: 1
     });
 
-    assert.ok(combined.length > 0);
+    expect(combined.length).toBeGreaterThan(0);
     // Should contain 4 badge sequences (4 start and 4 end markers)
     const startCount = combined.split(START_MARKER).length - 1;
     const endCount = combined.split(END_MARKER).length - 1;
-    assert.equal(startCount, 4);
-    assert.equal(endCount, 4);
+    expect(startCount).toBe(4);
+    expect(endCount).toBe(4);
   });
 });

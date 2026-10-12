@@ -92,12 +92,20 @@ curl -s "https://kitsu.io/api/edge/anime/49235/mappings" > test/fixtures/kitsu_4
 - **`test/matcher.test.ts`**: Tests `fitInfo`, `findMovieFile`, and `findEpisodeFile` across all naming patterns and edge cases.
 - **`test/streamBuilder.test.ts`**: Tests `torrentToStream` stream object construction, magnet resolution, badges, and file index mapping.
 - **`test/metadata.test.ts`**: Tests `encodeNekobtMetadata` base-4 invisible unicode marker encoding for NekoBT badges.
+- **`test/api.test.ts`**: Tests external API integrations (`Kitsu`, `NekoBT`, and `TrackerScrapper`) with mocked requests and fixtures.
 
 ---
 
 ## Running Tests
 
-Run all unit tests with:
+Run unit tests in watch/interactive mode with Vitest:
 ```bash
 npm test
 ```
+
+Run single-pass tests with V8 code coverage:
+```bash
+npm run test:coverage
+```
+
+Coverage reports are output to the terminal as well as generated under `coverage/` in `text`, `lcov`, and `json-summary` (`coverage/coverage-summary.json`) formats.

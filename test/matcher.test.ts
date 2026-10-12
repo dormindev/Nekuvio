@@ -1,5 +1,4 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert/strict';
+import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -58,13 +57,13 @@ describe('fitInfo', () => {
     };
 
     const info = fitInfo(mockNekoId, mockMedia, request);
-    assert.equal(info.media_id, 's172');
-    assert.ok(info.season);
-    assert.equal(info.season.season, 4);
-    assert.ok(info.episode);
-    assert.equal(info.episode.episode, 23);
-    assert.equal(info.episode.absolute, 95);
-    assert.equal(info.episode.id, 220939);
+    expect(info.media_id).toBe('s172');
+    expect(info.season).toBeTruthy();
+    expect(info.season?.season).toBe(4);
+    expect(info.episode).toBeTruthy();
+    expect(info.episode?.episode).toBe(23);
+    expect(info.episode?.absolute).toBe(95);
+    expect(info.episode?.id).toBe(220939);
   });
 
   it('supports offset dst_start and src_start calculations with isPrimary', () => {
@@ -104,9 +103,9 @@ describe('fitInfo', () => {
     };
 
     const info = fitInfo({ media_id: 's99', anilist_id: 9999, isMovie: false }, customMedia, request);
-    assert.ok(info.episode);
-    assert.equal(info.episode.episode, 2);
-    assert.equal(info.episode.id, 555);
+    expect(info.episode).toBeTruthy();
+    expect(info.episode?.episode).toBe(2);
+    expect(info.episode?.id).toBe(555);
   });
 
   it('handles movie request: returns null episode when nekoId.isMovie is true', () => {
@@ -139,8 +138,8 @@ describe('fitInfo', () => {
     };
 
     const info = fitInfo({ media_id: 'm1', anilist_id: 1111, isMovie: true }, movieMedia, request);
-    assert.equal(info.media_id, 'm1');
-    assert.equal(info.episode, null);
+    expect(info.media_id).toBe('m1');
+    expect(info.episode).toBeNull();
   });
 
   it('handles media with null anilist (unmapped media like s11599 or m1305) without crashing', () => {
@@ -168,10 +167,10 @@ describe('fitInfo', () => {
     };
 
     const info = fitInfo({ media_id: 's11599', isMovie: false }, mediaWithoutAnilist, request);
-    assert.equal(info.media_id, 's11599');
-    assert.equal(info.season, null);
-    assert.ok(info.episode);
-    assert.equal(info.episode.id, 101);
+    expect(info.media_id).toBe('s11599');
+    expect(info.season).toBeNull();
+    expect(info.episode).toBeTruthy();
+    expect(info.episode?.id).toBe(101);
   });
 
   it('resolves real fixture s172 (Slime S4) accurately', () => {
@@ -186,11 +185,11 @@ describe('fitInfo', () => {
     };
 
     const info = fitInfo({ media_id: 's172', anilist_id: 182205, isMovie: false }, realMedia, request);
-    assert.ok(info.season);
-    assert.equal(info.season.season, 4);
-    assert.ok(info.episode);
-    assert.equal(info.episode.episode, 23);
-    assert.equal(info.episode.absolute, 95);
+    expect(info.season).toBeTruthy();
+    expect(info.season?.season).toBe(4);
+    expect(info.episode).toBeTruthy();
+    expect(info.episode?.episode).toBe(23);
+    expect(info.episode?.absolute).toBe(95);
   });
 
   it('falls back to request season and episode in media.episodes when season info is null', () => {
@@ -228,15 +227,15 @@ describe('fitInfo', () => {
     };
 
     const info = fitInfo({ media_id: 's1', anilist_id: 999999, isMovie: false }, mediaWithSpecialEpisode, request);
-    assert.equal(info.season, null);
-    assert.ok(info.episode);
-    assert.equal(info.episode.id, 9991);
-    assert.equal(info.episode.season, 0);
-    assert.equal(info.episode.episode, 1);
+    expect(info.season).toBeNull();
+    expect(info.episode).toBeTruthy();
+    expect(info.episode?.id).toBe(9991);
+    expect(info.episode?.season).toBe(0);
+    expect(info.episode?.episode).toBe(1);
   });
 
   it('throws error if episode entry is not found in media.episodes', () => {
-    assert.throws(() => {
+    expect(() => {
       fitInfo(mockNekoId, mockMedia, {
         provider: 'imdb',
         externalId: 'tt1',
@@ -245,7 +244,7 @@ describe('fitInfo', () => {
         season: 4,
         episode: 99
       });
-    }, /Episode entry with season 4 and episode 99 not found/);
+    }).toThrow(/Episode entry with season 4 and episode 99 not found/);
   });
 });
 
@@ -267,14 +266,14 @@ describe('findMovieFile', () => {
     };
 
     const match = findMovieFile(torrent, dummyInfo);
-    assert.ok(match);
-    assert.equal(match.index, 1);
-    assert.equal(match.name, 'Spirited.Away.2001.1080p.BluRay.x265.mkv');
-    assert.equal(match.length, 4_500_000_000);
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(1);
+    expect(match?.name).toBe('Spirited.Away.2001.1080p.BluRay.x265.mkv');
+    expect(match?.length).toBe(4_500_000_000);
   });
 
   it('returns null if files list is empty', () => {
-    assert.equal(findMovieFile({ files: [] }, dummyInfo), null);
+    expect(findMovieFile({ files: [] }, dummyInfo)).toBeNull();
   });
 });
 
@@ -308,9 +307,9 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, info);
-    assert.ok(match);
-    assert.equal(match.index, 1);
-    assert.equal(match.name, '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv');
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(1);
+    expect(match?.name).toBe('[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv');
   });
 
   it('matches files with multi-episode range SxxEyy-Ezz pattern', () => {
@@ -323,9 +322,9 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, info);
-    assert.ok(match);
-    assert.equal(match.index, 1);
-    assert.equal(match.name, '[Group] That Time I Got Reincarnated as a Slime S04E20-E24 [1080p].mkv');
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(1);
+    expect(match?.name).toBe('[Group] That Time I Got Reincarnated as a Slime S04E20-E24 [1080p].mkv');
   });
 
   it('matches files with dot/underscore separated SxxEyy pattern', () => {
@@ -339,8 +338,8 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, info);
-    assert.ok(match);
-    assert.equal(match.index, 0);
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
   });
 
   it('matches files with separated season and episode pattern', () => {
@@ -351,8 +350,8 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, info);
-    assert.ok(match);
-    assert.equal(match.index, 0);
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
   });
 
   it('matches files using absolute episode pattern when SxxEyy is absent', () => {
@@ -365,9 +364,9 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, info);
-    assert.ok(match);
-    assert.equal(match.index, 1);
-    assert.equal(match.name, '[FrixySubs] Tensei Shitara Slime Datta Ken - 95 [1080p].mkv');
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(1);
+    expect(match?.name).toBe('[FrixySubs] Tensei Shitara Slime Datta Ken - 95 [1080p].mkv');
   });
 
   it('matches files with EP / E prefix and leading zeros in absolute episode', () => {
@@ -378,8 +377,8 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, info);
-    assert.ok(match);
-    assert.equal(match.index, 0);
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
   });
 
   it('matches files when info.season is null using info.episode.season', () => {
@@ -395,12 +394,12 @@ describe('findEpisodeFile', () => {
     };
 
     const match = findEpisodeFile(torrent, infoWithoutSeason);
-    assert.ok(match);
-    assert.equal(match.index, 0);
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
   });
 
   it('returns null if torrent files array is empty', () => {
-    assert.equal(findEpisodeFile({ files: [] }, info), null);
+    expect(findEpisodeFile({ files: [] }, info)).toBeNull();
   });
 
   it('returns null if no files match the episode', () => {
@@ -411,6 +410,6 @@ describe('findEpisodeFile', () => {
       ]
     };
 
-    assert.equal(findEpisodeFile(torrent, info), null);
+    expect(findEpisodeFile(torrent, info)).toBeNull();
   });
 });

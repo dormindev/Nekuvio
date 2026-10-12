@@ -138,13 +138,19 @@ This is useful for development and CI checks where compilation output is not req
 
 ## Tests
 
-Run the test suite with:
+Run the test suite in watch/interactive mode with Vitest:
 
 ```bash
 npm test
 ```
 
-The tests use Node's built-in test runner with `tsx` to execute TypeScript test files.
+Generate test coverage with V8 provider (`text`, `lcov`, `json-summary`):
+
+```bash
+npm run test:coverage
+```
+
+The tests use Vitest with `@vitest/coverage-v8`. Coverage reports are written to the `coverage/` directory, including `coverage/coverage-summary.json`.
 
 Test files are located under:
 
@@ -235,7 +241,8 @@ The npm scripts are the primary interface for common development operations.
 | `npm run build:prepare`    | Generate GitHub-related build metadata                                  |
 | `npm run build:compile`    | Compile TypeScript                                                      |
 | `npm start`                | Run the compiled application                                            |
-| `npm test`                 | Run the test suite                                                      |
+| `npm test`                 | Run the test suite with Vitest                                          |
+| `npm run test:coverage`    | Run the test suite once with V8 code coverage analysis                  |
 | `npm run docker:build`     | Prepare build metadata and build the Docker image                       |
 | `npm run docker:build:check` | Validate docker compose configuration                                 |
 | `npm run docker:run:up`    | Start the Docker Compose service in background                          |

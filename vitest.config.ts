@@ -1,0 +1,18 @@
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  resolve: {
+    preserveSymlinks: true
+  },
+  test: {
+    environment: 'node',
+    include: ['test/**/*.test.ts'],
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'lcov', 'json-summary'],
+      reportsDirectory: './coverage',
+      include: ['src/**/*.ts'],
+      exclude: ['src/types.ts', 'src/types/**', 'src/generated/build-info.ts']
+    }
+  }
+});

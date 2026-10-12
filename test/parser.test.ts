@@ -1,11 +1,10 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert/strict';
+import { describe, it, expect } from 'vitest';
 import { parseNuvioId } from '../src/utils/parser.js';
 
 describe('parseNuvioId', () => {
   it('parses IMDB series ID with season and episode', () => {
     const parsed = parseNuvioId('series', 'tt6455986:1:5');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'imdb',
       externalId: 'tt6455986',
       season: 1,
@@ -17,7 +16,7 @@ describe('parseNuvioId', () => {
 
   it('parses IMDB series ID with season 0 (specials)', () => {
     const parsed = parseNuvioId('series', 'tt0434665:0:99');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'imdb',
       externalId: 'tt0434665',
       season: 0,
@@ -29,7 +28,7 @@ describe('parseNuvioId', () => {
 
   it('parses IMDB movie ID with null season and episode', () => {
     const parsed = parseNuvioId('movie', 'tt5323662');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'imdb',
       externalId: 'tt5323662',
       season: null,
@@ -41,7 +40,7 @@ describe('parseNuvioId', () => {
 
   it('parses Kitsu anime series ID (no season component, high episode number)', () => {
     const parsed = parseNuvioId('series', 'kitsu:49235:24');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'kitsu',
       externalId: '49235',
       season: null,
@@ -51,7 +50,7 @@ describe('parseNuvioId', () => {
     });
 
     const longRunning = parseNuvioId('series', 'kitsu:12:1180');
-    assert.deepEqual(longRunning, {
+    expect(longRunning).toEqual({
       provider: 'kitsu',
       externalId: '12',
       season: null,
@@ -63,7 +62,7 @@ describe('parseNuvioId', () => {
 
   it('parses MAL anime series ID', () => {
     const parsed = parseNuvioId('series', 'mal:12345:12');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'mal',
       externalId: '12345',
       season: null,
@@ -75,7 +74,7 @@ describe('parseNuvioId', () => {
 
   it('parses AniList anime series ID', () => {
     const parsed = parseNuvioId('series', 'anilist:182205:23');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'anilist',
       externalId: '182205',
       season: null,
@@ -87,7 +86,7 @@ describe('parseNuvioId', () => {
 
   it('parses generic provider with season and episode (e.g. tmdb/tvdb)', () => {
     const parsed = parseNuvioId('series', 'tmdb:1234:2:8');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'tmdb',
       externalId: '1234',
       season: 2,
@@ -97,7 +96,7 @@ describe('parseNuvioId', () => {
     });
 
     const parsedTvdb = parseNuvioId('series', 'tvdb:5678:3:15');
-    assert.deepEqual(parsedTvdb, {
+    expect(parsedTvdb).toEqual({
       provider: 'tvdb',
       externalId: '5678',
       season: 3,
@@ -109,7 +108,7 @@ describe('parseNuvioId', () => {
 
   it('parses movie from anime provider', () => {
     const parsed = parseNuvioId('movie', 'mal:64012');
-    assert.deepEqual(parsed, {
+    expect(parsed).toEqual({
       provider: 'mal',
       externalId: '64012',
       season: null,
@@ -120,32 +119,32 @@ describe('parseNuvioId', () => {
   });
 
   it('throws an error if externalId is missing', () => {
-    assert.throws(() => {
+    expect(() => {
       parseNuvioId('series', '');
-    }, /External ID is empty/);
+    }).toThrow(/External ID is empty/);
   });
 
   it('throws an error if anime series episode is not a number', () => {
-    assert.throws(() => {
+    expect(() => {
       parseNuvioId('series', 'kitsu:1234:abc');
-    }, /Episode is not a number/);
+    }).toThrow(/Episode is not a number/);
 
-    assert.throws(() => {
+    expect(() => {
       parseNuvioId('series', 'kitsu:1234');
-    }, /Episode is not a number/);
+    }).toThrow(/Episode is not a number/);
   });
 
   it('throws an error if regular series season or episode is not a number', () => {
-    assert.throws(() => {
+    expect(() => {
       parseNuvioId('series', 'tt1234567:x:1');
-    }, /Season or episode is not a number/);
+    }).toThrow(/Season or episode is not a number/);
 
-    assert.throws(() => {
+    expect(() => {
       parseNuvioId('series', 'tt1234567:1');
-    }, /Season or episode is not a number/);
+    }).toThrow(/Season or episode is not a number/);
 
-    assert.throws(() => {
+    expect(() => {
       parseNuvioId('series', 'tmdb:1234:1:y');
-    }, /Season or episode is not a number/);
+    }).toThrow(/Season or episode is not a number/);
   });
 });

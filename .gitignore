@@ -4,4 +4,5 @@
 .vscode/settings.json
 node_modules/
 dist/
+coverage/
 src/generated/build-info.ts

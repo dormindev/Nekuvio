@@ -36,6 +36,7 @@ export const logger = {
     },
 
     error(...args: unknown[]) {
+        /* v8 ignore else -- "error" is the highest level, so it always logs */
         if (shouldLog("error")) {
             console.error("[ERROR]", ...args);
         }

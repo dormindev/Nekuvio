@@ -63,4 +63,19 @@ describe('encodeNekobtMetadata', () => {
     expect(startCount).toBe(4);
     expect(endCount).toBe(4);
   });
+
+  it('skips numeric fields whose value exceeds the field width', () => {
+    // videoType has width 3 (max 4^3 - 1 = 63), so 100 cannot be encoded.
+    expect(encodeNekobtMetadata({ videoType: 100 })).toBe('');
+  });
+
+  it('skips numeric fields with negative or non-integer values', () => {
+    expect(encodeNekobtMetadata({ videoCodec: -1 })).toBe('');
+    expect(encodeNekobtMetadata({ videoCodec: 1.5 })).toBe('');
+    expect(encodeNekobtMetadata({ subLevel: 2.5 })).toBe('');
+  });
+
+  it('ignores unknown field keys', () => {
+    expect(encodeNekobtMetadata({ notARealField: 5 } as any)).toBe('');
+  });
 });

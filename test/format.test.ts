@@ -3,7 +3,8 @@ import {
   formatBytes,
   formatAverageBitrate,
   formatLanguages,
-  formatLanguageFlags
+  formatLanguageFlags,
+  formatTimestamp
 } from '../src/utils/format.js';
 
 describe('formatBytes', () => {
@@ -95,6 +96,11 @@ describe('formatLanguages', () => {
     expect(formatLanguages({ audio_lang: '', sub_lang: '' })).toBe('RAW');
   });
 
+  it('returns RAW when language strings contain only separators', () => {
+    expect(formatLanguages({ audio_lang: ',' })).toBe('RAW');
+    expect(formatLanguages({ audio_lang: ' , , ', sub_lang: ' , ' })).toBe('RAW');
+  });
+
   it('handles spaces and trims tokens properly', () => {
     const torrent = {
       audio_lang: ' ja ,  en ',
@@ -134,5 +140,22 @@ describe('formatLanguageFlags', () => {
 
   it('filters out unknown language codes while retaining valid flags', () => {
     expect(formatLanguageFlags('ja, unknown_lang, en')).toBe('🇯🇵🇬🇧');
+  });
+});
+
+describe('formatTimestamp', () => {
+  it('appends the time for recent timestamps', () => {
+    const formatted = formatTimestamp(Date.now());
+    expect(formatted).toMatch(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/);
+  });
+
+  it('omits the time for timestamps older than yesterday', () => {
+    const formatted = formatTimestamp(0);
+    expect(formatted).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+  });
+
+  it('honours an explicit timezone', () => {
+    const formatted = formatTimestamp(Date.now(), 'UTC');
+    expect(formatted).toMatch(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/);
   });
 });

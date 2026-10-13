@@ -87,12 +87,20 @@ curl -s "https://kitsu.io/api/edge/anime/49235/mappings" > test/fixtures/kitsu_4
 
 ## Test Files Overview
 
-- **`test/format.test.ts`**: Tests `formatBytes`, `formatAverageBitrate`, `formatLanguages`, and `formatLanguageFlags`.
+- **`test/format.test.ts`**: Tests `formatBytes`, `formatAverageBitrate`, `formatLanguages`, `formatLanguageFlags`, and `formatTimestamp`.
 - **`test/parser.test.ts`**: Tests `parseNuvioId` for movies, series, anime providers (Kitsu, MAL, AniList), and specials (Season 0).
 - **`test/matcher.test.ts`**: Tests `fitInfo`, `findMovieFile`, and `findEpisodeFile` across all naming patterns and edge cases.
 - **`test/streamBuilder.test.ts`**: Tests `torrentToStream` stream object construction, magnet resolution, badges, and file index mapping.
 - **`test/metadata.test.ts`**: Tests `encodeNekobtMetadata` base-4 invisible unicode marker encoding for NekoBT badges.
 - **`test/api.test.ts`**: Tests external API integrations (`Kitsu`, `NekoBT`, and `TrackerScrapper`) with mocked requests and fixtures.
+- **`test/app.test.ts`**: Drives the Express app (`src/app.ts`) via supertest — manifest, CORS, the `/stream` route (series, movie, Kitsu translation, unresolvable media, and error paths), plus `startServer`.
+- **`test/logger.test.ts`**: Tests the `logger` level filtering across `LOG_LEVEL` values (`debug`, `error`, invalid, and unset).
+
+### App vs. entrypoint
+
+The Express configuration, middleware, and routes live in `src/app.ts` (importable with no side effects, so supertest can wrap it). `src/index.ts` is the thin production entrypoint that simply calls `startServer()`; it is excluded from coverage since it contains no logic.
+
+
 
 ---
 

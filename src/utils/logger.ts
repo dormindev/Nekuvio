@@ -1,4 +1,4 @@
-const levels = ["debug", "info", "warn", "error"] as const;
+const levels = ["debug", "info", "warn", "error", "off"] as const;
 
 type LogLevel = (typeof levels)[number];
 
@@ -36,7 +36,6 @@ export const logger = {
     },
 
     error(...args: unknown[]) {
-        /* v8 ignore else -- "error" is the highest level, so it always logs */
         if (shouldLog("error")) {
             console.error("[ERROR]", ...args);
         }

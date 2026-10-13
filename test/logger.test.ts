@@ -57,6 +57,20 @@ describe('logger', () => {
     expect(console.error).toHaveBeenCalledWith('[ERROR]', 'e');
   });
 
+  it('suppresses every level, including error, when LOG_LEVEL is off', async () => {
+    const { logger } = await loadLogger('off');
+
+    logger.debug('d');
+    logger.info('i');
+    logger.warn('w');
+    logger.error('e');
+
+    expect(console.debug).not.toHaveBeenCalled();
+    expect(console.info).not.toHaveBeenCalled();
+    expect(console.warn).not.toHaveBeenCalled();
+    expect(console.error).not.toHaveBeenCalled();
+  });
+
   it('falls back to info for an unrecognised LOG_LEVEL', async () => {
     const { logger } = await loadLogger('not-a-level');
 

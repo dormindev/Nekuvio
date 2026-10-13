@@ -1,3 +1,5 @@
+.clineignore
+.devcontainer
 .env
 .env.local
 .venv

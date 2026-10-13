@@ -1,4 +1,4 @@
-const levels = ["debug", "info", "warn", "error"] as const;
+const levels = ["debug", "info", "warn", "error", "off"] as const;
 
 type LogLevel = (typeof levels)[number];
 

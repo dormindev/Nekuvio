@@ -246,6 +246,141 @@ describe('fitInfo', () => {
       });
     }).toThrow(/Episode entry with season 4 and episode 99 not found/);
   });
+
+  it('handles the anime-provider season-with-episode-0 offset and skips season 0 entries', () => {
+    const media: NekoMediaData = {
+      anilist: {
+        primary: { id: 500 },
+        entries: [
+          // Season 0 special: skipped by the anime-provider branch.
+          { season: 0, src_start: 1, src_end: 1, dst_start: 1, dst_end: 1, ord: 0, anilist_id: 500 },
+          // dst_start === 2 && ord === 1: probable season with an episode 0.
+          { season: 1, src_start: 1, src_end: 12, dst_start: 2, dst_end: 13, ord: 1, anilist_id: 500 }
+        ]
+      },
+      episodes: [
+        // isPrimary: episode 2 + (-dst_start + 1) = 2 + (-1) = 1
+        { id: 900, season: 1, episode: 1, absolute: 2 }
+      ]
+    };
+
+    const request: NuvioParsedRequest = {
+      provider: 'kitsu',
+      externalId: '1',
+      isMovie: false,
+      isAnimeProvider: true,
+      season: null,
+      episode: 2
+    };
+
+    const info = fitInfo({ media_id: 's1', anilist_id: 500, isMovie: false }, media, request);
+    expect(info.episode?.id).toBe(900);
+  });
+
+  it('applies the src_start offset when the matched season is not primary', () => {
+    const media: NekoMediaData = {
+      anilist: {
+        primary: { id: 111 }, // differs from nekoId.anilist_id -> isPrimary false
+        entries: [
+          { season: 3, src_start: 10, src_end: 30, dst_start: 1, dst_end: 20, anilist_id: 999 }
+        ]
+      },
+      episodes: [
+        // not primary: episode 12 + (src_start - 1) = 12 + 9 = 21
+        { id: 950, season: 3, episode: 21, absolute: 40 }
+      ]
+    };
+
+    const request: NuvioParsedRequest = {
+      provider: 'kitsu',
+      externalId: '1',
+      isMovie: false,
+      isAnimeProvider: true,
+      season: null,
+      episode: 12
+    };
+
+    const info = fitInfo({ media_id: 's1', anilist_id: 999, isMovie: false }, media, request);
+    expect(info.episode?.id).toBe(950);
+  });
+
+  it('skips anilist entries whose season does not match a non-anime request', () => {
+    const media: NekoMediaData = {
+      anilist: {
+        primary: { id: 182205 },
+        entries: [
+          { season: 3, src_start: 1, src_end: 12, dst_start: 1, dst_end: 12, anilist_id: 182205 },
+          { season: 4, src_start: 1, src_end: 24, dst_start: 1, dst_end: 24, anilist_id: 182205 }
+        ]
+      },
+      episodes: [
+        { id: 220939, season: 4, episode: 23, absolute: 95 }
+      ]
+    };
+
+    const request: NuvioParsedRequest = {
+      provider: 'imdb',
+      externalId: 'tt1',
+      isMovie: false,
+      isAnimeProvider: false,
+      season: 4,
+      episode: 23
+    };
+
+    const info = fitInfo({ media_id: 's172', anilist_id: 182205, isMovie: false }, media, request);
+    expect(info.episode?.id).toBe(220939);
+  });
+
+  it('uses the season src_start when a movie request resolves to series media', () => {
+    const media: NekoMediaData = {
+      anilist: {
+        primary: { id: 700 },
+        entries: [
+          { season: 2, src_start: 5, src_end: 10, dst_start: 1, dst_end: 6, anilist_id: 700 }
+        ]
+      },
+      episodes: [
+        { id: 800, season: 2, episode: 5, absolute: 30 }
+      ]
+    };
+
+    const request: NuvioParsedRequest = {
+      provider: 'imdb',
+      externalId: 'tt1',
+      isMovie: true,
+      isAnimeProvider: false,
+      season: null,
+      episode: null
+    };
+
+    const info = fitInfo({ media_id: 's1', anilist_id: 700, isMovie: false }, media, request);
+    expect(info.episode?.id).toBe(800);
+  });
+
+  it('throws when movie-resolved media is requested as a series', () => {
+    const media: NekoMediaData = {
+      anilist: {
+        primary: { id: 600 },
+        entries: [
+          { season: null as any, src_start: 1, src_end: 1, dst_start: 1, dst_end: 1, anilist_id: 600 }
+        ]
+      },
+      episodes: []
+    };
+
+    const request: NuvioParsedRequest = {
+      provider: 'imdb',
+      externalId: 'tt1',
+      isMovie: false,
+      isAnimeProvider: false,
+      season: 1,
+      episode: 1
+    };
+
+    expect(() =>
+      fitInfo({ media_id: 'm1', anilist_id: 600, isMovie: true }, media, request)
+    ).toThrow(/do not match/);
+  });
 });
 
 describe('findMovieFile', () => {
@@ -411,5 +546,72 @@ describe('findEpisodeFile', () => {
     };
 
     expect(findEpisodeFile(torrent, info)).toBeNull();
+  });
+
+  it('matches files by named season including synonyms', () => {
+    const namedInfo: FitInfoResult = {
+      ...info,
+      season: {
+        ...info.season!,
+        media: {
+          title: {
+            romaji: 'Tensei Shitara Slime Datta Ken 4th Season',
+            english: 'That Time I Got Reincarnated as a Slime Season 4',
+            native: '転生したらスライムだった件',
+            synonyms: ['Tensura 4']
+          }
+        }
+      }
+    };
+
+    const torrent = {
+      files: [
+        { name: 'Tensura 4 - 23 [1080p].mkv', length: 1000 }
+      ]
+    };
+
+    const match = findEpisodeFile(torrent, namedInfo);
+    expect(match?.index).toBe(0);
+  });
+
+  it('matches files by named season when there are no synonyms', () => {
+    const namedInfo: FitInfoResult = {
+      ...info,
+      season: {
+        ...info.season!,
+        media: {
+          title: {
+            romaji: 'Slime',
+            english: 'Slime',
+            native: 'スライム',
+            synonyms: []
+          }
+        }
+      }
+    };
+
+    const torrent = {
+      files: [
+        { name: 'Slime - 23 [1080p].mkv', length: 1000 }
+      ]
+    };
+
+    const match = findEpisodeFile(torrent, namedInfo);
+    expect(match?.index).toBe(0);
+  });
+
+  it('skips absolute matching when the absolute episode number is missing', () => {
+    const zeroAbsoluteInfo: FitInfoResult = {
+      ...info,
+      episode: { ...info.episode!, absolute: 0 }
+    };
+
+    const torrent = {
+      files: [
+        { name: 'Random Show - 95.mkv', length: 1000 }
+      ]
+    };
+
+    expect(findEpisodeFile(torrent, zeroAbsoluteInfo)).toBeNull();
   });
 });

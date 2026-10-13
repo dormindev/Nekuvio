@@ -33,6 +33,10 @@ vi.mock('bittorrent-tracker', () => {
 const mockedFetch = vi.mocked(fetch);
 const mockedTracker = vi.mocked(Client);
 
+afterEach(() => {
+  vi.useRealTimers();
+});
+
 describe('api/kitsu', () => {
   beforeEach(() => {
     vi.clearAllMocks();
@@ -83,6 +87,20 @@ describe('api/kitsu', () => {
       ok: true,
       status: 200,
       json: async () => ({ data: [] })
+    } as unknown as Response;
+
+    mockedFetch.mockResolvedValueOnce(mockResponse);
+
+    await expect(resolveKitsuToExternal('12345')).rejects.toThrow(
+      'No useful mapping found for Kitsu ID 12345'
+    );
+  });
+
+  it('treats a non-array data payload as having no mappings', async () => {
+    const mockResponse = {
+      ok: true,
+      status: 200,
+      json: async () => ({ data: null })
     } as unknown as Response;
 
     mockedFetch.mockResolvedValueOnce(mockResponse);
@@ -252,6 +270,109 @@ describe('api/nekobt', () => {
 
     vi.useRealTimers();
   });
+
+  it('nekoFetch defaults the retry wait when no retry-after is provided', async () => {
+    vi.useFakeTimers();
+
+    const rateLimitResponse = {
+      ok: false,
+      status: 429,
+      headers: new Map(),
+      clone: () => ({ json: async () => ({}) })
+    } as unknown as Response;
+
+    const okResponse = {
+      ok: true,
+      status: 200,
+      json: async () => ({ success: true })
+    } as unknown as Response;
+
+    mockedFetch
+      .mockResolvedValueOnce(rateLimitResponse)
+      .mockResolvedValueOnce(okResponse);
+
+    const fetchPromise = nekoFetch('https://nekobt.to/api/v1/test');
+    await vi.advanceTimersByTimeAsync(2100);
+
+    const result = await fetchPromise;
+    expect(result.data).toEqual({ success: true });
+  });
+
+  it('nekoFetch rethrows network errors', async () => {
+    mockedFetch.mockRejectedValueOnce(new Error('network down'));
+
+    await expect(nekoFetch('https://nekobt.to/api/v1/test')).rejects.toThrow('network down');
+  });
+
+  it('nekoFetch returns null data for a non-JSON response body', async () => {
+    mockedFetch.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => {
+        throw new Error('invalid json');
+      }
+    } as unknown as Response);
+
+    const result = await nekoFetch('https://nekobt.to/api/v1/test');
+    expect(result.data).toBeNull();
+  });
+
+  it('resolveMediaId returns null when the response carries no data', async () => {
+    mockedFetch.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => null
+    } as unknown as Response);
+
+    const result = await resolveMediaId('anilist-1');
+    expect(result).toBeNull();
+  });
+
+  it('getMedia returns null when the response carries no data', async () => {
+    mockedFetch.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({})
+    } as unknown as Response);
+
+    const result = await getMedia('s172');
+    expect(result).toBeNull();
+  });
+
+  it('searchTorrents omits the episode filter when episodeId is null', async () => {
+    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+
+    mockedFetch.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({ data: { results: [realTorrent] } })
+    } as unknown as Response);
+
+    const result = await searchTorrents('s172', null);
+    expect(result).toEqual([realTorrent]);
+  });
+
+  it('searchTorrents returns an empty array when results are not an array', async () => {
+    mockedFetch.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({ data: {} })
+    } as unknown as Response);
+
+    const result = await searchTorrents('s172', 220940);
+    expect(result).toEqual([]);
+  });
+
+  it('getTorrent returns null when the response carries no data', async () => {
+    mockedFetch.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({})
+    } as unknown as Response);
+
+    const result = await getTorrent('123');
+    expect(result).toBeNull();
+  });
 });
 
 describe('api/tracker-scrapper', () => {
@@ -294,5 +415,121 @@ describe('api/tracker-scrapper', () => {
     expect(swarms).toHaveLength(1);
     expect(swarms[0].seeders).toBe(0);
     expect(swarms[0].leechers).toBe(0);
+  });
+
+  it('times out and defaults stats when a tracker never responds', async () => {
+    vi.useFakeTimers();
+    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const destroy = vi.fn();
+
+    mockedTracker.scrape.mockImplementation(() => ({ destroy }) as any);
+
+    const promise = scrapeTorrents([realTorrent], 500);
+    await vi.advanceTimersByTimeAsync(500);
+    const swarms = await promise;
+
+    expect(destroy).toHaveBeenCalled();
+    expect(swarms).toHaveLength(1);
+    expect(swarms[0].seeders).toBe(0);
+    expect(swarms[0].leechers).toBe(0);
+  });
+
+  it('ignores a tracker callback that arrives after the timeout', async () => {
+    vi.useFakeTimers();
+    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    let capturedCb: ((error: any, data: any) => void) | undefined;
+
+    mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
+      capturedCb = cb;
+      return { destroy: vi.fn() } as any;
+    });
+
+    const promise = scrapeTorrents([realTorrent], 500);
+    await vi.advanceTimersByTimeAsync(500);
+
+    // The timeout already settled the request; a late callback must be a no-op.
+    capturedCb?.(null, {});
+    const swarms = await promise;
+
+    expect(swarms).toHaveLength(1);
+    expect(swarms[0].seeders).toBe(0);
+  });
+
+  it('safely ignores a timeout that fires after the scrape already settled', async () => {
+    vi.useFakeTimers();
+    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    // Simulate the defensive case where the timeout is not cleared in time, so it
+    // can fire after the scrape callback has already settled the request.
+    const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout').mockImplementation(() => {});
+
+    mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
+      cb(null, {
+        [realTorrent.infohash.toLowerCase()]: { complete: 5, incomplete: 1, downloaded: 2 }
+      });
+      return { destroy: vi.fn() } as any;
+    });
+
+    try {
+      const promise = scrapeTorrents([realTorrent], 500);
+      await vi.runAllTimersAsync();
+      const swarms = await promise;
+
+      // Resolved from the scrape callback, not rejected by the stale timeout.
+      expect(swarms[0].seeders).toBe(5);
+      expect(swarms[0].leechers).toBe(1);
+    } finally {
+      clearTimeoutSpy.mockRestore();
+    }
+  });
+
+  it('handles a single ScrapeResult response', async () => {
+    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+
+    mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
+      cb(null, {
+        infoHash: realTorrent.infohash,
+        complete: 10,
+        incomplete: 2,
+        downloaded: 50
+      });
+      return { destroy: vi.fn() } as any;
+    });
+
+    const swarms = await scrapeTorrents([realTorrent], 1000);
+    expect(swarms[0].seeders).toBe(10);
+    expect(swarms[0].leechers).toBe(2);
+  });
+
+  it('groups multiple torrents under their shared trackers', async () => {
+    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const otherTorrent = { ...torrent, infohash: 'b'.repeat(40) };
+
+    mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
+      cb(null, {});
+      return { destroy: vi.fn() } as any;
+    });
+
+    const swarms = await scrapeTorrents([torrent, otherTorrent], 1000);
+    expect(swarms).toHaveLength(2);
+    expect(swarms[0].seeders).toBe(0);
+    expect(swarms[1].seeders).toBe(0);
+  });
+
+  it('normalizes hex-of-hex infohash keys returned by trackers', async () => {
+    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const infohash = 'abcdef0123456789abcdef0123456789abcdef01';
+    const hexOfHex = Buffer.from(infohash).toString('hex');
+    const shapedTorrent = { ...torrent, infohash };
+
+    mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
+      cb(null, {
+        [hexOfHex]: { complete: 7, incomplete: 1, downloaded: 3 }
+      });
+      return { destroy: vi.fn() } as any;
+    });
+
+    const swarms = await scrapeTorrents([shapedTorrent], 1000);
+    expect(swarms[0].seeders).toBe(7);
+    expect(swarms[0].leechers).toBe(1);
   });
 });

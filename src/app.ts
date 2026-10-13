@@ -9,7 +9,7 @@ import { logger } from './utils/logger.js';
 import { scrapeTorrents } from './api/tracker-scrapper.js';
 import { env } from './environment.js';
 
-const app = express();
+export const app = express();
 
 const PORT = process.env.PORT || 7000;
 
@@ -117,8 +117,10 @@ app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string
 /* Start                                                                      */
 /* -------------------------------------------------------------------------- */
 
-app.listen(PORT, () => {
-  logger.info(
-    `${env.app.displayName} listening on port ${PORT}`
-  );
-});
+export function startServer(port: number | string = PORT) {
+  return app.listen(port, () => {
+    logger.info(
+      `${env.app.displayName} listening on port ${port}`
+    );
+  });
+}

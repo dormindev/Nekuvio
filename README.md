@@ -5,10 +5,13 @@
 </div>
 
 ## Description
+<div align="center">
 
 [![CI](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/ci.yml)
 [![Release](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml/badge.svg)](https://github.com/dormindev/Nekuvio/actions/workflows/release.yml)
 [![Coverage](https://codecov.io/gh/dormindev/Nekuvio/graph/badge.svg)](https://codecov.io/gh/dormindev/Nekuvio)
+
+</div>
 
 Nekuvio is a [Nuvio](https://github.com/tapframe/Nuvio) addon that acts as a bridge to [NekoBT](https://www.nekobt.to/), resolving anime metadata requests to torrent streams.
 

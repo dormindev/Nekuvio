@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { torrentToStream } from '../src/pipeline/streamBuilder.js';
+import { torrentToStream, torrentsToStreams } from '../src/pipeline/streamBuilder.js';
 import { FitInfoResult, NekoTorrentItem, NuvioParsedRequest } from '../src/types.js';
 import { TorrentSwarm } from '../src/api/tracker-scrapper.js';
 
@@ -97,22 +97,19 @@ describe('torrentToStream', () => {
     leechers: 2
   };
 
-  it('builds a stream object when episode file is matched', async () => {
-    const mockGetTorrent = vi.fn(async (torrentId: string): Promise<NekoTorrentItem | null> => {
-      expect(torrentId).toBe('t12345');
-      return {
-        ...mockTorrentListItem,
-        files: [
-          {
-            name: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv',
-            length: 292935189,
-            offset: 0
-          }
-        ]
-      };
-    });
+  it('builds a stream object when episode file is matched', () => {
+    const torrentDetails: NekoTorrentItem = {
+      ...mockTorrentListItem,
+      files: [
+        {
+          name: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv',
+          length: 292935189,
+          offset: 0
+        }
+      ]
+    };
 
-    const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
+    const stream = torrentToStream(mockSwarm, mockRequest, mockInfo, torrentDetails);
 
     expect(stream).toBeTruthy();
     expect(stream?.url).toBe(mockTorrentListItem.magnet);
@@ -128,7 +125,7 @@ describe('torrentToStream', () => {
     expect(stream?.sources).toEqual(['tracker:https://tracker.nekobt.to/announce']);
   });
 
-  it('builds stream from real fixture torrent_s172.json', async () => {
+  it('builds stream from real fixture torrent_s172.json', () => {
     const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
 
     const realEpisodeInfo: FitInfoResult = {
@@ -146,14 +143,7 @@ describe('torrentToStream', () => {
             romaji: 'Tensei Shitara Slime Datta Ken 4th Season Part 1 & 2',
             english: 'That Time I Got Reincarnated as a Slime Season 4',
             native: '転生したらスライムだった件 第4期 第1&2クール',
-            synonyms: [
-              'Tensura 4',
-              '転スラ 4',
-              'เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4',
-              'О моём перерождении в слизь 4',
-              'Aquella vez que me convertí en slime - Temporada 4',
-              'Moi, quand je me réincarne en Slime Saison 4',
-            ]
+            synonyms: []
           }
         }
       },
@@ -182,9 +172,7 @@ describe('torrentToStream', () => {
       leechers: realTorrent.leechers
     };
 
-    const mockGetTorrent = vi.fn(async (): Promise<NekoTorrentItem | null> => realTorrent);
-
-    const stream = await torrentToStream(realSwarm, realRequest, realEpisodeInfo, mockGetTorrent);
+    const stream = torrentToStream(realSwarm, realRequest, realEpisodeInfo, realTorrent);
 
     expect(stream).toBeTruthy();
     expect(stream?.infoHash).toBe(realTorrent.infohash);
@@ -192,7 +180,7 @@ describe('torrentToStream', () => {
     expect(stream?.name).toMatch(/FrixySubs/);
   });
 
-  it('builds a movie stream object using findMovieFile when request.isMovie is true', async () => {
+  it('builds a movie stream object using findMovieFile when request.isMovie is true', () => {
     const movieRequest: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt5323662',
@@ -226,32 +214,44 @@ describe('torrentToStream', () => {
       leechers: movieTorrent.leechers
     };
 
-    const mockGetTorrent = vi.fn(async (): Promise<NekoTorrentItem | null> => movieTorrent);
-
-    const stream = await torrentToStream(movieSwarm, movieRequest, movieInfo, mockGetTorrent);
+    const stream = torrentToStream(movieSwarm, movieRequest, movieInfo, movieTorrent);
 
     expect(stream).toBeTruthy();
     expect(stream?.fileIdx).toBe(1);
     expect(stream?.description).toMatch(/Spirited Away 2001 1080p\.mkv/);
   });
 
-  it('returns null if torrent info cannot be retrieved', async () => {
-    const mockGetTorrent = vi.fn(async () => null);
-
-    const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
-    expect(stream).toBeNull();
-  });
-
-  it('returns null if episode file is not found in torrent', async () => {
-    const mockGetTorrent = vi.fn(async (torrentId: string): Promise<NekoTorrentItem | null> => ({
+  it('returns null if episode file is not found in torrent', () => {
+    const torrentDetails: NekoTorrentItem = {
       ...mockTorrentListItem,
-      id: torrentId,
+      id: 't12345',
       files: [
         { name: 'Slime S04E01.mkv', length: 100 }
       ]
-    }));
+    };
 
-    const stream = await torrentToStream(mockSwarm, mockRequest, mockInfo, mockGetTorrent);
+    const stream = torrentToStream(mockSwarm, mockRequest, mockInfo, torrentDetails);
     expect(stream).toBeNull();
+  });
+
+  it('torrentsToStreams maps multiple items and filters out null details or unmatched files', () => {
+    const matchedTorrent: NekoTorrentItem = {
+      ...mockTorrentListItem,
+      files: [
+        { name: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv', length: 100 }
+      ]
+    };
+
+    const streams = torrentsToStreams(
+      [
+        { swarm: mockSwarm, details: matchedTorrent },
+        { swarm: mockSwarm, details: { ...mockTorrentListItem, files: [] } }
+      ],
+      mockRequest,
+      mockInfo
+    );
+
+    expect(streams).toHaveLength(1);
+    expect(streams[0].fileIdx).toBe(0);
   });
 });

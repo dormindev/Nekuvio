@@ -148,6 +148,23 @@ describe('app routes', () => {
     // Movie requests have no episode, so the search falls back to a null episode id.
     expect(searchTorrents).toHaveBeenCalledWith('m145', null);
   });
+
+  it('skips streams when getTorrent details return null', async () => {
+    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+
+    vi.mocked(resolveMediaId).mockResolvedValue({ media_id: 'm145', isMovie: true });
+    vi.mocked(getMedia).mockResolvedValue({ anilist: null, episodes: [] } as any);
+    vi.mocked(searchTorrents).mockResolvedValue([torrent]);
+    vi.mocked(getTorrent).mockResolvedValue(null);
+    vi.mocked(scrapeTorrents).mockResolvedValue([
+      { torrent, trackers: [], seeders: 0, leechers: 0 }
+    ]);
+
+    const res = await request(app).get('/stream/movie/tt5323662.json');
+
+    expect(res.status).toBe(200);
+    expect(res.body.streams).toHaveLength(0);
+  });
 });
 
 describe('startServer', () => {

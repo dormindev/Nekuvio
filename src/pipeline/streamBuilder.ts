@@ -1,4 +1,3 @@
-import { getTorrent } from '../api/nekobt.js';
 import { findEpisodeFile, findMovieFile } from './matcher.js';
 import { formatAverageBitrate, formatBytes, formatLanguageFlags, formatLanguages, formatTimestamp } from '../utils/format.js';
 import { FitInfoResult, IndexedTorrentFile, NekoTorrentItem, NuvioParsedRequest, NuvioStream } from '../types.js';
@@ -8,6 +7,10 @@ import { TorrentSwarm } from '../api/tracker-scrapper.js';
 import { env } from '../environment.js';
 
 
+export interface TorrentDetailsAndSwarm {
+  swarm: TorrentSwarm;
+  details: NekoTorrentItem;
+}
 
 
 function optional(
@@ -27,15 +30,13 @@ function optional(
   return template.replace('{}', String(resolvedValue));
 }
 
-export async function torrentToStream(
+
+export function torrentToStream(
   swarm: TorrentSwarm,
   request: NuvioParsedRequest,
   info: FitInfoResult,
-  getTorrentFn: (torrentId: string) => Promise<NekoTorrentItem | null> = getTorrent
-): Promise<NuvioStream | null> {
-  const torrentInfo = await getTorrentFn(swarm.torrent.id);
-  if (!torrentInfo) return null;
-
+  torrentInfo: NekoTorrentItem
+): NuvioStream | null {
   const matchedFile = request.isMovie
     ? findMovieFile(torrentInfo, info)
     : findEpisodeFile(torrentInfo, info);
@@ -64,6 +65,16 @@ export async function torrentToStream(
       bingeGroup: buildBingeGroup(matchedFile, torrentInfo, request, info)
     }
   };
+}
+
+export function torrentsToStreams(
+  torrentsInfo: TorrentDetailsAndSwarm[],
+  request: NuvioParsedRequest,
+  info: FitInfoResult
+): NuvioStream[] {
+  return torrentsInfo
+    .map(({ swarm, details }) => torrentToStream(swarm, request, info, details))
+    .filter((s): s is NuvioStream => s !== null);
 }
 
 
@@ -117,7 +128,6 @@ function buildDescription(
     `\n${torrent.title}`
   );
 }
-
 
 function buildBingeGroup(
   file: IndexedTorrentFile,

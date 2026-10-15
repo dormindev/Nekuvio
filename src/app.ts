@@ -1,12 +1,12 @@
 import express, { Request, Response } from 'express';
 import { parseNuvioId } from './utils/parser.js';
 import { resolveKitsuToExternal } from './api/kitsu.js';
-import { resolveMediaId, getMedia, searchTorrents } from './api/nekobt.js';
+import { resolveMediaId, getMedia, searchTorrents, getTorrent } from './api/nekobt.js';
 import { fitInfo } from './pipeline/matcher.js';
-import { torrentToStream } from './pipeline/streamBuilder.js';
-import { NuvioParsedRequest, NuvioStream } from './types.js';
+import { torrentsToStreams } from './pipeline/streamBuilder.js';
+import { NuvioParsedRequest, NuvioStream, NekoTorrentItem } from './types.js';
 import { logger } from './utils/logger.js';
-import { scrapeTorrents } from './api/tracker-scrapper.js';
+import { scrapeTorrents, TorrentSwarm } from './api/tracker-scrapper.js';
 import { env } from './environment.js';
 
 export const app = express();
@@ -66,6 +66,20 @@ async function getNekoBTExternalId(request: NuvioParsedRequest): Promise<string>
   return `${request.provider}-${request.externalId}`;
 }
 
+async function getTorrentDetailsAndSwarm(
+  torrents: NekoTorrentItem[]
+): Promise<Array<{ swarm: TorrentSwarm; details: NekoTorrentItem }>> {
+  const [swarms, torrentDetails] = await Promise.all([
+    scrapeTorrents(torrents),
+    Promise.all(torrents.map(t => getTorrent(t.id)))
+  ]);
+
+  return swarms.flatMap((swarm, i) => {
+    const details = torrentDetails[i];
+    return details ? [{ swarm, details }] : [];
+  });
+}
+
 /* -------------------------------------------------------------------------- */
 /* Stream endpoint                                                            */
 /* -------------------------------------------------------------------------- */
@@ -90,15 +104,9 @@ async function streamRequest(type: string, id: string): Promise<NuvioStream[]> {
 
   logger.debug('#torrents: ', torrents.length);
 
-  const swarms = await scrapeTorrents(torrents);
+  const torrentsInfo = await getTorrentDetailsAndSwarm(torrents);
 
-  const streams = (
-    await Promise.all(swarms.map(swarm => torrentToStream(swarm, request, info)))
-  ).filter((s): s is NuvioStream => s !== null);
-
-  //logger.debug('\nResult: ', { streams });
-
-  return streams;
+  return torrentsToStreams(torrentsInfo, request, info);
 }
 
 app.get('/stream/:type/:id.json', async (req: Request<{ type: string; id: string }>, res: Response) => {

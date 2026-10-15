@@ -16,6 +16,8 @@ Architecture decisions are stored chronologically under `decisions/`:
 
 - [001 — ID Resolution](decisions/001-id-resolution.md)
 - [002 — Episode Filename Matching](decisions/002-episode-filename-matching.md)
+- [003 — Vitest Test Migration](decisions/003-vitest-test-migration.md)
+- [004 — Pipeline Parallelization](decisions/004-pipeline-parallelization.md)
 
 Each decision documents the relevant NekoBT documentation, observed behavior, chosen implementation, and important limitations.
 

@@ -146,7 +146,7 @@ export async function searchTorrents(
   const url = new URL(`${NEKOBT_BASE_URL}/torrents/search`);
 
   url.searchParams.set('media_id', mediaId);
-  url.searchParams.set('limit', '10');
+  url.searchParams.set('limit', '20');
 
   if (episodeId !== null)
     url.searchParams.set('episode_ids', String(episodeId));

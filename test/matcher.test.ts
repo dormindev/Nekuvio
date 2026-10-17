@@ -1,7 +1,16 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
 
-import { fitInfo, findEpisodeFile, findMovieFile } from '../src/pipeline/matcher.js';
-import type { NekoMediaData, NekoMediaResolveData, NuvioParsedRequest, FitInfoResult } from '../src/types.js';
+import {
+  findEpisodeFile,
+  findMovieFile,
+  fitInfo
+} from '../src/pipeline/matcher.js';
+import type {
+  FitInfoResult,
+  NekoMediaData,
+  NekoMediaResolveData,
+  NuvioParsedRequest
+} from '../src/types.js';
 
 import { loadFixture } from './helpers/fixtures.js';
 

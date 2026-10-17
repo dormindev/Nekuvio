@@ -30,6 +30,8 @@ Commit messages should follow standard conventional commit formatting:
 - `feat`: A new feature or capability
 - `fix`: A bug fix
 - `refactor`: Code restructuring without functional changes
+- `style`: Code style or formatting changes without functional changes
+- `tweak`: Small behavior adjustment that is neither a feature nor a bug fix
 - `test`: Adding or updating test suites
 - `docs`: Documentation updates or additions
 - `chore`: Build scripts, dependencies, or configuration changes
@@ -38,6 +40,11 @@ Commit messages should follow standard conventional commit formatting:
 - Use imperative mood in the summary line (e.g., `fix: resolve filename matching edge case`, not `fixed:` or `fixes:`).
 - Keep the summary line concise.
 - Do not commit generated build files (`dist/`, `build-info.json`) or local secrets.
+
+### Scopes
+- Optional, lowercase kebab-case, in parentheses: `style(test): adopt import organization convention`.
+- Prefer the exact directory or module name as it appears in the tree: `test`, `src`, `docs`, `app`, `matcher`, `nekobt`, `kitsu`, `parser`, etc.
+- Existing `tests` usages are legacy — use `test` going forward.
 
 ## Code Quality Standards
 

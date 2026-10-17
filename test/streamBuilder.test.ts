@@ -1,8 +1,15 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 
 import type { TorrentSwarm } from '../src/api/tracker-scrapper.js';
-import { torrentToStream, torrentsToStreams } from '../src/pipeline/streamBuilder.js';
-import type { FitInfoResult, NekoTorrentItem, NuvioParsedRequest } from '../src/types.js';
+import {
+  torrentToStream,
+  torrentsToStreams
+} from '../src/pipeline/streamBuilder.js';
+import type {
+  FitInfoResult,
+  NekoTorrentItem,
+  NuvioParsedRequest
+} from '../src/types.js';
 
 import { loadFixture } from './helpers/fixtures.js';
 

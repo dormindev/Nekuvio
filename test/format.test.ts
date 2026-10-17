@@ -1,11 +1,13 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
+
 import {
-  formatBytes,
   formatAverageBitrate,
-  formatLanguages,
+  formatBytes,
   formatLanguageFlags,
+  formatLanguages,
   formatTimestamp
 } from '../src/utils/format.js';
+
 
 describe('formatBytes', () => {
   it('returns null for invalid or negative values', () => {

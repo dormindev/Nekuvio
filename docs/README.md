@@ -5,6 +5,7 @@ This directory contains guides, references, architecture decisions, and technica
 ## Guides & Reference
 
 - [Development Workflow](development.md) — Prerequisites, build stages, testing, and npm scripts
+- [Conventions](conventions.md) — Coding conventions for the project
 - [Docker & Configuration](docker.md) — Container usage, docker compose setup, and environment variables
 - [Project Structure](project-structure.md) — Directory layout and component responsibilities
 - [GitHub-Hosted Assets](github-assets.md) — Build-time asset URL generation and revision resolution

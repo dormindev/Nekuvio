@@ -1,10 +1,16 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import Client from 'bittorrent-tracker';
 import fetch, { type Response } from 'node-fetch';
 
 import { resolveKitsuToExternal } from '../src/api/kitsu.js';
-import { resolveMediaId, getMedia, searchTorrents, getTorrent, nekoFetch } from '../src/api/nekobt.js';
+import {
+  getMedia,
+  getTorrent,
+  nekoFetch,
+  resolveMediaId,
+  searchTorrents
+} from '../src/api/nekobt.js';
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
 import type { NekoTorrentItem } from '../src/types.js';
 

@@ -1,11 +1,16 @@
-import { describe, it, expect, vi, beforeAll, beforeEach } from 'vitest';
+import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import type { Express } from 'express';
 import type { Server } from 'node:http';
 import request from 'supertest';
 
 import { resolveKitsuToExternal } from '../src/api/kitsu.js';
-import { resolveMediaId, getMedia, searchTorrents, getTorrent } from '../src/api/nekobt.js';
+import {
+  getMedia,
+  getTorrent,
+  resolveMediaId,
+  searchTorrents
+} from '../src/api/nekobt.js';
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
 import type { NekoTorrentItem } from '../src/types.js';
 

@@ -1,5 +1,7 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
+
 import { parseNuvioId } from '../src/utils/parser.js';
+
 
 describe('parseNuvioId', () => {
   it('parses IMDB series ID with season and episode', () => {

@@ -1,17 +1,11 @@
 import { describe, it, expect, vi } from 'vitest';
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+
+import type { TorrentSwarm } from '../src/api/tracker-scrapper.js';
 import { torrentToStream, torrentsToStreams } from '../src/pipeline/streamBuilder.js';
-import { FitInfoResult, NekoTorrentItem, NuvioParsedRequest } from '../src/types.js';
-import { TorrentSwarm } from '../src/api/tracker-scrapper.js';
+import type { FitInfoResult, NekoTorrentItem, NuvioParsedRequest } from '../src/types.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import { loadFixture } from './helpers/fixtures.js';
 
-function loadFixture<T>(filename: string): T {
-  const filepath = path.join(__dirname, 'fixtures', filename);
-  return JSON.parse(fs.readFileSync(filepath, 'utf8'));
-}
 
 describe('torrentToStream', () => {
   const mockRequest: NuvioParsedRequest = {

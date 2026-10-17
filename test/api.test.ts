@@ -1,20 +1,15 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-import fetch, { Response } from 'node-fetch';
+
 import Client from 'bittorrent-tracker';
+import fetch, { type Response } from 'node-fetch';
+
 import { resolveKitsuToExternal } from '../src/api/kitsu.js';
 import { resolveMediaId, getMedia, searchTorrents, getTorrent, nekoFetch } from '../src/api/nekobt.js';
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
-import { NekoTorrentItem } from '../src/types.js';
+import type { NekoTorrentItem } from '../src/types.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import { loadFixture } from './helpers/fixtures.js';
 
-function loadFixture<T>(filename: string): T {
-  const filepath = path.join(__dirname, 'fixtures', filename);
-  return JSON.parse(fs.readFileSync(filepath, 'utf8'));
-}
 
 vi.mock('node-fetch', () => {
   return {

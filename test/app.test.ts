@@ -1,10 +1,16 @@
 import { describe, it, expect, vi, beforeAll, beforeEach } from 'vitest';
-import request from 'supertest';
+
 import type { Express } from 'express';
 import type { Server } from 'node:http';
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import request from 'supertest';
+
+import { resolveKitsuToExternal } from '../src/api/kitsu.js';
+import { resolveMediaId, getMedia, searchTorrents, getTorrent } from '../src/api/nekobt.js';
+import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
+import type { NekoTorrentItem } from '../src/types.js';
+
+import { loadFixture } from './helpers/fixtures.js';
+
 
 /*
  * app.ts pulls in the network boundary (nekobt, tracker-scrapper, kitsu).
@@ -23,18 +29,6 @@ vi.mock('../src/api/tracker-scrapper.js', () => ({
 vi.mock('../src/api/kitsu.js', () => ({
   resolveKitsuToExternal: vi.fn(),
 }));
-
-import { resolveMediaId, getMedia, searchTorrents, getTorrent } from '../src/api/nekobt.js';
-import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
-import { resolveKitsuToExternal } from '../src/api/kitsu.js';
-import type { NekoTorrentItem } from '../src/types.js';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-function loadFixture<T>(filename: string): T {
-  const filepath = path.join(__dirname, 'fixtures', filename);
-  return JSON.parse(fs.readFileSync(filepath, 'utf8'));
-}
 
 // Imported dynamically so process.env.PORT is controlled at module-eval time.
 let app: Express;

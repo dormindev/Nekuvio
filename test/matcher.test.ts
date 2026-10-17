@@ -1,16 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+
 import { fitInfo, findEpisodeFile, findMovieFile } from '../src/pipeline/matcher.js';
-import { NekoMediaData, NekoMediaResolveData, NuvioParsedRequest, FitInfoResult } from '../src/types.js';
+import type { NekoMediaData, NekoMediaResolveData, NuvioParsedRequest, FitInfoResult } from '../src/types.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import { loadFixture } from './helpers/fixtures.js';
 
-function loadFixture<T>(filename: string): T {
-  const filepath = path.join(__dirname, 'fixtures', filename);
-  return JSON.parse(fs.readFileSync(filepath, 'utf8'));
-}
 
 describe('fitInfo', () => {
   const mockNekoId: NekoMediaResolveData = {

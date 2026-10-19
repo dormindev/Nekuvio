@@ -7,7 +7,7 @@ Nuvio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selectio
 
 ## Real-World Cases That Inspired Tests & Verifications
 
-The tests in this repository are based on real-world Nuvio requests (captured in `test/examples`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`). Note that `test/examples` documents real sample requests observed in the wild rather than an exhaustive specification.
+The tests in this repository are based on real-world Nuvio requests (captured in `test/data/examples/self-stream/meta.json`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`). Note that the observed sample requests are not an exhaustive specification.
 
 ### 1. `media.anilist` Can Be `null` for Unmapped Media
 - **Discovery**: In the NekoBT catalog, anime titles are defined by having an AniDB, AniList, or MAL entry (Rule 6). While most popular anime have rich AniList metadata, certain titles (e.g. western animations, movies only indexed on TMDB/IMDb, or media mapped solely via TVDB) return `"anilist": null`.
@@ -62,26 +62,17 @@ The tests in this repository are based on real-world Nuvio requests (captured in
 
 ---
 
-## Fixtures in `test/fixtures/`
+## Fixtures in `test/data/fixtures/`
 
-| Fixture File | Source Endpoint | Description |
+Test data lives under `test/data/` (root registry: `test/data/meta.json`). Each endpoint folder pairs payload files named `<id>.json` with a records-only `meta.json` documenting per-record `params` (how to re-fetch), `grounds` (why the data point exists), and `fetched` (`null` = not applicable or unknown).
+
+| Folder | Payloads | Source endpoint |
 |---|---|---|
-| `media_s172.json` | `GET /media/s172?force=true` | Full media entry for *Slime S4*, containing multi-season `anilist.entries`, `primary`, and `episodes`. |
-| `media_s11599.json` | `GET /media/s11599?force=true` | Media entry for *Tsukimonogatari* showing `"anilist": null`. |
-| `media_m145.json` | `GET /media/m145?force=true` | Movie entry for *Spirited Away* (`m145`) with movie episodes and anilist primary. |
-| `media_m1305.json` | `GET /media/m1305?force=true` | Movie entry for *Delivery Kitten Unyan* (`m1305`) showing `"anilist": null`. |
-| `torrent_s172.json` | `GET /torrents/14064189768715` | Real torrent payload for Slime S4 with file list, magnet, infohash, and publishing group `FrixySubs`. |
-| `kitsu_49235_mappings.json` | `GET /api/edge/anime/49235/mappings` | Kitsu mapping payload resolving Kitsu ID `49235` to MAL ID `59970`. |
+| `nekobt-media/` | `s172`, `s11599`, `m145`, `m1305` | `GET /media/<id>?force=true` |
+| `nekobt-torrents/` | `14064189768715` | `GET /torrents/<id>` |
+| `kitsu-mappings/` | `49235` | `GET /anime/<id>/mappings` |
 
-To re-fetch fixtures:
-```bash
-curl -s "https://nekobt.to/api/v1/media/s172?force=true" | jq '.data' > test/fixtures/media_s172.json
-curl -s "https://nekobt.to/api/v1/media/s11599?force=true" | jq '.data' > test/fixtures/media_s11599.json
-curl -s "https://nekobt.to/api/v1/media/m145?force=true" | jq '.data' > test/fixtures/media_m145.json
-curl -s "https://nekobt.to/api/v1/media/m1305?force=true" | jq '.data' > test/fixtures/media_m1305.json
-curl -s "https://nekobt.to/api/v1/torrents/14064189768715" | jq '.data' > test/fixtures/torrent_s172.json
-curl -s "https://kitsu.io/api/edge/anime/49235/mappings" > test/fixtures/kitsu_49235_mappings.json
-```
+To re-fetch a fixture: read its `params` from the folder's `meta.json` and the endpoint (URL, defaults) from the root registry — refresh tooling arrives in a later step.
 
 ---
 

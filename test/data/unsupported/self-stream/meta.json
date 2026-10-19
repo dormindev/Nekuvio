@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "id": "series-kitsu_3919_1",
+      "params": {
+        "type": "series",
+        "id": "kitsu:3919:1"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples)",
+      "observed": "GET /stream/series/kitsu:3919:1 returns { streams: [] } — no file in torrent 7509405969932 matches the requested episode",
+      "expected": "a stream for episode 1, or an explicit diagnostic",
+      "triage": "deferred — matcher strategy gap; design-review candidate"
+    }
+  ]
+}

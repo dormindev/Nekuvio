@@ -177,7 +177,7 @@ describe('fitInfo', () => {
   });
 
   it('resolves real fixture s172 (Slime S4) accurately', () => {
-    const realMedia = loadFixture<NekoMediaData>('media_s172.json');
+    const realMedia = loadFixture<NekoMediaData>('nekobt-media', 's172');
     const request: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt123',

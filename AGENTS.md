@@ -54,8 +54,14 @@ new abstractions. Do not make unrelated changes.
 
 ## Test Fixtures & Samples
 
-- Real API test fixtures reside in `test/fixtures/`.
-- Sample real-world Nuvio requests are stored in `test/examples`. Note that these represent observed live requests and are not an exhaustive catalog.
+Test data lives under `test/data/` — the first three folders hold **real** data:
+
+- `fixtures/` — immutable justification evidence: payload `<id>.json` + records-only `meta.json`.
+- `examples/` — refreshable portrait of observed requests; `self-stream/` holds the observed Nuvio stream requests (formerly `test/examples`) — not an exhaustive catalog.
+- `unsupported/` — quarantine for known-broken cases (excluded from vitest collection); standing example: `series-kitsu_3919_1` (empty streams for torrent `7509405969932`).
+- `synthetic/` — assumed, ungrounded shapes — never passed off as real.
+
+Folders are named `<service>-<api>`; endpoint declarations (`endpoint`/`key`/`defaults`) live in the root registry `test/data/meta.json`.
 
 ## NekoBT Domain Knowledge
 

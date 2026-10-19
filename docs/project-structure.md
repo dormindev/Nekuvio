@@ -123,7 +123,22 @@ The patches are installed as part of the normal dependency installation process.
 
 ## `test/`
 
-Contains the automated test suite and fixture examples powered by Vitest.
+Contains the automated test suite, its helpers, and the `test/data/` test-data layer, powered by Vitest.
+
+```text
+test/
+├── data/
+│   ├── meta.json          # root registry: services + apis (endpoint/key/defaults)
+│   ├── fixtures/          # REAL data — immutable justification evidence
+│   ├── examples/          # REAL data — refreshable portrait
+│   ├── unsupported/       # REAL data — quarantine (excluded from vitest collection)
+│   └── synthetic/         # assumed shapes — never passed off as real
+├── helpers/               # shared test utilities (fixture loader)
+├── perf/                  # benchmarks
+└── *.test.ts
+```
+
+Each endpoint folder under `data/` is named `<service>-<api>` and pairs a records-only `meta.json` with payload files named `<id>.json`.
 
 Tests are executed through:
 
@@ -139,9 +154,12 @@ Contains project documentation that is not intended to be part of the normal use
 ```text
 docs/
 ├── decisions/
-│   ├── 001-directory-structure.md
+│   ├── 001-id-resolution.md
 │   ├── 002-episode-filename-matching.md
-│   └── 003-vitest-test-migration.md
+│   ├── 003-vitest-test-migration.md
+│   └── 004-pipeline-parallelization.md
+├── README.md
+├── conventions.md
 ├── development.md
 ├── docker.md
 ├── github-assets.md
@@ -150,6 +168,8 @@ docs/
 ```
 
 Decisions documentation records architecture decisions and their reasoning.
+
+The top-level `README.md` indexes the documentation set, and `conventions.md` records shared conventions (currently import layout).
 
 Development documentation describes how to work with the project.
 

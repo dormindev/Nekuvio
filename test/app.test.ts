@@ -67,8 +67,8 @@ describe('app routes', () => {
   });
 
   it('returns constructed streams for a series request', async () => {
-    const media = loadFixture<any>('media_s172.json');
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const media = loadFixture<any>('nekobt-media', 's172');
+    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     vi.mocked(resolveMediaId).mockResolvedValue({
       media_id: 's172',
@@ -123,7 +123,7 @@ describe('app routes', () => {
   });
 
   it('builds a movie stream and searches torrents with a null episode id', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     vi.mocked(resolveMediaId).mockResolvedValue({ media_id: 'm145', isMovie: true });
     vi.mocked(getMedia).mockResolvedValue({ anilist: null, episodes: [] } as any);
@@ -149,7 +149,7 @@ describe('app routes', () => {
   });
 
   it('skips streams when getTorrent details return null', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     vi.mocked(resolveMediaId).mockResolvedValue({ media_id: 'm145', isMovie: true });
     vi.mocked(getMedia).mockResolvedValue({ anilist: null, episodes: [] } as any);

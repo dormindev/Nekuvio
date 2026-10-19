@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "id": "s172",
+      "params": { "path": { "id": "s172" }, "query": { "force": "true" } },
+      "fetched": null,
+      "grounds": "multi-season anilist.entries + src/dst offsets (README §3; catalog entry)"
+    },
+    {
+      "id": "s11599",
+      "params": { "path": { "id": "s11599" }, "query": { "force": "true" } },
+      "fetched": null,
+      "grounds": "anilist: null via TVDB resolution (README §1)"
+    },
+    {
+      "id": "m145",
+      "params": { "path": { "id": "m145" }, "query": { "force": "true" } },
+      "fetched": null,
+      "grounds": "movie episodes + anilist primary (README fixture table)"
+    },
+    {
+      "id": "m1305",
+      "params": { "path": { "id": "m1305" }, "query": { "force": "true" } },
+      "fetched": null,
+      "grounds": "anilist: null via TMDB resolution (README §1)"
+    }
+  ]
+}

@@ -44,7 +44,7 @@ describe('api/kitsu', () => {
   });
 
   it('resolves Kitsu ID to MAL mapping using fixture', async () => {
-    const fixtureData = loadFixture('kitsu_49235_mappings.json');
+    const fixtureData = loadFixture('kitsu-mappings', '49235');
     const mockResponse = {
       ok: true,
       status: 200,
@@ -172,8 +172,8 @@ describe('api/nekobt', () => {
     expect(result).toBeNull();
   });
 
-  it('getMedia retrieves media details using media_s172 fixture', async () => {
-    const realMedia = loadFixture('media_s172.json');
+  it('getMedia retrieves media details using nekobt-media/s172 fixture', async () => {
+    const realMedia = loadFixture('nekobt-media', 's172');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -196,7 +196,7 @@ describe('api/nekobt', () => {
   });
 
   it('searchTorrents returns torrent list matching episode', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -220,7 +220,7 @@ describe('api/nekobt', () => {
   });
 
   it('getTorrent returns torrent info by ID', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -341,7 +341,7 @@ describe('api/nekobt', () => {
   });
 
   it('searchTorrents omits the episode filter when episodeId is null', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -382,7 +382,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('scrapeTorrents collects scrape stats and builds swarms', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((opts: any, cb: any) => {
       const infoHash = realTorrent.infohash.toLowerCase();
@@ -405,7 +405,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('handles tracker error gracefully and defaults seeders and leechers', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((opts: any, cb: any) => {
       cb(new Error('Connection refused'), null);
@@ -420,7 +420,7 @@ describe('api/tracker-scrapper', () => {
 
   it('times out and defaults stats when a tracker never responds', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const destroy = vi.fn();
 
     mockedTracker.scrape.mockImplementation(() => ({ destroy }) as any);
@@ -437,7 +437,7 @@ describe('api/tracker-scrapper', () => {
 
   it('ignores a tracker callback that arrives after the timeout', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     let capturedCb: ((error: any, data: any) => void) | undefined;
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
@@ -458,7 +458,7 @@ describe('api/tracker-scrapper', () => {
 
   it('safely ignores a timeout that fires after the scrape already settled', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     // Simulate the defensive case where the timeout is not cleared in time, so it
     // can fire after the scrape callback has already settled the request.
     const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout').mockImplementation(() => {});
@@ -484,7 +484,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('handles a single ScrapeResult response', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
       cb(null, {
@@ -502,7 +502,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('groups multiple torrents under their shared trackers', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const otherTorrent = { ...torrent, infohash: 'b'.repeat(40) };
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
@@ -517,7 +517,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('normalizes hex-of-hex infohash keys returned by trackers', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const infohash = 'abcdef0123456789abcdef0123456789abcdef01';
     const hexOfHex = Buffer.from(infohash).toString('hex');
     const shapedTorrent = { ...torrent, infohash };

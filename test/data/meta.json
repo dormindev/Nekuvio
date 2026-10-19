@@ -1,0 +1,30 @@
+{
+  "nekobt": {
+    "external": true, "multi_site": false, "url": "https://nekobt.to/api/v1",
+    "apis": {
+      "media":    { "endpoint": "GET /media/<id>", "key": "media id (s172, m145); params carry force=true", "defaults": { "force": "true" } },
+      "search":   { "endpoint": "GET /torrents/search", "key": "<mediaId>-<ep1>[_<ep2>][_+N][~q8]", "defaults": { "limit": "20" } },
+      "torrents": { "endpoint": "GET /torrents/<id>", "key": "torrent id (14064189768715)" }
+    }
+  },
+  "tracker": {
+    "external": true, "multi_site": true,
+    "sites": [ { "id": "opentrackr_udp", "url": "udp://tracker.opentrackr.org:1337/announce" } ],
+    "apis": { "scrape": { "key": "<tracker-id>-<infohash[0..12]>[_+N][~q8]" } }
+  },
+  "kitsu": {
+    "external": true, "multi_site": false,
+    "url": "https://kitsu.io/api/edge",
+    "apis": {
+      "mappings": { "endpoint": "GET /anime/<id>/mappings",
+                    "key": "kitsu anime id (49235)" }
+    }
+  },
+  "self": {
+    "external": false, "multi_site": false,
+    "apis": {
+      "stream": { "endpoint": "GET /stream/<type>/<id>.json",
+                  "key": "<type>-<request-id snake-cased>, e.g. series-kitsu_49235_24; response payload in step 04" }
+    }
+  }
+}

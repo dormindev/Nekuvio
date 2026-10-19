@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-export function loadFixture<T>(filename: string): T {
-  const filepath = path.join(__dirname, '..', 'fixtures', filename);
+export function loadFixture<T>(endpoint: string, id: string): T {
+  const filepath = path.join(__dirname, '..', 'data', 'fixtures', endpoint, `${id}.json`);
   return JSON.parse(fs.readFileSync(filepath, 'utf8'));
 }

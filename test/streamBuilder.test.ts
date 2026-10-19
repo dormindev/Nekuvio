@@ -126,8 +126,8 @@ describe('torrentToStream', () => {
     expect(stream?.sources).toEqual(['tracker:https://tracker.nekobt.to/announce']);
   });
 
-  it('builds stream from real fixture torrent_s172.json', () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+  it('builds stream from real fixture nekobt-torrents/14064189768715', () => {
+    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     const realEpisodeInfo: FitInfoResult = {
       media_id: 's172',

@@ -1,0 +1,291 @@
+{
+  "error": false,
+  "data": {
+    "id": "14474579778825",
+    "uploaded_at": 1792230927261,
+    "title": "[Ironclad] That Time I Got Reincarnated as a Slime - S04 (WEB 1080p AV1) | Tensei Shitara Slime Datta Ken (Multi-Audio, Multi-Subs)",
+    "auto_title": "[Ironclad] That Time I Got Reincarnated as a Slime - S04 (WEB 1080p AV1) | Tensei Shitara Slime Datta Ken (Multi-Audio, Multi-Subs) {Tags:L2;V7;C3;A=en,de,ar,frfr,eses,ptbr,es419,ja,it;F=en;S=ru,en,de,frfr,ar,eses,ptbr,zhhans,vi,zhhant,ms,es419,id,it,th;}",
+    "description": "|[![Banner](https://artworks.thetvdb.com/banners/v4/series/352408/banners/688f9d50302ba.jpg)](https://www.imdb.com/title/tt9054364)|\n|:-:|\n|*37-year-old corporate worker Mikami Satoru is stabbed by a random killer, and is reborn to an alternate world. But he turns out to be reborn a slime! Thrown into this new world with the name Rimuru Tempest, he begins his quest to create a world that’s welcoming to all races. Broken free from ordinary, stale past life, his fresh adventure in a fantasy world as a slime monster with unique abilities begins.*|\n    \n|Video|[VARYG](https://nyaa.si/view/2143128)|\n|----|----|\n|Audio|[opusenc (libopus 1.6.1)](https://github.com/Chocobo1/opus-tools_win32-build): `--bitrate 128` [JPN, ENG, SPA-LA, SPA, FRE, GER, ITA, POR-BR](https://nyaa.si/view/2143128), [ARA](https://nyaa.si/view/2102390)|\n|Subtitles|[ENG, SPA-LA, SPA, ARA, FRE, GER, ITA, POR-BR, IND, THA, CHI, CHI-TR, VIE, RUS, MAY](https://nyaa.si/view/2143128), [ENG](https://nyaa.si/view/2093649)|\n|Chapters|[Asakura](https://nyaa.si/view/2093649)|\n|Target CVVDP + Butteraugli 3-norm|scene score: `9.6`, model: `trix_fhd` + max: `1.3`, intensity target: `203.0`|\n|Encoder|[SVT-AV1 5fish v2.3.261004](https://github.com/5fish/SVT-AV1): `--crf 16.0-32.0 --preset 2 --lineart-psy-bias 5 --texture-psy-bias 3 --noise-psy-bias 0 --balancing-q-bias 0 --qp-scale-compress-strength 3 --enable-tf 2 --tile-columns 1 --fast-decode 2 + ROI Maps`|\n|FGS|svt-av1: `--film-grain 4-27 --adaptive-film-grain 1` / `--photon-noise 8100-23550`|\n|Filters|Denoise with vs-denoise: dfttest: `{0.0: 0.2, 0.4: 0.2, 0.6: 0.6, 0.8: 1.3, 1.0: 1.8}, tr=2, planes=[0,1,2]` / denoise with vs-denoise: bm3d: `sigma=6, tr=2, profile=bm3d.Profile.FAST, planes=0` + nlm: `h=0.6, tr=2, a=2, planes=[1,2]` + mc_degrain: `prefilter=Prefilter.DFTTEST, preset=MVToolsPreset.HQ_SAD, thsad=100`, dering with vs-dehalo: `rx=2`, deband with vs-zipcu: Deband: `grain=0`, prefilter: `bilateral()`, estimate with vapoursynth-cambi, retinex mask|\n\n|Source|Encode|\n| ------------- |-------------|\n|[![source1](https://i.kek.sh/wyI31Wmg89o.webp)](https://i.kek.sh/wyI31Wmg89o.webp)|[![encode1](https://i.kek.sh/4o3wHyPOlER.webp)](https://i.kek.sh/4o3wHyPOlER.webp)|\n|[![source2](https://i.kek.sh/o2HXQtrOkT8.webp)](https://i.kek.sh/o2HXQtrOkT8.webp)|[![encode2](https://i.kek.sh/K4ptu52QTRW.webp)](https://i.kek.sh/K4ptu52QTRW.webp)|\n|[![source3](https://i.kek.sh/f1ckrl1yDkb.webp)](https://i.kek.sh/f1ckrl1yDkb.webp)|[![encode3](https://i.kek.sh/uCwwXIfJ3cY.webp)](https://i.kek.sh/uCwwXIfJ3cY.webp)|\n\n[Mediainfo](https://rentry.co/2b3d6b03)\n> Interested in AV1?: [Discord](https://discord.gg/83dRFDFDp7)\n> Recommended players: [MPV](https://thewiki.moe/tutorials/mpv), [MPC-HC](https://github.com/clsid2/mpc-hc)\n>\n> Language Options: You can [download here](https://mega.nz/folder/kcQhWZCA#c4wfvx2RXI9XN8XeBso09g) two scripts that do the following (Windows/macOS-Linux):\n>\n> Keep Japanese: Throws out all audio tracks other than Japanese\n> Keep English: Throws out all audio and subtitles tracks other than English\n> Put all the video files into the Language Options folder and run the corresponding script. The resulting files can be found in the output folder.\n>\n> Note: [MKVToolNix](https://mkvtoolnix.download/downloads.html) must be installed on your system and added to PATH",
+    "mediainfo": "General\nUnique ID                                : 68945600007785517027569244957570685224 (0x33DE7086EE2C0DB906A0665827DAD928)\nComplete name                            : [Ironclad] Tensei Shitara Slime Datta Ken - S04E01 [WEB.1080p.AV1].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 445 MiB\nDuration                                 : 24 min 26 s\nOverall bit rate                         : 2 544 kb/s\nFrame rate                               : 23.976 FPS\nTitle                                    : That Time I Got Reincarnated as a Slime - S04E01 - New Days\nEncoded date                             : 2026-10-17 00:59:27 UTC\nWriting application                      : mkvmerge 102.0 ('Little Houses') 64-bit\nWriting library                          : libebml v1.4.7 + libmatroska v1.7.2 / Lavf63.1.101\nAttachments                              : Arial-Bold.ttf / Georgia-Bold.ttf / GandhiSans-Bold.otf / NotoSans-Bold_subset.TTF / Arial.ttf / AdobeArabic-Bold.otf / TrebuchetMS.ttf / SourceHanSansSCMedium-Medium_subset.TTC / BahijNassim-Bold.TTF / LinuxBiolinum-Bold_subset.ttf / Dimbo.ttf / Verdana-Bold.ttf / GandhiSans-BoldItalic.otf / Georgia.ttf / FOT-ModeMinALargeStdM-Medium_subset.otf / TrebuchetMS-Bold.ttf / NotoSansThai-Bold.ttf / Formal436BT.TTF / Impact.ttf / TimesNewRoman.ttf / TimesNewRoman-Bold.ttf / NotoSans-BoldItalic_subset.ttf\nIMDB                                     : tt9054364\nTMDB                                     : tv/82684\nTVDB2                                    : series/352408\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 59 s\nBit rate                                 : 1 416 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.028\nStream size                              : 243 MiB (55%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n by                                      : Ironclad\nEncoder                                  : SVT-AV1 [5fish] v2.3.261004 (release): `--crf 16.0-32.0 --preset 2 --lineart-psy-bias 5 --texture-psy-bias 3 --noise-psy-bias 0 --balancing-q-bias 0 --qp-scale-compress-strength 3 --enable-tf 2 --tile-columns 1 --fast-decode 2 + ROI Maps`\nFilm grain synthesis                     : svt-av1: `--film-grain 4-25 --adaptive-film-grain 1` / svt-av1: `--photon-noise 8700-11250`\nTarget CVVDP + Butteraugli 3-norm        : scene score: `9.6`, model: `trix_fhd` + max: `1.3`, intensity target: `203.0`\nThanks to                                : VARYG\nVapoursynth filters                      : Denoise with vs-denoise: dfttest: `{0.0: 0.2, 0.4: 0.2, 0.6: 0.6, 0.8: 1.3, 1.0: 1.8}, tr=2, planes=[0,1,2]` / denoise with vs-denoise: bm3d: `sigma=6, tr=2, profile=bm3d.Profile.FAST, planes=0` + nlm: `h=0.6, tr=2, a=2, planes=[1,2]` + mc_degrain: `prefilter=Prefilter.DFTTEST, preset=MVToolsPreset.HQ_SAD, thsad=100`, dering with vs-dehalo: `rx=2`, deband with vs-zipcu: Deband: `grain=0`, prefilter: `bilateral()`, estimate with vapoursynth-cambi, retinex mask\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 126 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.6 MiB (5%)\nTitle                                    : Japanese\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 125 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.4 MiB (5%)\nTitle                                    : English\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nAudio #3\nID                                       : 4\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.0 MiB (5%)\nTitle                                    : Spanish (Latin America)\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : Spanish (Latin America)\nDefault                                  : No\nForced                                   : No\n\nAudio #4\nID                                       : 5\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 126 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.6 MiB (5%)\nTitle                                    : Spanish (Spain)\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : Spanish (ES)\nDefault                                  : No\nForced                                   : No\n\nAudio #5\nID                                       : 6\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 126 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.7 MiB (5%)\nTitle                                    : Arabic\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : Arabic\nDefault                                  : No\nForced                                   : No\n\nAudio #6\nID                                       : 7\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 124 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.3 MiB (5%)\nTitle                                    : French (France)\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : French (FR)\nDefault                                  : No\nForced                                   : No\n\nAudio #7\nID                                       : 8\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 125 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.5 MiB (5%)\nTitle                                    : German\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : German\nDefault                                  : No\nForced                                   : No\n\nAudio #8\nID                                       : 9\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 129 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.2 MiB (5%)\nTitle                                    : Italian\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : Italian\nDefault                                  : No\nForced                                   : No\n\nAudio #9\nID                                       : 10\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 0 s\nBit rate                                 : 127 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.7 MiB (5%)\nTitle                                    : Portuguese (Brazil)\nWriting library                          : opusenc from opus-tools 0.2-38-g0686cfb-dirty\nEncoding settings                        : --bitrate 128 --discard-comments\nLanguage                                 : Portuguese (BR)\nDefault                                  : No\nForced                                   : No\n\nText #1\nID                                       : 11\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 5 b/s\nFrame rate                               : 0.006 FPS\nCount of elements                        : 8\nCompression mode                         : Lossless\nStream size                              : 983 Bytes (0%)\nTitle                                    : English (Forced)\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nText #2\nID                                       : 12\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 25 s\nBit rate                                 : 327 b/s\nFrame rate                               : 0.382 FPS\nCount of elements                        : 560\nCompression mode                         : Lossless\nStream size                              : 58.5 KiB (0%)\nTitle                                    : English\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #3\nID                                       : 13\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 8 b/s\nFrame rate                               : 0.009 FPS\nCount of elements                        : 13\nCompression mode                         : Lossless\nStream size                              : 1.56 KiB (0%)\nTitle                                    : Spanish (Latin America) (Forced)\nLanguage                                 : Spanish (Latin America)\nDefault                                  : No\nForced                                   : Yes\n\nText #4\nID                                       : 14\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 119 b/s\nFrame rate                               : 0.227 FPS\nCount of elements                        : 327\nCompression mode                         : Lossless\nStream size                              : 21.0 KiB (0%)\nTitle                                    : Spanish (Latin America)\nLanguage                                 : Spanish (Latin America)\nDefault                                  : No\nForced                                   : No\n\nText #5\nID                                       : 15\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 8 b/s\nFrame rate                               : 0.009 FPS\nCount of elements                        : 13\nCompression mode                         : Lossless\nStream size                              : 1.56 KiB (0%)\nTitle                                    : Spanish (Spain) (Forced)\nLanguage                                 : Spanish (ES)\nDefault                                  : No\nForced                                   : Yes\n\nText #6\nID                                       : 16\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 119 b/s\nFrame rate                               : 0.228 FPS\nCount of elements                        : 328\nCompression mode                         : Lossless\nStream size                              : 21.0 KiB (0%)\nTitle                                    : Spanish (Spain)\nLanguage                                 : Spanish (ES)\nDefault                                  : No\nForced                                   : No\n\nText #7\nID                                       : 17\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 159 b/s\nFrame rate                               : 0.248 FPS\nCount of elements                        : 357\nCompression mode                         : Lossless\nStream size                              : 28.0 KiB (0%)\nTitle                                    : Arabic\nLanguage                                 : Arabic\nDefault                                  : No\nForced                                   : No\n\nText #8\nID                                       : 18\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 21 min 13 s\nBit rate                                 : 5 b/s\nFrame rate                               : 0.007 FPS\nCount of elements                        : 9\nCompression mode                         : Lossless\nStream size                              : 852 Bytes (0%)\nTitle                                    : French (France) (Forced)\nLanguage                                 : French (FR)\nDefault                                  : No\nForced                                   : Yes\n\nText #9\nID                                       : 19\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 57 s\nBit rate                                 : 132 b/s\nFrame rate                               : 0.246 FPS\nCount of elements                        : 354\nCompression mode                         : Lossless\nStream size                              : 23.2 KiB (0%)\nTitle                                    : French (France)\nLanguage                                 : French (FR)\nDefault                                  : No\nForced                                   : No\n\nText #10\nID                                       : 20\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 23 b/s\nFrame rate                               : 0.014 FPS\nCount of elements                        : 20\nCompression mode                         : Lossless\nStream size                              : 4.06 KiB (0%)\nTitle                                    : German (Forced)\nLanguage                                 : German\nDefault                                  : No\nForced                                   : Yes\n\nText #11\nID                                       : 21\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 157 b/s\nFrame rate                               : 0.272 FPS\nCount of elements                        : 391\nCompression mode                         : Lossless\nStream size                              : 27.8 KiB (0%)\nTitle                                    : German\nLanguage                                 : German\nDefault                                  : No\nForced                                   : No\n\nText #12\nID                                       : 22\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 7 b/s\nFrame rate                               : 0.008 FPS\nCount of elements                        : 12\nCompression mode                         : Lossless\nStream size                              : 1.34 KiB (0%)\nTitle                                    : Italian (Forced)\nLanguage                                 : Italian\nDefault                                  : No\nForced                                   : Yes\n\nText #13\nID                                       : 23\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 132 b/s\nFrame rate                               : 0.274 FPS\nCount of elements                        : 394\nCompression mode                         : Lossless\nStream size                              : 23.4 KiB (0%)\nTitle                                    : Italian\nLanguage                                 : Italian\nDefault                                  : No\nForced                                   : No\n\nText #14\nID                                       : 24\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 35 s\nBit rate                                 : 9 b/s\nFrame rate                               : 0.009 FPS\nCount of elements                        : 12\nCompression mode                         : Lossless\nStream size                              : 1.57 KiB (0%)\nTitle                                    : Portuguese (Brazil) (Forced)\nLanguage                                 : Portuguese (BR)\nDefault                                  : No\nForced                                   : Yes\n\nText #15\nID                                       : 25\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 132 b/s\nFrame rate                               : 0.257 FPS\nCount of elements                        : 370\nCompression mode                         : Lossless\nStream size                              : 23.2 KiB (0%)\nTitle                                    : Portuguese (Brazil)\nLanguage                                 : Portuguese (BR)\nDefault                                  : No\nForced                                   : No\n\nText #16\nID                                       : 26\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 57 s\nBit rate                                 : 119 b/s\nFrame rate                               : 0.277 FPS\nCount of elements                        : 398\nCompression mode                         : Lossless\nStream size                              : 21.0 KiB (0%)\nTitle                                    : Indonesian\nLanguage                                 : Indonesian\nDefault                                  : No\nForced                                   : No\n\nText #17\nID                                       : 27\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 57 s\nBit rate                                 : 236 b/s\nFrame rate                               : 0.284 FPS\nCount of elements                        : 408\nCompression mode                         : Lossless\nStream size                              : 41.6 KiB (0%)\nTitle                                    : Thai\nLanguage                                 : Thai\nDefault                                  : No\nForced                                   : No\n\nText #18\nID                                       : 28\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 57 s\nBit rate                                 : 120 b/s\nFrame rate                               : 0.317 FPS\nCount of elements                        : 456\nCompression mode                         : Lossless\nStream size                              : 21.2 KiB (0%)\nTitle                                    : Mandarin (Simplified)\nLanguage                                 : Chinese (Simplified)\nDefault                                  : No\nForced                                   : No\n\nText #19\nID                                       : 29\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 57 s\nBit rate                                 : 120 b/s\nFrame rate                               : 0.317 FPS\nCount of elements                        : 456\nCompression mode                         : Lossless\nStream size                              : 21.2 KiB (0%)\nTitle                                    : Mandarin (Traditional)\nLanguage                                 : Chinese (Traditional)\nDefault                                  : No\nForced                                   : No\n\nText #20\nID                                       : 30\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 41 s\nBit rate                                 : 151 b/s\nFrame rate                               : 0.279 FPS\nCount of elements                        : 397\nCompression mode                         : Lossless\nStream size                              : 26.4 KiB (0%)\nTitle                                    : Vietnamese\nLanguage                                 : Vietnamese\nDefault                                  : No\nForced                                   : No\n\nText #21\nID                                       : 31\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 59 s\nBit rate                                 : 178 b/s\nFrame rate                               : 0.252 FPS\nCount of elements                        : 362\nCompression mode                         : Lossless\nStream size                              : 31.3 KiB (0%)\nTitle                                    : Russian\nLanguage                                 : Russian\nDefault                                  : No\nForced                                   : No\n\nText #22\nID                                       : 32\nFormat                                   : ASS\nMuxing mode                              : zlib\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 57 s\nBit rate                                 : 135 b/s\nFrame rate                               : 0.317 FPS\nCount of elements                        : 456\nCompression mode                         : Lossless\nStream size                              : 23.7 KiB (0%)\nTitle                                    : Malay\nLanguage                                 : Malay\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Intro\n00:01:52.010                             : en:OP\n00:03:21.970                             : en:Part A\n00:09:47.030                             : en:Part B\n00:22:24.990                             : en:ED\n00:23:54.960                             : en:Next Episode",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "13757199368",
+    "media_id": "s172",
+    "media_episode_ids": [
+      "172749",
+      "220918",
+      "220919",
+      "220920",
+      "220921",
+      "220922",
+      "220923",
+      "220924",
+      "220925",
+      "220926",
+      "220927",
+      "220928",
+      "220929",
+      "220930",
+      "220931",
+      "220932",
+      "220933",
+      "220934",
+      "220935",
+      "220936",
+      "220937",
+      "220938",
+      "220939",
+      "220940"
+    ],
+    "anilist_id": 182205,
+    "anilist_ids": [
+      182205
+    ],
+    "audio_lang": "en,de,ar,fr-fr,es-es,pt-br,es-419,ja,it",
+    "sub_lang": "ru,en,de,fr-fr,ar,es-es,pt-br,zh-hans,vi,zh-hant,ms,es-419,id,it,th",
+    "fsub_lang": "en",
+    "video_codec": 3,
+    "video_type": 7,
+    "files": [
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E01 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E01 [WEB.1080p.AV1].mkv",
+        "length": 466245359,
+        "offset": 0
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E02 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E02 [WEB.1080p.AV1].mkv",
+        "length": 515906462,
+        "offset": 466245359
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E03 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E03 [WEB.1080p.AV1].mkv",
+        "length": 656240828,
+        "offset": 982151821
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E04 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E04 [WEB.1080p.AV1].mkv",
+        "length": 513611314,
+        "offset": 1638392649
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E05 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E05 [WEB.1080p.AV1].mkv",
+        "length": 498218716,
+        "offset": 2152003963
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E06 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E06 [WEB.1080p.AV1].mkv",
+        "length": 556318268,
+        "offset": 2650222679
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E07 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E07 [WEB.1080p.AV1].mkv",
+        "length": 473323457,
+        "offset": 3206540947
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E08 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E08 [WEB.1080p.AV1].mkv",
+        "length": 491368870,
+        "offset": 3679864404
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E09 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E09 [WEB.1080p.AV1].mkv",
+        "length": 647387099,
+        "offset": 4171233274
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E10 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E10 [WEB.1080p.AV1].mkv",
+        "length": 652437109,
+        "offset": 4818620373
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E11 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E11 [WEB.1080p.AV1].mkv",
+        "length": 610304099,
+        "offset": 5471057482
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E12 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E12 [WEB.1080p.AV1].mkv",
+        "length": 525116260,
+        "offset": 6081361581
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E13 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E13 [WEB.1080p.AV1].mkv",
+        "length": 575423689,
+        "offset": 6606477841
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E14 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E14 [WEB.1080p.AV1].mkv",
+        "length": 631102358,
+        "offset": 7181901530
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E15 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E15 [WEB.1080p.AV1].mkv",
+        "length": 478465810,
+        "offset": 7813003888
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E16 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E16 [WEB.1080p.AV1].mkv",
+        "length": 536036723,
+        "offset": 8291469698
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E17 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E17 [WEB.1080p.AV1].mkv",
+        "length": 522753198,
+        "offset": 8827506421
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E18 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E18 [WEB.1080p.AV1].mkv",
+        "length": 507089351,
+        "offset": 9350259619
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E19 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E19 [WEB.1080p.AV1].mkv",
+        "length": 610150735,
+        "offset": 9857348970
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E20 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E20 [WEB.1080p.AV1].mkv",
+        "length": 583531064,
+        "offset": 10467499705
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E21 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E21 [WEB.1080p.AV1].mkv",
+        "length": 615179051,
+        "offset": 11051030769
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E22 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E22 [WEB.1080p.AV1].mkv",
+        "length": 668335342,
+        "offset": 11666209820
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E23 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E23 [WEB.1080p.AV1].mkv",
+        "length": 648250885,
+        "offset": 12334545162
+      },
+      {
+        "path": "[Ironclad] Tensei Shitara Slime Datta Ken - S04 [WEB.1080p.AV1]/[Ironclad] Tensei Shitara Slime Datta Ken - S04E24 [WEB.1080p.AV1].mkv",
+        "name": "[Ironclad] Tensei Shitara Slime Datta Ken - S04E24 [WEB.1080p.AV1].mkv",
+        "length": 774403321,
+        "offset": 12982796047
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:5488fb62de8d5a7ba15213ea325de485174b9c51&dn=%5BIronclad%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20-%20S04%20(WEB%201080p%20AV1)%20%7C%20Tensei%20Shitara%20Slime%20Datta%20Ken%20(Multi-Audio%2C%20Multi-Subs)%20%7BTags%3AL2%3BV7%3BC3%3BA%3Den%2Cde%2Car%2Cfrfr%2Ceses%2Cptbr%2Ces419%2Cja%2Cit%3BF%3Den%3BS%3Dru%2Cen%2Cde%2Cfrfr%2Car%2Ceses%2Cptbr%2Czhhans%2Cvi%2Czhhant%2Cms%2Ces419%2Cid%2Cit%2Cth%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2F93.158.213.92%3A6969%2Fannounce&tr=udp%3A%2F%2F91.216.110.53%3A451%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce",
+    "private_magnet": null,
+    "infohash": "5488fb62de8d5a7ba15213ea325de485174b9c51",
+    "anonymous": false,
+    "uploader": {
+      "id": "7251497637146",
+      "username": "ironclad",
+      "display_name": "Ironclad",
+      "pfp_hash": "5a9bc48d736e908fca7c85dabf5a06b8585a799e15b759fe5227520300c96389"
+    },
+    "groups": [
+      {
+        "id": "7251721831734",
+        "name": "ironclad",
+        "display_name": "Ironclad",
+        "display_tag": "Ironclad",
+        "pfp_hash": "5a9bc48d736e908fca7c85dabf5a06b8585a799e15b759fe5227520300c96389",
+        "tagline": "AV1 Minis",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      },
+      {
+        "id": "7313765950000",
+        "name": "varyg",
+        "display_name": "VARYG",
+        "display_tag": "VARYG",
+        "pfp_hash": null,
+        "tagline": "WEB-DLs",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Raws"
+      },
+      {
+        "id": "7251504327481",
+        "name": "toonshub",
+        "display_name": "ToonsHub",
+        "display_tag": "ToonsHub",
+        "pfp_hash": "e97eeac72d439abb51eb3237b0454792d5550991c024b463d9a07b0ae43c351c",
+        "tagline": "(mostly) automated WEB-DLs",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Raws"
+      },
+      {
+        "id": "7110296043059",
+        "name": "tsundere-raws",
+        "display_name": "Tsundere-Raws",
+        "display_tag": "Tsundere-Raws",
+        "pfp_hash": "5c26b0d6fa21ccd1beb67f34299596144fc193690731b2d1c6769746a9e66c41",
+        "tagline": "First on french releases",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Raws"
+      },
+      {
+        "id": "7310842786873",
+        "name": "asakura",
+        "display_name": "Asakura",
+        "display_tag": "Asakura",
+        "pfp_hash": "e69b04be60a8ec487e7bd7ebca95c24b80430502cfa0302a4c476574bc1b3f7e",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Subs"
+      }
+    ],
+    "imported": null,
+    "seeders": "31",
+    "leechers": "3",
+    "completed": "146",
+    "activity": "8677443",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "streams": [
+    {
+      "url": "magnet:?xt=urn:btih:1d12d31b817887f33a20a28b6df168da4e4567aa&dn=%5BMTBB%5D%20Bakemonogatari%20S1%20(BD%201080p)%20%7BTags%3AL4%3BV13%3BC2%3BA%3Dja%3BF%3Den%2Cenm%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+      "infoHash": "1d12d31b817887f33a20a28b6df168da4e4567aa",
+      "fileIdx": 1,
+      "name": "[MTBB] | NekoBT⁠⁢⁡⁤⁣⁡⁡⁡⁢⁡⁤͏⁠⁢⁡⁤⁣⁡⁡⁢⁢⁡⁤⁢͏⁠⁢⁡⁤⁣⁡⁡⁢⁣⁡⁣͏⁠⁢⁡⁤⁣⁡⁡⁢⁤͏",
+      "description": "🟢↑ 107 • 🔴↓ 27  | 📤 2025-12-06\n\n💬✨ 🇬🇧｢:3｣\n🔊     🇯🇵\n\n🎬 1.8 GB  ·  10.20 Mbps  1.27 MB/s\n[MTBB] Bakemonogatari - 01v3 (BD 1080p) [2D7FEB9A].mkv\n\n📦 20.8 GB\n[MTBB] Bakemonogatari S1 (BD 1080p)",
+      "sources": [
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:https://tracker.nekobt.to/api/tracker/public/announce"
+      ],
+      "behaviorHints": {
+        "bingeGroup": "Nekuvio-1d12d31b817887f33a20a28b6df168da4e4567aa"
+      }
+    },
+    {
+      "url": "magnet:?xt=urn:btih:e6c7a86e970b886911a2211539157e1f1558a728&dn=%5Bmatheousse%5D%20Monogatari%2001-68%20Series%20Int%C3%A9grale%20VOSTFR%20v3%20(BD%201080p%20Opus)%20(Bakemonogatari%2C%20Kizumonogatari%2C%20Nisemonogatari%2C%20Nekomonogatari%20Black%2C%20Monogatari%20Second%20Season%2C%20Hanamonogatari%2C%20Tsukimonogatari%2C%20Koyomimonogatari%2C%20Owarimonogatari%2C%20Zoku%20Owarimonogatari)%20%7BTags%3AL2%3BA%3Dja%3BF%3Dfrfr%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+      "infoHash": "e6c7a86e970b886911a2211539157e1f1558a728",
+      "fileIdx": 48,
+      "name": "[matheousse] | NekoBT⁠⁢⁡⁤⁣⁡⁡⁡⁢⁡⁣͏⁠⁢⁡⁤⁣⁡⁡⁢⁢⁡⁡⁡͏⁠⁢⁡⁤⁣⁡⁡⁢⁣⁡⁡͏⁠⁢⁡⁤⁣⁡⁡⁢⁤͏",
+      "description": "🟢↑ 30 • 🔴↓ 23  | 📤 2026-02-15\n\n💬✨ 🇫🇷\n🔊     🇯🇵\n\n🎬 1.8 GB  ·  10.36 Mbps  1.29 MB/s\n[matheousse] Bakemonogatari - 01 MULTi [BD 1080p Opus] [9C9FBA56].mkv\n\n📦 205.8 GB\n[matheousse] Monogatari 01-68 Series Intégrale VOSTFR v3 (BD 1080p Opus) (Bakemonogatari, Kizumonogatari, Nisemonogatari, Nekomonogatari Black, Monogatari Second Season, Hanamonogatari, Tsukimonogatari, Koyomimonogatari, Owarimonogatari, Zoku Owarimonogatari)",
+      "sources": [
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:https://tracker.nekobt.to/api/tracker/public/announce"
+      ],
+      "behaviorHints": {
+        "bingeGroup": "Nekuvio-e6c7a86e970b886911a2211539157e1f1558a728"
+      }
+    }
+  ]
+}

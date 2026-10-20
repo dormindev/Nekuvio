@@ -7,7 +7,7 @@
         "id": "kitsu:49235:24"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-kitsu_12_1180",
@@ -16,34 +16,7 @@
         "id": "kitsu:12:1180"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_45950_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:45950:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_49183_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:49183:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_12_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:12:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "movie-tt5323662",
@@ -52,25 +25,7 @@
         "id": "tt5323662"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt0245429",
-      "params": {
-        "type": "movie",
-        "id": "tt0245429"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt9881586",
-      "params": {
-        "type": "movie",
-        "id": "tt9881586"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "movie-tt14523706",
@@ -79,7 +34,7 @@
         "id": "tt14523706"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "movie-mal_64012",
@@ -88,25 +43,7 @@
         "id": "mal:64012"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-mal_63736",
-      "params": {
-        "type": "movie",
-        "id": "mal:63736"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt36282134",
-      "params": {
-        "type": "movie",
-        "id": "tt36282134"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "movie-tt38652027",
@@ -115,61 +52,7 @@
         "id": "tt38652027"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-mal_62387",
-      "params": {
-        "type": "movie",
-        "id": "mal:62387"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt38650409",
-      "params": {
-        "type": "movie",
-        "id": "tt38650409"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt37931873",
-      "params": {
-        "type": "movie",
-        "id": "tt37931873"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt36461929",
-      "params": {
-        "type": "movie",
-        "id": "tt36461929"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_42323_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:42323:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_50040_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:50040:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-kitsu_11794_1",
@@ -178,7 +61,7 @@
         "id": "kitsu:11794:1"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-tt6455986_0_1",
@@ -187,43 +70,7 @@
         "id": "tt6455986:0:1"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_11794_2",
-      "params": {
-        "type": "series",
-        "id": "kitsu:11794:2"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_11794_7",
-      "params": {
-        "type": "series",
-        "id": "kitsu:11794:7"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_244_110",
-      "params": {
-        "type": "series",
-        "id": "kitsu:244:110"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_244_21",
-      "params": {
-        "type": "series",
-        "id": "kitsu:244:21"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-tt0434665_0_99",
@@ -232,7 +79,7 @@
         "id": "tt0434665:0:99"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-tt0434665_0_6",
@@ -241,88 +88,7 @@
         "id": "tt0434665:0:6"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-tt0434665_0_1",
-      "params": {
-        "type": "series",
-        "id": "tt0434665:0:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_49183_9",
-      "params": {
-        "type": "series",
-        "id": "kitsu:49183:9"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_49372_5",
-      "params": {
-        "type": "series",
-        "id": "kitsu:49372:5"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_50634_4",
-      "params": {
-        "type": "series",
-        "id": "kitsu:50634:4"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_48899_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:48899:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_48899_10",
-      "params": {
-        "type": "series",
-        "id": "kitsu:48899:10"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-tt36517689_0_1",
-      "params": {
-        "type": "series",
-        "id": "tt36517689:0:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_11209_4",
-      "params": {
-        "type": "series",
-        "id": "kitsu:11209:4"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_47235_4",
-      "params": {
-        "type": "series",
-        "id": "kitsu:47235:4"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-tt5607616_0_1",
@@ -331,52 +97,7 @@
         "id": "tt5607616:0:1"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_11209_12",
-      "params": {
-        "type": "series",
-        "id": "kitsu:11209:12"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_11209_25",
-      "params": {
-        "type": "series",
-        "id": "kitsu:11209:25"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_11209_23",
-      "params": {
-        "type": "series",
-        "id": "kitsu:11209:23"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_41024_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:41024:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-tt9054364_0_7",
-      "params": {
-        "type": "series",
-        "id": "tt9054364:0:7"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-tt9054364_0_14",
@@ -385,43 +106,7 @@
         "id": "tt9054364:0:14"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-tt2942218_0_1",
-      "params": {
-        "type": "series",
-        "id": "tt2942218:0:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_7622_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:7622:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_8313_2",
-      "params": {
-        "type": "series",
-        "id": "kitsu:8313:2"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_43301_5",
-      "params": {
-        "type": "series",
-        "id": "kitsu:43301:5"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-tt12728856_0_4",
@@ -430,16 +115,7 @@
         "id": "tt12728856:0:4"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-tt4508902_0_4",
-      "params": {
-        "type": "series",
-        "id": "tt4508902:0:4"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "series-kitsu_12566_1",
@@ -448,178 +124,7 @@
         "id": "kitsu:12566:1"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_12566_5",
-      "params": {
-        "type": "series",
-        "id": "kitsu:12566:5"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_46231_1",
-      "params": {
-        "type": "series",
-        "id": "kitsu:46231:1"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-tt21209876_0_5",
-      "params": {
-        "type": "series",
-        "id": "tt21209876:0:5"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_48671_4",
-      "params": {
-        "type": "series",
-        "id": "kitsu:48671:4"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt30472557",
-      "params": {
-        "type": "movie",
-        "id": "tt30472557"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt8652818",
-      "params": {
-        "type": "movie",
-        "id": "tt8652818"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt31711040",
-      "params": {
-        "type": "movie",
-        "id": "tt31711040"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt8092118",
-      "params": {
-        "type": "movie",
-        "id": "tt8092118"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt15721650",
-      "params": {
-        "type": "movie",
-        "id": "tt15721650"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt26684398",
-      "params": {
-        "type": "movie",
-        "id": "tt26684398"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt15830702",
-      "params": {
-        "type": "movie",
-        "id": "tt15830702"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt11151982",
-      "params": {
-        "type": "movie",
-        "id": "tt11151982"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt11802992",
-      "params": {
-        "type": "movie",
-        "id": "tt11802992"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt16183464",
-      "params": {
-        "type": "movie",
-        "id": "tt16183464"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt14614892",
-      "params": {
-        "type": "movie",
-        "id": "tt14614892"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-mal_62405",
-      "params": {
-        "type": "movie",
-        "id": "mal:62405"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt13064272",
-      "params": {
-        "type": "movie",
-        "id": "tt13064272"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-mal_54250",
-      "params": {
-        "type": "movie",
-        "id": "mal:54250"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt9534948",
-      "params": {
-        "type": "movie",
-        "id": "tt9534948"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     },
     {
       "id": "movie-tt12415546",
@@ -628,97 +133,7 @@
         "id": "tt12415546"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt15313532",
-      "params": {
-        "type": "movie",
-        "id": "tt15313532"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt15801642",
-      "params": {
-        "type": "movie",
-        "id": "tt15801642"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-mal_59841",
-      "params": {
-        "type": "movie",
-        "id": "mal:59841"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt13308788",
-      "params": {
-        "type": "movie",
-        "id": "tt13308788"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt36592985",
-      "params": {
-        "type": "movie",
-        "id": "tt36592985"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt5914996",
-      "params": {
-        "type": "movie",
-        "id": "tt5914996"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-mal_62392",
-      "params": {
-        "type": "movie",
-        "id": "mal:62392"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt7745068",
-      "params": {
-        "type": "movie",
-        "id": "tt7745068"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "movie-tt5084198",
-      "params": {
-        "type": "movie",
-        "id": "tt5084198"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
-    },
-    {
-      "id": "series-kitsu_49002_13",
-      "params": {
-        "type": "series",
-        "id": "kitsu:49002:13"
-      },
-      "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)"
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19"
     }
   ]
 }

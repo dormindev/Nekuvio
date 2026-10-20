@@ -1,3 +1,11 @@
 {
-  "records": []
+  "records": [
+    {
+      "id": "non-array-results",
+      "params": { "query": { "media_id": "s172", "limit": "20", "episode_ids": "220940" } },
+      "fetched": null,
+      "grounds": "assumed search body whose `data` carries no `results` array — `Array.isArray(result.data?.data?.results)` guard falls through to `[]`; migrated from api.test.ts (\"searchTorrents returns an empty array when results are not an array\")",
+      "verdict": "ungrounded"
+    }
+  ]
 }

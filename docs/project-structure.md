@@ -129,11 +129,11 @@ Contains the automated test suite, its helpers, and the `test/data/` test-data l
 test/
 ├── data/
 │   ├── meta.json          # root registry: services + apis (endpoint/key/defaults)
-│   ├── fixtures/          # REAL data — immutable justification evidence
-│   ├── examples/          # REAL data — refreshable portrait
-│   ├── unsupported/       # REAL data — quarantine (excluded from vitest collection)
-│   └── synthetic/         # assumed shapes — never passed off as real
-├── helpers/               # shared test utilities (fixture loader)
+│   ├── fixtures/          # REAL — immutable justification evidence
+│   ├── examples/          # REAL — refreshable observed responses
+│   ├── unsupported/       # REAL — quarantine (excluded from vitest collection)
+│   └── synthetic/         # ASSUMED shapes — never passed off as real
+├── helpers/               # shared test utilities (test-data.ts: loadFixture/loadSynthetic)
 ├── perf/                  # benchmarks
 └── *.test.ts
 ```
@@ -157,9 +157,11 @@ docs/
 │   ├── 001-id-resolution.md
 │   ├── 002-episode-filename-matching.md
 │   ├── 003-vitest-test-migration.md
-│   └── 004-pipeline-parallelization.md
+│   ├── 004-pipeline-parallelization.md
+│   └── 005-test-data-organization.md
 ├── README.md
 ├── conventions.md
+├── data-catalog.md
 ├── development.md
 ├── docker.md
 ├── github-assets.md

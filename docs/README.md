@@ -10,6 +10,7 @@ This directory contains guides, references, architecture decisions, and technica
 - [Project Structure](project-structure.md) — Directory layout and component responsibilities
 - [GitHub-Hosted Assets](github-assets.md) — Build-time asset URL generation and revision resolution
 - [Versioning](versioning.md) — Relationship between Git tags, releases, and images
+- [Data Catalog](data-catalog.md) — Inventory of real-world cases per endpoint and request shape
 
 ## Decisions
 
@@ -19,6 +20,7 @@ Architecture decisions are stored chronologically under `decisions/`:
 - [002 — Episode Filename Matching](decisions/002-episode-filename-matching.md)
 - [003 — Vitest Test Migration](decisions/003-vitest-test-migration.md)
 - [004 — Pipeline Parallelization](decisions/004-pipeline-parallelization.md)
+- [005 — Test Data Organization](decisions/005-test-data-organization.md)
 
 Each decision documents the relevant NekoBT documentation, observed behavior, chosen implementation, and important limitations.
 

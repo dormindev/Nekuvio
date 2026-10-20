@@ -1,0 +1,92 @@
+{
+  "error": false,
+  "data": {
+    "id": "14125082549254",
+    "uploaded_at": 1790865703708,
+    "title": "[YE] One Piece - 1180 (THK 1280x720 x265 10bit AAC).mkv",
+    "auto_title": "[YE] One Piece - 1180 (THK 1280x720 x265 10bit AAC).mkv {Tags:V3;C2;A=ja;}",
+    "description": "Join my [Community](https://raiza.dev/invite) or [Recording Studio](https://discord.gg/dqYcykEtrw) Discord!\n\nAlso looking for US HDTV cappers!",
+    "mediainfo": "General\nUnique ID                                : 111957492143751455811684019152119714424 (0x543A3A8994A91CDDC44C1F4354D4D278)\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 495 MiB\nDuration                                 : 23 min 24 s\nOverall bit rate                         : 2 957 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2026-10-01 14:20:30 UTC\nWriting application                      : mkvmerge 102.0 ('Little Houses') 64-bit\nWriting library                          : libebml v1.4.7 + libmatroska v1.7.2\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L3.1@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 23 min 24 s\nBit rate                                 : 2 703 kb/s\nWidth                                    : 1 280 pixels\nHeight                                   : 720 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.122\nStream size                              : 453 MiB (91%)\nWriting library                          : x265 4.1+79+12-81640d428:[Windows][MSVC 1942][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=5 / numa-pools=32 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1280x720 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=3 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-eob / no-eos / no-hrd / info / hash=0 / temporal-layers=0 / open-gop / min-keyint=23 / keyint=240 / gop-lookahead=0 / bframes=4 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=150 / lookahead-slices=4 / scenecut=40 / no-hist-scenecut / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / no-rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=0 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / strong-intra-smoothing / max-merge=3 / limit-refs=1 / no-limit-modes / me=2 / subme=2 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-1:-2 / sao / no-sao-non-deblock / rd=3 / selective-sao=4 / early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=0.00 / no-rd-refine / no-lossless / cbqpoffs=0 / crqpoffs=0 / rc=crf / crf=16.0 / qcomp=0.60 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=2 / aq-strength=0.80 / aq-bias-strength=1.00 / cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=2 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / scenecut-aware-qp=0conformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0 / no-vbv-live-multi-pass / no-mcstf / no-alpha / num-views=1 / format=0scc=0 / no-sbrc / no-frame-rc\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : 2 / A_AAC-2\nDuration                                 : 23 min 24 s\nBit rate                                 : 252 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 42.3 MiB (9%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": null,
+    "mtl": false,
+    "filesize": "519252640",
+    "media_id": "s1545",
+    "media_episode_ids": [
+      "529267"
+    ],
+    "anilist_id": 21,
+    "anilist_ids": [
+      21
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "",
+    "video_codec": 2,
+    "video_type": 3,
+    "files": [
+      {
+        "path": "[YE] One Piece - 1180 (THK 1280x720 x265 10bit AAC).mkv",
+        "name": "[YE] One Piece - 1180 (THK 1280x720 x265 10bit AAC).mkv",
+        "length": 519252640,
+        "offset": 0
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:457c1f14d03e01f09cfb4c617c031a7e6a108b65&dn=%5BYE%5D%20One%20Piece%20-%201180%20(THK%201280x720%20x265%2010bit%20AAC).mkv%20%7BTags%3AV3%3BC2%3BA%3Dja%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=https%3A%2F%2Ftracker.pmman.tech%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.nekomi.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.7471.top%3A443%2Fannounce&tr=https%3A%2F%2Ftr.nyacat.pw%3A443%2Fannounce&tr=https%3A%2F%2Fht.therarbg.to%3A443%2Fannounce&tr=https%3A%2F%2F004430.xyz%3A443%2Fannounce&tr=https%3A%2F%2Fopen.ftorrent.com%3A443%2Fannounce&tr=https%3A%2F%2Fpybittrack.retiolus.net%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.foreverpirates.co%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.onetracker.net%3A443%2Fannounce&tr=https%3A%2F%2Ft.213891.xyz%3A443%2Fannounce",
+    "private_magnet": null,
+    "infohash": "457c1f14d03e01f09cfb4c617c031a7e6a108b65",
+    "anonymous": false,
+    "uploader": {
+      "id": "9384928300830",
+      "username": "y-e",
+      "display_name": "Y-E",
+      "pfp_hash": "58b6df22e3c14ef7dc74ab7795a12d995dba257afc182b9afad70bc942dd2b0f"
+    },
+    "groups": [
+      {
+        "id": "9384947982390",
+        "name": "ye",
+        "display_name": "YE",
+        "display_tag": "YE",
+        "pfp_hash": "58b6df22e3c14ef7dc74ab7795a12d995dba257afc182b9afad70bc942dd2b0f",
+        "tagline": "Raw encodes",
+        "open": false,
+        "members": [
+          {
+            "id": "9384928300830",
+            "invite": false,
+            "username": "y-e",
+            "display_name": "Y-E",
+            "pfp_hash": "58b6df22e3c14ef7dc74ab7795a12d995dba257afc182b9afad70bc942dd2b0f",
+            "role": "Encoder",
+            "weight": 1
+          }
+        ],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "0",
+    "leechers": "0",
+    "completed": "13",
+    "activity": "0",
+    "torrent_health": "0",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

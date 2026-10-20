@@ -1,0 +1,16 @@
+{
+  "tracker": "http://nyaa.tracker.wf:7777/announce",
+  "requested": [
+    "f667c5061b5e16a81adaf9fe193a458e0d2ad59f"
+  ],
+  "responseShape": "single ScrapeResult",
+  "answers": [
+    {
+      "infohash": "66363637633530363162356531366138316164616639666531393361343538653064326164353966",
+      "normalized": "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+      "complete": 194,
+      "incomplete": 55,
+      "downloaded": 13331
+    }
+  ]
+}

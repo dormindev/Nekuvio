@@ -14,7 +14,7 @@ import {
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
 import type { NekoTorrentItem } from '../src/types.js';
 
-import { loadFixture } from './helpers/fixtures.js';
+import { loadFixture, loadSynthetic } from './helpers/test-data.js';
 
 
 vi.mock('node-fetch', () => {
@@ -87,7 +87,7 @@ describe('api/kitsu', () => {
     const mockResponse = {
       ok: true,
       status: 200,
-      json: async () => ({ data: [] })
+      json: async () => loadSynthetic('kitsu-mappings', 'empty-mappings')
     } as unknown as Response;
 
     mockedFetch.mockResolvedValueOnce(mockResponse);
@@ -101,7 +101,7 @@ describe('api/kitsu', () => {
     const mockResponse = {
       ok: true,
       status: 200,
-      json: async () => ({ data: null })
+      json: async () => loadSynthetic('kitsu-mappings', 'null-data')
     } as unknown as Response;
 
     mockedFetch.mockResolvedValueOnce(mockResponse);
@@ -118,12 +118,7 @@ describe('api/nekobt', () => {
   });
 
   it('resolveMediaId returns media ID resolution info with isMovie=false for series', async () => {
-    const mockPayload = {
-      data: {
-        media_id: 's172',
-        anilist_id: 182205
-      }
-    };
+    const mockPayload = loadSynthetic('nekobt-resolve', 'series');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -140,12 +135,7 @@ describe('api/nekobt', () => {
   });
 
   it('resolveMediaId marks isMovie=true for movie IDs starting with m', async () => {
-    const mockPayload = {
-      data: {
-        media_id: 'm145',
-        anilist_id: 199
-      }
-    };
+    const mockPayload = loadSynthetic('nekobt-resolve', 'movie');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -333,7 +323,7 @@ describe('api/nekobt', () => {
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({})
+      json: async () => loadSynthetic('nekobt-media', 'null-data')
     } as unknown as Response);
 
     const result = await getMedia('s172');
@@ -357,7 +347,7 @@ describe('api/nekobt', () => {
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({ data: {} })
+      json: async () => loadSynthetic('nekobt-search', 'non-array-results')
     } as unknown as Response);
 
     const result = await searchTorrents('s172', 220940);

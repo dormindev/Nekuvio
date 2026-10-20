@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "id": "null-data",
+      "params": { "path": { "id": "<media-id>" }, "query": { "force": "true" } },
+      "fetched": null,
+      "grounds": "assumed media body with `data: null` — `getMedia` returns `result.data?.data || null`; migrated from api.test.ts (\"getMedia returns null when the response carries no data\")",
+      "verdict": "ungrounded"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": "14498",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/14498"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "externalSite": "thetvdb/series",
+        "externalId": "120351"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/14498/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/14498/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "56824",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/56824"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "externalSite": "anidb",
+        "externalId": "2841"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/56824/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/56824/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "64888",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/64888"
+      },
+      "attributes": {
+        "createdAt": "2017-09-09T07:02:29.033Z",
+        "updatedAt": "2017-09-09T07:02:29.033Z",
+        "externalSite": "thetvdb",
+        "externalId": "120351/1"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/64888/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/64888/item"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 3
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime/452/mappings?page%5Blimit%5D=10&page%5Boffset%5D=0",
+    "last": "https://kitsu.io/api/edge/anime/452/mappings?page%5Blimit%5D=10&page%5Boffset%5D=0"
+  }
+}

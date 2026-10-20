@@ -1,0 +1,82 @@
+{
+  "error": false,
+  "data": {
+    "id": "14414565343489",
+    "uploaded_at": 1791996495873,
+    "title": "[Asakura] Tensei Shitara Slime Datta Ken 4th Season - 24 [1080p WEB AAC x264] [4CDC9283]",
+    "auto_title": "[Asakura] Tensei Shitara Slime Datta Ken S04E24 [1080p WEB AAC x264] [4CDC9283] {Tags:L2;V9;C1;A=ja;F=en;}",
+    "description": "![alt text](https://i.imgur.com/8XkJBP1.png \"TBC\")\n\nAnd that's a wrap! Next will be the batch for all episodes, followed by BD batch of Opposites S1 and then work on S2 will start.\n\nPlease note, that I only support [mpv](https://sourceforge.net/projects/mpv-player-windows/files/) to play the files correctly, so use that! If you find any errors in translation or TS, please let me know.",
+    "mediainfo": "General\nUnique ID                                : 92851462281414018096335423018121378693 (0x45DA8A8961F0645AA65AB8A0275D3B85)\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.37 GiB\nDuration                                 : 24 min 0 s\nOverall bit rate                         : 8 143 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2026-10-14 16:33:25 UTC\nWriting application                      : mkvmerge 101.0 ('Time To Turn') 64-bit\nWriting library                          : libebml v1.4.7 + libmatroska v1.7.2\nAttachments                              : A-OTF-KaiminTuStd-Heavy.otf / BMDoHyeon-Regular.otf / C017000d.ttf / Dimbo Regular.ttf / GandhiSans-Bold.otf / GandhiSans-BoldItalic.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High@L4\nFormat settings                          : CABAC / 4 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, Reference frames        : 4 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 59 s\nBit rate                                 : 8 000 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 8 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.161\nStream size                              : 1.33 GiB (98%)\nWriting library                          : x264 core 164\nEncoding settings                        : cabac=1 / ref=4 / deblock=1:1:1 / analyse=0x3:0x113 / me=hex / subme=8 / psy=1 / psy_rd=0.40:0.00 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=12 / lookahead_threads=2 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=0 / weightp=2 / keyint=96 / keyint_min=48 / scenecut=40 / intra_refresh=0 / rc_lookahead=48 / rc=2pass / mbtree=1 / bitrate=8000 / ratetol=1.0 / qcomp=0.60 / qpmin=0 / qpmax=69 / qpstep=4 / cplxblur=20.0 / qblur=0.5 / vbv_maxrate=12000 / vbv_bufsize=18000 / nal_hrd=none / filler=0 / ip_ratio=1.40 / aq=1:0.60\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : 2 / A_AAC-2\nDuration                                 : 24 min 0 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 44.1 kHz\nFrame rate                               : 43.066 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.0 MiB (2%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 22 s\nBit rate                                 : 21.3 kb/s\nFrame rate                               : 16.350 FPS\nCount of elements                        : 22925\nCompression mode                         : Lossless\nStream size                              : 3.57 MiB (0%)\nTitle                                    : Asakura\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Intro\n00:00:40.020                             : en:OP\n00:02:09.980                             : en:Part A\n00:12:17.010                             : en:Part B",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "1465859287",
+    "media_id": "s172",
+    "media_episode_ids": [
+      "220940"
+    ],
+    "anilist_id": 182205,
+    "anilist_ids": [
+      182205
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 1,
+    "video_type": 9,
+    "files": [
+      {
+        "path": "[Asakura] Tensei Shitara Slime Datta Ken 4th Season - 24 [1080p WEB AAC x264] [4CDC9283].mkv",
+        "name": "[Asakura] Tensei Shitara Slime Datta Ken 4th Season - 24 [1080p WEB AAC x264] [4CDC9283].mkv",
+        "length": 1465859287,
+        "offset": 0
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:3f1cf892ffdafcaa33939a22af449d76a4a8d17c&dn=%5BAsakura%5D%20Tensei%20Shitara%20Slime%20Datta%20Ken%20S04E24%20%5B1080p%20WEB%20AAC%20x264%5D%20%5B4CDC9283%5D%20%7BTags%3AL2%3BV9%3BC1%3BA%3Dja%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+    "private_magnet": null,
+    "infohash": "3f1cf892ffdafcaa33939a22af449d76a4a8d17c",
+    "anonymous": false,
+    "uploader": {
+      "id": "4529854584081",
+      "username": "asakura",
+      "display_name": "Asakura",
+      "pfp_hash": "da414f65301f6e8c8314169baa16c1a62b8dea5b"
+    },
+    "groups": [
+      {
+        "id": "7310842786873",
+        "name": "asakura",
+        "display_name": "Asakura",
+        "display_tag": "Asakura",
+        "pfp_hash": "e69b04be60a8ec487e7bd7ebca95c24b80430502cfa0302a4c476574bc1b3f7e",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "63",
+    "leechers": "1",
+    "completed": "427",
+    "activity": "4346",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

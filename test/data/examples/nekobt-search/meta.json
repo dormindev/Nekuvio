@@ -1,0 +1,194 @@
+{
+  "records": [
+    {
+      "id": "s172-220940",
+      "params": {
+        "query": {
+          "media_id": "s172",
+          "limit": "20",
+          "episode_ids": "220940"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_49235_24"
+    },
+    {
+      "id": "s1545-529267",
+      "params": {
+        "query": {
+          "media_id": "s1545",
+          "limit": "20",
+          "episode_ids": "529267"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_12_1180"
+    },
+    {
+      "id": "m145",
+      "params": {
+        "query": {
+          "media_id": "m145",
+          "limit": "20"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream movie-tt5323662"
+    },
+    {
+      "id": "m1064",
+      "params": {
+        "query": {
+          "media_id": "m1064",
+          "limit": "20"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream movie-mal_64012"
+    },
+    {
+      "id": "s1008-29791",
+      "params": {
+        "query": {
+          "media_id": "s1008",
+          "limit": "20",
+          "episode_ids": "29791"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream movie-tt38652027"
+    },
+    {
+      "id": "s1453-45692",
+      "params": {
+        "query": {
+          "media_id": "s1453",
+          "limit": "20",
+          "episode_ids": "45692"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_11794_1"
+    },
+    {
+      "id": "s1453-45675",
+      "params": {
+        "query": {
+          "media_id": "s1453",
+          "limit": "20",
+          "episode_ids": "45675"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-tt6455986_0_1"
+    },
+    {
+      "id": "s2999-117551",
+      "params": {
+        "query": {
+          "media_id": "s2999",
+          "limit": "20",
+          "episode_ids": "117551"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-tt0434665_0_99"
+    },
+    {
+      "id": "s2999-117550",
+      "params": {
+        "query": {
+          "media_id": "s2999",
+          "limit": "20",
+          "episode_ids": "117550"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-tt0434665_0_6"
+    },
+    {
+      "id": "s554-14314",
+      "params": {
+        "query": {
+          "media_id": "s554",
+          "limit": "20",
+          "episode_ids": "14314"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-tt5607616_0_1"
+    },
+    {
+      "id": "s172-4228",
+      "params": {
+        "query": {
+          "media_id": "s172",
+          "limit": "20",
+          "episode_ids": "4228"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-tt9054364_0_14"
+    },
+    {
+      "id": "s11629-525951",
+      "params": {
+        "query": {
+          "media_id": "s11629",
+          "limit": "20",
+          "episode_ids": "525951"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-tt12728856_0_4"
+    },
+    {
+      "id": "s843-24865",
+      "params": {
+        "query": {
+          "media_id": "s843",
+          "limit": "20",
+          "episode_ids": "24865"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_12566_1"
+    },
+    {
+      "id": "s193-5015",
+      "params": {
+        "query": {
+          "media_id": "s193",
+          "limit": "20",
+          "episode_ids": "5015"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_3919_1"
+    },
+    {
+      "id": "s172-220939_220940",
+      "params": {
+        "query": {
+          "media_id": "s172",
+          "limit": "20",
+          "episode_ids": "220939,220940"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_49235_24 — multi-episode (2 eps)"
+    },
+    {
+      "id": "s193-5015_5016",
+      "params": {
+        "query": {
+          "media_id": "s193",
+          "limit": "20",
+          "episode_ids": "5015,5016"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "search input for self-stream series-kitsu_3919_1 — multi-episode (2 eps)"
+    }
+  ]
+}

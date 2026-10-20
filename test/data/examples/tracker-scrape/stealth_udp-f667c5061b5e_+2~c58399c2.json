@@ -1,0 +1,32 @@
+{
+  "tracker": "udp://open.stealth.si:80/announce",
+  "requested": [
+    "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+    "e6c7a86e970b886911a2211539157e1f1558a728",
+    "1d12d31b817887f33a20a28b6df168da4e4567aa"
+  ],
+  "responseShape": "map keyed by infohash",
+  "answers": [
+    {
+      "infohash": "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+      "normalized": "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+      "complete": 222,
+      "incomplete": 79,
+      "downloaded": 766
+    },
+    {
+      "infohash": "e6c7a86e970b886911a2211539157e1f1558a728",
+      "normalized": "e6c7a86e970b886911a2211539157e1f1558a728",
+      "complete": 31,
+      "incomplete": 24,
+      "downloaded": 30
+    },
+    {
+      "infohash": "1d12d31b817887f33a20a28b6df168da4e4567aa",
+      "normalized": "1d12d31b817887f33a20a28b6df168da4e4567aa",
+      "complete": 103,
+      "incomplete": 29,
+      "downloaded": 416
+    }
+  ]
+}

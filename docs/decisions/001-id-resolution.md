@@ -1,7 +1,7 @@
 # Decision 001: ID Resolution
 
 **Status:** Accepted  
-**Date:** 2026-09-17
+**Date:** 2026-09-17 (Updated: 2026-10-20)
 
 ## Context
 
@@ -126,4 +126,14 @@ Keep external-ID resolution separate from torrent searching.
 The addon should use nekoBT's own media and episode relationships rather than attempting to infer internal IDs from external provider IDs or torrent names.
 
 The Kitsu exception is handled explicitly because its Nuvio ID format does not contain a season component.
+
+## Future Considerations
+
+### Additional Kitsu mapping sources
+
+`resolveKitsuToExternal` currently queries Kitsu's own mappings endpoint and prefers MAL, then AniList. Some Kitsu IDs (e.g. `46598` JoJo Stone Ocean Part 3) resolve to MAL IDs that NekoBT does not index, while an AniList mapping exists that NekoBT does index. The provider ordering could be extended or made fallback-aware.
+
+**Candidate source:** [animap.id](https://animap.id/docs/map) — a cross-provider anime ID mapping service that may provide additional Kitsu → AniList/MAL/TMDB/TVDB mappings beyond what Kitsu's own mappings endpoint returns. This could serve as a fallback when the primary provider (MAL) fails to resolve in NekoBT.
+
+Not implemented; tracked here as a future improvement.
 

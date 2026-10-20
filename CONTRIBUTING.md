@@ -46,6 +46,10 @@ Commit messages should follow standard conventional commit formatting:
 - Prefer the exact directory or module name as it appears in the tree: `test`, `src`, `docs`, `app`, `matcher`, `nekobt`, `kitsu`, `parser`, etc.
 - Existing `tests` usages are legacy — use `test` going forward.
 
+## Real-World Case Data
+
+Interesting real-world cases are catalogued under `docs/data-catalog.md`, with payloads under `test/data/{examples,unsupported,synthetic}/` and registry entries in `test/data/meta.json`. New cases may be added manually — see the entry-format section of `docs/data-catalog.md` and the fixtures/examples/unsupported/synthetic split described there.
+
 ## Code Quality Standards
 
 Before committing, verify all quality checks pass:

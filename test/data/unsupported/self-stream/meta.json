@@ -7,10 +7,34 @@
         "id": "kitsu:3919:1"
       },
       "fetched": null,
-      "grounds": "observed Nuvio stream request (former test/examples)",
-      "observed": "GET /stream/series/kitsu:3919:1 returns { streams: [] } — no file in torrent 7509405969932 matches the requested episode",
-      "expected": "a stream for episode 1, or an explicit diagnostic",
-      "triage": "deferred — matcher strategy gap; design-review candidate"
+      "grounds": "known-broken: fileIdx contract bug — stream for Bakemonogatari - 01 returns fileIdx=48 which indexes the video-only filtered array, not the original torrent.files array; original[48] is a non-video .7z archive, not the episode",
+      "observed": "GET /stream/series/kitsu:3919:1 returns 2 streams; stream 2 (infoHash e6c7a86e970b886911a2211539157e1f1558a728, torrent 9087447179017) has fileIdx=48 pointing at non-video in original array",
+      "expected": "fileIdx should index original torrent.files array so consumers can locate the correct video file",
+      "triage": "bug — matcher.ts findEpisodeFile returns filtered-array index; streamBuilder.ts:57 stores it as original-array index; see docs/data-catalog.md §Known Integrity Issues #1"
+    },
+    {
+      "id": "series-kitsu_46598_11",
+      "params": {
+        "type": "series",
+        "id": "kitsu:46598:11"
+      },
+      "fetched": null,
+      "grounds": "unsupported: no torrents indexed — Kitsu 46598 (JoJo's Bizarre Adventure: Stone Ocean Part 3) maps to MAL 53273 which NekoBT does not index (resolve returns 404); the AniList mapping (131942 → s552) resolves and fitInfo succeeds (season=5, ep=11, episodeId=14252), but searchTorrents(s552, 14252) returns 0 torrents, so no streams can be produced",
+      "observed": "kitsu:46598 → mal=53273 → NekoBT 404 No media found; anilist-131942 → s552 → fitInfo season=5 ep=11 epId=14252 → searchTorrents(s552, 14252) returns 0 torrents",
+      "expected": "at least one torrent indexed for Stone Ocean Part 3 episode 11 so a stream can be returned",
+      "triage": "unsupported — no torrents indexed for media s552; see docs/decisions/001-id-resolution.md §Future Considerations for animap.id mapping fallback idea"
+    },
+    {
+      "id": "series-kitsu_42279_1",
+      "params": {
+        "type": "series",
+        "id": "kitsu:42279:1"
+      },
+      "fetched": null,
+      "grounds": "unsupported: Kitsu mappings endpoint returns no mappings — kitsu:42279 (Zoku Owarimonogatari) has an empty mappings array from Kitsu's own API, so resolveKitsuToExternal throws \"No useful mapping found\" and the request can never reach NekoBT resolution",
+      "observed": "GET https://kitsu.io/api/edge/anime/42279/mappings returns {\"data\": [], \"meta\": {\"count\": 0}}; resolveKitsuToExternal(42279) throws No useful mapping found for Kitsu ID 42279",
+      "expected": "Kitsu mappings should provide at least one MAL or AniList external ID for nekoBT resolution",
+      "triage": "unsupported — Kitsu has no external mappings for this ID; requires animap.id or another cross-provider mapping source (see docs/decisions/001-id-resolution.md §Future Considerations)"
     }
   ]
 }

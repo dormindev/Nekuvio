@@ -11,7 +11,7 @@ import type {
   NuvioParsedRequest
 } from '../src/types.js';
 
-import { loadFixture } from './helpers/fixtures.js';
+import { loadFixture } from './helpers/test-data.js';
 
 
 describe('torrentToStream', () => {

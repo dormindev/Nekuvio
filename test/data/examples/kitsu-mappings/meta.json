@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "id": "51128",
+      "params": {
+        "path": {
+          "id": "51128"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "anilist-only fallback — no MAL mapping exists (grounds kitsu.ts providers fallback)"
+    },
+    {
+      "id": "49235",
+      "params": {
+        "path": {
+          "id": "49235"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu mappings input for self-stream series-kitsu_49235_24"
+    },
+    {
+      "id": "12",
+      "params": {
+        "path": {
+          "id": "12"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu mappings input for self-stream series-kitsu_12_1180"
+    },
+    {
+      "id": "11794",
+      "params": {
+        "path": {
+          "id": "11794"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu mappings input for self-stream series-kitsu_11794_1"
+    },
+    {
+      "id": "12566",
+      "params": {
+        "path": {
+          "id": "12566"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu mappings input for self-stream series-kitsu_12566_1"
+    },
+    {
+      "id": "3919",
+      "params": {
+        "path": {
+          "id": "3919"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu mappings input for self-stream series-kitsu_3919_1"
+    },
+    {
+      "id": "452",
+      "params": {
+        "path": {
+          "id": "452"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu mappings for kitsu 452 — TVDB/AnidB only, no MAL/AniList (grounds kitsu.ts providers fallback for non-anime IDs)"
+    }
+  ]
+}

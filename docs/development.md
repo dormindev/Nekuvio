@@ -138,25 +138,12 @@ This is useful for development and CI checks where compilation output is not req
 
 ## Tests
 
-Run the test suite in watch/interactive mode with Vitest:
-
 ```bash
-npm test
+npm test              # watch/interactive (Vitest)
+npm run test:coverage # single pass + V8 coverage → coverage/coverage-summary.json
 ```
 
-Generate test coverage with V8 provider (`text`, `lcov`, `json-summary`):
-
-```bash
-npm run test:coverage
-```
-
-The tests use Vitest with `@vitest/coverage-v8`. Coverage reports are written to the `coverage/` directory, including `coverage/coverage-summary.json`.
-
-Test files are located under:
-
-```text
-test/
-```
+Layout, layers (UNIT vs INTEGRATION), and case studies: [`test/README.md`](../test/README.md). Evidence base: [`data-catalog.md`](data-catalog.md).
 
 ## Docker
 

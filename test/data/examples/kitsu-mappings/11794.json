@@ -1,0 +1,137 @@
+{
+  "data": [
+    {
+      "id": "10507",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/10507"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "externalSite": "myanimelist/anime",
+        "externalId": "32615"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/10507/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/10507/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "55206",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/55206"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "externalSite": "anidb",
+        "externalId": "11905"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/55206/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/55206/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "89879",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/89879"
+      },
+      "attributes": {
+        "createdAt": "2018-01-24T04:05:05.452Z",
+        "updatedAt": "2018-01-24T04:05:05.452Z",
+        "externalSite": "aozora",
+        "externalId": "BXiXQh1XNA"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/89879/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/89879/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "89880",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/89880"
+      },
+      "attributes": {
+        "createdAt": "2018-01-24T04:05:05.470Z",
+        "updatedAt": "2018-01-24T04:05:05.470Z",
+        "externalSite": "trakt",
+        "externalId": "110492"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/89880/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/89880/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "89882",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/89882"
+      },
+      "attributes": {
+        "createdAt": "2018-01-24T04:05:05.502Z",
+        "updatedAt": "2018-01-24T04:05:05.502Z",
+        "externalSite": "thetvdb",
+        "externalId": "315500"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/89882/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/89882/item"
+          }
+        }
+      }
+    },
+    {
+      "id": "256769",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/256769"
+      },
+      "attributes": {
+        "createdAt": "2020-05-02T16:28:16.572Z",
+        "updatedAt": "2020-05-02T16:28:16.572Z",
+        "externalSite": "anilist/anime",
+        "externalId": "21613"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/256769/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/256769/item"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 6
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime/11794/mappings?page%5Blimit%5D=10&page%5Boffset%5D=0",
+    "last": "https://kitsu.io/api/edge/anime/11794/mappings?page%5Blimit%5D=10&page%5Boffset%5D=0"
+  }
+}

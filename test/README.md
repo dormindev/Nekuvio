@@ -1,110 +1,94 @@
 # Test Suite & Real-World Case Studies
 
-This directory contains automated unit tests and real API fixtures validating Nekuvio pipeline:
-Nuvio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selection → Stream Construction.
+Tests validate the pipeline: Nuvio ID parsing → Media Resolution & Fitting → Torrent Discovery & Selection → Stream Construction. Evidence lives in [`docs/data-catalog.md`](../docs/data-catalog.md); payloads under `test/data/{fixtures,examples,unsupported,synthetic}/` (observed requests are a sample, not an exhaustive spec).
 
 ---
 
-## Real-World Cases That Inspired Tests & Verifications
+## Real-World Cases → Tests
 
-The tests in this repository are based on real-world Nuvio requests (captured in `test/data/examples/self-stream/meta.json`) and authentic API responses from NekoBT (`https://nekobt.to/api/v1`) and Kitsu (`https://kitsu.io/api/edge`). Note that the observed sample requests are not an exhaustive specification.
+| # | Case | What it grounds | Catalog | Verified in |
+|---|------|-----------------|---------|-------------|
+| 1 | `media.anilist` is `null` (`m1305`, `s11599`) | `fitSeasonInfo` null-guard → `media.episodes` fallback | §NekoBT media (fixtures `m1305`, `s11599`; example `m1199`) | `matcher.test.ts` (`handles media with null anilist…`) |
 
-### 1. `media.anilist` Can Be `null` for Unmapped Media
-- **Discovery**: In the NekoBT catalog, anime titles are defined by having an AniDB, AniList, or MAL entry (Rule 6). While most popular anime have rich AniList metadata, certain titles (e.g. western animations, movies only indexed on TMDB/IMDb, or media mapped solely via TVDB) return `"anilist": null`.
-- **Real Examples**:
-  - `m1305` (*Delivery Kitten Unyan*): Resolved from TMDB; returned `data.anilist = null`.
-  - `s11599` (*Tsukimonogatari*, tvdbId: 460809): Series resolved via TVDB; returned `data.anilist = null`.
-- **Justification**: Accessing `media.anilist.primary.id` directly caused `TypeError: Cannot read properties of null (reading 'primary')`. `fitSeasonInfo` now safely checks `if (!media.anilist) return null;` so unmapped media falls back gracefully to `media.episodes` matching.
-- **Curl Template**:
-  ```bash
-  curl -s "https://nekobt.to/api/v1/media/m1305?force=true" | jq '.data.anilist'
-  curl -s "https://nekobt.to/api/v1/media/s11599?force=true" | jq '.data.anilist'
-  ```
-- **Verified In**: `test/matcher.test.ts` (`handles media with null anilist...`).
+| 2 | Multi-group releases, `uploading_group` (`14064189768715`, `14088879203086`) | `NekoBT \| [Group]` name tags; fixtures carry `groups: […]` | §NekoBT torrents (fixture `14064189768715`; examples `10668245437700`, `11409754265088`) | `streamBuilder.test.ts` |
 
-### 2. Multi-Group Releases and Uploading Groups
-- **Discovery**: In a sample of 100 recent torrents from `/torrents/search`, 100% of torrents had at least one group (`groups.length >= 1`). Releases frequently list multiple groups (e.g. uploading fansub group, encoder, raw provider), with `uploading_group: true` marking the primary publisher.
-- **Real Example**:
-  - Torrent `14064189768715` (Slime S4) has group `FrixySubs`.
-  - Torrent `14088879203086` has 3 groups: `Sonomama` (uploading group, "TL corrections"), `VARYG` ("WEB-DLs"), and `MTBB`.
-- **Justification**: Stream names format group tags as `NekoBT | [GroupName]`. Test fixtures must supply `groups: [...]` reflecting the live API guarantee.
-- **Verified In**: `test/streamBuilder.test.ts`.
+| 3 | Offset mappings (`dst_start`/`src_start`; real `≠1` in `s1545` S2–5 → dst 9/31/48/61) | `episode + (isPrimary ? -dst_start+1 : src_start-1)` | §NekoBT media (fixture `s172`; example `s1545`) | `matcher.test.ts` (`supports offset dst_start…`) |
+| 4 | Season-0 specials (`tt0434665:0:99`); `fitSeasonInfo` → `null`, episode-only lookup | Unlisted OVAs/specials don't throw | §Self stream (`series-tt0434665_0_6`, `_0_99`); §NekoBT media (`s11629`) | `matcher.test.ts` (`falls back to request season…`) |
+| 5 | Multi-episode bundles (`S04E20-E24` in one file) | `matchSeasonEpisodeRange` ∈ `[start, end]` | §Self stream (`series-kitsu_12_1180`, `fileIdx=11`); §NekoBT torrents (`14351917616136`) | `matcher.test.ts` (`multi-episode range…`) |
+| 6 | Badge decimals scale by unit (`279 MB`, `1.4 GB`, `2.50 TB`; invalid → `null`) | `Math.max(0, index-2)` saves mobile/TV space | — (pure unit) | `format.test.ts` |
 
-### 3. Anime Provider Offset Mappings (`dst_start` / `src_start`)
-- **Discovery**: Anime providers (e.g. Kitsu) often number episodes continuously across a whole series (e.g. Kitsu episode 14 for season 2), whereas NekoBT groups episodes into seasons where episode numbering restarts at 1. Furthermore, AniList often splits a multi-cour show into separate entries with offset indices (`src_start`, `src_end`, `dst_start`, `dst_end`).
-- **Real Example**:
-  - `s172` (*That Time I Got Reincarnated as a Slime*):
-    - Season 4 maps to AniList ID `182205` with `src_start: 1, src_end: 24, dst_start: 1, dst_end: 24`.
-    - If a show has a season offset (e.g. `dst_start: 13, src_start: 1`), requesting episode 14 translates to season episode `(14 - 13) + 1 = 2`.
-- **Justification**: `fitEpisodeInfo` adjusts the requested episode based on `seasonInfo.isPrimary`:
-  ```ts
-  episode = episode + (seasonInfo.isPrimary ? -seasonInfo.dst_start + 1 : seasonInfo.src_start - 1);
-  ```
-- **Verified In**: `test/matcher.test.ts` (`supports offset dst_start and src_start calculations with isPrimary`).
-
-### 4. Non-Fatal Season Mismatch & Special Episodes
-- **Discovery**: OVA episodes, specials, or movies often use Season `0` (e.g. `tt0434665:0:99`). When `fitSeasonInfo` cannot match a season entry in `media.anilist.entries`, throwing an exception broke all specials and unlisted OVAs.
-- **Justification**: In commit `05b8593`, `fitSeasonInfo` was updated to log a warning and return `null`. `fitEpisodeInfo` then attempts a direct lookup in `media.episodes` matching `season = request.season` and `episode = request.episode`.
-- **Verified In**: `test/matcher.test.ts` (`falls back to request season and episode in media.episodes when season info is null`).
-
-### 5. Multi-Episode Torrent Bundles (`SxxEyy-Ezz`)
-- **Discovery**: Upload groups often release batches spanning multiple episodes in a single video file (e.g. `Slime S04E20-E24 [1080p].mkv`).
-- **Justification**: `findEpisodeFile` has a dedicated `matchSeasonEpisodeRange` pattern to verify that the requested episode is within `[start, end]`.
-- **Verified In**: `test/matcher.test.ts` (`matches files with multi-episode range SxxEyy-Ezz pattern`).
-
-### 6. Dynamic Decimal Formatting for Stream Badges
-- **Discovery**: Displaying `500.00 B` or `1.00 KB` in mobile and TV UI took excessive screen space. Format logic dynamically scales decimals using `Math.max(0, index - 2)`:
-  - Bytes, KB, MB: 0 decimals (`500 B`, `1 KB`, `279 MB`)
-  - GB: 1 decimal (`1.4 GB`, `1.5 GB`)
-  - TB: 2 decimals (`2.50 TB`)
-  - Invalid / negative bytes return `null` so callers can display fallbacks like `'?? MB'`.
-- **Verified In**: `test/format.test.ts`.
+Re-fetch templates live in the catalog per-entry `params`.
 
 ---
 
-## Fixtures in `test/data/fixtures/`
+## Test Data Layout (`test/data/`)
 
-Test data lives under `test/data/` (root registry: `test/data/meta.json`). Each endpoint folder pairs payload files named `<id>.json` with a records-only `meta.json` documenting per-record `params` (how to re-fetch), `grounds` (why the data point exists), and `fetched` (`null` = not applicable or unknown).
+Root registry: `test/data/meta.json`. Each endpoint folder pairs `<id>.json` payloads with a records-only `meta.json` (`params` = how to re-fetch, `grounds` = why it exists, `fetched: null` = n/a). Standing = folder:
 
-| Folder | Payloads | Source endpoint |
-|---|---|---|
-| `nekobt-media/` | `s172`, `s11599`, `m145`, `m1305` | `GET /media/<id>?force=true` |
-| `nekobt-torrents/` | `14064189768715` | `GET /torrents/<id>` |
-| `kitsu-mappings/` | `49235` | `GET /anime/<id>/mappings` |
+- `fixtures/` + `examples/` — **real** data (immutable justification evidence / refreshable observed responses)
+- `unsupported/` — known-broken cases (quarantined)
+- `synthetic/` — assumed, ungrounded shapes (migrated from hand-written test mocks; `verdict: ungrounded`)
 
-To re-fetch a fixture: read its `params` from the folder's `meta.json` and the endpoint (URL, defaults) from the root registry — refresh tooling arrives in a later step.
+```text
+test/
+├── helpers/test-data.ts         # loadFixture (fixtures/) + loadSynthetic (synthetic/)
+├── data/
+│   ├── meta.json                # root registry: endpoint/key/defaults per service
+│   ├── fixtures/                # REAL — immutable justification evidence
+│   │   ├── kitsu-mappings/      #   49235
+│   │   ├── nekobt-media/        #   m1305, m145, s11599, s172
+│   │   └── nekobt-torrents/     #   14064189768715
+│   ├── examples/                # REAL — refreshable observed responses
+│   │   ├── kitsu-mappings/      #   7 payloads (12, 3919, 452, 49235, 51128, …)
+│   │   ├── nekobt-media/        #   10 payloads (s1008, s193, s1545, …)
+│   │   ├── nekobt-resolve/      #   15 payloads (mal-*, imdb-*)
+│   │   ├── nekobt-search/       #   16 payloads (s172-220940, s193-5015_5016, …)
+│   │   ├── nekobt-torrents/     #   60 payloads (multi-file batches, groups, …)
+│   │   ├── tracker-scrape/      #   11 payloads (per-tracker single + batch)
+│   │   └── self-stream/         #   15 payloads (observed Nuvio stream requests)
+│   ├── unsupported/             # KNOWN-BROKEN — quarantined
+│   │   └── self-stream/         #   3 payloads (fileIdx bug, no-torrents, no-mappings)
+│   └── synthetic/               # ASSUMED — ungrounded shapes (from test mocks)
+│       ├── kitsu-mappings/      #   empty-mappings, null-data
+│       ├── nekobt-media/        #   null-data
+│       ├── nekobt-resolve/      #   series, movie
+│       └── nekobt-search/       #   non-array-results
+├── api.test.ts                  # UNIT — external API clients (mocked fetch/tracker)
+├── app.test.ts                  # INTEGRATION — Express app via supertest
+├── format.test.ts               # UNIT — byte/bitrate/language formatting
+├── logger.test.ts               # UNIT — log-level filtering
+├── matcher.test.ts              # UNIT — fitInfo / findEpisodeFile / findMovieFile
+├── metadata.test.ts             # UNIT — invisible-unicode badge encoding
+├── parser.test.ts               # UNIT — Nuvio ID parsing
+└── streamBuilder.test.ts        # UNIT — stream object construction
+```
+
+The catalog is the evidence base (ids, params, edges, grounds); this tree is the orientation map. To re-fetch: `params` from the folder's `meta.json` + endpoint (URL, defaults) from the root registry — refresh tooling arrives in step 05.
 
 ---
 
 ## Test Files Overview
 
-- **`test/format.test.ts`**: Tests `formatBytes`, `formatAverageBitrate`, `formatLanguages`, `formatLanguageFlags`, and `formatTimestamp`.
-- **`test/parser.test.ts`**: Tests `parseNuvioId` for movies, series, anime providers (Kitsu, MAL, AniList), and specials (Season 0).
-- **`test/matcher.test.ts`**: Tests `fitInfo`, `findMovieFile`, and `findEpisodeFile` across all naming patterns and edge cases.
-- **`test/streamBuilder.test.ts`**: Tests `torrentToStream` stream object construction, magnet resolution, badges, and file index mapping.
-- **`test/metadata.test.ts`**: Tests `encodeNekobtMetadata` base-4 invisible unicode marker encoding for NekoBT badges.
-- **`test/api.test.ts`**: Tests external API integrations (`Kitsu`, `NekoBT`, and `TrackerScrapper`) with mocked requests and fixtures.
-- **`test/app.test.ts`**: Drives the Express app (`src/app.ts`) via supertest — manifest, CORS, the `/stream` route (series, movie, Kitsu translation, unresolvable media, and error paths), plus `startServer`.
-- **`test/logger.test.ts`**: Tests the `logger` level filtering across `LOG_LEVEL` values (`debug`, `error`, invalid, and unset).
+| File | Layer | Covers |
+|------|-------|--------|
+| `api.test.ts` | UNIT | External clients (mocked fetch/tracker); `loadFixture` + `loadSynthetic` payloads |
+| `app.test.ts` | INTEGRATION | Express via supertest (mocked `api/*`, real pipeline); manifest, `/stream`, `startServer` |
+| `matcher.test.ts` | UNIT | `fitInfo` / `findEpisodeFile` / `findMovieFile` |
+| `streamBuilder.test.ts` | UNIT | `torrentToStream` construction, badges, `fileIdx` |
+| `parser.test.ts` | UNIT | `parseNuvioId` (movies, series, anime providers, season-0) |
+| `format.test.ts` | UNIT | Bytes, bitrate, languages, timestamps |
+| `metadata.test.ts` | UNIT | Invisible-unicode badge encoding |
+| `logger.test.ts` | UNIT | `LOG_LEVEL` filtering |
 
 ### App vs. entrypoint
 
-The Express configuration, middleware, and routes live in `src/app.ts` (importable with no side effects, so supertest can wrap it). `src/index.ts` is the thin production entrypoint that simply calls `startServer()`; it is excluded from coverage since it contains no logic.
-
-
+`src/app.ts` holds the Express config (side-effect-free, so supertest can wrap it). `src/index.ts` only calls `startServer()`; excluded from coverage.
 
 ---
 
 ## Running Tests
 
-Run unit tests in watch/interactive mode with Vitest:
 ```bash
-npm test
+npm test              # watch/interactive (Vitest)
+npm run test:coverage # single pass + V8 coverage → coverage/coverage-summary.json
 ```
-
-Run single-pass tests with V8 code coverage:
-```bash
-npm run test:coverage
-```
-
-Coverage reports are output to the terminal as well as generated under `coverage/` in `text`, `lcov`, and `json-summary` (`coverage/coverage-summary.json`) formats.

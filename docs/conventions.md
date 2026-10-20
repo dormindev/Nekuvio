@@ -40,7 +40,7 @@ import {
   searchTorrents
 } from '../src/api/nekobt.js';
 
-import { loadFixture } from './helpers/fixtures.js';
+import { loadFixture } from './helpers/test-data.js';
 
 
 vi.mock('node-fetch', () => {

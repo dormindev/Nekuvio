@@ -1,0 +1,432 @@
+{
+  "error": false,
+  "data": {
+    "id": "7386970867463",
+    "uploaded_at": 1764544954951,
+    "title": "[BlurayDesuYo] Re Zero kara Hajimeru Isekai Seikatsu (Break Time) S00E01-E11 (BD 1920x1080 10bit FLAC)",
+    "auto_title": "[BlurayDesuYo] Re Zero kara Hajimeru Isekai Seikatsu (Break Time) S00E01-E11 (BD 1920x1080 10bit FLAC) {Tags:L4;V13;C1;A=ja;F=en;}",
+    "description": "Come hang out in our [IRC](irc://irc.rizon.net/DameDesuYo).  \n  \nWe’re hiring! We’re in need of translators. [Click here to apply!](http://damedesuyo.com/?page_id=101)  \n  \nReminder: if you find problems with one of our releases, please let us know if we need to v2 or just help with batching. [PUBLIC QC](http://damedesuyo.com/?page_id=1873).",
+    "mediainfo": "General\nUnique ID                                : 204388517387452474702781988532411293025 (0x99C3CBED7D1E15EF9143D50EC945DD61)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 01 (BD 1920x1080 10bit FLAC) [6EAA05B6].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 51.9 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 895 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 01\nEncoded date                             : UTC 2017-04-01 06:46:06\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : Blogger_Sans-Bold.otf / brook23.ttf / CronosPro-Bold.otf / CronosPro-BoldIt.otf / LONDONTWO.TTF / AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "602473286",
+    "media_id": "s554",
+    "media_episode_ids": [
+      "14314",
+      "14315",
+      "14316",
+      "14317",
+      "14318",
+      "14319",
+      "14320",
+      "14321",
+      "14322",
+      "14323",
+      "14324"
+    ],
+    "anilist_id": 21780,
+    "anilist_ids": [
+      21780
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 1,
+    "video_type": 13,
+    "files": [
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 01 (BD 1920x1080 10bit FLAC) [6EAA05B6].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 01 (BD 1920x1080 10bit FLAC) [6EAA05B6].mkv",
+        "length": 54458564,
+        "offset": 0
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 02 (BD 1920x1080 10bit FLAC) [21D418E9].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 02 (BD 1920x1080 10bit FLAC) [21D418E9].mkv",
+        "length": 51426750,
+        "offset": 54458564
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 03 (BD 1920x1080 10bit FLAC) [B2AD7B15].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 03 (BD 1920x1080 10bit FLAC) [B2AD7B15].mkv",
+        "length": 55216789,
+        "offset": 105885314
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 04 (BD 1920x1080 10bit FLAC) [92A9129A].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 04 (BD 1920x1080 10bit FLAC) [92A9129A].mkv",
+        "length": 47547563,
+        "offset": 161102103
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 05 (BD 1920x1080 10bit FLAC) [61C36FE8].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 05 (BD 1920x1080 10bit FLAC) [61C36FE8].mkv",
+        "length": 81469596,
+        "offset": 208649666
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 06 (BD 1920x1080 10bit FLAC) [C413834B].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 06 (BD 1920x1080 10bit FLAC) [C413834B].mkv",
+        "length": 53037401,
+        "offset": 290119262
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 07 (BD 1920x1080 10bit FLAC) [CA83CFE1].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 07 (BD 1920x1080 10bit FLAC) [CA83CFE1].mkv",
+        "length": 52401623,
+        "offset": 343156663
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 08 (BD 1920x1080 10bit FLAC) [54256E4A].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 08 (BD 1920x1080 10bit FLAC) [54256E4A].mkv",
+        "length": 48400845,
+        "offset": 395558286
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 09 (BD 1920x1080 10bit FLAC) [85428243].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 09 (BD 1920x1080 10bit FLAC) [85428243].mkv",
+        "length": 47803381,
+        "offset": 443959131
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 10 (BD 1920x1080 10bit FLAC) [46BD180B].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 10 (BD 1920x1080 10bit FLAC) [46BD180B].mkv",
+        "length": 58425226,
+        "offset": 491762512
+      },
+      {
+        "path": "[BlurayDesuYo] ReZero kara Hajimeru Break Time (BD 1920x1080 10bit FLAC)/[BlurayDesuYo] ReZero kara Hajimeru Break Time - 11 (BD 1920x1080 10bit FLAC) [A204F601].mkv",
+        "name": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 11 (BD 1920x1080 10bit FLAC) [A204F601].mkv",
+        "length": 52285548,
+        "offset": 550187738
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:61d5cacd9e8028775a6a5135dc1c30934924e148&dn=%5BBlurayDesuYo%5D%20Re%20Zero%20kara%20Hajimeru%20Isekai%20Seikatsu%20(Break%20Time)%20S00E01-E11%20(BD%201920x1080%2010bit%20FLAC)%20%7BTags%3AL4%3BV13%3BC1%3BA%3Dja%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Ftracker.minglong.org%3A8080%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "61d5cacd9e8028775a6a5135dc1c30934924e148",
+    "anonymous": false,
+    "uploader": {
+      "id": "4537675918612",
+      "username": "period",
+      "display_name": "Period",
+      "pfp_hash": "645fec56dd850497f07317fa3c08453402348d37"
+    },
+    "groups": [
+      {
+        "id": "7314844144947",
+        "name": "bluraydesuyo",
+        "display_name": "BlurayDesuYo",
+        "display_tag": "BlurayDesuYo",
+        "pfp_hash": null,
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 913064,
+    "seeders": "1",
+    "leechers": "0",
+    "completed": "40",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": [
+      {
+        "file_id": 392938,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 01 (BD 1920x1080 10bit FLAC) [6EAA05B6].mkv",
+        "filesize": 54458564,
+        "subs": [
+          {
+            "id": 350091,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 204388517387452474702781988532411293025 (0x99C3CBED7D1E15EF9143D50EC945DD61)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 01 (BD 1920x1080 10bit FLAC) [6EAA05B6].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 51.9 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 895 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 01\nEncoded date                             : UTC 2017-04-01 06:46:06\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : Blogger_Sans-Bold.otf / brook23.ttf / CronosPro-Bold.otf / CronosPro-BoldIt.otf / LONDONTWO.TTF / AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005feea",
+        "screenshot_timings": [
+          4390,
+          66950,
+          131510
+        ]
+      },
+      {
+        "file_id": 392940,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 02 (BD 1920x1080 10bit FLAC) [21D418E9].mkv",
+        "filesize": 51426750,
+        "subs": [
+          {
+            "id": 350093,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 237826624355913220440525792693211558335 (0xB2EBBDE2CD0F1BCCBF67F37F1EBEF1BF)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 02 (BD 1920x1080 10bit FLAC) [21D418E9].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 49.0 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 734 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 02\nEncoded date                             : UTC 2017-04-01 06:46:10\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : CronosPro-Bold.otf / CronosPro-BoldIt.otf / AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005feec",
+        "screenshot_timings": [
+          4390,
+          66780,
+          129340
+        ]
+      },
+      {
+        "file_id": 392937,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 03 (BD 1920x1080 10bit FLAC) [B2AD7B15].mkv",
+        "filesize": 55216789,
+        "subs": [
+          {
+            "id": 350090,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 207995712372153353499079791572479971785 (0x9C7A845F1A912AFB99AB33E0C94911C9)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 03 (BD 1920x1080 10bit FLAC) [B2AD7B15].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 52.7 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 935 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 03\nEncoded date                             : UTC 2017-04-01 06:46:13\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : A-OTF-BokutohNStd-Ultra.otf / A-OTF-NtodayStd-Bold-KS.otf / BAOLOC.TTF / CronosPro-Bold.otf / Wisdom is Better.TTF / AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005fee9",
+        "screenshot_timings": [
+          4390,
+          66950,
+          129509
+        ]
+      },
+      {
+        "file_id": 392944,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 04 (BD 1920x1080 10bit FLAC) [92A9129A].mkv",
+        "filesize": 47547563,
+        "subs": [
+          {
+            "id": 350097,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 197222393301669084221060296500692345853 (0x945FA6BB5B60C67A8FF4DC9063CB63FD)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 04 (BD 1920x1080 10bit FLAC) [92A9129A].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 45.3 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 527 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 04\nEncoded date                             : UTC 2017-04-01 06:46:15\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeKaitiStd-Regular.otf / Chewy.ttf / CronosPro-Regular.otf / Denne s Old Handwriting.ttf / IgniteTheLight.ttf / AdobeGothicStd-Bold.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005fef0",
+        "screenshot_timings": [
+          4390,
+          66950,
+          129509
+        ]
+      },
+      {
+        "file_id": 392942,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 05 (BD 1920x1080 10bit FLAC) [61C36FE8].mkv",
+        "filesize": 81469596,
+        "subs": [
+          {
+            "id": 350095,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 184974646185996509838678049384158204729 (0x8B28D22D54E02846B0528607AC641339)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 05 (BD 1920x1080 10bit FLAC) [61C36FE8].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 77.7 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 4 331 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 05\nEncoded date                             : UTC 2017-04-01 06:46:19\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf / CronosPro-Bold.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005feee",
+        "screenshot_timings": [
+          6720,
+          69280,
+          134720
+        ]
+      },
+      {
+        "file_id": 392936,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 06 (BD 1920x1080 10bit FLAC) [C413834B].mkv",
+        "filesize": 53037401,
+        "subs": [
+          {
+            "id": 350089,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 175954676618284583209005694097210987604 (0x845FA357997A89A197984975A497D454)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 06 (BD 1920x1080 10bit FLAC) [C413834B].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 50.6 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 819 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 06\nEncoded date                             : UTC 2017-04-01 06:46:25\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf / CronosPro-Bold.otf / fawn.ttf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005fee8",
+        "screenshot_timings": [
+          4390,
+          66950,
+          129509
+        ]
+      },
+      {
+        "file_id": 392939,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 07 (BD 1920x1080 10bit FLAC) [CA83CFE1].mkv",
+        "filesize": 52401623,
+        "subs": [
+          {
+            "id": 350092,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 238073558171636145200757013717935807685 (0xB31B4CA9BC44DA9CA1A5CFC186695CC5)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 07 (BD 1920x1080 10bit FLAC) [CA83CFE1].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 50.0 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 785 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 07\nEncoded date                             : UTC 2017-04-01 06:46:28\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : CronosPro-Bold.otf / Painted.ttf / AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005feeb",
+        "screenshot_timings": [
+          4390,
+          66950,
+          129509
+        ]
+      },
+      {
+        "file_id": 392945,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 08 (BD 1920x1080 10bit FLAC) [54256E4A].mkv",
+        "filesize": 48400845,
+        "subs": [
+          {
+            "id": 350098,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 242394516295043486734315873980617983353 (0xB65B7C58B8CCEB6F9B502B3B2FFE0579)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 08 (BD 1920x1080 10bit FLAC) [54256E4A].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 46.2 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 573 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 08\nEncoded date                             : UTC 2017-04-01 06:46:31\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeKaitiStd-Regular.otf / CronosPro-Bold.otf / AdobeGothicStd-Bold.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005fef1",
+        "screenshot_timings": [
+          4390,
+          66950,
+          128380
+        ]
+      },
+      {
+        "file_id": 392946,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 09 (BD 1920x1080 10bit FLAC) [85428243].mkv",
+        "filesize": 47803381,
+        "subs": [
+          {
+            "id": 350099,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 184580381761819204081621252142237689082 (0x8ADCE370AEC54E8BA348E71E7F2B24FA)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 09 (BD 1920x1080 10bit FLAC) [85428243].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 45.6 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 541 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 09\nEncoded date                             : UTC 2017-04-01 06:46:35\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf / chinrg.ttf / CronosPro-Bold.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005fef2",
+        "screenshot_timings": [
+          4390,
+          66950,
+          130090
+        ]
+      },
+      {
+        "file_id": 392943,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 10 (BD 1920x1080 10bit FLAC) [46BD180B].mkv",
+        "filesize": 58425226,
+        "subs": [
+          {
+            "id": 350096,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 202720550097772676845300018687126800792 (0x98828ECA8332564EBDC9169A57C00998)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 10 (BD 1920x1080 10bit FLAC) [46BD180B].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 55.7 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 3 106 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 10\nEncoded date                             : UTC 2017-04-01 06:46:38\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeKaitiStd-Regular.otf / CronosPro-Bold.otf / CronosPro-BoldIt.otf / AdobeGothicStd-Bold.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005feef",
+        "screenshot_timings": [
+          4390,
+          72080,
+          124630
+        ]
+      },
+      {
+        "file_id": 392941,
+        "filename": "[BlurayDesuYo] ReZero kara Hajimeru Break Time - 11 (BD 1920x1080 10bit FLAC) [A204F601].mkv",
+        "filesize": 52285548,
+        "subs": [
+          {
+            "id": 350094,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": null,
+            "enabled": null,
+            "forced": null,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 204679999014828013478870926202030075814 (0x99FBEF14DB068986BA969692386D2FA6)\nComplete name                            : [BlurayDesuYo] ReZero kara Hajimeru Break Time - 11 (BD 1920x1080 10bit FLAC) [A204F601].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4 / Version 2\nFile size                                : 49.9 MiB\nDuration                                 : 2 min 30 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 2 779 kb/s\nMovie name                               : Re:Zero kara Hajimeru Break Time - 11\nEncoded date                             : UTC 2017-04-01 06:46:42\nWriting application                      : mkvmerge v10.0.0 ('To Drown In You') 64bit\nWriting library                          : libebml v1.3.4 + libmatroska v1.4.5\nAttachments                              : AdobeGothicStd-Bold.otf / AdobeKaitiStd-Regular.otf / CronosPro-Bold.otf / fawn.ttf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 2 min 30 s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nWriting library                          : x264 core 148 r2721+55 e19946b t_mod_Custom [10-bit@all X86_64]\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x133 / me=umh / subme=10 / psy=1 / fade_compensate=0.50 / psy_rd=0.75:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / fgo=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=40 / rc=crf / mbtree=1 / crf=16.0000 / qcomp=0.75 / qpmin=0:0:0 / qpmax=47:47:47 / qpstep=4 / ip_ratio=1.40 / aq=3:0.80 / aq-sensitivity=10.00 / aq-factor=1.00:1.00:1.00 / aq2=0 / aq3=0\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 2 min 30 s\nBit rate mode                            : Variable\nChannel(s)                               : 2 channels\nChannel positions                        : Front: L R\nSampling rate                            : 48.0 kHz\nBit depth                                : 16 bits\nWriting library                          : libFLAC 1.3.0 (UTC 2013-05-26)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nCompression mode                         : Lossless\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No",
+        "screenshot_id": "0005feed",
+        "screenshot_timings": [
+          4390,
+          66950,
+          129509
+        ]
+      }
+    ],
+    "animetosho_fetch_time": "1767572771862",
+    "screenshots": [
+      "https://storage.animetosho.org/sframes/0005feea_4390.webp?s=3",
+      "https://storage.animetosho.org/sframes/0005feea_66950.webp?s=3",
+      "https://storage.animetosho.org/sframes/0005feea_131510.webp?s=3"
+    ],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1491019080000",
+    "batch": true
+  }
+}

@@ -1,0 +1,3312 @@
+{
+  "error": false,
+  "data": {
+    "id": "s1453",
+    "title": "Saga of Tanya the Evil",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "overview": "The novel series centers on a young girl who fights on the frontlines in war. She has blonde hair, blue eyes, and nearly transparent white skin, and she flies through the air and mercilessly strikes down her opponents. Her name is Tanya Degurechaff, and she speaks with a young girl's lisp and commands the army. Tanya used to be one of Japan's elite office workers, but because of a wrathful god, was reborn as a little girl. Tanya prioritizes optimization and career advancement above all, and she will become the most dangerous entity among the Imperial Army's sorcerers.\n\n(Source: Anime News Network)",
+    "status": "ended",
+    "banner_url": "https://artworks.thetvdb.com/banners/v4/series/315500/posters/60d1cf343f374.jpg",
+    "runtime": 24,
+    "tvdbId": 315500,
+    "tmdbId": 69346,
+    "imdbId": "tt6455986",
+    "year": 2017,
+    "alternate_titles": [
+      "Youjo Senki",
+      "Youjo Senki S2",
+      "Youjo Senki II"
+    ],
+    "anilist": {
+      "display_id": 21613,
+      "primary": {
+        "id": 21613,
+        "id_mal": 32615,
+        "title": {
+          "romaji": "Youjo Senki",
+          "english": "Saga of Tanya the Evil",
+          "native": "幼女戦記",
+          "synonyms": [
+            "幼女战记",
+            "Колдунья в погонах"
+          ]
+        },
+        "description": "The novel series centers on a young girl who fights on the frontlines in war. She has blonde hair, blue eyes, and nearly transparent white skin, and she flies through the air and mercilessly strikes down her opponents. Her name is Tanya Degurechaff, and she speaks with a young girl's lisp and commands the army. Tanya used to be one of Japan's elite office workers, but because of a wrathful god, was reborn as a little girl. Tanya prioritizes optimization and career advancement above all, and she will become the most dangerous entity among the Imperial Army's sorcerers.<br>\n<br>\n(Source: Anime News Network)",
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 12,
+        "duration": 24,
+        "season": "WINTER",
+        "season_year": 2017,
+        "start_date": "2017-01-06",
+        "end_date": "2017-03-31",
+        "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21613-qT3NiwYP5dYc.png",
+        "cover_color": null,
+        "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21613-FGAqKSTvfxuA.png",
+        "genres": [
+          "Action",
+          "Fantasy"
+        ],
+        "studios": [
+          {
+            "id": 6148,
+            "name": "NUT"
+          }
+        ],
+        "tags": [
+          {
+            "id": 34,
+            "name": "Military",
+            "rank": 98,
+            "category": "Theme-Other-Organisations"
+          },
+          {
+            "id": 111,
+            "name": "War",
+            "rank": 96,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 104,
+            "name": "Anti-Hero",
+            "rank": 93,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 98,
+            "name": "Female Protagonist",
+            "rank": 90,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 252,
+            "name": "Revenge",
+            "rank": 85,
+            "category": "Theme-Drama"
+          },
+          {
+            "id": 243,
+            "name": "Reincarnation",
+            "rank": 83,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 244,
+            "name": "Isekai",
+            "rank": 82,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 253,
+            "name": "Gods",
+            "rank": 82,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 29,
+            "name": "Magic",
+            "rank": 81,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 109,
+            "name": "Primarily Adult Cast",
+            "rank": 80,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 25,
+            "name": "Historical",
+            "rank": 80,
+            "category": "Setting-Time"
+          },
+          {
+            "id": 1091,
+            "name": "Religion",
+            "rank": 80,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 636,
+            "name": "Cosmic Horror",
+            "rank": 79,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 174,
+            "name": "Tanks",
+            "rank": 79,
+            "category": "Theme-Other-Vehicle"
+          },
+          {
+            "id": 198,
+            "name": "Foreign",
+            "rank": 78,
+            "category": "Setting-Scene"
+          },
+          {
+            "id": 94,
+            "name": "Gore",
+            "rank": 77,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 157,
+            "name": "Guns",
+            "rank": 71,
+            "category": "Theme-Action"
+          },
+          {
+            "id": 103,
+            "name": "Politics",
+            "rank": 69,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 77,
+            "name": "Gender Bending",
+            "rank": 67,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 391,
+            "name": "Philosophy",
+            "rank": 64,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 488,
+            "name": "Age Regression",
+            "rank": 60,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 156,
+            "name": "Achronological Order",
+            "rank": 60,
+            "category": "Setting-Time"
+          },
+          {
+            "id": 88,
+            "name": "Primarily Male Cast",
+            "rank": 52,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 90,
+            "name": "CGI",
+            "rank": 40,
+            "category": "Technical"
+          }
+        ],
+        "relations": [
+          {
+            "id": 94846,
+            "type": "MANGA",
+            "title": {
+              "native": "幼女戦記",
+              "romaji": "Youjo Senki",
+              "english": "The Saga of Tanya the Evil",
+              "synonyms": []
+            },
+            "format": "NOVEL",
+            "site_url": "https://anilist.co/manga/94846",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx94846-qN2CTFtRRo4h.jpg",
+            "relation_type": "ADAPTATION"
+          },
+          {
+            "id": 98186,
+            "type": "ANIME",
+            "title": {
+              "native": "ようじょしぇんき",
+              "romaji": "Youjo Shenki",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "ONA",
+            "site_url": "https://anilist.co/anime/98186",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98186-2s9zyDfRAvrr.png",
+            "relation_type": "SIDE_STORY"
+          },
+          {
+            "id": 100878,
+            "type": "ANIME",
+            "title": {
+              "native": "劇場版 幼女戦記",
+              "romaji": "Youjo Senki Movie",
+              "english": "Saga of Tanya the Evil - the Movie -",
+              "synonyms": []
+            },
+            "format": "MOVIE",
+            "site_url": "https://anilist.co/anime/100878",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100878-npKVJvggmK6a.jpg",
+            "relation_type": "SEQUEL"
+          },
+          {
+            "id": 104454,
+            "type": "ANIME",
+            "title": {
+              "native": "異世界かるてっと",
+              "romaji": "Isekai Quartet",
+              "english": "Isekai Quartet",
+              "synonyms": []
+            },
+            "format": "TV_SHORT",
+            "site_url": "https://anilist.co/anime/104454",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104454-pH5YCR7HteqP.jpg",
+            "relation_type": "CHARACTER"
+          },
+          {
+            "id": 110178,
+            "type": "ANIME",
+            "title": {
+              "native": "異世界かるてっと 2",
+              "romaji": "Isekai Quartet 2",
+              "english": "Isekai Quartet 2",
+              "synonyms": []
+            },
+            "format": "TV_SHORT",
+            "site_url": "https://anilist.co/anime/110178",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110178-UhigZiRQVwLf.jpg",
+            "relation_type": "CHARACTER"
+          },
+          {
+            "id": 97216,
+            "type": "MANGA",
+            "title": {
+              "native": "幼女戦記",
+              "romaji": "Youjo Senki",
+              "english": "The Saga of Tanya the Evil",
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/97216",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97216-hleh4PmFoUgr.png",
+            "relation_type": "ALTERNATIVE"
+          },
+          {
+            "id": 135866,
+            "type": "ANIME",
+            "title": {
+              "native": "幼女戦記 砂漠のパスタ大作戦",
+              "romaji": "Youjo Senki: Sabaku no Pasta Daisakusen",
+              "english": "Saga of Tanya the Evil: Operation Desert Pasta",
+              "synonyms": []
+            },
+            "format": "ONA",
+            "site_url": "https://anilist.co/anime/135866",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135866-Q5qZPscMNLFa.png",
+            "relation_type": "SIDE_STORY"
+          },
+          {
+            "id": 117074,
+            "type": "ANIME",
+            "title": {
+              "native": "異世界かるてっと ～あなざーわーるど～",
+              "romaji": "Isekai Quartet: Another World",
+              "english": "Isekai Quartet The Movie: Another World",
+              "synonyms": []
+            },
+            "format": "MOVIE",
+            "site_url": "https://anilist.co/anime/117074",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx117074-kgucq8a1ZeOw.jpg",
+            "relation_type": "CHARACTER"
+          },
+          {
+            "id": 194447,
+            "type": "ANIME",
+            "title": {
+              "native": "異世界かるてっと 3",
+              "romaji": "Isekai Quartet 3",
+              "english": "Isekai Quartet 3",
+              "synonyms": []
+            },
+            "format": "TV_SHORT",
+            "site_url": "https://anilist.co/anime/194447",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194447-sgmaOpJ0VIUI.jpg",
+            "relation_type": "CHARACTER"
+          }
+        ],
+        "external_links": [
+          {
+            "url": "https://youjo-senki.jp/tv/",
+            "site": "Official Site",
+            "type": "INFO"
+          },
+          {
+            "url": "https://twitter.com/youjosenki",
+            "site": "Twitter",
+            "type": "SOCIAL"
+          },
+          {
+            "url": "http://www.crunchyroll.com/saga-of-tanya-the-evil",
+            "site": "Crunchyroll",
+            "type": "STREAMING"
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JipogV7W74-hbDbYaQx78Oq",
+            "site": "YouTube",
+            "type": "STREAMING"
+          }
+        ],
+        "average_score": 78,
+        "popularity": 281724,
+        "favourites": 9785,
+        "country_of_origin": "JP",
+        "is_adult": false,
+        "site_url": "https://anilist.co/anime/21613",
+        "next_airing_episode": null,
+        "next_airing_at": null
+      },
+      "entries": [
+        {
+          "season": 0,
+          "src_start": 15,
+          "src_end": 15,
+          "dst_start": 1,
+          "dst_end": 1,
+          "ratio": null,
+          "anilist_id": 100878,
+          "ord": 1,
+          "media": {
+            "id": 100878,
+            "id_mal": 37055,
+            "title": {
+              "romaji": "Youjo Senki Movie",
+              "english": "Saga of Tanya the Evil - the Movie -",
+              "native": "劇場版 幼女戦記",
+              "synonyms": [
+                "Колдунья в погонах. Фильм"
+              ]
+            },
+            "description": "In 1926, Tanya and her battalion return home from defeating remnants of the Republic's army. However, when they arrive they receive word of a massive mobilization near the border with the Russy Federation, so the Empire's army must prepare. At the same time, a multinational army under the leadership of the Allied Kingdom moves into the Russy Federation. The enemy of an enemy is a friend, but among the Allied Kingdom army is Mary Sioux, a girl who has sworn to exact justice against the Empire for the death of her father.<br><br>\n\n(Source: Anime News Network)",
+            "format": "MOVIE",
+            "status": "FINISHED",
+            "episodes": 1,
+            "duration": 98,
+            "season": "WINTER",
+            "season_year": 2019,
+            "start_date": "2019-02-08",
+            "end_date": "2019-02-08",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100878-npKVJvggmK6a.jpg",
+            "cover_color": "#f1e4c9",
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100878-Lslq3VqoNanU.jpg",
+            "genres": [
+              "Action",
+              "Fantasy"
+            ],
+            "studios": [
+              {
+                "id": 6148,
+                "name": "NUT"
+              }
+            ],
+            "tags": [
+              {
+                "id": 34,
+                "name": "Military",
+                "rank": 98,
+                "category": "Theme-Other-Organisations"
+              },
+              {
+                "id": 111,
+                "name": "War",
+                "rank": 93,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 198,
+                "name": "Foreign",
+                "rank": 92,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 104,
+                "name": "Anti-Hero",
+                "rank": 92,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 252,
+                "name": "Revenge",
+                "rank": 88,
+                "category": "Theme-Drama"
+              },
+              {
+                "id": 25,
+                "name": "Historical",
+                "rank": 88,
+                "category": "Setting-Time"
+              },
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 81,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 29,
+                "name": "Magic",
+                "rank": 80,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 157,
+                "name": "Guns",
+                "rank": 80,
+                "category": "Theme-Action"
+              },
+              {
+                "id": 103,
+                "name": "Politics",
+                "rank": 79,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 243,
+                "name": "Reincarnation",
+                "rank": 75,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 253,
+                "name": "Gods",
+                "rank": 73,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 244,
+                "name": "Isekai",
+                "rank": 71,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 109,
+                "name": "Primarily Adult Cast",
+                "rank": 67,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 77,
+                "name": "Gender Bending",
+                "rank": 61,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 85,
+                "name": "Tragedy",
+                "rank": 53,
+                "category": "Theme-Drama"
+              },
+              {
+                "id": 88,
+                "name": "Primarily Male Cast",
+                "rank": 50,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 90,
+                "name": "CGI",
+                "rank": 33,
+                "category": "Technical"
+              },
+              {
+                "id": 488,
+                "name": "Age Regression",
+                "rank": 30,
+                "category": "Cast-Traits"
+              }
+            ],
+            "relations": [
+              {
+                "id": 94846,
+                "type": "MANGA",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "The Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "NOVEL",
+                "site_url": "https://anilist.co/manga/94846",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx94846-qN2CTFtRRo4h.jpg",
+                "relation_type": "ADAPTATION"
+              },
+              {
+                "id": 21613,
+                "type": "ANIME",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "TV",
+                "site_url": "https://anilist.co/anime/21613",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21613-qT3NiwYP5dYc.png",
+                "relation_type": "PREQUEL"
+              },
+              {
+                "id": 135865,
+                "type": "ANIME",
+                "title": {
+                  "native": "幼女戦記Ⅱ",
+                  "romaji": "Youjo Senki II",
+                  "english": "Saga of Tanya the Evil Season 2",
+                  "synonyms": []
+                },
+                "format": "TV",
+                "site_url": "https://anilist.co/anime/135865",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135865-T7XIPMAbqcxN.png",
+                "relation_type": "SEQUEL"
+              },
+              {
+                "id": 97216,
+                "type": "MANGA",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "The Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "MANGA",
+                "site_url": "https://anilist.co/manga/97216",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97216-hleh4PmFoUgr.png",
+                "relation_type": "ALTERNATIVE"
+              },
+              {
+                "id": 135866,
+                "type": "ANIME",
+                "title": {
+                  "native": "幼女戦記 砂漠のパスタ大作戦",
+                  "romaji": "Youjo Senki: Sabaku no Pasta Daisakusen",
+                  "english": "Saga of Tanya the Evil: Operation Desert Pasta",
+                  "synonyms": []
+                },
+                "format": "ONA",
+                "site_url": "https://anilist.co/anime/135866",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135866-Q5qZPscMNLFa.png",
+                "relation_type": "PREQUEL"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "https://youjo-senki.jp/th/",
+                "site": "Official Site",
+                "type": "INFO"
+              },
+              {
+                "url": "https://twitter.com/youjosenki",
+                "site": "Twitter",
+                "type": "SOCIAL"
+              },
+              {
+                "url": "https://www.crunchyroll.com/saga-of-tanya-the-evil",
+                "site": "Crunchyroll",
+                "type": "STREAMING"
+              }
+            ],
+            "average_score": 81,
+            "popularity": 103810,
+            "favourites": 2158,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/100878",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        },
+        {
+          "season": 0,
+          "src_start": 17,
+          "src_end": 17,
+          "dst_start": 1,
+          "dst_end": 1,
+          "ratio": null,
+          "anilist_id": 135866,
+          "ord": 2,
+          "media": {
+            "id": 135866,
+            "id_mal": 49236,
+            "title": {
+              "romaji": "Youjo Senki: Sabaku no Pasta Daisakusen",
+              "english": "Saga of Tanya the Evil: Operation Desert Pasta",
+              "native": "幼女戦記 砂漠のパスタ大作戦",
+              "synonyms": []
+            },
+            "description": "The 203rd Air Mage Battalion led by Tanya is forced to fight in the southern desert, the front line. In an effort to provide some food for the harsh conditions, Colonel Rerugen sent dried pasta to the battlefield. Will Tanya and the others be able to eat the delicious pasta under the conditions of water shortage?<br>\n<br>\n(Source: Abema, translated)",
+            "format": "ONA",
+            "status": "FINISHED",
+            "episodes": 1,
+            "duration": 17,
+            "season": "SUMMER",
+            "season_year": 2021,
+            "start_date": "2021-06-19",
+            "end_date": "2021-06-19",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135866-Q5qZPscMNLFa.png",
+            "cover_color": null,
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135866-4YWGxprTPMsC.jpg",
+            "genres": [
+              "Action",
+              "Fantasy"
+            ],
+            "studios": [
+              {
+                "id": 6148,
+                "name": "NUT"
+              }
+            ],
+            "tags": [
+              {
+                "id": 34,
+                "name": "Military",
+                "rank": 100,
+                "category": "Theme-Other-Organisations"
+              },
+              {
+                "id": 142,
+                "name": "Food",
+                "rank": 96,
+                "category": "Theme-Arts"
+              },
+              {
+                "id": 157,
+                "name": "Guns",
+                "rank": 86,
+                "category": "Theme-Action"
+              },
+              {
+                "id": 1453,
+                "name": "Desert",
+                "rank": 79,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 77,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 29,
+                "name": "Magic",
+                "rank": 71,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 244,
+                "name": "Isekai",
+                "rank": 60,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 111,
+                "name": "War",
+                "rank": 60,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 90,
+                "name": "CGI",
+                "rank": 46,
+                "category": "Technical"
+              }
+            ],
+            "relations": [
+              {
+                "id": 21613,
+                "type": "ANIME",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "TV",
+                "site_url": "https://anilist.co/anime/21613",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21613-qT3NiwYP5dYc.png",
+                "relation_type": "PARENT"
+              },
+              {
+                "id": 100878,
+                "type": "ANIME",
+                "title": {
+                  "native": "劇場版 幼女戦記",
+                  "romaji": "Youjo Senki Movie",
+                  "english": "Saga of Tanya the Evil - the Movie -",
+                  "synonyms": []
+                },
+                "format": "MOVIE",
+                "site_url": "https://anilist.co/anime/100878",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100878-npKVJvggmK6a.jpg",
+                "relation_type": "SEQUEL"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "https://www.crunchyroll.com/saga-of-tanya-the-evil",
+                "site": "Crunchyroll",
+                "type": "STREAMING"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=3iOj1J1wyZQ",
+                "site": "YouTube",
+                "type": "STREAMING"
+              }
+            ],
+            "average_score": 74,
+            "popularity": 27528,
+            "favourites": 278,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/135866",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        },
+        {
+          "season": 1,
+          "src_start": 1,
+          "src_end": 12,
+          "dst_start": 1,
+          "dst_end": 12,
+          "ratio": null,
+          "anilist_id": 21613,
+          "ord": 1,
+          "media": {
+            "id": 21613,
+            "id_mal": 32615,
+            "title": {
+              "romaji": "Youjo Senki",
+              "english": "Saga of Tanya the Evil",
+              "native": "幼女戦記",
+              "synonyms": [
+                "幼女战记",
+                "Колдунья в погонах"
+              ]
+            },
+            "description": "The novel series centers on a young girl who fights on the frontlines in war. She has blonde hair, blue eyes, and nearly transparent white skin, and she flies through the air and mercilessly strikes down her opponents. Her name is Tanya Degurechaff, and she speaks with a young girl's lisp and commands the army. Tanya used to be one of Japan's elite office workers, but because of a wrathful god, was reborn as a little girl. Tanya prioritizes optimization and career advancement above all, and she will become the most dangerous entity among the Imperial Army's sorcerers.<br>\n<br>\n(Source: Anime News Network)",
+            "format": "TV",
+            "status": "FINISHED",
+            "episodes": 12,
+            "duration": 24,
+            "season": "WINTER",
+            "season_year": 2017,
+            "start_date": "2017-01-06",
+            "end_date": "2017-03-31",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21613-qT3NiwYP5dYc.png",
+            "cover_color": null,
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21613-FGAqKSTvfxuA.png",
+            "genres": [
+              "Action",
+              "Fantasy"
+            ],
+            "studios": [
+              {
+                "id": 6148,
+                "name": "NUT"
+              }
+            ],
+            "tags": [
+              {
+                "id": 34,
+                "name": "Military",
+                "rank": 98,
+                "category": "Theme-Other-Organisations"
+              },
+              {
+                "id": 111,
+                "name": "War",
+                "rank": 96,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 104,
+                "name": "Anti-Hero",
+                "rank": 93,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 90,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 252,
+                "name": "Revenge",
+                "rank": 85,
+                "category": "Theme-Drama"
+              },
+              {
+                "id": 243,
+                "name": "Reincarnation",
+                "rank": 83,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 244,
+                "name": "Isekai",
+                "rank": 82,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 253,
+                "name": "Gods",
+                "rank": 82,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 29,
+                "name": "Magic",
+                "rank": 81,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 109,
+                "name": "Primarily Adult Cast",
+                "rank": 80,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 25,
+                "name": "Historical",
+                "rank": 80,
+                "category": "Setting-Time"
+              },
+              {
+                "id": 1091,
+                "name": "Religion",
+                "rank": 80,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 636,
+                "name": "Cosmic Horror",
+                "rank": 79,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 174,
+                "name": "Tanks",
+                "rank": 79,
+                "category": "Theme-Other-Vehicle"
+              },
+              {
+                "id": 198,
+                "name": "Foreign",
+                "rank": 78,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 94,
+                "name": "Gore",
+                "rank": 77,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 157,
+                "name": "Guns",
+                "rank": 71,
+                "category": "Theme-Action"
+              },
+              {
+                "id": 103,
+                "name": "Politics",
+                "rank": 69,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 77,
+                "name": "Gender Bending",
+                "rank": 67,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 391,
+                "name": "Philosophy",
+                "rank": 64,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 488,
+                "name": "Age Regression",
+                "rank": 60,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 156,
+                "name": "Achronological Order",
+                "rank": 60,
+                "category": "Setting-Time"
+              },
+              {
+                "id": 88,
+                "name": "Primarily Male Cast",
+                "rank": 52,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 90,
+                "name": "CGI",
+                "rank": 40,
+                "category": "Technical"
+              }
+            ],
+            "relations": [
+              {
+                "id": 94846,
+                "type": "MANGA",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "The Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "NOVEL",
+                "site_url": "https://anilist.co/manga/94846",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx94846-qN2CTFtRRo4h.jpg",
+                "relation_type": "ADAPTATION"
+              },
+              {
+                "id": 98186,
+                "type": "ANIME",
+                "title": {
+                  "native": "ようじょしぇんき",
+                  "romaji": "Youjo Shenki",
+                  "english": null,
+                  "synonyms": []
+                },
+                "format": "ONA",
+                "site_url": "https://anilist.co/anime/98186",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98186-2s9zyDfRAvrr.png",
+                "relation_type": "SIDE_STORY"
+              },
+              {
+                "id": 100878,
+                "type": "ANIME",
+                "title": {
+                  "native": "劇場版 幼女戦記",
+                  "romaji": "Youjo Senki Movie",
+                  "english": "Saga of Tanya the Evil - the Movie -",
+                  "synonyms": []
+                },
+                "format": "MOVIE",
+                "site_url": "https://anilist.co/anime/100878",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100878-npKVJvggmK6a.jpg",
+                "relation_type": "SEQUEL"
+              },
+              {
+                "id": 104454,
+                "type": "ANIME",
+                "title": {
+                  "native": "異世界かるてっと",
+                  "romaji": "Isekai Quartet",
+                  "english": "Isekai Quartet",
+                  "synonyms": []
+                },
+                "format": "TV_SHORT",
+                "site_url": "https://anilist.co/anime/104454",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104454-pH5YCR7HteqP.jpg",
+                "relation_type": "CHARACTER"
+              },
+              {
+                "id": 110178,
+                "type": "ANIME",
+                "title": {
+                  "native": "異世界かるてっと 2",
+                  "romaji": "Isekai Quartet 2",
+                  "english": "Isekai Quartet 2",
+                  "synonyms": []
+                },
+                "format": "TV_SHORT",
+                "site_url": "https://anilist.co/anime/110178",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110178-UhigZiRQVwLf.jpg",
+                "relation_type": "CHARACTER"
+              },
+              {
+                "id": 97216,
+                "type": "MANGA",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "The Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "MANGA",
+                "site_url": "https://anilist.co/manga/97216",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97216-hleh4PmFoUgr.png",
+                "relation_type": "ALTERNATIVE"
+              },
+              {
+                "id": 135866,
+                "type": "ANIME",
+                "title": {
+                  "native": "幼女戦記 砂漠のパスタ大作戦",
+                  "romaji": "Youjo Senki: Sabaku no Pasta Daisakusen",
+                  "english": "Saga of Tanya the Evil: Operation Desert Pasta",
+                  "synonyms": []
+                },
+                "format": "ONA",
+                "site_url": "https://anilist.co/anime/135866",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135866-Q5qZPscMNLFa.png",
+                "relation_type": "SIDE_STORY"
+              },
+              {
+                "id": 117074,
+                "type": "ANIME",
+                "title": {
+                  "native": "異世界かるてっと ～あなざーわーるど～",
+                  "romaji": "Isekai Quartet: Another World",
+                  "english": "Isekai Quartet The Movie: Another World",
+                  "synonyms": []
+                },
+                "format": "MOVIE",
+                "site_url": "https://anilist.co/anime/117074",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx117074-kgucq8a1ZeOw.jpg",
+                "relation_type": "CHARACTER"
+              },
+              {
+                "id": 194447,
+                "type": "ANIME",
+                "title": {
+                  "native": "異世界かるてっと 3",
+                  "romaji": "Isekai Quartet 3",
+                  "english": "Isekai Quartet 3",
+                  "synonyms": []
+                },
+                "format": "TV_SHORT",
+                "site_url": "https://anilist.co/anime/194447",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194447-sgmaOpJ0VIUI.jpg",
+                "relation_type": "CHARACTER"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "https://youjo-senki.jp/tv/",
+                "site": "Official Site",
+                "type": "INFO"
+              },
+              {
+                "url": "https://twitter.com/youjosenki",
+                "site": "Twitter",
+                "type": "SOCIAL"
+              },
+              {
+                "url": "http://www.crunchyroll.com/saga-of-tanya-the-evil",
+                "site": "Crunchyroll",
+                "type": "STREAMING"
+              },
+              {
+                "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JipogV7W74-hbDbYaQx78Oq",
+                "site": "YouTube",
+                "type": "STREAMING"
+              }
+            ],
+            "average_score": 78,
+            "popularity": 281724,
+            "favourites": 9785,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/21613",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        },
+        {
+          "season": 2,
+          "src_start": 1,
+          "src_end": 12,
+          "dst_start": 1,
+          "dst_end": 12,
+          "ratio": null,
+          "anilist_id": 135865,
+          "ord": 1,
+          "media": {
+            "id": 135865,
+            "id_mal": 49233,
+            "title": {
+              "romaji": "Youjo Senki II",
+              "english": "Saga of Tanya the Evil Season 2",
+              "native": "幼女戦記Ⅱ",
+              "synonyms": [
+                "Saga of Tanya the Evil II",
+                "Youjo Senki 2"
+              ]
+            },
+            "description": "The second season of <i>Youjo Senki</i>.",
+            "format": "TV",
+            "status": "FINISHED",
+            "episodes": 12,
+            "duration": 24,
+            "season": "SUMMER",
+            "season_year": 2026,
+            "start_date": "2026-07-08",
+            "end_date": "2026-09-23",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png",
+            "cover_color": "#e46b28",
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135865-Ws3e7BhBkFxd.jpg",
+            "genres": [
+              "Action",
+              "Fantasy"
+            ],
+            "studios": [
+              {
+                "id": 6148,
+                "name": "NUT"
+              }
+            ],
+            "tags": [
+              {
+                "id": 34,
+                "name": "Military",
+                "rank": 100,
+                "category": "Theme-Other-Organisations"
+              },
+              {
+                "id": 111,
+                "name": "War",
+                "rank": 97,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 1091,
+                "name": "Religion",
+                "rank": 93,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 88,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 103,
+                "name": "Politics",
+                "rank": 84,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 157,
+                "name": "Guns",
+                "rank": 83,
+                "category": "Theme-Action"
+              },
+              {
+                "id": 250,
+                "name": "Rural",
+                "rank": 83,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 244,
+                "name": "Isekai",
+                "rank": 82,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 488,
+                "name": "Age Regression",
+                "rank": 82,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 104,
+                "name": "Anti-Hero",
+                "rank": 80,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 243,
+                "name": "Reincarnation",
+                "rank": 80,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 29,
+                "name": "Magic",
+                "rank": 78,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 253,
+                "name": "Gods",
+                "rank": 77,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 198,
+                "name": "Foreign",
+                "rank": 77,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 252,
+                "name": "Revenge",
+                "rank": 73,
+                "category": "Theme-Drama"
+              },
+              {
+                "id": 77,
+                "name": "Gender Bending",
+                "rank": 70,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 595,
+                "name": "Urban",
+                "rank": 68,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 144,
+                "name": "Meta",
+                "rank": 64,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 109,
+                "name": "Primarily Adult Cast",
+                "rank": 63,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 25,
+                "name": "Historical",
+                "rank": 62,
+                "category": "Setting-Time"
+              },
+              {
+                "id": 88,
+                "name": "Primarily Male Cast",
+                "rank": 60,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 174,
+                "name": "Tanks",
+                "rank": 52,
+                "category": "Theme-Other-Vehicle"
+              },
+              {
+                "id": 322,
+                "name": "Assassins",
+                "rank": 43,
+                "category": "Theme-Other-Organisations"
+              }
+            ],
+            "relations": [
+              {
+                "id": 94846,
+                "type": "MANGA",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "The Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "NOVEL",
+                "site_url": "https://anilist.co/manga/94846",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx94846-qN2CTFtRRo4h.jpg",
+                "relation_type": "ADAPTATION"
+              },
+              {
+                "id": 97216,
+                "type": "MANGA",
+                "title": {
+                  "native": "幼女戦記",
+                  "romaji": "Youjo Senki",
+                  "english": "The Saga of Tanya the Evil",
+                  "synonyms": []
+                },
+                "format": "MANGA",
+                "site_url": "https://anilist.co/manga/97216",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97216-hleh4PmFoUgr.png",
+                "relation_type": "ALTERNATIVE"
+              },
+              {
+                "id": 100878,
+                "type": "ANIME",
+                "title": {
+                  "native": "劇場版 幼女戦記",
+                  "romaji": "Youjo Senki Movie",
+                  "english": "Saga of Tanya the Evil - the Movie -",
+                  "synonyms": []
+                },
+                "format": "MOVIE",
+                "site_url": "https://anilist.co/anime/100878",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100878-npKVJvggmK6a.jpg",
+                "relation_type": "PREQUEL"
+              },
+              {
+                "id": 213961,
+                "type": "ANIME",
+                "title": {
+                  "native": "ようじょしぇんき2",
+                  "romaji": "Youjo Shenki 2",
+                  "english": null,
+                  "synonyms": []
+                },
+                "format": "ONA",
+                "site_url": "https://anilist.co/anime/213961",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b213961-x2ZvvtkYSTC9.png",
+                "relation_type": "SIDE_STORY"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "https://twitter.com/youjosenki",
+                "site": "Twitter",
+                "type": "SOCIAL"
+              },
+              {
+                "url": "http://youjo-senki.jp/",
+                "site": "Official Site",
+                "type": "INFO"
+              },
+              {
+                "url": "https://www.crunchyroll.com/series/GR9P57W96/saga-of-tanya-the-evil",
+                "site": "Crunchyroll",
+                "type": "STREAMING"
+              },
+              {
+                "url": "https://www.youtube.com/playlist?list=PLcWpc-sy22u4",
+                "site": "YouTube",
+                "type": "STREAMING"
+              }
+            ],
+            "average_score": 80,
+            "popularity": 93855,
+            "favourites": 1880,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/135865",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        }
+      ],
+      "relations": [
+        {
+          "id": 94846,
+          "type": "MANGA",
+          "title": {
+            "native": "幼女戦記",
+            "romaji": "Youjo Senki",
+            "english": "The Saga of Tanya the Evil",
+            "synonyms": []
+          },
+          "format": "NOVEL",
+          "site_url": "https://anilist.co/manga/94846",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx94846-qN2CTFtRRo4h.jpg",
+          "relation_type": "ADAPTATION",
+          "media_id": null
+        },
+        {
+          "id": 98186,
+          "type": "ANIME",
+          "title": {
+            "native": "ようじょしぇんき",
+            "romaji": "Youjo Shenki",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONA",
+          "site_url": "https://anilist.co/anime/98186",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98186-2s9zyDfRAvrr.png",
+          "relation_type": "SIDE_STORY",
+          "media_id": null
+        },
+        {
+          "id": 100878,
+          "type": "ANIME",
+          "title": {
+            "native": "劇場版 幼女戦記",
+            "romaji": "Youjo Senki Movie",
+            "english": "Saga of Tanya the Evil - the Movie -",
+            "synonyms": []
+          },
+          "format": "MOVIE",
+          "site_url": "https://anilist.co/anime/100878",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100878-npKVJvggmK6a.jpg",
+          "relation_type": "SEQUEL",
+          "media_id": "s1453"
+        },
+        {
+          "id": 104454,
+          "type": "ANIME",
+          "title": {
+            "native": "異世界かるてっと",
+            "romaji": "Isekai Quartet",
+            "english": "Isekai Quartet",
+            "synonyms": []
+          },
+          "format": "TV_SHORT",
+          "site_url": "https://anilist.co/anime/104454",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104454-pH5YCR7HteqP.jpg",
+          "relation_type": "CHARACTER",
+          "media_id": "s1802"
+        },
+        {
+          "id": 110178,
+          "type": "ANIME",
+          "title": {
+            "native": "異世界かるてっと 2",
+            "romaji": "Isekai Quartet 2",
+            "english": "Isekai Quartet 2",
+            "synonyms": []
+          },
+          "format": "TV_SHORT",
+          "site_url": "https://anilist.co/anime/110178",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110178-UhigZiRQVwLf.jpg",
+          "relation_type": "CHARACTER",
+          "media_id": "s1802"
+        },
+        {
+          "id": 97216,
+          "type": "MANGA",
+          "title": {
+            "native": "幼女戦記",
+            "romaji": "Youjo Senki",
+            "english": "The Saga of Tanya the Evil",
+            "synonyms": []
+          },
+          "format": "MANGA",
+          "site_url": "https://anilist.co/manga/97216",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97216-hleh4PmFoUgr.png",
+          "relation_type": "ALTERNATIVE",
+          "media_id": null
+        },
+        {
+          "id": 135866,
+          "type": "ANIME",
+          "title": {
+            "native": "幼女戦記 砂漠のパスタ大作戦",
+            "romaji": "Youjo Senki: Sabaku no Pasta Daisakusen",
+            "english": "Saga of Tanya the Evil: Operation Desert Pasta",
+            "synonyms": []
+          },
+          "format": "ONA",
+          "site_url": "https://anilist.co/anime/135866",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135866-Q5qZPscMNLFa.png",
+          "relation_type": "SIDE_STORY",
+          "media_id": "s1453"
+        },
+        {
+          "id": 117074,
+          "type": "ANIME",
+          "title": {
+            "native": "異世界かるてっと ～あなざーわーるど～",
+            "romaji": "Isekai Quartet: Another World",
+            "english": "Isekai Quartet The Movie: Another World",
+            "synonyms": []
+          },
+          "format": "MOVIE",
+          "site_url": "https://anilist.co/anime/117074",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx117074-kgucq8a1ZeOw.jpg",
+          "relation_type": "CHARACTER",
+          "media_id": "s1802"
+        },
+        {
+          "id": 194447,
+          "type": "ANIME",
+          "title": {
+            "native": "異世界かるてっと 3",
+            "romaji": "Isekai Quartet 3",
+            "english": "Isekai Quartet 3",
+            "synonyms": []
+          },
+          "format": "TV_SHORT",
+          "site_url": "https://anilist.co/anime/194447",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194447-sgmaOpJ0VIUI.jpg",
+          "relation_type": "CHARACTER",
+          "media_id": "s1802"
+        }
+      ],
+      "alt_ids": [
+        {
+          "anilist_id": 100878,
+          "mal_id": 37055,
+          "anidb_id": 13717,
+          "imdb_ids": [
+            "tt9507276"
+          ]
+        },
+        {
+          "anilist_id": 135866,
+          "mal_id": 49236,
+          "anidb_id": 16393,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 21613,
+          "mal_id": 32615,
+          "anidb_id": 11905,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 135865,
+          "mal_id": 49233,
+          "anidb_id": 16392,
+          "imdb_ids": []
+        }
+      ],
+      "targets": [
+        {
+          "anilist_id": 100878,
+          "media_id": "m134",
+          "poster": "https://image.tmdb.org/t/p/original/omEd5EwOo3LJlGtiiYwEZeCqM3E.jpg"
+        },
+        {
+          "anilist_id": 135866,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135866-Q5qZPscMNLFa.png"
+        },
+        {
+          "anilist_id": 21613,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21613-qT3NiwYP5dYc.png"
+        },
+        {
+          "anilist_id": 135865,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png"
+        }
+      ]
+    },
+    "notes": null,
+    "stats": {
+      "uploads": 228,
+      "seeders": "3996",
+      "leechers": "11",
+      "downloads": "132980"
+    },
+    "series": null,
+    "episodes": [
+      {
+        "id": 45675,
+        "title": "Mini - Episode 00",
+        "season": 0,
+        "episode": 1,
+        "overview": "This mini-episode serves as a comedic introduction to Tanya’s character in the mini-series format.",
+        "runtime": 2,
+        "airDateUtc": "2017-01-06T12:30:00Z",
+        "tvdbId": 5912111
+      },
+      {
+        "id": 45676,
+        "title": "Mini - Episode 01",
+        "season": 0,
+        "episode": 2,
+        "overview": "Tanya, known for her ruthless battlefield tactics, is shown struggling with mundane office work — piles of paperwork, bureaucratic meetings, and the tedious side of military administration.",
+        "runtime": 3,
+        "airDateUtc": "2017-01-10T12:30:00Z",
+        "tvdbId": 5962171
+      },
+      {
+        "id": 45677,
+        "title": "Mini - Episode 02",
+        "season": 0,
+        "episode": 3,
+        "overview": "Tanya and Viktoriya are having a quiet conversation when Tanya suddenly spaces out (i.e. her expression changes, she becomes distant). Her grim expression and laughter terrify Viktoriya, who calls out to her but can’t immediately bring her back to her senses.",
+        "runtime": 3,
+        "airDateUtc": "2017-01-16T12:30:00Z",
+        "tvdbId": 5962172
+      },
+      {
+        "id": 45678,
+        "title": "Mini - Episode 03",
+        "season": 0,
+        "episode": 4,
+        "overview": "Tanya and Viktoriya are standing together in front of a nutcracker. Tanya is lost in thought, mentally complaining about a few things: being subject to “Being X,” problems with her superiors (like Doctor Schugel), military issues, etc.",
+        "runtime": 3,
+        "airDateUtc": "2017-01-23T12:30:00Z",
+        "tvdbId": 5962173
+      },
+      {
+        "id": 45679,
+        "title": "Mini - Episode 04",
+        "season": 0,
+        "episode": 5,
+        "overview": "Visha being unaware that her Captain was once a man",
+        "runtime": 3,
+        "airDateUtc": "2017-01-30T12:30:00Z",
+        "tvdbId": 5962174
+      },
+      {
+        "id": 45680,
+        "title": "Mini - Episode 05",
+        "season": 0,
+        "episode": 6,
+        "overview": "Characters Rhiner, Viktoriya (“Visha”), Vooren, and Wilibald are gossiping about Tanya’s harsh training methods in the Imperial Army’s 203rd Air Mage Battalion.",
+        "runtime": 3,
+        "airDateUtc": "2017-02-06T12:30:00Z",
+        "tvdbId": 5962175
+      },
+      {
+        "id": 45681,
+        "title": "Mini - Episode 06",
+        "season": 0,
+        "episode": 7,
+        "overview": "Weiss expresses his doubts/concerns to Viktoriya about their war conduct, specifically that he (Weiss) was merely following the manual / orders as an Air Mage.",
+        "runtime": 3,
+        "airDateUtc": "2017-02-13T12:30:00Z",
+        "tvdbId": 5967956
+      },
+      {
+        "id": 45682,
+        "title": "Recap 6.5 - War Report",
+        "season": 0,
+        "episode": 8,
+        "overview": "Recap of the first 6 episodes of Season 1.",
+        "runtime": 24,
+        "airDateUtc": "2017-02-17T12:30:00Z",
+        "tvdbId": 5972529
+      },
+      {
+        "id": 45683,
+        "title": "Mini - Episode 07",
+        "season": 0,
+        "episode": 9,
+        "overview": "Viktoriya (Visha) is talking with Neumann and Koenig, and remarks that she finds it odd that Tanya always carries a rifle with her, even though she supposedly doesn’t like to carry guns around.",
+        "runtime": 3,
+        "airDateUtc": "2017-02-27T12:30:00Z",
+        "tvdbId": 6004375
+      },
+      {
+        "id": 45684,
+        "title": "Mini - Episode 08",
+        "season": 0,
+        "episode": 10,
+        "overview": "Rhiner and Koenig visit him. Weiss expresses that he really wants chocolate to lift his spirits after the tiring fight.",
+        "runtime": 3,
+        "airDateUtc": "2017-03-06T12:30:00Z",
+        "tvdbId": 6004376
+      },
+      {
+        "id": 45685,
+        "title": "Mini - Episode 09",
+        "season": 0,
+        "episode": 11,
+        "overview": "Tanya asks Viktoriya if she can tell the difference between a normal and a rotten potato. Viktoriya responds that the only way she can tell is by taste. Tanya then explains the proper way to recognize a rotten potato and the aftereffects of consuming one.",
+        "runtime": 3,
+        "airDateUtc": "2017-03-13T12:30:00Z",
+        "tvdbId": 6004377
+      },
+      {
+        "id": 45686,
+        "title": "Mini - Episode 10",
+        "season": 0,
+        "episode": 12,
+        "overview": "The group is playing cards, and Vooren is on a losing streak, becoming increasingly frustrated. He suggests that betting alcohol instead of chocolate might make the game more serious.",
+        "runtime": 3,
+        "airDateUtc": "2017-03-20T12:30:00Z",
+        "tvdbId": 6011832
+      },
+      {
+        "id": 45687,
+        "title": "Mini - Episode 11",
+        "season": 0,
+        "episode": 13,
+        "overview": "Vooren Glanz, Wilibald Koenig, Rhiner Neumann and Matheus Johan Weiss are in a room while Neumann and Koenig complained to Weiss about his drunk attitude that scares women away, this caused them being not popular around women. Weiss will sexually harass women with words while he is drunk, which he claims it as only being compliments.Upon hearing this fact, the three was shocked especially Vooren. Weiss promised that he will not make the mistake again, then they went to get drinks.Unfortunately, Weiss got drunk and sexually harassed women. The other three stood aside, talking how they view alcohol as a prohibited item for Weiss then on. Suddenly, Viktoriya Ivanovna Serebryakov appeared being uncomfortable with two men harassing her. The four helped Visha and drove the men away. Visha being grateful to them as she does not know that Weiss harassed women sexually when he is drunk.",
+        "runtime": 3,
+        "airDateUtc": "2017-03-27T12:30:00Z",
+        "tvdbId": 6024163
+      },
+      {
+        "id": 45688,
+        "title": "Mini - Episode 12",
+        "season": 0,
+        "episode": 14,
+        "overview": "Viktoriya Ivanovna Serebryakov was writing on her diary, starting by introducing herself. Then, a brief introduction about Tanya Degurechaff and how Visha admires her. A flashback takes place of Tanya talking to her Battalion members, Matheus Johan Weiss, Viktoriya Ivanovna Serebryakov, Wilibald Koenig, Rhiner Neumann and Vooren Glanz. They state how effective Tanya's trainings were, also how strict and hellish it were. However, Tanya does not recall this memory, causing the five to burst into laughter. Tanya then stated that she expects further growth from the Battalion as they are entering fiercer battles. As they grow, Tanya will grow physically as well. Tanya joked that if there is anyone who falls for a innocent little girl like her, she will cut that person.The flashback ends, Visha had a small guess that God must have loved Tanya so much because she is a perfect person.",
+        "runtime": 3,
+        "airDateUtc": "2017-04-03T12:30:00Z",
+        "tvdbId": 6032929
+      },
+      {
+        "id": 45689,
+        "title": "Saga of Tanya the Evil: The Movie",
+        "season": 0,
+        "episode": 15,
+        "absolute": 14,
+        "overview": "The time is UC 1926. The Imperial Army's 203rd Air Mage Battalion led by Major Tanya Degurechaff has won the battle to the south against the Republic's stragglers. They expected to be given a vacation after returning victorious, but instead receive special orders from Staff HQ as soon as they get home. They are told that there were signs of a large-scale deployment near the border between the Empire and the Union.\r\n\r\nFaced with the prospect of a new major enemy, the desperate Empire fans the flame of war.\r\n\r\nMeanwhile, an international volunteer army spearheaded by the Kingdom arrived to the Union. As they say, the enemy of an enemy is your friend. They suffer through misfortune purely out of national interest, and among them is a young girl.",
+        "runtime": 100,
+        "airDateUtc": "2019-02-08T12:30:00Z",
+        "tvdbId": 6954303
+      },
+      {
+        "id": 45690,
+        "title": "Saga of Tanya the Evil: The Movie - Theater Manners",
+        "season": 0,
+        "episode": 16,
+        "overview": "Tanya and her battalion tell the viewers to refrain from improper theater etiquette such as using phones during the film, talking, and smoking.",
+        "runtime": 3,
+        "airDateUtc": "2019-02-08T12:54:00Z",
+        "tvdbId": 7893568
+      },
+      {
+        "id": 45691,
+        "title": "Operation Desert Pasta",
+        "season": 0,
+        "episode": 17,
+        "absolute": 13,
+        "overview": "The 203rd Air Mage Battalion led by Tanya is forced to fight in the southern desert, the front line. In an effort to provide some food for the harsh conditions, Colonel Rerugen sent dried pasta to the battlefield. Will Tanya and the others be able to eat the delicious pasta under the conditions of water shortage?",
+        "runtime": 17,
+        "airDateUtc": "2021-06-19T12:30:00Z",
+        "tvdbId": 8499405
+      },
+      {
+        "id": 45692,
+        "title": "The Devil of the Rhine",
+        "season": 1,
+        "episode": 1,
+        "absolute": 1,
+        "overview": "The Empire is a powerful military nation on a continent that looks much like early 20th century Europe. But in this world, magic is real. The Empire is involved in a war against the Entente Alliance, and fighting a poorly executed delaying action in the northern theater. Second Lieutenant Tanya Degurechaff leads a small platoon of mages. But there's something unusual about this lieutenant... she's only nine years old!",
+        "runtime": 24,
+        "airDateUtc": "2017-01-06T12:30:00Z",
+        "tvdbId": 5836600
+      },
+      {
+        "id": 45693,
+        "title": "Prologue",
+        "season": 1,
+        "episode": 2,
+        "absolute": 2,
+        "overview": "The secret of Tanya's birth is revealed. Tanya was a cold and unemotional Japanese salaryman who was pushed in front of a train by a man he laid off. An infuriated godlike creature named \"Being X\" sent him to this world, and reincarnated him as a baby girl... with no promise that he would ever be reincarnated again. Now Tanya has to survive, because this is all she's got!",
+        "runtime": 24,
+        "airDateUtc": "2017-01-13T12:30:00Z",
+        "tvdbId": 5903209
+      },
+      {
+        "id": 45694,
+        "title": "Deus Vult",
+        "season": 1,
+        "episode": 3,
+        "absolute": 3,
+        "overview": "After her stunning success with her first mission, Tanya is assigned to test a new piece of technology: a highly unstable prototype calculation jewel. This jewel offers her unparalleled power, but just using it risks her life. Tanya is determined to get out of this project and on to someplace easier and safer (like the front lines of the war), but Being X has other ideas...",
+        "runtime": 24,
+        "airDateUtc": "2017-01-20T12:30:00Z",
+        "tvdbId": 5903210
+      },
+      {
+        "id": 45695,
+        "title": "Campus Life",
+        "season": 1,
+        "episode": 4,
+        "absolute": 4,
+        "overview": "Tanya is now living life on easy street, as a highly-respected student at the military university. She's so highly respected, in fact, that one of the Empire's chief military planners asks her for her opinion on the course of the war. Eager to show off her intellect (and hopefully land herself a cushy job in the planning department), Tanya comes up with a plan of astonishing insight and intelligence. Her idea backfires, however, when she turns out to be a little too smart for her own good...",
+        "runtime": 24,
+        "airDateUtc": "2017-01-27T12:30:00Z",
+        "tvdbId": 5903211
+      },
+      {
+        "id": 45696,
+        "title": "My First Battalion",
+        "season": 1,
+        "episode": 5,
+        "absolute": 5,
+        "overview": "Tanya's new battalion is off the ground and running, and it's time for them to do their first mission: fight back a massive invasion by the Dakian Dukedom to the southeast. The enemy army numbers in the hundreds of thousands, but they've brought no air units at all, which makes them easy pickings for Tanya's highly trained force. After wiping out the enemy army, she heads straight for the enemy capital and launches an attack there.",
+        "runtime": 24,
+        "airDateUtc": "2017-02-03T12:30:00Z",
+        "tvdbId": 5903212
+      },
+      {
+        "id": 45697,
+        "title": "Beginning of Madness",
+        "season": 1,
+        "episode": 6,
+        "absolute": 6,
+        "overview": "After her easy victory over Dakia, it's time for a more difficult mission: aiding the destruction of the Entente Alliance to the north. The Alliance is being backed by the strong powers, and has equipment and training that in some cases rival the Empire. When Tanya arrives, the Alliance is striking a critical supply base with a bombing raid, and the local Empire force are too overwhlemed to defend against it. Can she get there to hold them off in time?",
+        "runtime": 24,
+        "airDateUtc": "2017-02-10T12:30:00Z",
+        "tvdbId": 5903213
+      },
+      {
+        "id": 45698,
+        "title": "The Battle of the Fjord",
+        "season": 1,
+        "episode": 7,
+        "absolute": 7,
+        "overview": "The Empire is launching a seemingly foolish attack on the Entente Alliance in the middle of winter. They lack the supplies to successfully invade. Tanya realizes that this attack is a feint intended to distract from a fjord landing mission. Sure enough, she is sent to lead the invasion of the fjords, and silence 20 cannon emplacements in time for the fleet to land and the Imperial forces to disembark.",
+        "runtime": 24,
+        "airDateUtc": "2017-02-24T12:30:00Z",
+        "tvdbId": 5903214
+      },
+      {
+        "id": 45699,
+        "title": "Trial by Fire",
+        "season": 1,
+        "episode": 8,
+        "absolute": 8,
+        "overview": "The war with the Entente Alliance is done, and it's back to the Rhine for Tanya and her forces. The Republic troops are highly trained, well-equipped, and stronger than any she's faced before. And in a distant hospital, a former Kingdom officer wakes up, with a mission from God imprinted on his mind...",
+        "runtime": 24,
+        "airDateUtc": "2017-03-03T12:30:00Z",
+        "tvdbId": 5903215
+      },
+      {
+        "id": 45700,
+        "title": "Preparations for Advance",
+        "season": 1,
+        "episode": 9,
+        "absolute": 9,
+        "overview": "The last enemy on the continent is the Republic, and the Empire has come up with a bold plan to take them out. Of course, Tanya is sent to the forefront of this operation, and is forced to take on the entire Republic army by herself while the Empire stages a faked withdrawl. Then it's off for a ride on a rocket as she heads straight into the heart of enemy territory!",
+        "runtime": 24,
+        "airDateUtc": "2017-03-10T12:30:00Z",
+        "tvdbId": 5903216
+      },
+      {
+        "id": 45701,
+        "title": "The Path to Victory",
+        "season": 1,
+        "episode": 10,
+        "absolute": 10,
+        "overview": "Tanya's spectacular mission is a success, and the Republic is surrounded and crippled. But on her way back, she runs into a group of allied mages, lead by Anton Souix, the man she crippled once more. He's back, and powered by Being X, and his one mission in life is to take down the Devil of the Rhine!",
+        "runtime": 24,
+        "airDateUtc": "2017-03-17T12:30:00Z",
+        "tvdbId": 5903218
+      },
+      {
+        "id": 45702,
+        "title": "Resistance",
+        "season": 1,
+        "episode": 11,
+        "absolute": 11,
+        "overview": "Tanya's diminished smaller company attack the battalion of Allied Kingdom mages rather than retreat. Their company use their altitude advantage but suffer heavy losses, especially when Colonel Sioux uses an illegal Trench Gun.",
+        "runtime": 24,
+        "airDateUtc": "2017-03-24T12:30:00Z",
+        "tvdbId": 5903219
+      },
+      {
+        "id": 45703,
+        "title": "How to Use a Victory",
+        "season": 1,
+        "episode": 12,
+        "absolute": 12,
+        "overview": "Tanya just barely manages to restrain herself from disobeying her superior officers and attacking the Republic remanents. But the Republic forces have escaped overseas, and vowed to fight to the bitter end. The Empire has been victorious, but in its victory it has terrified the rest of the world and spurred them to action. Is true victory possible at all?",
+        "runtime": 24,
+        "airDateUtc": "2017-03-31T12:30:00Z",
+        "tvdbId": 5903221
+      },
+      {
+        "id": 45704,
+        "title": "Salamander Combat Team",
+        "season": 2,
+        "episode": 1,
+        "absolute": 15,
+        "overview": "Tanya is put in charge of a combat team fighting on the Eastern front.",
+        "runtime": 24,
+        "airDateUtc": "2026-07-08T12:30:00Z",
+        "tvdbId": 8498902
+      },
+      {
+        "id": 417342,
+        "title": "A Strange Friendship",
+        "season": 2,
+        "episode": 2,
+        "absolute": 16,
+        "overview": "Tanya comes up with a plan to stop the attacks on her unit.",
+        "runtime": 24,
+        "airDateUtc": "2026-07-15T12:30:00Z",
+        "tvdbId": 11876778
+      },
+      {
+        "id": 417343,
+        "title": "Well-Intentioned Mediator",
+        "season": 2,
+        "episode": 3,
+        "absolute": 17,
+        "overview": "An ally comes up with a plan to end the war.",
+        "runtime": 24,
+        "airDateUtc": "2026-07-22T12:30:00Z",
+        "tvdbId": 11876779
+      },
+      {
+        "id": 417344,
+        "title": "Operation Iron Hammer",
+        "season": 2,
+        "episode": 4,
+        "absolute": 18,
+        "overview": "The Empire goes all-in on a plan to break the Federation army once and for all.",
+        "runtime": 24,
+        "airDateUtc": "2026-07-29T12:30:00Z",
+        "tvdbId": 11876780
+      },
+      {
+        "id": 417345,
+        "title": "Unlucky Draw",
+        "season": 2,
+        "episode": 5,
+        "absolute": 19,
+        "overview": "Zettour is reassigned to the eastern front after an argument with High Leadership.",
+        "runtime": 24,
+        "airDateUtc": "2026-08-05T12:30:00Z",
+        "tvdbId": 11876781
+      },
+      {
+        "id": 417346,
+        "title": "Decoy",
+        "season": 2,
+        "episode": 6,
+        "absolute": 20,
+        "overview": "Zettour uses himself as a decoy to lure out the enemy and save Tanya.",
+        "runtime": 24,
+        "airDateUtc": "2026-08-12T12:30:00Z",
+        "tvdbId": 11876782
+      },
+      {
+        "id": 417347,
+        "title": "Purgatory",
+        "season": 2,
+        "episode": 7,
+        "absolute": 21,
+        "overview": "Tanya returns to the capital and sees what daily life is like there.",
+        "runtime": 24,
+        "airDateUtc": "2026-08-19T12:30:00Z",
+        "tvdbId": 11876783
+      },
+      {
+        "id": 417348,
+        "title": "Torpedo Strike",
+        "season": 2,
+        "episode": 8,
+        "absolute": 22,
+        "overview": "Tanya uses a new type of torpedo to save her allies in the south.",
+        "runtime": 24,
+        "airDateUtc": "2026-08-26T12:30:00Z",
+        "tvdbId": 11876784
+      },
+      {
+        "id": 417349,
+        "title": "Sightseeing Tour",
+        "season": 2,
+        "episode": 9,
+        "absolute": 23,
+        "overview": "Tanya enjoys a wonderful day in Ildoa before returning to the Empire.",
+        "runtime": 24,
+        "airDateUtc": "2026-09-02T12:30:00Z",
+        "tvdbId": 11876785
+      },
+      {
+        "id": 417350,
+        "title": "A Way to Survive",
+        "season": 2,
+        "episode": 10,
+        "absolute": 24,
+        "overview": "The Empire turns to diplomacy to end the war.",
+        "runtime": 24,
+        "airDateUtc": "2026-09-09T12:30:00Z",
+        "tvdbId": 11876786
+      },
+      {
+        "id": 417351,
+        "title": "Hourglass",
+        "season": 2,
+        "episode": 11,
+        "absolute": 25,
+        "overview": "Time is running out for the empire, and both Rudersdorf and Zettour are willing to take drastic measures.",
+        "runtime": 24,
+        "airDateUtc": "2026-09-16T12:30:00Z",
+        "tvdbId": 11876787
+      },
+      {
+        "id": 417352,
+        "title": "Exit",
+        "season": 2,
+        "episode": 12,
+        "absolute": 26,
+        "overview": "Tanya defends Rudersdorf's plane from an assassination attempt.",
+        "runtime": 24,
+        "airDateUtc": "2026-09-23T12:30:00Z",
+        "tvdbId": 11876788
+      }
+    ],
+    "groups": [
+      {
+        "id": "8511749566261",
+        "name": "frixysubs",
+        "display_name": "FrixySubs",
+        "tag": "frixysubs",
+        "display_tag": "FrixySubs",
+        "open": false,
+        "tagline": "Lisie tłumaczenia po polsku! | Polish fansubs",
+        "pfp_hash": "ab6477c5390a7a1cdf70afd569e4b275fcb1b85123a6a448a65b6797284aa36d",
+        "episodes": {
+          "45704": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417342": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417344": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 3,
+        "langs": {
+          "fsub": [
+            "pl"
+          ],
+          "sub": []
+        }
+      },
+      {
+        "id": "5949517558321",
+        "name": "vodes",
+        "display_name": "Vodes",
+        "tag": "vodes",
+        "display_tag": "Vodes",
+        "open": false,
+        "tagline": "Sometimes does okay encodes",
+        "pfp_hash": "3fb8122e9f6e34ddb4e47df9cfa8312ac7ace02943ed1df628419a7a463467e4",
+        "episodes": {
+          "45689": {
+            "level": 1,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45692": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45693": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45694": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45695": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45696": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45697": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45698": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45699": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45700": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45701": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45702": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "45703": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          }
+        },
+        "max_level": 2,
+        "langs": {
+          "fsub": [
+            "en",
+            "de"
+          ],
+          "sub": []
+        }
+      },
+      {
+        "id": "9816645665074",
+        "name": "blackrabbit",
+        "display_name": "BlackRabbit",
+        "tag": "blackrabbit",
+        "display_tag": "BlackRabbit",
+        "open": false,
+        "tagline": "AV1 minis",
+        "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440",
+        "episodes": {
+          "45689": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45691": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45692": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45693": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45694": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45695": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45696": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45697": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45698": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45699": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45700": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45701": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45702": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45703": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          }
+        },
+        "max_level": 2,
+        "langs": {
+          "fsub": [
+            "en",
+            "de"
+          ],
+          "sub": [
+            "de"
+          ]
+        }
+      },
+      {
+        "id": "7513441598520",
+        "name": "tenrai-sensei",
+        "display_name": "Tenrai-Sensei",
+        "tag": "tenrai-sensei",
+        "display_tag": "Tenrai-Sensei",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": "15e1286db4f526cdd5dc03173be26946a6a6fa7fa103e917ea539de0aff095f9",
+        "episodes": {
+          "45675": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45676": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45677": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45678": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45679": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45680": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45681": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45682": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45683": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45684": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45685": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45686": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45687": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45688": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45689": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45690": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45691": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45692": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45693": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45694": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45695": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45696": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45697": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45698": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45699": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45700": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45701": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45702": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "45703": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          }
+        },
+        "max_level": 2,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": []
+        }
+      },
+      {
+        "id": "7313765950000",
+        "name": "varyg",
+        "display_name": "VARYG",
+        "tag": "varyg",
+        "display_tag": "VARYG",
+        "open": false,
+        "tagline": "WEB-DLs",
+        "pfp_hash": null,
+        "episodes": {
+          "45704": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "it",
+            "pt-br",
+            "ru"
+          ]
+        }
+      },
+      {
+        "id": "7267150399800",
+        "name": "erai-raws",
+        "display_name": "Erai-raws",
+        "tag": "erai-raws",
+        "display_tag": "Erai-raws",
+        "open": false,
+        "tagline": "Your best friend!",
+        "pfp_hash": "6931f90800dca9b3ea80d7ebb1ff7f4e20e88fbda552020589995acdcb61eae5",
+        "episodes": {
+          "45704": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "pt-br",
+            "es-419",
+            "es-es",
+            "ar",
+            "fr-fr",
+            "de",
+            "it",
+            "ru"
+          ]
+        }
+      },
+      {
+        "id": "7251504327481",
+        "name": "toonshub",
+        "display_name": "ToonsHub",
+        "tag": "toonshub",
+        "display_tag": "ToonsHub",
+        "open": false,
+        "tagline": "(mostly) automated WEB-DLs",
+        "pfp_hash": "e97eeac72d439abb51eb3237b0454792d5550991c024b463d9a07b0ae43c351c",
+        "episodes": {
+          "45689": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45691": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45704": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "fr-fr",
+            "de",
+            "it",
+            "pt-br",
+            "ru",
+            "es-419",
+            "es-es",
+            "zh-hans",
+            "zh-hant",
+            "id",
+            "ms",
+            "th",
+            "vi"
+          ]
+        }
+      },
+      {
+        "id": "8158001264947",
+        "name": "anozu",
+        "display_name": "AnoZu",
+        "tag": "anozu",
+        "display_tag": "AnoZu",
+        "open": false,
+        "tagline": "WEB-DL and Encodes",
+        "pfp_hash": "f66cdb5b83036c36dac52c7f0f8165342b5f157991c122f9389e841417525c5b",
+        "episodes": {
+          "45689": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45691": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45704": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "it",
+            "pt-br",
+            "ru",
+            "id",
+            "ms",
+            "th",
+            "vi",
+            "zh-hans",
+            "zh-hant"
+          ]
+        }
+      },
+      {
+        "id": "7110296043059",
+        "name": "tsundere-raws",
+        "display_name": "Tsundere-Raws",
+        "tag": "tsundere-raws",
+        "display_tag": "Tsundere-Raws",
+        "open": false,
+        "tagline": "First on french releases",
+        "pfp_hash": "5c26b0d6fa21ccd1beb67f34299596144fc193690731b2d1c6769746a9e66c41",
+        "episodes": {
+          "45689": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45692": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45693": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45694": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45695": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45696": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45697": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45698": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45699": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45700": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45701": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45702": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45703": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45704": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "fr-fr"
+          ]
+        }
+      },
+      {
+        "id": "10514118004029",
+        "name": "yameii",
+        "display_name": "Yameii",
+        "tag": "yameii",
+        "display_tag": "Yameii",
+        "open": false,
+        "tagline": "Fully-ish automated English Dub WEB-DL's",
+        "pfp_hash": "97ec373a0f57d62922037734aec81a6470b22f25ff548227c907e9ca45259a39",
+        "episodes": {
+          "45689": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45691": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "45704": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en"
+          ]
+        }
+      },
+      {
+        "id": "6438121520945",
+        "name": "kosaka",
+        "display_name": "Kosaka",
+        "tag": "kosaka",
+        "display_tag": "Kosaka",
+        "open": false,
+        "tagline": "Mediocre AV1 Encodes",
+        "pfp_hash": "ceab12726cb00d1bb5ccd83554e410a8ac47eda7e4c8c697e6f681edbb363de0",
+        "episodes": {
+          "45704": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "fr-fr",
+            "it",
+            "ru",
+            "es-es",
+            "pt-br"
+          ]
+        }
+      },
+      {
+        "id": "9013082755130",
+        "name": "nanakoraws",
+        "display_name": "NanakoRaws",
+        "tag": "nanakoraws",
+        "display_tag": "NanakoRaws",
+        "open": false,
+        "tagline": "TV Rips",
+        "pfp_hash": null,
+        "episodes": {
+          "45704": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "ja"
+          ]
+        }
+      },
+      {
+        "id": "10913309520177",
+        "name": "onalrie",
+        "display_name": "Onalrie",
+        "tag": "onalrie",
+        "display_tag": "Onalrie",
+        "open": false,
+        "tagline": "Onalrie",
+        "pfp_hash": "6592be00da33e445a00820c83e02bb1f44adf96bd6d6f87e43d64380a3e3fd63",
+        "episodes": {
+          "45704": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417342": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417343": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417344": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417345": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417346": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417347": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417348": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417349": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417350": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417352": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "pt-pt",
+            "es-419",
+            "es-es",
+            "ar",
+            "fr-fr",
+            "de",
+            "it",
+            "ru",
+            "pt-br"
+          ]
+        }
+      },
+      {
+        "id": "13551398844732",
+        "name": "delta",
+        "display_name": "Delta",
+        "tag": "delta",
+        "display_tag": "Delta",
+        "open": false,
+        "tagline": "CR DLs and transcodes",
+        "pfp_hash": "53715fa2f7e886de89b4df295db4295f205a88b1e51384ee80ee20a64e558e2f",
+        "episodes": {
+          "417350": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "417351": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "de",
+            "ar",
+            "it",
+            "ru"
+          ]
+        }
+      },
+      {
+        "id": "7466298080819",
+        "name": "sam",
+        "display_name": "sam",
+        "tag": "sam",
+        "display_tag": "sam",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": null,
+        "episodes": {
+          "45689": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          }
+        },
+        "max_level": null,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": []
+        }
+      }
+    ]
+  }
+}

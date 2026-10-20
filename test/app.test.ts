@@ -14,7 +14,7 @@ import {
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
 import type { NekoTorrentItem } from '../src/types.js';
 
-import { loadFixture } from './helpers/fixtures.js';
+import { loadFixture } from './helpers/test-data.js';
 
 
 /*

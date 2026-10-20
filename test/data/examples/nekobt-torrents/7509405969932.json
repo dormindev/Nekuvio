@@ -1,0 +1,995 @@
+{
+  "error": false,
+  "data": {
+    "id": "7509405969932",
+    "uploaded_at": 1765023217070,
+    "title": "[MTBB] Bakemonogatari S1 (BD 1080p)",
+    "auto_title": "[MTBB] Bakemonogatari S1 (BD 1080p) {Tags:L4;V13;C2;A=ja;F=en,enm;}",
+    "description": "#### Full Monogatari series batch: [Click here](https://nyaa.si/view/1582135)\n\n__________________________________________________________\n\n[Bakemonogatari](https://myanimelist.net/anime/5081/Bakemonogatari)\n\n**Script Preparation**: knowsuchpeace  \n**TL (Dialogue)**: Vertical, Unbased (previews)  \n**TL (Signs)**: Vertical, [qIIq]  \n**TL (Commentary)**: Aniplex  \n**TL (OP)**: Unbased (OP1), gg (OP2-4), coalgirls? (OP5-6)  \n**ED**: [qIIq]  \n**TLC**: Unbased  \n**Timing**: motbob  \n**Timing (commentary)**: motbob (1-3), kattara (4-15)  \n**Typesetting**: motbob, Scrad (4), witchymary (5-6, 9-10)\n**OP styling**: motbob (OP1, 5-6), gg (OP2-4), tehshower (OP4)  \n**Editing**: motbob  \n**QC**: Melancholy (01), motbob  \n\n[TL notes](https://gist.github.com/motbob/4444543bb3e1851363dce469b1653d63)\n\nThere are alternate honorifics tracks in this release. Set your media player to play “enm” language tracks by default to automatically play honorifics tracks.\n____________________________________________________________\n\n### What subs should I use for the rest of the series?\n\nSee the batch link at the top of this torrent description.\n\n### What order should I watch the rest of the series in?\n\nDoesn't matter. Pick any popular order that puts Bakemonogatari first and Zoku Owarimonogatari last. My personal recommendation is [RNG Order](https://gist.githubusercontent.com/motbob/6ca4d21a3a03e54299084a405ad21f65/raw/6183b859811c91d8cedd84b1f058cfad918968ae/Monogatari%2520RNG%2520Order). (OK, just kidding—I'm just trying to emphasize that you'll have a good experience no matter what order you choose.)\n\n### Should I pause the video to read the flashing text on the screen?\n\nAbsolutely not. Maybe on your second viewing.\n____________________________________________________________\n\nPlease leave feedback in the comments, good or bad.  \nPlease read this short [playback guide](https://gist.github.com/motbob/754c24d5cd381334bb64b93581781a81) if you want to know how to make the video and subtitles of this release look better.\nAll components of this release are released into the public domain to the [greatest extent possible](https://gist.github.com/motbob/9a85edadca33c7b8a3bb4de23396d510).",
+    "mediainfo": "General\nUnique ID                                : 268707226735557680938380283691134492828 (0xCA272121F3DFE5C2BB5117EB265A209C)\nComplete name                            : [MTBB] Bakemonogatari - 01v3 (BD 1080p) [2D7FEB9A].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.78 GiB\nDuration                                 : 25 min 57 s\nOverall bit rate                         : 9 823 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-06 14:34:19 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : !BASKETOFHAMMERS-BOLD.TTF / Beautiful Every Time.ttf / CACMOOSE.TTF / CooperBlackStd.otf / CORPID-BOLD.OTF / GandhiSans-Bold.otf / GandhiSans-BoldItalic.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / LHFSCRIPTANA-REGULAR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / SCRATCH.TTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 25 min 57 s\nBit rate                                 : 9 547 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.192\nStream size                              : 1.73 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 57 s\nBit rate                                 : 131 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 24.3 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 57 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.1 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 4 499 b/s\nFrame rate                               : 3.658 FPS\nCount of elements                        : 5691\nCompression mode                         : Lossless\nStream size                              : 855 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 4 499 b/s\nFrame rate                               : 3.658 FPS\nCount of elements                        : 5691\nCompression mode                         : Lossless\nStream size                              : 855 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 54 s\nBit rate                                 : 207 b/s\nFrame rate                               : 0.369 FPS\nCount of elements                        : 574\nCompression mode                         : Lossless\nStream size                              : 39.4 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:43.010                             : en:OP\n00:04:12.980                             : en:Episode\n00:23:54.950                             : en:ED\n00:25:24.910                             : en:Preview",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "22319216227",
+    "media_id": "s193",
+    "media_episode_ids": [
+      "5015",
+      "5016",
+      "5017",
+      "5018",
+      "5019",
+      "5020",
+      "5021",
+      "5022",
+      "5023",
+      "5024",
+      "5025",
+      "5026",
+      "5027",
+      "5028",
+      "5029"
+    ],
+    "anilist_id": 5081,
+    "anilist_ids": [
+      5081
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en,enm",
+    "video_codec": 2,
+    "video_type": 13,
+    "files": [
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 02v3 (BD 1080p) [9326F524].mkv",
+        "name": "[MTBB] Bakemonogatari - 02v3 (BD 1080p) [9326F524].mkv",
+        "length": 2280353951,
+        "offset": 0
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 01v3 (BD 1080p) [2D7FEB9A].mkv",
+        "name": "[MTBB] Bakemonogatari - 01v3 (BD 1080p) [2D7FEB9A].mkv",
+        "length": 1911928165,
+        "offset": 2280353951
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 07v4 (BD 1080p) [10708940].mkv",
+        "name": "[MTBB] Bakemonogatari - 07v4 (BD 1080p) [10708940].mkv",
+        "length": 1772450894,
+        "offset": 4192282116
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 14v4 (BD 1080p) [F417CA64].mkv",
+        "name": "[MTBB] Bakemonogatari - 14v4 (BD 1080p) [F417CA64].mkv",
+        "length": 1693659672,
+        "offset": 5964733010
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 10v4 (BD 1080p) [205835F1].mkv",
+        "name": "[MTBB] Bakemonogatari - 10v4 (BD 1080p) [205835F1].mkv",
+        "length": 1671430242,
+        "offset": 7658392682
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 06v3 (BD 1080p) [486A4273].mkv",
+        "name": "[MTBB] Bakemonogatari - 06v3 (BD 1080p) [486A4273].mkv",
+        "length": 1632545516,
+        "offset": 9329822924
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 15v4 (BD 1080p) [9459C754].mkv",
+        "name": "[MTBB] Bakemonogatari - 15v4 (BD 1080p) [9459C754].mkv",
+        "length": 1560907817,
+        "offset": 10962368440
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 12v4 (BD 1080p) [E292D301].mkv",
+        "name": "[MTBB] Bakemonogatari - 12v4 (BD 1080p) [E292D301].mkv",
+        "length": 1553353962,
+        "offset": 12523276257
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 11v4 (BD 1080p) [5CBE86AF].mkv",
+        "name": "[MTBB] Bakemonogatari - 11v4 (BD 1080p) [5CBE86AF].mkv",
+        "length": 1418874277,
+        "offset": 14076630219
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 08v4 (BD 1080p) [DFA5CC25].mkv",
+        "name": "[MTBB] Bakemonogatari - 08v4 (BD 1080p) [DFA5CC25].mkv",
+        "length": 1316080184,
+        "offset": 15495504496
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 05v3 (BD 1080p) [A3D3C536].mkv",
+        "name": "[MTBB] Bakemonogatari - 05v3 (BD 1080p) [A3D3C536].mkv",
+        "length": 1277101746,
+        "offset": 16811584680
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 09v4 (BD 1080p) [6E3965A7].mkv",
+        "name": "[MTBB] Bakemonogatari - 09v4 (BD 1080p) [6E3965A7].mkv",
+        "length": 1191383099,
+        "offset": 18088686426
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 13v4 (BD 1080p) [BE614119].mkv",
+        "name": "[MTBB] Bakemonogatari - 13v4 (BD 1080p) [BE614119].mkv",
+        "length": 1145306549,
+        "offset": 19280069525
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 03v3 (BD 1080p) [3996C1EB].mkv",
+        "name": "[MTBB] Bakemonogatari - 03v3 (BD 1080p) [3996C1EB].mkv",
+        "length": 951627221,
+        "offset": 20425376074
+      },
+      {
+        "path": "[MTBB] Bakemonogatari (BD 1080p)/[MTBB] Bakemonogatari - 04v3 (BD 1080p) [06E62391].mkv",
+        "name": "[MTBB] Bakemonogatari - 04v3 (BD 1080p) [06E62391].mkv",
+        "length": 942212932,
+        "offset": 21377003295
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:1d12d31b817887f33a20a28b6df168da4e4567aa&dn=%5BMTBB%5D%20Bakemonogatari%20S1%20(BD%201080p)%20%7BTags%3AL4%3BV13%3BC2%3BA%3Dja%3BF%3Den%2Cenm%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "1d12d31b817887f33a20a28b6df168da4e4567aa",
+    "anonymous": false,
+    "uploader": {
+      "id": "7735052581910",
+      "username": "motbob",
+      "display_name": "motbob",
+      "pfp_hash": null
+    },
+    "groups": [
+      {
+        "id": "7364000585776",
+        "name": "mtbb",
+        "display_name": "MTBB",
+        "display_tag": "MTBB",
+        "pfp_hash": "66109b080c8f207074a0e4e4c09620cbfc0ae062a95427c526b08f217fe39a82",
+        "tagline": "",
+        "open": false,
+        "members": [
+          {
+            "id": "7509405973325",
+            "invite": true,
+            "username": "knowsuchpeace",
+            "display_name": "knowsuchpeace",
+            "pfp_hash": null,
+            "role": "Script Preperation",
+            "weight": 1
+          },
+          {
+            "id": "7507561604682",
+            "invite": true,
+            "username": "Unbased",
+            "display_name": "Unbased",
+            "pfp_hash": null,
+            "role": "TL (Previews, OP1), TLC",
+            "weight": 2
+          },
+          {
+            "id": "7735052581910",
+            "invite": false,
+            "username": "motbob",
+            "display_name": "motbob",
+            "pfp_hash": null,
+            "role": "Timing (Dialogue, commentary 1-3), Typesetting, Song Styling (OP1, 5-6), Editing, QC",
+            "weight": 3
+          },
+          {
+            "id": "7507869414477",
+            "invite": true,
+            "username": "kattara",
+            "display_name": "kattara",
+            "pfp_hash": null,
+            "role": "Timing (commentary 4-15)",
+            "weight": 4
+          },
+          {
+            "id": "7509405976398",
+            "invite": true,
+            "username": "Scrad",
+            "display_name": "Scrad",
+            "pfp_hash": null,
+            "role": "Typesetting (4)",
+            "weight": 5
+          },
+          {
+            "id": "7509405977423",
+            "invite": true,
+            "username": "WitchyMary",
+            "display_name": "WitchyMary",
+            "pfp_hash": null,
+            "role": "Typesetting (5-6, 9-10)",
+            "weight": 6
+          },
+          {
+            "id": "7509405978176",
+            "invite": true,
+            "username": "tehshower",
+            "display_name": "tehshower",
+            "pfp_hash": null,
+            "role": "Song Styling (OP4)",
+            "weight": 7
+          },
+          {
+            "id": "7509405978945",
+            "invite": true,
+            "username": "Melancholy",
+            "display_name": "Melancholy",
+            "pfp_hash": null,
+            "role": "QC (01)",
+            "weight": 8
+          }
+        ],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 1776125,
+    "seeders": "1",
+    "leechers": "2",
+    "completed": "215",
+    "activity": "1616",
+    "torrent_health": "29",
+    "upgraded": null,
+    "animetosho": [
+      {
+        "file_id": 1140947,
+        "filename": "[MTBB] Bakemonogatari - 01v3 (BD 1080p) [2D7FEB9A].mkv",
+        "filesize": 1911928165,
+        "subs": [
+          {
+            "id": 1473370,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926297,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447570,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 268707226735557680938380283691134492828 (0xCA272121F3DFE5C2BB5117EB265A209C)\nComplete name                            : [MTBB] Bakemonogatari - 01v3 (BD 1080p) [2D7FEB9A].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.78 GiB\nDuration                                 : 25 min 57 s\nOverall bit rate                         : 9 823 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-06 14:34:19 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : !BASKETOFHAMMERS-BOLD.TTF / Beautiful Every Time.ttf / CACMOOSE.TTF / CooperBlackStd.otf / CORPID-BOLD.OTF / GandhiSans-Bold.otf / GandhiSans-BoldItalic.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / LHFSCRIPTANA-REGULAR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / SCRATCH.TTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 25 min 57 s\nBit rate                                 : 9 547 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.192\nStream size                              : 1.73 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 57 s\nBit rate                                 : 131 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 24.3 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 57 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.1 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 4 499 b/s\nFrame rate                               : 3.658 FPS\nCount of elements                        : 5691\nCompression mode                         : Lossless\nStream size                              : 855 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 4 499 b/s\nFrame rate                               : 3.658 FPS\nCount of elements                        : 5691\nCompression mode                         : Lossless\nStream size                              : 855 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 54 s\nBit rate                                 : 207 b/s\nFrame rate                               : 0.369 FPS\nCount of elements                        : 574\nCompression mode                         : Lossless\nStream size                              : 39.4 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:43.010                             : en:OP\n00:04:12.980                             : en:Episode\n00:23:54.950                             : en:ED\n00:25:24.910                             : en:Preview",
+        "screenshot_id": "001168d3",
+        "screenshot_timings": [
+          7480,
+          387320,
+          757640,
+          1134940,
+          1502430
+        ]
+      },
+      {
+        "file_id": 1140950,
+        "filename": "[MTBB] Bakemonogatari - 02v3 (BD 1080p) [9326F524].mkv",
+        "filesize": 2280353951,
+        "subs": [
+          {
+            "id": 1473313,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926304,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447533,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 105704886542233604485753633112925234628 (0x4F860547BE6D159D5E1B998C5DD565C4)\nComplete name                            : [MTBB] Bakemonogatari - 02v3 (BD 1080p) [9326F524].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 2.12 GiB\nDuration                                 : 25 min 32 s\nOverall bit rate                         : 11.9 Mb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-06 15:02:28 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : arialbd.ttf / ARIALBITMAP50.OTF / ariblk.ttf / CORPID-BOLD.OTF / GandhiSans-Bold.otf / GandhiSans-BoldItalic.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / MAILARTRUBBERSTAMP-REGULAR.OTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF / TIMPANI.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 25 min 32 s\nBit rate                                 : 11.6 Mb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.234\nStream size                              : 2.07 GiB (98%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 32 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 23.3 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 32 s\nBit rate                                 : 118 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.5 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 25 s\nBit rate                                 : 8 440 b/s\nFrame rate                               : 7.232 FPS\nCount of elements                        : 11032\nCompression mode                         : Lossless\nStream size                              : 1.53 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 25 s\nBit rate                                 : 8 440 b/s\nFrame rate                               : 7.232 FPS\nCount of elements                        : 11032\nCompression mode                         : Lossless\nStream size                              : 1.54 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 28 s\nBit rate                                 : 188 b/s\nFrame rate                               : 0.316 FPS\nCount of elements                        : 483\nCompression mode                         : Lossless\nStream size                              : 35.1 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:48.020                             : en:OP\n00:02:17.990                             : en:Episode\n00:23:30.010                             : en:ED\n00:24:59.970                             : en:Preview",
+        "screenshot_id": "001168d6",
+        "screenshot_timings": [
+          13030,
+          379680,
+          741920,
+          1114580,
+          1477570
+        ]
+      },
+      {
+        "file_id": 1140959,
+        "filename": "[MTBB] Bakemonogatari - 03v3 (BD 1080p) [3996C1EB].mkv",
+        "filesize": 951627221,
+        "subs": [
+          {
+            "id": 1473321,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926343,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447541,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 12697048768981546835615378369355655424 (0x98D5CD62B25D2672983BF9595532900)\nComplete name                            : [MTBB] Bakemonogatari - 03v3 (BD 1080p) [3996C1EB].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 908 MiB\nDuration                                 : 25 min 59 s\nOverall bit rate                         : 4 883 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-06 15:30:33 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : ARIAL-BOLDMT-STR.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / QUADRAAT-REGULAR.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF / VOGELBOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 25 min 59 s\nBit rate                                 : 4 612 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.093\nStream size                              : 857 MiB (94%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 59 s\nBit rate                                 : 131 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 24.3 MiB (3%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 59 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.2 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 2 437 b/s\nFrame rate                               : 2.210 FPS\nCount of elements                        : 3437\nCompression mode                         : Lossless\nStream size                              : 463 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 2 437 b/s\nFrame rate                               : 2.210 FPS\nCount of elements                        : 3437\nCompression mode                         : Lossless\nStream size                              : 463 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 55 s\nBit rate                                 : 199 b/s\nFrame rate                               : 0.356 FPS\nCount of elements                        : 553\nCompression mode                         : Lossless\nStream size                              : 37.8 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:18.980                             : en:OP\n00:02:48.980                             : en:Episode\n00:23:54.950                             : en:ED\n00:25:24.910                             : en:Preview",
+        "screenshot_id": "001168df",
+        "screenshot_timings": [
+          14360,
+          388190,
+          752760,
+          1131230,
+          1502430
+        ]
+      },
+      {
+        "file_id": 1140948,
+        "filename": "[MTBB] Bakemonogatari - 04v3 (BD 1080p) [06E62391].mkv",
+        "filesize": 942212932,
+        "subs": [
+          {
+            "id": 1560938,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926299,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447532,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 45873253885663765405799110563737002123 (0x2282DE095EEFE911ECDDEEBA3C22608B)\nComplete name                            : [MTBB] Bakemonogatari - 04v3 (BD 1080p) [06E62391].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 899 MiB\nDuration                                 : 24 min 38 s\nOverall bit rate                         : 5 099 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-06 16:04:02 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AHARONI-BOLD.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IwaMinPro-Md.ttf / IWAOMINPRO-FATE-BD.TTF / IWAOMINPRO-FATE-HV.TTF / Iwata Mincho Old Pro-Fate B_hun.ttf / IWATAMINCHOOLDPRO-FATEBHUN.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / SNICKLES.TTF / TAKE_OUT_THE_GARBAGE.TTF / VOGELBOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 38 s\nBit rate                                 : 4 786 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.096\nStream size                              : 843 MiB (94%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 38 s\nBit rate                                 : 132 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 23.3 MiB (3%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 38 s\nBit rate                                 : 118 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.8 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 34 s\nBit rate                                 : 3 811 b/s\nFrame rate                               : 2.055 FPS\nCount of elements                        : 3030\nCompression mode                         : Lossless\nStream size                              : 686 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 34 s\nBit rate                                 : 3 811 b/s\nFrame rate                               : 2.055 FPS\nCount of elements                        : 3030\nCompression mode                         : Lossless\nStream size                              : 686 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 34 s\nBit rate                                 : 199 b/s\nFrame rate                               : 0.329 FPS\nCount of elements                        : 485\nCompression mode                         : Lossless\nStream size                              : 35.8 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:30.020                             : en:OP\n00:02:00.020                             : en:Episode\n00:22:25.030                             : en:ED\n00:23:54.990                             : en:Preview",
+        "screenshot_id": "001168d4",
+        "screenshot_timings": [
+          10360,
+          367300,
+          722530,
+          1072830,
+          1428270
+        ]
+      },
+      {
+        "file_id": 1140952,
+        "filename": "[MTBB] Bakemonogatari - 05v3 (BD 1080p) [A3D3C536].mkv",
+        "filesize": 1277101746,
+        "subs": [
+          {
+            "id": 1926310,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926312,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447584,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 111461680411213019704554412437950066434 (0x53DABD21B4D0FDC2FF0141940CF26F02)\nComplete name                            : [MTBB] Bakemonogatari - 05v3 (BD 1080p) [A3D3C536].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.19 GiB\nDuration                                 : 26 min 4 s\nOverall bit rate                         : 6 530 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-06 16:58:13 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : ARROWBLACK.OTF / ASAPCONDENSED-REGULAR.TTF / COMPLETEINHIM.TTF / DJBCHALKITUP.TTF / DKCRAYONCRUMBLE.TTF / ERASERDUST.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GARABD.TTF / GENTIUMBASIC.TTF / GRAIN-REGULAR.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF / times.ttf / VOGELBOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 26 min 4 s\nBit rate                                 : 6 240 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.126\nStream size                              : 1.14 GiB (96%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 26 min 4 s\nBit rate                                 : 132 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 24.5 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 26 min 4 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.2 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 59 s\nBit rate                                 : 5 794 b/s\nFrame rate                               : 4.236 FPS\nCount of elements                        : 6606\nCompression mode                         : Lossless\nStream size                              : 1.08 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 59 s\nBit rate                                 : 5 794 b/s\nFrame rate                               : 4.236 FPS\nCount of elements                        : 6606\nCompression mode                         : Lossless\nStream size                              : 1.08 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 26 min 2 s\nBit rate                                 : 202 b/s\nFrame rate                               : 0.330 FPS\nCount of elements                        : 515\nCompression mode                         : Lossless\nStream size                              : 38.7 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:37.010                             : en:OP\n00:02:07.010                             : en:Episode\n00:25:25.000                             : en:Preview",
+        "screenshot_id": "001168d8",
+        "screenshot_timings": [
+          8809,
+          388860,
+          763690,
+          1137230,
+          1513440
+        ]
+      },
+      {
+        "file_id": 1140953,
+        "filename": "[MTBB] Bakemonogatari - 06v3 (BD 1080p) [486A4273].mkv",
+        "filesize": 1632545516,
+        "subs": [
+          {
+            "id": 1473373,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926330,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447560,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 166277345126837033331308800533384227113 (0x7D17DA0FE97C3F98186D1F09E8BD6929)\nComplete name                            : [MTBB] Bakemonogatari - 06v3 (BD 1080p) [486A4273].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.52 GiB\nDuration                                 : 24 min 25 s\nOverall bit rate                         : 8 909 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-07 14:17:22 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : ANA-ONEIROPARMENI82.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / T3.TTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 25 s\nBit rate                                 : 8 627 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.174\nStream size                              : 1.47 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 25 s\nBit rate                                 : 129 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.5 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 25 s\nBit rate                                 : 115 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.1 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 23 s\nBit rate                                 : 9 900 b/s\nFrame rate                               : 5.485 FPS\nCount of elements                        : 8026\nCompression mode                         : Lossless\nStream size                              : 1.73 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 23 s\nBit rate                                 : 9 901 b/s\nFrame rate                               : 5.485 FPS\nCount of elements                        : 8026\nCompression mode                         : Lossless\nStream size                              : 1.73 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 23 s\nBit rate                                 : 208 b/s\nFrame rate                               : 0.353 FPS\nCount of elements                        : 516\nCompression mode                         : Lossless\nStream size                              : 37.2 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:17.000                             : en:OP\n00:03:46.920                             : en:Episode\n00:22:24.940                             : en:ED\n00:23:54.900                             : en:Preview",
+        "screenshot_id": "001168d9",
+        "screenshot_timings": [
+          13820,
+          364710,
+          716480,
+          1064200,
+          1412470
+        ]
+      },
+      {
+        "file_id": 1140949,
+        "filename": "[MTBB] Bakemonogatari - 07v4 (BD 1080p) [10708940].mkv",
+        "filesize": 1772450894,
+        "subs": [
+          {
+            "id": 1926301,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926302,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447577,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 286313273243847471599248879508747391480 (0xD765EE3E86E423FCFC05E1F1A11F11F8)\nComplete name                            : [MTBB] Bakemonogatari - 07v4 (BD 1080p) [10708940].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.65 GiB\nDuration                                 : 24 min 26 s\nOverall bit rate                         : 9 671 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-07 15:31:50 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : ANA-ONEIROPARMENI82.TTF / FRUTIGERLTSTD-ULTRABLACK.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF / TRIADXS.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 26 s\nBit rate                                 : 9 397 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.189\nStream size                              : 1.60 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 26 s\nBit rate                                 : 129 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.5 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 26 s\nBit rate                                 : 115 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.2 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 22 s\nBit rate                                 : 5 956 b/s\nFrame rate                               : 4.934 FPS\nCount of elements                        : 7215\nCompression mode                         : Lossless\nStream size                              : 1.04 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 22 s\nBit rate                                 : 5 956 b/s\nFrame rate                               : 4.934 FPS\nCount of elements                        : 7215\nCompression mode                         : Lossless\nStream size                              : 1.04 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 24 s\nBit rate                                 : 218 b/s\nFrame rate                               : 0.363 FPS\nCount of elements                        : 531\nCompression mode                         : Lossless\nStream size                              : 39.1 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:22.970                             : en:OP\n00:02:52.890                             : en:Episode\n00:22:24.980                             : en:ED\n00:23:54.940                             : en:Preview",
+        "screenshot_id": "001168d5",
+        "screenshot_timings": [
+          12400,
+          355620,
+          713140,
+          1065120,
+          1412470
+        ]
+      },
+      {
+        "file_id": 1140956,
+        "filename": "[MTBB] Bakemonogatari - 08v4 (BD 1080p) [DFA5CC25].mkv",
+        "filesize": 1316080184,
+        "subs": [
+          {
+            "id": 1473355,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926336,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447551,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 340076727525946267337884409936023561573 (0xFFD86531EE755239FB1CFD7DAE06A565)\nComplete name                            : [MTBB] Bakemonogatari - 08v4 (BD 1080p) [DFA5CC25].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.23 GiB\nDuration                                 : 24 min 33 s\nOverall bit rate                         : 7 146 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-07 19:43:41 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : ANA-ONEIROPARMENI82.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 33 s\nBit rate                                 : 6 879 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.138\nStream size                              : 1.18 GiB (96%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 33 s\nBit rate                                 : 131 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 23.0 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 33 s\nBit rate                                 : 116 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.4 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 30 s\nBit rate                                 : 2 216 b/s\nFrame rate                               : 1.981 FPS\nCount of elements                        : 2914\nCompression mode                         : Lossless\nStream size                              : 398 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 30 s\nBit rate                                 : 2 216 b/s\nFrame rate                               : 1.981 FPS\nCount of elements                        : 2914\nCompression mode                         : Lossless\nStream size                              : 398 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 30 s\nBit rate                                 : 222 b/s\nFrame rate                               : 0.373 FPS\nCount of elements                        : 548\nCompression mode                         : Lossless\nStream size                              : 40.0 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:04:51.030                             : en:OP\n00:06:20.950                             : en:Episode\n00:23:54.910                             : en:Preview",
+        "screenshot_id": "001168dc",
+        "screenshot_timings": [
+          13570,
+          364420,
+          719770,
+          1072710,
+          1424850
+        ]
+      },
+      {
+        "file_id": 1140946,
+        "filename": "[MTBB] Bakemonogatari - 09v4 (BD 1080p) [6E3965A7].mkv",
+        "filesize": 1191383099,
+        "subs": [
+          {
+            "id": 1926293,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926294,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1398040,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 4261932677065446931983563038486611369 (0x334D1811D2AC2F019231F1D579EC5A9)\nComplete name                            : [MTBB] Bakemonogatari - 09v4 (BD 1080p) [6E3965A7].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.11 GiB\nDuration                                 : 26 min 9 s\nOverall bit rate                         : 6 074 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-07 20:56:02 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : 123Marker.TTF / asap-condensed-regular.ttf / ASAPCONDENSED-REGULAR.TTF / DISNEYSIMPLE.TTF / DRYBRUSH.TTF / GABRIELA-REGULAR.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HAIRBRUSHTHICK.OTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 26 min 9 s\nBit rate                                 : 5 801 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.117\nStream size                              : 1.06 GiB (96%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 26 min 9 s\nBit rate                                 : 125 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 23.3 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 26 min 9 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.3 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 47 s\nBit rate                                 : 3 809 b/s\nFrame rate                               : 3.368 FPS\nCount of elements                        : 5211\nCompression mode                         : Lossless\nStream size                              : 720 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 47 s\nBit rate                                 : 3 812 b/s\nFrame rate                               : 3.368 FPS\nCount of elements                        : 5211\nCompression mode                         : Lossless\nStream size                              : 720 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 26 min 6 s\nBit rate                                 : 199 b/s\nFrame rate                               : 0.364 FPS\nCount of elements                        : 570\nCompression mode                         : Lossless\nStream size                              : 38.1 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:17.970                             : en:OP\n00:02:47.930                             : en:Episode\n00:23:54.900                             : en:ED\n00:25:24.860                             : en:Preview",
+        "screenshot_id": "001168d2",
+        "screenshot_timings": [
+          14690,
+          390690,
+          768530,
+          1144910,
+          1518150
+        ]
+      },
+      {
+        "file_id": 1140954,
+        "filename": "[MTBB] Bakemonogatari - 10v4 (BD 1080p) [205835F1].mkv",
+        "filesize": 1671430242,
+        "subs": [
+          {
+            "id": 1473301,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926331,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1398038,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 335153313631096009203323264742706128458 (0xFC242E260FC2FF33F2B8D58B2554264A)\nComplete name                            : [MTBB] Bakemonogatari - 10v4 (BD 1080p) [205835F1].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.56 GiB\nDuration                                 : 24 min 35 s\nOverall bit rate                         : 9 063 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-08 15:23:28 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : DISNEYSIMPLE.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIGHWAYGOTHIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 35 s\nBit rate                                 : 8 783 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.177\nStream size                              : 1.51 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 35 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.5 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 35 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.6 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 31 s\nBit rate                                 : 5 773 b/s\nFrame rate                               : 4.137 FPS\nCount of elements                        : 6087\nCompression mode                         : Lossless\nStream size                              : 1.01 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 31 s\nBit rate                                 : 5 774 b/s\nFrame rate                               : 4.137 FPS\nCount of elements                        : 6087\nCompression mode                         : Lossless\nStream size                              : 1.01 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 28 s\nBit rate                                 : 190 b/s\nFrame rate                               : 0.343 FPS\nCount of elements                        : 503\nCompression mode                         : Lossless\nStream size                              : 34.1 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:46.000                             : en:OP\n00:03:15.960                             : en:Episode\n00:22:25.030                             : en:ED\n00:23:54.990                             : en:Preview",
+        "screenshot_id": "001168da",
+        "screenshot_timings": [
+          4430,
+          366880,
+          712850,
+          1071710,
+          1422930
+        ]
+      },
+      {
+        "file_id": 1140951,
+        "filename": "[MTBB] Bakemonogatari - 11v4 (BD 1080p) [5CBE86AF].mkv",
+        "filesize": 1418874277,
+        "subs": [
+          {
+            "id": 1473307,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926311,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447550,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 33858123441521576897067322287833926431 (0x1978D65E83BDD7EDBC1B3E9F1A32CB1F)\nComplete name                            : [MTBB] Bakemonogatari - 11v4 (BD 1080p) [5CBE86AF].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.32 GiB\nDuration                                 : 24 min 30 s\nOverall bit rate                         : 7 721 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-08 16:14:48 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : BULLDOZER.TTF / COOPERBLACKSTD.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / LHFSCRIPTANA-REGULAR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / QUADRAAT-BOLD.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 30 s\nBit rate                                 : 7 441 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.150\nStream size                              : 1.27 GiB (96%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 30 s\nBit rate                                 : 127 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.2 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 30 s\nBit rate                                 : 116 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.4 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 27 s\nBit rate                                 : 8 099 b/s\nFrame rate                               : 6.832 FPS\nCount of elements                        : 10026\nCompression mode                         : Lossless\nStream size                              : 1.42 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 27 s\nBit rate                                 : 8 099 b/s\nFrame rate                               : 6.832 FPS\nCount of elements                        : 10026\nCompression mode                         : Lossless\nStream size                              : 1.42 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 25 s\nBit rate                                 : 191 b/s\nFrame rate                               : 0.345 FPS\nCount of elements                        : 506\nCompression mode                         : Lossless\nStream size                              : 34.2 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:04:09.970                             : en:OP\n00:05:39.980                             : en:Episode\n00:22:24.980                             : en:ED\n00:23:54.940                             : en:Preview",
+        "screenshot_id": "001168d7",
+        "screenshot_timings": [
+          14570,
+          366420,
+          718110,
+          1067910,
+          1412470
+        ]
+      },
+      {
+        "file_id": 1140958,
+        "filename": "[MTBB] Bakemonogatari - 12v4 (BD 1080p) [E292D301].mkv",
+        "filesize": 1553353962,
+        "subs": [
+          {
+            "id": 1473302,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926342,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447523,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 237233201073038835061163569743558855180 (0xB27973DBF387D88B6B965A7F0187CA0C)\nComplete name                            : [MTBB] Bakemonogatari - 12v4 (BD 1080p) [E292D301].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.45 GiB\nDuration                                 : 24 min 27 s\nOverall bit rate                         : 8 470 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-08 16:46:03 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : CORPID-BOLD.OTF / CORPIDCAPS-BLACK.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / RESWYSOKR.OTF / TheSans-5-RegularCaps.otf\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 27 s\nBit rate                                 : 8 200 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.165\nStream size                              : 1.40 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 27 s\nBit rate                                 : 130 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.7 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 27 s\nBit rate                                 : 118 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.7 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 24 s\nBit rate                                 : 3 639 b/s\nFrame rate                               : 3.190 FPS\nCount of elements                        : 4672\nCompression mode                         : Lossless\nStream size                              : 651 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 24 s\nBit rate                                 : 3 640 b/s\nFrame rate                               : 3.190 FPS\nCount of elements                        : 4672\nCompression mode                         : Lossless\nStream size                              : 651 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 23 s\nBit rate                                 : 193 b/s\nFrame rate                               : 0.340 FPS\nCount of elements                        : 498\nCompression mode                         : Lossless\nStream size                              : 34.6 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:19.990                             : en:OP\n00:03:50.000                             : en:Episode\n00:22:10.820                             : en:ED\n00:23:54.990                             : en:Preview",
+        "screenshot_id": "001168de",
+        "screenshot_timings": [
+          13480,
+          365630,
+          706760,
+          1064660,
+          1413680
+        ]
+      },
+      {
+        "file_id": 1140955,
+        "filename": "[MTBB] Bakemonogatari - 13v4 (BD 1080p) [BE614119].mkv",
+        "filesize": 1145306549,
+        "subs": [
+          {
+            "id": 1473362,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926335,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1447561,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 98957664038910425306442182145984918692 (0x4A728D86EAAAA4EF07ABA063149B74A4)\nComplete name                            : [MTBB] Bakemonogatari - 13v4 (BD 1080p) [BE614119].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.07 GiB\nDuration                                 : 26 min 7 s\nOverall bit rate                         : 5 845 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-09 09:19:07 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : ARIAL-BOLDMT-STR.TTF / arial.ttf / ARTIFICESSK.TTF / BKANT.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / QUADRAAT-BOLD.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 26 min 7 s\nBit rate                                 : 5 572 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.112\nStream size                              : 1.02 GiB (95%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 26 min 7 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 23.9 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 26 min 7 s\nBit rate                                 : 118 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.0 MiB (2%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 45 s\nBit rate                                 : 2 079 b/s\nFrame rate                               : 1.768 FPS\nCount of elements                        : 2733\nCompression mode                         : Lossless\nStream size                              : 392 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 45 s\nBit rate                                 : 2 080 b/s\nFrame rate                               : 1.768 FPS\nCount of elements                        : 2733\nCompression mode                         : Lossless\nStream size                              : 392 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 26 min 4 s\nBit rate                                 : 206 b/s\nFrame rate                               : 0.355 FPS\nCount of elements                        : 556\nCompression mode                         : Lossless\nStream size                              : 39.4 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:04:31.000                             : en:OP\n00:06:01.010                             : en:Episode\n00:23:55.030                             : en:ED\n00:25:25.000                             : en:Preview",
+        "screenshot_id": "001168db",
+        "screenshot_timings": [
+          14690,
+          390400,
+          760560,
+          1141950,
+          1518320
+        ]
+      },
+      {
+        "file_id": 1140960,
+        "filename": "[MTBB] Bakemonogatari - 14v4 (BD 1080p) [F417CA64].mkv",
+        "filesize": 1693659672,
+        "subs": [
+          {
+            "id": 1473317,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926346,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1394784,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 56159042881579605013949750224315979241 (0x2A3FD6967668C41FC84B52BCB4E795E9)\nComplete name                            : [MTBB] Bakemonogatari - 14v4 (BD 1080p) [F417CA64].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.58 GiB\nDuration                                 : 24 min 33 s\nOverall bit rate                         : 9 198 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-08 17:22:44 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : BankGothic Md BT.ttf / CarumbaPlain.ttf / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / QUADRAAT-BOLD.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 24 min 33 s\nBit rate                                 : 8 915 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.179\nStream size                              : 1.53 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 33 s\nBit rate                                 : 129 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.7 MiB (1%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 33 s\nBit rate                                 : 117 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.6 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 30 s\nBit rate                                 : 8 192 b/s\nFrame rate                               : 6.889 FPS\nCount of elements                        : 10129\nCompression mode                         : Lossless\nStream size                              : 1.44 MiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 30 s\nBit rate                                 : 8 192 b/s\nFrame rate                               : 6.889 FPS\nCount of elements                        : 10129\nCompression mode                         : Lossless\nStream size                              : 1.44 MiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 30 s\nBit rate                                 : 218 b/s\nFrame rate                               : 0.384 FPS\nCount of elements                        : 565\nCompression mode                         : Lossless\nStream size                              : 39.3 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:03:14.960                             : en:OP\n00:04:45.010                             : en:Episode\n00:22:25.030                             : en:ED\n00:23:54.990                             : en:Preview",
+        "screenshot_id": "001168e0",
+        "screenshot_timings": [
+          12440,
+          363750,
+          716480,
+          1067000,
+          1422930
+        ]
+      },
+      {
+        "file_id": 1140957,
+        "filename": "[MTBB] Bakemonogatari - 15v4 (BD 1080p) [9459C754].mkv",
+        "filesize": 1560907817,
+        "subs": [
+          {
+            "id": 1471785,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1926339,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1394786,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Commentary",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 179020014331412497993378423766106486278 (0x86AE0028EE35954C51376F611CDBB606)\nComplete name                            : [MTBB] Bakemonogatari - 15v4 (BD 1080p) [9459C754].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.45 GiB\nDuration                                 : 25 min 33 s\nOverall bit rate                         : 8 145 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-02-08 17:49:03 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / GENTIUMBASIC.TTF / HIRAV8-W8.TTF / IWAOMINPRO-FATE-BD.TTF / IWATAMINCHOPROM-STR.TTF / MONTARA-GOTHIC.OTF / MONTARA-ITALIC.OTF / QUADRAAT-BOLD.OTF / RESWYSOKR.OTF / TAKE_OUT_THE_GARBAGE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 25 min 26 s\nBit rate                                 : 7 911 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.159\nStream size                              : 1.41 GiB (97%)\nWriting library                          : x265 3.4+13-g57022ba54:[Windows][MSVC 1900][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=1 / numa-pools=24 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=0 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=4 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-hrd / info / hash=0 / no-temporal-layers / no-open-gop / min-keyint=23 / keyint=250 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / hist-scenecut=0 / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / rect / no-amp / max-tu-size=32 / tu-inter-depth=1 / tu-intra-depth=1 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=3 / limit-refs=3 / limit-modes / me=3 / subme=3 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / no-weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=4 / selective-sao=0 / no-early-skip / rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / no-b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=14.0 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.85 / no-cutree / zone-count=0 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=0 / overscan=0 / videoformat=5 / range=0 / colorprim=2 / transfer=2 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=0 / max-luma=1023 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / hist-threshold=0.01 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / no-scenecut-aware-qpconformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 33 s\nBit rate                                 : 130 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 23.8 MiB (2%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 33 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.8 MiB (1%)\nTitle                                    : Commentary\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 10 s\nBit rate                                 : 2 109 b/s\nFrame rate                               : 2.242 FPS\nCount of elements                        : 3386\nCompression mode                         : Lossless\nStream size                              : 389 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 10 s\nBit rate                                 : 2 091 b/s\nFrame rate                               : 2.242 FPS\nCount of elements                        : 3386\nCompression mode                         : Lossless\nStream size                              : 386 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 20 s\nBit rate                                 : 216 b/s\nFrame rate                               : 0.367 FPS\nCount of elements                        : 558\nCompression mode                         : Lossless\nStream size                              : 40.2 KiB (0%)\nTitle                                    : Commentary\nLanguage                                 : English\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:34.000                             : en:OP\n00:04:03.970                             : en:Episode\n00:23:54.990                             : en:ED",
+        "screenshot_id": "001168dd",
+        "screenshot_timings": [
+          12940,
+          375220,
+          749970,
+          1116380,
+          1479950
+        ]
+      }
+    ],
+    "animetosho_fetch_time": "1767547697042",
+    "screenshots": [
+      "https://storage.animetosho.org/sframes/001168d3_7480.webp?s=4",
+      "https://storage.animetosho.org/sframes/001168d3_387320.webp?s=4",
+      "https://storage.animetosho.org/sframes/001168d3_757640.webp?s=4",
+      "https://storage.animetosho.org/sframes/001168d3_1134940.webp?s=4",
+      "https://storage.animetosho.org/sframes/001168d3_1502430.webp?s=4"
+    ],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1707472978000",
+    "batch": true
+  }
+}

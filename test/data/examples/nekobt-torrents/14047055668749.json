@@ -1,0 +1,82 @@
+{
+  "error": false,
+  "data": {
+    "id": "14047055668749",
+    "uploaded_at": 1790560911206,
+    "title": "[ToonsHub] One Piece EP1180 2160p BILI WEB-DL AAC2.0 H.264 (Multi-Subs)",
+    "auto_title": "[ToonsHub] One Piece EP1180 2160p BILI WEB-DL AAC2.0 H.264 (Multi-Subs) {Tags:L0;V9;C1;A=ja;S=en,id,th;}",
+    "description": "**An automated release by ToonsHub | [Discord](https://toonshub.my.id/discord) | [Telegram](https://t.me/thtorrents)**\n\n**Love what we do?** Consider supporting us through donations! Every bit helps. 💙\n- **Wallet addresses and info:** [Click Here](https://toonshub.my.id/donate)\n- For queries, ask @toonshub on Discord.\n\n---\n| [![](https://i.kek.sh/Qi4i43FGy9t.png)](https://i.kek.sh/Qi4i43FGy9t.png) | [![](https://i.kek.sh/Y4Hen4APxkk.png)](https://i.kek.sh/Y4Hen4APxkk.png) | [![](https://i.kek.sh/3IVdEFiUaa4.png)](https://i.kek.sh/3IVdEFiUaa4.png) |\n|---|---|---|",
+    "mediainfo": "General\nUnique ID                                : 283061758077458026510419922917578706717 (0xD4F3B62B5DF0A8E14C90ACCA96CB0F1D)\nComplete name                            : One.Piece.EP1180.Elbaph.in.Despair.Diabolical.Covenant.Domi.Reversi.2160p.BILI.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.24 GiB\nDuration                                 : 23 min 35 s\nOverall bit rate                         : 7 519 kb/s\nFrame rate                               : 23.976 FPS\nWriting application                      : mkvmerge v82.0 ('I'm The President') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.105\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High@L5.1\nFormat settings                          : CABAC / 5 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, Reference frames        : 5 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 35 s\nBit rate                                 : 7 345 kb/s\nWidth                                    : 3 840 pixels\nHeight                                   : 2 160 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (23976/1000) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 8 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.037\nStream size                              : 1.21 GiB (98%)\nTitle                                    : ToonsHub\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 35 s\nBit rate                                 : 171 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 28.9 MiB (2%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText #1\nID                                       : 3\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 22 min 52 s\nBit rate                                 : 38 b/s\nFrame rate                               : 0.181 FPS\nCount of elements                        : 248\nStream size                              : 6.49 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 21 min 39 s\nBit rate                                 : 34 b/s\nFrame rate                               : 0.165 FPS\nCount of elements                        : 214\nStream size                              : 5.48 KiB (0%)\nLanguage                                 : Indonesian\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 5\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 21 min 38 s\nBit rate                                 : 77 b/s\nFrame rate                               : 0.163 FPS\nCount of elements                        : 212\nStream size                              : 12.3 KiB (0%)\nLanguage                                 : Thai\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Prologue\n00:00:09.509                             : en:OP\n00:01:40.266                             : en:Part 1\n00:21:00.000                             : en:ED\n00:22:30.000                             : en:Epilogue",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 0,
+    "mtl": false,
+    "filesize": "1330549822",
+    "media_id": "s1545",
+    "media_episode_ids": [
+      "529267"
+    ],
+    "anilist_id": 21,
+    "anilist_ids": [
+      21
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "en,id,th",
+    "fsub_lang": "",
+    "video_codec": 1,
+    "video_type": 9,
+    "files": [
+      {
+        "path": "One.Piece.EP1180.Elbaph.in.Despair.Diabolical.Covenant.Domi.Reversi.2160p.BILI.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv",
+        "name": "One.Piece.EP1180.Elbaph.in.Despair.Diabolical.Covenant.Domi.Reversi.2160p.BILI.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv",
+        "length": 1330549822,
+        "offset": 0
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:e8659fbfd4646f1eb88bf4e23e41a8eb6f5460e9&dn=%5BToonsHub%5D%20One%20Piece%20EP1180%202160p%20BILI%20WEB-DL%20AAC2.0%20H.264%20(Multi-Subs)%20%7BTags%3AL0%3BV9%3BC1%3BA%3Dja%3BS%3Den%2Cid%2Cth%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https%3A%2F%2Fcdn.toonshub.xyz%2Fzoro%2FFD371EBD_17905609015.mkv",
+    "private_magnet": null,
+    "infohash": "e8659fbfd4646f1eb88bf4e23e41a8eb6f5460e9",
+    "anonymous": false,
+    "uploader": {
+      "id": "7251460167698",
+      "username": "toonshub",
+      "display_name": "toonshub",
+      "pfp_hash": "ee6b47993888c6122740e343637e42afe5a8b1c1fa7866e2a4bc4cce8307615e"
+    },
+    "groups": [
+      {
+        "id": "7251504327481",
+        "name": "toonshub",
+        "display_name": "ToonsHub",
+        "display_tag": "ToonsHub",
+        "pfp_hash": "e97eeac72d439abb51eb3237b0454792d5550991c024b463d9a07b0ae43c351c",
+        "tagline": "(mostly) automated WEB-DLs",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "17",
+    "leechers": "0",
+    "completed": "286",
+    "activity": "84149",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

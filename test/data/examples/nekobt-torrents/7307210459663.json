@@ -1,0 +1,205 @@
+{
+  "error": false,
+  "data": {
+    "id": "7307210459663",
+    "uploaded_at": 1764233390858,
+    "title": "[GJM] One Punch Man S2 - Volume 1 (BD 1080p)",
+    "auto_title": "[GJM] One Punch Man S2 - Volume 1 (BD 1080p) {Tags:L3;V13;C1;A=ja;F=en;}",
+    "description": "One Punch Man S2 - Volume 1 (BD 1080p)\n  \n\\- https://www.goodjobmedia.com/  \n\\- http://www.twitter.com/goodjobmedia  \n\\- [\\#goodjob@irc.rizon.net](irc://irc.rizon.net/goodjob)  \n\\- https://discord.gg/0jeKKhzGn3EBNDI2  \n  \nIf you encounter any playback issues with a GJM release, please make sure you are using the most recent version of MPC and xysubfilter, or mpv.\nIt is highly recommended that you use mpv.\nPlease note that there may be minor rendering differences between MPC/xysubfilter and mpv. \n  \nEnjoy the release!",
+    "mediainfo": "General\nUnique ID                                : 73268186191781014820273031751829086946 (0x371EF07AEE2EB43037021DD4A23CE2E2)\nComplete name                            : [GJM] One Punch Man S2 - 01 (BD 1080p) [266A499A].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.08 GiB\nDuration                                 : 23 min 50 s\nOverall bit rate                         : 6 483 kb/s\nEncoded date                             : UTC 2019-11-13 06:55:38\nWriting application                      : mkvmerge v40.0.0 ('Old Town Road + Pony') 32-bit\nWriting library                          : libebml v1.3.9 + libmatroska v1.5.2\nAttachments                              : FRANCHISE-BOLD.TTF / GANDHISANS-BOLD.OTF / GANDHISANS-BOLDITALIC.OTF / HANDBOYS.OTF / JANEROE-BOLD.TTF / KOMIKAAXIS.TTF / MAKISUPA.TTF / MALVIE.OTF / MASTERBREAKER.TTF / OUTRUNFUTURE-BOLD.TTF / PALADINSLEFTALIC.TTF / PEUNABRUSH-REGULAR.OTF / SPLATCH.TTF / WILLUMP.OTF / XANGDASHINY.TTF / AGILESANS-REGULAR.OTF / AVER-BOLD.TTF / AWESOMESAUCEDEMO-REGULAR.OTF / COCOGOOSECLASSICTRIAL-MEDIUM.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings                          : CABAC / 16 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 50 s\nBit rate                                 : 6 179 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.124\nStream size                              : 1.03 GiB (95%)\nWriting library                          : x264 core 155 r2893 b00bcaf\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x113 / me=umh / subme=10 / psy=1 / psy_rd=0.80:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=24 / lookahead_threads=6 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=3 / weightb=1 / open_gop=0 / weightp=2 / keyint=240 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=48 / rc=crf / mbtree=1 / crf=16.0 / qcomp=0.70 / qpmin=0 / qpmax=81 / qpstep=4 / ip_ratio=1.40 / aq=3:0.90\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 50 s\nBit rate                                 : 265 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nDelay relative to video                  : 120 ms\nStream size                              : 44.2 MiB (4%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 45 s\nBit rate                                 : 29.1 kb/s\nCount of elements                        : 24468\nCompression mode                         : Lossless\nStream size                              : 4.94 MiB (0%)\nTitle                                    : No Honorifics\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Prologue\n00:02:50.045                             : en:Main Episode\n00:22:01.070                             : en:OP\n00:23:31.035                             : en:Epilogue\n00:23:45.049                             : en:Preview",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "2466772652",
+    "media_id": "s843",
+    "media_episode_ids": [
+      "24865",
+      "24866"
+    ],
+    "anilist_id": 97668,
+    "anilist_ids": [
+      97668
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 1,
+    "video_type": 13,
+    "files": [
+      {
+        "path": "[GJM] One Punch Man S2 - Volume 1 (BD 1080p)/[GJM] One Punch Man S2 - 02 (BD 1080p) [3F1F97F0].mkv",
+        "name": "[GJM] One Punch Man S2 - 02 (BD 1080p) [3F1F97F0].mkv",
+        "length": 1307689615,
+        "offset": 0
+      },
+      {
+        "path": "[GJM] One Punch Man S2 - Volume 1 (BD 1080p)/[GJM] One Punch Man S2 - 01 (BD 1080p) [266A499A].mkv",
+        "name": "[GJM] One Punch Man S2 - 01 (BD 1080p) [266A499A].mkv",
+        "length": 1159083037,
+        "offset": 1307689615
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:8d2110674b7250923027e32d24b15e42210c385c&dn=%5BGJM%5D%20One%20Punch%20Man%20S2%20-%20Volume%201%20(BD%201080p)%20%7BTags%3AL3%3BV13%3BC1%3BA%3Dja%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Foscar.reyesleon.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "8d2110674b7250923027e32d24b15e42210c385c",
+    "anonymous": false,
+    "uploader": {
+      "id": "4416373099281",
+      "username": "fyurie",
+      "display_name": "Fyurie",
+      "pfp_hash": "030a96110bc6ca0098eb20fef2a2439ce31bd77e"
+    },
+    "groups": [
+      {
+        "id": "4416382069043",
+        "name": "good job! media",
+        "display_name": "Good Job! Media",
+        "display_tag": "GJM",
+        "pfp_hash": "267a8ad5836cead6d93e769057b4339f8a80fbc2",
+        "tagline": "A job well done.",
+        "open": false,
+        "members": [
+          {
+            "id": "7374247581713",
+            "invite": false,
+            "username": "deltakeishade",
+            "display_name": "deltakeishade",
+            "pfp_hash": "62871643cc192251b9c3cc05b4fb4b9f0e0d78570025e3a50036a01598a6bbbb",
+            "role": "Translation Check",
+            "weight": 1
+          },
+          {
+            "id": "7436723725584",
+            "invite": false,
+            "username": "koolkidsk",
+            "display_name": "KoolKidsK",
+            "pfp_hash": null,
+            "role": "Encoding",
+            "weight": 2
+          },
+          {
+            "id": "4555864820497",
+            "invite": false,
+            "username": "rcombs",
+            "display_name": "rcombs",
+            "pfp_hash": "3f978c8ec3bf8e70e7e5ea9c731f36e107143f5667689b8e12f46f2f113feeec",
+            "role": "Editing",
+            "weight": 3
+          },
+          {
+            "id": "4623831029778",
+            "invite": false,
+            "username": "pikminiman",
+            "display_name": "Pikminiman",
+            "pfp_hash": null,
+            "role": "Timing",
+            "weight": 4
+          },
+          {
+            "id": "4416373099281",
+            "invite": false,
+            "username": "fyurie",
+            "display_name": "Fyurie",
+            "pfp_hash": "030a96110bc6ca0098eb20fef2a2439ce31bd77e",
+            "role": "Song Styling, Quality Control",
+            "weight": 5
+          },
+          {
+            "id": "7311265882696",
+            "invite": true,
+            "username": "\treed",
+            "display_name": "\treed",
+            "pfp_hash": null,
+            "role": "Typesetting",
+            "weight": 6
+          }
+        ],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 1193922,
+    "seeders": "0",
+    "leechers": "0",
+    "completed": "25",
+    "activity": "0",
+    "torrent_health": "0",
+    "upgraded": null,
+    "animetosho": [
+      {
+        "file_id": 664797,
+        "filename": "[GJM] One Punch Man S2 - 01 (BD 1080p) [266A499A].mkv",
+        "filesize": 1159083037,
+        "subs": [
+          {
+            "id": 841574,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "No Honorifics",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 73268186191781014820273031751829086946 (0x371EF07AEE2EB43037021DD4A23CE2E2)\nComplete name                            : [GJM] One Punch Man S2 - 01 (BD 1080p) [266A499A].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.08 GiB\nDuration                                 : 23 min 50 s\nOverall bit rate                         : 6 483 kb/s\nEncoded date                             : UTC 2019-11-13 06:55:38\nWriting application                      : mkvmerge v40.0.0 ('Old Town Road + Pony') 32-bit\nWriting library                          : libebml v1.3.9 + libmatroska v1.5.2\nAttachments                              : FRANCHISE-BOLD.TTF / GANDHISANS-BOLD.OTF / GANDHISANS-BOLDITALIC.OTF / HANDBOYS.OTF / JANEROE-BOLD.TTF / KOMIKAAXIS.TTF / MAKISUPA.TTF / MALVIE.OTF / MASTERBREAKER.TTF / OUTRUNFUTURE-BOLD.TTF / PALADINSLEFTALIC.TTF / PEUNABRUSH-REGULAR.OTF / SPLATCH.TTF / WILLUMP.OTF / XANGDASHINY.TTF / AGILESANS-REGULAR.OTF / AVER-BOLD.TTF / AWESOMESAUCEDEMO-REGULAR.OTF / COCOGOOSECLASSICTRIAL-MEDIUM.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings                          : CABAC / 16 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 50 s\nBit rate                                 : 6 179 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.124\nStream size                              : 1.03 GiB (95%)\nWriting library                          : x264 core 155 r2893 b00bcaf\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x113 / me=umh / subme=10 / psy=1 / psy_rd=0.80:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=24 / lookahead_threads=6 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=3 / weightb=1 / open_gop=0 / weightp=2 / keyint=240 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=48 / rc=crf / mbtree=1 / crf=16.0 / qcomp=0.70 / qpmin=0 / qpmax=81 / qpstep=4 / ip_ratio=1.40 / aq=3:0.90\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 50 s\nBit rate                                 : 265 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nDelay relative to video                  : 120 ms\nStream size                              : 44.2 MiB (4%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 45 s\nBit rate                                 : 29.1 kb/s\nCount of elements                        : 24468\nCompression mode                         : Lossless\nStream size                              : 4.94 MiB (0%)\nTitle                                    : No Honorifics\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Prologue\n00:02:50.045                             : en:Main Episode\n00:22:01.070                             : en:OP\n00:23:31.035                             : en:Epilogue\n00:23:45.049                             : en:Preview",
+        "screenshot_id": "000a24dd",
+        "screenshot_timings": [
+          14060,
+          354280,
+          693820,
+          1034290,
+          1376050
+        ]
+      },
+      {
+        "file_id": 664798,
+        "filename": "[GJM] One Punch Man S2 - 02 (BD 1080p) [3F1F97F0].mkv",
+        "filesize": 1307689615,
+        "subs": [
+          {
+            "id": 841576,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "No Honorifics",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 39715046095865961797353580976651807906 (0x1DE0D6F36CDE22F4E549931BD29EACA2)\nComplete name                            : [GJM] One Punch Man S2 - 02 (BD 1080p) [3F1F97F0].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.22 GiB\nDuration                                 : 23 min 50 s\nOverall bit rate                         : 7 316 kb/s\nEncoded date                             : UTC 2019-11-13 06:56:33\nWriting application                      : mkvmerge v40.0.0 ('Old Town Road + Pony') 32-bit\nWriting library                          : libebml v1.3.9 + libmatroska v1.5.2\nAttachments                              : COMICBOOK.TTF / CRACKEDJOHNNIE.TTF / FRANCHISE-BOLD.TTF / GANDHISANS-BOLD.OTF / GANDHISANS-BOLDITALIC.OTF / JANEROE-BOLD.TTF / MALVIE.OTF / MASTERBREAKER.TTF / PEUNABRUSH-REGULAR.OTF / QUICKSAND-REGULAR.TTF / XANGDASHINY.TTF / ALBATROSS.TTF / AVER-BOLD.TTF / AWESOMESAUCEDEMO-REGULAR.OTF / CITYBURN.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L5.1\nFormat settings                          : CABAC / 16 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, ReFrames                : 16 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 50 s\nBit rate                                 : 7 029 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.141\nStream size                              : 1.17 GiB (96%)\nWriting library                          : x264 core 155 r2893 b00bcaf\nEncoding settings                        : cabac=1 / ref=16 / deblock=1:-2:-2 / analyse=0x3:0x113 / me=umh / subme=10 / psy=1 / psy_rd=0.80:0.00 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-2 / threads=24 / lookahead_threads=6 / sliced_threads=0 / nr=0 / decimate=0 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=16 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=3 / weightb=1 / open_gop=0 / weightp=2 / keyint=240 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc_lookahead=48 / rc=crf / mbtree=1 / crf=16.0 / qcomp=0.70 / qpmin=0 / qpmax=81 / qpstep=4 / ip_ratio=1.40 / aq=3:0.90\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 50 s\nBit rate                                 : 265 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 45.3 MiB (4%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 49 s\nBit rate                                 : 2 140 b/s\nCount of elements                        : 2586\nCompression mode                         : Lossless\nStream size                              : 374 KiB (0%)\nTitle                                    : No Honorifics\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Prologue\n00:03:40.470                             : en:OP\n00:05:09.976                             : en:Main Episode\n00:20:23.013                             : en:ED\n00:21:53.020                             : en:Epilogue\n00:23:45.007                             : en:Preview",
+        "screenshot_id": "000a24de",
+        "screenshot_timings": [
+          10930,
+          355240,
+          697410,
+          1037000,
+          1377130
+        ]
+      }
+    ],
+    "animetosho_fetch_time": "1767633290563",
+    "screenshots": [
+      "https://storage.animetosho.org/sframes/000a24dd_14060.webp?s=3",
+      "https://storage.animetosho.org/sframes/000a24dd_354280.webp?s=3",
+      "https://storage.animetosho.org/sframes/000a24dd_693820.webp?s=3",
+      "https://storage.animetosho.org/sframes/000a24dd_1034290.webp?s=3",
+      "https://storage.animetosho.org/sframes/000a24dd_1376050.webp?s=3"
+    ],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1573632371000",
+    "batch": false
+  }
+}

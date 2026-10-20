@@ -2,6 +2,7 @@
   "nekobt": {
     "external": true, "multi_site": false, "url": "https://nekobt.to/api/v1",
     "apis": {
+      "resolve":  { "endpoint": "GET /media/resolve", "key": "provider-prefixed external ref (imdb-tt6455986, mal-64012)" },
       "media":    { "endpoint": "GET /media/<id>", "key": "media id (s172, m145); params carry force=true", "defaults": { "force": "true" } },
       "search":   { "endpoint": "GET /torrents/search", "key": "<mediaId>-<ep1>[_<ep2>][_+N][~q8]", "defaults": { "limit": "20" } },
       "torrents": { "endpoint": "GET /torrents/<id>", "key": "torrent id (14064189768715)" }

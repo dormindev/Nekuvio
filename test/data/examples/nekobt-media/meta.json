@@ -1,0 +1,134 @@
+{
+  "records": [
+    {
+      "id": "s1545",
+      "params": {
+        "path": {
+          "id": "s1545"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-kitsu_12_1180"
+    },
+    {
+      "id": "m1064",
+      "params": {
+        "path": {
+          "id": "m1064"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream movie-mal_64012"
+    },
+    {
+      "id": "s1008",
+      "params": {
+        "path": {
+          "id": "s1008"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream movie-tt38652027"
+    },
+    {
+      "id": "s1453",
+      "params": {
+        "path": {
+          "id": "s1453"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-kitsu_11794_1; media input for self-stream series-tt6455986_0_1"
+    },
+    {
+      "id": "s2999",
+      "params": {
+        "path": {
+          "id": "s2999"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-tt0434665_0_99; media input for self-stream series-tt0434665_0_6"
+    },
+    {
+      "id": "s554",
+      "params": {
+        "path": {
+          "id": "s554"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-tt5607616_0_1"
+    },
+    {
+      "id": "s11629",
+      "params": {
+        "path": {
+          "id": "s11629"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-tt12728856_0_4"
+    },
+    {
+      "id": "s843",
+      "params": {
+        "path": {
+          "id": "s843"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-kitsu_12566_1"
+    },
+    {
+      "id": "m1199",
+      "params": {
+        "path": {
+          "id": "m1199"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream movie-tt12415546"
+    },
+    {
+      "id": "s193",
+      "params": {
+        "path": {
+          "id": "s193"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-kitsu_3919_1"
+    }
+  ]
+}

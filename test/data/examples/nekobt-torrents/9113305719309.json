@@ -1,0 +1,257 @@
+{
+  "error": false,
+  "data": {
+    "id": "9113305719309",
+    "uploaded_at": 1771288450466,
+    "title": "[matheousse] Re: ZERO, Starting Life in Another World S00E01-E25 VOSTFR (BD 1080p AAC) (Re:Petit + Re:Zero Break Time / Kyuukei Jikan / Shorts)",
+    "auto_title": "[matheousse] Re: ZERO, Starting Life in Another World S00E01-E25 VOSTFR (BD 1080p AAC) (Re:Petit + Re:Zero Break Time / Kyuukei Jikan / Shorts) {Tags:L0;V13;C2;A=ja;S=fr-fr;}",
+    "description": "## Prochaine sortie :\n#### - Yahari Ore no Seishun Lovecome wa Machigatte Iru. S1 + S2 v3\n******\n#### **Je ne recommande qu'un seul lecteur, [mpv](https://sourceforge.net/projects/mpv-player-windows/files/stable/).**\n****\nSynopsis :\n\n> Courts épisodes humoristiques dans lesquels les personnages de *Re:Zero kara Hajimeru* sont représentés sous forme de chibi. Les épisodes sont diffusés après la série principale et ensuite mis à disposition sur la chaîne youtube de [KADOKAWAanime](https://www.youtube.com/channel/UCY5fcqgSrQItPAX_Z5Frmwg) pendant un temps limité.\n\n| Vidéo | Audio | Subs |\n| :------: | :------: | :-----: |\n| BDRip x265 10bits ([VCB](https://nyaa.si/view/949900)) | qAAC TVBR127 | Crunchyroll |\n\n![img](https://img1.ak.crunchyroll.com/i/spire1/712391b204434bd926acb402615254801469752554_full.jpg)",
+    "mediainfo": "",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 0,
+    "mtl": false,
+    "filesize": "521313486",
+    "media_id": "s554",
+    "media_episode_ids": [
+      "14314",
+      "14315",
+      "14316",
+      "14317",
+      "14318",
+      "14319",
+      "14320",
+      "14321",
+      "14322",
+      "14323",
+      "14324",
+      "14325",
+      "14326",
+      "14327",
+      "14328",
+      "14329",
+      "14330",
+      "14331",
+      "14332",
+      "14333",
+      "14334",
+      "14335",
+      "14336",
+      "14337",
+      "14338"
+    ],
+    "anilist_id": null,
+    "anilist_ids": [
+      21780,
+      21891
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "fr-fr",
+    "fsub_lang": "",
+    "video_codec": 2,
+    "video_type": 13,
+    "files": [
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 01 VOSTFR [BD 1080p AAC] [1855BC60].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 01 VOSTFR [BD 1080p AAC] [1855BC60].mkv",
+        "length": 17814798,
+        "offset": 0
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 02 VOSTFR [BD 1080p AAC] [6411EBA7].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 02 VOSTFR [BD 1080p AAC] [6411EBA7].mkv",
+        "length": 26291677,
+        "offset": 17814798
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 03 VOSTFR [BD 1080p AAC] [42B82340].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 03 VOSTFR [BD 1080p AAC] [42B82340].mkv",
+        "length": 16666010,
+        "offset": 44106475
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 04 VOSTFR [BD 1080p AAC] [35CC2959].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 04 VOSTFR [BD 1080p AAC] [35CC2959].mkv",
+        "length": 20460068,
+        "offset": 60772485
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 05 VOSTFR [BD 1080p AAC] [AE606C75].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 05 VOSTFR [BD 1080p AAC] [AE606C75].mkv",
+        "length": 22870277,
+        "offset": 81232553
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 06 VOSTFR [BD 1080p AAC] [0466D4A5].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 06 VOSTFR [BD 1080p AAC] [0466D4A5].mkv",
+        "length": 17526950,
+        "offset": 104102830
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 07 VOSTFR [BD 1080p AAC] [0876A8E3].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 07 VOSTFR [BD 1080p AAC] [0876A8E3].mkv",
+        "length": 23487809,
+        "offset": 121629780
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 08 VOSTFR [BD 1080p AAC] [5A4FE90E].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 08 VOSTFR [BD 1080p AAC] [5A4FE90E].mkv",
+        "length": 20271789,
+        "offset": 145117589
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 09 VOSTFR [BD 1080p AAC] [85F77318].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 09 VOSTFR [BD 1080p AAC] [85F77318].mkv",
+        "length": 34322752,
+        "offset": 165389378
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 10 VOSTFR [BD 1080p AAC] [4602CF99].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 10 VOSTFR [BD 1080p AAC] [4602CF99].mkv",
+        "length": 37959249,
+        "offset": 199712130
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 11 VOSTFR [BD 1080p AAC] [CF458084].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 11 VOSTFR [BD 1080p AAC] [CF458084].mkv",
+        "length": 17374085,
+        "offset": 237671379
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 12 VOSTFR [BD 1080p AAC] [3E47B14E].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 12 VOSTFR [BD 1080p AAC] [3E47B14E].mkv",
+        "length": 18003048,
+        "offset": 255045464
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 13 VOSTFR [BD 1080p AAC] [16EF9E40].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 13 VOSTFR [BD 1080p AAC] [16EF9E40].mkv",
+        "length": 18594589,
+        "offset": 273048512
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Petit kara Hajimeru Isekai Seikatsu/[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 14 VOSTFR [BD 1080p AAC] [4348135E].mkv",
+        "name": "[matheousse] Re.Petit kara Hajimeru Isekai Seikatsu - 14 VOSTFR [BD 1080p AAC] [4348135E].mkv",
+        "length": 19180439,
+        "offset": 291643101
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero Shorts Subs + fonts.7z",
+        "name": "Re.Zero Shorts Subs + fonts.7z",
+        "length": 1658463,
+        "offset": 310823540
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 01 VOSTFR [BD 1080p AAC] [1795CF56].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 01 VOSTFR [BD 1080p AAC] [1795CF56].mkv",
+        "length": 16968406,
+        "offset": 312482003
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 02 VOSTFR [BD 1080p AAC] [15D40BCE].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 02 VOSTFR [BD 1080p AAC] [15D40BCE].mkv",
+        "length": 16936488,
+        "offset": 329450409
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 03 VOSTFR [BD 1080p AAC] [A7E73E7A].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 03 VOSTFR [BD 1080p AAC] [A7E73E7A].mkv",
+        "length": 21566505,
+        "offset": 346386897
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 04 VOSTFR [BD 1080p AAC] [6B245521].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 04 VOSTFR [BD 1080p AAC] [6B245521].mkv",
+        "length": 13982706,
+        "offset": 367953402
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 05 VOSTFR [BD 1080p AAC] [EEFA5362].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 05 VOSTFR [BD 1080p AAC] [EEFA5362].mkv",
+        "length": 40442439,
+        "offset": 381936108
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 06 VOSTFR [BD 1080p AAC] [E4425439].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 06 VOSTFR [BD 1080p AAC] [E4425439].mkv",
+        "length": 15631183,
+        "offset": 422378547
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 07 VOSTFR [BD 1080p AAC] [65DCDCF2].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 07 VOSTFR [BD 1080p AAC] [65DCDCF2].mkv",
+        "length": 15610961,
+        "offset": 438009730
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 08 VOSTFR [BD 1080p AAC] [85989DD9].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 08 VOSTFR [BD 1080p AAC] [85989DD9].mkv",
+        "length": 14209935,
+        "offset": 453620691
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 09 VOSTFR [BD 1080p AAC] [789D5F23].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 09 VOSTFR [BD 1080p AAC] [789D5F23].mkv",
+        "length": 15116392,
+        "offset": 467830626
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 10 VOSTFR [BD 1080p AAC] [5C9D15B4].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 10 VOSTFR [BD 1080p AAC] [5C9D15B4].mkv",
+        "length": 20815220,
+        "offset": 482947018
+      },
+      {
+        "path": "Re.Zero Shorts VOSTFR (BD 1080p)/Re.Zero kara Hajimeru Kyuukei Jikan/[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 11 VOSTFR [BD 1080p AAC] [91F387AB].mkv",
+        "name": "[matheousse] Re.Zero kara Hajimeru Kyuukei Jikan - 11 VOSTFR [BD 1080p AAC] [91F387AB].mkv",
+        "length": 17551248,
+        "offset": 503762238
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:90e7d7a11743fe0a8a970430e180038ed6f8c5c2&dn=%5Bmatheousse%5D%20Re%3A%20ZERO%2C%20Starting%20Life%20in%20Another%20World%20S00E01-E25%20VOSTFR%20(BD%201080p%20AAC)%20(Re%3APetit%20%2B%20Re%3AZero%20Break%20Time%20%2F%20Kyuukei%20Jikan%20%2F%20Shorts)%20%7BTags%3AL0%3BV13%3BC2%3BA%3Dja%3BS%3Dfrfr%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "90e7d7a11743fe0a8a970430e180038ed6f8c5c2",
+    "anonymous": false,
+    "uploader": {
+      "id": "7885498788120",
+      "username": "sayrix",
+      "display_name": "Sayrix",
+      "pfp_hash": "61c4dc9dbc4168372719ce10217fb2553c0ab5878a35c727d4f50d58a4a1d786"
+    },
+    "groups": [
+      {
+        "id": "9022175364922",
+        "name": "matheousse",
+        "display_name": "matheousse",
+        "display_tag": "matheousse",
+        "pfp_hash": "dfa81bf7a53994991c34e641da9e7384417781dca286ce2452219d352b7c1186",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 1279601,
+    "seeders": "1",
+    "leechers": "0",
+    "completed": "29",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": "not_found",
+    "animetosho_fetch_time": "1771666401420",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1599902829000",
+    "batch": false
+  }
+}

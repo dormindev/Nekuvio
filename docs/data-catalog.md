@@ -5,10 +5,10 @@
 
 ```mermaid
 flowchart TB
-    REG[test/data/meta.json\nroot registry] --> FIX[fixtures/\nimmutable]
-    REG --> EX[examples/\nrefreshable]
-    REG --> UNS[unsupported/\nquarantined]
-    REG --> SYN[synthetic/\nassumed]
+    REG[test/data/meta.json<br>root registry] --> FIX[fixtures/<br>immutable]
+    REG --> EX[examples/<br>refreshable]
+    REG --> UNS[unsupported/<br>quarantined]
+    REG --> SYN[synthetic/<br>assumed]
     FIX & EX & UNS --> REAL[real data]
     SYN --> UNG[verdict: ungrounded]
 ```
@@ -16,9 +16,10 @@ flowchart TB
 ## How to read this catalog
 
 - **One section per endpoint**, matching a `test/data/<folder>/` path (`<service>-<api>`).
-- Each entry: `endpoint`, `ids observed`, `params` (exact values), `last verified`, `location` (file under `test/data/`), `edge` (what distinguishes it), `grounds` (code path it justifies), `motivated change`.
+- Each entry: `endpoint`, `ids observed`, `params` (exact values), `fetched` (capture date), `location` (file under `test/data/`), `edge` (what distinguishes it), `grounds` (code path it justifies), `motivated change`.
 - **Standing = folder:** `fixtures/`+`examples/` real · `unsupported/` known-broken · `synthetic/` assumed-unverified. No status field.
-- **`fetched: null`** = captured at catalog time / not refreshable (fixtures, self-stream snapshots).
+- **`fetched: null`** = not refreshable (self-stream behavior snapshots). Fixtures carry a real `fetched` date — the day they were captured — and are immutable thereafter.
+- **Raw storage:** every payload is stored exactly as the endpoint answered it (NekoBT: `{ error, data }`; Kitsu: `{ data, meta, links }`). No folder flattens the envelope — `fixtures/`, `examples/` and `synthetic/` are shape-identical for a given endpoint.
 - Every payload has a matching `meta.json` record.
 
 ## Endpoint inventory & coverage
@@ -269,7 +270,7 @@ The temporary root-level probe scripts (`.replay-tmp.ts`, `.capture-*.ts`, `.pro
 
 ## Catalog maintenance
 
-- **Freshness:** every example entry carries `last verified` + exact `params` so drift is detected by re-running (`npm run test:examples:refresh` in step 05), not guessing.
+- **Freshness:** every example entry carries a `fetched` date + exact `params`, so drift is detected by re-running (`npm run test:examples:refresh`), not guessing. The staleness warning (`test/setup/staleness.ts`) fires when the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14).
 - **Registry sync:** every endpoint folder's `meta.json` records must declare `endpoint`/`key`/`defaults` in `test/data/meta.json` (step 03 §4), cross-checked against the live API.
 - **Path-reference sweep:** `grep -rn 'test/fixtures\|test/examples' docs/ AGENTS.md CONTRIBUTING.md test/README.md` must return nothing except historical ADR mentions.
 - **Ungrounded assumptions** are materialized under `test/data/synthetic/<endpoint>/` (record + payload with `verdict: ungrounded`), never under real folders. Scope is external-response shapes only (the §2 guard-mining verdicts) — internal pipeline scaffolding (`matcher`/`streamBuilder` inputs, parser vectors, format scalars) stays inline in the tests until step-06 factories replace it.

@@ -29,9 +29,17 @@ Root registry: `test/data/meta.json`. Each endpoint folder pairs `<id>.json` pay
 - `unsupported/` — known-broken cases (quarantined)
 - `synthetic/` — assumed, ungrounded shapes (migrated from hand-written test mocks; `verdict: ungrounded`)
 
+**Every payload is stored raw** — exactly what the endpoint returned. NekoBT answers `{ error, data }`, Kitsu answers `{ data, meta, links }`. No folder flattens the envelope, so the same endpoint has the same shape in `fixtures/`, `examples/` and `synthetic/`.
+
+| Loader | Returns | Use for |
+| :--- | :--- | :--- |
+| `loadFixture(endpoint, id)` | the raw body | mocking a `fetch` response |
+| `loadFixtureData(endpoint, id)` | the unwrapped payload | feeding the application code |
+| `loadSynthetic(endpoint, id)` | the raw body | mocking an assumed response |
+
 ```text
 test/
-├── helpers/test-data.ts         # loadFixture (fixtures/) + loadSynthetic (synthetic/)
+├── helpers/test-data.ts         # loadFixture / loadFixtureData / loadSynthetic
 ├── data/
 │   ├── meta.json                # root registry: endpoint/key/defaults per service
 │   ├── fixtures/                # REAL — immutable justification evidence
@@ -63,7 +71,7 @@ test/
 └── streamBuilder.test.ts        # UNIT — stream object construction
 ```
 
-The catalog is the evidence base (ids, params, edges, grounds); this tree is the orientation map. To re-fetch: `params` from the folder's `meta.json` + endpoint (URL, defaults) from the root registry — refresh tooling arrives in step 05.
+The catalog is the evidence base (ids, params, edges, grounds); this tree is the orientation map. To re-fetch: `params` from the folder's `meta.json` + endpoint (URL, defaults) from the root registry; each record carries the `fetched` date of its capture. Refresh tooling: `npm run test:examples:refresh [-- --dry-run]` / `npm run test:fixtures:compare`.
 
 ---
 
@@ -92,3 +100,14 @@ The catalog is the evidence base (ids, params, edges, grounds); this tree is the
 npm test              # watch/interactive (Vitest)
 npm run test:coverage # single pass + V8 coverage → coverage/coverage-summary.json
 ```
+
+The suite runs committed `test/data/` files only. The `npm run test:*` scripts keep that data honest:
+
+```bash
+npm run test:examples:refresh [-- --dry-run]  # re-fetch example payloads + fetched-dates
+npm run test:fixtures:compare                 # always-live fixture comparison, never writes
+```
+
+- `test:examples:refresh` skips `self-stream/` (behavior snapshots) and `tracker-scrape/` (UDP announce — not HTTP-fetchable).
+- `test:fixtures:compare` always fetches live and reports shape diffs for human triage — it never overwrites fixtures.
+- A staleness warning (`test/setup/staleness.ts`, wired via vitest `globalSetup` so it prints once per run) fires at startup if the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14). Warning-only — never fails the suite. Covered by `test/setup/staleness.test.ts`.

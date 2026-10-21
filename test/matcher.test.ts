@@ -12,7 +12,7 @@ import type {
   NuvioParsedRequest
 } from '../src/types.js';
 
-import { loadFixture } from './helpers/test-data.js';
+import { loadFixtureData } from './helpers/test-data.js';
 
 
 describe('fitInfo', () => {
@@ -177,7 +177,7 @@ describe('fitInfo', () => {
   });
 
   it('resolves real fixture s172 (Slime S4) accurately', () => {
-    const realMedia = loadFixture<NekoMediaData>('nekobt-media', 's172');
+    const realMedia = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
     const request: NuvioParsedRequest = {
       provider: 'imdb',
       externalId: 'tt123',

@@ -141,7 +141,11 @@ This is useful for development and CI checks where compilation output is not req
 ```bash
 npm test              # watch/interactive (Vitest)
 npm run test:coverage # single pass + V8 coverage → coverage/coverage-summary.json
+npm run test:examples:refresh [-- --dry-run]   # re-fetch example payloads + fetched-dates
+npm run test:fixtures:compare                  # always-live fixture comparison vs registry
 ```
+
+The suite runs committed `test/data/` files only. The `npm run test:*` scripts keep that data honest: `test:examples:refresh` re-fetches live example payloads (skips `self-stream` snapshots and `tracker-scrape`, which speaks UDP), `test:fixtures:compare` always fetches live and reports shape diffs for human triage without overwriting fixtures. A staleness warning (`test/setup/staleness.ts`, wired via vitest `globalSetup` so it prints once per run) fires at startup if the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14).
 
 Layout, layers (UNIT vs INTEGRATION), and case studies: [`test/README.md`](../test/README.md). Evidence base: [`data-catalog.md`](data-catalog.md).
 

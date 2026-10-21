@@ -12,9 +12,9 @@ import {
   searchTorrents
 } from '../src/api/nekobt.js';
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
-import type { NekoTorrentItem } from '../src/types.js';
+import type { NekoMediaData, NekoTorrentItem } from '../src/types.js';
 
-import { loadFixture, loadSynthetic } from './helpers/test-data.js';
+import { loadFixture, loadFixtureData, loadSynthetic } from './helpers/test-data.js';
 
 
 vi.mock('node-fetch', () => {
@@ -163,12 +163,13 @@ describe('api/nekobt', () => {
   });
 
   it('getMedia retrieves media details using nekobt-media/s172 fixture', async () => {
-    const realMedia = loadFixture('nekobt-media', 's172');
+    const rawBody = loadFixture('nekobt-media', 's172');
+    const realMedia = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({ data: realMedia })
+      json: async () => rawBody
     } as unknown as Response);
 
     const result = await getMedia('s172');
@@ -186,7 +187,7 @@ describe('api/nekobt', () => {
   });
 
   it('searchTorrents returns torrent list matching episode', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -210,12 +211,13 @@ describe('api/nekobt', () => {
   });
 
   it('getTorrent returns torrent info by ID', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const rawBody = loadFixture('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({ data: realTorrent })
+      json: async () => rawBody
     } as unknown as Response);
 
     const result = await getTorrent('14064189768715');
@@ -331,7 +333,7 @@ describe('api/nekobt', () => {
   });
 
   it('searchTorrents omits the episode filter when episodeId is null', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -372,7 +374,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('scrapeTorrents collects scrape stats and builds swarms', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((opts: any, cb: any) => {
       const infoHash = realTorrent.infohash.toLowerCase();
@@ -395,7 +397,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('handles tracker error gracefully and defaults seeders and leechers', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((opts: any, cb: any) => {
       cb(new Error('Connection refused'), null);
@@ -410,7 +412,7 @@ describe('api/tracker-scrapper', () => {
 
   it('times out and defaults stats when a tracker never responds', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const destroy = vi.fn();
 
     mockedTracker.scrape.mockImplementation(() => ({ destroy }) as any);
@@ -427,7 +429,7 @@ describe('api/tracker-scrapper', () => {
 
   it('ignores a tracker callback that arrives after the timeout', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     let capturedCb: ((error: any, data: any) => void) | undefined;
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
@@ -448,7 +450,7 @@ describe('api/tracker-scrapper', () => {
 
   it('safely ignores a timeout that fires after the scrape already settled', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     // Simulate the defensive case where the timeout is not cleared in time, so it
     // can fire after the scrape callback has already settled the request.
     const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout').mockImplementation(() => {});
@@ -474,7 +476,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('handles a single ScrapeResult response', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
       cb(null, {
@@ -492,7 +494,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('groups multiple torrents under their shared trackers', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const otherTorrent = { ...torrent, infohash: 'b'.repeat(40) };
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
@@ -507,7 +509,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('normalizes hex-of-hex infohash keys returned by trackers', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const infohash = 'abcdef0123456789abcdef0123456789abcdef01';
     const hexOfHex = Buffer.from(infohash).toString('hex');
     const shapedTorrent = { ...torrent, infohash };

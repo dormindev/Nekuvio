@@ -63,6 +63,29 @@ It generates GitHub-related build metadata before TypeScript compilation.
 
 The script is intentionally executed during the build rather than by the running application.
 
+## `test/scripts/`
+
+One-off data-maintenance tools — not part of the application build:
+
+```text
+test/scripts/refresh-examples.ts       # re-fetch example payloads + fetched-dates
+test/scripts/compare-fixtures.ts       # always-live fixture comparison vs registry
+```
+
+These run via `npm run test:*` wrappers and are the maintenance path for the evidence base under `test/data/`.
+
+## `test/setup/`
+
+Vitest `globalSetup` + its tests — currently:
+
+```text
+test/setup/staleness.ts          # pure check: oldest example fetched-date vs threshold
+test/setup/staleness.global.ts   # globalSetup entry — prints the warning once per run
+test/setup/staleness.test.ts     # staleness warning path coverage
+```
+
+The staleness check is warning-only (never a failure) and is covered by its own test.
+
 ## `submodules/`
 
 Contains external repositories consumed by Nekuvio as Git submodules.
@@ -133,7 +156,16 @@ test/
 │   ├── examples/          # REAL — refreshable observed responses
 │   ├── unsupported/       # REAL — quarantine (excluded from vitest collection)
 │   └── synthetic/         # ASSUMED shapes — never passed off as real
-├── helpers/               # shared test utilities (test-data.ts: loadFixture/loadSynthetic)
+├── helpers/               # shared test utilities
+│   ├── test-data.ts       # loadFixture / loadFixtureData / loadSynthetic
+│   └── data-catalog.ts    # registry parsing + endpoint spec resolution
+├── scripts/               # data-maintenance tools (tsx-run, not in suite)
+│   ├── refresh-examples.ts
+│   └── compare-fixtures.ts
+├── setup/                 # vitest globalSetup + tests
+│   ├── staleness.ts       # oldest example fetched-date vs STALENESS_DAYS
+│   ├── staleness.global.ts # globalSetup entry (prints warning once per run)
+│   └── staleness.test.ts  # staleness warning path coverage
 ├── perf/                  # benchmarks
 └── *.test.ts
 ```

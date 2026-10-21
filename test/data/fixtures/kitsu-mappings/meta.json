@@ -2,8 +2,12 @@
   "records": [
     {
       "id": "49235",
-      "params": { "path": { "id": "49235" } },
-      "fetched": null,
+      "params": {
+        "path": {
+          "id": "49235"
+        }
+      },
+      "fetched": "2026-10-19",
       "grounds": "kitsu 49235 → mal 59970 mapping (README fixture table)"
     }
   ]

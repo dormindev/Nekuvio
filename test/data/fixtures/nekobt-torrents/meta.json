@@ -2,8 +2,12 @@
   "records": [
     {
       "id": "14064189768715",
-      "params": { "path": { "id": "14064189768715" } },
-      "fetched": null,
+      "params": {
+        "path": {
+          "id": "14064189768715"
+        }
+      },
+      "fetched": "2026-10-19",
       "grounds": "multi-group releases + uploading_group guarantee (README §2)"
     }
   ]

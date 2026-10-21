@@ -11,7 +11,7 @@ import type {
   NuvioParsedRequest
 } from '../src/types.js';
 
-import { loadFixture } from './helpers/test-data.js';
+import { loadFixtureData } from './helpers/test-data.js';
 
 
 describe('torrentToStream', () => {
@@ -127,7 +127,7 @@ describe('torrentToStream', () => {
   });
 
   it('builds stream from real fixture nekobt-torrents/14064189768715', () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     const realEpisodeInfo: FitInfoResult = {
       media_id: 's172',

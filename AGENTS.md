@@ -26,24 +26,24 @@ new abstractions. Do not make unrelated changes.
 
 ```mermaid
 flowchart TB
-    REQ[Nuvio request\ntype + id] --> PARSE[utils/parser.ts\nparseNuvioId]
+    REQ[Nuvio request<br>type + id] --> PARSE[utils/parser.ts<br>parseNuvioId]
     PARSE --> KITSU{kitsu provider?}
-    KITSU -- yes --> EXT[api/kitsu.ts\nresolveKitsuToExternal\nMAL / AniList]
-    KITSU -- no --> DIR[provider-externalId\npassthrough]
+    KITSU -- yes --> EXT[api/kitsu.ts<br>resolveKitsuToExternal<br>MAL / AniList]
+    KITSU -- no --> DIR[provider-externalId<br>passthrough]
     EXT --> RESOLVE
-    DIR --> RESOLVE[api/nekobt.ts\nresolveMediaId]
+    DIR --> RESOLVE[api/nekobt.ts<br>resolveMediaId]
     RESOLVE -- null --> EMPTY([empty streams])
-    RESOLVE -- media_id --> MEDIA[api/nekobt.ts\ngetMedia\nthrows on error]
-    MEDIA --> FIT[pipeline/matcher.ts\nfitInfo]
-    FIT --> SEARCH[api/nekobt.ts\nsearchTorrents\nlimit 20, episode_ids?]
-    SEARCH --> FAN{per torrent\nin parallel}
-    FAN --> SCRAPE[api/tracker-scrapper.ts\nscrapeTorrents]
-    FAN --> DETAIL[api/nekobt.ts\ngetTorrent\nnull dropped]
-    SCRAPE & DETAIL --> PAIR[pair swarm + details\nby index]
-    PAIR --> FILE{pipeline/matcher.ts\nmovie?}
+    RESOLVE -- media_id --> MEDIA[api/nekobt.ts<br>getMedia<br>throws on error]
+    MEDIA --> FIT[pipeline/matcher.ts<br>fitInfo]
+    FIT --> SEARCH[api/nekobt.ts<br>searchTorrents<br>limit 20, episode_ids?]
+    SEARCH --> FAN{per torrent<br>in parallel}
+    FAN --> SCRAPE[api/tracker-scrapper.ts<br>scrapeTorrents]
+    FAN --> DETAIL[api/nekobt.ts<br>getTorrent<br>null dropped]
+    SCRAPE & DETAIL --> PAIR[pair swarm + details<br>by index]
+    PAIR --> FILE{pipeline/matcher.ts<br>movie?}
     FILE -- yes --> MOV[findMovieFile]
-    FILE -- no --> EPI[findEpisodeFile\n6 strategies]
-    MOV & EPI --> STREAM[pipeline/streamBuilder.ts\ntorrentToStream\nnull filtered]
+    FILE -- no --> EPI[findEpisodeFile<br>6 strategies]
+    MOV & EPI --> STREAM[pipeline/streamBuilder.ts<br>torrentToStream<br>null filtered]
     STREAM --> RESP([streams])
 ```
 
@@ -67,6 +67,7 @@ flowchart TB
 | :--- | :--- | :--- |
 | `PORT` | `7000` | Port for the HTTP server |
 | `LOG_LEVEL` | `info` | Logging verbosity (`debug`, `info`, `warn`, `error`, `off`) |
+| `STALENESS_DAYS` | `14` | Test-data freshness threshold (warning-only) |
 
 ## Test Fixtures & Samples
 
@@ -81,8 +82,14 @@ Folders are named `<service>-<api>`; endpoint declarations (`endpoint`/`key`/`de
 
 | Layer | Files | Runs |
 |-------|-------|------|
-| UNIT | `api/format/logger/matcher/metadata/parser/streamBuilder.test.ts` | mocked `fetch`/`tracker`; `loadFixture`+`loadSynthetic` |
+| UNIT | `api/format/logger/matcher/metadata/parser/streamBuilder.test.ts` | mocked `fetch`/`tracker`; `loadFixture`/`loadFixtureData`+`loadSynthetic` |
 | INTEGRATION | `app.test.ts` | supertest; mocked `api/*`, real pipeline |
+
+Maintenance scripts (`npm run test:*` — never wired into CI, no network in suite):
+- `test:examples:refresh [-- --dry-run]` — re-fetch example payloads + update `fetched` dates (skips `self-stream/` snapshots and `tracker-scrape/`, which speaks UDP)
+- `test:fixtures:compare` — always-live comparison of fixtures vs registry; reports shape diffs for human triage, never writes
+
+A staleness warning (`test/setup/staleness.ts`, wired via vitest `globalSetup` so it prints once per run) logs at startup if the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14); the warning path is covered by `test/setup/staleness.test.ts`.
 
 ## NekoBT Domain Knowledge
 

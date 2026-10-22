@@ -40,6 +40,24 @@ export function loadFixtureData<T>(endpoint: string, id: string): T {
 }
 
 /**
+ * Load one payload of a catalog folder, by endpoint and id.
+ *
+ * A data point lives in `fixtures/` (pointed at by a test) or `examples/`
+ * (used as a whole), so both standings are searched.
+ */
+export function loadExample<T>(endpoint: string, id: string): T {
+  for (const standing of ['fixtures', 'examples'] as const) {
+    const filepath = path.join(
+      __dirname, '..', 'data', standing, endpoint, `${id}.json`
+    );
+    if (fs.existsSync(filepath)) {
+      return JSON.parse(fs.readFileSync(filepath, 'utf8')) as T;
+    }
+  }
+  throw new Error(`no catalog payload for ${endpoint}/${id}`);
+}
+
+/**
  * The self-stream corpus: each record is a captured response of our own
  * `/stream` endpoint, and every catalog input it consumed points back at it
  * through the record's `used_by` list.

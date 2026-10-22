@@ -80,6 +80,8 @@ test/
 ├── perf/                        # benchmarks
 ├── api.test.ts                  # UNIT — external API clients (mocked fetch/tracker)
 ├── app.test.ts                  # INTEGRATION — Express app via supertest
+├── integration.test.ts          # INTEGRATION — the self-stream corpus replayed
+│                                #   end to end (only the network is mocked)
 ├── format.test.ts               # UNIT — byte/bitrate/language formatting
 ├── logger.test.ts               # UNIT — log-level filtering
 ├── matcher.test.ts              # UNIT — fitInfo / findEpisodeFile / findMovieFile
@@ -99,6 +101,7 @@ The catalog is the evidence base (ids, params, edges, grounds); this tree is the
 |------|-------|--------|
 | `api.test.ts` | UNIT | External clients (mocked fetch/tracker); `loadFixture` + `loadSynthetic` payloads |
 | `app.test.ts` | INTEGRATION | Express via supertest (mocked `api/*`, real pipeline); manifest, `/stream`, `startServer` |
+| `integration.test.ts` | INTEGRATION | The self-stream corpus replayed: request in, captured response out. Only the network is mocked — HTTP serves the catalog payloads, UDP answers the tracker scrape |
 | `matcher.test.ts` | UNIT | `fitInfo` / `findEpisodeFile` / `findMovieFile` |
 | `streamBuilder.test.ts` | UNIT | `torrentToStream` construction, badges, `fileIdx` |
 | `parser.test.ts` | UNIT | `parseNuvioId` (movies, series, anime providers, season-0) |

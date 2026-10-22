@@ -84,6 +84,7 @@ Folders are named `<service>-<api>`; endpoint declarations (`endpoint`/`key`/`de
 |-------|-------|------|
 | UNIT | `api/format/logger/matcher/metadata/parser/streamBuilder.test.ts` | mocked `fetch`/`tracker`; `loadFixture`/`loadFixtureData`+`loadSynthetic`; `matcher.test.ts` also drives the whole `examples/` corpus |
 | INTEGRATION | `app.test.ts` | supertest; mocked `api/*`, real pipeline |
+| INTEGRATION | `integration.test.ts` | the self-stream corpus replayed end to end — only the network is mocked (HTTP serves the catalog, UDP the tracker scrape) |
 
 Maintenance scripts (`npm run test:*` — never wired into CI, no network in suite):
 - `test:examples:refresh [-- --dry-run]` — re-fetch example payloads + update `fetched` dates (skips `self-stream/` snapshots and `tracker-scrape/`, which speaks UDP)

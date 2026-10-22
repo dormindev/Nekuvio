@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "underscore-separated",
+      "params": {
+        "path": {
+          "id": "15048172639321"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "episode file naming with an underscore inside the SxxEyy token (S04_E23) \u2014 the matcher's separator class accepts it, but no real anime release uses it: 0 of 1,270 real file names (572 in the catalog + 698 fetched live from the NekoBT search/torrents API) contain a separator other than none between S## and E##"
+    },
+    {
+      "id": "episode-range",
+      "params": {
+        "path": {
+          "id": "15048172639384"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "multi-episode range file naming (S04E20-E24) \u2014 a real case does not exist: 0 of the 60 real torrents in the catalog contain a range name, and none of the 698 file names fetched live from the NekoBT API"
+    },
+    {
+      "id": "named-season",
+      "params": {
+        "path": {
+          "id": "15048172639401"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "episode file named after the show title (\"Tensei Shitara Slime Datta Ken - 23\"), matched by the named-season strategy \u2014 no real release in the corpus uses that form: 0 of the 55 remaining example torrents and 0 of the promoted fixtures name a file after the series title without an Sxx token"
+    }
+  ]
+}

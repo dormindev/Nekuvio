@@ -12,7 +12,7 @@ import {
   searchTorrents
 } from '../src/api/nekobt.js';
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
-import type { NekoTorrentItem } from '../src/types.js';
+import type { NekoMediaData, NekoTorrentItem } from '../src/types.js';
 
 import { loadFixtureData } from './helpers/test-data.js';
 
@@ -67,8 +67,8 @@ describe('app routes', () => {
   });
 
   it('returns constructed streams for a series request', async () => {
-    const media = loadFixtureData<any>('nekobt-media', 's172');
-    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const media = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14474579778825');
 
     vi.mocked(resolveMediaId).mockResolvedValue({
       media_id: 's172',
@@ -88,7 +88,8 @@ describe('app routes', () => {
     expect(res.body.streams).toHaveLength(1);
     expect(res.body.streams[0].infoHash).toBe(torrent.infohash);
     expect(res.body.streams[0].name).toMatch(/NekoBT/);
-    expect(res.body.streams[0].fileIdx).toBe(0);
+    // Episode 24 of the 24-file release sits at index 23.
+    expect(res.body.streams[0].fileIdx).toBe(23);
   });
 
   it('translates kitsu IDs to MAL before resolving media', async () => {
@@ -123,18 +124,14 @@ describe('app routes', () => {
   });
 
   it('builds a movie stream and searches torrents with a null episode id', async () => {
-    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    // A real movie release: the movie file is the largest one in the torrent.
+    const media = loadFixtureData<NekoMediaData>('nekobt-media', 'm145');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '7514276465159');
 
     vi.mocked(resolveMediaId).mockResolvedValue({ media_id: 'm145', isMovie: true });
-    vi.mocked(getMedia).mockResolvedValue({ anilist: null, episodes: [] } as any);
+    vi.mocked(getMedia).mockResolvedValue(media);
     vi.mocked(searchTorrents).mockResolvedValue([torrent]);
-    vi.mocked(getTorrent).mockResolvedValue({
-      ...torrent,
-      files: [
-        { name: 'Sample.mkv', length: 1000 },
-        { name: 'Movie.1080p.mkv', length: 5_000_000_000 }
-      ]
-    });
+    vi.mocked(getTorrent).mockResolvedValue(torrent);
     vi.mocked(scrapeTorrents).mockResolvedValue([
       { torrent, trackers: [], seeders: 0, leechers: 0 }
     ]);
@@ -143,16 +140,18 @@ describe('app routes', () => {
 
     expect(res.status).toBe(200);
     expect(res.body.streams).toHaveLength(1);
-    expect(res.body.streams[0].fileIdx).toBe(1);
+    expect(res.body.streams[0].fileIdx).toBe(14);
+    expect(res.body.streams[0].description).toMatch(/The Movie\.mkv/);
     // Movie requests have no episode, so the search falls back to a null episode id.
     expect(searchTorrents).toHaveBeenCalledWith('m145', null);
   });
 
   it('skips streams when getTorrent details return null', async () => {
-    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
+    const media = loadFixtureData<NekoMediaData>('nekobt-media', 'm145');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '7514276465159');
 
     vi.mocked(resolveMediaId).mockResolvedValue({ media_id: 'm145', isMovie: true });
-    vi.mocked(getMedia).mockResolvedValue({ anilist: null, episodes: [] } as any);
+    vi.mocked(getMedia).mockResolvedValue(media);
     vi.mocked(searchTorrents).mockResolvedValue([torrent]);
     vi.mocked(getTorrent).mockResolvedValue(null);
     vi.mocked(scrapeTorrents).mockResolvedValue([

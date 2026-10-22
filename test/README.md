@@ -29,6 +29,8 @@ Root registry: `test/data/meta.json`. Each endpoint folder pairs `<id>.json` pay
 - `unsupported/` — known-broken cases (quarantined)
 - `synthetic/` — assumed, ungrounded shapes (migrated from hand-written test mocks; `verdict: ungrounded`)
 
+**The three standings have three roles.** A **fixture** is a specific real case, pointed at by at least one test. A **synthetic** is a specific assumed shape, pointed at by one test as a rule of thumb. **`examples/` are used as a whole** — a generic test over a whole folder, never one data point picked out; a test that needs a specific example promotes it to a fixture first.
+
 **Every payload is stored raw** — exactly what the endpoint returned. NekoBT answers `{ error, data }`, Kitsu answers `{ data, meta, links }`. No folder flattens the envelope, so the same endpoint has the same shape in `fixtures/`, `examples/` and `synthetic/`.
 
 | Loader | Returns | Use for |
@@ -36,16 +38,18 @@ Root registry: `test/data/meta.json`. Each endpoint folder pairs `<id>.json` pay
 | `loadFixture(endpoint, id)` | the raw body | mocking a `fetch` response |
 | `loadFixtureData(endpoint, id)` | the unwrapped payload | feeding the application code |
 | `loadSynthetic(endpoint, id)` | the raw body | mocking an assumed response |
+| `loadExamples(endpoint)` | every payload of a folder | generic tests over a whole `examples/` folder |
 
 ```text
 test/
-├── helpers/test-data.ts         # loadFixture / loadFixtureData / loadSynthetic
+├── helpers/test-data.ts         # loadFixture / loadFixtureData / loadSynthetic / loadExamples
 ├── data/
 │   ├── meta.json                # root registry: endpoint/key/defaults per service
 │   ├── fixtures/                # REAL — immutable justification evidence
 │   │   ├── kitsu-mappings/      #   49235
-│   │   ├── nekobt-media/        #   m1305, m145, s11599, s172
-│   │   └── nekobt-torrents/     #   14064189768715
+│   │   ├── nekobt-media/        #   m145, s11599, s1545, s172
+│   │   └── nekobt-torrents/     #   14064189768715, 14042604076552, 14060867155212,
+│   │                            #   14414565343489, 14474579778825, 7514276465159
 │   ├── examples/                # REAL — refreshable observed responses
 │   │   ├── kitsu-mappings/      #   7 payloads (12, 3919, 452, 49235, 51128, …)
 │   │   ├── nekobt-media/        #   10 payloads (s1008, s193, s1545, …)
@@ -58,11 +62,13 @@ test/
 │   │   └── self-stream/         #   3 payloads (fileIdx bug, no-torrents, no-mappings)
 │   └── synthetic/               # ASSUMED — ungrounded shapes (from test mocks)
 │       ├── kitsu-mappings/      #   empty-mappings, null-data
-│       ├── nekobt-media/        #   null-data
+│       ├── nekobt-media/        #   episode-zero, null-data
 │       ├── nekobt-resolve/      #   series, movie
-│       └── nekobt-search/       #   non-array-results
+│       ├── nekobt-search/       #   non-array-results
+│       └── nekobt-torrents/     #   episode-range, named-season, underscore-separated
 ├── api.test.ts                  # UNIT — external API clients (mocked fetch/tracker)
 ├── app.test.ts                  # INTEGRATION — Express app via supertest
+├── examples.test.ts             # GENERIC — the whole examples/ corpus, folder by folder
 ├── format.test.ts               # UNIT — byte/bitrate/language formatting
 ├── logger.test.ts               # UNIT — log-level filtering
 ├── matcher.test.ts              # UNIT — fitInfo / findEpisodeFile / findMovieFile
@@ -81,6 +87,7 @@ The catalog is the evidence base (ids, params, edges, grounds); this tree is the
 |------|-------|--------|
 | `api.test.ts` | UNIT | External clients (mocked fetch/tracker); `loadFixture` + `loadSynthetic` payloads |
 | `app.test.ts` | INTEGRATION | Express via supertest (mocked `api/*`, real pipeline); manifest, `/stream`, `startServer` |
+| `examples.test.ts` | GENERIC | The whole `examples/` corpus — one test per folder, over every payload |
 | `matcher.test.ts` | UNIT | `fitInfo` / `findEpisodeFile` / `findMovieFile` |
 | `streamBuilder.test.ts` | UNIT | `torrentToStream` construction, badges, `fileIdx` |
 | `parser.test.ts` | UNIT | `parseNuvioId` (movies, series, anime providers, season-0) |

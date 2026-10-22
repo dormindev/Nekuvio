@@ -38,3 +38,26 @@ export function loadFixtureData<T>(endpoint: string, id: string): T {
   }
   return body as unknown as T;
 }
+
+/**
+ * Load every payload of an `examples/` folder, in record order.
+ *
+ * `examples/` is the broad, diverse gather of real cases — it is meant to be
+ * consumed as a whole, so generic tests iterate over the folder rather than
+ * picking one data point out of it. (A test that needs a *specific* example
+ * promotes it to a fixture first.)
+ */
+export function loadExamples<T>(endpoint: string): T[] {
+  const folder = path.join(__dirname, '..', 'data', 'examples', endpoint);
+  const meta = JSON.parse(
+    fs.readFileSync(path.join(folder, 'meta.json'), 'utf8')
+  ) as { records: Array<{ id: string }> };
+
+  return meta.records
+    .map((rec) => {
+      const filepath = path.join(folder, `${rec.id}.json`);
+      if (!fs.existsSync(filepath)) return null;
+      return JSON.parse(fs.readFileSync(filepath, 'utf8')) as T;
+    })
+    .filter((payload): payload is T => payload !== null);
+}

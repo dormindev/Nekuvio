@@ -1,0 +1,3689 @@
+{
+  "error": false,
+  "data": {
+    "id": "s9001",
+    "title": "That Time I Got Reincarnated as a Slime",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "overview": "Lonely thirty-seven-year-old Satoru Mikami is stuck in a dead-end job, unhappy with his mundane life, but after dying at the hands of a robber, he awakens to a fresh start in a fantasy realm...as a slime monster! As he acclimates to his goopy new existence, his exploits with the other monsters set off a chain of events that will change his new world forever!\n\n(Source: Yen Press)",
+    "status": "ended",
+    "banner_url": "https://artworks.thetvdb.com/banners/posters/5bb2b28057ade.jpg",
+    "runtime": 24,
+    "tvdbId": 352408,
+    "tmdbId": 82684,
+    "imdbId": "tt9054364",
+    "year": 2018,
+    "alternate_titles": [
+      "Tensei Shitara Slime Datta Ken S2",
+      "Tensei shitara Slime Datta Ken 2nd Season",
+      "Tensei Shitara Slime Datta Ken",
+      "That Time I Got Reincarnated as a Slime Season 2",
+      "Tensei Shitara Slime Datta Ken S3",
+      "Tensei shitara Slime Datta Ken 3rd Season",
+      "That Time I Got Reincarnated as a Slime Season 3",
+      "Tensei Shitara Slime Datta Ken S4",
+      "Tensei shitara Slime Datta Ken 4th Season",
+      "That Time I Got Reincarnated as a Slime Season 4",
+      "Tensei Shitara Slime Datta Ken That Time I Got Reincarnated as a Slime",
+      "Vita da Slime",
+      "Meine Wiedergeburt als Schleim in einer anderen Welt"
+    ],
+    "anilist": {
+      "display_id": 101280,
+      "primary": {
+        "id": 182205
+      },
+      "entries": [
+        {
+          "season": 1,
+          "src_start": 1,
+          "src_end": 12,
+          "dst_start": 2,
+          "dst_end": 13,
+          "ratio": null,
+          "anilist_id": 182205,
+          "ord": 1,
+          "media": {
+            "id": 182205,
+            "id_mal": 37430,
+            "title": {
+              "romaji": "Tensei Shitara Slime Datta Ken",
+              "english": "That Time I Got Reincarnated as a Slime",
+              "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6",
+              "synonyms": [
+                "\u8ee2\u30b9\u30e9",
+                "TenSura"
+              ]
+            },
+            "description": "...",
+            "format": "TV",
+            "status": "FINISHED",
+            "episodes": 12,
+            "duration": 24,
+            "season": "FALL",
+            "season_year": 2018,
+            "start_date": "2018-10-02",
+            "end_date": "2018-12-28",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101280.jpg",
+            "cover_color": "#5daef1",
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101280.jpg",
+            "genres": [
+              "Action",
+              "Adventure",
+              "Comedy",
+              "Fantasy"
+            ],
+            "studios": [
+              {
+                "id": 4418,
+                "name": "8-bit"
+              }
+            ],
+            "tags": [],
+            "average_score": 80,
+            "popularity": 461196,
+            "favourites": 23489,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/101280",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        }
+      ],
+      "relations": [
+        {
+          "id": 106509,
+          "type": "ANIME",
+          "title": {
+            "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6 OVA",
+            "romaji": "Tensei Shitara Slime Datta Ken OVA",
+            "english": "That Time I Got Reincarnated as a Slime OAD",
+            "synonyms": []
+          },
+          "format": "OVA",
+          "site_url": "https://anilist.co/anime/106509",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx106509-nTJyMJKbvRFn.jpg",
+          "relation_type": "SIDE_STORY",
+          "media_id": "s172"
+        },
+        {
+          "id": 86355,
+          "type": "MANGA",
+          "title": {
+            "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6",
+            "romaji": "Tensei Shitara Slime Datta Ken",
+            "english": "That Time I Got Reincarnated as a Slime",
+            "synonyms": []
+          },
+          "format": "NOVEL",
+          "site_url": "https://anilist.co/manga/86355",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx86355-pGwmLqVTwwE4.jpg",
+          "relation_type": "ADAPTATION",
+          "media_id": null
+        },
+        {
+          "id": 116741,
+          "type": "ANIME",
+          "title": {
+            "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6 \u8ee2\u30b9\u30e9\u65e5\u8a18",
+            "romaji": "Tensei Shitara Slime Datta Ken: Tensura Nikki",
+            "english": "The Slime Diaries",
+            "synonyms": []
+          },
+          "format": "TV",
+          "site_url": "https://anilist.co/anime/116741",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116741-MI9aI2ikNyAP.jpg",
+          "relation_type": "SPIN_OFF",
+          "media_id": null
+        },
+        {
+          "id": 127225,
+          "type": "ANIME",
+          "title": {
+            "native": "\u30b9\u30e9\u30a4\u30e0\u305f\u3061\u306e\u4e95\u6238\u7aef\u4f1a\u8b70\uff1a\u30b9\u30e9\u30a4\u30e0\u4f7f\u3044\u3068\u30b9\u30e9\u30a4\u30e0\u306e\u9b54\u738b",
+            "romaji": "Slimetachi no Idobata Kaigi: Slime Tsukai to Slime no Maou",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONA",
+          "site_url": "https://anilist.co/anime/127225",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127225-rOkSrij8NdQp.png",
+          "relation_type": "CHARACTER",
+          "media_id": null
+        },
+        {
+          "id": 143391,
+          "type": "ANIME",
+          "title": {
+            "native": "\u5343\u96ea\u306e\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3\u30c1\u30a7\u30c3\u30af\uff01",
+            "romaji": "Chiyuki no Fashion Check",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONA",
+          "site_url": "https://anilist.co/anime/143391",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143391-iFj8UKciDab3.png",
+          "relation_type": "CHARACTER",
+          "media_id": null
+        },
+        {
+          "id": 146503,
+          "type": "ANIME",
+          "title": {
+            "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6 \u6551\u308f\u308c\u308b\u30e9\u30df\u30ea\u30b9",
+            "romaji": "Tensei Shitara Slime Datta Ken: Sukuwareru Ramiris",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONA",
+          "site_url": "https://anilist.co/anime/146503",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b146503-7YahVCQ9T039.png",
+          "relation_type": "SIDE_STORY",
+          "media_id": null
+        },
+        {
+          "id": 86399,
+          "type": "MANGA",
+          "title": {
+            "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6",
+            "romaji": "Tensei Shitara Slime Datta Ken",
+            "english": "That Time I Got Reincarnated as a Slime",
+            "synonyms": []
+          },
+          "format": "MANGA",
+          "site_url": "https://anilist.co/manga/86399",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx86399-NwbRFVh5koqc.jpg",
+          "relation_type": "ADAPTATION",
+          "media_id": null
+        },
+        {
+          "id": 166381,
+          "type": "ANIME",
+          "title": {
+            "native": "\u5e7b\u65e5\u306e\u30ea\u30e0\u30eb -SUNSHINE in the SLIME-",
+            "romaji": "Genjitsu no Rimuru: SUNSHINE in the SLIME",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONA",
+          "site_url": "https://anilist.co/anime/166381",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166381-nHd6sLpdC7Ta.jpg",
+          "relation_type": "CHARACTER",
+          "media_id": "s6991"
+        },
+        {
+          "id": 161802,
+          "type": "ANIME",
+          "title": {
+            "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6 \u30b3\u30ea\u30a6\u30b9\u306e\u5922",
+            "romaji": "Tensei Shitara Slime Datta Ken: Coleus no Yume",
+            "english": "That Time I Got Reincarnated as a Slime: Visions of Coleus",
+            "synonyms": []
+          },
+          "format": "OVA",
+          "site_url": "https://anilist.co/anime/161802",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161802-Ra8acfv0cSov.jpg",
+          "relation_type": "SEQUEL",
+          "media_id": "s172"
+        }
+      ],
+      "alt_ids": [
+        {
+          "anilist_id": 106509,
+          "mal_id": 38793,
+          "anidb_id": 14526,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 139498,
+          "mal_id": 49877,
+          "anidb_id": 16776,
+          "imdb_ids": [
+            "tt15467380"
+          ]
+        },
+        {
+          "anilist_id": 161802,
+          "mal_id": 54565,
+          "anidb_id": 17873,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 101280,
+          "mal_id": 37430,
+          "anidb_id": 13871,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 108511,
+          "mal_id": 39551,
+          "anidb_id": 14767,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 116742,
+          "mal_id": 41487,
+          "anidb_id": 15456,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 156822,
+          "mal_id": 53580,
+          "anidb_id": 17709,
+          "imdb_ids": []
+        },
+        {
+          "anilist_id": 182205,
+          "mal_id": 59970,
+          "anidb_id": null,
+          "imdb_ids": []
+        }
+      ],
+      "targets": [
+        {
+          "anilist_id": 106509,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106509-nTJyMJKbvRFn.jpg"
+        },
+        {
+          "anilist_id": 139498,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139498-DdVASeAj7ag4.jpg"
+        },
+        {
+          "anilist_id": 161802,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161802-Ra8acfv0cSov.jpg"
+        },
+        {
+          "anilist_id": 101280,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101280-tDxCVJm714nt.jpg"
+        },
+        {
+          "anilist_id": 108511,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108511-PufFordLNyIb.jpg"
+        },
+        {
+          "anilist_id": 116742,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116742-jn0dW23ftehq.jpg"
+        },
+        {
+          "anilist_id": 156822,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156822-Jzo2ITWgm4kM.jpg"
+        },
+        {
+          "anilist_id": 182205,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg"
+        }
+      ]
+    },
+    "notes": null,
+    "stats": {
+      "uploads": 583,
+      "seeders": "13189",
+      "leechers": "131",
+      "downloads": "369515"
+    },
+    "series": null,
+    "episodes": [
+      {
+        "id": 220900,
+        "title": "Special",
+        "season": 1,
+        "episode": 1,
+        "absolute": 1,
+        "overview": "",
+        "runtime": 24,
+        "airDateUtc": "2018-10-02T14:00:00Z",
+        "tvdbId": 1
+      }
+    ],
+    "groups": [
+      {
+        "id": "8511749566261",
+        "name": "frixysubs",
+        "display_name": "FrixySubs",
+        "tag": "frixysubs",
+        "display_tag": "FrixySubs",
+        "open": false,
+        "tagline": "Lisie t\u0142umaczenia po polsku! | Polish fansubs",
+        "pfp_hash": "ab6477c5390a7a1cdf70afd569e4b275fcb1b85123a6a448a65b6797284aa36d",
+        "episodes": {
+          "172749": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220939": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220940": {
+            "level": 3,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 3,
+        "langs": {
+          "fsub": [
+            "pl"
+          ],
+          "sub": []
+        }
+      },
+      {
+        "id": "7358361445689",
+        "name": "uba",
+        "display_name": "uba",
+        "tag": "uba",
+        "display_tag": "uba",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": null,
+        "episodes": {
+          "4277": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4278": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4279": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4280": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4281": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4282": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4283": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4284": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4285": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4286": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4287": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4288": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4289": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4290": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4291": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4292": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4293": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4294": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4295": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4296": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4297": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4298": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4299": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          },
+          "4300": {
+            "level": 3,
+            "video_type": 14,
+            "mtl": false
+          }
+        },
+        "max_level": 3,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": [
+            "en"
+          ]
+        }
+      },
+      {
+        "id": "10162550215740",
+        "name": "nekotan",
+        "display_name": "nekotan",
+        "tag": "nekotan",
+        "display_tag": "nekotan",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": "cae0315a7b06e0094c1bf2e85ee7aa4ba75a9a2fe5f16a34bd6a2803b67be563",
+        "episodes": {
+          "4277": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4278": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4279": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4280": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4281": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4282": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4283": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4284": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4285": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4286": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4287": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4288": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4289": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4290": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4291": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4292": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4293": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4294": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4295": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4296": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4297": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4298": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4299": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4300": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          }
+        },
+        "max_level": 3,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": [
+            "en"
+          ]
+        }
+      },
+      {
+        "id": "5949517558321",
+        "name": "vodes",
+        "display_name": "Vodes",
+        "tag": "vodes",
+        "display_tag": "Vodes",
+        "open": false,
+        "tagline": "Sometimes does okay encodes",
+        "pfp_hash": "3fb8122e9f6e34ddb4e47df9cfa8312ac7ace02943ed1df628419a7a463467e4",
+        "episodes": {
+          "4229": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4230": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4231": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4232": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4233": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4234": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4235": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4236": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4237": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4238": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4239": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4240": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4241": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4242": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4243": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4244": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4245": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4246": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4247": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4248": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4249": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4250": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4251": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4252": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4253": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4254": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4255": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4256": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4257": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4258": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4259": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4260": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4261": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4262": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4263": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4264": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4265": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4266": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4267": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4268": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4269": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4270": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4271": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4272": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4273": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4274": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4275": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4276": {
+            "level": 3,
+            "video_type": 13,
+            "mtl": false
+          }
+        },
+        "max_level": 3,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": [
+            "de"
+          ]
+        }
+      },
+      {
+        "id": "7310842786873",
+        "name": "asakura",
+        "display_name": "Asakura",
+        "tag": "asakura",
+        "display_tag": "Asakura",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": "e69b04be60a8ec487e7bd7ebca95c24b80430502cfa0302a4c476574bc1b3f7e",
+        "episodes": {
+          "4229": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4230": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4231": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4232": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4233": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4234": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4235": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4236": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4237": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4238": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4239": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4240": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4241": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4242": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4243": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4244": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4245": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4246": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4247": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4248": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4249": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4250": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4251": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4252": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4253": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4254": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4255": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4256": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4257": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4258": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4259": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4260": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4261": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4262": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4263": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4264": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4265": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4266": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4267": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4268": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4269": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4270": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4271": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4272": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4273": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4274": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4275": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4276": {
+            "level": 2,
+            "video_type": 13,
+            "mtl": false
+          },
+          "4277": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4278": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4279": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4280": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4281": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4282": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4283": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4284": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4285": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4286": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4287": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4288": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4289": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4290": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4291": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4292": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4293": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4294": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4295": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4296": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4297": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4298": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4299": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "4300": {
+            "level": 2,
+            "video_type": 0,
+            "mtl": false
+          },
+          "172749": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 2,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": []
+        }
+      },
+      {
+        "id": "11590779438652",
+        "name": "foundyears",
+        "display_name": "FoundYears",
+        "tag": "foundyears",
+        "display_tag": "FoundYears",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": null,
+        "episodes": {
+          "172749": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 2,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 2,
+        "langs": {
+          "fsub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "id",
+            "it",
+            "ms",
+            "pl",
+            "pt-br",
+            "ru",
+            "th",
+            "vi",
+            "zh-hans",
+            "zh-hant"
+          ],
+          "sub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "id",
+            "it",
+            "ms",
+            "pl",
+            "pt-br",
+            "ru",
+            "th",
+            "vi",
+            "zh-hans",
+            "zh-hant"
+          ]
+        }
+      },
+      {
+        "id": "9816645665074",
+        "name": "blackrabbit",
+        "display_name": "BlackRabbit",
+        "tag": "blackrabbit",
+        "display_tag": "BlackRabbit",
+        "open": false,
+        "tagline": "AV1 minis",
+        "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440",
+        "episodes": {
+          "4215": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4216": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4217": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4218": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4219": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4220": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4221": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4222": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4223": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4224": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4225": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4226": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4227": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4228": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4229": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4230": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4231": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4232": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4233": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4234": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4235": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4236": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4237": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4238": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4239": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4240": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4241": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4242": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4243": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4244": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4245": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4246": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4247": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4248": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4249": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4250": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4251": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4252": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4253": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4254": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4255": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4256": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4257": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4258": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4259": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4260": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4261": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4262": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4263": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4264": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4265": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4266": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4267": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4268": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4269": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4270": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4271": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4272": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4273": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4274": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4275": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4276": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4277": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4278": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4279": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4280": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4281": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4282": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4283": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4284": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4285": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4286": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4287": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4288": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4289": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4290": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4291": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4292": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4293": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4294": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4295": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4296": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4297": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4298": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4299": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4300": {
+            "level": 2,
+            "video_type": 12,
+            "mtl": false
+          }
+        },
+        "max_level": 2,
+        "langs": {
+          "fsub": [
+            "en"
+          ],
+          "sub": [
+            "de"
+          ]
+        }
+      },
+      {
+        "id": "7267150399800",
+        "name": "erai-raws",
+        "display_name": "Erai-raws",
+        "tag": "erai-raws",
+        "display_tag": "Erai-raws",
+        "open": false,
+        "tagline": "Your best friend!",
+        "pfp_hash": "6931f90800dca9b3ea80d7ebb1ff7f4e20e88fbda552020589995acdcb61eae5",
+        "episodes": {
+          "4283": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "pt-br",
+            "es-419",
+            "es-es",
+            "ar",
+            "fr-fr",
+            "de",
+            "it",
+            "ru",
+            "pl"
+          ]
+        }
+      },
+      {
+        "id": "7313765950000",
+        "name": "varyg",
+        "display_name": "VARYG",
+        "tag": "varyg",
+        "display_tag": "VARYG",
+        "open": false,
+        "tagline": "WEB-DLs",
+        "pfp_hash": null,
+        "episodes": {
+          "4281": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "4283": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "172749": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "it",
+            "pt-br",
+            "ru",
+            "id",
+            "ms",
+            "th",
+            "vi",
+            "zh-hans",
+            "zh-hant",
+            "pl",
+            "ta",
+            "te",
+            "ja"
+          ]
+        }
+      },
+      {
+        "id": "10514118004029",
+        "name": "yameii",
+        "display_name": "Yameii",
+        "tag": "yameii",
+        "display_tag": "Yameii",
+        "open": false,
+        "tagline": "Fully-ish automated English Dub WEB-DL's",
+        "pfp_hash": "97ec373a0f57d62922037734aec81a6470b22f25ff548227c907e9ca45259a39",
+        "episodes": {
+          "4281": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "172749": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en"
+          ]
+        }
+      },
+      {
+        "id": "7251504327481",
+        "name": "toonshub",
+        "display_name": "ToonsHub",
+        "tag": "toonshub",
+        "display_tag": "ToonsHub",
+        "open": false,
+        "tagline": "(mostly) automated WEB-DLs",
+        "pfp_hash": "e97eeac72d439abb51eb3237b0454792d5550991c024b463d9a07b0ae43c351c",
+        "episodes": {
+          "4281": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "4283": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "172749": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "zh-hans",
+            "zh-hant",
+            "fr-fr",
+            "de",
+            "id",
+            "it",
+            "ms",
+            "pl",
+            "pt-br",
+            "ru",
+            "es-419",
+            "es-es",
+            "th",
+            "vi"
+          ]
+        }
+      },
+      {
+        "id": "7110296043059",
+        "name": "tsundere-raws",
+        "display_name": "Tsundere-Raws",
+        "tag": "tsundere-raws",
+        "display_tag": "Tsundere-Raws",
+        "open": false,
+        "tagline": "First on french releases",
+        "pfp_hash": "5c26b0d6fa21ccd1beb67f34299596144fc193690731b2d1c6769746a9e66c41",
+        "episodes": {
+          "172749": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220923": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "fr-fr"
+          ]
+        }
+      },
+      {
+        "id": "7251721831734",
+        "name": "ironclad",
+        "display_name": "Ironclad",
+        "tag": "ironclad",
+        "display_tag": "Ironclad",
+        "open": false,
+        "tagline": "AV1 Minis",
+        "pfp_hash": "5a9bc48d736e908fca7c85dabf5a06b8585a799e15b759fe5227520300c96389",
+        "episodes": {
+          "4277": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4278": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4279": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4280": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4281": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4282": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4283": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "4284": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4285": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4286": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4287": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4288": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4289": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4290": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4291": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4292": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4293": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4294": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4295": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4296": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4297": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4298": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4299": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "4300": {
+            "level": 0,
+            "video_type": 12,
+            "mtl": false
+          },
+          "172749": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "es-419",
+            "es-es",
+            "ar",
+            "fr-fr",
+            "de",
+            "it",
+            "pt-br",
+            "pl",
+            "ru",
+            "th",
+            "zh-hans",
+            "zh-hant",
+            "ms",
+            "id",
+            "vi"
+          ]
+        }
+      },
+      {
+        "id": "9013082755130",
+        "name": "nanakoraws",
+        "display_name": "NanakoRaws",
+        "tag": "nanakoraws",
+        "display_tag": "NanakoRaws",
+        "open": false,
+        "tagline": "TV Rips",
+        "pfp_hash": null,
+        "episodes": {
+          "4299": {
+            "level": 0,
+            "video_type": 3,
+            "mtl": false
+          },
+          "172749": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220923": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 15,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "ja"
+          ]
+        }
+      },
+      {
+        "id": "10913309520177",
+        "name": "onalrie",
+        "display_name": "Onalrie",
+        "tag": "onalrie",
+        "display_tag": "Onalrie",
+        "open": false,
+        "tagline": "Onalrie",
+        "pfp_hash": "6592be00da33e445a00820c83e02bb1f44adf96bd6d6f87e43d64380a3e3fd63",
+        "episodes": {
+          "220928": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "pt-br",
+            "es-419",
+            "es-es",
+            "ar",
+            "fr-fr",
+            "de",
+            "it",
+            "ru",
+            "pl",
+            "pt-pt"
+          ]
+        }
+      },
+      {
+        "id": "6438121520945",
+        "name": "kosaka",
+        "display_name": "Kosaka",
+        "tag": "kosaka",
+        "display_tag": "Kosaka",
+        "open": false,
+        "tagline": "Mediocre AV1 Encodes",
+        "pfp_hash": "ceab12726cb00d1bb5ccd83554e410a8ac47eda7e4c8c697e6f681edbb363de0",
+        "episodes": {
+          "172749": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220921": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220922": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220923": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220924": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220925": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220926": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220927": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220928": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220929": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220930": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220931": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220932": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220933": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "de",
+            "es-419",
+            "fr-fr",
+            "it",
+            "ar",
+            "id",
+            "ms",
+            "pl",
+            "ru",
+            "vi",
+            "th",
+            "es-es",
+            "pt-br",
+            "zh-hans",
+            "zh-hant"
+          ]
+        }
+      },
+      {
+        "id": "8158001264947",
+        "name": "anozu",
+        "display_name": "AnoZu",
+        "tag": "anozu",
+        "display_tag": "AnoZu",
+        "open": false,
+        "tagline": "WEB-DL and Encodes",
+        "pfp_hash": "f66cdb5b83036c36dac52c7f0f8165342b5f157991c122f9389e841417525c5b",
+        "episodes": {
+          "220933": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220934": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220935": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220936": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220937": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220938": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          },
+          "220940": {
+            "level": 0,
+            "video_type": 9,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "de",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "id",
+            "it",
+            "ms",
+            "pl",
+            "pt-br",
+            "ru",
+            "th",
+            "vi",
+            "zh-hans",
+            "zh-hant"
+          ]
+        }
+      },
+      {
+        "id": "8499170876979",
+        "name": "feibanyama raws",
+        "display_name": "Feibanyama Raws",
+        "tag": "feibanyama",
+        "display_tag": "Feibanyama",
+        "open": false,
+        "tagline": "",
+        "pfp_hash": "76fcab620dbcf78ee575b209c3195f8bdb044bba71dcc22d6641138e08cd7c67",
+        "episodes": {
+          "172749": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220918": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220919": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220920": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "ar",
+            "zh-hans",
+            "zh-hant",
+            "fr-fr",
+            "de",
+            "it",
+            "pt-br",
+            "ru",
+            "es-419",
+            "id",
+            "ms",
+            "th",
+            "vi",
+            "es-es"
+          ]
+        }
+      },
+      {
+        "id": "13551398844732",
+        "name": "delta",
+        "display_name": "Delta",
+        "tag": "delta",
+        "display_tag": "Delta",
+        "open": false,
+        "tagline": "CR DLs and transcodes",
+        "pfp_hash": "53715fa2f7e886de89b4df295db4295f205a88b1e51384ee80ee20a64e558e2f",
+        "episodes": {
+          "220938": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          },
+          "220939": {
+            "level": 0,
+            "video_type": 7,
+            "mtl": false
+          }
+        },
+        "max_level": 0,
+        "langs": {
+          "fsub": [],
+          "sub": [
+            "en",
+            "es-419",
+            "es-es",
+            "fr-fr",
+            "de",
+            "ar",
+            "it",
+            "ru",
+            "pl"
+          ]
+        }
+      }
+    ]
+  }
+}

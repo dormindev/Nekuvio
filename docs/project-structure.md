@@ -157,7 +157,7 @@ test/
 │   ├── unsupported/       # REAL — quarantine (excluded from vitest collection)
 │   └── synthetic/         # ASSUMED shapes — never passed off as real
 ├── helpers/               # shared test utilities
-│   ├── test-data.ts       # loadFixture / loadFixtureData / loadSynthetic
+│   ├── test-data.ts       # loadFixture / loadFixtureData / loadSynthetic / loadExamples
 │   └── data-catalog.ts    # registry parsing + endpoint spec resolution
 ├── scripts/               # data-maintenance tools (tsx-run, not in suite)
 │   ├── refresh-examples.ts
@@ -167,6 +167,7 @@ test/
 │   ├── staleness.global.ts # globalSetup entry (prints warning once per run)
 │   └── staleness.test.ts  # staleness warning path coverage
 ├── perf/                  # benchmarks
+├── examples.test.ts       # generic tests over the whole examples/ corpus
 └── *.test.ts
 ```
 

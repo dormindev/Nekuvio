@@ -1,19 +1,6 @@
 {
   "records": [
     {
-      "id": "s1545",
-      "params": {
-        "path": {
-          "id": "s1545"
-        },
-        "query": {
-          "force": "true"
-        }
-      },
-      "fetched": "2026-10-19",
-      "grounds": "media input for self-stream series-kitsu_12_1180"
-    },
-    {
       "id": "m1064",
       "params": {
         "path": {
@@ -129,6 +116,19 @@
       },
       "fetched": "2026-10-19",
       "grounds": "media input for self-stream series-kitsu_3919_1"
+    },
+    {
+      "id": "m1305",
+      "params": {
+        "path": {
+          "id": "m1305"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "anilist: null via TMDB resolution (README \u00a71)"
     }
   ]
 }

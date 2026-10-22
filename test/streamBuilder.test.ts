@@ -7,6 +7,7 @@ import {
 } from '../src/pipeline/streamBuilder.js';
 import type {
   FitInfoResult,
+  NekoMediaData,
   NekoTorrentItem,
   NuvioParsedRequest
 } from '../src/types.js';
@@ -15,6 +16,12 @@ import { loadFixtureData } from './helpers/test-data.js';
 
 
 describe('torrentToStream', () => {
+  // The request and the fit info are internal structures the matcher
+  // produces, so they stay inline — but the media title they carry comes from
+  // the real s172 fixture, and the torrents are real releases.
+  const s172 = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
+  const season4 = s172.anilist.entries.find(e => e.season === 4)!;
+
   const mockRequest: NuvioParsedRequest = {
     provider: 'imdb',
     externalId: 'tt123',
@@ -34,21 +41,7 @@ describe('torrentToStream', () => {
       dst_start: 1,
       dst_end: 24,
       anilist_id: 182205,
-      media: {
-        title: {
-          romaji: 'Tensei Shitara Slime Datta Ken 4th Season Part 1 & 2',
-          english: 'That Time I Got Reincarnated as a Slime Season 4',
-          native: '転生したらスライムだった件 第4期 第1&2クール',
-          synonyms: [
-            'Tensura 4',
-            '転スラ 4',
-            'เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว ซีซั่น 4',
-            'О моём перерождении в слизь 4',
-            'Aquella vez que me convertí en slime - Temporada 4',
-            'Moi, quand je me réincarne en Slime Saison 4',
-          ]
-        }
-      }
+      media: { title: season4.media.title }
     },
     episode: {
       id: 220939,
@@ -59,70 +52,40 @@ describe('torrentToStream', () => {
     }
   };
 
-  const mockTorrentListItem: NekoTorrentItem = {
-    id: 't12345',
-    uploaded_at: 1790627841284,
-    title: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p]',
-    magnet: 'magnet:?xt=urn:btih:6a8456cf80660c40a8e87170c3454d79997e1c2c',
-    infohash: '6a8456cf80660c40a8e87170c3454d79997e1c2c',
-    seeders: 15,
-    leechers: 2,
-    filesize: 292935189,
-    audio_lang: 'ja',
-    fsub_lang: 'en',
-    sub_lang: '',
-    level: 1,
-    otl: false,
-    mtl: false,
-    hardsub: false,
-    video_type: 1,
-    video_codec: 1,
-    batch: false,
-    files: [],
-    groups: [
-      {
-        id: 101,
-        name: 'Delta',
-        display_name: 'Delta',
-        display_tag: 'Delta'
-      }
-    ]
-  };
+  // A real 24-file release: the file for episode 23 sits at index 22.
+  const mockTorrentListItem = loadFixtureData<NekoTorrentItem>(
+    'nekobt-torrents', '14474579778825'
+  );
 
   const mockSwarm: TorrentSwarm = {
     torrent: mockTorrentListItem,
     trackers: [
-      { tracker: 'https://tracker.nekobt.to/announce', seeders: 15, leechers: 2 }
+      { tracker: 'https://tracker.nekobt.to/announce', seeders: 31, leechers: 3 }
     ],
-    seeders: 15,
-    leechers: 2
+    seeders: 31,
+    leechers: 3
   };
 
   it('builds a stream object when episode file is matched', () => {
-    const torrentDetails: NekoTorrentItem = {
-      ...mockTorrentListItem,
-      files: [
-        {
-          name: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv',
-          length: 292935189,
-          offset: 0
-        }
-      ]
-    };
-
-    const stream = torrentToStream(mockSwarm, mockRequest, mockInfo, torrentDetails);
+    const stream = torrentToStream(
+      mockSwarm, mockRequest, mockInfo, mockTorrentListItem
+    );
 
     expect(stream).toBeTruthy();
     expect(stream?.url).toBe(mockTorrentListItem.magnet);
-    expect(stream?.infoHash).toBe('6a8456cf80660c40a8e87170c3454d79997e1c2c');
-    expect(stream?.fileIdx).toBe(0);
-    expect(stream?.name).toMatch(/^\[Delta\] \| NekoBT/);
-    expect(stream?.description).toMatch(/🟢↑ 15 • 🔴↓ 2/);
-    expect(stream?.description).toMatch(/🔊 {5}🇯🇵/);
+    expect(stream?.infoHash).toBe('5488fb62de8d5a7ba15213ea325de485174b9c51');
+    expect(stream?.fileIdx).toBe(22);
+    expect(stream?.name).toMatch(/^\[Ironclad\] \| NekoBT/);
+    expect(stream?.description).toMatch(/🟢↑ 31 • 🔴↓ 3/);
+    // The real release is multi-audio: the audio line lists every language.
+    expect(stream?.description).toMatch(/🔊 {5}🇬🇧/);
+    expect(stream?.description).toMatch(/🇯🇵/);
     expect(stream?.description).toMatch(/💬✨ 🇬🇧/);
-    expect(stream?.description).toMatch(/🎬 279 MB/);
-    expect(stream?.description).toMatch(/1\.63 Mbps/);
-    expect(stream?.description).toMatch(/\[Delta\] That Time I Got Reincarnated as a Slime S04E23 \[1080p\]\.mkv/);
+    expect(stream?.description).toMatch(/🎬 618 MB/);
+    expect(stream?.description).toMatch(/3\.60 Mbps/);
+    expect(stream?.description).toMatch(
+      /\[Ironclad\] Tensei Shitara Slime Datta Ken - S04E23 \[WEB\.1080p\.AV1\]\.mkv/
+    );
     expect(stream?.sources).toEqual(['tracker:https://tracker.nekobt.to/announce']);
   });
 
@@ -198,15 +161,9 @@ describe('torrentToStream', () => {
       episode: null
     };
 
-    const movieTorrent: NekoTorrentItem = {
-      ...mockTorrentListItem,
-      id: 'm_torrent_1',
-      title: 'Spirited Away 2001 1080p BluRay',
-      files: [
-        { name: 'Sample.mkv', length: 50_000_000 },
-        { name: 'Spirited Away 2001 1080p.mkv', length: 8_500_000_000 }
-      ]
-    };
+    // A real release that carries the movie among the episodes — the movie
+    // file is the largest one in the torrent.
+    const movieTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '7514276465159');
 
     const movieSwarm: TorrentSwarm = {
       torrent: movieTorrent,
@@ -218,34 +175,28 @@ describe('torrentToStream', () => {
     const stream = torrentToStream(movieSwarm, movieRequest, movieInfo, movieTorrent);
 
     expect(stream).toBeTruthy();
-    expect(stream?.fileIdx).toBe(1);
-    expect(stream?.description).toMatch(/Spirited Away 2001 1080p\.mkv/);
+    expect(stream?.fileIdx).toBe(14);
+    expect(stream?.description).toMatch(
+      /Saga Of Tanya The Evil - S00E15 - Saga Of Tanya The Evil The Movie\.mkv/
+    );
+    expect(stream?.description).toMatch(/🎬 2\.2 GB/);
   });
 
   it('returns null if episode file is not found in torrent', () => {
-    const torrentDetails: NekoTorrentItem = {
-      ...mockTorrentListItem,
-      id: 't12345',
-      files: [
-        { name: 'Slime S04E01.mkv', length: 100 }
-      ]
-    };
+    const stream = torrentToStream(
+      mockSwarm,
+      mockRequest,
+      { ...mockInfo, episode: { ...mockInfo.episode!, episode: 99, absolute: 99 } },
+      mockTorrentListItem
+    );
 
-    const stream = torrentToStream(mockSwarm, mockRequest, mockInfo, torrentDetails);
     expect(stream).toBeNull();
   });
 
   it('torrentsToStreams maps multiple items and filters out null details or unmatched files', () => {
-    const matchedTorrent: NekoTorrentItem = {
-      ...mockTorrentListItem,
-      files: [
-        { name: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv', length: 100 }
-      ]
-    };
-
     const streams = torrentsToStreams(
       [
-        { swarm: mockSwarm, details: matchedTorrent },
+        { swarm: mockSwarm, details: mockTorrentListItem },
         { swarm: mockSwarm, details: { ...mockTorrentListItem, files: [] } }
       ],
       mockRequest,
@@ -253,6 +204,6 @@ describe('torrentToStream', () => {
     );
 
     expect(streams).toHaveLength(1);
-    expect(streams[0].fileIdx).toBe(0);
+    expect(streams[0].fileIdx).toBe(22);
   });
 });

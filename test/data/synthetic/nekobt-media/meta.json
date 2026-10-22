@@ -2,10 +2,31 @@
   "records": [
     {
       "id": "null-data",
-      "params": { "path": { "id": "<media-id>" }, "query": { "force": "true" } },
+      "params": {
+        "path": {
+          "id": "<media-id>"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
       "fetched": null,
-      "grounds": "assumed media body with `data: null` — `getMedia` returns `result.data?.data || null`; migrated from api.test.ts (\"getMedia returns null when the response carries no data\")",
+      "grounds": "assumed media body with `data: null` \u2014 `getMedia` returns `result.data?.data || null`; migrated from api.test.ts (\"getMedia returns null when the response carries no data\")",
       "verdict": "ungrounded"
+    },
+    {
+      "id": "episode-zero",
+      "params": {
+        "path": {
+          "id": "s9001"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "a season whose entry carries an episode 0 (dst_start == 2 and ord == 1), which the anime-provider branch treats specially \u2014 no real instance exists: 0 of the 151 anilist entries in the catalog and 0 of the 151 entries fetched live from the NekoBT media API have dst_start == 2 with ord == 1"
     }
   ]
 }

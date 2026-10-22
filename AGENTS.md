@@ -73,10 +73,10 @@ flowchart TB
 
 Test data lives under `test/data/` — the first three folders hold **real** data:
 
-- `fixtures/` — immutable justification evidence (payload `<id>.json` + records-only `meta.json`)
-- `examples/` — refreshable portrait of observed requests; `self-stream/` holds the observed Nuvio stream requests — not an exhaustive catalog
+- `fixtures/` — immutable justification evidence (payload `<id>.json` + records-only `meta.json`); a specific real case, pointed at by at least one test
+- `examples/` — refreshable portrait of observed requests; used **as a whole** by generic folder tests (`test/examples.test.ts`), never one data point picked out; `self-stream/` holds the observed Nuvio stream requests — not an exhaustive catalog
 - `unsupported/` — quarantine for known-broken cases (excluded from vitest collection)
-- `synthetic/` — assumed, ungrounded shapes — never passed off as real
+- `synthetic/` — assumed, ungrounded shapes — never passed off as real; a specific assumed shape, pointed at by one test as a rule of thumb
 
 Folders are named `<service>-<api>`; endpoint declarations (`endpoint`/`key`/`defaults`) live in the root registry `test/data/meta.json`.
 

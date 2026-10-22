@@ -11,7 +11,7 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "multi-season anilist.entries + src/dst offsets (README §3; catalog entry)"
+      "grounds": "multi-season anilist.entries + src/dst offsets (README \u00a73; catalog entry)"
     },
     {
       "id": "s11599",
@@ -24,7 +24,7 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "anilist: null via TVDB resolution (README §1)"
+      "grounds": "anilist: null via TVDB resolution (README \u00a71)"
     },
     {
       "id": "m145",
@@ -40,17 +40,17 @@
       "grounds": "movie episodes + anilist primary (README fixture table)"
     },
     {
-      "id": "m1305",
+      "id": "s1545",
       "params": {
         "path": {
-          "id": "m1305"
+          "id": "s1545"
         },
         "query": {
           "force": "true"
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "anilist: null via TMDB resolution (README §1)"
+      "grounds": "named-season matching without synonyms \u2014 16 anilist entries carry an empty synonyms list; also the largest media in the corpus (62 entries, 38 seasons)"
     }
   ]
 }

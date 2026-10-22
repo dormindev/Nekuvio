@@ -12,54 +12,47 @@ import type {
   NuvioParsedRequest
 } from '../src/types.js';
 
-import { loadFixtureData } from './helpers/test-data.js';
+import { loadFixtureData, loadSynthetic } from './helpers/test-data.js';
 
+
+// The media below are real captures from the data catalog. The *request* is
+// what varies — the media stays fixed, so every assertion is checked against
+// a shape the API actually returns.
+const s172 = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
+const m145 = loadFixtureData<NekoMediaData>('nekobt-media', 'm145');
+const unmapped = loadFixtureData<NekoMediaData>('nekobt-media', 's11599');
+const s1545 = loadFixtureData<NekoMediaData>('nekobt-media', 's1545');
+
+// The primary season of s172 carries the series title with its synonyms; one
+// of s1545's entries carries a title without any.
+const primarySeason = s172.anilist.entries.find(e => e.season === 1)!;
+const season4 = s172.anilist.entries.find(e => e.season === 4)!;
+const withoutSynonyms = s1545.anilist.entries.find(
+  e => e.media?.title && (e.media.title.synonyms ?? []).length === 0
+)!;
+
+function request(overrides: Partial<NuvioParsedRequest>): NuvioParsedRequest {
+  return {
+    provider: 'imdb',
+    externalId: 'tt1',
+    isMovie: false,
+    isAnimeProvider: false,
+    season: null,
+    episode: null,
+    ...overrides
+  };
+}
 
 describe('fitInfo', () => {
-  const mockNekoId: NekoMediaResolveData = {
+  const nekoId: NekoMediaResolveData = {
     media_id: 's172',
     anilist_id: 182205,
     isMovie: false
   };
 
-  const mockMedia: NekoMediaData = {
-    anilist: {
-      primary: {
-        id: 182205
-      },
-      entries: [
-        {
-          season: 4,
-          src_start: 1,
-          src_end: 24,
-          dst_start: 1,
-          dst_end: 24,
-          anilist_id: 182205
-        }
-      ]
-    },
-    episodes: [
-      {
-        id: 220939,
-        season: 4,
-        episode: 23,
-        absolute: 95,
-        title: "Granville's Hope"
-      }
-    ]
-  };
-
   it('correctly maps request season and episode to anime episode', () => {
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt123',
-      isMovie: false,
-      isAnimeProvider: false,
-      season: 4,
-      episode: 23
-    };
+    const info = fitInfo(nekoId, s172, request({ season: 4, episode: 23 }));
 
-    const info = fitInfo(mockNekoId, mockMedia, request);
     expect(info.media_id).toBe('s172');
     expect(info.season).toBeTruthy();
     expect(info.season?.season).toBe(4);
@@ -69,319 +62,128 @@ describe('fitInfo', () => {
     expect(info.episode?.id).toBe(220939);
   });
 
-  it('supports offset dst_start and src_start calculations with isPrimary', () => {
-    const customMedia: NekoMediaData = {
-      anilist: {
-        primary: {
-          id: 9999
-        },
-        entries: [
-          {
-            season: 2,
-            src_start: 1,
-            src_end: 12,
-            dst_start: 13,
-            dst_end: 24,
-            anilist_id: 9999
-          }
-        ]
-      },
-      episodes: [
-        {
-          id: 555,
-          season: 2,
-          episode: 2, // (14 - 13) + 1 = 2
-          absolute: 14
-        }
-      ]
-    };
+  it('resolves the primary season when the request matches it', () => {
+    // The primary entry of s172 is season 1 (src 1-24, dst 1-24).
+    const info = fitInfo(
+      { media_id: 's172', anilist_id: 101280, isMovie: false },
+      s172,
+      request({ season: 1, episode: 1 })
+    );
 
-    const request: NuvioParsedRequest = {
-      provider: 'kitsu',
-      externalId: '123',
-      isMovie: false,
-      isAnimeProvider: true,
-      season: null,
-      episode: 14
-    };
+    expect(info.season?.season).toBe(1);
+    expect(info.season?.isPrimary).toBe(true);
+    expect(info.episode?.season).toBe(1);
+  });
 
-    const info = fitInfo({ media_id: 's99', anilist_id: 9999, isMovie: false }, customMedia, request);
-    expect(info.episode).toBeTruthy();
-    expect(info.episode?.episode).toBe(2);
-    expect(info.episode?.id).toBe(555);
+  it('applies the src_start offset when the matched season is not primary', () => {
+    // s172's second season-2 entry runs src 13-24 → dst 1-12, and it is not
+    // the primary season, so the episode is renumbered into src space:
+    // 5 + (src_start 13 - 1) = 17.
+    const info = fitInfo(
+      { media_id: 's172', anilist_id: 116742, isMovie: false },
+      s172,
+      request({ isAnimeProvider: true, episode: 5 })
+    );
+
+    expect(info.season?.season).toBe(2);
+    expect(info.season?.isPrimary).toBe(false);
+    expect(info.episode?.episode).toBe(17);
+    expect(info.episode?.id).toBe(4269);
+    expect(info.episode?.absolute).toBe(41);
   });
 
   it('handles movie request: returns null episode when nekoId.isMovie is true', () => {
-    const movieMedia: NekoMediaData = {
-      anilist: {
-        primary: {
-          id: 1111
-        },
-        entries: [
-          {
-            season: 1,
-            src_start: 1,
-            src_end: 1,
-            dst_start: 1,
-            dst_end: 1,
-            anilist_id: 1111
-          }
-        ]
-      },
-      episodes: []
-    };
+    const info = fitInfo(
+      { media_id: 'm145', anilist_id: 20954, isMovie: true },
+      m145,
+      request({ isMovie: true })
+    );
 
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt555',
-      isMovie: true,
-      isAnimeProvider: false,
-      season: null,
-      episode: null
-    };
-
-    const info = fitInfo({ media_id: 'm1', anilist_id: 1111, isMovie: true }, movieMedia, request);
-    expect(info.media_id).toBe('m1');
     expect(info.episode).toBeNull();
+    expect(info.season?.season).toBeNull();
   });
 
   it('handles media with null anilist (unmapped media like s11599 or m1305) without crashing', () => {
-    const mediaWithoutAnilist: NekoMediaData = {
-      id: 's11599',
-      media_id: 's11599',
-      anilist: null as any,
-      episodes: [
-        {
-          id: 101,
-          season: 1,
-          episode: 1,
-          absolute: 1
-        }
-      ]
-    };
+    const info = fitInfo(
+      { media_id: 's11599', anilist_id: 1, isMovie: false },
+      unmapped,
+      request({ season: 1, episode: 1 })
+    );
 
-    const request: NuvioParsedRequest = {
-      provider: 'tvdb',
-      externalId: '460809',
-      isMovie: false,
-      isAnimeProvider: false,
-      season: 1,
-      episode: 1
-    };
-
-    const info = fitInfo({ media_id: 's11599', isMovie: false }, mediaWithoutAnilist, request);
-    expect(info.media_id).toBe('s11599');
     expect(info.season).toBeNull();
-    expect(info.episode).toBeTruthy();
-    expect(info.episode?.id).toBe(101);
+    expect(info.episode?.id).toBe(524767);
   });
 
   it('resolves real fixture s172 (Slime S4) accurately', () => {
-    const realMedia = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt123',
-      isMovie: false,
-      isAnimeProvider: false,
-      season: 4,
-      episode: 23
-    };
+    const info = fitInfo(nekoId, s172, request({ season: 4, episode: 23 }));
 
-    const info = fitInfo({ media_id: 's172', anilist_id: 182205, isMovie: false }, realMedia, request);
-    expect(info.season).toBeTruthy();
-    expect(info.season?.season).toBe(4);
-    expect(info.episode).toBeTruthy();
-    expect(info.episode?.episode).toBe(23);
-    expect(info.episode?.absolute).toBe(95);
+    expect(info.media_id).toBe('s172');
+    expect(info.episode?.id).toBe(220939);
+    expect(info.episode?.title).toBe("Granville's Hope");
   });
 
   it('falls back to request season and episode in media.episodes when season info is null', () => {
-    const mediaWithSpecialEpisode: NekoMediaData = {
-      anilist: {
-        primary: { id: 182205 },
-        entries: [
-          {
-            season: 4,
-            src_start: 1,
-            src_end: 24,
-            dst_start: 1,
-            dst_end: 24,
-            anilist_id: 182205
-          }
-        ]
-      },
-      episodes: [
-        {
-          id: 9991,
-          season: 0,
-          episode: 1,
-          absolute: 100
-        }
-      ]
-    };
+    // Season 0 entries are skipped for non-anime providers, so no season is
+    // found and the episode is looked up in media.episodes directly.
+    const info = fitInfo(nekoId, s172, request({ season: 0, episode: 1 }));
 
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt1',
-      isMovie: false,
-      isAnimeProvider: false,
-      season: 0,
-      episode: 1
-    };
-
-    const info = fitInfo({ media_id: 's1', anilist_id: 999999, isMovie: false }, mediaWithSpecialEpisode, request);
     expect(info.season).toBeNull();
     expect(info.episode).toBeTruthy();
-    expect(info.episode?.id).toBe(9991);
+    expect(info.episode?.id).toBe(4215);
     expect(info.episode?.season).toBe(0);
     expect(info.episode?.episode).toBe(1);
   });
 
   it('throws error if episode entry is not found in media.episodes', () => {
-    expect(() => {
-      fitInfo(mockNekoId, mockMedia, {
-        provider: 'imdb',
-        externalId: 'tt1',
-        isMovie: false,
-        isAnimeProvider: false,
-        season: 4,
-        episode: 99
-      });
-    }).toThrow(/Episode entry with season 4 and episode 99 not found/);
+    expect(() =>
+      fitInfo(nekoId, s172, request({ season: 4, episode: 99 }))
+    ).toThrow(/Episode entry with season 4 and episode 99 not found/);
   });
 
   it('handles the anime-provider season-with-episode-0 offset and skips season 0 entries', () => {
-    const media: NekoMediaData = {
-      anilist: {
-        primary: { id: 500 },
-        entries: [
-          // Season 0 special: skipped by the anime-provider branch.
-          { season: 0, src_start: 1, src_end: 1, dst_start: 1, dst_end: 1, ord: 0, anilist_id: 500 },
-          // dst_start === 2 && ord === 1: probable season with an episode 0.
-          { season: 1, src_start: 1, src_end: 12, dst_start: 2, dst_end: 13, ord: 1, anilist_id: 500 }
-        ]
-      },
-      episodes: [
-        // isPrimary: episode 2 + (-dst_start + 1) = 2 + (-1) = 1
-        { id: 900, season: 1, episode: 1, absolute: 2 }
-      ]
-    };
+    // No real release has a season whose entry starts at dst 2 with ord 1, so
+    // the shape is assumed (synthetic/nekobt-media/episode-zero).
+    const media = loadSynthetic<{ data: NekoMediaData }>('nekobt-media', 'episode-zero').data;
 
-    const request: NuvioParsedRequest = {
-      provider: 'kitsu',
-      externalId: '1',
-      isMovie: false,
-      isAnimeProvider: true,
-      season: null,
-      episode: 2
-    };
+    const info = fitInfo(
+      { media_id: 's9001', anilist_id: 182205, isMovie: false },
+      media,
+      request({ isAnimeProvider: true, episode: 2 })
+    );
 
-    const info = fitInfo({ media_id: 's1', anilist_id: 500, isMovie: false }, media, request);
-    expect(info.episode?.id).toBe(900);
-  });
-
-  it('applies the src_start offset when the matched season is not primary', () => {
-    const media: NekoMediaData = {
-      anilist: {
-        primary: { id: 111 }, // differs from nekoId.anilist_id -> isPrimary false
-        entries: [
-          { season: 3, src_start: 10, src_end: 30, dst_start: 1, dst_end: 20, anilist_id: 999 }
-        ]
-      },
-      episodes: [
-        // not primary: episode 12 + (src_start - 1) = 12 + 9 = 21
-        { id: 950, season: 3, episode: 21, absolute: 40 }
-      ]
-    };
-
-    const request: NuvioParsedRequest = {
-      provider: 'kitsu',
-      externalId: '1',
-      isMovie: false,
-      isAnimeProvider: true,
-      season: null,
-      episode: 12
-    };
-
-    const info = fitInfo({ media_id: 's1', anilist_id: 999, isMovie: false }, media, request);
-    expect(info.episode?.id).toBe(950);
+    expect(info.season?.season).toBe(1);
+    // isPrimary: episode 2 + (-dst_start + 1) = 2 + (-1) = 1
+    expect(info.episode?.episode).toBe(1);
+    expect(info.episode?.id).toBe(220900);
   });
 
   it('skips anilist entries whose season does not match a non-anime request', () => {
-    const media: NekoMediaData = {
-      anilist: {
-        primary: { id: 182205 },
-        entries: [
-          { season: 3, src_start: 1, src_end: 12, dst_start: 1, dst_end: 12, anilist_id: 182205 },
-          { season: 4, src_start: 1, src_end: 24, dst_start: 1, dst_end: 24, anilist_id: 182205 }
-        ]
-      },
-      episodes: [
-        { id: 220939, season: 4, episode: 23, absolute: 95 }
-      ]
-    };
+    // s172 has entries for seasons 0, 1, 2, 3 and 4 — season 3 is the only
+    // one covering the requested episode range of season 2.
+    const info = fitInfo(
+      { media_id: 's172', anilist_id: 156822, isMovie: false },
+      s172,
+      request({ season: 3, episode: 5 })
+    );
 
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt1',
-      isMovie: false,
-      isAnimeProvider: false,
-      season: 4,
-      episode: 23
-    };
-
-    const info = fitInfo({ media_id: 's172', anilist_id: 182205, isMovie: false }, media, request);
-    expect(info.episode?.id).toBe(220939);
+    expect(info.season?.season).toBe(3);
+    expect(info.episode?.season).toBe(3);
   });
 
   it('uses the season src_start when a movie request resolves to series media', () => {
-    const media: NekoMediaData = {
-      anilist: {
-        primary: { id: 700 },
-        entries: [
-          { season: 2, src_start: 5, src_end: 10, dst_start: 1, dst_end: 6, anilist_id: 700 }
-        ]
-      },
-      episodes: [
-        { id: 800, season: 2, episode: 5, absolute: 30 }
-      ]
-    };
+    const info = fitInfo(nekoId, s172, request({ isMovie: true }));
 
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt1',
-      isMovie: true,
-      isAnimeProvider: false,
-      season: null,
-      episode: null
-    };
-
-    const info = fitInfo({ media_id: 's1', anilist_id: 700, isMovie: false }, media, request);
-    expect(info.episode?.id).toBe(800);
+    expect(info.episode?.episode).toBe(1);
+    expect(info.episode?.id).toBe(172749);
   });
 
   it('throws when movie-resolved media is requested as a series', () => {
-    const media: NekoMediaData = {
-      anilist: {
-        primary: { id: 600 },
-        entries: [
-          { season: null as any, src_start: 1, src_end: 1, dst_start: 1, dst_end: 1, anilist_id: 600 }
-        ]
-      },
-      episodes: []
-    };
-
-    const request: NuvioParsedRequest = {
-      provider: 'imdb',
-      externalId: 'tt1',
-      isMovie: false,
-      isAnimeProvider: false,
-      season: 1,
-      episode: 1
-    };
-
     expect(() =>
-      fitInfo({ media_id: 'm1', anilist_id: 600, isMovie: true }, media, request)
+      fitInfo(
+        { media_id: 'm145', anilist_id: 20954, isMovie: true },
+        m145,
+        request({ season: 1, episode: 1 })
+      )
     ).toThrow(/do not match/);
   });
 });
@@ -395,19 +197,17 @@ describe('findMovieFile', () => {
   };
 
   it('selects the largest video file in a movie torrent', () => {
-    const torrent = {
-      files: [
-        { name: 'Spirited.Away.Sample.mkv', length: 50_000_000 },
-        { name: 'Spirited.Away.2001.1080p.BluRay.x265.mkv', length: 4_500_000_000 },
-        { name: 'Featurette.mkv', length: 200_000_000 }
-      ]
-    };
+    // A real release that carries the movie among the episodes: the 2.4 GB
+    // movie file is the largest one in the torrent.
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '7514276465159'
+    );
 
     const match = findMovieFile(torrent, dummyInfo);
+
     expect(match).toBeTruthy();
-    expect(match?.index).toBe(1);
-    expect(match?.name).toBe('Spirited.Away.2001.1080p.BluRay.x265.mkv');
-    expect(match?.length).toBe(4_500_000_000);
+    expect(match?.name).toContain('The Movie');
+    expect(match?.length).toBe(2411031290);
   });
 
   it('returns null if files list is empty', () => {
@@ -416,6 +216,12 @@ describe('findMovieFile', () => {
 });
 
 describe('findEpisodeFile', () => {
+  // The real Slime S4 release: 24 files named S04E01 … S04E24, so the file for
+  // episode 23 sits at index 22.
+  const sxxEyyTorrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+    'nekobt-torrents', '14474579778825'
+  );
+
   const info: FitInfoResult = {
     media_id: 's172',
     media: { anilist: { entries: [] }, episodes: [] },
@@ -425,7 +231,8 @@ describe('findEpisodeFile', () => {
       src_end: 24,
       dst_start: 1,
       dst_end: 24,
-      anilist_id: 182205
+      anilist_id: 182205,
+      media: season4.media
     },
     episode: {
       id: 220939,
@@ -436,104 +243,95 @@ describe('findEpisodeFile', () => {
   };
 
   it('matches files using SxxEyy pattern', () => {
-    const torrent = {
-      files: [
-        { name: 'Slime S04E22.mkv', length: 1000 },
-        { name: '[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv', length: 292935189 },
-        { name: 'Slime S04E24.mkv', length: 1000 }
-      ]
-    };
+    const match = findEpisodeFile(sxxEyyTorrent, info);
 
-    const match = findEpisodeFile(torrent, info);
     expect(match).toBeTruthy();
-    expect(match?.index).toBe(1);
-    expect(match?.name).toBe('[Delta] That Time I Got Reincarnated as a Slime S04E23 [1080p].mkv');
+    expect(match?.index).toBe(22);
+    expect(match?.name).toContain('S04E23');
   });
 
   it('matches files with multi-episode range SxxEyy-Ezz pattern', () => {
-    const torrent = {
-      files: [
-        { name: 'Slime S04E01-E10.mkv', length: 2000 },
-        { name: '[Group] That Time I Got Reincarnated as a Slime S04E20-E24 [1080p].mkv', length: 5000 },
-        { name: 'Slime S04E25-E28.mkv', length: 2000 }
-      ]
-    };
+    // No real release names a file as a range — assumed shape.
+    const torrent = loadSynthetic<{ data: { files: Array<{ name: string; length: number }> } }>(
+      'nekobt-torrents', 'episode-range'
+    ).data;
 
     const match = findEpisodeFile(torrent, info);
+
     expect(match).toBeTruthy();
-    expect(match?.index).toBe(1);
-    expect(match?.name).toBe('[Group] That Time I Got Reincarnated as a Slime S04E20-E24 [1080p].mkv');
+    expect(match?.index).toBe(0);
+    expect(match?.name).toContain('S04E20-E24');
   });
 
   it('matches files with dot/underscore separated SxxEyy pattern', () => {
-    const torrent = {
-      files: [
-        {
-          name: 'That.Time.I.Got.Reincarnated.as.a.Slime.S04E23.Granvilles.Hope.1080p.mkv',
-          length: 1500336817
-        }
-      ]
-    };
+    // No real release separates the Sxx and Eyy tokens — assumed shape.
+    const torrent = loadSynthetic<{ data: { files: Array<{ name: string; length: number }> } }>(
+      'nekobt-torrents', 'underscore-separated'
+    ).data;
 
     const match = findEpisodeFile(torrent, info);
+
     expect(match).toBeTruthy();
     expect(match?.index).toBe(0);
+    expect(match?.name).toContain('S04_E23');
   });
 
   it('matches files with separated season and episode pattern', () => {
-    const torrent = {
-      files: [
-        { name: 'That Time I Got Reincarnated as a Slime 4th Season - 23 [1080p].mkv', length: 1200 }
-      ]
-    };
+    // A real release naming the season in words: "4th Season - 24".
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '14414565343489'
+    );
 
-    const match = findEpisodeFile(torrent, info);
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 1, season: 4, episode: 24, absolute: 96 } }
+    );
+
     expect(match).toBeTruthy();
     expect(match?.index).toBe(0);
+    expect(match?.name).toContain('4th Season - 24');
   });
 
   it('matches files using absolute episode pattern when SxxEyy is absent', () => {
-    const torrent = {
-      files: [
-        { name: '[FrixySubs] Tensei Shitara Slime Datta Ken - 94 [1080p].mkv', length: 1000 },
-        { name: '[FrixySubs] Tensei Shitara Slime Datta Ken - 95 [1080p].mkv', length: 1200 },
-        { name: '[FrixySubs] Tensei Shitara Slime Datta Ken - 96 [1080p].mkv', length: 1000 }
-      ]
-    };
+    // A real release naming the file by its absolute number only.
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '14042604076552'
+    );
 
-    const match = findEpisodeFile(torrent, info);
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 1, season: 1, episode: 1180, absolute: 1180 } }
+    );
+
     expect(match).toBeTruthy();
-    expect(match?.index).toBe(1);
-    expect(match?.name).toBe('[FrixySubs] Tensei Shitara Slime Datta Ken - 95 [1080p].mkv');
+    expect(match?.index).toBe(0);
+    expect(match?.name).toContain('1180');
   });
 
   it('matches files with EP / E prefix and leading zeros in absolute episode', () => {
-    const torrent = {
-      files: [
-        { name: 'Show_EP095_[1080p].mkv', length: 500 }
-      ]
-    };
+    // A real release using the EP prefix: "One Piece EP1180".
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '14060867155212'
+    );
 
-    const match = findEpisodeFile(torrent, info);
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 1, season: 1, episode: 1180, absolute: 1180 } }
+    );
+
     expect(match).toBeTruthy();
     expect(match?.index).toBe(0);
+    expect(match?.name).toContain('EP1180');
   });
 
   it('matches files when info.season is null using info.episode.season', () => {
-    const infoWithoutSeason: FitInfoResult = {
-      ...info,
-      season: null
-    };
+    const match = findEpisodeFile(
+      sxxEyyTorrent,
+      { ...info, season: null }
+    );
 
-    const torrent = {
-      files: [
-        { name: 'Slime S04E23.mkv', length: 1000 }
-      ]
-    };
-
-    const match = findEpisodeFile(torrent, infoWithoutSeason);
     expect(match).toBeTruthy();
-    expect(match?.index).toBe(0);
+    expect(match?.index).toBe(22);
   });
 
   it('returns null if torrent files array is empty', () => {
@@ -541,80 +339,67 @@ describe('findEpisodeFile', () => {
   });
 
   it('returns null if no files match the episode', () => {
-    const torrent = {
-      files: [
-        { name: 'Slime S04E01.mkv', length: 1000 },
-        { name: 'Slime S04E02.mkv', length: 1000 }
-      ]
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '14474579778825'
+    );
+
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 1, season: 4, episode: 99, absolute: 99 } }
+    );
+
+    expect(match).toBeNull();
+  });
+
+  it('skips absolute matching when the absolute episode number is missing', () => {
+    // The real release names its file by its absolute number ("One Piece -
+    // 1180"). With the absolute number missing from the fit info, the
+    // absolute strategy is off and the episode-only strategy looks for the
+    // episode number instead — which the file does not carry.
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '14042604076552'
+    );
+
+    const withoutAbsolute: FitInfoResult = {
+      ...info,
+      episode: { id: 1, season: 1, episode: 23, absolute: 0 }
     };
 
-    expect(findEpisodeFile(torrent, info)).toBeNull();
+    expect(findEpisodeFile(torrent, withoutAbsolute)).toBeNull();
   });
 
   it('matches files by named season including synonyms', () => {
+    // No real release names a file after the series title alone — assumed shape.
+    const torrent = loadSynthetic<{ data: { files: Array<{ name: string; length: number }> } }>(
+      'nekobt-torrents', 'named-season'
+    ).data;
+
+    // The real title of s172's primary season, synonyms included.
     const namedInfo: FitInfoResult = {
       ...info,
-      season: {
-        ...info.season!,
-        media: {
-          title: {
-            romaji: 'Tensei Shitara Slime Datta Ken 4th Season',
-            english: 'That Time I Got Reincarnated as a Slime Season 4',
-            native: '転生したらスライムだった件',
-            synonyms: ['Tensura 4']
-          }
-        }
-      }
-    };
-
-    const torrent = {
-      files: [
-        { name: 'Tensura 4 - 23 [1080p].mkv', length: 1000 }
-      ]
+      season: { ...info.season!, media: primarySeason.media }
     };
 
     const match = findEpisodeFile(torrent, namedInfo);
+
     expect(match?.index).toBe(0);
   });
 
   it('matches files by named season when there are no synonyms', () => {
+    const torrent = loadSynthetic<{ data: { files: Array<{ name: string; length: number }> } }>(
+      'nekobt-torrents', 'named-season'
+    ).data;
+
+    // A real media whose title carries no synonyms at all (s1545, an One Piece
+    // film entry) — the matcher must still match on the title alone.
     const namedInfo: FitInfoResult = {
       ...info,
-      season: {
-        ...info.season!,
-        media: {
-          title: {
-            romaji: 'Slime',
-            english: 'Slime',
-            native: 'スライム',
-            synonyms: []
-          }
-        }
-      }
-    };
-
-    const torrent = {
-      files: [
-        { name: 'Slime - 23 [1080p].mkv', length: 1000 }
-      ]
+      season: { ...info.season!, media: withoutSynonyms.media },
+      episode: { id: 1, season: 1, episode: 1, absolute: 1 }
     };
 
     const match = findEpisodeFile(torrent, namedInfo);
-    expect(match?.index).toBe(0);
-  });
 
-  it('skips absolute matching when the absolute episode number is missing', () => {
-    const zeroAbsoluteInfo: FitInfoResult = {
-      ...info,
-      episode: { ...info.episode!, absolute: 0 }
-    };
-
-    const torrent = {
-      files: [
-        { name: 'Random Show - 95.mkv', length: 1000 }
-      ]
-    };
-
-    expect(findEpisodeFile(torrent, zeroAbsoluteInfo)).toBeNull();
+    expect(match?.index).toBe(1);
   });
 });

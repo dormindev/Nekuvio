@@ -14,7 +14,13 @@ The image runs the pre-compiled Node.js application (`node dist/index.js`) liste
 
 ## Docker Compose Setup
 
-Create a `docker-compose.yml` file:
+This repository ships a `compose.yaml` that builds the image from source:
+
+```bash
+docker compose up -d
+```
+
+To run the **published** image instead, use a `compose.yaml` of your own:
 
 ```yaml
 services:
@@ -29,7 +35,7 @@ services:
       - LOG_LEVEL=info
 ```
 
-Run the container:
+Then:
 
 ```bash
 docker compose up -d

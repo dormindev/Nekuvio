@@ -132,7 +132,7 @@ Type checking without producing compiled output:
 npm run build:check
 ```
 
-This runs TypeScript with `--noEmit`.
+This runs TypeScript with `--noEmit` over **the sources and the test suite** — the tests are type-checked by `test/tsconfig.json`, so a test that drifts from the types it exercises fails the check.
 
 This is useful for development and CI checks where compilation output is not required.
 
@@ -224,22 +224,27 @@ The registry-specific image name is a CI/release concern and is not hardcoded in
 
 The npm scripts are the primary interface for common development operations.
 
-| Command                    | Purpose                                                                 |
-| -------------------------- | ----------------------------------------------------------------------- |
-| `npm run start:dev:info`   | Run the TypeScript application in watch mode with informational logging |
-| `npm run start:dev:debug`  | Run the TypeScript application in watch mode with debug logging         |
-| `npm run build`            | Generate build metadata and compile the application                     |
-| `npm run build:check`      | Type-check without emitting files                                       |
-| `npm run build:prepare`    | Generate GitHub-related build metadata                                  |
-| `npm run build:compile`    | Compile TypeScript                                                      |
-| `npm start`                | Run the compiled application                                            |
-| `npm test`                 | Run the test suite with Vitest                                          |
-| `npm run test:coverage`    | Run the test suite once with V8 code coverage analysis                  |
-| `npm run docker:build`     | Prepare build metadata and build the Docker image                       |
-| `npm run docker:build:check` | Validate docker compose configuration                                 |
-| `npm run docker:run:up`    | Start the Docker Compose service in background                          |
-| `npm run docker:run:down`  | Stop the Docker Compose service                                         |
-| `npm run docker:run:logs`  | Follow Docker Compose logs                                              |
+| Command                         | Purpose                                                                 |
+| ------------------------------- | ----------------------------------------------------------------------- |
+| `npm run postinstall`           | Apply the patch-package patches after install                           |
+| `npm run build`                 | Generate build metadata and compile the application                     |
+| `npm run build:prepare`         | Generate GitHub-related build metadata                                  |
+| `npm run build:compile`         | Compile TypeScript                                                      |
+| `npm run build:check`           | Type-check the sources and the tests without emitting files             |
+| `npm run test`                  | Run the test suite with Vitest                                          |
+| `npm run test:coverage`         | Run the test suite once with V8 code coverage analysis                  |
+| `npm run test:examples:refresh` | Re-fetch the example payloads and their fetched-dates                   |
+| `npm run test:fixtures:compare` | Compare the fixtures against the live API (never writes)                |
+| `npm run test:data:check`       | Check the catalog's internal consistency                                |
+| `npm run benchmark`             | Run the pipeline benchmark                                              |
+| `npm run start`                 | Run the compiled application                                            |
+| `npm run start:dev:info`        | Run the TypeScript application in watch mode with informational logging |
+| `npm run start:dev:debug`       | Run the TypeScript application in watch mode with debug logging         |
+| `npm run docker:build`          | Prepare build metadata and build the Docker image                       |
+| `npm run docker:build:check`    | Validate docker compose configuration                                   |
+| `npm run docker:run:up`         | Start the Docker Compose service in background                          |
+| `npm run docker:run:down`       | Stop the Docker Compose service                                         |
+| `npm run docker:run:logs`       | Follow the Docker Compose logs                                          |
 
 Keeping these operations behind npm scripts provides a consistent interface for developers and, later, for CI workflows.
 

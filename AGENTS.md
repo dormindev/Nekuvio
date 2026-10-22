@@ -69,12 +69,14 @@ flowchart TB
 | `LOG_LEVEL` | `info` | Logging verbosity (`debug`, `info`, `warn`, `error`, `off`) |
 | `STALENESS_DAYS` | `14` | Test-data freshness threshold (warning-only) |
 
+`NODE_ENV` is read by `src/environment.ts` but has no effect; the shipped `compose.yaml` sets it to `production`.
+
 ## Test Fixtures & Samples
 
 Test data lives under `test/data/` — the first three folders hold **real** data:
 
 - `fixtures/` — immutable justification evidence (payload `<id>.json` + records-only `meta.json`); a specific real case, pointed at by at least one test
-- `examples/` — refreshable portrait of observed requests; used **as a whole** (the corpus drives the matcher and API tests; no data point picked out); `self-stream/` holds the observed Nuvio stream requests — not an exhaustive catalog
+- `examples/` — refreshable portrait of observed requests; used **as a whole** (the matcher test drives every torrent in the corpus; no data point picked out); `self-stream/` holds the observed Nuvio stream requests — not an exhaustive catalog
 - `unsupported/` — quarantine for known-broken cases (excluded from vitest collection)
 - `synthetic/` — assumed, ungrounded shapes — never passed off as real; a specific assumed shape, pointed at by one test as a rule of thumb
 

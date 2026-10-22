@@ -38,26 +38,13 @@ Nekuvio is distributed as a Docker container image via GitHub Packages.
 
 ### Quick Start with Docker Compose
 
-Create a `docker-compose.yml` file:
-
-```yaml
-services:
-  nekuvio:
-    image: ghcr.io/dormindev/nekuvio:latest
-    container_name: nekuvio
-    restart: unless-stopped
-    ports:
-      - "7000:7000"
-    environment:
-      - PORT=7000
-      - LOG_LEVEL=info
-```
-
-Run the container:
+This repository ships a `compose.yaml` that builds the image from source:
 
 ```bash
 docker compose up -d
 ```
+
+To run the published image instead, see [docs/docker.md](docs/docker.md).
 
 Once running, configure the addon in your Nuvio client using your server URL (e.g. `http://<your-ip>:7000/manifest.json`).
 

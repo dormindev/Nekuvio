@@ -62,7 +62,7 @@ npm run test:data:check
 
 Before committing, verify all quality checks pass:
 
-1. **Type Checking**:
+1. **Type Checking** (sources *and* tests):
    ```bash
    npm run build:check
    ```

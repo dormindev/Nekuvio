@@ -123,3 +123,61 @@ export function isErrorBody(data: unknown): boolean {
   const body = data as Record<string, unknown>;
   return body.error === true || typeof body.error === 'string';
 }
+
+/**
+ * One endpoint folder of the catalog: its records plus their payloads.
+ */
+export interface CatalogFolder {
+  standing: 'fixtures' | 'examples' | 'synthetic';
+  endpoint: string;
+  records: CatalogRecord[];
+}
+
+export interface CatalogRecord {
+  id: string;
+  standing: 'fixtures' | 'examples' | 'synthetic';
+  endpoint: string;
+  params: { path?: Record<string, string>; query?: Record<string, string> };
+  fetched: string | null;
+  grounds?: string;
+  verdict?: string;
+  used_by?: string[];
+  payload: unknown;
+}
+
+/**
+ * Read every endpoint folder of the catalog, with its records and payloads.
+ */
+export function readCatalog(dataDir: string): CatalogFolder[] {
+  const folders: CatalogFolder[] = [];
+
+  for (const standing of ['fixtures', 'examples', 'synthetic'] as const) {
+    const standingRoot = path.join(dataDir, standing);
+    if (!fs.existsSync(standingRoot)) continue;
+
+    for (const endpoint of fs.readdirSync(standingRoot, { withFileTypes: true })) {
+      if (!endpoint.isDirectory()) continue;
+      const metaPath = path.join(standingRoot, endpoint.name, 'meta.json');
+      if (!fs.existsSync(metaPath)) continue;
+
+      const meta = JSON.parse(fs.readFileSync(metaPath, 'utf8')) as {
+        records: CatalogRecord[];
+      };
+      const folder = path.join(standingRoot, endpoint.name);
+
+      folders.push({
+        standing,
+        endpoint: endpoint.name,
+        records: meta.records.map(rec => {
+          const payloadPath = path.join(folder, `${rec.id}.json`);
+          const payload = fs.existsSync(payloadPath)
+            ? JSON.parse(fs.readFileSync(payloadPath, 'utf8'))
+            : undefined;
+          return { ...rec, standing, endpoint: endpoint.name, payload };
+        })
+      });
+    }
+  }
+
+  return folders;
+}

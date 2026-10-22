@@ -1,0 +1,250 @@
+{
+  "error": false,
+  "data": {
+    "id": "13225791205644",
+    "uploaded_at": 1787352846897,
+    "title": "[sam] Hunter x Hunter (2011) (039-058) (BD 1080p HEVC x265 10-bit FLAC) [Dual-Audio]",
+    "auto_title": "[sam] Hunter x Hunter (2011) (039-058) (BD 1080p HEVC x265 10-bit FLAC) [Dual-Audio] {Tags:L3;V13;C2;A=ja,en;F=en;}",
+    "description": "This covers the third arc, Yorknew City. Looking for additional help with TS if anyone wants these to be released faster.\n\n[Arc 1: Hunter Exam](https://nyaa.si/view/1731757)\n[Arc 2: Heavens Arena](https://nyaa.si/view/1829502)\n\nITBD encode with modified Coalgirls subtitles. General cleanup of the dialogue (line breaks/splits/joins/timing). Undimmed or replaced various dimmed scenes. NCs are encoded using the USBD, matrix corrected, as the ITBD did not contain them. The NCOP had bad audio on the USBD, so replaced that with splices from regular eps. USBD English dub spliced together to match ITBD video.\n\n[Comparison](https://slow.pics/c/jcP3iNYB)\n\n**Staff List**\nTiming: sam\nTypesetting: P9\nSong Styling: Nyarthur\nEncoding: sam",
+    "mediainfo": "General\nUnique ID                                : 18054649546454000100404627851067788569 (0xD9532F2F4621026CF5F5E7AFA300D19)\nComplete name                            : [sam] Hunter x Hunter (2011) - 039 [BD 1080p FLAC] [47357C97].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 3.25 GiB\nDuration                                 : 23 min 35 s\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 19.7 Mb/s\nMovie name                               : Hunter x Hunter (2011) - 039\nEncoded date                             : UTC 2025-10-27 14:23:02\nWriting application                      : mkvmerge v95.0 ('Goodbye Stranger') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 + muxtools v0.2.0\nAttachments                              : AlegreyaSansSCBlack-Black.ttf / ArialBlack.TTF / FreestyleScript.TTF / HunterXHunterOP-SemiBold.ttf / Lehn084.TTF / Ltatlantis.TTF / PFTempestaSevenCompressed.ttf / GandhiSans-Bold.otf / GandhiSans-BoldItalic.otf / NyataFTR-Medium.otf / Profile-Medium.otf / TechnaSans.otf\n\nVideo\nID                                       : 1\nFormat                                   : HEVC\nFormat/Info                              : High Efficiency Video Coding\nFormat profile                           : Main 10@L4@Main\nCodec ID                                 : V_MPEGH/ISO/HEVC\nDuration                                 : 23 min 35 s\nBit rate                                 : 18.3 Mb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.369\nStream size                              : 3.02 GiB (93%)\nTitle                                    : BDrip by sam\nWriting library                          : x265 3.5+113-6a5b4e1cc:[Windows][GCC 13.2.0][64 bit] 10bit\nEncoding settings                        : cpuid=1111039 / frame-threads=5 / numa-pools=32 / wpp / no-pmode / no-pme / no-psnr / no-ssim / log-level=2 / csv / csv-log-level=0 / input-csp=1 / input-res=1920x1080 / interlace=0 / total-frames=33933 / level-idc=0 / high-tier=1 / uhd-bd=0 / ref=5 / no-allow-non-conformance / no-repeat-headers / annexb / no-aud / no-eob / no-eos / no-hrd / info / hash=0 / temporal-layers=0 / no-open-gop / min-keyint=23 / keyint=240 / gop-lookahead=0 / bframes=12 / b-adapt=2 / b-pyramid / bframe-bias=0 / rc-lookahead=60 / lookahead-slices=0 / scenecut=40 / no-hist-scenecut / radl=0 / no-splice / no-intra-refresh / ctu=64 / min-cu-size=8 / no-rect / no-amp / max-tu-size=32 / tu-inter-depth=2 / tu-intra-depth=2 / limit-tu=0 / rdoq-level=2 / dynamic-rd=0.00 / no-ssim-rd / signhide / no-tskip / nr-intra=0 / nr-inter=0 / no-constrained-intra / no-strong-intra-smoothing / max-merge=5 / limit-refs=1 / no-limit-modes / me=3 / subme=5 / merange=57 / temporal-mvp / no-frame-dup / no-hme / weightp / weightb / no-analyze-src-pics / deblock=-2:-2 / no-sao / no-sao-non-deblock / rd=3 / selective-sao=0 / no-early-skip / no-rskip / no-fast-intra / no-tskip-fast / no-cu-lossless / b-intra / no-splitrd-skip / rdpenalty=0 / psy-rd=2.00 / psy-rdoq=2.00 / no-rd-refine / no-lossless / cbqpoffs=-2 / crqpoffs=-2 / rc=crf / crf=12.6 / qcomp=0.72 / qpstep=4 / stats-write=0 / stats-read=0 / ipratio=1.40 / pbratio=1.30 / aq-mode=3 / aq-strength=0.75 / aq-bias-strength=1.00 / no-cutree / zone-count=2 / zones: / start-frame=1296 / end-frame=3212 / bitrate-factor=1.200000 / zones: / start-frame=31413 / end-frame=33090 / bitrate-factor=1.100000 / no-strict-cbr / qg-size=32 / no-rc-grain / qpmax=69 / qpmin=0 / no-const-vbv / sar=1 / overscan=0 / videoformat=5 / range=0 / colorprim=1 / transfer=1 / colormatrix=1 / chromaloc=0 / display-window=0 / cll=0,0 / min-luma=64 / max-luma=940 / log2-max-poc-lsb=8 / vui-timing-info / vui-hrd-info / slices=1 / no-opt-qp-pps / no-opt-ref-list-length-pps / no-multi-pass-opt-rps / scenecut-bias=0.05 / no-opt-cu-delta-qp / no-aq-motion / no-hdr10 / no-hdr10-opt / no-dhdr10-opt / no-idr-recovery-sei / analysis-reuse-level=0 / analysis-save-reuse-level=0 / analysis-load-reuse-level=0 / scale-factor=0 / refine-intra=0 / refine-inter=0 / refine-mv=1 / refine-ctu-distortion=0 / no-limit-sao / ctu-info=0 / no-lowpass-dct / refine-analysis-type=0 / copy-pic=1 / max-ausize-factor=1.0 / no-dynamic-refine / no-single-sei / no-hevc-aq / no-svt / no-field / qp-adaptation-range=1.00 / scenecut-aware-qp=0conformance-window-offsets / right=0 / bottom=0 / decoder-max-rate=0 / no-vbv-live-multi-pass / no-mcstf / no-sbrc\nLanguage                                 : Italian\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 23 min 35 s\nBit rate mode                            : Variable\nBit rate                                 : 692 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 11.719 FPS (4096 SPF)\nBit depth                                : 16 bits\nCompression mode                         : Lossless\nStream size                              : 117 MiB (4%)\nTitle                                    : FLAC 2.0\nWriting library                          : libFLAC 1.4.3 (UTC 2023-06-23)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : FLAC\nFormat/Info                              : Free Lossless Audio Codec\nCodec ID                                 : A_FLAC\nDuration                                 : 23 min 35 s\nBit rate mode                            : Variable\nBit rate                                 : 641 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 11.719 FPS (4096 SPF)\nBit depth                                : 16 bits\nCompression mode                         : Lossless\nStream size                              : 108 MiB (3%)\nTitle                                    : FLAC 2.0\nWriting library                          : libFLAC 1.4.3 (UTC 2023-06-23)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 30 s\nBit rate                                 : 6 550 b/s\nFrame rate                               : 3.562 FPS\nCount of elements                        : 5024\nCompression mode                         : Lossless\nStream size                              : 1.10 MiB (0%)\nTitle                                    : Full Subtitles [sam]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 19 s\nBit rate                                 : 6 793 b/s\nFrame rate                               : 3.552 FPS\nCount of elements                        : 4759\nCompression mode                         : Lossless\nStream size                              : 1.08 MiB (0%)\nTitle                                    : Signs/Songs [sam]\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nMenu\n00:00:00.000                             : en:Prologue\n00:00:54.054                             : en:Opening\n00:02:14.009                             : en:Part A\n00:13:13.084                             : en:Part B\n00:21:50.184                             : en:Ending\n00:23:00.171                             : en:Hunterpedia\n00:23:20.270                             : en:Preview",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "70148616223",
+    "media_id": "s679",
+    "media_episode_ids": [
+      "18645",
+      "18646",
+      "18647",
+      "18648",
+      "18649",
+      "18650",
+      "18651",
+      "18652",
+      "18653",
+      "18654",
+      "18655",
+      "18656",
+      "18657",
+      "18658",
+      "18659",
+      "18660",
+      "18661",
+      "18662",
+      "18663",
+      "18664"
+    ],
+    "anilist_id": 11061,
+    "anilist_ids": [
+      11061
+    ],
+    "audio_lang": "ja,en",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 2,
+    "video_type": 13,
+    "files": [
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 039 [BD 1080p FLAC] [47357C97].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 039 [BD 1080p FLAC] [47357C97].mkv",
+        "length": 3485451692,
+        "offset": 0
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 040 [BD 1080p FLAC] [D959FA84].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 040 [BD 1080p FLAC] [D959FA84].mkv",
+        "length": 3625825532,
+        "offset": 3485451692
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 041 [BD 1080p FLAC] [666568F8].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 041 [BD 1080p FLAC] [666568F8].mkv",
+        "length": 3794478232,
+        "offset": 7111277224
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 042 [BD 1080p FLAC] [61C99FDC].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 042 [BD 1080p FLAC] [61C99FDC].mkv",
+        "length": 3792248844,
+        "offset": 10905755456
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 043 [BD 1080p FLAC] [6076C884].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 043 [BD 1080p FLAC] [6076C884].mkv",
+        "length": 3758882874,
+        "offset": 14698004300
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 044 [BD 1080p FLAC] [91462CBC].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 044 [BD 1080p FLAC] [91462CBC].mkv",
+        "length": 3628068531,
+        "offset": 18456887174
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 045 [BD 1080p FLAC] [ADF9B17C].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 045 [BD 1080p FLAC] [ADF9B17C].mkv",
+        "length": 3372059594,
+        "offset": 22084955705
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 046 [BD 1080p FLAC] [19161C3E].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 046 [BD 1080p FLAC] [19161C3E].mkv",
+        "length": 3054778000,
+        "offset": 25457015299
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 047 [BD 1080p FLAC] [E66A4D16].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 047 [BD 1080p FLAC] [E66A4D16].mkv",
+        "length": 3454933922,
+        "offset": 28511793299
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 048 [BD 1080p FLAC] [02CB32DD].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 048 [BD 1080p FLAC] [02CB32DD].mkv",
+        "length": 2865885808,
+        "offset": 31966727221
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 049 [BD 1080p FLAC] [11564A33].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 049 [BD 1080p FLAC] [11564A33].mkv",
+        "length": 3012988508,
+        "offset": 34832613029
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 050 [BD 1080p FLAC] [3D9F15DA].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 050 [BD 1080p FLAC] [3D9F15DA].mkv",
+        "length": 3648012795,
+        "offset": 37845601537
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 051 [BD 1080p FLAC] [6434E4CD].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 051 [BD 1080p FLAC] [6434E4CD].mkv",
+        "length": 3405665260,
+        "offset": 41493614332
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 052 [BD 1080p FLAC] [2E2F8807].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 052 [BD 1080p FLAC] [2E2F8807].mkv",
+        "length": 3416140371,
+        "offset": 44899279592
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 053 [BD 1080p FLAC] [13EB931E].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 053 [BD 1080p FLAC] [13EB931E].mkv",
+        "length": 3383359710,
+        "offset": 48315419963
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 054 [BD 1080p FLAC] [A77262D1].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 054 [BD 1080p FLAC] [A77262D1].mkv",
+        "length": 3278310410,
+        "offset": 51698779673
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 055 [BD 1080p FLAC] [B1ED3486].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 055 [BD 1080p FLAC] [B1ED3486].mkv",
+        "length": 3231564914,
+        "offset": 54977090083
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 056 [BD 1080p FLAC] [25443024].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 056 [BD 1080p FLAC] [25443024].mkv",
+        "length": 4077618231,
+        "offset": 58208654997
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 057 [BD 1080p FLAC] [404DDF7F].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 057 [BD 1080p FLAC] [404DDF7F].mkv",
+        "length": 3830502072,
+        "offset": 62286273228
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/[sam] Hunter x Hunter (2011) - 058 [BD 1080p FLAC] [38245E2A].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - 058 [BD 1080p FLAC] [38245E2A].mkv",
+        "length": 3531772078,
+        "offset": 66116775300
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/Extras/[sam] Hunter x Hunter (2011) - NCOP 03 [BD 1080p FLAC] [16D63594].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - NCOP 03 [BD 1080p FLAC] [16D63594].mkv",
+        "length": 250160319,
+        "offset": 69648547378
+      },
+      {
+        "path": "[sam] Hunter x Hunter (2011) (039-058) [BD 1080p FLAC]/Extras/[sam] Hunter x Hunter (2011) - NCOP 04 [BD 1080p FLAC] [007AC5C5].mkv",
+        "name": "[sam] Hunter x Hunter (2011) - NCOP 04 [BD 1080p FLAC] [007AC5C5].mkv",
+        "length": 249908526,
+        "offset": 69898707697
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:6c9aada375f27b32bbcdc94377b91fd05fdf1f32&dn=%5Bsam%5D%20Hunter%20x%20Hunter%20(2011)%20(039-058)%20(BD%201080p%20HEVC%20x265%2010-bit%20FLAC)%20%5BDual-Audio%5D%20%7BTags%3AL3%3BV13%3BC2%3BA%3Dja%2Cen%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "6c9aada375f27b32bbcdc94377b91fd05fdf1f32",
+    "anonymous": true,
+    "uploader": null,
+    "groups": [
+      {
+        "id": "7466298080819",
+        "name": "sam",
+        "display_name": "sam",
+        "display_tag": "sam",
+        "pfp_hash": null,
+        "tagline": "",
+        "open": false,
+        "members": [
+          {
+            "id": "7466206253585",
+            "invite": false,
+            "username": "sam",
+            "display_name": "sam",
+            "pfp_hash": null,
+            "role": "Encoding, Timing, Typesetting",
+            "weight": 1
+          },
+          {
+            "id": "5928911079961",
+            "invite": false,
+            "username": "playernine009",
+            "display_name": "Playernine009",
+            "pfp_hash": "c5f388ea464029bbc38605d00a2e3de5e68cb68681b1cea40a38d0995101b6e0",
+            "role": "Typesetting",
+            "weight": 2
+          },
+          {
+            "id": "4534940849425",
+            "invite": false,
+            "username": "nyarthur",
+            "display_name": "Nyarthur",
+            "pfp_hash": "d5d1b799872e6fdd61a8c596f6ccf16340577f0b",
+            "role": "Song Styling",
+            "weight": 3
+          }
+        ],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 2036157,
+    "seeders": "10",
+    "leechers": "0",
+    "completed": "264",
+    "activity": "3426261",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": "skipped",
+    "animetosho_fetch_time": "1787352877758",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1761600594000",
+    "batch": true
+  }
+}

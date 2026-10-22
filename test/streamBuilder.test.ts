@@ -182,6 +182,40 @@ describe('torrentToStream', () => {
     expect(stream?.description).toMatch(/🎬 2\.2 GB/);
   });
 
+  it('builds a stream for a movie release whose file name carries underscores', () => {
+    // A real movie release: the file name is "[VEGETA]_Spirited_Away_[HDTV]_…".
+    const movieTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '12293163228939');
+
+    const movieRequest: NuvioParsedRequest = {
+      provider: 'imdb',
+      externalId: 'tt0245429',
+      season: null,
+      episode: null,
+      isAnimeProvider: false,
+      isMovie: true
+    };
+
+    const movieInfo: FitInfoResult = {
+      media_id: 'm517',
+      media: { anilist: { entries: [] }, episodes: [] },
+      season: null,
+      episode: null
+    };
+
+    const movieSwarm: TorrentSwarm = {
+      torrent: movieTorrent,
+      trackers: [],
+      seeders: movieTorrent.seeders,
+      leechers: movieTorrent.leechers
+    };
+
+    const stream = torrentToStream(movieSwarm, movieRequest, movieInfo, movieTorrent);
+
+    expect(stream).toBeTruthy();
+    expect(stream?.fileIdx).toBe(0);
+    expect(stream?.description).toContain('[VEGETA]_Spirited_Away_');
+  });
+
   it('returns null if episode file is not found in torrent', () => {
     const stream = torrentToStream(
       mockSwarm,

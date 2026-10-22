@@ -27,6 +27,20 @@
       "fetched": null,
       "verdict": "ungrounded",
       "grounds": "a season whose entry carries an episode 0 (dst_start == 2 and ord == 1), which the anime-provider branch treats specially \u2014 no real instance exists: 0 of the 151 anilist entries in the catalog and 0 of the 151 entries fetched live from the NekoBT media API have dst_start == 2 with ord == 1"
+    },
+    {
+      "id": "primary-null",
+      "params": {
+        "path": {
+          "id": "s9002"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "a media whose anilist carries entries but no `primary` \u2014 the isPrimary flag then falls back to the loose `undefined == anilist_id` comparison. **No real instance exists**: 0 of the ~90 distinct media checked (10 in the catalog + 80 fetched live from the NekoBT media API, discovered by resolving a wide spread of AniList ids) have a null `anilist.primary`"
     }
   ]
 }

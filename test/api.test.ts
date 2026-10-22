@@ -69,6 +69,26 @@ describe('api/kitsu', () => {
     );
   });
 
+  it('falls back to the AniList mapping when the anime has no MAL entry', async () => {
+    // A real AniList-only mapping — the MAL provider finds nothing, so the
+    // addon has to fall back to AniList.
+    const fixtureData = loadFixture('kitsu-mappings', '51128');
+    const mockResponse = {
+      ok: true,
+      status: 200,
+      statusText: 'OK',
+      json: async () => fixtureData
+    } as unknown as Response;
+
+    mockedFetch.mockResolvedValueOnce(mockResponse);
+
+    const result = await resolveKitsuToExternal('51128');
+    expect(result).toEqual({
+      name: 'anilist',
+      id: '218216'
+    });
+  });
+
   it('throws error when kitsu response is not ok', async () => {
     const mockResponse = {
       ok: false,
@@ -526,3 +546,5 @@ describe('api/tracker-scrapper', () => {
     expect(swarms[0].leechers).toBe(1);
   });
 });
+
+

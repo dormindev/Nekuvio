@@ -31,7 +31,7 @@
       },
       "fetched": null,
       "verdict": "ungrounded",
-      "grounds": "episode file named after the show title (\"Tensei Shitara Slime Datta Ken - 23\"), matched by the named-season strategy \u2014 no real release in the corpus uses that form: 0 of the 55 remaining example torrents and 0 of the promoted fixtures name a file after the series title without an Sxx token"
+      "grounds": "a file named after a series title that carries **no synonyms** \u2014 the named-season strategy has to work without them. The with-synonyms half has a real instance (Attack on Titan's season-1 batch, \"[MiniMTBB] Shingeki no Kyojin - 01\"), but no real release is named after a title that has an empty synonym list: 0 of the 17 empty-synonym titles in the corpus (plus ~90 media checked live) appear in any captured torrent name"
     }
   ]
 }

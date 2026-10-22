@@ -9,10 +9,11 @@ import type {
   FitInfoResult,
   NekoMediaData,
   NekoMediaResolveData,
+  NekoTorrentItem,
   NuvioParsedRequest
 } from '../src/types.js';
 
-import { loadFixtureData, loadSynthetic } from './helpers/test-data.js';
+import { loadExamples, loadFixtureData, loadSynthetic } from './helpers/test-data.js';
 
 
 // The media below are real captures from the data catalog. The *request* is
@@ -22,6 +23,11 @@ const s172 = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
 const m145 = loadFixtureData<NekoMediaData>('nekobt-media', 'm145');
 const unmapped = loadFixtureData<NekoMediaData>('nekobt-media', 's11599');
 const s1545 = loadFixtureData<NekoMediaData>('nekobt-media', 's1545');
+const attackOnTitan = loadFixtureData<NekoMediaData>('nekobt-media', 's824');
+const bakemonogatari = loadFixtureData<NekoMediaData>('nekobt-media', 's193');
+const hunterXHunter = loadFixtureData<NekoMediaData>('nekobt-media', 's679');
+const naruto = loadFixtureData<NekoMediaData>('nekobt-media', 's11509');
+const spiritedAway = loadFixtureData<NekoMediaData>('nekobt-media', 'm517');
 
 // The primary season of s172 carries the series title with its synonyms; one
 // of s1545's entries carries a title without any.
@@ -155,6 +161,126 @@ describe('fitInfo', () => {
     // isPrimary: episode 2 + (-dst_start + 1) = 2 + (-1) = 1
     expect(info.episode?.episode).toBe(1);
     expect(info.episode?.id).toBe(220900);
+  });
+
+  it('treats a media with no anilist primary as never primary', () => {
+    // No real release comes back without its `anilist.primary` — assumed shape.
+    const media = loadSynthetic<{ data: NekoMediaData }>('nekobt-media', 'primary-null').data;
+
+    const info = fitInfo(
+      { media_id: 's9002', anilist_id: 182205, isMovie: false },
+      media,
+      request({ season: 4, episode: 23 })
+    );
+
+    expect(info.season?.season).toBe(4);
+    expect(info.season?.isPrimary).toBe(false);
+    expect(info.episode?.id).toBe(220939);
+  });
+
+  it('resolves a season-0 special requested as `tt<id>:0:<ep>`', () => {
+    // The real shape of a season-0 request: Nuvio sends an imdb id with
+    // season 0 (observed empirically for every special/movie request from an
+    // anime franchise), so the non-anime branch is the one that serves it.
+    const ova = attackOnTitan.anilist.entries.find(e => e.season === 0 && e.src_start === 7)!;
+    const episode = attackOnTitan.episodes.find(e => e.season === 0 && e.episode === 7)!;
+
+    // The special's episode carries no absolute number at all.
+    expect(episode.absolute).toBeUndefined();
+
+    const info = fitInfo(
+      { media_id: 's824', anilist_id: ova.anilist_id, isMovie: false },
+      attackOnTitan,
+      request({ season: 0, episode: 7 })
+    );
+
+    expect(info.season?.season).toBe(0);
+    expect(info.episode?.id).toBe(23894);
+    expect(info.episode?.absolute).toBeUndefined();
+  });
+
+  it('never matches a season-0 entry for an anime provider', () => {
+    // A guard, not a scenario: an anime provider never asks for a special —
+    // those arrive as `tt<id>:0:<ep>`. If one did, the season-0 entries are
+    // skipped on purpose and the request is refused rather than silently
+    // answered with a special.
+    const ova = attackOnTitan.anilist.entries.find(e => e.season === 0)!;
+
+    expect(() =>
+      fitInfo(
+        { media_id: 's824', anilist_id: ova.anilist_id, isMovie: false },
+        attackOnTitan,
+        request({ isAnimeProvider: true, episode: 1 })
+      )
+    ).toThrow(/Episode entry with season null and episode 1 not found/);
+  });
+
+  it('still resolves an anime-provider request for a regular season', () => {
+    const season1 = attackOnTitan.anilist.entries.find(e => e.season === 1)!;
+
+    const info = fitInfo(
+      { media_id: 's824', anilist_id: season1.anilist_id, isMovie: false },
+      attackOnTitan,
+      request({ isAnimeProvider: true, episode: 1 })
+    );
+
+    expect(info.season?.season).toBe(1);
+    expect(info.episode?.id).toBe(23930);
+    expect(info.episode?.absolute).toBe(1);
+  });
+
+  it('keeps the absolute number when a season continues the previous one', () => {
+    // Hunter x Hunter numbers its seasons continuously: season 3 covers the
+    // absolute episodes 137-148, so its first episode is absolute 137.
+    const season3 = hunterXHunter.anilist.entries.find(e => e.season === 3)!;
+    const episode = hunterXHunter.episodes.find(e => e.season === 3 && e.episode === 1)!;
+
+    expect(season3.src_start).toBe(1);
+    expect(season3.dst_start).toBe(137);
+
+    const info = fitInfo(
+      { media_id: 's679', anilist_id: season3.anilist_id, isMovie: false },
+      hunterXHunter,
+      request({ season: 3, episode: 1 })
+    );
+
+    expect(info.episode?.id).toBe(18743);
+    expect(info.episode?.absolute).toBe(137);
+  });
+
+  it('keeps the absolute number across a series whose seasons continue it', () => {
+    // Naruto's seasons 2-5 all share one anilist id and continue the
+    // absolute numbering: season 2 starts at absolute 36.
+    const season2 = naruto.anilist.entries.find(e => e.season === 2)!;
+    const episode = naruto.episodes.find(e => e.season === 2 && e.episode === 1)!;
+
+    expect(season2.dst_start).toBe(36);
+    expect(episode.absolute).toBe(36);
+
+    const info = fitInfo(
+      { media_id: 's11509', anilist_id: season2.anilist_id, isMovie: false },
+      naruto,
+      request({ season: 2, episode: 1 })
+    );
+
+    expect(info.episode?.id).toBe(522282);
+    expect(info.episode?.absolute).toBe(36);
+  });
+
+  it('resolves a movie media by its null-season entry', () => {
+    // A real movie: Spirited Away carries one anilist entry with no season.
+    const entry = spiritedAway.anilist.entries[0];
+
+    expect(entry.season).toBeNull();
+
+    const info = fitInfo(
+      { media_id: 'm517', anilist_id: entry.anilist_id, isMovie: true },
+      spiritedAway,
+      request({ isMovie: true })
+    );
+
+    expect(info.episode).toBeNull();
+    expect(info.season?.season).toBeNull();
   });
 
   it('skips anilist entries whose season does not match a non-anime request', () => {
@@ -351,6 +477,43 @@ describe('findEpisodeFile', () => {
     expect(match).toBeNull();
   });
 
+  it('matches a file named by its absolute number with leading zeros', () => {
+    // A real release: Hunter x Hunter's batch names its files "- 039".
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '13225791205644'
+    );
+
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 18645, season: 1, episode: 39, absolute: 39 } }
+    );
+
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
+    expect(match?.name).toContain('- 039');
+  });
+
+  it('matches a season-0 file whose episode carries no absolute number', () => {
+    // Attack on Titan's season-0 batch: the file is named S00E07 and its
+    // episode has no absolute number at all.
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '14527792784141'
+    );
+    const ova = attackOnTitan.anilist.entries.find(e => e.season === 0)!;
+
+    const ovaInfo: FitInfoResult = {
+      ...info,
+      season: { ...ova, isPrimary: false },
+      episode: { id: 23894, season: 0, episode: 7, absolute: undefined as never }
+    };
+
+    const match = findEpisodeFile(torrent, ovaInfo);
+
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
+    expect(match?.name).toContain('S00E07');
+  });
+
   it('skips absolute matching when the absolute episode number is missing', () => {
     // The real release names its file by its absolute number ("One Piece -
     // 1180"). With the absolute number missing from the fit info, the
@@ -368,24 +531,99 @@ describe('findEpisodeFile', () => {
     expect(findEpisodeFile(torrent, withoutAbsolute)).toBeNull();
   });
 
-  it('matches files by named season including synonyms', () => {
-    // No real release names a file after the series title alone — assumed shape.
-    const torrent = loadSynthetic<{ data: { files: Array<{ name: string; length: number }> } }>(
-      'nekobt-torrents', 'named-season'
-    ).data;
+  it('matches a file in a 35-file batch release', () => {
+    // A real Naruto season-1 batch: the file for episode 1 is the first one.
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '13695484685327'
+    );
 
-    // The real title of s172's primary season, synonyms included.
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 522247, season: 1, episode: 1, absolute: 1 } }
+    );
+
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
+    expect(match?.name).toContain('S01E01');
+  });
+
+  it('matches a file in a 48-file batch release of a later season', () => {
+    // Naruto's season 4 continues the absolute numbering (absolute 132).
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '13699910230794'
+    );
+
+    const match = findEpisodeFile(
+      torrent,
+      { ...info, episode: { id: 522378, season: 4, episode: 1, absolute: 132 } }
+    );
+
+    expect(match).toBeTruthy();
+    expect(match?.index).toBe(0);
+    expect(match?.name).toContain('S04E01');
+  });
+
+  it('needs the season title to pick the right series out of an integral', () => {
+    // A real release: the 152-file Monogatari integral holds two series —
+    // Bakemonogatari and Nisemonogatari — with the same episode numbers, so
+    // the bare number matches both and only the season title tells them
+    // apart. It is also the release that exposed the fileIdx contract
+    // mismatch (the matcher picks the right file; the stream mislabels it).
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '9087447179017'
+    );
+    const nisemonogatari = bakemonogatari.anilist.entries.find(e => e.season === 2)!;
+    const episode = bakemonogatari.episodes.find(e => e.season === 2 && e.episode === 1)!;
+
+    const namedInfo: FitInfoResult = {
+      media_id: 's193',
+      media: { anilist: { entries: [] }, episodes: [] },
+      season: { ...nisemonogatari, isPrimary: false },
+      episode: {
+        id: episode.id,
+        season: episode.season,
+        episode: episode.episode,
+        absolute: episode.absolute
+      }
+    };
+
+    // With the title, the Nisemonogatari file is chosen.
+    const match = findEpisodeFile(torrent, namedInfo);
+    expect(match?.name).toContain('Nisemonogatari');
+
+    // Without a season to take the title from, the named-season strategy is
+    // skipped and the bare absolute number (16) lands on a file of a third
+    // series in the same integral.
+    const untitled: FitInfoResult = { ...namedInfo, season: null };
+    const fallback = findEpisodeFile(torrent, untitled);
+    expect(fallback?.name).toContain('Owarimonogatari');
+  });
+
+  it('matches files by named season including synonyms', () => {
+    // A real release: Attack on Titan's season 1 batch is named after the
+    // series title ("[MiniMTBB] Shingeki no Kyojin - 01"), which is exactly
+    // the title of its season-1 entry.
+    const torrent = loadFixtureData<{ files: Array<{ name: string; length: number }> }>(
+      'nekobt-torrents', '8960236499207'
+    );
+    const season1 = attackOnTitan.anilist.entries.find(e => e.season === 1)!;
+
     const namedInfo: FitInfoResult = {
       ...info,
-      season: { ...info.season!, media: primarySeason.media }
+      season: { ...info.season!, media: season1.media },
+      episode: { id: 23930, season: 1, episode: 1, absolute: 1 }
     };
 
     const match = findEpisodeFile(torrent, namedInfo);
 
+    expect(match).toBeTruthy();
     expect(match?.index).toBe(0);
+    expect(match?.name).toContain('Shingeki no Kyojin - 01');
   });
 
   it('matches files by named season when there are no synonyms', () => {
+    // No real release is named after a title that carries no synonyms, so
+    // this half of the case stays an assumed shape.
     const torrent = loadSynthetic<{ data: { files: Array<{ name: string; length: number }> } }>(
       'nekobt-torrents', 'named-season'
     ).data;
@@ -401,5 +639,53 @@ describe('findEpisodeFile', () => {
     const match = findEpisodeFile(torrent, namedInfo);
 
     expect(match?.index).toBe(1);
+  });
+});
+
+
+describe('the examples corpus', () => {
+  // The corpus is used as a whole: the request is reconstructed from the data
+  // itself, so no case is pointed at and nothing is hardcoded.
+  const media = loadExamples<{ error: boolean; data: NekoMediaData }>('nekobt-media')
+    .filter(b => b.error === false)
+    .map(b => b.data);
+  const torrents = loadExamples<{ error: boolean; data: NekoTorrentItem }>('nekobt-torrents')
+    .filter(b => b.error === false)
+    .map(b => b.data);
+
+  it('matches a file for every torrent in the corpus', () => {
+    for (const torrent of torrents) {
+      const episodeIds = (torrent.media_episode_ids ?? []).map(Number);
+      if (!episodeIds.length) continue;
+
+      // The torrent names the episodes it covers; the media they belong to is
+      // in the corpus, so the fit info can be rebuilt from it.
+      const owner = media.find(m =>
+        episodeIds.some((id: number) => (m.episodes ?? []).some(e => e.id === id))
+      );
+      if (!owner) continue;
+
+      const matched = episodeIds.some((episodeId: number) => {
+        const episode = owner.episodes?.find(e => e.id === episodeId);
+        if (!episode) return false;
+        const entry = owner.anilist?.entries?.find(e => e.season === episode.season);
+        const info: FitInfoResult = {
+          media_id: owner.id ?? 'm',
+          media: { anilist: { entries: [] }, episodes: [] },
+          season: entry
+            ? { ...entry, isPrimary: owner.anilist?.primary?.id === entry.anilist_id }
+            : null,
+          episode: {
+            id: episode.id,
+            season: episode.season,
+            episode: episode.episode,
+            absolute: episode.absolute
+          }
+        };
+        return findEpisodeFile(torrent, info) !== null;
+      });
+
+      expect(matched, `torrent ${torrent.id}`).toBe(true);
+    }
   });
 });

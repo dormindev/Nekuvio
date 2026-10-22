@@ -40,6 +40,47 @@ export function loadFixtureData<T>(endpoint: string, id: string): T {
 }
 
 /**
+ * The self-stream corpus: each record is a captured response of our own
+ * `/stream` endpoint, and every catalog input it consumed points back at it
+ * through the record's `used_by` list.
+ */
+export interface SelfStreamInput {
+  standing: 'fixtures' | 'examples';
+  endpoint: string;
+  id: string;
+}
+
+/**
+ * Collect the catalog inputs a self-stream record consumed, by scanning every
+ * folder's records for a `used_by` entry naming it.
+ */
+export function loadSelfStreamInputs(
+  recordId: string
+): SelfStreamInput[] {
+  const inputs: SelfStreamInput[] = [];
+  const dataRoot = path.join(__dirname, '..', 'data');
+
+  for (const standing of ['fixtures', 'examples'] as const) {
+    const standingRoot = path.join(dataRoot, standing);
+    for (const endpoint of fs.readdirSync(standingRoot, { withFileTypes: true })) {
+      if (!endpoint.isDirectory()) continue;
+      const metaPath = path.join(standingRoot, endpoint.name, 'meta.json');
+      if (!fs.existsSync(metaPath)) continue;
+
+      const meta = JSON.parse(fs.readFileSync(metaPath, 'utf8')) as {
+        records: Array<{ id: string; used_by?: string[] }>;
+      };
+      for (const rec of meta.records) {
+        if (rec.used_by?.includes(recordId)) {
+          inputs.push({ standing, endpoint: endpoint.name, id: rec.id });
+        }
+      }
+    }
+  }
+  return inputs;
+}
+
+/**
  * Load every payload of an `examples/` folder, in record order.
  *
  * `examples/` is the broad, diverse gather of real cases — it is meant to be

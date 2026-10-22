@@ -70,6 +70,7 @@ One-off data-maintenance tools — not part of the application build:
 ```text
 test/scripts/refresh-examples.ts       # re-fetch example payloads + fetched-dates
 test/scripts/compare-fixtures.ts       # always-live fixture comparison vs registry
+test/scripts/check-data.ts             # data-integrity checks over the catalog
 ```
 
 These run via `npm run test:*` wrappers and are the maintenance path for the evidence base under `test/data/`.
@@ -153,21 +154,24 @@ test/
 ├── data/
 │   ├── meta.json          # root registry: services + apis (endpoint/key/defaults)
 │   ├── fixtures/          # REAL — immutable justification evidence
+│   │                      #   (a specific case, pointed at by a test)
 │   ├── examples/          # REAL — refreshable observed responses
+│   │                      #   (used as a whole, by the corpus test)
 │   ├── unsupported/       # REAL — quarantine (excluded from vitest collection)
 │   └── synthetic/         # ASSUMED shapes — never passed off as real
 ├── helpers/               # shared test utilities
-│   ├── test-data.ts       # loadFixture / loadFixtureData / loadSynthetic / loadExamples
+│   ├── test-data.ts       # loadFixture / loadFixtureData / loadSynthetic /
+│   │                      #   loadExamples / loadSelfStreamInputs
 │   └── data-catalog.ts    # registry parsing + endpoint spec resolution
 ├── scripts/               # data-maintenance tools (tsx-run, not in suite)
 │   ├── refresh-examples.ts
-│   └── compare-fixtures.ts
+│   ├── compare-fixtures.ts
+│   └── check-data.ts      # catalog integrity checks
 ├── setup/                 # vitest globalSetup + tests
 │   ├── staleness.ts       # oldest example fetched-date vs STALENESS_DAYS
 │   ├── staleness.global.ts # globalSetup entry (prints warning once per run)
 │   └── staleness.test.ts  # staleness warning path coverage
 ├── perf/                  # benchmarks
-├── examples.test.ts       # generic tests over the whole examples/ corpus
 └── *.test.ts
 ```
 

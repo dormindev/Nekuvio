@@ -1,0 +1,1207 @@
+{
+  "error": false,
+  "data": {
+    "id": "8960236499207",
+    "uploaded_at": 1770690523825,
+    "title": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p) | Attack on Titan S1",
+    "auto_title": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p) | Attack on Titan S1 {Tags:L4;V12;C3;A=ja;F=en;}",
+    "description": "This is a smaller and lower quality version of [[MTBB] Shingeki no Kyojin S1 (BD 1080p)](https://nyaa.si/view/1838911).\n\n[Video quality comparisons](https://slow.pics/c/OXqIzZpW)\n\nSince these videos are 10-bit AV1, you should make sure you have a fully updated version of your video player to avoid playback issues, whether it's [MPC-HC](https://github.com/clsid2/mpc-hc/releases/tag/2.1.3), [mpv](https://mpv.io/), or [VLC](https://www.videolan.org/vlc/).",
+    "mediainfo": "General\nUnique ID                                : 29692464136265177162606096231681732069 (0x16568F82303CA2921F0EA3917FFFADE5)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 01 (BD 1080p) [25EBA5CB].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 432 MiB\nDuration                                 : 25 min 40 s\nOverall bit rate                         : 2 351 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:04:34 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 25 min 40 s\nBit rate                                 : 2 224 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.045\nStream size                              : 409 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 40 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.8 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 14 s\nBit rate                                 : 196 b/s\nFrame rate                               : 0.246 FPS\nCount of elements                        : 373\nCompression mode                         : Lossless\nStream size                              : 36.4 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 14 s\nBit rate                                 : 196 b/s\nFrame rate                               : 0.246 FPS\nCount of elements                        : 373\nCompression mode                         : Lossless\nStream size                              : 36.4 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:02.980                             : en:OP\n00:03:34.990                             : en:Episode\n00:23:54.960                             : en:ED\n00:25:24.920                             : en:Preview",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "9743333356",
+    "media_id": "s824",
+    "media_episode_ids": [
+      "23930",
+      "23931",
+      "23932",
+      "23933",
+      "23934",
+      "23935",
+      "23936",
+      "23937",
+      "23938",
+      "23939",
+      "23940",
+      "23941",
+      "23942",
+      "23943",
+      "23944",
+      "23945",
+      "23946",
+      "23947",
+      "23948",
+      "23949",
+      "23950",
+      "23951",
+      "23952",
+      "23953",
+      "23954"
+    ],
+    "anilist_id": 16498,
+    "anilist_ids": [
+      16498
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 3,
+    "video_type": 12,
+    "files": [
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 01 (BD 1080p) [25EBA5CB].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 01 (BD 1080p) [25EBA5CB].mkv",
+        "length": 452796064,
+        "offset": 0
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 02 (BD 1080p) [6F0F6027].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 02 (BD 1080p) [6F0F6027].mkv",
+        "length": 459698549,
+        "offset": 452796064
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 03 (BD 1080p) [29006B5F].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 03 (BD 1080p) [29006B5F].mkv",
+        "length": 337206844,
+        "offset": 912494613
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 04 (BD 1080p) [7C55E395].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 04 (BD 1080p) [7C55E395].mkv",
+        "length": 393644122,
+        "offset": 1249701457
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 05 (BD 1080p) [444D3910].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 05 (BD 1080p) [444D3910].mkv",
+        "length": 488264663,
+        "offset": 1643345579
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 06 (BD 1080p) [594F0DE3].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 06 (BD 1080p) [594F0DE3].mkv",
+        "length": 316719851,
+        "offset": 2131610242
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 07 (BD 1080p) [500E0531].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 07 (BD 1080p) [500E0531].mkv",
+        "length": 398320089,
+        "offset": 2448330093
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 08 (BD 1080p) [03B00197].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 08 (BD 1080p) [03B00197].mkv",
+        "length": 408109991,
+        "offset": 2846650182
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 09 (BD 1080p) [A39D2F7D].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 09 (BD 1080p) [A39D2F7D].mkv",
+        "length": 387566739,
+        "offset": 3254760173
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 10 (BD 1080p) [4AE25598].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 10 (BD 1080p) [4AE25598].mkv",
+        "length": 377735070,
+        "offset": 3642326912
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 11 (BD 1080p) [C2BB9BC8].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 11 (BD 1080p) [C2BB9BC8].mkv",
+        "length": 402801882,
+        "offset": 4020061982
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 12 (BD 1080p) [8C692782].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 12 (BD 1080p) [8C692782].mkv",
+        "length": 388849545,
+        "offset": 4422863864
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 13 (BD 1080p) [8BEC8F5E].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 13 (BD 1080p) [8BEC8F5E].mkv",
+        "length": 423409960,
+        "offset": 4811713409
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 14 (BD 1080p) [D27D7D32].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 14 (BD 1080p) [D27D7D32].mkv",
+        "length": 296218553,
+        "offset": 5235123369
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 15 (BD 1080p) [0099566C].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 15 (BD 1080p) [0099566C].mkv",
+        "length": 295530838,
+        "offset": 5531341922
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 16 (BD 1080p) [C78C1E46].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 16 (BD 1080p) [C78C1E46].mkv",
+        "length": 292453309,
+        "offset": 5826872760
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 17 (BD 1080p) [49189DBA].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 17 (BD 1080p) [49189DBA].mkv",
+        "length": 486174498,
+        "offset": 6119326069
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 18 (BD 1080p) [BEA2F747].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 18 (BD 1080p) [BEA2F747].mkv",
+        "length": 470267346,
+        "offset": 6605500567
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 19 (BD 1080p) [D071C5B6].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 19 (BD 1080p) [D071C5B6].mkv",
+        "length": 386077449,
+        "offset": 7075767913
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 20 (BD 1080p) [3864BB7D].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 20 (BD 1080p) [3864BB7D].mkv",
+        "length": 385416705,
+        "offset": 7461845362
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 21 (BD 1080p) [D98E4493].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 21 (BD 1080p) [D98E4493].mkv",
+        "length": 471807064,
+        "offset": 7847262067
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 22 (BD 1080p) [2BFFCB20].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 22 (BD 1080p) [2BFFCB20].mkv",
+        "length": 372056861,
+        "offset": 8319069131
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 23 (BD 1080p) [BE74C5A1].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 23 (BD 1080p) [BE74C5A1].mkv",
+        "length": 294462328,
+        "offset": 8691125992
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 24 (BD 1080p) [3A90C1B4].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 24 (BD 1080p) [3A90C1B4].mkv",
+        "length": 380723935,
+        "offset": 8985588320
+      },
+      {
+        "path": "[MiniMTBB] Shingeki no Kyojin S1 (BD 1080p)/[MiniMTBB] Shingeki no Kyojin - 25 (BD 1080p) [4F8D7B57].mkv",
+        "name": "[MiniMTBB] Shingeki no Kyojin - 25 (BD 1080p) [4F8D7B57].mkv",
+        "length": 377021101,
+        "offset": 9366312255
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:bb62f27dc7efb63a2f94b38e6c3d7a78d4107dd0&dn=%5BMiniMTBB%5D%20Shingeki%20no%20Kyojin%20S1%20(BD%201080p)%20%7C%20Attack%20on%20Titan%20S1%20%7BTags%3AL4%3BV12%3BC3%3BA%3Dja%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "bb62f27dc7efb63a2f94b38e6c3d7a78d4107dd0",
+    "anonymous": false,
+    "uploader": {
+      "id": "7735052581910",
+      "username": "motbob",
+      "display_name": "motbob",
+      "pfp_hash": null
+    },
+    "groups": [
+      {
+        "id": "7364037482040",
+        "name": "minimtbb",
+        "display_name": "MiniMTBB",
+        "display_tag": "MiniMTBB",
+        "pfp_hash": "66109b080c8f207074a0e4e4c09620cbfc0ae062a95427c526b08f217fe39a82",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 1838918,
+    "seeders": "0",
+    "leechers": "0",
+    "completed": "412",
+    "activity": "0",
+    "torrent_health": "0",
+    "upgraded": null,
+    "animetosho": [
+      {
+        "file_id": 1182738,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 01 (BD 1080p) [25EBA5CB].mkv",
+        "filesize": 452796064,
+        "subs": [
+          {
+            "id": 2064260,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064262,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 29692464136265177162606096231681732069 (0x16568F82303CA2921F0EA3917FFFADE5)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 01 (BD 1080p) [25EBA5CB].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 432 MiB\nDuration                                 : 25 min 40 s\nOverall bit rate                         : 2 351 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:04:34 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 25 min 40 s\nBit rate                                 : 2 224 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.045\nStream size                              : 409 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 25 min 40 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.8 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 14 s\nBit rate                                 : 196 b/s\nFrame rate                               : 0.246 FPS\nCount of elements                        : 373\nCompression mode                         : Lossless\nStream size                              : 36.4 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 25 min 14 s\nBit rate                                 : 196 b/s\nFrame rate                               : 0.246 FPS\nCount of elements                        : 373\nCompression mode                         : Lossless\nStream size                              : 36.4 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:02.980                             : en:OP\n00:03:34.990                             : en:Episode\n00:23:54.960                             : en:ED\n00:25:24.920                             : en:Preview",
+        "screenshot_id": "00120c12",
+        "screenshot_timings": [
+          13690,
+          379060,
+          749010,
+          1119050,
+          1482740
+        ]
+      },
+      {
+        "file_id": 1182731,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 02 (BD 1080p) [6F0F6027].mkv",
+        "filesize": 459698549,
+        "subs": [
+          {
+            "id": 2064257,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064261,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 181116430176487730618145580441261797282 (0x8841C170F364C98B7DD420CF0A4F6FA2)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 02 (BD 1080p) [6F0F6027].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 438 MiB\nDuration                                 : 24 min 11 s\nOverall bit rate                         : 2 535 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:04:41 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 10 s\nBit rate                                 : 2 405 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.048\nStream size                              : 416 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 11 s\nBit rate                                 : 122 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.0 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 4 s\nBit rate                                 : 213 b/s\nFrame rate                               : 0.261 FPS\nCount of elements                        : 377\nCompression mode                         : Lossless\nStream size                              : 37.7 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 4 s\nBit rate                                 : 213 b/s\nFrame rate                               : 0.261 FPS\nCount of elements                        : 377\nCompression mode                         : Lossless\nStream size                              : 37.7 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:43.430                             : en:OP\n00:02:14.990                             : en:Episode\n00:22:24.990                             : en:ED\n00:23:54.950                             : en:Preview",
+        "screenshot_id": "00120c0b",
+        "screenshot_timings": [
+          12610,
+          358700,
+          706970,
+          1046720,
+          1402500
+        ]
+      },
+      {
+        "file_id": 1182716,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 03 (BD 1080p) [29006B5F].mkv",
+        "filesize": 337206844,
+        "subs": [
+          {
+            "id": 2054392,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2054394,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 202092665232034008610116475122416171015 (0x9809A1AD55E3D99A2CB0423F6C113807)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 03 (BD 1080p) [29006B5F].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 322 MiB\nDuration                                 : 24 min 11 s\nOverall bit rate                         : 1 859 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:05:04 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 10 s\nBit rate                                 : 1 728 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.035\nStream size                              : 299 MiB (93%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 11 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.3 MiB (7%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 10 s\nBit rate                                 : 207 b/s\nFrame rate                               : 0.292 FPS\nCount of elements                        : 423\nCompression mode                         : Lossless\nStream size                              : 36.7 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 10 s\nBit rate                                 : 207 b/s\nFrame rate                               : 0.292 FPS\nCount of elements                        : 423\nCompression mode                         : Lossless\nStream size                              : 36.7 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro / en:OP\n00:01:31.990                             : en:Episode\n00:22:24.990                             : en:ED\n00:23:54.950                             : en:Preview",
+        "screenshot_id": "00120bfc",
+        "screenshot_timings": [
+          14650,
+          360540,
+          706890,
+          1050230,
+          1402500
+        ]
+      },
+      {
+        "file_id": 1182736,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 04 (BD 1080p) [7C55E395].mkv",
+        "filesize": 393644122,
+        "subs": [
+          {
+            "id": 2056106,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2056107,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 338298992130998123995902322193766395084 (0xFE820412AF5EEADB34EC39622EF1ACCC)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 04 (BD 1080p) [7C55E395].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 375 MiB\nDuration                                 : 24 min 11 s\nOverall bit rate                         : 2 170 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:05:26 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 10 s\nBit rate                                 : 2 042 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.041\nStream size                              : 353 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 11 s\nBit rate                                 : 121 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.9 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 9 s\nBit rate                                 : 228 b/s\nFrame rate                               : 0.294 FPS\nCount of elements                        : 426\nCompression mode                         : Lossless\nStream size                              : 40.4 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 9 s\nBit rate                                 : 228 b/s\nFrame rate                               : 0.294 FPS\nCount of elements                        : 426\nCompression mode                         : Lossless\nStream size                              : 40.4 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:38.020                             : en:OP\n00:02:10.030                             : en:Episode\n00:22:24.990                             : en:ED\n00:23:54.950                             : en:Preview",
+        "screenshot_id": "00120c10",
+        "screenshot_timings": [
+          14030,
+          358910,
+          706260,
+          1053270,
+          1402500
+        ]
+      },
+      {
+        "file_id": 1182724,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 05 (BD 1080p) [444D3910].mkv",
+        "filesize": 488264663,
+        "subs": [
+          {
+            "id": 2058571,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2058571,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 134211515558597989911971530226678156804 (0x64F8329A79674A1FCC33651CA3B0CE04)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 05 (BD 1080p) [444D3910].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 466 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 698 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:05:36 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF / Quadraat-Bold.otf\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 566 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.052\nStream size                              : 443 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.2 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 573 b/s\nFrame rate                               : 0.564 FPS\nCount of elements                        : 815\nCompression mode                         : Lossless\nStream size                              : 101 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 573 b/s\nFrame rate                               : 0.564 FPS\nCount of elements                        : 815\nCompression mode                         : Lossless\nStream size                              : 101 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:52.030                             : en:OP\n00:02:24.000                             : en:Episode\n00:22:21.950                             : en:ED\n00:23:51.910                             : en:Preview",
+        "screenshot_id": "00120c04",
+        "screenshot_timings": [
+          13690,
+          360120,
+          705050,
+          1048060,
+          1389730
+        ]
+      },
+      {
+        "file_id": 1182715,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 06 (BD 1080p) [594F0DE3].mkv",
+        "filesize": 316719851,
+        "subs": [
+          {
+            "id": 2061110,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2061111,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 285927395578510402793553699412865455296 (0xD71B9D01A824177F8BF997491A3414C0)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 06 (BD 1080p) [594F0DE3].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 302 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 1 750 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:06:11 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 1 623 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.033\nStream size                              : 280 MiB (93%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.5 MiB (7%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 243 b/s\nFrame rate                               : 0.274 FPS\nCount of elements                        : 396\nCompression mode                         : Lossless\nStream size                              : 43.1 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 243 b/s\nFrame rate                               : 0.274 FPS\nCount of elements                        : 396\nCompression mode                         : Lossless\nStream size                              : 43.1 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro / en:OP\n00:01:31.990                             : en:Episode\n00:22:22.030                             : en:ED\n00:23:51.990                             : en:Preview",
+        "screenshot_id": "00120bfb",
+        "screenshot_timings": [
+          14650,
+          356030,
+          699880,
+          1051600,
+          1389820
+        ]
+      },
+      {
+        "file_id": 1182729,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 07 (BD 1080p) [500E0531].mkv",
+        "filesize": 398320089,
+        "subs": [
+          {
+            "id": 2061757,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2061757,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 231982015576793225445306768712809479533 (0xAE861C6CD8B1D3F1C2A4335EF7AA7D6D)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 07 (BD 1080p) [500E0531].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 380 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 201 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:06:27 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 069 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.042\nStream size                              : 357 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.2 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 4 s\nBit rate                                 : 241 b/s\nFrame rate                               : 0.265 FPS\nCount of elements                        : 382\nCompression mode                         : Lossless\nStream size                              : 42.5 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 4 s\nBit rate                                 : 241 b/s\nFrame rate                               : 0.265 FPS\nCount of elements                        : 382\nCompression mode                         : Lossless\nStream size                              : 42.5 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:53.130                             : en:OP\n00:03:24.980                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c09",
+        "screenshot_timings": [
+          13820,
+          358040,
+          706970,
+          1052610,
+          1389780
+        ]
+      },
+      {
+        "file_id": 1182720,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 08 (BD 1080p) [03B00197].mkv",
+        "filesize": 408109991,
+        "subs": [
+          {
+            "id": 2062103,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2062104,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 103470409086938246561527209964993031015 (0x4DD7AD0936EDF0939B8E94B35758AB67)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 08 (BD 1080p) [03B00197].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 389 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 2 255 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:06:49 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 2 125 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.043\nStream size                              : 367 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 122 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.0 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 209 b/s\nFrame rate                               : 0.249 FPS\nCount of elements                        : 360\nCompression mode                         : Lossless\nStream size                              : 37.0 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 209 b/s\nFrame rate                               : 0.249 FPS\nCount of elements                        : 360\nCompression mode                         : Lossless\nStream size                              : 37.0 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:00.040                             : en:OP\n00:02:32.010                             : en:Episode\n00:22:22.030                             : en:ED\n00:23:51.990                             : en:Preview",
+        "screenshot_id": "00120c00",
+        "screenshot_timings": [
+          13780,
+          356490,
+          700090,
+          1050440,
+          1389820
+        ]
+      },
+      {
+        "file_id": 1182733,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 09 (BD 1080p) [A39D2F7D].mkv",
+        "filesize": 387566739,
+        "subs": [
+          {
+            "id": 2064276,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064277,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 92779414287116734367846246588839385277 (0x45CCAA4BD8B8590A023F33A1CB4458BD)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 09 (BD 1080p) [A39D2F7D].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 370 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 141 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:07:06 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 014 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.041\nStream size                              : 348 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.6 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 217 b/s\nFrame rate                               : 0.263 FPS\nCount of elements                        : 380\nCompression mode                         : Lossless\nStream size                              : 38.3 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 217 b/s\nFrame rate                               : 0.263 FPS\nCount of elements                        : 380\nCompression mode                         : Lossless\nStream size                              : 38.3 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:33.010                             : en:OP\n00:02:04.980                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c0d",
+        "screenshot_timings": [
+          6770,
+          359830,
+          705300,
+          1049060,
+          1389780
+        ]
+      },
+      {
+        "file_id": 1182727,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 10 (BD 1080p) [4AE25598].mkv",
+        "filesize": 377735070,
+        "subs": [
+          {
+            "id": 2063739,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2063740,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 215194731504491360375458155592360822272 (0xA1E4FF6B18457C79BD30251606028600)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 10 (BD 1080p) [4AE25598].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 360 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 2 087 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:07:12 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 1 958 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.039\nStream size                              : 338 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 121 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.8 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 231 b/s\nFrame rate                               : 0.271 FPS\nCount of elements                        : 392\nCompression mode                         : Lossless\nStream size                              : 40.8 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 231 b/s\nFrame rate                               : 0.271 FPS\nCount of elements                        : 392\nCompression mode                         : Lossless\nStream size                              : 40.8 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:49.030                             : en:OP\n00:02:21.000                             : en:Episode\n00:22:22.030                             : en:ED\n00:23:51.990                             : en:Preview",
+        "screenshot_id": "00120c07",
+        "screenshot_timings": [
+          11360,
+          356580,
+          701300,
+          1052690,
+          1389820
+        ]
+      },
+      {
+        "file_id": 1182728,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 11 (BD 1080p) [C2BB9BC8].mkv",
+        "filesize": 402801882,
+        "subs": [
+          {
+            "id": 2064286,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064288,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 141266059951525582437809999687270597060 (0x6A46DA7EE2C7A98BB17F51B72E6501C4)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 11 (BD 1080p) [C2BB9BC8].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 384 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 225 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:08:07 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 096 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.042\nStream size                              : 362 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 121 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.9 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 2 s\nBit rate                                 : 247 b/s\nFrame rate                               : 0.296 FPS\nCount of elements                        : 427\nCompression mode                         : Lossless\nStream size                              : 43.6 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 2 s\nBit rate                                 : 247 b/s\nFrame rate                               : 0.296 FPS\nCount of elements                        : 427\nCompression mode                         : Lossless\nStream size                              : 43.6 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:56.040                             : en:OP\n00:02:28.000                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c08",
+        "screenshot_timings": [
+          14190,
+          360160,
+          703920,
+          1049730,
+          1389780
+        ]
+      },
+      {
+        "file_id": 1182726,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 12 (BD 1080p) [8C692782].mkv",
+        "filesize": 388849545,
+        "subs": [
+          {
+            "id": 2064289,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064290,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 242103100387194527646201760710286226729 (0xB6235C6EDA22B89545E4A5C775F5B529)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 12 (BD 1080p) [8C692782].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 371 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 148 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:08:11 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 018 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.041\nStream size                              : 348 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 122 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.1 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 238 b/s\nFrame rate                               : 0.285 FPS\nCount of elements                        : 412\nCompression mode                         : Lossless\nStream size                              : 42.1 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 238 b/s\nFrame rate                               : 0.285 FPS\nCount of elements                        : 412\nCompression mode                         : Lossless\nStream size                              : 42.1 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Recap\n00:01:56.010                             : en:OP\n00:03:27.980                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c06",
+        "screenshot_timings": [
+          11360,
+          355490,
+          703720,
+          1050140,
+          1389780
+        ]
+      },
+      {
+        "file_id": 1182725,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 13 (BD 1080p) [8BEC8F5E].mkv",
+        "filesize": 423409960,
+        "subs": [
+          {
+            "id": 2064216,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064217,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 303784030333301009366526790663650058670 (0xE48AAD12910F78079F6590C30372A1AE)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 13 (BD 1080p) [8BEC8F5E].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 404 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 339 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:08:47 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / LIDOSTFCE.TTF / LLCOOPER.TTF / PLANTAGENETCHEROKEE.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 209 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.044\nStream size                              : 381 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.1 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 222 b/s\nFrame rate                               : 0.254 FPS\nCount of elements                        : 367\nCompression mode                         : Lossless\nStream size                              : 39.3 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 222 b/s\nFrame rate                               : 0.254 FPS\nCount of elements                        : 367\nCompression mode                         : Lossless\nStream size                              : 39.3 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:03:07.960                             : en:OP\n00:04:40.010                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c05",
+        "screenshot_timings": [
+          8809,
+          359870,
+          706050,
+          1050560,
+          1389780
+        ]
+      },
+      {
+        "file_id": 1182722,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 14 (BD 1080p) [D27D7D32].mkv",
+        "filesize": 296218553,
+        "subs": [
+          {
+            "id": 2064230,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064233,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 164461526881730628938245789847880968031 (0x7BBA234F84EC2B48ECA64E02F33FA75F)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 14 (BD 1080p) [D27D7D32].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 282 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 1 637 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:09:05 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 1 500 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.030\nStream size                              : 259 MiB (92%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.3 MiB (8%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 828 b/s\nFrame rate                               : 0.912 FPS\nCount of elements                        : 1319\nCompression mode                         : Lossless\nStream size                              : 146 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 828 b/s\nFrame rate                               : 0.912 FPS\nCount of elements                        : 1319\nCompression mode                         : Lossless\nStream size                              : 146 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:50.030                             : en:OP\n00:02:19.990                             : en:Episode\n00:22:22.030                             : en:ED\n00:23:51.990                             : en:Preview",
+        "screenshot_id": "00120c02",
+        "screenshot_timings": [
+          6850,
+          352530,
+          702510,
+          1052020,
+          1393740
+        ]
+      },
+      {
+        "file_id": 1182717,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 15 (BD 1080p) [0099566C].mkv",
+        "filesize": 295530838,
+        "subs": [
+          {
+            "id": 2064245,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064247,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 70174708954879940447552900803903110744 (0x34CB2846E05406914320448226C83E58)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 15 (BD 1080p) [0099566C].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 282 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 1 633 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:09:11 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 1 500 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.030\nStream size                              : 259 MiB (92%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 121 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.9 MiB (7%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 264 b/s\nFrame rate                               : 0.327 FPS\nCount of elements                        : 473\nCompression mode                         : Lossless\nStream size                              : 46.7 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 264 b/s\nFrame rate                               : 0.327 FPS\nCount of elements                        : 473\nCompression mode                         : Lossless\nStream size                              : 46.7 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:32.020                             : en:OP\n00:02:01.980                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120bfd",
+        "screenshot_timings": [
+          12190,
+          355740,
+          706050,
+          1049190,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182732,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 16 (BD 1080p) [C78C1E46].mkv",
+        "filesize": 292453309,
+        "subs": [
+          {
+            "id": 2064252,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064255,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 227059099406574298471538142663013535275 (0xAAD1FDEB2504EE4B4ADD304068A38E2B)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 16 (BD 1080p) [C78C1E46].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 279 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 1 616 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:09:40 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 1 480 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.030\nStream size                              : 256 MiB (92%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.3 MiB (8%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 254 b/s\nFrame rate                               : 0.309 FPS\nCount of elements                        : 447\nCompression mode                         : Lossless\nStream size                              : 44.9 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 254 b/s\nFrame rate                               : 0.309 FPS\nCount of elements                        : 447\nCompression mode                         : Lossless\nStream size                              : 44.9 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:OP\n00:01:29.990                             : en:Episode\n00:22:22.030                             : en:ED\n00:23:51.990                             : en:Preview",
+        "screenshot_id": "00120c0c",
+        "screenshot_timings": [
+          14490,
+          355780,
+          698290,
+          1048560,
+          1393740
+        ]
+      },
+      {
+        "file_id": 1182730,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 17 (BD 1080p) [49189DBA].mkv",
+        "filesize": 486174498,
+        "subs": [
+          {
+            "id": 2064281,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064282,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 227078372018848562862560026460690242983 (0xAAD5B421B5DF742FD9BDA2784C3ADDA7)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 17 (BD 1080p) [49189DBA].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 464 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 2 686 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:09:47 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 2 556 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.051\nStream size                              : 441 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 118 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.4 MiB (4%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 3 s\nBit rate                                 : 257 b/s\nFrame rate                               : 0.301 FPS\nCount of elements                        : 434\nCompression mode                         : Lossless\nStream size                              : 45.4 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 3 s\nBit rate                                 : 257 b/s\nFrame rate                               : 0.301 FPS\nCount of elements                        : 434\nCompression mode                         : Lossless\nStream size                              : 45.4 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:20.980                             : en:OP\n00:02:51.030                             : en:Episode\n00:22:22.110                             : en:ED\n00:23:52.070                             : en:Preview",
+        "screenshot_id": "00120c0a",
+        "screenshot_timings": [
+          13570,
+          358540,
+          706010,
+          1050350,
+          1393820
+        ]
+      },
+      {
+        "file_id": 1182723,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 18 (BD 1080p) [BEA2F747].mkv",
+        "filesize": 470267346,
+        "subs": [
+          {
+            "id": 2064223,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064224,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 4554350652733488870435673030243726344 (0x36D22D2DB955E6651CE1FB7A9BD3408)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 18 (BD 1080p) [BEA2F747].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 448 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 598 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:10:15 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 466 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.050\nStream size                              : 426 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.7 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 3 s\nBit rate                                 : 252 b/s\nFrame rate                               : 0.317 FPS\nCount of elements                        : 458\nCompression mode                         : Lossless\nStream size                              : 44.4 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 3 s\nBit rate                                 : 252 b/s\nFrame rate                               : 0.317 FPS\nCount of elements                        : 458\nCompression mode                         : Lossless\nStream size                              : 44.4 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:06.990                             : en:OP\n00:03:36.990                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c03",
+        "screenshot_timings": [
+          11190,
+          359870,
+          700880,
+          1049520,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182721,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 19 (BD 1080p) [D071C5B6].mkv",
+        "filesize": 386077449,
+        "subs": [
+          {
+            "id": 2064226,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064229,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 51682768105068741751572696625471674398 (0x26E1BD33B502D7DAA85896FF4CC9D81E)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 19 (BD 1080p) [D071C5B6].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 368 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 133 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:10:22 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 002 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.040\nStream size                              : 346 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.5 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 3 s\nBit rate                                 : 235 b/s\nFrame rate                               : 0.325 FPS\nCount of elements                        : 469\nCompression mode                         : Lossless\nStream size                              : 41.5 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 3 s\nBit rate                                 : 235 b/s\nFrame rate                               : 0.325 FPS\nCount of elements                        : 469\nCompression mode                         : Lossless\nStream size                              : 41.5 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:42.000                             : en:OP\n00:03:12.000                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c01",
+        "screenshot_timings": [
+          11190,
+          357450,
+          704800,
+          1052770,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182714,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 20 (BD 1080p) [3864BB7D].mkv",
+        "filesize": 385416705,
+        "subs": [
+          {
+            "id": 2064251,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064253,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 77392721515308954451340933547279820220 (0x3A394BC5A22325282393876B730CA5BC)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 20 (BD 1080p) [3864BB7D].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 368 MiB\nDuration                                 : 24 min 8 s\nOverall bit rate                         : 2 129 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:11:04 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 8 s\nBit rate                                 : 1 996 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.040\nStream size                              : 345 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 8 s\nBit rate                                 : 121 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.9 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 255 b/s\nFrame rate                               : 0.325 FPS\nCount of elements                        : 470\nCompression mode                         : Lossless\nStream size                              : 45.0 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 255 b/s\nFrame rate                               : 0.325 FPS\nCount of elements                        : 470\nCompression mode                         : Lossless\nStream size                              : 45.0 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:02:00.980                             : en:OP\n00:03:30.980                             : en:Episode\n00:22:22.030                             : en:ED\n00:23:51.990                             : en:Preview",
+        "screenshot_id": "00120bfa",
+        "screenshot_timings": [
+          13530,
+          357740,
+          703470,
+          1049020,
+          1393740
+        ]
+      },
+      {
+        "file_id": 1182718,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 21 (BD 1080p) [D98E4493].mkv",
+        "filesize": 471807064,
+        "subs": [
+          {
+            "id": 2064241,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064242,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 273746242921341094724412077014925852524 (0xCDF19BCFDE54D7C3367FA6E461523F6C)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 21 (BD 1080p) [D98E4493].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 450 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 607 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:11:13 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CENTURY.TTF / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 2 474 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.050\nStream size                              : 427 MiB (95%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.7 MiB (5%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 219 b/s\nFrame rate                               : 0.257 FPS\nCount of elements                        : 371\nCompression mode                         : Lossless\nStream size                              : 38.8 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 219 b/s\nFrame rate                               : 0.257 FPS\nCount of elements                        : 371\nCompression mode                         : Lossless\nStream size                              : 38.8 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:03:11.970                             : en:OP\n00:04:42.010                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120bfe",
+        "screenshot_timings": [
+          10440,
+          358660,
+          705800,
+          1052940,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182734,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 22 (BD 1080p) [2BFFCB20].mkv",
+        "filesize": 372056861,
+        "subs": [
+          {
+            "id": 2064271,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064272,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 192469100789427666074156432749789866714 (0x90CC335136913301DBF9B85AF49E6ADA)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 22 (BD 1080p) [2BFFCB20].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 355 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 056 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:11:49 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CENTURY.TTF / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 1 924 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.039\nStream size                              : 332 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 119 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.6 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 2 s\nBit rate                                 : 218 b/s\nFrame rate                               : 0.259 FPS\nCount of elements                        : 373\nCompression mode                         : Lossless\nStream size                              : 38.5 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 2 s\nBit rate                                 : 218 b/s\nFrame rate                               : 0.259 FPS\nCount of elements                        : 373\nCompression mode                         : Lossless\nStream size                              : 38.5 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:40.000                             : en:OP\n00:03:09.960                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c0e",
+        "screenshot_timings": [
+          12110,
+          360750,
+          701460,
+          1047930,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182735,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 23 (BD 1080p) [BE74C5A1].mkv",
+        "filesize": 294462328,
+        "subs": [
+          {
+            "id": 2064270,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064275,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 213461031051650118416371294284210899287 (0xA0971962F500CE65B9290F808FC60957)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 23 (BD 1080p) [BE74C5A1].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 281 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 1 627 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:12:09 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CENTURY.TTF / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 1 494 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.030\nStream size                              : 258 MiB (92%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.8 MiB (7%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 250 b/s\nFrame rate                               : 0.315 FPS\nCount of elements                        : 456\nCompression mode                         : Lossless\nStream size                              : 44.3 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 250 b/s\nFrame rate                               : 0.315 FPS\nCount of elements                        : 456\nCompression mode                         : Lossless\nStream size                              : 44.3 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:OP\n00:01:29.990                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c0f",
+        "screenshot_timings": [
+          14490,
+          359160,
+          705880,
+          1049100,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182737,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 24 (BD 1080p) [3A90C1B4].mkv",
+        "filesize": 380723935,
+        "subs": [
+          {
+            "id": 2064265,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064266,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 212782367332751339596333055499504283708 (0xA01464AE8C04993D3ED01833C421703C)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 24 (BD 1080p) [3A90C1B4].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 363 MiB\nDuration                                 : 24 min 7 s\nOverall bit rate                         : 2 103 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:12:23 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / Cardo-Regular.ttf / CENTURY.TTF / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / SIGNIKA-BOLD.TTF\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 7 s\nBit rate                                 : 1 971 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.040\nStream size                              : 340 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 7 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.6 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 239 b/s\nFrame rate                               : 0.308 FPS\nCount of elements                        : 446\nCompression mode                         : Lossless\nStream size                              : 42.3 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 5 s\nBit rate                                 : 239 b/s\nFrame rate                               : 0.308 FPS\nCount of elements                        : 446\nCompression mode                         : Lossless\nStream size                              : 42.3 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:00:49.990                             : en:OP\n00:02:19.990                             : en:Episode\n00:22:21.990                             : en:ED\n00:23:51.950                             : en:Preview",
+        "screenshot_id": "00120c11",
+        "screenshot_timings": [
+          14240,
+          360750,
+          702130,
+          1051020,
+          1393700
+        ]
+      },
+      {
+        "file_id": 1182719,
+        "filename": "[MiniMTBB] Shingeki no Kyojin - 25 (BD 1080p) [4F8D7B57].mkv",
+        "filesize": 377021101,
+        "subs": [
+          {
+            "id": 2064235,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": null,
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2064236,
+            "codec": "ASS",
+            "lang": "enm",
+            "name": "Honorifics",
+            "default": false,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 11034672814759274954866175030533499046 (0x84D335FC47AD1B32141E6FDF92B28A6)\nComplete name                            : [MiniMTBB] Shingeki no Kyojin - 25 (BD 1080p) [4F8D7B57].mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 360 MiB\nDuration                                 : 23 min 53 s\nOverall bit rate                         : 2 105 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2024-06-28 09:30:39 UTC\nWriting application                      : mkvmerge v69.0.0 ('Day And Age') 64-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : AGARAMONDPRO-REGULAR.OTF / BLACKMOORPLAIN.TTF / BSOD.ttf / Cardo-Regular.ttf / CENTURY.TTF / CONTINUUMMEDIUM.TTF / FLESHWOUND.TTF / GandhiSans-BoldItalic_0.otf / GandhiSans-Bold_0.otf / HGRHG9_SUB.ttf / KEPLERSTD-REGULAR.OTF / KINESISSTD-BLACKITALIC.OTF / lintxt.ttf / SIGNIKA-BOLD.TTF / spritzer.ttf\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 53 s\nBit rate                                 : 1 969 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.040\nStream size                              : 336 MiB (94%)\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 53 s\nBit rate                                 : 120 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.5 MiB (6%)\nWriting library                          : opusenc from opus-tools 0.2-3-gf5f571b\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --vbr\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 51 s\nBit rate                                 : 290 b/s\nFrame rate                               : 0.316 FPS\nCount of elements                        : 434\nCompression mode                         : Lossless\nStream size                              : 48.7 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 51 s\nBit rate                                 : 290 b/s\nFrame rate                               : 0.316 FPS\nCount of elements                        : 434\nCompression mode                         : Lossless\nStream size                              : 48.7 KiB (0%)\nTitle                                    : Honorifics\nLanguage                                 : enm\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.033                             : en:Intro\n00:01:05.970                             : en:OP\n00:02:36.010                             : en:Episode\n00:22:26.990                             : en:Credits",
+        "screenshot_id": "00120bff",
+        "screenshot_timings": [
+          13400,
+          351450,
+          698630,
+          1043970,
+          1383390
+        ]
+      }
+    ],
+    "animetosho_fetch_time": "1770719532791",
+    "screenshots": [
+      "https://storage.animetosho.org/sframes/00120c12_13690.webp?s=3",
+      "https://storage.animetosho.org/sframes/00120c12_379060.webp?s=3",
+      "https://storage.animetosho.org/sframes/00120c12_749010.webp?s=3",
+      "https://storage.animetosho.org/sframes/00120c12_1119050.webp?s=3",
+      "https://storage.animetosho.org/sframes/00120c12_1482740.webp?s=3"
+    ],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1719568569000",
+    "batch": true
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "error": false,
+  "data": {
+    "id": "14527792784141",
+    "uploaded_at": 1792438790563,
+    "title": "[PHTMini] Attack on Titan - S00 Specials  (BD 1080p AV1 AAC 2.0) (Multi-Audio) (German/Deutsch) | Shingeki no Kyojin OVA / OAD | No Regrets | Lost Girls",
+    "auto_title": "[PHTMini] Attack on Titan - S00 Extras  (BD 1080p AV1 AAC 2.0) (Multi-Audio) (German/Deutsch) | Shingeki no Kyojin OVA / OAD | No Regrets | Lost Girls {Tags:L3;V12;C3;A=ja,de;F=en,de;}",
+    "description": "## Video\n🎞 | JPN BD-Encode [[Trix]](https://nyaa.si/view/1809829) (1080p AV1 10-bit)\n\n<br>\n\n## Audio\n🇩🇪 | German (AAC 2.0) [DK@AW]  \n🇯🇵 | Japanese (Opus 2.0) [[Baws]](https://nyaa.si/view/1631381)  \n\n<br>\n\n## Subtitles\n🇩🇪 | German - Full [CR/PHTM] (ASS)  \n🇩🇪 | German - Signs & Songs [CR/PHTM] (ASS)  \n🇺🇸 | English - Full [[Baws]](https://nyaa.si/view/1631381) (ASS)  \n<br>\n\nDie deutschen Untertitel basieren auf den Crunchyroll Untertiteln welche restyled wurden um sie an meine Season 1-4 Releases anzugleichen. Das Typesetting wurde anhand von Baws Subs verbessert. Zusätzlich wurden Songuntertitel von [Baws](https://nyaa.si/view/1631381) (ED1 & OP2), [MTBB](https://nyaa.si/view/1838911) (OP1 & ED2) und [World Fansub](https://nyaa.si/view/2030657) (ED3) eingefügt, die englischen Übersetzungen der Songlyrics mit eigenen deutschen Übersetzungen ersetzt und dessen Effekte leicht angepasst. Zudem wurden Typos korrigiert.\n<br>\n\n>Followed TVDB episode numbering.\n\n---\n![](https://image.tmdb.org/t/p/original/no3dkH44ywREi0la8tw4TnA1GxN.jpg)\n## Misc Info\n>Contact me on discord: [@phantomias_phtm](https://discord.com/users/1006588868549685248)\n>Interested in AV1? [Discord](https://discord.gg/83dRFDFDp7)     \n>Recommended players: [MPV](https://mpv.rocks/), [MPC-HC](https://github.com/clsid2/mpc-hc)",
+    "mediainfo": "General\nUnique ID                                : 16468758579912201295921392243657346779 (0xC63C47CD1C7B4705FCE55EE9DDB0EDB)\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 292 MiB\nDuration                                 : 23 min 19 s\nOverall bit rate                         : 1 752 kb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2026-10-19 19:18:46 UTC\nWriting application                      : mkvmerge 102.0 ('Little Houses') 64-bit\nWriting library                          : libebml v1.4.7 + libmatroska v1.7.2\nCover                                    : Yes\nCover description                        : cover\nCover type                               : Cover\nAttachments                              : AGARAMONDPRO_REGULAR.otf / Arial_0.ttf / KEPLERSTD_REGULAR.otf / KINESISSTD_BLACKITALIC.otf / LIDOSTFCE.ttf / PLANTAGENETCHEROKEE.ttf / Cardo-Regular.ttf / KozMinPro-Medium.otf / LLCOOPER.TTF / MS Mincho.ttc / ObeliskMdITC TT.ttf / Openc.TTF / Volkhov-Regular.ttf / AmazObitaemOstrovCrazy!.ttf / amerigo-bt.ttf / ANTQUAB.TTF / ANTQUABI.TTF / ANTQUAI.TTF / Aquifer.ttf / belligerent.ttf / BKANT.TTF / TIB___.TTF / Times Bold.ttf / agaramondprobold_0.ttf / agaramondprobolditalic_0.ttf / agaramondproitalic_0.ttf / agaramondproregular_0.ttf / cover\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 18 s\nBit rate                                 : 1 401 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.028\nStream size                              : 234 MiB (80%)\nTitle                                    : [Trix]\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : 2 / A_AAC-2\nDuration                                 : 23 min 19 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 44.1 kHz\nFrame rate                               : 43.066 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.3 MiB (7%)\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 19 s\nBit rate                                 : 124 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.7 MiB (7%)\nWriting library                          : opusenc from opus-tools 0.2-37-g5f83943\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nComment                                  : Processed by SoX\nENCODER_OPTIONS                          : --bitrate 128\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 13 s\nBit rate                                 : 437 b/s\nFrame rate                               : 0.507 FPS\nCount of elements                        : 706\nCompression mode                         : Lossless\nStream size                              : 74.4 KiB (0%)\nTitle                                    : Full\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 21 s\nBit rate                                 : 361 b/s\nFrame rate                               : 0.338 FPS\nCount of elements                        : 454\nCompression mode                         : Lossless\nStream size                              : 59.2 KiB (0%)\nTitle                                    : Signs & Songs\nLanguage                                 : German\nDefault                                  : No\nForced                                   : Yes\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 13 s\nBit rate                                 : 761 b/s\nFrame rate                               : 0.909 FPS\nCount of elements                        : 1267\nCompression mode                         : Lossless\nStream size                              : 129 KiB (0%)\nTitle                                    : Full [Baws]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nImage\nType                                     : Cover\nTitle                                    : cover\nFormat                                   : JPEG\nMuxing mode                              : Attachment\nWidth                                    : 460 pixels\nHeight                                   : 641 pixels\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 8 bits\nCompression mode                         : Lossy\nStream size                              : 83.4 KiB (0%) / 83.4 KiB (0%)\nColorSpace_ICC                           : RGB\ncolour_primaries_ICC_Description         : Display P3\n\nMenu\n00:00:00.000                             : en:Intro\n00:02:04.832                             : en:Opening\n00:03:37.008                             : en:Part A\n00:12:20.990                             : en:Part B\n00:21:49.057                             : en:Ending",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "2193303849",
+    "media_id": "s824",
+    "media_episode_ids": [
+      "23894",
+      "23899",
+      "23900",
+      "23902",
+      "23904",
+      "23907",
+      "23909",
+      "23910"
+    ],
+    "anilist_id": null,
+    "anilist_ids": [
+      18397,
+      20811,
+      99634
+    ],
+    "audio_lang": "ja,de",
+    "sub_lang": "",
+    "fsub_lang": "en,de",
+    "video_codec": 3,
+    "video_type": 12,
+    "files": [
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E07.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E07.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 306535405,
+        "offset": 0
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E12.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E12.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 335635473,
+        "offset": 306535405
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E13.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E13.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 281545912,
+        "offset": 642170878
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E15.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E15.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 268301576,
+        "offset": 923716790
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E17.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E17.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 388159866,
+        "offset": 1192018366
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E20.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E20.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 191073800,
+        "offset": 1580178232
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E22.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E22.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 197715935,
+        "offset": 1771252032
+      },
+      {
+        "path": "Attack.on.Titan.2013.S00.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini/Attack.on.Titan.2013.S00E23.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "name": "Attack.on.Titan.2013.S00E23.GERMAN.DL.1080p.BD.AAC.2.0.10bit.AV1-PHTMini.mkv",
+        "length": 224335882,
+        "offset": 1968967967
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:a13051cde2f0f4f49c8690223673764494aeb3dc&dn=%5BPHTMini%5D%20Attack%20on%20Titan%20-%20S00%20Extras%20%20(BD%201080p%20AV1%20AAC%202.0)%20(Multi-Audio)%20(German%2FDeutsch)%20%7C%20Shingeki%20no%20Kyojin%20OVA%20%2F%20OAD%20%7C%20No%20Regrets%20%7C%20Lost%20Girls%20%7BTags%3AL3%3BV12%3BC3%3BA%3Dja%2Cde%3BF%3Den%2Cde%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "a13051cde2f0f4f49c8690223673764494aeb3dc",
+    "anonymous": false,
+    "uploader": {
+      "id": "7784148684315",
+      "username": "phantomias",
+      "display_name": "Phantomias",
+      "pfp_hash": null
+    },
+    "groups": [
+      {
+        "id": "13153910659889",
+        "name": "phtmini",
+        "display_name": "PHTMini",
+        "display_tag": "PHTMini",
+        "pfp_hash": null,
+        "tagline": "Mini-Encodes + Deutsche Dub und Subs",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      },
+      {
+        "id": "7662687088179",
+        "name": "trix",
+        "display_name": "Trix",
+        "display_tag": "Trix",
+        "pfp_hash": "97fc69cb526910c187c302ebd084327ac808784bd3e4d39853a69d459d164900",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Encode"
+      }
+    ],
+    "imported": null,
+    "seeders": "4",
+    "leechers": "0",
+    "completed": "7",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

@@ -38,7 +38,8 @@ Root registry: `test/data/meta.json`. Each endpoint folder pairs `<id>.json` pay
 | `loadFixture(endpoint, id)` | the raw body | mocking a `fetch` response |
 | `loadFixtureData(endpoint, id)` | the unwrapped payload | feeding the application code |
 | `loadSynthetic(endpoint, id)` | the raw body | mocking an assumed response |
-| `loadExamples(endpoint)` | every payload of a folder | generic tests over a whole `examples/` folder |
+| `loadExamples(endpoint)` | every payload of a folder | the corpus test in `matcher.test.ts` |
+| `loadSelfStreamInputs(recordId)` | the catalog inputs a self-stream record consumed | the self-stream closure check in `test:data:check` |
 
 ```text
 test/
@@ -46,32 +47,43 @@ test/
 ├── data/
 │   ├── meta.json                # root registry: endpoint/key/defaults per service
 │   ├── fixtures/                # REAL — immutable justification evidence
-│   │   ├── kitsu-mappings/      #   49235
-│   │   ├── nekobt-media/        #   m145, s11599, s1545, s172
-│   │   └── nekobt-torrents/     #   14064189768715, 14042604076552, 14060867155212,
-│   │                            #   14414565343489, 14474579778825, 7514276465159
+│   │   ├── kitsu-mappings/      #   49235, 51128
+│   │   ├── nekobt-media/        #   m145, m517, s11509, s11599, s1545, s172,
+│   │   │                        #   s193, s679, s824
+│   │   └── nekobt-torrents/     #   13 torrents — SxxEyy · separated season ·
+│   │                            #   absolute · EP prefix · named season, plus
+│   │                            #   35- and 48-file batch releases
 │   ├── examples/                # REAL — refreshable observed responses
-│   │   ├── kitsu-mappings/      #   7 payloads (12, 3919, 452, 49235, 51128, …)
-│   │   ├── nekobt-media/        #   10 payloads (s1008, s193, s1545, …)
+│   │   ├── kitsu-mappings/      #   6 payloads (12, 3919, 452, 49235, …)
+│   │   ├── nekobt-media/        #   10 payloads (s1008, s1545, m884, …)
 │   │   ├── nekobt-resolve/      #   15 payloads (mal-*, imdb-*)
 │   │   ├── nekobt-search/       #   16 payloads (s172-220940, s193-5015_5016, …)
-│   │   ├── nekobt-torrents/     #   60 payloads (multi-file batches, groups, …)
+│   │   ├── nekobt-torrents/     #   55 payloads (multi-file batches, groups, …)
 │   │   ├── tracker-scrape/      #   11 payloads (per-tracker single + batch)
 │   │   └── self-stream/         #   15 payloads (observed Nuvio stream requests)
 │   ├── unsupported/             # KNOWN-BROKEN — quarantined
 │   │   └── self-stream/         #   3 payloads (fileIdx bug, no-torrents, no-mappings)
 │   └── synthetic/               # ASSUMED — ungrounded shapes (from test mocks)
 │       ├── kitsu-mappings/      #   empty-mappings, null-data
-│       ├── nekobt-media/        #   episode-zero, null-data
+│       ├── nekobt-media/        #   episode-zero, null-data, primary-null
 │       ├── nekobt-resolve/      #   series, movie
 │       ├── nekobt-search/       #   non-array-results
 │       └── nekobt-torrents/     #   episode-range, named-season, underscore-separated
+├── scripts/                     # data-maintenance tools (tsx-run, not in the suite)
+│   ├── check-data.ts            #   catalog integrity checks
+│   ├── compare-fixtures.ts      #   always-live fixture comparison
+│   └── refresh-examples.ts      #   re-fetch the examples
+├── setup/                       # vitest globalSetup + its tests
+│   ├── staleness.ts             #   oldest example fetched-date vs STALENESS_DAYS
+│   ├── staleness.global.ts      #   globalSetup entry (prints the warning once)
+│   └── staleness.test.ts        #   staleness warning path coverage
+├── perf/                        # benchmarks
 ├── api.test.ts                  # UNIT — external API clients (mocked fetch/tracker)
 ├── app.test.ts                  # INTEGRATION — Express app via supertest
-├── examples.test.ts             # GENERIC — the whole examples/ corpus, folder by folder
 ├── format.test.ts               # UNIT — byte/bitrate/language formatting
 ├── logger.test.ts               # UNIT — log-level filtering
 ├── matcher.test.ts              # UNIT — fitInfo / findEpisodeFile / findMovieFile
+│                                #   + the whole examples/ corpus
 ├── metadata.test.ts             # UNIT — invisible-unicode badge encoding
 ├── parser.test.ts               # UNIT — Nuvio ID parsing
 └── streamBuilder.test.ts        # UNIT — stream object construction
@@ -87,7 +99,6 @@ The catalog is the evidence base (ids, params, edges, grounds); this tree is the
 |------|-------|--------|
 | `api.test.ts` | UNIT | External clients (mocked fetch/tracker); `loadFixture` + `loadSynthetic` payloads |
 | `app.test.ts` | INTEGRATION | Express via supertest (mocked `api/*`, real pipeline); manifest, `/stream`, `startServer` |
-| `examples.test.ts` | GENERIC | The whole `examples/` corpus — one test per folder, over every payload |
 | `matcher.test.ts` | UNIT | `fitInfo` / `findEpisodeFile` / `findMovieFile` |
 | `streamBuilder.test.ts` | UNIT | `torrentToStream` construction, badges, `fileIdx` |
 | `parser.test.ts` | UNIT | `parseNuvioId` (movies, series, anime providers, season-0) |
@@ -113,8 +124,11 @@ The suite runs committed `test/data/` files only. The `npm run test:*` scripts k
 ```bash
 npm run test:examples:refresh [-- --dry-run]  # re-fetch example payloads + fetched-dates
 npm run test:fixtures:compare                 # always-live fixture comparison, never writes
+npm run test:data:check                        # data-integrity checks over the catalog
 ```
 
 - `test:examples:refresh` skips `self-stream/` (behavior snapshots) and `tracker-scrape/` (UDP announce — not HTTP-fetchable).
 - `test:fixtures:compare` always fetches live and reports shape diffs for human triage — it never overwrites fixtures.
+- `test:data:check` validates the *catalog*, not the code: every record has its payload and a reason, the folders refer to each other consistently, and the shapes the code reads are the shapes the API sends. Run it when a data point is added or after a refresh.
+- The `examples/` corpus is used **as a whole**: `matcher.test.ts` drives every torrent in the corpus through the real matcher, rebuilding the fit info from the torrent's own `media_episode_ids` and the media they belong to.
 - A staleness warning (`test/setup/staleness.ts`, wired via vitest `globalSetup` so it prints once per run) fires at startup if the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14). Warning-only — never fails the suite. Covered by `test/setup/staleness.test.ts`.

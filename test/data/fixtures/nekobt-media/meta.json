@@ -11,7 +11,11 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "multi-season anilist.entries + src/dst offsets (README \u00a73; catalog entry)"
+      "grounds": "multi-season anilist.entries + src/dst offsets (README \u00a73; catalog entry)",
+      "used_by": [
+        "series-kitsu_49235_24",
+        "series-tt9054364_0_14"
+      ]
     },
     {
       "id": "s11599",
@@ -37,7 +41,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "movie episodes + anilist primary (README fixture table)"
+      "grounds": "movie episodes + anilist primary (README fixture table)",
+      "used_by": [
+        "movie-tt5323662"
+      ]
     },
     {
       "id": "s1545",
@@ -50,7 +57,75 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "named-season matching without synonyms \u2014 16 anilist entries carry an empty synonyms list; also the largest media in the corpus (62 entries, 38 seasons)"
+      "grounds": "named-season matching without synonyms \u2014 16 anilist entries carry an empty synonyms list; also the largest media in the corpus (62 entries, 38 seasons)",
+      "used_by": [
+        "series-kitsu_12_1180"
+      ]
+    },
+    {
+      "id": "s824",
+      "params": {
+        "path": {
+          "id": "s824"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Attack on Titan \u2014 21 anilist entries over 5 seasons; **13 season-0 specials** with scattered src windows (7, 12-13, 14, 15, 17, 18, 20-23, 24-30, 36-37) and 17 src/dst offsets; season 1's title is exactly \"Shingeki no Kyojin\" (15 synonyms)"
+    },
+    {
+      "id": "s679",
+      "params": {
+        "path": {
+          "id": "s679"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Hunter x Hunter \u2014 **continuous absolute numbering across seasons** (S1 dst 1-58, S2 dst 59-136, S3 dst 137-148, i.e. src \u2260 dst); the only series found whose season-0 episodes still carry an `absolute`"
+    },
+    {
+      "id": "s11509",
+      "params": {
+        "path": {
+          "id": "s11509"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Naruto \u2014 13 entries over 6 seasons with **11 cour-split offsets** and 9 distinct anilist ids (a season split across two anilist entries)"
+    },
+    {
+      "id": "m517",
+      "params": {
+        "path": {
+          "id": "m517"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Spirited Away \u2014 a real **movie** media: one anilist entry with `season: null`"
+    },
+    {
+      "id": "s193",
+      "params": {
+        "path": {
+          "id": "s193"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "Bakemonogatari \u2014 21 anilist entries over 7 seasons; its season 2 is **Nisemonogatari**, a second series in the same integral release as Bakemonogatari, so the two carry the same episode numbers and only the season title tells them apart"
     }
   ]
 }

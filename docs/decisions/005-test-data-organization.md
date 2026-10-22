@@ -1,7 +1,7 @@
 # Decision 005: Test Data Organization
 
 **Status:** Accepted  
-**Date:** 2026-10-19
+**Date:** 2026-10-19 (Updated: 2026-10-21)
 
 ## Context
 
@@ -29,5 +29,7 @@ Organize `test/data/` as follows and record it in the data catalog:
 
 ## Limitations
 
-- **Manual refresh cadence:** `last verified` dates and re-fetch params are recorded, but the refresh/compare tooling lands in step 05 — until then, drift detection is a manual re-run.
+- **Manual refresh cadence:** `last verified` dates and re-fetch params are recorded, but ~~the refresh/compare tooling lands in step 05~~ — **resolved** in step 05: `npm run test:examples:refresh [-- --dry-run]` re-fetches the example payloads, `npm run test:fixtures:compare` reports fixture drift live, and a staleness warning fires when the oldest example `fetched` date passes `STALENESS_DAYS`.
 - **Unsupported-case xfail discipline:** the three `unsupported/` records document known-broken behavior with live-captured payloads; nothing yet enforces that tests treat them as expected failures rather than silently passing.
+
+- **Catalog integrity is checked, the application is not:** `npm run test:data:check` (step 07) validates the catalog's internal consistency — references between folders, the shapes the code reads, the Kitsu vocabulary, the self-stream closure. It does not exercise the application against the corpus; the matcher test drives the torrent corpus only.

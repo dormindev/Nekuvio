@@ -8,7 +8,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-kitsu_49235_24"
+      "grounds": "resolve input for self-stream series-kitsu_49235_24",
+      "used_by": [
+        "series-kitsu_49235_24"
+      ]
     },
     {
       "id": "mal-21",
@@ -18,7 +21,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-kitsu_12_1180"
+      "grounds": "resolve input for self-stream series-kitsu_12_1180",
+      "used_by": [
+        "series-kitsu_12_1180"
+      ]
     },
     {
       "id": "imdb-tt5323662",
@@ -28,7 +34,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream movie-tt5323662"
+      "grounds": "resolve input for self-stream movie-tt5323662",
+      "used_by": [
+        "movie-tt5323662"
+      ]
     },
     {
       "id": "imdb-tt14523706",
@@ -38,7 +47,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream movie-tt14523706"
+      "grounds": "resolve input for self-stream movie-tt14523706",
+      "used_by": [
+        "movie-tt14523706"
+      ]
     },
     {
       "id": "mal-64012",
@@ -48,7 +60,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream movie-mal_64012"
+      "grounds": "resolve input for self-stream movie-mal_64012",
+      "used_by": [
+        "movie-mal_64012"
+      ]
     },
     {
       "id": "imdb-tt38652027",
@@ -58,7 +73,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream movie-tt38652027"
+      "grounds": "resolve input for self-stream movie-tt38652027",
+      "used_by": [
+        "movie-tt38652027"
+      ]
     },
     {
       "id": "mal-32615",
@@ -68,7 +86,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-kitsu_11794_1"
+      "grounds": "resolve input for self-stream series-kitsu_11794_1",
+      "used_by": [
+        "series-kitsu_11794_1"
+      ]
     },
     {
       "id": "imdb-tt6455986",
@@ -78,7 +99,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-tt6455986_0_1"
+      "grounds": "resolve input for self-stream series-tt6455986_0_1",
+      "used_by": [
+        "series-tt6455986_0_1"
+      ]
     },
     {
       "id": "imdb-tt0434665",
@@ -88,7 +112,11 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-tt0434665_0_99; resolve input for self-stream series-tt0434665_0_6"
+      "grounds": "resolve input for self-stream series-tt0434665_0_99; resolve input for self-stream series-tt0434665_0_6",
+      "used_by": [
+        "series-tt0434665_0_6",
+        "series-tt0434665_0_99"
+      ]
     },
     {
       "id": "imdb-tt5607616",
@@ -98,7 +126,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-tt5607616_0_1"
+      "grounds": "resolve input for self-stream series-tt5607616_0_1",
+      "used_by": [
+        "series-tt5607616_0_1"
+      ]
     },
     {
       "id": "imdb-tt9054364",
@@ -108,7 +139,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-tt9054364_0_14"
+      "grounds": "resolve input for self-stream series-tt9054364_0_14",
+      "used_by": [
+        "series-tt9054364_0_14"
+      ]
     },
     {
       "id": "imdb-tt12728856",
@@ -118,7 +152,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-tt12728856_0_4"
+      "grounds": "resolve input for self-stream series-tt12728856_0_4",
+      "used_by": [
+        "series-tt12728856_0_4"
+      ]
     },
     {
       "id": "mal-34134",
@@ -128,7 +165,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream series-kitsu_12566_1"
+      "grounds": "resolve input for self-stream series-kitsu_12566_1",
+      "used_by": [
+        "series-kitsu_12566_1"
+      ]
     },
     {
       "id": "imdb-tt12415546",
@@ -138,7 +178,10 @@
         }
       },
       "fetched": "2026-10-19",
-      "grounds": "resolve input for self-stream movie-tt12415546"
+      "grounds": "resolve input for self-stream movie-tt12415546",
+      "used_by": [
+        "movie-tt12415546"
+      ]
     },
     {
       "id": "mal-5081",

@@ -74,7 +74,7 @@ flowchart TB
 Test data lives under `test/data/` — the first three folders hold **real** data:
 
 - `fixtures/` — immutable justification evidence (payload `<id>.json` + records-only `meta.json`); a specific real case, pointed at by at least one test
-- `examples/` — refreshable portrait of observed requests; used **as a whole** by generic folder tests (`test/examples.test.ts`), never one data point picked out; `self-stream/` holds the observed Nuvio stream requests — not an exhaustive catalog
+- `examples/` — refreshable portrait of observed requests; used **as a whole** (the corpus drives the matcher and API tests; no data point picked out); `self-stream/` holds the observed Nuvio stream requests — not an exhaustive catalog
 - `unsupported/` — quarantine for known-broken cases (excluded from vitest collection)
 - `synthetic/` — assumed, ungrounded shapes — never passed off as real; a specific assumed shape, pointed at by one test as a rule of thumb
 
@@ -82,12 +82,13 @@ Folders are named `<service>-<api>`; endpoint declarations (`endpoint`/`key`/`de
 
 | Layer | Files | Runs |
 |-------|-------|------|
-| UNIT | `api/format/logger/matcher/metadata/parser/streamBuilder.test.ts` | mocked `fetch`/`tracker`; `loadFixture`/`loadFixtureData`+`loadSynthetic` |
+| UNIT | `api/format/logger/matcher/metadata/parser/streamBuilder.test.ts` | mocked `fetch`/`tracker`; `loadFixture`/`loadFixtureData`+`loadSynthetic`; `matcher.test.ts` also drives the whole `examples/` corpus |
 | INTEGRATION | `app.test.ts` | supertest; mocked `api/*`, real pipeline |
 
 Maintenance scripts (`npm run test:*` — never wired into CI, no network in suite):
 - `test:examples:refresh [-- --dry-run]` — re-fetch example payloads + update `fetched` dates (skips `self-stream/` snapshots and `tracker-scrape/`, which speaks UDP)
 - `test:fixtures:compare` — always-live comparison of fixtures vs registry; reports shape diffs for human triage, never writes
+- `test:data:check` — data-integrity checks over the catalog (records ↔ payloads, cross-folder references, the shapes the code reads); run it when a data point is added or after a refresh
 
 A staleness warning (`test/setup/staleness.ts`, wired via vitest `globalSetup` so it prints once per run) logs at startup if the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14); the warning path is covered by `test/setup/staleness.test.ts`.
 

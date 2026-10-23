@@ -64,7 +64,7 @@ Before committing, verify all quality checks pass:
 
 1. **Type Checking** (sources *and* tests):
    ```bash
-   npm run build:check
+   npm run build:typecheck
    ```
 2. **Tests**:
    ```bash

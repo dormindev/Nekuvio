@@ -25,7 +25,7 @@ Migrate the test suite from `node:test` + `tsx` to **Vitest** with `@vitest/cove
   - `json-summary`: machine-readable coverage metrics at `coverage/coverage-summary.json`
 - **Mocking Strategy**: Use Vitest's built-in `vi` mocking capabilities (`vi.mock('node-fetch')`, `vi.mock('bittorrent-tracker')`, `vi.fn()`) alongside authentic local fixtures (`test/fixtures/*.json`).
 - **NPM Scripts**:
-  - `npm test`: runs `vitest` in watch mode during development.
+  - `npm test`: runs `vitest`
   - `npm run test:coverage`: runs `vitest run --coverage` in single-pass mode.
 
 ## Rationale

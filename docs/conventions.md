@@ -17,7 +17,6 @@ One group per origin, top to bottom:
 - Imports are wrapped to one member per line when their single-line form exceeds 80 chars. Within a group, single-line imports (≤80 chars) come first, sorted by module specifier; wrapped multi-line imports sink to the group end, sorted among themselves.
 - Members inside a single import statement are sorted alphabetically.
 - Type-only imports use `import type` and stay within their origin group.
-- Always run tests with `npm test -- run` (bare `npm test` enters watch mode).
 
 **Tooling (verified, to be adopted in design-review):** Prettier (`printWidth: 80`) for wrapping/member layout + `eslint-plugin-perfectionist@>=5.0.0` `sort-imports` with the `singleline`/`multiline` modifiers (added in commit `2c954d4`, released v5.0.0, closing issue #605) for the singleline-first placement, origin groups, and blank-line handling; member sorting via `sort-named-imports` (`type: alphabetical`).
 

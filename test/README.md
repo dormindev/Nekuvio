@@ -118,7 +118,7 @@ The catalog is the evidence base (ids, params, edges, grounds); this tree is the
 ## Running Tests
 
 ```bash
-npm test              # watch/interactive (Vitest)
+npm test              # Vitest
 npm run test:coverage # single pass + V8 coverage → coverage/coverage-summary.json
 ```
 

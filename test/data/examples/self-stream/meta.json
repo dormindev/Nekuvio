@@ -1,0 +1,139 @@
+{
+  "records": [
+    {
+      "id": "series-kitsu_49235_24",
+      "params": {
+        "type": "series",
+        "id": "kitsu:49235:24"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 20 streams \u2014 closed by the Kitsu mappings, the resolve, the media, the search and 20 torrents"
+    },
+    {
+      "id": "series-kitsu_12_1180",
+      "params": {
+        "type": "series",
+        "id": "kitsu:12:1180"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 14 streams \u2014 closed by the Kitsu mappings, the resolve, the media, the search and 13 torrents"
+    },
+    {
+      "id": "movie-tt5323662",
+      "params": {
+        "type": "movie",
+        "id": "tt5323662"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 4 streams \u2014 closed by the resolve, the media, the search and 4 torrents (no Kitsu step: the id is not a Kitsu id)"
+    },
+    {
+      "id": "movie-tt14523706",
+      "params": {
+        "type": "movie",
+        "id": "tt14523706"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by design: the resolve returned an error, so no media was ever fetched"
+    },
+    {
+      "id": "movie-mal_64012",
+      "params": {
+        "type": "movie",
+        "id": "mal:64012"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 11 streams \u2014 closed by the resolve, the media, the search and 11 torrents (no Kitsu step: the id is not a Kitsu id)"
+    },
+    {
+      "id": "movie-tt38652027",
+      "params": {
+        "type": "movie",
+        "id": "tt38652027"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by the resolve, the media and the search; no torrent matched the requested episode"
+    },
+    {
+      "id": "series-kitsu_11794_1",
+      "params": {
+        "type": "series",
+        "id": "kitsu:11794:1"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 4 streams \u2014 closed by the Kitsu mappings, the resolve, the media, the search and 4 torrents"
+    },
+    {
+      "id": "series-tt6455986_0_1",
+      "params": {
+        "type": "series",
+        "id": "tt6455986:0:1"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 1 stream \u2014 closed by the resolve, the media, the search and 1 torrent (no Kitsu step: the id is not a Kitsu id)"
+    },
+    {
+      "id": "series-tt0434665_0_99",
+      "params": {
+        "type": "series",
+        "id": "tt0434665:0:99"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by the resolve, the media and the search; no torrent matched the requested episode"
+    },
+    {
+      "id": "series-tt0434665_0_6",
+      "params": {
+        "type": "series",
+        "id": "tt0434665:0:6"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by the resolve, the media, the search and 1 torrent that did not match the requested episode"
+    },
+    {
+      "id": "series-tt5607616_0_1",
+      "params": {
+        "type": "series",
+        "id": "tt5607616:0:1"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 3 streams \u2014 closed by the resolve, the media, the search and 3 torrents (no Kitsu step: the id is not a Kitsu id)"
+    },
+    {
+      "id": "series-tt9054364_0_14",
+      "params": {
+        "type": "series",
+        "id": "tt9054364:0:14"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by the resolve, the media, the search and 1 torrent that did not match the requested episode"
+    },
+    {
+      "id": "series-tt12728856_0_4",
+      "params": {
+        "type": "series",
+        "id": "tt12728856:0:4"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by the resolve, the media and the search; no torrent matched the requested episode"
+    },
+    {
+      "id": "series-kitsu_12566_1",
+      "params": {
+        "type": "series",
+        "id": "kitsu:12566:1"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 1 stream \u2014 closed by the Kitsu mappings, the resolve, the media, the search and 1 torrent"
+    },
+    {
+      "id": "movie-tt12415546",
+      "params": {
+        "type": "movie",
+        "id": "tt12415546"
+      },
+      "fetched": null,
+      "grounds": "observed Nuvio stream request (former test/examples); response snapshot 2026-10-19; 0 streams \u2014 closed by design: the media lookup 404s, so no search was made"
+    }
+  ]
+}

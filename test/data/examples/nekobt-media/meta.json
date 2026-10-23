@@ -1,0 +1,160 @@
+{
+  "records": [
+    {
+      "id": "m1064",
+      "params": {
+        "path": {
+          "id": "m1064"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream movie-mal_64012",
+      "used_by": [
+        "movie-mal_64012"
+      ]
+    },
+    {
+      "id": "s1008",
+      "params": {
+        "path": {
+          "id": "s1008"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream movie-tt38652027",
+      "used_by": [
+        "movie-tt38652027"
+      ]
+    },
+    {
+      "id": "s1453",
+      "params": {
+        "path": {
+          "id": "s1453"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-kitsu_11794_1; media input for self-stream series-tt6455986_0_1",
+      "used_by": [
+        "series-kitsu_11794_1",
+        "series-tt6455986_0_1"
+      ]
+    },
+    {
+      "id": "s2999",
+      "params": {
+        "path": {
+          "id": "s2999"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-tt0434665_0_99; media input for self-stream series-tt0434665_0_6",
+      "used_by": [
+        "series-tt0434665_0_6",
+        "series-tt0434665_0_99"
+      ]
+    },
+    {
+      "id": "s554",
+      "params": {
+        "path": {
+          "id": "s554"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-tt5607616_0_1",
+      "used_by": [
+        "series-tt5607616_0_1"
+      ]
+    },
+    {
+      "id": "s11629",
+      "params": {
+        "path": {
+          "id": "s11629"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-tt12728856_0_4",
+      "used_by": [
+        "series-tt12728856_0_4"
+      ]
+    },
+    {
+      "id": "s843",
+      "params": {
+        "path": {
+          "id": "s843"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream series-kitsu_12566_1",
+      "used_by": [
+        "series-kitsu_12566_1"
+      ]
+    },
+    {
+      "id": "m1199",
+      "params": {
+        "path": {
+          "id": "m1199"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "media input for self-stream movie-tt12415546",
+      "used_by": [
+        "movie-tt12415546"
+      ]
+    },
+    {
+      "id": "m1305",
+      "params": {
+        "path": {
+          "id": "m1305"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "anilist: null via TMDB resolution (README \u00a71)"
+    },
+    {
+      "id": "m884",
+      "params": {
+        "path": {
+          "id": "m884"
+        },
+        "query": {
+          "force": "true"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Bleach the Movie: Hell Verse \u2014 a movie media with no episodes; the media that the torrent `11409754265088` points at"
+    }
+  ]
+}

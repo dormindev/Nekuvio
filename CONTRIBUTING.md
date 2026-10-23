@@ -30,6 +30,8 @@ Commit messages should follow standard conventional commit formatting:
 - `feat`: A new feature or capability
 - `fix`: A bug fix
 - `refactor`: Code restructuring without functional changes
+- `style`: Code style or formatting changes without functional changes
+- `tweak`: Small behavior adjustment that is neither a feature nor a bug fix
 - `test`: Adding or updating test suites
 - `docs`: Documentation updates or additions
 - `chore`: Build scripts, dependencies, or configuration changes
@@ -39,13 +41,30 @@ Commit messages should follow standard conventional commit formatting:
 - Keep the summary line concise.
 - Do not commit generated build files (`dist/`, `build-info.json`) or local secrets.
 
+### Scopes
+- Optional, lowercase kebab-case, in parentheses: `style(test): adopt import organization convention`.
+- Prefer the exact directory or module name as it appears in the tree: `test`, `src`, `docs`, `app`, `matcher`, `nekobt`, `kitsu`, `parser`, etc.
+- Existing `tests` usages are legacy — use `test` going forward.
+
+## Real-World Case Data
+
+Interesting real-world cases are catalogued under `docs/data-catalog.md`, with payloads under `test/data/{fixtures,examples,unsupported,synthetic}/` and registry entries in `test/data/meta.json`. New cases may be added manually — see the entry-format section of `docs/data-catalog.md` and the fixtures/examples/unsupported/synthetic split described there.
+
+The three standings have three roles: a **fixture** is a specific real case, pointed at by at least one test; a **synthetic** is a specific assumed shape; **`examples/` are used as a whole** — the matcher test drives the whole corpus, and a test that needs one specific example promotes it to a fixture first.
+
+After adding or refreshing a data point, run the catalog checks:
+
+```bash
+npm run test:data:check
+```
+
 ## Code Quality Standards
 
 Before committing, verify all quality checks pass:
 
-1. **Type Checking**:
+1. **Type Checking** (sources *and* tests):
    ```bash
-   npm run build:check
+   npm run build:typecheck
    ```
 2. **Tests**:
    ```bash

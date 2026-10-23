@@ -1,0 +1,829 @@
+{
+  "error": false,
+  "data": {
+    "id": "10668245437700",
+    "uploaded_at": 1777362433741,
+    "title": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]",
+    "auto_title": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1] {Tags:L2;V12;C3;A=ja;F=en;S=de;}",
+    "description": "## Release Information\n\n| Field | Value |\n|:---|:---|\n| **File** | `That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv` |\n| **Source** | CRUCiBLE |\n| **File Size** | 240 MiB |\n| **Duration** | 23 min 42 s |\n| **Overall Bitrate** | 1 418 kb/s |\n| **Frame Rate** | 23.976 FPS |\n| **Rabbit Encoder** | v3.6.2 (Quality medium, Speed slow) |\n| **Language Detector** | v2.5.3 |\n\n## Video\n\n| Property | Value |\n|:---|:---|\n| **Codec** | AV1 |\n| **Resolution** | 1920×1080 |\n| **Aspect Ratio** | 16:9 |\n| **Bitrate** | 1 246 kb/s |\n| **Frame Rate** | 23.976 (24000/1001) FPS (Constant) |\n| **Bit Depth** | 10 bits |\n| **Stream Size** | 211 MiB (88%) |\n| **Encoder** | SVT-AV1-Essential v4.0.1 |\n| **Encoding Settings** | `--progress 0 --speed slow --quality medium --config /data/temp/24ad782c/abe_temp/source_video_zones.cfg` |\n\n## Audio\n\n| # | Language | Codec | Channels | Bitrate | Sample Rate | Size | Flags |\n|:---|:---|:---|:---|:---|:---|:---|:---|\n| 1 | Japanese | Opus | 2 channels (L R) | 128 kb/s | 48.0 kHz | 21.7 MiB (9%) | Default |\n\n## Subtitles\n\n| # | Title | Format | Language | Flags |\n|:---|:---|:---|:---|:---|\n| 1 | Full Subtitles [Asakura] | ASS | English | Default |\n| 2 | Signs & Songs | ASS | English | Forced |\n| 3 | Full Subtitles | PGS | German | Default |\n\n---\n\n## BlackRabbit Encodes\n\nBlackRabbit focuses on **mini encodes** made for users who want to save storage space without giving up solid video and audio quality.\n\nOur goal is simple: find the **best available remux source**, preferably with **dual audio** (**Japanese + English**) when possible, and encode it into:\n\n- **Video:** AV1\n- **Audio:** Opus\n\nThis makes the releases especially useful for people running automated setups such as **Sonarr**, where smaller file sizes can save a lot of storage over time.\n\n## Our Encoding Approach\n\nWe generally do **not** make unnecessary changes. The aim is to keep everything as close to the source as possible, with only these main differences:\n\n- video is encoded to **AV1**\n- audio is encoded to **Opus**\n- overall file size is significantly smaller\n\nIn other words, the release should remain effectively the same as the source, just in a more storage-efficient format.\n\n## Source Quality\n\nSource quality is very important to us. If a **better remux/source** becomes available later, we may **re-encode the entire season** using that source and increase the **version number**.\n\nIf you know of a better source, **please let us know in the comments**.\n\n## Sonarr Compatibility\n\nCompatibility with automated media systems, especially **Sonarr**, is one of our main priorities. Because of that, we try to keep **file names as Sonarr-compatible as possible** to make library management easier and more reliable.\n\n## Our Priority\n\nOur main goal is to provide **mini AV1 encodes for as many anime as possible** while still maintaining **good video and audio quality**.\n\nWhen strong AV1 releases from other groups are already available, we would generally recommend using those instead. BlackRabbit's focus is on helping fill the gaps by providing compact, high-quality AV1 encodes across a wide range of titles.\n\n## Optional Support\n\nIf you would like to support and help us continue releasing mini AV1 encodes, donations are appreciated but never expected.\n\n**XMR:** `895pWQCwjJs24bjnkY5SuhAvwjhKtcrL9NXx1aRy7MUbbSk8w7SawbTiRipPvcmKohQNqpNWXDypmHncLSCxzUtkERNJS9h`\n\n---\n\n**Feedback is always welcome.** If you spot a better source, naming issue, or anything else worth improving, let us know in the comments.",
+    "mediainfo": "General\nUnique ID                                : 212310860894397046461589056758395473247 (0x9FB9959E9D4FFF7DCF79D29281888D5F)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 240 MiB\nDuration                                 : 23 min 42 s\nOverall bit rate                         : 1 418 kb/s\nFrame rate                               : 23.976 FPS\nTitle                                    : That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 05:55:39 UTC\nWriting application                      : mkvmerge 94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : Gandhisans-Bold.otf / Gandhisans-Bolditalic.otf / Joyful Juliana.ttf / Linbiolinum_Rb.ttf / Abbey Md_PFLNormal.ttf / Ad Hoc.ttf / Chuu2-next.ttf / Dimbo Regular.ttf\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : CRUCiBLE\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 42 s\nBit rate                                 : 1 246 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.025\nStream size                              : 211 MiB (88%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/24ad782c/abe_temp/source_video_zones.cfg\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 42 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.7 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nVisual impaired                          : No\nOriginal                                 : No\nCommentary                               : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 30 s\nBit rate                                 : 3 016 b/s\nFrame rate                               : 3.535 FPS\nCount of elements                        : 4987\nCompression mode                         : Lossless\nStream size                              : 519 KiB (0%)\nTitle                                    : Full Subtitles [Asakura]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nHearing impaired                         : No\nText descriptions                        : No\nOriginal                                 : No\nCommentary                               : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 52 s\nBit rate                                 : 2 999 b/s\nFrame rate                               : 3.436 FPS\nCount of elements                        : 4717\nCompression mode                         : Lossless\nStream size                              : 503 KiB (0%)\nTitle                                    : Signs & Songs\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\nHearing impaired                         : No\nText descriptions                        : No\nOriginal                                 : No\nCommentary                               : No\n\nText #3\nID                                       : 5\nFormat                                   : PGS\nMuxing mode                              : zlib\nCodec ID                                 : S_HDMV/PGS\nCodec ID/Info                            : Picture based subtitle format used on BDs/HD-DVDs\nDuration                                 : 22 min 2 s\nBit rate                                 : 44.6 kb/s\nFrame rate                               : 0.493 FPS\nCount of elements                        : 652\nStream size                              : 7.03 MiB (3%)\nTitle                                    : Full Subtitles\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\nHearing impaired                         : No\nText descriptions                        : No\nOriginal                                 : No\nCommentary                               : No\n\nMenu\n00:00:00.000                             : en:Intro\n00:02:00.810                             : en:OP\n00:03:30.980                             : en:Part A\n00:15:41.960                             : en:Part B\n00:22:10.770                             : en:ED",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "2831473140",
+    "media_id": "s172",
+    "media_episode_ids": [
+      "4215",
+      "4216",
+      "4217",
+      "4218",
+      "4219",
+      "4220",
+      "4221",
+      "4222",
+      "4223",
+      "4224",
+      "4225",
+      "4226",
+      "4227",
+      "4228"
+    ],
+    "anilist_id": null,
+    "anilist_ids": [
+      106509,
+      139498,
+      161802
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "de",
+    "fsub_lang": "en",
+    "video_codec": 3,
+    "video_type": 12,
+    "files": [
+      {
+        "path": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]/That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 251981253,
+        "offset": 0
+      },
+      {
+        "path": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]/That Time I Got Reincarnated as a Slime (2018) - S00E08 - Tales Veldoras Journal 2 [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "That Time I Got Reincarnated as a Slime (2018) - S00E08 - Tales Veldoras Journal 2 [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 504272266,
+        "offset": 251981253
+      },
+      {
+        "path": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]/That Time I Got Reincarnated as a Slime (2018) - S00E09 - Scarlet Bond [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "That Time I Got Reincarnated as a Slime (2018) - S00E09 - Scarlet Bond [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 1298925627,
+        "offset": 756253519
+      },
+      {
+        "path": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]/That Time I Got Reincarnated as a Slime (2018) - S00E10 - Visions of Coleus To Coleus [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "That Time I Got Reincarnated as a Slime (2018) - S00E10 - Visions of Coleus To Coleus [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 256753939,
+        "offset": 2055179146
+      },
+      {
+        "path": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]/That Time I Got Reincarnated as a Slime (2018) - S00E11 - Visions of Coleus Great Phantom Thief Satoru [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "That Time I Got Reincarnated as a Slime (2018) - S00E11 - Visions of Coleus Great Phantom Thief Satoru [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 263158613,
+        "offset": 2311933085
+      },
+      {
+        "path": "[BlackRabbit] That Time I Got Reincarnated as a Slime (2018) - S00 [Bluray-1080p][Opus 2.0][AV1]/That Time I Got Reincarnated as a Slime (2018) - S00E12 - Visions of Coleus Purple and Roses [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "That Time I Got Reincarnated as a Slime (2018) - S00E12 - Visions of Coleus Purple and Roses [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 256381442,
+        "offset": 2575091698
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:9bd008486bce9136f0bc864501f65070a4eaf435&dn=%5BBlackRabbit%5D%20That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime%20(2018)%20-%20S00%20%5BBluray-1080p%5D%5BOpus%202.0%5D%5BAV1%5D%20%7BTags%3AL2%3BV12%3BC3%3BA%3Dja%3BF%3Den%3BS%3Dde%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "9bd008486bce9136f0bc864501f65070a4eaf435",
+    "anonymous": false,
+    "uploader": {
+      "id": "9816481654296",
+      "username": "blackrabbit",
+      "display_name": "BlackRabbit",
+      "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440"
+    },
+    "groups": [
+      {
+        "id": "9816645665074",
+        "name": "blackrabbit",
+        "display_name": "BlackRabbit",
+        "display_tag": "BlackRabbit",
+        "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440",
+        "tagline": "AV1 minis",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      },
+      {
+        "id": "7259109954361",
+        "name": "crucible",
+        "display_name": "CRUCiBLE",
+        "display_tag": "CRUCiBLE",
+        "pfp_hash": null,
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Source"
+      },
+      {
+        "id": "7310842786873",
+        "name": "asakura",
+        "display_name": "Asakura",
+        "display_tag": "Asakura",
+        "pfp_hash": "e69b04be60a8ec487e7bd7ebca95c24b80430502cfa0302a4c476574bc1b3f7e",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Subtitles"
+      },
+      {
+        "id": "8059034739505",
+        "name": "metal",
+        "display_name": "Metal",
+        "display_tag": "Metal",
+        "pfp_hash": null,
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Source"
+      },
+      {
+        "id": "9855866050873",
+        "name": "mehul",
+        "display_name": "Mehul",
+        "display_tag": "Mehul",
+        "pfp_hash": "4aca32dd18b6a824199bc3cef72b612aa87dcfa04d14cea519bbed45a7fc0e64",
+        "tagline": "Mehul Al Ghul",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Source"
+      },
+      {
+        "id": "5389321944114",
+        "name": "arg0",
+        "display_name": "Arg0",
+        "display_tag": "Arg0",
+        "pfp_hash": null,
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Subtitles"
+      }
+    ],
+    "imported": null,
+    "seeders": "5",
+    "leechers": "0",
+    "completed": "172",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": [
+      {
+        "file_id": 1374191,
+        "filename": "That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "filesize": 251981253,
+        "subs": [
+          {
+            "id": 2888095,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Full Subtitles [Asakura]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 2,
+            "tracknum": 3
+          },
+          {
+            "id": 2888098,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Signs & Songs",
+            "default": false,
+            "enabled": true,
+            "forced": true,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 2888099,
+            "codec": "PGS",
+            "lang": "ger",
+            "name": "Full Subtitles",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 212310860894397046461589056758395473247 (0x9FB9959E9D4FFF7DCF79D29281888D5F)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 240 MiB\nDuration                                 : 23 min 42 s\nOverall bit rate                         : 1 418 kb/s\nFrame rate                               : 23.976 FPS\nMovie name                               : That Time I Got Reincarnated as a Slime (2018) - S00E07 - Digression Hinata Sakaguchi\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 05:55:39 UTC\nWriting application                      : mkvmerge v94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : Gandhisans-Bold.otf / Gandhisans-Bolditalic.otf / Joyful Juliana.ttf / Linbiolinum_Rb.ttf / Abbey Md_PFLNormal.ttf / Ad Hoc.ttf / Chuu2-next.ttf / Dimbo Regular.ttf\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : CRUCiBLE\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 42 s\nBit rate                                 : 1 246 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.025\nStream size                              : 211 MiB (88%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/24ad782c/abe_temp/source_video_zones.cfg\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 42 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.7 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 30 s\nBit rate                                 : 3 016 b/s\nFrame rate                               : 3.535 FPS\nCount of elements                        : 4987\nCompression mode                         : Lossless\nStream size                              : 519 KiB (0%)\nTitle                                    : Full Subtitles [Asakura]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 52 s\nBit rate                                 : 2 999 b/s\nFrame rate                               : 3.436 FPS\nCount of elements                        : 4717\nCompression mode                         : Lossless\nStream size                              : 503 KiB (0%)\nTitle                                    : Signs &amp; Songs\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nText #3\nID                                       : 5\nFormat                                   : PGS\nMuxing mode                              : zlib\nCodec ID                                 : S_HDMV/PGS\nCodec ID/Info                            : Picture based subtitle format used on BDs/HD-DVDs\nDuration                                 : 22 min 2 s\nBit rate                                 : 44.6 kb/s\nFrame rate                               : 0.493 FPS\nCount of elements                        : 652\nStream size                              : 7.03 MiB (3%)\nTitle                                    : Full Subtitles\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Intro\n00:02:00.810                             : en:OP\n00:03:30.980                             : en:Part A\n00:15:41.960                             : en:Part B\n00:22:10.770                             : en:ED",
+        "screenshot_id": "0014f7ef",
+        "screenshot_timings": [
+          14150,
+          353530,
+          692500,
+          1029960,
+          1374550
+        ]
+      },
+      {
+        "file_id": 1374192,
+        "filename": "That Time I Got Reincarnated as a Slime (2018) - S00E08 - Tales Veldoras Journal 2 [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "filesize": 504272266,
+        "subs": [
+          {
+            "id": 1704999,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Full Subtitles [Asakura]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 2888101,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Signs & Songs",
+            "default": false,
+            "enabled": true,
+            "forced": true,
+            "trackid": 4,
+            "tracknum": 5
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 201570611633463691262733669913800198132 (0x97A516728BC8F1473113B42613ABC7F4)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E08 - Tales Veldoras Journal 2 [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 481 MiB\nDuration                                 : 23 min 46 s\nOverall bit rate                         : 2 829 kb/s\nFrame rate                               : 23.976 FPS\nMovie name                               : That Time I Got Reincarnated as a Slime (2018) - S00E08 - Tales Veldoras Journal 2\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 06:22:00 UTC\nWriting application                      : mkvmerge v94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : C017000d.ttf / CerigoStd-Medium.otf / Dimbo Regular.ttf / FOT-TelopMinPro-D.otf / Gandhisans-Bold.otf / Gandhisans-Bolditalic.otf / Joyful Juliana.ttf / Linbiolinum_Rb.ttf / LockdownZone-YzlY2.ttf / NotJustGroovy-enmp.ttf\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : CRUCiBLE\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 46 s\nBit rate                                 : 2 401 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.048\nStream size                              : 408 MiB (85%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/501d59fb/abe_temp/source_video_zones.cfg\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 46 s\nBit rate                                 : 127 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.5 MiB (4%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 45 s\nBit rate                                 : 222 kb/s\nChannel(s)                               : 6 channels\nChannel layout                           : L R C Lb Rb LFE\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 37.8 MiB (8%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 256 --discard-comments --discard-pictures\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 42 s\nBit rate                                 : 12.7 kb/s\nFrame rate                               : 2.370 FPS\nCount of elements                        : 3371\nCompression mode                         : Lossless\nStream size                              : 2.15 MiB (0%)\nTitle                                    : Full Subtitles [Asakura]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 53 s\nBit rate                                 : 13.0 kb/s\nFrame rate                               : 2.179 FPS\nCount of elements                        : 2993\nCompression mode                         : Lossless\nStream size                              : 2.13 MiB (0%)\nTitle                                    : Signs &amp; Songs\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nMenu\n00:00:00.000                             : en:Intro\n00:00:40.020                             : en:OP\n00:02:09.980                             : en:Part A\n00:12:06.000                             : en:Part B\n00:22:10.020                             : en:ED\n00:23:40.020                             : en:Next Episode",
+        "screenshot_id": "0014f7f0",
+        "screenshot_timings": [
+          14570,
+          355830,
+          693710,
+          1037380,
+          1376720
+        ]
+      },
+      {
+        "file_id": 1374190,
+        "filename": "That Time I Got Reincarnated as a Slime (2018) - S00E09 - Scarlet Bond [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "filesize": 1298925627,
+        "subs": [
+          {
+            "id": 2709548,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Full Subtitles",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 89177655006611507575787867142273656846 (0x4316FDDA76CB7B69B2B1AACB2CE8680E)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E09 - Scarlet Bond [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.21 GiB\nDuration                                 : 1 h 48 min\nOverall bit rate                         : 1 591 kb/s\nFrame rate                               : 23.976 FPS\nMovie name                               : That Time I Got Reincarnated as a Slime (2018) - S00E09 - Scarlet Bond\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 09:21:59 UTC\nWriting application                      : mkvmerge v94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : impact.ttf / georgiab.ttf / arialbd.ttf / trebucit.ttf / trebuc.ttf / timesbd.ttf\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : Metal\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 1 h 48 min\nBit rate                                 : 1 238 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.025\nStream size                              : 964 MiB (78%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/3b97681d/abe_temp/source_video_zones.cfg\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 1 h 48 min\nBit rate                                 : 124 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 96.6 MiB (8%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 1 h 48 min\nBit rate                                 : 222 kb/s\nChannel(s)                               : 6 channels\nChannel layout                           : L R C Lb Rb LFE\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 173 MiB (14%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 256 --discard-comments --discard-pictures\n\nText\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 1 h 42 min\nBit rate                                 : 102 b/s\nFrame rate                               : 0.224 FPS\nCount of elements                        : 1373\nCompression mode                         : Lossless\nStream size                              : 76.9 KiB (0%)\nTitle                                    : Full Subtitles\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Part 01\n00:05:47.847                             : en:Part 02\n00:10:32.923                             : en:Part 03\n00:13:51.705                             : en:Part 04\n00:18:11.215                             : en:Part 05\n00:23:48.718                             : en:Part 06\n00:26:11.486                             : en:Part 07\n00:34:51.506                             : en:Part 08\n00:42:59.994                             : en:Part 09\n00:52:16.383                             : en:Part 10\n00:59:30.858                             : en:Part 11\n01:06:35.241                             : en:Part 12\n01:14:38.557                             : en:Part 13\n01:20:06.968                             : en:Part 14\n01:24:50.001                             : en:Part 15\n01:28:30.388                             : en:Part 16\n01:34:38.381                             : en:Part 17\n01:37:03.234                             : en:Part 18\n01:41:42.638                             : en:Part 19\n01:44:05.239                             : en:Credits\n01:48:39.513                             : en:Part 21",
+        "screenshot_id": "0014f7ee",
+        "screenshot_timings": [
+          11440,
+          1629310,
+          3247880,
+          4863910,
+          6477650
+        ]
+      },
+      {
+        "file_id": 1374189,
+        "filename": "That Time I Got Reincarnated as a Slime (2018) - S00E10 - Visions of Coleus To Coleus [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "filesize": 256753939,
+        "subs": [
+          {
+            "id": 2888084,
+            "codec": "SRT",
+            "lang": "eng",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1858499,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Full Subtitles (Honorifics) [Arg0]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1880010,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Signs & Songs [Arg0]",
+            "default": false,
+            "enabled": true,
+            "forced": true,
+            "trackid": 5,
+            "tracknum": 6
+          },
+          {
+            "id": 1858501,
+            "codec": "ASS",
+            "lang": "ara",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 6,
+            "tracknum": 7
+          },
+          {
+            "id": 1858507,
+            "codec": "ASS",
+            "lang": "ger",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 7,
+            "tracknum": 8
+          },
+          {
+            "id": 1858519,
+            "codec": "ASS",
+            "lang": "spa",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 8,
+            "tracknum": 9
+          },
+          {
+            "id": 1858517,
+            "codec": "ASS",
+            "lang": "spa",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 9,
+            "tracknum": 10
+          },
+          {
+            "id": 1858505,
+            "codec": "ASS",
+            "lang": "fre",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 10,
+            "tracknum": 11
+          },
+          {
+            "id": 2888085,
+            "codec": "SRT",
+            "lang": "ind",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 11,
+            "tracknum": 12
+          },
+          {
+            "id": 1858509,
+            "codec": "ASS",
+            "lang": "ita",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 12,
+            "tracknum": 13
+          },
+          {
+            "id": 1858512,
+            "codec": "ASS",
+            "lang": "por",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 13,
+            "tracknum": 14
+          },
+          {
+            "id": 1858513,
+            "codec": "ASS",
+            "lang": "rus",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 14,
+            "tracknum": 15
+          },
+          {
+            "id": 2888087,
+            "codec": "SRT",
+            "lang": "tha",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 15,
+            "tracknum": 16
+          },
+          {
+            "id": 2888088,
+            "codec": "SRT",
+            "lang": "chi",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 16,
+            "tracknum": 17
+          },
+          {
+            "id": 2888089,
+            "codec": "SRT",
+            "lang": "chi",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 17,
+            "tracknum": 18
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 21918433427809713582343252834303402528 (0x107D5633C21A65A037FA3F14F2C4E220)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E10 - Visions of Coleus To Coleus [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 245 MiB\nDuration                                 : 24 min 32 s\nOverall bit rate                         : 1 395 kb/s\nFrame rate                               : 23.976 FPS\nMovie name                               : That Time I Got Reincarnated as a Slime (2018) - S00E10 - Visions of Coleus To Coleus\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 06:45:25 UTC\nWriting application                      : mkvmerge v94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : GEORGIA_ITALIC.TTF / TAHOMA FAUX ITALIC.TTF / TREBUCBD.TTF / ADOBEARABIC-REGULAR.OTF / TAHOMA.TTF / ADOBEARABIC-BOLD.OTF / GEORGIAZ.TTF / IMPACT.TTF / GEORGIAB.TTF / TREBUC.TTF / VERDANA.TTF / VERDANAI.TTF / VERDANAB.TTF / ADOBEARABIC-BOLDITALIC.OTF / TREBUCBI.TTF / GEORGIA.TTF / TIMESBI.TTF / GANDHISANS-BOLD.OTF / ARIAL.TTF / TIMESBD.TTF / ARIALBD.TTF / TIMES.TTF / TREBUCIT.TTF / GANDHISANS-BOLDITALIC.OTF\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : Mehul\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 32 s\nBit rate                                 : 1 088 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.022\nStream size                              : 191 MiB (78%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/2e8ee937/abe_temp/source_video_zones.cfg\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 32 s\nBit rate                                 : 127 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.3 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 30 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.4 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nText #1\nID                                       : 4\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 24 s\nBit rate                                 : 80 b/s\nFrame rate                               : 0.289 FPS\nCount of elements                        : 423\nStream size                              : 14.3 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 162 b/s\nFrame rate                               : 0.305 FPS\nCount of elements                        : 447\nCompression mode                         : Lossless\nStream size                              : 29.1 KiB (0%)\nTitle                                    : Full Subtitles (Honorifics) [Arg0]\nLanguage                                 : English (JP)\nDefault                                  : Yes\nForced                                   : No\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 51 s\nBit rate                                 : 22 b/s\nFrame rate                               : 0.027 FPS\nCount of elements                        : 39\nCompression mode                         : Lossless\nStream size                              : 3.98 KiB (0%)\nTitle                                    : Signs &amp; Songs [Arg0]\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nText #4\nID                                       : 7\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 195 b/s\nFrame rate                               : 0.306 FPS\nCount of elements                        : 448\nCompression mode                         : Lossless\nStream size                              : 34.9 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Arabic\nDefault                                  : Yes\nForced                                   : No\n\nText #5\nID                                       : 8\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 211 b/s\nFrame rate                               : 0.283 FPS\nCount of elements                        : 415\nCompression mode                         : Lossless\nStream size                              : 37.8 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\n\nText #6\nID                                       : 9\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 172 b/s\nFrame rate                               : 0.295 FPS\nCount of elements                        : 432\nCompression mode                         : Lossless\nStream size                              : 30.9 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Spanish (Latin America)\nDefault                                  : Yes\nForced                                   : No\n\nText #7\nID                                       : 10\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 173 b/s\nFrame rate                               : 0.295 FPS\nCount of elements                        : 432\nCompression mode                         : Lossless\nStream size                              : 31.0 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Spanish (ES)\nDefault                                  : Yes\nForced                                   : No\n\nText #8\nID                                       : 11\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 24 s\nBit rate                                 : 145 b/s\nFrame rate                               : 0.273 FPS\nCount of elements                        : 400\nCompression mode                         : Lossless\nStream size                              : 26.0 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : French\nDefault                                  : Yes\nForced                                   : No\n\nText #9\nID                                       : 12\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 28 s\nBit rate                                 : 84 b/s\nFrame rate                               : 0.294 FPS\nCount of elements                        : 432\nStream size                              : 15.1 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Indonesian\nDefault                                  : Yes\nForced                                   : No\n\nText #10\nID                                       : 13\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 175 b/s\nFrame rate                               : 0.332 FPS\nCount of elements                        : 487\nCompression mode                         : Lossless\nStream size                              : 31.4 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Italian\nDefault                                  : Yes\nForced                                   : No\n\nText #11\nID                                       : 14\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 163 b/s\nFrame rate                               : 0.305 FPS\nCount of elements                        : 447\nCompression mode                         : Lossless\nStream size                              : 29.3 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Portuguese (BR)\nDefault                                  : Yes\nForced                                   : No\n\nText #12\nID                                       : 15\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 26 s\nBit rate                                 : 256 b/s\nFrame rate                               : 0.305 FPS\nCount of elements                        : 447\nCompression mode                         : Lossless\nStream size                              : 46.0 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Russian\nDefault                                  : Yes\nForced                                   : No\n\nText #13\nID                                       : 16\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 26 s\nBit rate                                 : 215 b/s\nFrame rate                               : 0.314 FPS\nCount of elements                        : 461\nStream size                              : 38.6 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Thai\nDefault                                  : Yes\nForced                                   : No\n\nText #14\nID                                       : 17\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 23 s\nBit rate                                 : 79 b/s\nFrame rate                               : 0.344 FPS\nCount of elements                        : 504\nStream size                              : 14.3 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Chinese (Simplified)\nDefault                                  : Yes\nForced                                   : No\n\nText #15\nID                                       : 18\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 23 s\nBit rate                                 : 79 b/s\nFrame rate                               : 0.344 FPS\nCount of elements                        : 504\nStream size                              : 14.3 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Chinese (Traditional)\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Prologue\n00:00:23.023                             : en:Opening\n00:01:53.030                             : en:Part A\n00:13:34.022                             : en:Part B\n00:22:54.999                             : en:Ending\n00:24:25.005                             : en:Preview",
+        "screenshot_id": "0014f7ed",
+        "screenshot_timings": [
+          12020,
+          364500,
+          715770,
+          1065620,
+          1418930
+        ]
+      },
+      {
+        "file_id": 1374193,
+        "filename": "That Time I Got Reincarnated as a Slime (2018) - S00E11 - Visions of Coleus Great Phantom Thief Satoru [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "filesize": 263158613,
+        "subs": [
+          {
+            "id": 2888103,
+            "codec": "SRT",
+            "lang": "eng",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1880013,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Signs & Songs [Arg0]",
+            "default": false,
+            "enabled": true,
+            "forced": true,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1858511,
+            "codec": "ASS",
+            "lang": "ara",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          },
+          {
+            "id": 1858518,
+            "codec": "ASS",
+            "lang": "ger",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 6,
+            "tracknum": 7
+          },
+          {
+            "id": 1858539,
+            "codec": "ASS",
+            "lang": "spa",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 7,
+            "tracknum": 8
+          },
+          {
+            "id": 1858537,
+            "codec": "ASS",
+            "lang": "spa",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 8,
+            "tracknum": 9
+          },
+          {
+            "id": 1858516,
+            "codec": "ASS",
+            "lang": "fre",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 9,
+            "tracknum": 10
+          },
+          {
+            "id": 2888104,
+            "codec": "SRT",
+            "lang": "ind",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 10,
+            "tracknum": 11
+          },
+          {
+            "id": 1858524,
+            "codec": "ASS",
+            "lang": "ita",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 11,
+            "tracknum": 12
+          },
+          {
+            "id": 1858528,
+            "codec": "ASS",
+            "lang": "por",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 12,
+            "tracknum": 13
+          },
+          {
+            "id": 1858533,
+            "codec": "ASS",
+            "lang": "rus",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 13,
+            "tracknum": 14
+          },
+          {
+            "id": 2888105,
+            "codec": "SRT",
+            "lang": "tha",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 14,
+            "tracknum": 15
+          },
+          {
+            "id": 2888106,
+            "codec": "SRT",
+            "lang": "chi",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 15,
+            "tracknum": 16
+          },
+          {
+            "id": 2888107,
+            "codec": "SRT",
+            "lang": "chi",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 16,
+            "tracknum": 17
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 118977614158750515545666373231047794590 (0x59824146803D07A91F22E096E232DF9E)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E11 - Visions of Coleus Great Phantom Thief Satoru [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 251 MiB\nDuration                                 : 24 min 31 s\nOverall bit rate                         : 1 430 kb/s\nFrame rate                               : 23.976 FPS\nMovie name                               : That Time I Got Reincarnated as a Slime (2018) - S00E11 - Visions of Coleus Great Phantom Thief Satoru\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 07:09:19 UTC\nWriting application                      : mkvmerge v94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : TREBUCBD.TTF / TIMESBD.TTF / GANDHISANS-BOLDITALIC.OTF / GEORGIA.TTF / GEORGIAZ.TTF / TREBUCBI.TTF / TAHOMA.TTF / VERDANAB.TTF / VERDANA.TTF / GEORGIAB.TTF / TIMESBI.TTF / ARIAL.TTF / VERDANAI.TTF / GEORGIAI.TTF / ADOBEARABIC-BOLD.OTF / IMPACT.TTF / TREBUC.TTF / TAHOMA FAUX ITALIC.TTF / ARIALBD.TTF / GANDHISANS-BOLD.OTF / TIMES.TTF / ADOBEARABIC-BOLDITALIC.OTF / TREBUCIT.TTF\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : Mehul\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 31 s\nBit rate                                 : 1 121 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.023\nStream size                              : 197 MiB (78%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/8ff63475/abe_temp/source_video_zones.cfg\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 31 s\nBit rate                                 : 127 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.2 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 29 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.4 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nText #1\nID                                       : 4\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 15 s\nBit rate                                 : 75 b/s\nFrame rate                               : 0.291 FPS\nCount of elements                        : 424\nStream size                              : 13.5 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 32 s\nBit rate                                 : 8 b/s\nFrame rate                               : 0.008 FPS\nCount of elements                        : 12\nCompression mode                         : Lossless\nStream size                              : 1.49 KiB (0%)\nTitle                                    : Signs &amp; Songs [Arg0]\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 18 s\nBit rate                                 : 169 b/s\nFrame rate                               : 0.282 FPS\nCount of elements                        : 411\nCompression mode                         : Lossless\nStream size                              : 30.1 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Arabic\nDefault                                  : Yes\nForced                                   : No\n\nText #4\nID                                       : 7\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 17 s\nBit rate                                 : 205 b/s\nFrame rate                               : 0.272 FPS\nCount of elements                        : 396\nCompression mode                         : Lossless\nStream size                              : 36.6 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\n\nText #5\nID                                       : 8\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 19 s\nBit rate                                 : 137 b/s\nFrame rate                               : 0.255 FPS\nCount of elements                        : 372\nCompression mode                         : Lossless\nStream size                              : 24.5 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Spanish (Latin America)\nDefault                                  : Yes\nForced                                   : No\n\nText #6\nID                                       : 9\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 19 s\nBit rate                                 : 137 b/s\nFrame rate                               : 0.255 FPS\nCount of elements                        : 372\nCompression mode                         : Lossless\nStream size                              : 24.6 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Spanish (ES)\nDefault                                  : Yes\nForced                                   : No\n\nText #7\nID                                       : 10\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 15 s\nBit rate                                 : 139 b/s\nFrame rate                               : 0.266 FPS\nCount of elements                        : 387\nCompression mode                         : Lossless\nStream size                              : 24.7 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : French\nDefault                                  : Yes\nForced                                   : No\n\nText #8\nID                                       : 11\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 19 s\nBit rate                                 : 79 b/s\nFrame rate                               : 0.285 FPS\nCount of elements                        : 416\nStream size                              : 14.1 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Indonesian\nDefault                                  : Yes\nForced                                   : No\n\nText #9\nID                                       : 12\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 17 s\nBit rate                                 : 181 b/s\nFrame rate                               : 0.300 FPS\nCount of elements                        : 438\nCompression mode                         : Lossless\nStream size                              : 32.3 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Italian\nDefault                                  : Yes\nForced                                   : No\n\nText #10\nID                                       : 13\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 18 s\nBit rate                                 : 139 b/s\nFrame rate                               : 0.279 FPS\nCount of elements                        : 407\nCompression mode                         : Lossless\nStream size                              : 24.9 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Portuguese (BR)\nDefault                                  : Yes\nForced                                   : No\n\nText #11\nID                                       : 14\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 18 s\nBit rate                                 : 231 b/s\nFrame rate                               : 0.276 FPS\nCount of elements                        : 403\nCompression mode                         : Lossless\nStream size                              : 41.1 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Russian\nDefault                                  : Yes\nForced                                   : No\n\nText #12\nID                                       : 15\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 18 s\nBit rate                                 : 193 b/s\nFrame rate                               : 0.301 FPS\nCount of elements                        : 439\nStream size                              : 34.4 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Thai\nDefault                                  : Yes\nForced                                   : No\n\nText #13\nID                                       : 16\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 15 s\nBit rate                                 : 74 b/s\nFrame rate                               : 0.324 FPS\nCount of elements                        : 472\nStream size                              : 13.3 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Chinese (Simplified)\nDefault                                  : Yes\nForced                                   : No\n\nText #14\nID                                       : 17\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 15 s\nBit rate                                 : 74 b/s\nFrame rate                               : 0.324 FPS\nCount of elements                        : 472\nStream size                              : 13.3 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Chinese (Traditional)\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Prologue\n00:00:42.042                             : en:Opening\n00:02:12.007                             : en:Part A\n00:11:50.001                             : en:Part B\n00:22:54.957                             : en:Ending\n00:24:24.963                             : en:Preview",
+        "screenshot_id": "0014f7f1",
+        "screenshot_timings": [
+          9650,
+          360620,
+          712520,
+          1067750,
+          1418890
+        ]
+      },
+      {
+        "file_id": 1374188,
+        "filename": "That Time I Got Reincarnated as a Slime (2018) - S00E12 - Visions of Coleus Purple and Roses [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "filesize": 256381442,
+        "subs": [
+          {
+            "id": 2888083,
+            "codec": "SRT",
+            "lang": "eng",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 3,
+            "tracknum": 4
+          },
+          {
+            "id": 1880009,
+            "codec": "ASS",
+            "lang": "eng",
+            "name": "Signs & Songs [Arg0]",
+            "default": false,
+            "enabled": true,
+            "forced": true,
+            "trackid": 4,
+            "tracknum": 5
+          },
+          {
+            "id": 1858527,
+            "codec": "ASS",
+            "lang": "ara",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 5,
+            "tracknum": 6
+          },
+          {
+            "id": 1858532,
+            "codec": "ASS",
+            "lang": "ger",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 6,
+            "tracknum": 7
+          },
+          {
+            "id": 1858541,
+            "codec": "ASS",
+            "lang": "spa",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 7,
+            "tracknum": 8
+          },
+          {
+            "id": 1858540,
+            "codec": "ASS",
+            "lang": "spa",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 8,
+            "tracknum": 9
+          },
+          {
+            "id": 1858531,
+            "codec": "ASS",
+            "lang": "fre",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 9,
+            "tracknum": 10
+          },
+          {
+            "id": 2888086,
+            "codec": "SRT",
+            "lang": "ind",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 10,
+            "tracknum": 11
+          },
+          {
+            "id": 1858535,
+            "codec": "ASS",
+            "lang": "ita",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 11,
+            "tracknum": 12
+          },
+          {
+            "id": 1858536,
+            "codec": "ASS",
+            "lang": "por",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 12,
+            "tracknum": 13
+          },
+          {
+            "id": 1858538,
+            "codec": "ASS",
+            "lang": "rus",
+            "name": "Full Subtitles [CR]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 13,
+            "tracknum": 14
+          },
+          {
+            "id": 2888091,
+            "codec": "SRT",
+            "lang": "tha",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 14,
+            "tracknum": 15
+          },
+          {
+            "id": 2888092,
+            "codec": "SRT",
+            "lang": "chi",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 15,
+            "tracknum": 16
+          },
+          {
+            "id": 2888093,
+            "codec": "SRT",
+            "lang": "chi",
+            "name": "Full Subtitles [B-Global]",
+            "default": true,
+            "enabled": true,
+            "forced": false,
+            "trackid": 16,
+            "tracknum": 17
+          }
+        ],
+        "mediainfo": "General\nUnique ID                                : 215962844801898891042796883476033209764 (0xA278EE53E9992C6242440CE39B9E85A4)\nComplete name                            : That Time I Got Reincarnated as a Slime (2018) - S00E12 - Visions of Coleus Purple and Roses [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 245 MiB\nDuration                                 : 24 min 32 s\nOverall bit rate                         : 1 393 kb/s\nFrame rate                               : 23.976 FPS\nMovie name                               : That Time I Got Reincarnated as a Slime (2018) - S00E12 - Visions of Coleus Purple and Roses\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-04-25 07:33:10 UTC\nWriting application                      : mkvmerge v94.0 ('Initiate') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1 / Lavf61.7.100\nAttachments                              : TREBUCIT.TTF / TIMESBI.TTF / GANDHISANS-BOLDITALIC.OTF / ADOBEARABIC-BOLDITALIC.OTF / TREBUCBD.TTF / TIMESBD.TTF / VERDANAB.TTF / IMPACT.TTF / GEORGIAZ.TTF / ARIALBD.TTF / GEORGIA.TTF / TIMES.TTF / TAHOMA FAUX ITALIC.TTF / ADOBEARABIC-BOLD.OTF / TAHOMA.TTF / GEORGIAB.TTF / ARIAL.TTF / GANDHISANS-BOLD.OTF / GEORGIA_ITALIC.TTF / VERDANA.TTF / VERDANAI.TTF / TREBUC.TTF / TREBUCBI.TTF\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : Quality medium, Speed slow\nRABBIT_ENCODER/VERSION                   : v3.6.2\nSOURCE                                   : Mehul\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nCodec ID                                 : V_AV1\nDuration                                 : 24 min 32 s\nBit rate                                 : 1 095 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.022\nStream size                              : 192 MiB (79%)\nTitle                                    : BlackRabbit\nWriting library                          : SVT-AV1-Essential v4.0.1\nEncoding settings                        : --progress 0 --speed slow --quality medium --config /data/temp/6d9d7fcd/abe_temp/source_video_zones.cfg\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 32 s\nBit rate                                 : 126 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.2 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 24 min 30 s\nBit rate                                 : 126 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 22.1 MiB (9%)\nWriting library                          : opusenc from opus-tools 0.2\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\nENCODER_OPTIONS                          : --bitrate 128 --discard-comments --discard-pictures\n\nText #1\nID                                       : 4\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 22 min 52 s\nBit rate                                 : 75 b/s\nFrame rate                               : 0.293 FPS\nCount of elements                        : 402\nStream size                              : 12.6 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 6 min 25 s\nBit rate                                 : 16 b/s\nFrame rate                               : 0.016 FPS\nCount of elements                        : 6\nCompression mode                         : Lossless\nStream size                              : 817 Bytes (0%)\nTitle                                    : Signs &amp; Songs [Arg0]\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 166 b/s\nFrame rate                               : 0.271 FPS\nCount of elements                        : 392\nCompression mode                         : Lossless\nStream size                              : 29.3 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Arabic\nDefault                                  : Yes\nForced                                   : No\n\nText #4\nID                                       : 7\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 160 b/s\nFrame rate                               : 0.255 FPS\nCount of elements                        : 369\nCompression mode                         : Lossless\nStream size                              : 28.4 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No\n\nText #5\nID                                       : 8\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 120 b/s\nFrame rate                               : 0.240 FPS\nCount of elements                        : 347\nCompression mode                         : Lossless\nStream size                              : 21.3 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Spanish (Latin America)\nDefault                                  : Yes\nForced                                   : No\n\nText #6\nID                                       : 9\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 121 b/s\nFrame rate                               : 0.240 FPS\nCount of elements                        : 347\nCompression mode                         : Lossless\nStream size                              : 21.5 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Spanish (ES)\nDefault                                  : Yes\nForced                                   : No\n\nText #7\nID                                       : 10\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 135 b/s\nFrame rate                               : 0.260 FPS\nCount of elements                        : 376\nCompression mode                         : Lossless\nStream size                              : 24.0 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : French\nDefault                                  : Yes\nForced                                   : No\n\nText #8\nID                                       : 11\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 15 s\nBit rate                                 : 76 b/s\nFrame rate                               : 0.266 FPS\nCount of elements                        : 387\nStream size                              : 13.5 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Indonesian\nDefault                                  : Yes\nForced                                   : No\n\nText #9\nID                                       : 12\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 6 s\nBit rate                                 : 146 b/s\nFrame rate                               : 0.294 FPS\nCount of elements                        : 425\nCompression mode                         : Lossless\nStream size                              : 25.8 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Italian\nDefault                                  : Yes\nForced                                   : No\n\nText #10\nID                                       : 13\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 134 b/s\nFrame rate                               : 0.269 FPS\nCount of elements                        : 389\nCompression mode                         : Lossless\nStream size                              : 23.7 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Portuguese (BR)\nDefault                                  : Yes\nForced                                   : No\n\nText #11\nID                                       : 14\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 24 min 7 s\nBit rate                                 : 215 b/s\nFrame rate                               : 0.274 FPS\nCount of elements                        : 397\nCompression mode                         : Lossless\nStream size                              : 38.0 KiB (0%)\nTitle                                    : Full Subtitles [CR]\nLanguage                                 : Russian\nDefault                                  : Yes\nForced                                   : No\n\nText #12\nID                                       : 15\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 7 s\nBit rate                                 : 187 b/s\nFrame rate                               : 0.301 FPS\nCount of elements                        : 436\nStream size                              : 33.1 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Thai\nDefault                                  : Yes\nForced                                   : No\n\nText #13\nID                                       : 16\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 15 s\nBit rate                                 : 72 b/s\nFrame rate                               : 0.319 FPS\nCount of elements                        : 464\nStream size                              : 12.9 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Chinese (Simplified)\nDefault                                  : Yes\nForced                                   : No\n\nText #14\nID                                       : 17\nFormat                                   : UTF-8\nCodec ID                                 : S_TEXT/UTF8\nCodec ID/Info                            : UTF-8 Plain Text\nDuration                                 : 24 min 15 s\nBit rate                                 : 72 b/s\nFrame rate                               : 0.319 FPS\nCount of elements                        : 464\nStream size                              : 12.9 KiB (0%)\nTitle                                    : Full Subtitles [B-Global]\nLanguage                                 : Chinese (Traditional)\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Opening\n00:01:30.007                             : en:Part A\n00:10:10.026                             : en:Part B\n00:22:19.046                             : en:Ending\n00:23:49.094                             : en:Epilogue",
+        "screenshot_id": "0014f7ec",
+        "screenshot_timings": [
+          13320,
+          364250,
+          713770,
+          1069460,
+          1422430
+        ]
+      }
+    ],
+    "animetosho_fetch_time": "1777364564072",
+    "screenshots": [
+      "https://storage.animetosho.org/sframes/0014f7ef_14150.webp?s=3",
+      "https://storage.animetosho.org/sframes/0014f7ef_353530.webp?s=3",
+      "https://storage.animetosho.org/sframes/0014f7ef_692500.webp?s=3",
+      "https://storage.animetosho.org/sframes/0014f7ef_1029960.webp?s=3",
+      "https://storage.animetosho.org/sframes/0014f7ef_1374550.webp?s=3"
+    ],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": true
+  }
+}

@@ -4,6 +4,9 @@
 .env.local
 .venv
 .vscode/settings.json
+.agents/skills
+implementation_plan/
+skills-lock.json
 node_modules/
 dist/
 coverage/

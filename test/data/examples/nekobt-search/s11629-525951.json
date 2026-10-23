@@ -1,0 +1,1074 @@
+{
+  "error": false,
+  "data": {
+    "results": [],
+    "infohash_match": null,
+    "recommended_media": null,
+    "media": {
+      "id": "s11629",
+      "title": "The Hidden Dungeon Only I Can Enter",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Ecchi",
+        "Fantasy",
+        "Romance"
+      ],
+      "overview": "The Hidden Dungeon is a place of legend where rare treasures and items are hidden. Noir, the third son of an impoverished noble family who's lost the one job offer he had, was lucky enough to hear about this dungeon. He then acquires a skill that allows him to create, bestow, and edit skills... and in order to use it, he needs to accumulate points by carrying out such tasks as eating delicious meals and doing sexual things with alluring members of the opposite sex.\n\n(Source: Crunchyroll)",
+      "status": "ended",
+      "banner_url": "https://artworks.thetvdb.com/banners/series/388006/posters/5ff205644a3cd.jpg",
+      "runtime": 24,
+      "tvdbId": 388006,
+      "tmdbId": 103157,
+      "imdbId": "tt12728856",
+      "year": 2021,
+      "alternate_titles": [
+        "Ore dake Haireru Kakushi Dungeon"
+      ],
+      "anilist": {
+        "display_id": 118375,
+        "primary": {
+          "id": 118375,
+          "id_mal": 41899,
+          "title": {
+            "romaji": "Ore dake Haireru Kakushi Dungeon",
+            "english": "The Hidden Dungeon Only I Can Enter",
+            "native": "俺だけ入れる隠しダンジョン",
+            "synonyms": [
+              "Special training in the Secret Dungeon!",
+              "ดันเจี้ยนที่มีแต่ข้าเท่านั้นที่เข้าได้ ～แอบฝึกปรืนจนบรรลุสู่สุดแกร่ง～"
+            ]
+          },
+          "description": "The Hidden Dungeon is a place of legend where rare treasures and items are hidden. Noir, the third son of an impoverished noble family who's lost the one job offer he had, was lucky enough to hear about this dungeon. He then acquires a skill that allows him to create, bestow, and edit skills... and in order to use it, he needs to accumulate points by carrying out such tasks as eating delicious meals and doing sexual things with alluring members of the opposite sex.<br>\n<br>\n(Source: Crunchyroll)",
+          "format": "TV",
+          "status": "FINISHED",
+          "episodes": 12,
+          "duration": 24,
+          "season": "WINTER",
+          "season_year": 2021,
+          "start_date": "2021-01-09",
+          "end_date": "2021-03-27",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118375-95ClbAh2EQMD.jpg",
+          "cover_color": "#a17835",
+          "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/118375-R4y2nIid48Uw.jpg",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Ecchi",
+            "Fantasy",
+            "Romance"
+          ],
+          "studios": [
+            {
+              "id": 6314,
+              "name": "Okuruto Noboru"
+            }
+          ],
+          "tags": [
+            {
+              "id": 23,
+              "name": "Female Harem",
+              "rank": 92,
+              "category": "Theme-Romance"
+            },
+            {
+              "id": 82,
+              "name": "Male Protagonist",
+              "rank": 86,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 29,
+              "name": "Magic",
+              "rank": 79,
+              "category": "Theme-Fantasy"
+            },
+            {
+              "id": 1045,
+              "name": "Heterosexual",
+              "rank": 79,
+              "category": "Theme-Romance"
+            },
+            {
+              "id": 604,
+              "name": "Dungeon",
+              "rank": 78,
+              "category": "Setting-Scene"
+            },
+            {
+              "id": 157,
+              "name": "Guns",
+              "rank": 73,
+              "category": "Theme-Action"
+            },
+            {
+              "id": 193,
+              "name": "Episodic",
+              "rank": 64,
+              "category": "Technical"
+            },
+            {
+              "id": 86,
+              "name": "Primarily Female Cast",
+              "rank": 60,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 1228,
+              "name": "Primarily Teen Cast",
+              "rank": 60,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 631,
+              "name": "Feet",
+              "rank": 56,
+              "category": "Sexual Content"
+            },
+            {
+              "id": 1403,
+              "name": "Class Struggle",
+              "rank": 56,
+              "category": "Theme-Drama"
+            },
+            {
+              "id": 433,
+              "name": "Animals",
+              "rank": 55,
+              "category": "Theme-Other"
+            },
+            {
+              "id": 39,
+              "name": "Parody",
+              "rank": 55,
+              "category": "Theme-Comedy"
+            },
+            {
+              "id": 163,
+              "name": "Yandere",
+              "rank": 53,
+              "category": "Cast-Traits"
+            },
+            {
+              "id": 43,
+              "name": "Swordplay",
+              "rank": 52,
+              "category": "Theme-Action"
+            }
+          ],
+          "relations": [
+            {
+              "id": 103850,
+              "type": "MANGA",
+              "title": {
+                "native": "俺だけ入れる隠しダンジョン　～こっそり鍛えて世界最強～",
+                "romaji": "Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou",
+                "english": "The Hidden Dungeon Only I Can Enter",
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/103850",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx103850-Olxz9fHAWMHu.jpg",
+              "relation_type": "ALTERNATIVE"
+            },
+            {
+              "id": 103851,
+              "type": "MANGA",
+              "title": {
+                "native": "俺だけ入れる隠しダンジョン　～こっそり鍛えて世界最強～",
+                "romaji": "Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou",
+                "english": "The Hidden Dungeon Only I Can Enter",
+                "synonyms": []
+              },
+              "format": "NOVEL",
+              "site_url": "https://anilist.co/manga/103851",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx103851-STiLTLricXiR.jpg",
+              "relation_type": "ADAPTATION"
+            },
+            {
+              "id": 128367,
+              "type": "ANIME",
+              "title": {
+                "native": "ドキドキ！ミニミニ！隠しダンジョン劇場",
+                "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou",
+                "english": null,
+                "synonyms": []
+              },
+              "format": "ONA",
+              "site_url": "https://anilist.co/anime/128367",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128367-e4rG4FEjxWAu.jpg",
+              "relation_type": "CHARACTER"
+            },
+            {
+              "id": 131708,
+              "type": "ANIME",
+              "title": {
+                "native": "ドキドキ！ミニミニ！隠しダンジョン劇場 アーティストコラボ",
+                "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou Artist Collab",
+                "english": null,
+                "synonyms": []
+              },
+              "format": "ONA",
+              "site_url": "https://anilist.co/anime/131708",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131708-OY1Ycnzd1CCB.jpg",
+              "relation_type": "CHARACTER"
+            }
+          ],
+          "external_links": [
+            {
+              "url": "https://twitter.com/kakushidungeon",
+              "site": "Twitter",
+              "type": "SOCIAL"
+            },
+            {
+              "url": "https://kakushidungeon-anime.jp/",
+              "site": "Official Site",
+              "type": "INFO"
+            },
+            {
+              "url": "https://www.crunchyroll.com/the-hidden-dungeon-only-i-can-enter",
+              "site": "Crunchyroll",
+              "type": "STREAMING"
+            },
+            {
+              "url": "https://www.bilibili.tv/en/media/36934",
+              "site": "Bilibili TV",
+              "type": "STREAMING"
+            }
+          ],
+          "average_score": 60,
+          "popularity": 130110,
+          "favourites": 1713,
+          "country_of_origin": "JP",
+          "is_adult": false,
+          "site_url": "https://anilist.co/anime/118375",
+          "next_airing_episode": null,
+          "next_airing_at": null
+        },
+        "entries": [
+          {
+            "season": 0,
+            "src_start": 1,
+            "src_end": 12,
+            "dst_start": 1,
+            "dst_end": 12,
+            "ratio": null,
+            "anilist_id": 128367,
+            "ord": 1,
+            "media": {
+              "id": 128367,
+              "id_mal": 45658,
+              "title": {
+                "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou",
+                "english": null,
+                "native": "ドキドキ！ミニミニ！隠しダンジョン劇場",
+                "synonyms": []
+              },
+              "description": "Mini anime for Ore dake Haireru Kakushi Dungeon released weekly on the official YouTube channel.",
+              "format": "ONA",
+              "status": "FINISHED",
+              "episodes": 12,
+              "duration": 1,
+              "season": "WINTER",
+              "season_year": 2021,
+              "start_date": "2021-01-09",
+              "end_date": "2021-03-27",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128367-e4rG4FEjxWAu.jpg",
+              "cover_color": "#ffe400",
+              "banner_image": null,
+              "genres": [
+                "Comedy",
+                "Fantasy"
+              ],
+              "studios": [
+                {
+                  "id": 6314,
+                  "name": "Okuruto Noboru"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 324,
+                  "name": "Chibi",
+                  "rank": 79,
+                  "category": "Theme-Other"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 118375,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "俺だけ入れる隠しダンジョン",
+                    "romaji": "Ore dake Haireru Kakushi Dungeon",
+                    "english": "The Hidden Dungeon Only I Can Enter",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/118375",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx118375-95ClbAh2EQMD.jpg",
+                  "relation_type": "CHARACTER"
+                },
+                {
+                  "id": 131708,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "ドキドキ！ミニミニ！隠しダンジョン劇場 アーティストコラボ",
+                    "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou Artist Collab",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "ONA",
+                  "site_url": "https://anilist.co/anime/131708",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131708-OY1Ycnzd1CCB.jpg",
+                  "relation_type": "CHARACTER"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://www.youtube.com/channel/UCOa1eeVIm2_K_EGJrMUM10A/videos",
+                  "site": "YouTube",
+                  "type": "STREAMING"
+                }
+              ],
+              "average_score": 53,
+              "popularity": 1482,
+              "favourites": 5,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/128367",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 0,
+            "src_start": 13,
+            "src_end": 14,
+            "dst_start": 1,
+            "dst_end": 2,
+            "ratio": null,
+            "anilist_id": 131708,
+            "ord": 2,
+            "media": {
+              "id": 131708,
+              "id_mal": null,
+              "title": {
+                "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou Artist Collab",
+                "english": null,
+                "native": "ドキドキ！ミニミニ！隠しダンジョン劇場 アーティストコラボ",
+                "synonyms": []
+              },
+              "description": "Special collaboration mini anime episodes featuring the OP/ED artists of Ore dake Haireru Kakushi Dungeon as chibified characters to promote their albums.<br><br>\n<b>Includes:</b><br>\n• Doki Doki! Mini Mini! Kakushi Dungeon Gekijou feat. Spira Spica<br>\n• Doki Doki! Mini Mini! Kakushi Dungeon Gekijou feat. Coala Mode.",
+              "format": "ONA",
+              "status": "FINISHED",
+              "episodes": 2,
+              "duration": 1,
+              "season": "SPRING",
+              "season_year": 2021,
+              "start_date": "2021-03-26",
+              "end_date": "2021-03-26",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131708-OY1Ycnzd1CCB.jpg",
+              "cover_color": "#f1d60d",
+              "banner_image": null,
+              "genres": [
+                "Comedy",
+                "Fantasy"
+              ],
+              "studios": [],
+              "tags": [
+                {
+                  "id": 324,
+                  "name": "Chibi",
+                  "rank": 79,
+                  "category": "Theme-Other"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 118375,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "俺だけ入れる隠しダンジョン",
+                    "romaji": "Ore dake Haireru Kakushi Dungeon",
+                    "english": "The Hidden Dungeon Only I Can Enter",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/118375",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx118375-95ClbAh2EQMD.jpg",
+                  "relation_type": "CHARACTER"
+                },
+                {
+                  "id": 128367,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "ドキドキ！ミニミニ！隠しダンジョン劇場",
+                    "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "ONA",
+                  "site_url": "https://anilist.co/anime/128367",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128367-e4rG4FEjxWAu.jpg",
+                  "relation_type": "CHARACTER"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://www.youtube.com/watch?v=uFKPaiuPC2A",
+                  "site": "YouTube",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=zvH00bgEz7g",
+                  "site": "YouTube",
+                  "type": "STREAMING"
+                }
+              ],
+              "average_score": 49,
+              "popularity": 370,
+              "favourites": 3,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/131708",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 1,
+            "src_start": 1,
+            "src_end": 12,
+            "dst_start": 1,
+            "dst_end": 12,
+            "ratio": null,
+            "anilist_id": 118375,
+            "ord": 1,
+            "media": {
+              "id": 118375,
+              "id_mal": 41899,
+              "title": {
+                "romaji": "Ore dake Haireru Kakushi Dungeon",
+                "english": "The Hidden Dungeon Only I Can Enter",
+                "native": "俺だけ入れる隠しダンジョン",
+                "synonyms": [
+                  "Special training in the Secret Dungeon!",
+                  "ดันเจี้ยนที่มีแต่ข้าเท่านั้นที่เข้าได้ ～แอบฝึกปรืนจนบรรลุสู่สุดแกร่ง～"
+                ]
+              },
+              "description": "The Hidden Dungeon is a place of legend where rare treasures and items are hidden. Noir, the third son of an impoverished noble family who's lost the one job offer he had, was lucky enough to hear about this dungeon. He then acquires a skill that allows him to create, bestow, and edit skills... and in order to use it, he needs to accumulate points by carrying out such tasks as eating delicious meals and doing sexual things with alluring members of the opposite sex.<br>\n<br>\n(Source: Crunchyroll)",
+              "format": "TV",
+              "status": "FINISHED",
+              "episodes": 12,
+              "duration": 24,
+              "season": "WINTER",
+              "season_year": 2021,
+              "start_date": "2021-01-09",
+              "end_date": "2021-03-27",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118375-95ClbAh2EQMD.jpg",
+              "cover_color": "#a17835",
+              "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/118375-R4y2nIid48Uw.jpg",
+              "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Ecchi",
+                "Fantasy",
+                "Romance"
+              ],
+              "studios": [
+                {
+                  "id": 6314,
+                  "name": "Okuruto Noboru"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 23,
+                  "name": "Female Harem",
+                  "rank": 92,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 86,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 79,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 1045,
+                  "name": "Heterosexual",
+                  "rank": 79,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 604,
+                  "name": "Dungeon",
+                  "rank": 78,
+                  "category": "Setting-Scene"
+                },
+                {
+                  "id": 157,
+                  "name": "Guns",
+                  "rank": 73,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 193,
+                  "name": "Episodic",
+                  "rank": 64,
+                  "category": "Technical"
+                },
+                {
+                  "id": 86,
+                  "name": "Primarily Female Cast",
+                  "rank": 60,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 1228,
+                  "name": "Primarily Teen Cast",
+                  "rank": 60,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 631,
+                  "name": "Feet",
+                  "rank": 56,
+                  "category": "Sexual Content"
+                },
+                {
+                  "id": 1403,
+                  "name": "Class Struggle",
+                  "rank": 56,
+                  "category": "Theme-Drama"
+                },
+                {
+                  "id": 433,
+                  "name": "Animals",
+                  "rank": 55,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 39,
+                  "name": "Parody",
+                  "rank": 55,
+                  "category": "Theme-Comedy"
+                },
+                {
+                  "id": 163,
+                  "name": "Yandere",
+                  "rank": 53,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 43,
+                  "name": "Swordplay",
+                  "rank": 52,
+                  "category": "Theme-Action"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 103850,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "俺だけ入れる隠しダンジョン　～こっそり鍛えて世界最強～",
+                    "romaji": "Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou",
+                    "english": "The Hidden Dungeon Only I Can Enter",
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/103850",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx103850-Olxz9fHAWMHu.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 103851,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "俺だけ入れる隠しダンジョン　～こっそり鍛えて世界最強～",
+                    "romaji": "Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou",
+                    "english": "The Hidden Dungeon Only I Can Enter",
+                    "synonyms": []
+                  },
+                  "format": "NOVEL",
+                  "site_url": "https://anilist.co/manga/103851",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx103851-STiLTLricXiR.jpg",
+                  "relation_type": "ADAPTATION"
+                },
+                {
+                  "id": 128367,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "ドキドキ！ミニミニ！隠しダンジョン劇場",
+                    "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "ONA",
+                  "site_url": "https://anilist.co/anime/128367",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128367-e4rG4FEjxWAu.jpg",
+                  "relation_type": "CHARACTER"
+                },
+                {
+                  "id": 131708,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "ドキドキ！ミニミニ！隠しダンジョン劇場 アーティストコラボ",
+                    "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou Artist Collab",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "ONA",
+                  "site_url": "https://anilist.co/anime/131708",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131708-OY1Ycnzd1CCB.jpg",
+                  "relation_type": "CHARACTER"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://twitter.com/kakushidungeon",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://kakushidungeon-anime.jp/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://www.crunchyroll.com/the-hidden-dungeon-only-i-can-enter",
+                  "site": "Crunchyroll",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://www.bilibili.tv/en/media/36934",
+                  "site": "Bilibili TV",
+                  "type": "STREAMING"
+                }
+              ],
+              "average_score": 60,
+              "popularity": 130110,
+              "favourites": 1713,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/118375",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          }
+        ],
+        "relations": [
+          {
+            "id": 103850,
+            "type": "MANGA",
+            "title": {
+              "native": "俺だけ入れる隠しダンジョン　～こっそり鍛えて世界最強～",
+              "romaji": "Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou",
+              "english": "The Hidden Dungeon Only I Can Enter",
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/103850",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx103850-Olxz9fHAWMHu.jpg",
+            "relation_type": "ALTERNATIVE",
+            "media_id": null
+          },
+          {
+            "id": 103851,
+            "type": "MANGA",
+            "title": {
+              "native": "俺だけ入れる隠しダンジョン　～こっそり鍛えて世界最強～",
+              "romaji": "Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou",
+              "english": "The Hidden Dungeon Only I Can Enter",
+              "synonyms": []
+            },
+            "format": "NOVEL",
+            "site_url": "https://anilist.co/manga/103851",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx103851-STiLTLricXiR.jpg",
+            "relation_type": "ADAPTATION",
+            "media_id": null
+          },
+          {
+            "id": 128367,
+            "type": "ANIME",
+            "title": {
+              "native": "ドキドキ！ミニミニ！隠しダンジョン劇場",
+              "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "ONA",
+            "site_url": "https://anilist.co/anime/128367",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128367-e4rG4FEjxWAu.jpg",
+            "relation_type": "CHARACTER",
+            "media_id": "s11629"
+          },
+          {
+            "id": 131708,
+            "type": "ANIME",
+            "title": {
+              "native": "ドキドキ！ミニミニ！隠しダンジョン劇場 アーティストコラボ",
+              "romaji": "Doki Doki! Mini Mini! Kakushi Dungeon Gekijou Artist Collab",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "ONA",
+            "site_url": "https://anilist.co/anime/131708",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131708-OY1Ycnzd1CCB.jpg",
+            "relation_type": "CHARACTER",
+            "media_id": "s11629"
+          }
+        ],
+        "alt_ids": [
+          {
+            "anilist_id": 128367,
+            "mal_id": 45658,
+            "anidb_id": null,
+            "imdb_ids": []
+          },
+          {
+            "anilist_id": 131708,
+            "mal_id": null,
+            "anidb_id": null,
+            "imdb_ids": []
+          },
+          {
+            "anilist_id": 118375,
+            "mal_id": 41899,
+            "anidb_id": 15557,
+            "imdb_ids": []
+          }
+        ],
+        "targets": [
+          {
+            "anilist_id": 128367,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128367-e4rG4FEjxWAu.jpg"
+          },
+          {
+            "anilist_id": 131708,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131708-OY1Ycnzd1CCB.jpg"
+          },
+          {
+            "anilist_id": 118375,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118375-95ClbAh2EQMD.jpg"
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "id": 525948,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #1: Olivia's Lesson",
+          "season": 0,
+          "episode": 1,
+          "overview": "Noir and Olivia engage in a playful interaction. Olivia, in her usual teasing manner, expresses her affection for Noir. Noir, ever the polite and composed individual, responds with his characteristic calmness. The episode concludes with Olivia playfully kissing Noir on the cheek, marking a flirtatious moment between the characters.",
+          "runtime": 2,
+          "airDateUtc": "2021-01-08T17:30:00Z",
+          "tvdbId": 8310577
+        },
+        {
+          "id": 525949,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #2: Lola's Special Benefits",
+          "season": 0,
+          "episode": 2,
+          "overview": "Noir and Lola engage in a playful interaction. Lola, in her usual teasing manner, expresses her affection for Noir. Noir, ever the polite and composed individual, responds with his characteristic calmness. The episode concludes with Lola playfully kissing Noir on the cheek, marking a flirtatious moment between the characters.",
+          "runtime": 2,
+          "airDateUtc": "2021-01-15T17:30:00Z",
+          "tvdbId": 8310578
+        },
+        {
+          "id": 525950,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #3: Elna-sensei's Grinding",
+          "season": 0,
+          "episode": 3,
+          "overview": "Noir and Elna engage in a playful interaction. Elna, in her usual teasing manner, expresses her affection for Noir. Noir, ever the polite and composed individual, responds with his characteristic calmness. The episode concludes with Elna playfully kissing Noir on the cheek, marking a flirtatious moment between the characters.",
+          "runtime": 2,
+          "airDateUtc": "2021-01-22T17:30:00Z",
+          "tvdbId": 8310579
+        },
+        {
+          "id": 525951,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #4: Alice's Job",
+          "season": 0,
+          "episode": 4,
+          "overview": "Noir and Alice engage in a playful interaction. Alice, in her usual teasing manner, expresses her affection for Noir. Noir, ever the polite and composed individual, responds with his characteristic calmness. The episode concludes with Alice playfully kissing Noir on the cheek, marking a flirtatious moment between the characters.",
+          "runtime": 2,
+          "airDateUtc": "2021-01-29T17:30:00Z",
+          "tvdbId": 8310580
+        },
+        {
+          "id": 525952,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #5: Maria and Amane's Repayment",
+          "season": 0,
+          "episode": 5,
+          "overview": "Noir and Maria engage in a playful interaction. Maria, in her usual teasing manner, expresses her affection for Noir. Noir, ever the polite and composed individual, responds with his characteristic calmness. The episode concludes with Maria playfully kissing Noir on the cheek, marking a flirtatious moment between the characters.",
+          "runtime": 2,
+          "airDateUtc": "2021-02-05T17:30:00Z",
+          "tvdbId": 8310581
+        },
+        {
+          "id": 525953,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #6: Tigerson's Tulip",
+          "season": 0,
+          "episode": 6,
+          "overview": "Tigerson (a character from the main show) and a “tulip” (perhaps literally a flower, or figuratively something named “tulip”).",
+          "runtime": 2,
+          "airDateUtc": "2021-02-12T17:30:00Z",
+          "tvdbId": 8310582
+        },
+        {
+          "id": 525954,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #7: Olivia's Test",
+          "season": 0,
+          "episode": 7,
+          "overview": "Noir’s commitment (or devotion) to Olivia by having him flirt / comfort her under her “test,” and Olivia teases him about how he expresses affection.",
+          "runtime": 2,
+          "airDateUtc": "2021-02-19T17:30:00Z",
+          "tvdbId": 8310583
+        },
+        {
+          "id": 525955,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #8: Dory-Chan's Treasure Chest",
+          "season": 0,
+          "episode": 8,
+          "overview": "Noir and Dori engage in flirtatious / sensual interaction under the pretext of “finding a treasure chest.”",
+          "runtime": 2,
+          "airDateUtc": "2021-02-26T17:30:00Z",
+          "tvdbId": 8310584
+        },
+        {
+          "id": 525956,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #9: Leila's Special Training",
+          "season": 0,
+          "episode": 9,
+          "overview": "Noir undergoes special training under Leila's guidance. The session begins with Leila emphasizing the importance of basic form, though she notes that real combat situations may differ. Noir, ever the diligent student, responds affirmatively. Leila apologizes for any odor, but Noir reassures her, mentioning a floral scent. The training continues with Leila instructing Noir on throwing techniques, encouraging him to proceed at his own pace. As the session progresses, the atmosphere becomes more intimate, leading to a playful exchange between the characters. The episode concludes with a humorous twist, highlighting the comedic and lighthearted nature of the series.",
+          "runtime": 2,
+          "airDateUtc": "2021-03-05T17:30:00Z",
+          "tvdbId": 8310585
+        },
+        {
+          "id": 525957,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #10: Luna's Savings",
+          "season": 0,
+          "episode": 10,
+          "overview": "Noir and Luna discuss the concept of \"Luna's savings.\" Luna proposes that 30% of the LP Noir gathers should be used to create skills for her, while the remaining can be used by Noir. She encourages Noir to \"make good use\" of her, leading to a humorous and flirtatious interaction between the two. The episode concludes with Luna teasing Noir about his newfound hobby.",
+          "runtime": 2,
+          "airDateUtc": "2021-03-12T17:30:00Z",
+          "tvdbId": 8310586
+        },
+        {
+          "id": 525958,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #11: Beautiful-Girl Onigiri",
+          "season": 0,
+          "episode": 11,
+          "overview": "Noir and his companions—Emma and Alice—celebrate the success of their shop. Noir, feeling the exhaustion of the day's work, is offered assistance by Emma, who suggests a hug to alleviate his fatigue. Alice, not to be outdone, proposes that skinship is natural since they are family. The situation escalates into a playful competition between Emma and Alice, each trying to outdo the other in offering comfort to Noir. Amidst the playful banter, Noir, ever the opportunist, suggests they make \"beautiful-girl onigiri,\" a term that piques the interest of both Emma and Alice. The episode concludes with Noir expressing his gratitude, stating, \"Thank you very much!\"",
+          "runtime": 2,
+          "airDateUtc": "2021-03-19T17:30:00Z",
+          "tvdbId": 8310587
+        },
+        {
+          "id": 525959,
+          "title": "Doki Doki! Mini Mini! Hidden Dungeon Theater #12: Olivia's Ambition",
+          "season": 0,
+          "episode": 12,
+          "overview": "Noir finally gathers enough LP to free his master, Olivia. However, upon her release, Olivia reveals that she enjoys being chained due to her 200-year confinement, leading to a humorous exchange between the two. Lola, an adventurer, tests Olivia's identity by asking her to touch an appraisal book, confirming Olivia's legendary status. Olivia proudly declares herself as the beautiful and powerful Olivia Servant, challenging anyone who desires Noir to defeat her first. Noir, taken aback by her boldness, questions if she's a demon lord. The episode concludes with Olivia kissing Noir on the cheek, marking a playful and flirtatious moment between the characters.",
+          "runtime": 2,
+          "airDateUtc": "2021-03-26T17:30:00Z",
+          "tvdbId": 8310588
+        },
+        {
+          "id": 525960,
+          "title": "Spira Spica x The Hidden Dungeon Only I Can Enter",
+          "season": 0,
+          "episode": 13,
+          "runtime": 2,
+          "airDateUtc": "2021-03-25T17:30:00Z",
+          "tvdbId": 8310640
+        },
+        {
+          "id": 525961,
+          "title": "Coala Mode. x The Hidden Dungeon Only I Can Enter",
+          "season": 0,
+          "episode": 14,
+          "runtime": 2,
+          "airDateUtc": "2021-03-25T17:54:00Z",
+          "tvdbId": 8310642
+        },
+        {
+          "id": 525962,
+          "title": "Powerful Skill Set",
+          "season": 1,
+          "episode": 1,
+          "absolute": 1,
+          "overview": "Noir is the 3rd son of a poor noble and his job position is taken away by a more powerful noble. He also sadly lacks enough skills to attend the Hero Academy. He tries to find a way to be able to use his skill [Great Sage] better and stumbles across a hidden dungeon.",
+          "runtime": 24,
+          "airDateUtc": "2021-01-08T17:30:00Z",
+          "tvdbId": 8054828
+        },
+        {
+          "id": 525963,
+          "title": "The Guild and the Receptionist",
+          "season": 1,
+          "episode": 2,
+          "absolute": 2,
+          "overview": "In order to find a way to earn enough money for the enrollment fee to the Hero Academy, Noir visits the Adventurers' Guild. However, the receptionist at the guild, Lola, doubts his skills, so he has to prove himself. Once she finds out he's telling the truth, she's supposed to offer him a reward, and...",
+          "runtime": 24,
+          "airDateUtc": "2021-01-15T17:30:00Z",
+          "tvdbId": 8117875
+        },
+        {
+          "id": 525964,
+          "title": "The Troubled Classmate",
+          "season": 1,
+          "episode": 3,
+          "absolute": 3,
+          "overview": "Noir finds out the social ladder at the Hero Academy. A duke's daughter named Maria is the only one who gives him a helping hand. But he finds out that she has a curse that will kill her when she turns 16.",
+          "runtime": 24,
+          "airDateUtc": "2021-01-22T17:30:00Z",
+          "tvdbId": 8117881
+        },
+        {
+          "id": 525965,
+          "title": "The Untainted Cleric",
+          "season": 1,
+          "episode": 4,
+          "absolute": 4,
+          "overview": "Right before his meeting with Luna, Noir goes to visit Olivia. He asks her if there's a more effective way to gain LP and she tells him about a forbidden skill that will make him very lucky in the most unexpected way.",
+          "runtime": 24,
+          "airDateUtc": "2021-01-29T17:30:00Z",
+          "tvdbId": 8117884
+        },
+        {
+          "id": 525966,
+          "title": "The Future of This Harem",
+          "season": 1,
+          "episode": 5,
+          "absolute": 5,
+          "overview": "In order to gain LP and money, Noir and the others enter a harem tournament. In this tournament, contestants show off their harems to be judged by a harsh crowd. Noir gets close with Emma, Lola, and Luna in order to try to impress the judges and win!",
+          "runtime": 24,
+          "airDateUtc": "2021-02-05T17:30:00Z",
+          "tvdbId": 8117889
+        },
+        {
+          "id": 525967,
+          "title": "The Tulip Lion",
+          "season": 1,
+          "episode": 6,
+          "absolute": 6,
+          "overview": "Noir successfully cures Maria's curse and receives a mountain of cash and decides to build a shop that sells rare materials, so he goes to the dungeon to gather said materials. He travels further down and meets a lion that apparently speaks human words.",
+          "runtime": 24,
+          "airDateUtc": "2021-02-12T17:30:00Z",
+          "tvdbId": 8117891
+        },
+        {
+          "id": 525968,
+          "title": "The Receptionist Ranking",
+          "season": 1,
+          "episode": 7,
+          "absolute": 7,
+          "overview": "Lola gets in an argument with a rival receptionist. Noir visits the Adventurers Guild and ends up getting caught in their fight. Noir decides to take down a dragon both for his test and for Lola, but...",
+          "runtime": 24,
+          "airDateUtc": "2021-02-19T17:30:00Z",
+          "tvdbId": 8117895
+        },
+        {
+          "id": 525969,
+          "title": "A Little Girl's Wish",
+          "season": 1,
+          "episode": 8,
+          "absolute": 8,
+          "overview": "Noir arrives at the 7th floor of the dungeon and he runs into a mysterious spirit who happens to look a lot like Emma when she was younger. Apparently, the spirit is having her life sucked away by something creepy and asks Noir to defeat it in exchange for a treasure.",
+          "runtime": 24,
+          "airDateUtc": "2021-02-26T17:30:00Z",
+          "tvdbId": 8117898
+        },
+        {
+          "id": 525970,
+          "title": "To the Gala",
+          "season": 1,
+          "episode": 9,
+          "absolute": 9,
+          "overview": "Noir is invited to a high society party by Emma. The party is in a stir when thieves proclaim to visit it and steal away a few things that are there, but then Noir participates in a dance battle against a noble to win Emma's honor.",
+          "runtime": 24,
+          "airDateUtc": "2021-03-05T17:30:00Z",
+          "tvdbId": 8117901
+        },
+        {
+          "id": 525971,
+          "title": "Let's Go to the Hot Springs",
+          "season": 1,
+          "episode": 10,
+          "absolute": 10,
+          "overview": "The day for the Hero Academy tradition, their trip to the hot springs, has finally arrived! The monsters they face on the way to the hot springs are tough, but the boys in the class who can't control their lust are a far bigger threat. What should Noir do to protect Emma and the other girls?",
+          "runtime": 24,
+          "airDateUtc": "2021-03-12T17:30:00Z",
+          "tvdbId": 8117904
+        },
+        {
+          "id": 525972,
+          "title": "Noir's Decision",
+          "season": 1,
+          "episode": 11,
+          "absolute": 11,
+          "overview": "The materials shop that Noir had been wanting to run is finally open. This all began after he met Olivia, so he wants to repay her by undoing her curse. He heads to the 15th floor of the dungeon and sees...",
+          "runtime": 24,
+          "airDateUtc": "2021-03-19T17:30:00Z",
+          "tvdbId": 8117906
+        },
+        {
+          "id": 525973,
+          "title": "A Battle I Can't Lose",
+          "season": 1,
+          "episode": 12,
+          "absolute": 12,
+          "overview": "The reason Olivia is so fond and protective of Noir is revealed. It has to do with an adventurer from the past. Meanwhile, Noir fights for his life against the fake Olivia. Will he be able to figure something out?",
+          "runtime": 24,
+          "airDateUtc": "2021-03-26T17:30:00Z",
+          "tvdbId": 8117911
+        }
+      ]
+    },
+    "similar_media": null,
+    "debug": {
+      "summary": [],
+      "debug": [
+        "no hints found",
+        "fetched media episodes",
+        "filtering by media_id: s11629",
+        "filtering by episode_ids: 525951",
+        "hiding hidden torrents",
+        "sorting by best (level desc)",
+        "no torrents found"
+      ]
+    },
+    "more": false,
+    "search": {
+      "limit": 20,
+      "offset": 0,
+      "sort_by": "best",
+      "category": 0,
+      "media_id": "s11629",
+      "episode_ids": "525951",
+      "episode_match_any": false,
+      "group_primary": true,
+      "group_secondary": false,
+      "group_childs": true,
+      "group_parents": false,
+      "uploader_uploads": true,
+      "uploader_contributions": false
+    }
+  }
+}

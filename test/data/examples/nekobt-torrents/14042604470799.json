@@ -1,0 +1,82 @@
+{
+  "error": false,
+  "data": {
+    "id": "14042604470799",
+    "uploaded_at": 1790543523714,
+    "title": "[Erai-raws] One Piece - 1180 [720p CR WEB-DL AVC AAC][MultiSub][55D90F94]",
+    "auto_title": "[Erai-raws] One Piece - 1180 [720p CR WEB-DL AVC AAC][MultiSub][55D90F94] {Tags:L0;V9;C1;A=ja;S=en,ptbr,es419,eses,ar,frfr,de;}",
+    "description": "[Erai-raws( https://www.erai-raws.info/anime-list/one-piece/ )](https://www.erai-raws.info/anime-list/one-piece/)\n\n- `Video Info:` \n**Japanese** ([Erai-raws]_AVC_CR) | **AVC** | **High@L3.1** | **1280x720** | **2447 kbps** | **23.976 FPS**\n\n- `Audio Info:` \n**Japanese** ([Erai-raws]_AAC_CR) | **AAC** | **2.0** | **192 kbps**\n\n- `Subtitles Info:` \n**English** (CR_English) | ASS\n**Portuguese** (CR_Portuguese(Brazil)) | ASS\n**Spanish** (CR_Spanish(Latin_America)) | ASS\n**Spanish** (CR_Spanish) | ASS\n**Arabic** (CR_Arabic) | ASS\n**French** (CR_French) | ASS\n**German** (CR_German) | ASS\n- `Chapters:` **Yes**\n- `Duration:` **~00:23:35**\n***\n####",
+    "mediainfo": "",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 0,
+    "mtl": false,
+    "filesize": "472947531",
+    "media_id": "s1545",
+    "media_episode_ids": [
+      "529267"
+    ],
+    "anilist_id": 21,
+    "anilist_ids": [
+      21
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "en,pt-br,es-419,es-es,ar,fr-fr,de",
+    "fsub_lang": "",
+    "video_codec": 1,
+    "video_type": 9,
+    "files": [
+      {
+        "path": "[Erai-raws] One Piece - 1180 [720p CR WEB-DL AVC AAC][MultiSub][55D90F94].mkv",
+        "name": "[Erai-raws] One Piece - 1180 [720p CR WEB-DL AVC AAC][MultiSub][55D90F94].mkv",
+        "length": 472947531,
+        "offset": 0
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:3e00bd0a24c2fe403dbabd2e693007164dd2ae7a&dn=%5BErai-raws%5D%20One%20Piece%20-%201180%20%5B720p%20CR%20WEB-DL%20AVC%20AAC%5D%5BMultiSub%5D%5B55D90F94%5D%20%7BTags%3AL0%3BV9%3BC1%3BA%3Dja%3BS%3Den%2Cptbr%2Ces419%2Ceses%2Car%2Cfrfr%2Cde%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.acgnx.se%2Fannounce",
+    "private_magnet": null,
+    "infohash": "3e00bd0a24c2fe403dbabd2e693007164dd2ae7a",
+    "anonymous": false,
+    "uploader": {
+      "id": "7258556610587",
+      "username": "erai-raws",
+      "display_name": "Erai-raws",
+      "pfp_hash": "6931f90800dca9b3ea80d7ebb1ff7f4e20e88fbda552020589995acdcb61eae5"
+    },
+    "groups": [
+      {
+        "id": "7267150399800",
+        "name": "erai-raws",
+        "display_name": "Erai-raws",
+        "display_tag": "Erai-raws",
+        "pfp_hash": "6931f90800dca9b3ea80d7ebb1ff7f4e20e88fbda552020589995acdcb61eae5",
+        "tagline": "Your best friend!",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "15",
+    "leechers": "1",
+    "completed": "413",
+    "activity": "15783",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

@@ -129,34 +129,27 @@ dist/index.js
 Type checking without producing compiled output:
 
 ```bash
-npm run build:check
+npm run build:typecheck
 ```
 
-This runs TypeScript with `--noEmit`.
+This runs TypeScript with `--noEmit` over **the sources and the test suite** — the tests are type-checked by `test/tsconfig.json`, so a test that drifts from the types it exercises fails the check.
 
 This is useful for development and CI checks where compilation output is not required.
 
 ## Tests
 
-Run the test suite in watch/interactive mode with Vitest:
-
 ```bash
-npm test
+npm test                                      # Vitest
+npm run test:watch                            # watch/interactive (Vitest)
+npm run test:coverage                         # single pass + V8 coverage → coverage/coverage-summary.json
+npm run test:examples:refresh [-- --dry-run]  # re-fetch example payloads + fetched-dates
+npm run test:fixtures:compare                 # always-live fixture comparison vs registry
+npm run test:data:check                       # data-integrity checks over the catalog
 ```
 
-Generate test coverage with V8 provider (`text`, `lcov`, `json-summary`):
+The suite runs committed `test/data/` files only. The `npm run test:*` scripts keep that data honest — `test:data:check` validates the catalog itself (references, the shapes the code reads, the Kitsu vocabulary, the self-stream closure): `test:examples:refresh` re-fetches live example payloads (skips `self-stream` snapshots and `tracker-scrape`, which speaks UDP), `test:fixtures:compare` always fetches live and reports shape diffs for human triage without overwriting fixtures. A staleness warning (`test/setup/staleness.ts`, wired via vitest `globalSetup` so it prints once per run) fires at startup if the *oldest* example `fetched` date exceeds `STALENESS_DAYS` (default 14). `test:data:check` validates the catalog itself — every record has its payload and a reason, the folders refer to each other consistently, and the shapes the code reads are the shapes the API sends.
 
-```bash
-npm run test:coverage
-```
-
-The tests use Vitest with `@vitest/coverage-v8`. Coverage reports are written to the `coverage/` directory, including `coverage/coverage-summary.json`.
-
-Test files are located under:
-
-```text
-test/
-```
+Layout, layers (UNIT vs INTEGRATION), and case studies: [`test/README.md`](../test/README.md). Evidence base: [`data-catalog.md`](data-catalog.md).
 
 ## Docker
 
@@ -232,22 +225,29 @@ The registry-specific image name is a CI/release concern and is not hardcoded in
 
 The npm scripts are the primary interface for common development operations.
 
-| Command                    | Purpose                                                                 |
-| -------------------------- | ----------------------------------------------------------------------- |
-| `npm run start:dev:info`   | Run the TypeScript application in watch mode with informational logging |
-| `npm run start:dev:debug`  | Run the TypeScript application in watch mode with debug logging         |
-| `npm run build`            | Generate build metadata and compile the application                     |
-| `npm run build:check`      | Type-check without emitting files                                       |
-| `npm run build:prepare`    | Generate GitHub-related build metadata                                  |
-| `npm run build:compile`    | Compile TypeScript                                                      |
-| `npm start`                | Run the compiled application                                            |
-| `npm test`                 | Run the test suite with Vitest                                          |
-| `npm run test:coverage`    | Run the test suite once with V8 code coverage analysis                  |
-| `npm run docker:build`     | Prepare build metadata and build the Docker image                       |
-| `npm run docker:build:check` | Validate docker compose configuration                                 |
-| `npm run docker:run:up`    | Start the Docker Compose service in background                          |
-| `npm run docker:run:down`  | Stop the Docker Compose service                                         |
-| `npm run docker:run:logs`  | Follow Docker Compose logs                                              |
+| Command                         | Purpose                                                                 |
+| ------------------------------- | ----------------------------------------------------------------------- |
+| `npm run postinstall`           | Apply the patch-package patches after install                           |
+| `npm run build`                 | Generate build metadata and compile the application                     |
+| `npm run build:prepare`         | Generate GitHub-related build metadata                                  |
+| `npm run build:compile`         | Compile TypeScript                                                      |
+| `npm run build:typecheck`       | Type-check the source files without emitting files                      |
+| `npm run test`                  | Run the test suite with Vitest                                          |
+| `npm run test:watch`            | Run the test suite in watch mode                                        |
+| `npm run test:coverage`         | Run the test suite once with V8 code coverage analysis                  |
+| `npm run test:typecheck`        | Type-check the test suite source files without emitting files           |
+| `npm run test:examples:refresh` | Re-fetch the example payloads and their fetched-dates                   |
+| `npm run test:fixtures:compare` | Compare the fixtures against the live API (never writes)                |
+| `npm run test:data:check`       | Check the catalog's internal consistency                                |
+| `npm run benchmark`             | Run the pipeline benchmark                                              |
+| `npm run start`                 | Run the compiled application                                            |
+| `npm run start:dev:info`        | Run the TypeScript application in watch mode with informational logging |
+| `npm run start:dev:debug`       | Run the TypeScript application in watch mode with debug logging         |
+| `npm run docker:build`          | Prepare build metadata and build the Docker image                       |
+| `npm run docker:build:check`    | Validate docker compose configuration                                   |
+| `npm run docker:run:up`         | Start the Docker Compose service in background                          |
+| `npm run docker:run:down`       | Stop the Docker Compose service                                         |
+| `npm run docker:run:logs`       | Follow the Docker Compose logs                                          |
 
 Keeping these operations behind npm scripts provides a consistent interface for developers and, later, for CI workflows.
 

@@ -1,0 +1,1059 @@
+{
+  "error": false,
+  "data": {
+    "id": "9087447179017",
+    "uploaded_at": 1771187440543,
+    "title": "[matheousse] Monogatari 01-68 Series Intégrale VOSTFR v3 (BD 1080p Opus) (Bakemonogatari, Kizumonogatari, Nisemonogatari, Nekomonogatari Black, Monogatari Second Season, Hanamonogatari, Tsukimonogatari, Koyomimonogatari, Owarimonogatari, Zoku Owarimonogatari)",
+    "auto_title": "[matheousse] Monogatari 01-68 Series Intégrale VOSTFR v3 (BD 1080p Opus) (Bakemonogatari, Kizumonogatari, Nisemonogatari, Nekomonogatari Black, Monogatari Second Season, Hanamonogatari, Tsukimonogatari, Koyomimonogatari, Owarimonogatari, Zoku Owarimonogatari) {Tags:L2;A=ja;F=frfr;}",
+    "description": "Les utilisateurs de Media Center sont probablement au courant, mais la série des Monogatari est un enfer à rendre compatible avec les ordres de visionnage conseillés par la communauté.\nPour cette release, j'ai décidé de suivre strictement l'ordre des Light Novels originaux. Ça tombe bien, puisque [TVDB](https://thetvdb.com/series/monogatari) contient justement cet exact ordre. Et une meilleure nouvelle encore, Plex et Jellyfin ont récemment ajouté le support pour l'APIv4 de TVDB, qui expose maintenant de nouveaux ordres (Alternate, Regional, etc). Si vous souhaitez ajouter Monogatari à votre serveur, il vous suffit de dire à Plex/Jellyfin de récupérer ses métadonnées depuis \"l'Alternate Order\" (nommé Book Order sur le site) et tout devrait matcher sans souci.\n~~Jellyfin n'expose pas encore l'option directement dans sa version 10.9.7 (elle sera exposée en 10.10 d'après leur Github), il vous faudra [ce userscript](https://github.com/jellyfin/jellyfin-plugin-tvdb/pull/139#issuecomment-2117037881) pour l'ajouter.~~ Jellyfin est passé en 10.10 depuis le 26 Octobre, et les ordres alternatifs apparaissent sans le userscript.\nPlex requiert la version Beta 1.40.4.8598-71044f963, uniquement disponible si vous possédez le Plex Pass.\n****\nVidéo : Bakemonogatari : [MTBB](https://nyaa.si/view/1776125), Kizumonogatari à Zoku Owarimonogatari : [smol](https://nyaa.si/user/smol?f=0&c=0_0&q=Monogatari), BDRip x265 10bits\nAudio : **Bakemonogatari et Nisemonogatari** VF+VO Opus 2.0 @ 192k, **le reste** : VO Opus 2.0 @ 192k, **Kizumonogatari et Zoku Owarimonogatari** contiennent une piste Surround 5.1 en Opus @ 320k\nSubs : **Bakemonogatari jusqu'à Owarimonogatari épisode 13** : Dybex (achat perso, trad Wakanim), **Kizumonogatari, Owarimonogatari épisodes 14-20, Zoku Owarimonogatari** : Wakanim, **Koyomimonogatari** : Yarashii*\nEdits/Karaokés : MTBB via smol\nSource VF + PGS Dybex + traductions karaokés : BDFR* (achat perso)\n******\n**Notes générales** : \n- OCR tout frais de Dybex (les previews de 2nd Season utilisent donc une traduction officielle au lieu de l'essai pitoyable du moi d'il y a 5 ans) + corrections de certaines typo\n- Edits repris de zéro via les subs de MTBB\n- Recheck complet des OCR Wakanim\n- Re-time de la grosse majorité des épisodes, similaire aux normes Crunchyroll actuelles\n- Correction des doubles lignes mal formatées sur Bake, Nise et les previews de Second Season\n- Constance de quelques termes récurrents\n- Constance du tutoiement de Hachikuji envers Araragi à partir de Nekomonogatari Black (j'espère n'avoir manqué aucune ligne)\n- Correction de quelques erreurs de traduction via la sortie originale Wakanim (notamment Nekomonogatari Black)\n- Raccourcissement de quelques lignes qui dépassaient les 25 CPS sur des timings très courts\n- Changement du formatage des noms à partir de Owarimonogatari (prénom-nom partout, comme Crunchyroll) (Edit 09/11/24 : cette modification sera inversée pour un futur batch final de la licence. L'équipe qui s'occupe du simulcast de Off & Monster Season a opté pour le nom-prénom car plus simple au niveau des jeux de mots etc.)\n- Les textes au début de chaque épisode de Nisemonogatari ont été repris des romans édités chez Pika (ce sont des copiés-collés direct des romans Japonais, j'ai donc cherché l'équivalent dans les ebooks anglais puis cross-check avec mes exemplaires français.)\n\n**Note Koyomimonogatari** : édités pour la constance des noms/certaines phrases répétées dans d'autres saisons\n\n**Traductions des génériques** :\nTout Bake + Nise + Neko Black, OP de Neko White, OP de Kabuki, tout Hana, OP de Otori, les 2 OPs de Koi, OP de Tsuki, OP1/OP3/OP4 de Owari S1 : **Dybex**\nLes 3 EDs de Second Season, ED de Tsuki, ED de Koyomi, OP2/ED de Owari S1, tout Owari S2 + Zoku Owari : **Moi**\nKoimonogatari OP2 : **Wakanim** (disponible en piste secondaire)\n******\nL'archive de subs contient chaque épisode en MKS. Si vous avez une autre raw, vous pouvez juste cliquer-glisser sur la fenêtre de votre lecteur pour charger les 2 pistes de sous-titres ainsi que toutes les polices. (ou renommez les MKS comme les vidéos que vous avez en local, ça marche aussi.)\n******\n### Si le poids massif de cette release ne vous convient pas, je vous invite à vous tourner vers des alternatives moins lourdes telles que celles de [MTBB](https://nyaa.si/view/1582135) ou bien sa [mini release en AV1](https://nyaa.si/view/1582701) (Si votre matériel le supporte.)\n******\n#### **Je ne recommande qu'un seul lecteur, [mpv](https://sourceforge.net/projects/mpv-player-windows/files/stable/).**\n\nP.-S. L'ancienne release reste disponible ici pour ceux qui veulent : https://nyaa.si/view/1206037",
+    "mediainfo": "",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "220960658391",
+    "media_id": "s193",
+    "media_episode_ids": [
+      "5015",
+      "5016",
+      "5017",
+      "5018",
+      "5019",
+      "5020",
+      "5021",
+      "5022",
+      "5023",
+      "5024",
+      "5025",
+      "5026",
+      "5027",
+      "5028",
+      "5029",
+      "5038",
+      "5039",
+      "5040",
+      "5041",
+      "5042",
+      "5043",
+      "5044",
+      "5045",
+      "5046",
+      "5047",
+      "5048",
+      "5049",
+      "5050",
+      "5051",
+      "5052",
+      "5053",
+      "5054",
+      "5055",
+      "5056",
+      "5057",
+      "5058",
+      "5059",
+      "5060",
+      "5061",
+      "5062",
+      "5063",
+      "5064",
+      "5065",
+      "5066",
+      "5067",
+      "5068",
+      "5069",
+      "5070",
+      "5071",
+      "5072",
+      "5073",
+      "5074",
+      "5075",
+      "5076",
+      "5077",
+      "5078",
+      "5079",
+      "5080",
+      "5081",
+      "5082",
+      "5030",
+      "5031",
+      "5032",
+      "5033",
+      "5034",
+      "5035",
+      "5036",
+      "5037"
+    ],
+    "anilist_id": null,
+    "anilist_ids": [
+      17074,
+      5081,
+      11597,
+      21262,
+      21745
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "fr-fr",
+    "video_codec": 0,
+    "video_type": 0,
+    "files": [
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCED01 - Kimi no Shiranai Monogatari [BD 1080p Opus] [949E1439].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCED01 - Kimi no Shiranai Monogatari [BD 1080p Opus] [949E1439].mkv",
+        "length": 230035051,
+        "offset": 0
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCED02 - Kimi no Shiranai Monogatari [BD 1080p Opus] [EE4DF148].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCED02 - Kimi no Shiranai Monogatari [BD 1080p Opus] [EE4DF148].mkv",
+        "length": 210554747,
+        "offset": 230035051
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCED03 - Kimi no Shiranai Monogatari [BD 1080p Opus] [2DD91949].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCED03 - Kimi no Shiranai Monogatari [BD 1080p Opus] [2DD91949].mkv",
+        "length": 247192932,
+        "offset": 440589798
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCOP01 - staple stable [BD 1080p Opus] [078104B0].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCOP01 - staple stable [BD 1080p Opus] [078104B0].mkv",
+        "length": 115603391,
+        "offset": 687782730
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCOP02 - Kaerimichi [BD 1080p Opus] [10F3DEC1].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCOP02 - Kaerimichi [BD 1080p Opus] [10F3DEC1].mkv",
+        "length": 140093602,
+        "offset": 803386121
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCOP03 - Ambivalent World [BD 1080p Opus] [CA2B55DA].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCOP03 - Ambivalent World [BD 1080p Opus] [CA2B55DA].mkv",
+        "length": 102879385,
+        "offset": 943479723
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCOP04 - Renai Circulation [BD 1080p Opus] [FC7E3853].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCOP04 - Renai Circulation [BD 1080p Opus] [FC7E3853].mkv",
+        "length": 90949285,
+        "offset": 1046359108
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCOP05 - Renai Circulation [BD 1080p Opus] [C9204617].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCOP05 - Renai Circulation [BD 1080p Opus] [C9204617].mkv",
+        "length": 94435818,
+        "offset": 1137308393
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Bakemonogatari -  NCOP06 - Sugar Sweet Nightmare [BD 1080p Opus] [13E79C02].mkv",
+        "name": "[matheousse] Bakemonogatari -  NCOP06 - Sugar Sweet Nightmare [BD 1080p Opus] [13E79C02].mkv",
+        "length": 159010115,
+        "offset": 1231744211
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Hanamonogatari - NCED - Hana Ato -shirushi- [BD 1080p Opus] [0641688C].mkv",
+        "name": "[matheousse] Hanamonogatari - NCED - Hana Ato -shirushi- [BD 1080p Opus] [0641688C].mkv",
+        "length": 234937410,
+        "offset": 1390754326
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Hanamonogatari - NCOP - the last day of my adolescence [BD 1080p Opus] [3FD38148].mkv",
+        "name": "[matheousse] Hanamonogatari - NCOP - the last day of my adolescence [BD 1080p Opus] [3FD38148].mkv",
+        "length": 195270088,
+        "offset": 1625691736
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Kabukimonogatari - NCOP - happy bite [BD 1080p Opus] [F46870F4].mkv",
+        "name": "[matheousse] Kabukimonogatari - NCOP - happy bite [BD 1080p Opus] [F46870F4].mkv",
+        "length": 175506604,
+        "offset": 1820961824
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Koimonogatari - NCOP - Kogarashi Sentiment [BD 1080p Opus] [B27DBFBF].mkv",
+        "name": "[matheousse] Koimonogatari - NCOP - Kogarashi Sentiment [BD 1080p Opus] [B27DBFBF].mkv",
+        "length": 204230417,
+        "offset": 1996468428
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Koyomimonogatari - NCED - whiz [BD 1080p Opus] [76E7B363].mkv",
+        "name": "[matheousse] Koyomimonogatari - NCED - whiz [BD 1080p Opus] [76E7B363].mkv",
+        "length": 288066055,
+        "offset": 2200698845
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Monogatari Series Second Season - NCED01 - Ai o Utae [BD 1080p Opus] [0EF03414].mkv",
+        "name": "[matheousse] Monogatari Series Second Season - NCED01 - Ai o Utae [BD 1080p Opus] [0EF03414].mkv",
+        "length": 193991798,
+        "offset": 2488764900
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Monogatari Series Second Season - NCED02 - Ai o Utae [BD 1080p Opus] [1A7D352C].mkv",
+        "name": "[matheousse] Monogatari Series Second Season - NCED02 - Ai o Utae [BD 1080p Opus] [1A7D352C].mkv",
+        "length": 244295244,
+        "offset": 2682756698
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Monogatari Series Second Season - NCED03 - Ai o Utae [BD 1080p Opus] [4560CB45].mkv",
+        "name": "[matheousse] Monogatari Series Second Season - NCED03 - Ai o Utae [BD 1080p Opus] [4560CB45].mkv",
+        "length": 176478866,
+        "offset": 2927051942
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Monogatari Series Second Season - NCED04 - Sono Koe wo Oboeteru [BD 1080p Opus] [FE7CFE89].mkv",
+        "name": "[matheousse] Monogatari Series Second Season - NCED04 - Sono Koe wo Oboeteru [BD 1080p Opus] [FE7CFE89].mkv",
+        "length": 197339444,
+        "offset": 3103530808
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Monogatari Series Second Season - NCED05 - Sono Koe wo Oboeteru [BD 1080p Opus] [6067F059].mkv",
+        "name": "[matheousse] Monogatari Series Second Season - NCED05 - Sono Koe wo Oboeteru [BD 1080p Opus] [6067F059].mkv",
+        "length": 174535521,
+        "offset": 3300870252
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Monogatari Series Second Season - NCED06 - snowdrop [BD 1080p Opus] [76744F9E].mkv",
+        "name": "[matheousse] Monogatari Series Second Season - NCED06 - snowdrop [BD 1080p Opus] [76744F9E].mkv",
+        "length": 246824161,
+        "offset": 3475405773
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nekomonogatari Black - NCED01 - Kieru daydream [BD 1080p Opus] [6A28483C].mkv",
+        "name": "[matheousse] Nekomonogatari Black - NCED01 - Kieru daydream [BD 1080p Opus] [6A28483C].mkv",
+        "length": 286521163,
+        "offset": 3722229934
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nekomonogatari Black - NCED02 - Kieru daydream [BD 1080p Opus] [8FB6048B].mkv",
+        "name": "[matheousse] Nekomonogatari Black - NCED02 - Kieru daydream [BD 1080p Opus] [8FB6048B].mkv",
+        "length": 270768438,
+        "offset": 4008751097
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nekomonogatari Black - NCOP - perfect slumbers [BD 1080p Opus] [BB5911BC].mkv",
+        "name": "[matheousse] Nekomonogatari Black - NCOP - perfect slumbers [BD 1080p Opus] [BB5911BC].mkv",
+        "length": 135364138,
+        "offset": 4279519535
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nekomonogatari White - NCOP - chocolate insomnia [BD 1080p Opus] [E14F6979].mkv",
+        "name": "[matheousse] Nekomonogatari White - NCOP - chocolate insomnia [BD 1080p Opus] [E14F6979].mkv",
+        "length": 139300295,
+        "offset": 4414883673
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCED01 - Naisho no Hanashi [BD 1080p Opus] [3202114E].mkv",
+        "name": "[matheousse] Nisemonogatari - NCED01 - Naisho no Hanashi [BD 1080p Opus] [3202114E].mkv",
+        "length": 261223229,
+        "offset": 4554183968
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCED02 - Naisho no Hanashi [BD 1080p Opus] [D348AF4F].mkv",
+        "name": "[matheousse] Nisemonogatari - NCED02 - Naisho no Hanashi [BD 1080p Opus] [D348AF4F].mkv",
+        "length": 353135383,
+        "offset": 4815407197
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCED03 - Naisho no Hanashi [BD 1080p Opus] [58557B47].mkv",
+        "name": "[matheousse] Nisemonogatari - NCED03 - Naisho no Hanashi [BD 1080p Opus] [58557B47].mkv",
+        "length": 353096328,
+        "offset": 5168542580
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCOP01 - Futakotome [BD 1080p Opus] [8297AD23].mkv",
+        "name": "[matheousse] Nisemonogatari - NCOP01 - Futakotome [BD 1080p Opus] [8297AD23].mkv",
+        "length": 309878121,
+        "offset": 5521638908
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCOP02 - marshmallow justice [BD 1080p Opus] [56723DDA].mkv",
+        "name": "[matheousse] Nisemonogatari - NCOP02 - marshmallow justice [BD 1080p Opus] [56723DDA].mkv",
+        "length": 435360109,
+        "offset": 5831517029
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCOP03 - Futakotome [BD 1080p Opus] [1A1B5260].mkv",
+        "name": "[matheousse] Nisemonogatari - NCOP03 - Futakotome [BD 1080p Opus] [1A1B5260].mkv",
+        "length": 296838001,
+        "offset": 6266877138
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Nisemonogatari - NCOP04 - Platinum Disco [BD 1080p Opus] [B4DA6A32].mkv",
+        "name": "[matheousse] Nisemonogatari - NCOP04 - Platinum Disco [BD 1080p Opus] [B4DA6A32].mkv",
+        "length": 449084805,
+        "offset": 6563715139
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Otorimonogatari - NCOP - Mousou Express [BD 1080p Opus] [4F4FAC8B].mkv",
+        "name": "[matheousse] Otorimonogatari - NCOP - Mousou Express [BD 1080p Opus] [4F4FAC8B].mkv",
+        "length": 101703358,
+        "offset": 7012799944
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCED01 - Sayonara no Yukue [BD 1080p Opus] [D87BE295].mkv",
+        "name": "[matheousse] Owarimonogatari - NCED01 - Sayonara no Yukue [BD 1080p Opus] [D87BE295].mkv",
+        "length": 227356732,
+        "offset": 7114503302
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCED02 - Sayonara no Yukue [BD 1080p Opus] [0CA8C113].mkv",
+        "name": "[matheousse] Owarimonogatari - NCED02 - Sayonara no Yukue [BD 1080p Opus] [0CA8C113].mkv",
+        "length": 265187034,
+        "offset": 7341860034
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCED03 - SHIORI [BD 1080p Opus] [92D3F67C].mkv",
+        "name": "[matheousse] Owarimonogatari - NCED03 - SHIORI [BD 1080p Opus] [92D3F67C].mkv",
+        "length": 267831250,
+        "offset": 7607047068
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCED04 - SHIORI [BD 1080p Opus] [96439C66].mkv",
+        "name": "[matheousse] Owarimonogatari - NCED04 - SHIORI [BD 1080p Opus] [96439C66].mkv",
+        "length": 277356886,
+        "offset": 7874878318
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCED05 - SHIORI [BD 1080p Opus] [E2483CE7].mkv",
+        "name": "[matheousse] Owarimonogatari - NCED05 - SHIORI [BD 1080p Opus] [E2483CE7].mkv",
+        "length": 262314104,
+        "offset": 8152235204
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP01 - decent black [BD 1080p Opus] [AD9D05FE].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP01 - decent black [BD 1080p Opus] [AD9D05FE].mkv",
+        "length": 183550264,
+        "offset": 8414549308
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP02 - mathemagics [BD 1080p Opus] [552C4248].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP02 - mathemagics [BD 1080p Opus] [552C4248].mkv",
+        "length": 455110788,
+        "offset": 8598099572
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP03 - Yuudachi Houteishiki [BD 1080p Opus] [641BDA75].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP03 - Yuudachi Houteishiki [BD 1080p Opus] [641BDA75].mkv",
+        "length": 171137052,
+        "offset": 9053210360
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP04 - mein schatz [BD 1080p Opus] [4450F714].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP04 - mein schatz [BD 1080p Opus] [4450F714].mkv",
+        "length": 177188045,
+        "offset": 9224347412
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP05 - terminal terminal [BD 1080p Opus] [0B2B3915].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP05 - terminal terminal [BD 1080p Opus] [0B2B3915].mkv",
+        "length": 239002676,
+        "offset": 9401535457
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP06 - dreamy date drive [BD 1080p Opus] [98F1E3C0].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP06 - dreamy date drive [BD 1080p Opus] [98F1E3C0].mkv",
+        "length": 159253980,
+        "offset": 9640538133
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Owarimonogatari - NCOP07 - dark cherry mystery [BD 1080p Opus] [C342E747].mkv",
+        "name": "[matheousse] Owarimonogatari - NCOP07 - dark cherry mystery [BD 1080p Opus] [C342E747].mkv",
+        "length": 187202732,
+        "offset": 9799792113
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Tsukimonogatari NCED - border [BD 1080p Opus] [144CA842].mkv",
+        "name": "[matheousse] Tsukimonogatari NCED - border [BD 1080p Opus] [144CA842].mkv",
+        "length": 221369185,
+        "offset": 9986994845
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Tsukimonogatari NCOP - Orange Mint [BD 1080p Opus] [354D7E76].mkv",
+        "name": "[matheousse] Tsukimonogatari NCOP - Orange Mint [BD 1080p Opus] [354D7E76].mkv",
+        "length": 256585494,
+        "offset": 10208364030
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Zoku Owarimonogatari - NCED - azure [BD 1080p Opus] [660AB361].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - NCED - azure [BD 1080p Opus] [660AB361].mkv",
+        "length": 335618116,
+        "offset": 10464949524
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Extras/[matheousse] Zoku Owarimonogatari - NCOP - 07734 [BD 1080p Opus] [9B91486D].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - NCOP - 07734 [BD 1080p Opus] [9B91486D].mkv",
+        "length": 205727068,
+        "offset": 10800567640
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Monogatari Intégrale Subs + fonts.7z",
+        "name": "Monogatari Intégrale Subs + fonts.7z",
+        "length": 27784780,
+        "offset": 11006294708
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 01 MULTi [BD 1080p Opus] [9C9FBA56].mkv",
+        "name": "[matheousse] Bakemonogatari - 01 MULTi [BD 1080p Opus] [9C9FBA56].mkv",
+        "length": 1942177385,
+        "offset": 11034079488
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 02 MULTi [BD 1080p Opus] [089EC0C8].mkv",
+        "name": "[matheousse] Bakemonogatari - 02 MULTi [BD 1080p Opus] [089EC0C8].mkv",
+        "length": 2309412153,
+        "offset": 12976256873
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 03 MULTi [BD 1080p Opus] [CF60EE1B].mkv",
+        "name": "[matheousse] Bakemonogatari - 03 MULTi [BD 1080p Opus] [CF60EE1B].mkv",
+        "length": 982509912,
+        "offset": 15285669026
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 04 MULTi [BD 1080p Opus] [1BB1256F].mkv",
+        "name": "[matheousse] Bakemonogatari - 04 MULTi [BD 1080p Opus] [1BB1256F].mkv",
+        "length": 965139216,
+        "offset": 16268178938
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 05 MULTi [BD 1080p Opus] [D8742840].mkv",
+        "name": "[matheousse] Bakemonogatari - 05 MULTi [BD 1080p Opus] [D8742840].mkv",
+        "length": 1306023647,
+        "offset": 17233318154
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 06 MULTi [BD 1080p Opus] [D17FF7C4].mkv",
+        "name": "[matheousse] Bakemonogatari - 06 MULTi [BD 1080p Opus] [D17FF7C4].mkv",
+        "length": 1659857810,
+        "offset": 18539341801
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 07 MULTi [BD 1080p Opus] [E48958EB].mkv",
+        "name": "[matheousse] Bakemonogatari - 07 MULTi [BD 1080p Opus] [E48958EB].mkv",
+        "length": 1799989943,
+        "offset": 20199199611
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 08 MULTi [BD 1080p Opus] [8148E08B].mkv",
+        "name": "[matheousse] Bakemonogatari - 08 MULTi [BD 1080p Opus] [8148E08B].mkv",
+        "length": 1344190213,
+        "offset": 21999189554
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 09 MULTi [BD 1080p Opus] [918BC44A].mkv",
+        "name": "[matheousse] Bakemonogatari - 09 MULTi [BD 1080p Opus] [918BC44A].mkv",
+        "length": 1219382267,
+        "offset": 23343379767
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 10 MULTi [BD 1080p Opus] [C88E5D6D].mkv",
+        "name": "[matheousse] Bakemonogatari - 10 MULTi [BD 1080p Opus] [C88E5D6D].mkv",
+        "length": 1698266066,
+        "offset": 24562762034
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 11 MULTi [BD 1080p Opus] [DBBB0E11].mkv",
+        "name": "[matheousse] Bakemonogatari - 11 MULTi [BD 1080p Opus] [DBBB0E11].mkv",
+        "length": 1445998382,
+        "offset": 26261028100
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 12 MULTi [BD 1080p Opus] [A32B086E].mkv",
+        "name": "[matheousse] Bakemonogatari - 12 MULTi [BD 1080p Opus] [A32B086E].mkv",
+        "length": 1579404812,
+        "offset": 27707026482
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 13 MULTi [BD 1080p Opus] [4E73C8EB].mkv",
+        "name": "[matheousse] Bakemonogatari - 13 MULTi [BD 1080p Opus] [4E73C8EB].mkv",
+        "length": 1174574484,
+        "offset": 29286431294
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 14 MULTi [BD 1080p Opus] [E5EA99AA].mkv",
+        "name": "[matheousse] Bakemonogatari - 14 MULTi [BD 1080p Opus] [E5EA99AA].mkv",
+        "length": 1720691822,
+        "offset": 30461005778
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 01 (Bakemonogatari)/[matheousse] Bakemonogatari - 15 MULTi [BD 1080p Opus] [CF2C42EB].mkv",
+        "name": "[matheousse] Bakemonogatari - 15 MULTi [BD 1080p Opus] [CF2C42EB].mkv",
+        "length": 1588658695,
+        "offset": 32181697600
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 02 (Kizumonogatari)/[matheousse] Kizumonogatari Part 1 VOSTFR [BD 1080p 1920x816 Opus 5.1] [A1FD3553].mkv",
+        "name": "[matheousse] Kizumonogatari Part 1 VOSTFR [BD 1080p 1920x816 Opus 5.1] [A1FD3553].mkv",
+        "length": 6501308642,
+        "offset": 33770356295
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 02 (Kizumonogatari)/[matheousse] Kizumonogatari Part 2 VOSTFR [BD 1080p 1920x816 Opus 5.1] [A3388D73].mkv",
+        "name": "[matheousse] Kizumonogatari Part 2 VOSTFR [BD 1080p 1920x816 Opus 5.1] [A3388D73].mkv",
+        "length": 9589653593,
+        "offset": 40271664937
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 02 (Kizumonogatari)/[matheousse] Kizumonogatari Part 3 VOSTFR [BD 1080p 1920x816 Opus 5.1] [BF8E5779].mkv",
+        "name": "[matheousse] Kizumonogatari Part 3 VOSTFR [BD 1080p 1920x816 Opus 5.1] [BF8E5779].mkv",
+        "length": 9005668597,
+        "offset": 49861318530
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 01 MULTi [BD 1080p Opus] [DF46A98C].mkv",
+        "name": "[matheousse] Nisemonogatari - 01 MULTi [BD 1080p Opus] [DF46A98C].mkv",
+        "length": 1690323625,
+        "offset": 58866987127
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 02 MULTi [BD 1080p Opus] [A7142156].mkv",
+        "name": "[matheousse] Nisemonogatari - 02 MULTi [BD 1080p Opus] [A7142156].mkv",
+        "length": 1745503893,
+        "offset": 60557310752
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 03 MULTi [BD 1080p Opus] [055F73E0].mkv",
+        "name": "[matheousse] Nisemonogatari - 03 MULTi [BD 1080p Opus] [055F73E0].mkv",
+        "length": 1994493554,
+        "offset": 62302814645
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 04 MULTi [BD 1080p Opus] [2C4CCC14].mkv",
+        "name": "[matheousse] Nisemonogatari - 04 MULTi [BD 1080p Opus] [2C4CCC14].mkv",
+        "length": 1860302977,
+        "offset": 64297308199
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 05 MULTi [BD 1080p Opus] [7654BC23].mkv",
+        "name": "[matheousse] Nisemonogatari - 05 MULTi [BD 1080p Opus] [7654BC23].mkv",
+        "length": 1817637480,
+        "offset": 66157611176
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 06 MULTi [BD 1080p Opus] [3955E430].mkv",
+        "name": "[matheousse] Nisemonogatari - 06 MULTi [BD 1080p Opus] [3955E430].mkv",
+        "length": 1915333694,
+        "offset": 67975248656
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 07 MULTi [BD 1080p Opus] [950E5F89].mkv",
+        "name": "[matheousse] Nisemonogatari - 07 MULTi [BD 1080p Opus] [950E5F89].mkv",
+        "length": 2083448244,
+        "offset": 69890582350
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 08 MULTi [BD 1080p Opus] [55A8D675].mkv",
+        "name": "[matheousse] Nisemonogatari - 08 MULTi [BD 1080p Opus] [55A8D675].mkv",
+        "length": 1859186143,
+        "offset": 71974030594
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 09 MULTi [BD 1080p Opus] [65F061DE].mkv",
+        "name": "[matheousse] Nisemonogatari - 09 MULTi [BD 1080p Opus] [65F061DE].mkv",
+        "length": 1976774308,
+        "offset": 73833216737
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 10 MULTi [BD 1080p Opus] [999FBC4A].mkv",
+        "name": "[matheousse] Nisemonogatari - 10 MULTi [BD 1080p Opus] [999FBC4A].mkv",
+        "length": 1691224179,
+        "offset": 75809991045
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 03 (Nisemonogatari)/[matheousse] Nisemonogatari - 11 MULTi [BD 1080p Opus] [383AB5FB].mkv",
+        "name": "[matheousse] Nisemonogatari - 11 MULTi [BD 1080p Opus] [383AB5FB].mkv",
+        "length": 1925948531,
+        "offset": 77501215224
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 04 (Nekomonogatari Black)/[matheousse] Nekomonogatari Black - 01 VOSTFR [BD 1080p Opus] [31B20B45].mkv",
+        "name": "[matheousse] Nekomonogatari Black - 01 VOSTFR [BD 1080p Opus] [31B20B45].mkv",
+        "length": 1667675244,
+        "offset": 79427163755
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 04 (Nekomonogatari Black)/[matheousse] Nekomonogatari Black - 02 VOSTFR [BD 1080p Opus] [00DCA7F0].mkv",
+        "name": "[matheousse] Nekomonogatari Black - 02 VOSTFR [BD 1080p Opus] [00DCA7F0].mkv",
+        "length": 2430799235,
+        "offset": 81094838999
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 04 (Nekomonogatari Black)/[matheousse] Nekomonogatari Black - 03 VOSTFR [BD 1080p Opus] [C07B5B88].mkv",
+        "name": "[matheousse] Nekomonogatari Black - 03 VOSTFR [BD 1080p Opus] [C07B5B88].mkv",
+        "length": 2603964145,
+        "offset": 83525638234
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 04 (Nekomonogatari Black)/[matheousse] Nekomonogatari Black - 04 VOSTFR [BD 1080p Opus] [6C885E79].mkv",
+        "name": "[matheousse] Nekomonogatari Black - 04 VOSTFR [BD 1080p Opus] [6C885E79].mkv",
+        "length": 2770018784,
+        "offset": 86129602379
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 05 (Nekomonogatari White)/[matheousse] Nekomonogatari White - 01 VOSTFR [BD 1080p Opus] [AB91212B].mkv",
+        "name": "[matheousse] Nekomonogatari White - 01 VOSTFR [BD 1080p Opus] [AB91212B].mkv",
+        "length": 1715739027,
+        "offset": 88899621163
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 05 (Nekomonogatari White)/[matheousse] Nekomonogatari White - 02 VOSTFR [BD 1080p Opus] [486F2EB5].mkv",
+        "name": "[matheousse] Nekomonogatari White - 02 VOSTFR [BD 1080p Opus] [486F2EB5].mkv",
+        "length": 1819552900,
+        "offset": 90615360190
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 05 (Nekomonogatari White)/[matheousse] Nekomonogatari White - 03 VOSTFR [BD 1080p Opus] [902CAD5E].mkv",
+        "name": "[matheousse] Nekomonogatari White - 03 VOSTFR [BD 1080p Opus] [902CAD5E].mkv",
+        "length": 1883533735,
+        "offset": 92434913090
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 05 (Nekomonogatari White)/[matheousse] Nekomonogatari White - 04 VOSTFR [BD 1080p Opus] [CA4F8AB0].mkv",
+        "name": "[matheousse] Nekomonogatari White - 04 VOSTFR [BD 1080p Opus] [CA4F8AB0].mkv",
+        "length": 1321681194,
+        "offset": 94318446825
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 05 (Nekomonogatari White)/[matheousse] Nekomonogatari White - 05 VOSTFR [BD 1080p Opus] [009C2AEB].mkv",
+        "name": "[matheousse] Nekomonogatari White - 05 VOSTFR [BD 1080p Opus] [009C2AEB].mkv",
+        "length": 2327725725,
+        "offset": 95640128019
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 06 (Kabukimonogatari)/[matheousse] Kabukimonogatari - 01 VOSTFR [BD 1080p Opus] [84CC8054].mkv",
+        "name": "[matheousse] Kabukimonogatari - 01 VOSTFR [BD 1080p Opus] [84CC8054].mkv",
+        "length": 1543550393,
+        "offset": 97967853744
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 06 (Kabukimonogatari)/[matheousse] Kabukimonogatari - 02 VOSTFR [BD 1080p Opus] [77272BD2].mkv",
+        "name": "[matheousse] Kabukimonogatari - 02 VOSTFR [BD 1080p Opus] [77272BD2].mkv",
+        "length": 1618856353,
+        "offset": 99511404137
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 06 (Kabukimonogatari)/[matheousse] Kabukimonogatari - 03 VOSTFR [BD 1080p Opus] [BDDBD7CD].mkv",
+        "name": "[matheousse] Kabukimonogatari - 03 VOSTFR [BD 1080p Opus] [BDDBD7CD].mkv",
+        "length": 2243783457,
+        "offset": 101130260490
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 06 (Kabukimonogatari)/[matheousse] Kabukimonogatari - 04 VOSTFR [BD 1080p Opus] [09338789].mkv",
+        "name": "[matheousse] Kabukimonogatari - 04 VOSTFR [BD 1080p Opus] [09338789].mkv",
+        "length": 2111353683,
+        "offset": 103374043947
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 07 (Hanamonogatari)/[matheousse] Hanamonogatari - 01 VOSTFR [BD 1080p Opus] [CAAB1647].mkv",
+        "name": "[matheousse] Hanamonogatari - 01 VOSTFR [BD 1080p Opus] [CAAB1647].mkv",
+        "length": 1878758687,
+        "offset": 105485397630
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 07 (Hanamonogatari)/[matheousse] Hanamonogatari - 02 VOSTFR [BD 1080p Opus] [35745D81].mkv",
+        "name": "[matheousse] Hanamonogatari - 02 VOSTFR [BD 1080p Opus] [35745D81].mkv",
+        "length": 2033072228,
+        "offset": 107364156317
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 07 (Hanamonogatari)/[matheousse] Hanamonogatari - 03 VOSTFR [BD 1080p Opus] [B2DC899A].mkv",
+        "name": "[matheousse] Hanamonogatari - 03 VOSTFR [BD 1080p Opus] [B2DC899A].mkv",
+        "length": 1453424019,
+        "offset": 109397228545
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 07 (Hanamonogatari)/[matheousse] Hanamonogatari - 04 VOSTFR [BD 1080p Opus] [C96FFFFA].mkv",
+        "name": "[matheousse] Hanamonogatari - 04 VOSTFR [BD 1080p Opus] [C96FFFFA].mkv",
+        "length": 2748606280,
+        "offset": 110850652564
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 07 (Hanamonogatari)/[matheousse] Hanamonogatari - 05 VOSTFR [BD 1080p Opus] [8C5CFDEB].mkv",
+        "name": "[matheousse] Hanamonogatari - 05 VOSTFR [BD 1080p Opus] [8C5CFDEB].mkv",
+        "length": 2222132500,
+        "offset": 113599258844
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 08 (Otorimonogatari)/[matheousse] Otorimonogatari - 01 VOSTFR [BD 1080p Opus] [8EDDA2A9].mkv",
+        "name": "[matheousse] Otorimonogatari - 01 VOSTFR [BD 1080p Opus] [8EDDA2A9].mkv",
+        "length": 1778680149,
+        "offset": 115821391344
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 08 (Otorimonogatari)/[matheousse] Otorimonogatari - 02 VOSTFR [BD 1080p Opus] [C8D99321].mkv",
+        "name": "[matheousse] Otorimonogatari - 02 VOSTFR [BD 1080p Opus] [C8D99321].mkv",
+        "length": 1372474055,
+        "offset": 117600071493
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 08 (Otorimonogatari)/[matheousse] Otorimonogatari - 03 VOSTFR [BD 1080p Opus] [05BD6391].mkv",
+        "name": "[matheousse] Otorimonogatari - 03 VOSTFR [BD 1080p Opus] [05BD6391].mkv",
+        "length": 1417587330,
+        "offset": 118972545548
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 08 (Otorimonogatari)/[matheousse] Otorimonogatari - 04 VOSTFR [BD 1080p Opus] [67605314].mkv",
+        "name": "[matheousse] Otorimonogatari - 04 VOSTFR [BD 1080p Opus] [67605314].mkv",
+        "length": 1980477970,
+        "offset": 120390132878
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 09 (Onimonogatari)/[matheousse] Onimonogatari - 01 VOSTFR [BD 1080p Opus] [53A4EEF8].mkv",
+        "name": "[matheousse] Onimonogatari - 01 VOSTFR [BD 1080p Opus] [53A4EEF8].mkv",
+        "length": 1561580252,
+        "offset": 122370610848
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 09 (Onimonogatari)/[matheousse] Onimonogatari - 02 VOSTFR [BD 1080p Opus] [364D7664].mkv",
+        "name": "[matheousse] Onimonogatari - 02 VOSTFR [BD 1080p Opus] [364D7664].mkv",
+        "length": 3169229013,
+        "offset": 123932191100
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 09 (Onimonogatari)/[matheousse] Onimonogatari - 03 VOSTFR [BD 1080p Opus] [1E3B346C].mkv",
+        "name": "[matheousse] Onimonogatari - 03 VOSTFR [BD 1080p Opus] [1E3B346C].mkv",
+        "length": 1888427480,
+        "offset": 127101420113
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 09 (Onimonogatari)/[matheousse] Onimonogatari - 04 VOSTFR [BD 1080p Opus] [D50E201B].mkv",
+        "name": "[matheousse] Onimonogatari - 04 VOSTFR [BD 1080p Opus] [D50E201B].mkv",
+        "length": 1515584230,
+        "offset": 128989847593
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 10 (Koimonogatari)/[matheousse] Koimonogatari - 01 VOSTFR [BD 1080p Opus] [180025E9].mkv",
+        "name": "[matheousse] Koimonogatari - 01 VOSTFR [BD 1080p Opus] [180025E9].mkv",
+        "length": 1396207349,
+        "offset": 130505431823
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 10 (Koimonogatari)/[matheousse] Koimonogatari - 02 VOSTFR [BD 1080p Opus] [F6F8BE51].mkv",
+        "name": "[matheousse] Koimonogatari - 02 VOSTFR [BD 1080p Opus] [F6F8BE51].mkv",
+        "length": 1588234393,
+        "offset": 131901639172
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 10 (Koimonogatari)/[matheousse] Koimonogatari - 03 VOSTFR [BD 1080p Opus] [99E57E85].mkv",
+        "name": "[matheousse] Koimonogatari - 03 VOSTFR [BD 1080p Opus] [99E57E85].mkv",
+        "length": 1578009351,
+        "offset": 133489873565
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 10 (Koimonogatari)/[matheousse] Koimonogatari - 04 VOSTFR [BD 1080p Opus] [D1010233].mkv",
+        "name": "[matheousse] Koimonogatari - 04 VOSTFR [BD 1080p Opus] [D1010233].mkv",
+        "length": 1775435340,
+        "offset": 135067882916
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 10 (Koimonogatari)/[matheousse] Koimonogatari - 05 VOSTFR [BD 1080p Opus] [B6588A93].mkv",
+        "name": "[matheousse] Koimonogatari - 05 VOSTFR [BD 1080p Opus] [B6588A93].mkv",
+        "length": 1348613491,
+        "offset": 136843318256
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 10 (Koimonogatari)/[matheousse] Koimonogatari - 06 VOSTFR [BD 1080p Opus] [7DD6B5BD].mkv",
+        "name": "[matheousse] Koimonogatari - 06 VOSTFR [BD 1080p Opus] [7DD6B5BD].mkv",
+        "length": 2038397474,
+        "offset": 138191931747
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 11 (Tsukimonogatari)/[matheousse] Tsukimonogatari - 01 VOSTFR [BD 1080p Opus] [D0AAF601].mkv",
+        "name": "[matheousse] Tsukimonogatari - 01 VOSTFR [BD 1080p Opus] [D0AAF601].mkv",
+        "length": 1819946458,
+        "offset": 140230329221
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 11 (Tsukimonogatari)/[matheousse] Tsukimonogatari - 02 VOSTFR [BD 1080p Opus] [49588E32].mkv",
+        "name": "[matheousse] Tsukimonogatari - 02 VOSTFR [BD 1080p Opus] [49588E32].mkv",
+        "length": 1791880930,
+        "offset": 142050275679
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 11 (Tsukimonogatari)/[matheousse] Tsukimonogatari - 03 VOSTFR [BD 1080p Opus] [C0E05703].mkv",
+        "name": "[matheousse] Tsukimonogatari - 03 VOSTFR [BD 1080p Opus] [C0E05703].mkv",
+        "length": 2200865708,
+        "offset": 143842156609
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 11 (Tsukimonogatari)/[matheousse] Tsukimonogatari - 04 VOSTFR [BD 1080p Opus] [BE7406DD].mkv",
+        "name": "[matheousse] Tsukimonogatari - 04 VOSTFR [BD 1080p Opus] [BE7406DD].mkv",
+        "length": 2875124513,
+        "offset": 146043022317
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 01 VOSTFR [BD 1080p Opus] [B9BD7981].mkv",
+        "name": "[matheousse] Koyomimonogatari - 01 VOSTFR [BD 1080p Opus] [B9BD7981].mkv",
+        "length": 1215158564,
+        "offset": 148918146830
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 02 VOSTFR [BD 1080p Opus] [79B07936].mkv",
+        "name": "[matheousse] Koyomimonogatari - 02 VOSTFR [BD 1080p Opus] [79B07936].mkv",
+        "length": 1110823821,
+        "offset": 150133305394
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 03 VOSTFR [BD 1080p Opus] [99C97417].mkv",
+        "name": "[matheousse] Koyomimonogatari - 03 VOSTFR [BD 1080p Opus] [99C97417].mkv",
+        "length": 1105267673,
+        "offset": 151244129215
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 04 VOSTFR [BD 1080p Opus] [B17C1FAB].mkv",
+        "name": "[matheousse] Koyomimonogatari - 04 VOSTFR [BD 1080p Opus] [B17C1FAB].mkv",
+        "length": 1133101116,
+        "offset": 152349396888
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 05 VOSTFR [BD 1080p Opus] [D5D527BD].mkv",
+        "name": "[matheousse] Koyomimonogatari - 05 VOSTFR [BD 1080p Opus] [D5D527BD].mkv",
+        "length": 1009456063,
+        "offset": 153482498004
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 06 VOSTFR [BD 1080p Opus] [D58AC06B].mkv",
+        "name": "[matheousse] Koyomimonogatari - 06 VOSTFR [BD 1080p Opus] [D58AC06B].mkv",
+        "length": 1539392193,
+        "offset": 154491954067
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 07 VOSTFR [BD 1080p Opus] [AA8D1383].mkv",
+        "name": "[matheousse] Koyomimonogatari - 07 VOSTFR [BD 1080p Opus] [AA8D1383].mkv",
+        "length": 1587290181,
+        "offset": 156031346260
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 08 VOSTFR [BD 1080p Opus] [1E5103E7].mkv",
+        "name": "[matheousse] Koyomimonogatari - 08 VOSTFR [BD 1080p Opus] [1E5103E7].mkv",
+        "length": 1133334035,
+        "offset": 157618636441
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 09 VOSTFR [BD 1080p Opus] [50515184].mkv",
+        "name": "[matheousse] Koyomimonogatari - 09 VOSTFR [BD 1080p Opus] [50515184].mkv",
+        "length": 1159896823,
+        "offset": 158751970476
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 10 VOSTFR [BD 1080p Opus] [73CE1650].mkv",
+        "name": "[matheousse] Koyomimonogatari - 10 VOSTFR [BD 1080p Opus] [73CE1650].mkv",
+        "length": 1135536263,
+        "offset": 159911867299
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 11 VOSTFR [BD 1080p Opus] [DF9CE65B].mkv",
+        "name": "[matheousse] Koyomimonogatari - 11 VOSTFR [BD 1080p Opus] [DF9CE65B].mkv",
+        "length": 962151988,
+        "offset": 161047403562
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 12 (Koyomimonogatari)/[matheousse] Koyomimonogatari - 12 VOSTFR [BD 1080p Opus] [BF780679].mkv",
+        "name": "[matheousse] Koyomimonogatari - 12 VOSTFR [BD 1080p Opus] [BF780679].mkv",
+        "length": 940278233,
+        "offset": 162009555550
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 01 VOSTFR [BD 1080p Opus] [B4DFE967].mkv",
+        "name": "[matheousse] Owarimonogatari - 01 VOSTFR [BD 1080p Opus] [B4DFE967].mkv",
+        "length": 2455585050,
+        "offset": 162949833783
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 02 VOSTFR [BD 1080p Opus] [EC87A4E5].mkv",
+        "name": "[matheousse] Owarimonogatari - 02 VOSTFR [BD 1080p Opus] [EC87A4E5].mkv",
+        "length": 2170930082,
+        "offset": 165405418833
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 03 VOSTFR [BD 1080p Opus] [4EFC3786].mkv",
+        "name": "[matheousse] Owarimonogatari - 03 VOSTFR [BD 1080p Opus] [4EFC3786].mkv",
+        "length": 2073900951,
+        "offset": 167576348915
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 04 VOSTFR [BD 1080p Opus] [0DBFE773].mkv",
+        "name": "[matheousse] Owarimonogatari - 04 VOSTFR [BD 1080p Opus] [0DBFE773].mkv",
+        "length": 2238049792,
+        "offset": 169650249866
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 05 VOSTFR [BD 1080p Opus] [01D1CD88].mkv",
+        "name": "[matheousse] Owarimonogatari - 05 VOSTFR [BD 1080p Opus] [01D1CD88].mkv",
+        "length": 1897463792,
+        "offset": 171888299658
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 06 VOSTFR [BD 1080p Opus] [998B3674].mkv",
+        "name": "[matheousse] Owarimonogatari - 06 VOSTFR [BD 1080p Opus] [998B3674].mkv",
+        "length": 1630437524,
+        "offset": 173785763450
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 07 VOSTFR [BD 1080p Opus] [E670EC3D].mkv",
+        "name": "[matheousse] Owarimonogatari - 07 VOSTFR [BD 1080p Opus] [E670EC3D].mkv",
+        "length": 1621419589,
+        "offset": 175416200974
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 08 VOSTFR [BD 1080p Opus] [51399AC8].mkv",
+        "name": "[matheousse] Owarimonogatari - 08 VOSTFR [BD 1080p Opus] [51399AC8].mkv",
+        "length": 2390436122,
+        "offset": 177037620563
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 09 VOSTFR [BD 1080p Opus] [56A71F3A].mkv",
+        "name": "[matheousse] Owarimonogatari - 09 VOSTFR [BD 1080p Opus] [56A71F3A].mkv",
+        "length": 2420806307,
+        "offset": 179428056685
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 10 VOSTFR [BD 1080p Opus] [808CB11F].mkv",
+        "name": "[matheousse] Owarimonogatari - 10 VOSTFR [BD 1080p Opus] [808CB11F].mkv",
+        "length": 2495003094,
+        "offset": 181848862992
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 11 VOSTFR [BD 1080p Opus] [9A511D60].mkv",
+        "name": "[matheousse] Owarimonogatari - 11 VOSTFR [BD 1080p Opus] [9A511D60].mkv",
+        "length": 2251683193,
+        "offset": 184343866086
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 12 VOSTFR [BD 1080p Opus] [E997C725].mkv",
+        "name": "[matheousse] Owarimonogatari - 12 VOSTFR [BD 1080p Opus] [E997C725].mkv",
+        "length": 1880859101,
+        "offset": 186595549279
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 13 VOSTFR [BD 1080p Opus] [4E8DFE11].mkv",
+        "name": "[matheousse] Owarimonogatari - 13 VOSTFR [BD 1080p Opus] [4E8DFE11].mkv",
+        "length": 2111623208,
+        "offset": 188476408380
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 14 VOSTFR [BD 1080p Opus] [F3DE8BB2].mkv",
+        "name": "[matheousse] Owarimonogatari - 14 VOSTFR [BD 1080p Opus] [F3DE8BB2].mkv",
+        "length": 2198704167,
+        "offset": 190588031588
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 15 VOSTFR [BD 1080p Opus] [30902A30].mkv",
+        "name": "[matheousse] Owarimonogatari - 15 VOSTFR [BD 1080p Opus] [30902A30].mkv",
+        "length": 2505035463,
+        "offset": 192786735755
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 16 VOSTFR [BD 1080p Opus] [EBBF05C6].mkv",
+        "name": "[matheousse] Owarimonogatari - 16 VOSTFR [BD 1080p Opus] [EBBF05C6].mkv",
+        "length": 1781171658,
+        "offset": 195291771218
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 17 VOSTFR [BD 1080p Opus] [05578A2D].mkv",
+        "name": "[matheousse] Owarimonogatari - 17 VOSTFR [BD 1080p Opus] [05578A2D].mkv",
+        "length": 2433059812,
+        "offset": 197072942876
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 18 VOSTFR [BD 1080p Opus] [CAA63689].mkv",
+        "name": "[matheousse] Owarimonogatari - 18 VOSTFR [BD 1080p Opus] [CAA63689].mkv",
+        "length": 1950951539,
+        "offset": 199506002688
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 19 VOSTFR [BD 1080p Opus] [8ADE8BF5].mkv",
+        "name": "[matheousse] Owarimonogatari - 19 VOSTFR [BD 1080p Opus] [8ADE8BF5].mkv",
+        "length": 2108088743,
+        "offset": 201456954227
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 13 (Owarimonogatari)/[matheousse] Owarimonogatari - 20 VOSTFR [BD 1080p Opus] [83704513].mkv",
+        "name": "[matheousse] Owarimonogatari - 20 VOSTFR [BD 1080p Opus] [83704513].mkv",
+        "length": 1864982489,
+        "offset": 203565042970
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 14 (Zoku Owarimonogatari)/[matheousse] Zoku Owarimonogatari - 01 VOSTFR [BD 1080p Opus 5.1] [E6ED595F].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - 01 VOSTFR [BD 1080p Opus 5.1] [E6ED595F].mkv",
+        "length": 2495608705,
+        "offset": 205430025459
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 14 (Zoku Owarimonogatari)/[matheousse] Zoku Owarimonogatari - 02 VOSTFR [BD 1080p Opus 5.1] [F1259EFA].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - 02 VOSTFR [BD 1080p Opus 5.1] [F1259EFA].mkv",
+        "length": 2120967208,
+        "offset": 207925634164
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 14 (Zoku Owarimonogatari)/[matheousse] Zoku Owarimonogatari - 03 VOSTFR [BD 1080p Opus 5.1] [42659BE6].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - 03 VOSTFR [BD 1080p Opus 5.1] [42659BE6].mkv",
+        "length": 2629246141,
+        "offset": 210046601372
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 14 (Zoku Owarimonogatari)/[matheousse] Zoku Owarimonogatari - 04 VOSTFR [BD 1080p Opus 5.1] [086FE5BB].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - 04 VOSTFR [BD 1080p Opus 5.1] [086FE5BB].mkv",
+        "length": 2296919406,
+        "offset": 212675847513
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 14 (Zoku Owarimonogatari)/[matheousse] Zoku Owarimonogatari - 05 VOSTFR [BD 1080p Opus 5.1] [05A909FC].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - 05 VOSTFR [BD 1080p Opus 5.1] [05A909FC].mkv",
+        "length": 2447478518,
+        "offset": 214972766919
+      },
+      {
+        "path": "Monogatari (BD 1080p)/Saison 14 (Zoku Owarimonogatari)/[matheousse] Zoku Owarimonogatari - 06 VOSTFR [BD 1080p Opus 5.1] [1106E554].mkv",
+        "name": "[matheousse] Zoku Owarimonogatari - 06 VOSTFR [BD 1080p Opus 5.1] [1106E554].mkv",
+        "length": 3540412954,
+        "offset": 217420245437
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:e6c7a86e970b886911a2211539157e1f1558a728&dn=%5Bmatheousse%5D%20Monogatari%2001-68%20Series%20Int%C3%A9grale%20VOSTFR%20v3%20(BD%201080p%20Opus)%20(Bakemonogatari%2C%20Kizumonogatari%2C%20Nisemonogatari%2C%20Nekomonogatari%20Black%2C%20Monogatari%20Second%20Season%2C%20Hanamonogatari%2C%20Tsukimonogatari%2C%20Koyomimonogatari%2C%20Owarimonogatari%2C%20Zoku%20Owarimonogatari)%20%7BTags%3AL2%3BA%3Dja%3BF%3Dfrfr%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "e6c7a86e970b886911a2211539157e1f1558a728",
+    "anonymous": false,
+    "uploader": {
+      "id": "7885498788120",
+      "username": "sayrix",
+      "display_name": "Sayrix",
+      "pfp_hash": "61c4dc9dbc4168372719ce10217fb2553c0ab5878a35c727d4f50d58a4a1d786"
+    },
+    "groups": [
+      {
+        "id": "9022175364922",
+        "name": "matheousse",
+        "display_name": "matheousse",
+        "display_tag": "matheousse",
+        "pfp_hash": "dfa81bf7a53994991c34e641da9e7384417781dca286ce2452219d352b7c1186",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": 1838039,
+    "seeders": "2",
+    "leechers": "2",
+    "completed": "48",
+    "activity": "0",
+    "torrent_health": "71",
+    "upgraded": null,
+    "animetosho": "not_found",
+    "animetosho_fetch_time": "1771283327251",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": "1719331683000",
+    "batch": true
+  }
+}

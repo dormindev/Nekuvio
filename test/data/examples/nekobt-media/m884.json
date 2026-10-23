@@ -1,0 +1,451 @@
+{
+  "error": false,
+  "data": {
+    "id": "m884",
+    "title": "Bleach the Movie: Hell Verse",
+    "year": 2010,
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "overview": "When a soul has committed irredeemable sins, it is removed from the cycle of reincarnation monitored by the Soul Society, and the gates of Hell open to condemn the soul to eternal damnation. From this place from where no one has ever come back, three tormented souls who refer to themselves as Sinners of Hell burst in Karakura Town, where a ruthless fight involving them against the substitute Soul Reaper Ichigo Kurosaki and his friends ensues. In the aftermath of the fight, Ichigo's sisters are abducted, with the aforementioned group's leader Shuren hoping to lure Ichigo to be finally freed from the chains of Hell.\n\nHelped by a Sinner named Kokutou, Ichigo and his friends head to Hell for a rescue mission. However, the Soul Society opposes the journey, in fear of threatening the balance between worlds. As the lines between friends and foes get blurred, Ichigo will have to face his most challenging dilemma yet—a decision that may well engulf the three worlds into chaos.\n\n(Source: MAL Rewrite)",
+    "status": "ended",
+    "banner_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8247-VppsQKlgXoXr.png",
+    "runtime": 93,
+    "tmdbId": 73245,
+    "imdbId": "tt1785394",
+    "alternate_titles": [
+      "Bleach: Hell Verse",
+      "Bleach The Movie 4: Hell Verse",
+      "Bleach Movie 4: Jigoku-hen",
+      "Gekijouban Bleach: Jigokuhen",
+      "Bleach: The Hell Chapter",
+      "BLEACH: Jigoku-hen"
+    ],
+    "anilist": {
+      "display_id": 8247,
+      "primary": {
+        "id": 8247,
+        "id_mal": 8247,
+        "title": {
+          "romaji": "BLEACH: Jigoku-hen",
+          "english": "Bleach the Movie: Hell Verse",
+          "native": "BLEACH 地獄篇",
+          "synonyms": [
+            "Bleach Movie 4",
+            "Bleach: The Hell Chapter",
+            "بليتش: قصيدة الجحيم"
+          ]
+        },
+        "description": "When a soul has committed irredeemable sins, it is removed from the cycle of reincarnation monitored by the Soul Society, and the gates of Hell open to condemn the soul to eternal damnation. From this place from where no one has ever come back, three tormented souls who refer to themselves as Sinners of Hell burst in Karakura Town, where a ruthless fight involving them against the substitute Soul Reaper Ichigo Kurosaki and his friends ensues. In the aftermath of the fight, Ichigo's sisters are abducted, with the aforementioned group's leader Shuren hoping to lure Ichigo to be finally freed from the chains of Hell.\n<br><br>\nHelped by a Sinner named Kokutou, Ichigo and his friends head to Hell for a rescue mission. However, the Soul Society opposes the journey, in fear of threatening the balance between worlds. As the lines between friends and foes get blurred, Ichigo will have to face his most challenging dilemma yet—a decision that may well engulf the three worlds into chaos.\n<br><br>\n(Source: MAL Rewrite)",
+        "format": "MOVIE",
+        "status": "FINISHED",
+        "episodes": 1,
+        "duration": 93,
+        "season": "FALL",
+        "season_year": 2010,
+        "start_date": "2010-12-04",
+        "end_date": "2010-12-04",
+        "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8247-VppsQKlgXoXr.png",
+        "cover_color": "#f1a150",
+        "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8247-M9lIhb1pWRTn.jpg",
+        "genres": [
+          "Action",
+          "Supernatural"
+        ],
+        "studios": [
+          {
+            "id": 1,
+            "name": "Studio Pierrot"
+          }
+        ],
+        "tags": [
+          {
+            "id": 56,
+            "name": "Shounen",
+            "rank": 100,
+            "category": "Demographic"
+          },
+          {
+            "id": 147,
+            "name": "Afterlife",
+            "rank": 88,
+            "category": "Setting-Universe"
+          },
+          {
+            "id": 66,
+            "name": "Super Power",
+            "rank": 79,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 82,
+            "name": "Male Protagonist",
+            "rank": 79,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 98,
+            "name": "Female Protagonist",
+            "rank": 40,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 99,
+            "name": "Henshin",
+            "rank": 20,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 779,
+            "name": "Kuudere",
+            "rank": 20,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 90,
+            "name": "CGI",
+            "rank": 20,
+            "category": "Technical"
+          }
+        ],
+        "relations": [
+          {
+            "id": 53355,
+            "type": "MANGA",
+            "title": {
+              "native": "BLEACH 地獄篇 - The Unforgivens",
+              "romaji": "Bleach: Jigoku-hen Special - The Unforgivens",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "ONE_SHOT",
+            "site_url": "https://anilist.co/manga/53355",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23355.jpg",
+            "relation_type": "ADAPTATION"
+          },
+          {
+            "id": 269,
+            "type": "ANIME",
+            "title": {
+              "native": "BLEACH",
+              "romaji": "BLEACH",
+              "english": "Bleach",
+              "synonyms": []
+            },
+            "format": "TV",
+            "site_url": "https://anilist.co/anime/269",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx269-d2GmRkJbMopq.png",
+            "relation_type": "PARENT"
+          },
+          {
+            "id": 141703,
+            "type": "MANGA",
+            "title": {
+              "native": "BLEACH 地獄篇",
+              "romaji": "BLEACH: Jigoku-hen",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "NOVEL",
+            "site_url": "https://anilist.co/manga/141703",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx141703-AMUe79IyFgg4.jpg",
+            "relation_type": "ADAPTATION"
+          },
+          {
+            "id": 53355,
+            "type": "MANGA",
+            "title": {
+              "native": "BLEACH 地獄篇 - The Unforgivens",
+              "romaji": "Bleach: Jigoku-hen Special - The Unforgivens",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "ONE_SHOT",
+            "site_url": "https://anilist.co/manga/53355",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23355.jpg",
+            "relation_type": "PREQUEL"
+          }
+        ],
+        "external_links": [
+          {
+            "url": "http://www.netflix.com/title/70260383",
+            "site": "Netflix",
+            "type": "STREAMING"
+          }
+        ],
+        "average_score": 74,
+        "popularity": 45214,
+        "favourites": 548,
+        "country_of_origin": "JP",
+        "is_adult": false,
+        "site_url": "https://anilist.co/anime/8247",
+        "next_airing_episode": null,
+        "next_airing_at": null
+      },
+      "entries": [
+        {
+          "season": null,
+          "src_start": 1,
+          "src_end": 1,
+          "dst_start": 1,
+          "dst_end": 1,
+          "ratio": null,
+          "anilist_id": 8247,
+          "ord": 1,
+          "media": {
+            "id": 8247,
+            "id_mal": 8247,
+            "title": {
+              "romaji": "BLEACH: Jigoku-hen",
+              "english": "Bleach the Movie: Hell Verse",
+              "native": "BLEACH 地獄篇",
+              "synonyms": [
+                "Bleach Movie 4",
+                "Bleach: The Hell Chapter",
+                "بليتش: قصيدة الجحيم"
+              ]
+            },
+            "description": "When a soul has committed irredeemable sins, it is removed from the cycle of reincarnation monitored by the Soul Society, and the gates of Hell open to condemn the soul to eternal damnation. From this place from where no one has ever come back, three tormented souls who refer to themselves as Sinners of Hell burst in Karakura Town, where a ruthless fight involving them against the substitute Soul Reaper Ichigo Kurosaki and his friends ensues. In the aftermath of the fight, Ichigo's sisters are abducted, with the aforementioned group's leader Shuren hoping to lure Ichigo to be finally freed from the chains of Hell.\n<br><br>\nHelped by a Sinner named Kokutou, Ichigo and his friends head to Hell for a rescue mission. However, the Soul Society opposes the journey, in fear of threatening the balance between worlds. As the lines between friends and foes get blurred, Ichigo will have to face his most challenging dilemma yet—a decision that may well engulf the three worlds into chaos.\n<br><br>\n(Source: MAL Rewrite)",
+            "format": "MOVIE",
+            "status": "FINISHED",
+            "episodes": 1,
+            "duration": 93,
+            "season": "FALL",
+            "season_year": 2010,
+            "start_date": "2010-12-04",
+            "end_date": "2010-12-04",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8247-VppsQKlgXoXr.png",
+            "cover_color": "#f1a150",
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8247-M9lIhb1pWRTn.jpg",
+            "genres": [
+              "Action",
+              "Supernatural"
+            ],
+            "studios": [
+              {
+                "id": 1,
+                "name": "Studio Pierrot"
+              }
+            ],
+            "tags": [
+              {
+                "id": 56,
+                "name": "Shounen",
+                "rank": 100,
+                "category": "Demographic"
+              },
+              {
+                "id": 147,
+                "name": "Afterlife",
+                "rank": 88,
+                "category": "Setting-Universe"
+              },
+              {
+                "id": 66,
+                "name": "Super Power",
+                "rank": 79,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 82,
+                "name": "Male Protagonist",
+                "rank": 79,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 40,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 99,
+                "name": "Henshin",
+                "rank": 20,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 779,
+                "name": "Kuudere",
+                "rank": 20,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 90,
+                "name": "CGI",
+                "rank": 20,
+                "category": "Technical"
+              }
+            ],
+            "relations": [
+              {
+                "id": 53355,
+                "type": "MANGA",
+                "title": {
+                  "native": "BLEACH 地獄篇 - The Unforgivens",
+                  "romaji": "Bleach: Jigoku-hen Special - The Unforgivens",
+                  "english": null,
+                  "synonyms": []
+                },
+                "format": "ONE_SHOT",
+                "site_url": "https://anilist.co/manga/53355",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23355.jpg",
+                "relation_type": "ADAPTATION"
+              },
+              {
+                "id": 269,
+                "type": "ANIME",
+                "title": {
+                  "native": "BLEACH",
+                  "romaji": "BLEACH",
+                  "english": "Bleach",
+                  "synonyms": []
+                },
+                "format": "TV",
+                "site_url": "https://anilist.co/anime/269",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx269-d2GmRkJbMopq.png",
+                "relation_type": "PARENT"
+              },
+              {
+                "id": 141703,
+                "type": "MANGA",
+                "title": {
+                  "native": "BLEACH 地獄篇",
+                  "romaji": "BLEACH: Jigoku-hen",
+                  "english": null,
+                  "synonyms": []
+                },
+                "format": "NOVEL",
+                "site_url": "https://anilist.co/manga/141703",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx141703-AMUe79IyFgg4.jpg",
+                "relation_type": "ADAPTATION"
+              },
+              {
+                "id": 53355,
+                "type": "MANGA",
+                "title": {
+                  "native": "BLEACH 地獄篇 - The Unforgivens",
+                  "romaji": "Bleach: Jigoku-hen Special - The Unforgivens",
+                  "english": null,
+                  "synonyms": []
+                },
+                "format": "ONE_SHOT",
+                "site_url": "https://anilist.co/manga/53355",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23355.jpg",
+                "relation_type": "PREQUEL"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "http://www.netflix.com/title/70260383",
+                "site": "Netflix",
+                "type": "STREAMING"
+              }
+            ],
+            "average_score": 74,
+            "popularity": 45214,
+            "favourites": 548,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/8247",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        }
+      ],
+      "relations": [
+        {
+          "id": 53355,
+          "type": "MANGA",
+          "title": {
+            "native": "BLEACH 地獄篇 - The Unforgivens",
+            "romaji": "Bleach: Jigoku-hen Special - The Unforgivens",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONE_SHOT",
+          "site_url": "https://anilist.co/manga/53355",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23355.jpg",
+          "relation_type": "ADAPTATION",
+          "media_id": null
+        },
+        {
+          "id": 269,
+          "type": "ANIME",
+          "title": {
+            "native": "BLEACH",
+            "romaji": "BLEACH",
+            "english": "Bleach",
+            "synonyms": []
+          },
+          "format": "TV",
+          "site_url": "https://anilist.co/anime/269",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx269-d2GmRkJbMopq.png",
+          "relation_type": "PARENT",
+          "media_id": "s2999"
+        },
+        {
+          "id": 141703,
+          "type": "MANGA",
+          "title": {
+            "native": "BLEACH 地獄篇",
+            "romaji": "BLEACH: Jigoku-hen",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "NOVEL",
+          "site_url": "https://anilist.co/manga/141703",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx141703-AMUe79IyFgg4.jpg",
+          "relation_type": "ADAPTATION",
+          "media_id": null
+        },
+        {
+          "id": 53355,
+          "type": "MANGA",
+          "title": {
+            "native": "BLEACH 地獄篇 - The Unforgivens",
+            "romaji": "Bleach: Jigoku-hen Special - The Unforgivens",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "ONE_SHOT",
+          "site_url": "https://anilist.co/manga/53355",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23355.jpg",
+          "relation_type": "PREQUEL",
+          "media_id": null
+        }
+      ],
+      "alt_ids": [
+        {
+          "anilist_id": 8247,
+          "mal_id": 8247,
+          "anidb_id": 7666,
+          "imdb_ids": [
+            "tt1785394"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "anilist_id": 8247,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8247-VppsQKlgXoXr.png"
+        }
+      ]
+    },
+    "notes": null,
+    "stats": {
+      "uploads": 1,
+      "seeders": "5",
+      "leechers": "1",
+      "downloads": "235"
+    },
+    "series": {
+      "media_id": "s2999",
+      "title": "Bleach"
+    },
+    "episodes": [],
+    "groups": null
+  }
+}

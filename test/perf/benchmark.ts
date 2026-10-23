@@ -23,12 +23,18 @@
 import http from 'node:http';
 import { performance } from 'node:perf_hooks';
 
-import { app, startServer } from '../../src/app.js';
-import { parseNuvioId } from '../../src/utils/parser.js';
 import { resolveKitsuToExternal } from '../../src/api/kitsu.js';
-import { resolveMediaId, getMedia, searchTorrents, getTorrent } from '../../src/api/nekobt.js';
 import { scrapeTorrents } from '../../src/api/tracker-scrapper.js';
+import { app, startServer } from '../../src/app.js';
 import { fitInfo } from '../../src/pipeline/matcher.js';
+import { parseNuvioId } from '../../src/utils/parser.js';
+import {
+  getMedia,
+  getTorrent,
+  resolveMediaId,
+  searchTorrents
+} from '../../src/api/nekobt.js';
+
 
 const TEST_ENDPOINTS = [
   // 1. Popular series (Kitsu ID)

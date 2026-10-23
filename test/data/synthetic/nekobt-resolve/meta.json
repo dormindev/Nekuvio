@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "id": "series",
+      "params": { "query": { "id": "mal-<id>" } },
+      "fetched": null,
+      "grounds": "assumed series resolve body (`media_id` with `s` prefix, populated `anilist_id`) — the `isMovie = media_id.startsWith('m')` branch's false path; migrated from api.test.ts (\"resolveMediaId returns media ID resolution info with isMovie=false for series\")",
+      "verdict": "ungrounded"
+    },
+    {
+      "id": "movie",
+      "params": { "query": { "id": "imdb-<id>" } },
+      "fetched": null,
+      "grounds": "assumed movie resolve body (`media_id` with `m` prefix) — the `isMovie = media_id.startsWith('m')` branch's true path; migrated from api.test.ts (\"resolveMediaId marks isMovie=true for movie IDs starting with m\")",
+      "verdict": "ungrounded"
+    }
+  ]
+}

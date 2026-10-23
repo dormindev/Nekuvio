@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "id": "14064189768715",
+      "params": {
+        "path": {
+          "id": "14064189768715"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "multi-group releases + uploading_group guarantee (README \u00a72)",
+      "used_by": [
+        "series-kitsu_49235_24"
+      ]
+    },
+    {
+      "id": "14474579778825",
+      "params": {
+        "path": {
+          "id": "14474579778825"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "episode file naming: SxxEyy (S04E01-E24) \u00b7 separated season (S4 - 01) \u00b7 4th Season - 24 \u00b7 EP/E prefix \u00b7 absolute-only \u00b7 dots around the SxxEyy token; same show as nekobt-media/s172; torrent details input for self-stream series-kitsu_49235_24",
+      "used_by": [
+        "series-kitsu_49235_24"
+      ]
+    },
+    {
+      "id": "7514276465159",
+      "params": {
+        "path": {
+          "id": "7514276465159"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "movie file selection \u2014 the largest file in the torrent is the 2.4 GB Movie (Saga of Tanya the Evil); also a 32-file multi-episode release; torrent details input for self-stream series-kitsu_11794_1; torrent details input for self-stream series-tt6455986_0_1",
+      "used_by": [
+        "series-kitsu_11794_1",
+        "series-tt6455986_0_1"
+      ]
+    },
+    {
+      "id": "14414565343489",
+      "params": {
+        "path": {
+          "id": "14414565343489"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "separated season naming \u2014 the file is named \"Tensei Shitara Slime Datta Ken 4th Season - 24\", matched by the separated-season strategy",
+      "used_by": [
+        "series-kitsu_49235_24"
+      ]
+    },
+    {
+      "id": "14042604076552",
+      "params": {
+        "path": {
+          "id": "14042604076552"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "absolute episode naming \u2014 the file is named \"One Piece - 1180\", matched by the absolute-episode strategy (no SxxEyy token)",
+      "used_by": [
+        "series-kitsu_12_1180"
+      ]
+    },
+    {
+      "id": "14060867155212",
+      "params": {
+        "path": {
+          "id": "14060867155212"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "EP-prefixed absolute naming \u2014 the file is named \"One Piece EP1180\", matched by the absolute-episode strategy with the optional EP prefix",
+      "used_by": [
+        "series-kitsu_12_1180"
+      ]
+    },
+    {
+      "id": "8960236499207",
+      "params": {
+        "path": {
+          "id": "8960236499207"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Attack on Titan season 1 batch (25 files) named after the **series title** \u2014 the real instance of the named-season strategy"
+    },
+    {
+      "id": "14527792784141",
+      "params": {
+        "path": {
+          "id": "14527792784141"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Attack on Titan season-0 batch (8 files) \u2014 an S00E07 token on an episode with **no absolute number**"
+    },
+    {
+      "id": "13225791205644",
+      "params": {
+        "path": {
+          "id": "13225791205644"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Hunter x Hunter batch (22 files) named by the **absolute number with leading zeros**"
+    },
+    {
+      "id": "13695484685327",
+      "params": {
+        "path": {
+          "id": "13695484685327"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Naruto season 1 batch (35 files)"
+    },
+    {
+      "id": "13699910230794",
+      "params": {
+        "path": {
+          "id": "13699910230794"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Naruto season 4 batch (48 files), absolute episode 132"
+    },
+    {
+      "id": "12293163228939",
+      "params": {
+        "path": {
+          "id": "12293163228939"
+        }
+      },
+      "fetched": "2026-10-21",
+      "grounds": "Spirited Away movie release \u2014 one file, **underscores** in its name"
+    },
+    {
+      "id": "9087447179017",
+      "params": {
+        "path": {
+          "id": "9087447179017"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "the 152-file Monogatari integral \u2014 it holds two series (Bakemonogatari and Nisemonogatari) with the same episode numbers, so only the **season title** tells them apart. Also the release that exposed the fileIdx contract mismatch (\u00a7Known Integrity Issues): the matcher picks the right file, the *stream* mislabels its index"
+    }
+  ]
+}

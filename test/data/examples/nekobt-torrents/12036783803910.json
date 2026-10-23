@@ -1,0 +1,159 @@
+{
+  "error": false,
+  "data": {
+    "id": "12036783803910",
+    "uploaded_at": 1782708286734,
+    "title": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws (VF, FRENCH, SUBFRENCH, VOSTFR, Youjo Senki, The Military Chronicles of a Little Girl, Saga of Tanya the Evil (Youjo Senki))",
+    "auto_title": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws (VF, FRENCH, SUBFRENCH, VOSTFR, Youjo Senki, The Military Chronicles of a Little Girl, Saga of Tanya the Evil (Youjo Senki)) {Tags:L0;V9;C1;A=frfr,ja;S=frfr;}",
+    "description": "[**Saga of Tanya the Evil - S01**](https://myanimelist.net/anime/32615)\n\n---\n\n- **Video:** 8 000 kb/s / 1080p (1920x1080) / 23.976 (24000/1001) FPS / x264 (High@L4)\n- **Audio(s):** ![](https://i.kek.sh/iInwcX3ECg8.png) French (France) / AAC 2.0 / 192 kb/s / 48.0 kHz | ![](https://i.kek.sh/pdarVhxXr1b.png) Japanese (Japan) / AAC 2.0 / 192 kb/s / 48.0 kHz\n- **Subtitle(s):** ![](https://i.kek.sh/iInwcX3ECg8.png) [French (France) [Forced] / ASS](https://x0.at/ArWm_Qkga52JvXb-.zip) | ![](https://i.kek.sh/iInwcX3ECg8.png) [French (France) / ASS](https://x0.at/j0J5xaJ09B3eTY79.zip)\n- **Duration:** 0:23:40.096\n- **Preview(s):** [➊](https://i.kek.sh/0yLBFrdMNC3.png) | [➋](https://i.kek.sh/BJ0NjPGBUjB.png) | [➌](https://i.kek.sh/IAypwNlL4gh.png)\n- **Others:** [CRC32](https://rentry.co/7es6z2p5) | [Mediainfo](https://rentry.co/ezw8z4r3)\n\n***Notes:** Some subtitle links are ZIP archives to keep multi-file or grouped subtitles together.*\n\n---\n\n**Contact us:** [Discord: discord.gg/vostfr](https://discord.gg/vostfr)\n\n*Direct download urls can be retrieved in our RSS (ask on discord for any help)*\n\n---\n\n![](https://files.catbox.moe/vmwnst.jpg)",
+    "mediainfo": "General\nUnique ID                                : 0 (0x0)\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.38 GiB\nDuration                                 : 23 min 40 s\nOverall bit rate                         : 8 367 kb/s\nFrame rate                               : 23.976 FPS\nTitle                                    : Saga of Tanya the Evil S01E09 Préparatifs pour la progression\nWriting application                      : keykitten v3.0.0 ('meow meow') / mkvmerge 98.0 ('Chonks') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1\nAttachments                              : trebuc.ttf / trebucit.ttf / timesbd.ttf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High@L4\nFormat settings                          : CABAC / 4 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, Reference frames        : 4 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 40 s\nBit rate                                 : 8 000 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 8 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.161\nStream size                              : 1.32 GiB (95%)\nWriting library                          : x264 core 164\nEncoding settings                        : cabac=1 / ref=4 / deblock=1:1:1 / analyse=0x3:0x113 / me=hex / subme=8 / psy=1 / psy_rd=0.40:0.00 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=12 / lookahead_threads=2 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=0 / weightp=2 / keyint=96 / keyint_min=48 / scenecut=40 / intra_refresh=0 / rc_lookahead=48 / rc=2pass / mbtree=1 / bitrate=8000 / ratetol=1.0 / qcomp=0.60 / qpmin=0 / qpmax=69 / qpstep=4 / cplxblur=20.0 / qblur=0.5 / vbv_maxrate=12000 / vbv_bufsize=18000 / nal_hrd=none / filler=0 / ip_ratio=1.40 / aq=1:0.60\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 40 s\nBit rate                                 : 192 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 32.5 MiB (2%)\nLanguage                                 : French (FR)\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 40 s\nBit rate                                 : 192 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 32.5 MiB (2%)\nTitle                                    : Japan\nLanguage                                 : Japanese (JP)\nDefault                                  : Yes\nForced                                   : No\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 39 s\nBit rate                                 : 7 b/s\nFrame rate                               : 0.011 FPS\nCount of elements                        : 16\nCompression mode                         : Lossless\nStream size                              : 1.22 KiB (0%)\nTitle                                    : Forced\nLanguage                                 : French (FR)\nDefault                                  : No\nForced                                   : Yes\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 39 s\nBit rate                                 : 129 b/s\nFrame rate                               : 0.235 FPS\nCount of elements                        : 333\nCompression mode                         : Lossless\nStream size                              : 22.5 KiB (0%)\nLanguage                                 : French (FR)\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Chapter 01\n00:02:11.000                             : en:Intro\n00:03:39.000                             : en:Chapter 02\n00:21:14.000                             : en:Credits\n00:22:45.000                             : en:Chapter 03",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 0,
+    "mtl": false,
+    "filesize": "17827269707",
+    "media_id": "s1453",
+    "media_episode_ids": [
+      "45692",
+      "45693",
+      "45694",
+      "45695",
+      "45696",
+      "45697",
+      "45698",
+      "45699",
+      "45700",
+      "45701",
+      "45702",
+      "45703"
+    ],
+    "anilist_id": 21613,
+    "anilist_ids": [
+      21613
+    ],
+    "audio_lang": "fr-fr,ja",
+    "sub_lang": "fr-fr",
+    "fsub_lang": "",
+    "video_codec": 1,
+    "video_type": 9,
+    "files": [
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1486874551,
+        "offset": 0
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E02 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E02 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1484741216,
+        "offset": 1486874551
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E03 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E03 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1486444175,
+        "offset": 2971615767
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E04 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E04 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1486151622,
+        "offset": 4458059942
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E05 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E05 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1486024292,
+        "offset": 5944211564
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E06 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E06 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1488236253,
+        "offset": 7430235856
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E07 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E07 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1485063459,
+        "offset": 8918472109
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E08 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E08 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1484727528,
+        "offset": 10403535568
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E09 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E09 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1485312494,
+        "offset": 11888263096
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E10 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E10 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1483856467,
+        "offset": 13373575590
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E11 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E11 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1486135693,
+        "offset": 14857432057
+      },
+      {
+        "path": "Saga of Tanya the Evil S01 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws/Saga of Tanya the Evil S01E12 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "name": "Saga of Tanya the Evil S01E12 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+        "length": 1483701957,
+        "offset": 16343567750
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:807e1388841738564b21bea9d20f0784f7dbf96a&dn=Saga%20of%20Tanya%20the%20Evil%20S01%20MULTi%201080p%20CR%20WEB-DL%20AAC2.0%20x264-Tsundere-Raws%20(VF%2C%20FRENCH%2C%20SUBFRENCH%2C%20VOSTFR%2C%20Youjo%20Senki%2C%20The%20Military%20Chronicles%20of%20a%20Little%20Girl%2C%20Saga%20of%20Tanya%20the%20Evil%20(Youjo%20Senki))%20%7BTags%3AL0%3BV9%3BC1%3BA%3Dfrfr%2Cja%3BS%3Dfrfr%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Fwww.torrentsnipe.info%3A2701%2Fannounce&tr=http%3A%2F%2Fwww.genesis-sp.org%3A2710%2Fannounce",
+    "private_magnet": null,
+    "infohash": "807e1388841738564b21bea9d20f0784f7dbf96a",
+    "anonymous": false,
+    "uploader": {
+      "id": "7110197602843",
+      "username": "tsun",
+      "display_name": "tsun",
+      "pfp_hash": "bcf3fdb6f2ca8ebf6565bacc24534dfcf937549a2e7d3bbc7282c76d5b989cf1"
+    },
+    "groups": [
+      {
+        "id": "7110296043059",
+        "name": "tsundere-raws",
+        "display_name": "Tsundere-Raws",
+        "display_tag": "Tsundere-Raws",
+        "pfp_hash": "5c26b0d6fa21ccd1beb67f34299596144fc193690731b2d1c6769746a9e66c41",
+        "tagline": "First on french releases",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "12",
+    "leechers": "0",
+    "completed": "398",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": "not_found",
+    "animetosho_fetch_time": "1782712545367",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": true
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "error": false,
+  "data": {
+    "id": "13695484685327",
+    "uploaded_at": 1789187587052,
+    "title": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]",
+    "auto_title": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1] {Tags:L2;V6;C3;A=ja,en;F=en;}",
+    "description": "## Release Information\n\n| Field | Value |\n|:---|:---|\n| **File** | `Naruto (2002) - S01E01 - Enter Naruto Uzumaki! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv` |\n| **Source** | JySzE |\n| **File Size** | 88.6 MiB |\n| **Duration** | 23 min 21 s |\n| **Overall Bitrate** | 531 kb/s |\n| **Frame Rate** | 24.874 FPS |\n| **Rabbit Encoder** | v8.5.1 |\n| **Language Detector** | v2.5.3 |\n\n## [Rabbit Encoder](https://github.com/Rabbit-Company/RabbitEncoder) Settings\n\n| Setting | Value |\n|:---|:---|\n| **Speed** | Slower |\n| **Dedupe subtitles** | Yes |\n| **Highest audio layout only** | Yes |\n| **No commentary audio** | Yes |\n| **Audio languages** | jpn, eng |\n| **Raw** | `RE1\\|c~cp=--film-grain 4,sp=sr,crp=a,dd=1,kc=1,rc=1\\|al~v=jpn+eng\\|sm~sp=f,tb=s,dp=1,cz=1\\|st~cv=1,ra=1,ru=1` |\n\n## Video\n\n| Property | Value |\n|:---|:---|\n| **Codec** | AV1 |\n| **Resolution** | 704×480 |\n| **Aspect Ratio** | 4:3 |\n| **Bitrate** | 275 kb/s |\n| **Frame Rate** | 24.874 FPS (Variable) |\n| **Bit Depth** | 10 bits |\n| **Stream Size** | 45.9 MiB (52%) |\n\n## Audio\n\n| # | Language | Codec | Channels | Bitrate | Sample Rate | Size | Flags |\n|:---|:---|:---|:---|:---|:---|:---|:---|\n| 1 | Japanese | Opus | 2 channels (L R) | 121 kb/s | 48.0 kHz | 20.3 MiB (23%) | Default |\n| 2 | English | Opus | 2 channels (L R) | 123 kb/s | 48.0 kHz | 20.5 MiB (23%) | Default |\n\n## Subtitles\n\n| # | Title | Format | Language | Flags |\n|:---|:---|:---|:---|:---|\n| 1 | Full Subtitles [SoM] | ASS | English | Default |\n| 2 | Signs & Songs [SoM] | ASS | English | Forced |\n\n---\n\n## [BlackRabbit Encodes](https://blackrabbit.si)\n\nBlackRabbit focuses on **mini encodes** made for users who want to save storage space without giving up solid video and audio quality.\nOur goal is simple: find the **best available remux source**, preferably with **dual audio** (**Japanese + English**) when possible, and encode it into:\n- **Video:** AV1\n- **Audio:** Opus\n\nThis makes the releases especially useful for people running automated setups such as **Sonarr**, where smaller file sizes can save a lot of storage over time.\n\n## Our Encoding Approach\n\nOur releases are more than a straight AV1 + Opus re-encode. We do not re-time dialogue or cut content, but we **clean up, optimize, and reorganize the tracks** so every release is tidy, consistent, space-efficient, and behaves correctly across devices and media servers.\n\nThe core changes are:\n- video is encoded to **AV1**\n- audio is encoded to **Opus**\n- black borders caused by an incorrect source resolution are automatically cropped\n- unnecessary, duplicate, and lower-priority tracks are removed\n- overall file size is significantly smaller\n\nThe result preserves the actual anime content while making the release **smaller, cleaner, and better organized**.\n\n## Video Handling\n\n- **Automatic cropping** — black borders are detected and removed when the source contains unused picture area or an incorrect stored resolution.\n- **Content preservation** — cropping removes only black border area; the actual image content is not cut or re-framed.\n\n## Audio Handling\n\nBeyond re-encoding to Opus, we tidy up the audio tracks so they behave predictably:\n- **Japanese and English only** — other audio languages are excluded to reduce file size.\n- **Smart bitrates** — the Opus bitrate is chosen per channel layout (mono, stereo, 5.1, 6.1, 7.1, all the way up to 7.1.4).\n- **Highest layout only** — only the highest available channel layout is kept for each language.\n- **Commentary removal** — all audio commentary tracks are excluded.\n- **Uncensored preference** — when both censored and uncensored audio tracks are available, the uncensored track is preferred.\n- **Logical ordering** — Japanese audio is placed first and English second.\n- **Best-source selection** — when equivalent candidates remain, lossless sources are preferred, followed by the highest-bitrate source.\n- **Correct flags** — default, original, and audio-description flags are set properly.\n- **Sync correction** — any audio delay/offset baked into the source is corrected so tracks stay in sync.\n- **Clean track names** — messy or inconsistent track titles are cleared.\n\n## Subtitle Handling\n\nMain dialogue subtitles are normalized for consistent readability while signs, songs, karaoke, and other typesetting remain untouched:\n- **Consistent dialogue styling** — main dialogue uses **Noto Sans** for modern-looking anime or **Noto Serif** when an older or more traditional style better matches the show.\n- **High visibility** — dialogue is styled at **80 px** with white text, a black outline, and a black shadow.\n- **SRT conversion** — all SRT tracks are converted to ASS and receive the same dialogue style.\n- **Typesetting preservation** — only the main dialogue style is replaced; signs, songs, karaoke, on-screen text, and other custom styles are preserved.\n- **Unused font cleanup** — font attachments that are no longer referenced by any retained subtitle track are removed from the MKV container.\n- **Track classification** — every track is identified as **Full**, **Signs & Songs**, **SDH**, **Honorifics**, **Commentary**, or **Storyboards**, including content-based detection for sources with wrong or missing labels.\n- **Fansub priority** — fansub subtitle tracks are preferred over original or official tracks when both are available.\n- **Uncensored preference** — when both censored and uncensored subtitle tracks are available, the uncensored track is preferred.\n- **Text over image** — picture-based subtitles such as PGS are excluded when a text-based subtitle track is available for the same language.\n- **Conditional zlib compression** — subtitle tracks are compressed only when zlib reduces their size by at least **10%**; otherwise they remain uncompressed.\n- **Clean, consistent names** — e.g. `Full Subtitles`, `Signs & Songs`, and `SDH`, with the source or release group tagged where known.\n- **Correct flags** — default, forced, hearing-impaired, commentary, and original flags are set so players automatically pick the intended track.\n- **Logical ordering** — English first, Japanese second, and other languages alphabetically after that; full subtitles before signs & songs; text-based before image-based.\n- **Deduplication** — redundant subtitle tracks are removed.\n\n## Source Quality\n\nSource quality is very important to us. If a **better remux/source** becomes available later, we may **re-encode the entire season** using that source and increase the **version number**.\nIf you know of a better source, **please let us know in the comments**.\n\n## Sonarr Compatibility\n\nCompatibility with automated media systems, especially **Sonarr**, is one of our main priorities. Because of that, we try to keep **file names as Sonarr-compatible as possible** to make library management easier and more reliable.\n\n## Our Priority\n\nOur main goal is to provide **mini AV1 encodes for as many anime as possible** while still maintaining **good video and audio quality**.\nWhen strong AV1 releases from other groups are already available, we would generally recommend using those instead. BlackRabbit's focus is on helping fill the gaps by providing compact, high-quality AV1 encodes across a wide range of titles.\n\n## Optional Support\n\nIf you would like to support and help us continue releasing mini AV1 encodes, donations are appreciated but never expected.\n\n**XMR:** `895pWQCwjJs24bjnkY5SuhAvwjhKtcrL9NXx1aRy7MUbbSk8w7SawbTiRipPvcmKohQNqpNWXDypmHncLSCxzUtkERNJS9h`\n\n---\n\n**Feedback is always welcome.** If you spot a better source, naming issue, or anything else worth improving, let us know in the comments.",
+    "mediainfo": "General\nUnique ID                                : 205109603161720000840235325343296458036 (0x9A4EAC3383CBF8E1F7AB151DDDF50D34)\nComplete name                            : Naruto (2002) - S01E01 - Enter Naruto Uzumaki! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 88.6 MiB\nDuration                                 : 23 min 21 s\nOverall bit rate                         : 531 kb/s\nFrame rate                               : 24.874 FPS\nTitle                                    : Naruto (2002) - S01E01 - Enter Naruto Uzumaki!\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-09-11 14:19:45 UTC\nWriting application                      : mkvmerge 101.0 ('Time To Turn') 64-bit\nWriting library                          : libebml v1.4.7 + libmatroska v1.7.2\nAttachments                              : noto_sans.ttf / IWAGYOPRO-BD-KAMI.TTF / Dubai-Bold.ttf / DESCHTYPEMERCURIUS-MEDIUM-MEDIUM.TTF\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : RE1|c~cp=--film-grain 4,sp=sr,crp=a,dd=1,kc=1,rc=1|al~v=jpn+eng|sm~sp=f,tb=s,dp=1,cz=1|st~cv=1,ra=1,ru=1\nRABBIT_ENCODER/VERSION                   : v8.5.1\nSOURCE                                   : JySzE\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L3.0\nFormat settings                          : Film Grain Synthesis\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 21 s\nBit rate                                 : 275 kb/s\nWidth                                    : 704 pixels\nHeight                                   : 480 pixels\nDisplay aspect ratio                     : 4:3\nFrame rate mode                          : Variable\nFrame rate                               : 24.874 FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.033\nStream size                              : 45.9 MiB (52%)\nTitle                                    : BlackRabbit\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.601 NTSC\nTransfer characteristics                 : BT.601\nMatrix coefficients                      : BT.601\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 21 s\nBit rate                                 : 121 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.3 MiB (23%)\nWriting library                          : opusenc from opus-tools 0.2\nEncoding settings                        : --bitrate 128 --discard-comments --discard-pictures\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 21 s\nBit rate                                 : 123 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 20.5 MiB (23%)\nWriting library                          : opusenc from opus-tools 0.2\nEncoding settings                        : --bitrate 128 --discard-comments --discard-pictures\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 12 s\nBit rate                                 : 130 b/s\nFrame rate                               : 0.256 FPS\nCount of elements                        : 357\nCompression mode                         : Lossless\nStream size                              : 22.2 KiB (0%)\nTitle                                    : Full Subtitles [SoM]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 18 min 31 s\nBit rate                                 : 38 b/s\nFrame rate                               : 0.038 FPS\nCount of elements                        : 42\nCompression mode                         : Lossless\nStream size                              : 5.17 KiB (0%)\nTitle                                    : Signs & Songs [SoM]\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nMenu\n00:00:00.000                             : en:Introduction\n00:03:35.014                             : en:Part A\n00:10:14.013                             : en:Part B\n00:21:20.012                             : en:Ending\n00:22:50.035                             : en:Next Episode Preview",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "3376731564",
+    "media_id": "s11509",
+    "media_episode_ids": [
+      "522247",
+      "522248",
+      "522249",
+      "522250",
+      "522251",
+      "522252",
+      "522253",
+      "522254",
+      "522255",
+      "522256",
+      "522257",
+      "522258",
+      "522259",
+      "522260",
+      "522261",
+      "522262",
+      "522263",
+      "522264",
+      "522265",
+      "522266",
+      "522267",
+      "522268",
+      "522269",
+      "522270",
+      "522271",
+      "522272",
+      "522273",
+      "522274",
+      "522275",
+      "522276",
+      "522277",
+      "522278",
+      "522279",
+      "522280",
+      "522281"
+    ],
+    "anilist_id": 20,
+    "anilist_ids": [
+      20
+    ],
+    "audio_lang": "ja,en",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 3,
+    "video_type": 6,
+    "files": [
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E01 - Enter Naruto Uzumaki! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E01 - Enter Naruto Uzumaki! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 92932528,
+        "offset": 0
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E02 - My Name Is Konohamaru! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E02 - My Name Is Konohamaru! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 93041789,
+        "offset": 92932528
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E03 - Sasuke and Sakura Friends or Foes [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E03 - Sasuke and Sakura Friends or Foes [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 94090470,
+        "offset": 185974317
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E04 - Pass or Fail Survival Test [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E04 - Pass or Fail Survival Test [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 107089169,
+        "offset": 280064787
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E05 - You Failed! Kakashis Final Decision [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E05 - You Failed! Kakashis Final Decision [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 102981461,
+        "offset": 387153956
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E06 - A Dangerous Mission! Journey to the Land of Waves! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E06 - A Dangerous Mission! Journey to the Land of Waves! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 94488125,
+        "offset": 490135417
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E07 - The Assassin of the Mist! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E07 - The Assassin of the Mist! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 87183538,
+        "offset": 584623542
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E08 - The Oath of Pain [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E08 - The Oath of Pain [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 91663105,
+        "offset": 671807080
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E09 - Kakashi Sharingan Warrior! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E09 - Kakashi Sharingan Warrior! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 96183558,
+        "offset": 763470185
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E10 - The Forest of Chakra [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E10 - The Forest of Chakra [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 89089604,
+        "offset": 859653743
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E11 - The Land Where a Hero Once Lived [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E11 - The Land Where a Hero Once Lived [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 98479054,
+        "offset": 948743347
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E12 - Battle on the Bridge! Zabuza Returns! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E12 - Battle on the Bridge! Zabuza Returns! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 100220733,
+        "offset": 1047222401
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E13 - Hakus Secret Jutsu Demonic Mirroring Ice Crystals [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E13 - Hakus Secret Jutsu Demonic Mirroring Ice Crystals [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 86786762,
+        "offset": 1147443134
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E14 - The Number One Hyperactive Knucklehead Ninja Joins the Fight! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E14 - The Number One Hyperactive Knucklehead Ninja Joins the Fight! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 94479899,
+        "offset": 1234229896
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E15 - Zero Visibility The Sharingan Shatters [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E15 - Zero Visibility The Sharingan Shatters [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 88024978,
+        "offset": 1328709795
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E16 - The Broken Seal [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E16 - The Broken Seal [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 93504619,
+        "offset": 1416734773
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E17 - White Past Hidden Ambition [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E17 - White Past Hidden Ambition [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 103859886,
+        "offset": 1510239392
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E18 - The Weapons Known as Shinobi [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E18 - The Weapons Known as Shinobi [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 84825922,
+        "offset": 1614099278
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E19 - The Demon in the Snow [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E19 - The Demon in the Snow [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 89541030,
+        "offset": 1698925200
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E20 - A New Chapter Begins The Chūnin Exam! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E20 - A New Chapter Begins The Chūnin Exam! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 101655581,
+        "offset": 1788466230
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E21 - Identify Yourself Powerful New Rivals [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E21 - Identify Yourself Powerful New Rivals [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 89313254,
+        "offset": 1890121811
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E22 - Chūnin Challenge Rock Lee vs. Sasuke! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E22 - Chūnin Challenge Rock Lee vs. Sasuke! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 93512030,
+        "offset": 1979435065
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E23 - Genin Takedown! All Nine Rookies Face Off! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E23 - Genin Takedown! All Nine Rookies Face Off! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 90459809,
+        "offset": 2072947095
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E24 - Start Your Engines The Chūnin Exam Begins! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E24 - Start Your Engines The Chūnin Exam Begins! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 96331933,
+        "offset": 2163406904
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E25 - The Tenth Question All or Nothing! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E25 - The Tenth Question All or Nothing! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 89382192,
+        "offset": 2259738837
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E26 - Special Report Live from the Forest of Death! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E26 - Special Report Live from the Forest of Death! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 106319421,
+        "offset": 2349121029
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E27 - The Chūnin Exam Stage 2 The Forest of Death [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E27 - The Chūnin Exam Stage 2 The Forest of Death [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 99602547,
+        "offset": 2455440450
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E28 - Eat or Be Eaten Panic in the Forest [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E28 - Eat or Be Eaten Panic in the Forest [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 100125916,
+        "offset": 2555042997
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E29 - Narutos Counterattack Never Give In! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E29 - Narutos Counterattack Never Give In! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 96595590,
+        "offset": 2655168913
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E30 - The Sharingan Revived Dragon-Flame Jutsu! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E30 - The Sharingan Revived Dragon-Flame Jutsu! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 89021340,
+        "offset": 2751764503
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E31 - Bushy Brows Pledge Undying Love and Protection [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E31 - Bushy Brows Pledge Undying Love and Protection [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 92813306,
+        "offset": 2840785843
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E32 - Sakura Blossoms! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E32 - Sakura Blossoms! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 106806325,
+        "offset": 2933599149
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E33 - Battle Formation Ino-Shika-Cho! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E33 - Battle Formation Ino-Shika-Cho! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 111420477,
+        "offset": 3040405474
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E34 - Akamaru Trembles Gaaras Cruel Strength! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E34 - Akamaru Trembles Gaaras Cruel Strength! [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 108459889,
+        "offset": 3151825951
+      },
+      {
+        "path": "[BlackRabbit] Naruto (2002) - S01 [DVD-480p][Opus 2.0][Dual Audio][AV1]/Naruto (2002) - S01E35 - The Scrolls Secret No Peeking Allowed [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Naruto (2002) - S01E35 - The Scrolls Secret No Peeking Allowed [DVD-480p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 116445724,
+        "offset": 3260285840
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:b967d37a77c95b73b7d7ee579951b61710b4fb30&dn=%5BBlackRabbit%5D%20Naruto%20(2002)%20-%20S01%20%5BDVD-480p%5D%5BOpus%202.0%5D%5BDual%20Audio%5D%5BAV1%5D%20%7BTags%3AL2%3BV6%3BC3%3BA%3Dja%2Cen%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "b967d37a77c95b73b7d7ee579951b61710b4fb30",
+    "anonymous": false,
+    "uploader": {
+      "id": "9816481654296",
+      "username": "blackrabbit",
+      "display_name": "BlackRabbit",
+      "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440"
+    },
+    "groups": [
+      {
+        "id": "9816645665074",
+        "name": "blackrabbit",
+        "display_name": "BlackRabbit",
+        "display_tag": "BlackRabbit",
+        "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440",
+        "tagline": "AV1 minis",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      },
+      {
+        "id": "7251726559803",
+        "name": "seed of might",
+        "display_name": "Seed of Might",
+        "display_tag": "SoM",
+        "pfp_hash": "6986a0f4ad987a36014f145f28e3d86f105a970d928206302f0b3f773f2fa8c8",
+        "tagline": "We fix Doragon Booru Zetto",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Subtitles"
+      }
+    ],
+    "imported": null,
+    "seeders": "6",
+    "leechers": "0",
+    "completed": "124",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": true
+  }
+}

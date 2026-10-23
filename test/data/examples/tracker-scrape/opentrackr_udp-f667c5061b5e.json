@@ -1,0 +1,16 @@
+{
+  "tracker": "udp://tracker.opentrackr.org:1337/announce",
+  "requested": [
+    "f667c5061b5e16a81adaf9fe193a458e0d2ad59f"
+  ],
+  "responseShape": "single ScrapeResult",
+  "answers": [
+    {
+      "infohash": "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+      "normalized": "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+      "complete": 217,
+      "incomplete": 78,
+      "downloaded": 1405
+    }
+  ]
+}

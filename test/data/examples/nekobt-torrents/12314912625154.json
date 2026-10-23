@@ -1,0 +1,171 @@
+{
+  "error": false,
+  "data": {
+    "id": "12314912625154",
+    "uploaded_at": 1783794727442,
+    "title": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]",
+    "auto_title": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1] {Tags:L2;V12;C3;A=ja,en;F=en,de;}",
+    "description": "## Release Information\n\n| Field | Value |\n|:---|:---|\n| **File** | `Saga of Tanya the Evil (2017) - S01E01 - The Devil of the Rhine [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv` |\n| **Source** | Vodes |\n| **File Size** | 202 MiB |\n| **Duration** | 23 min 40 s |\n| **Overall Bitrate** | 1 195 kb/s |\n| **Frame Rate** | 23.976 FPS |\n| **Rabbit Encoder** | v8.2.0 |\n| **Language Detector** | v2.5.3 |\n\n## [Rabbit Encoder](https://github.com/Rabbit-Company/RabbitEncoder) Settings\n\n| Setting | Value |\n|:---|:---|\n| **Quality** | Low |\n| **Speed** | Slower |\n| **Dedupe subtitles** | Yes |\n| **Highest audio layout only** | Yes |\n| **No commentary audio** | Yes |\n| **Audio languages** | jpn, eng |\n| **Raw** | `RE1\\|c~cp=--film-grain 4 --photon-noise 1000,q=l,sp=sr,cl=0.2,dd=1,kc=1,rc=1\\|al~v=jpn+eng\\|sm~sp=f,tb=s,dp=1,cz=1\\|st~cv=1,ra=1,ru=1` |\n\n## Video\n\n| Property | Value |\n|:---|:---|\n| **Codec** | AV1 |\n| **Resolution** | 1920×1080 |\n| **Aspect Ratio** | 16:9 |\n| **Bitrate** | 826 kb/s |\n| **Frame Rate** | 23.976 (24000/1001) FPS (Constant) |\n| **Bit Depth** | 10 bits |\n| **Stream Size** | 140 MiB (69%) |\n\n## Audio\n\n| # | Language | Codec | Channels | Bitrate | Sample Rate | Size | Flags |\n|:---|:---|:---|:---|:---|:---|:---|:---|\n| 1 | Japanese | Opus | 2 channels (L R) | 126 kb/s | 48.0 kHz | 21.3 MiB (11%) | Default |\n| 2 | English | Opus | 6 channels (L R C Lb Rb LFE) | 230 kb/s | 48.0 kHz | 38.9 MiB (19%) | Default |\n\n## Subtitles\n\n| # | Title | Format | Language | Flags |\n|:---|:---|:---|:---|:---|\n| 1 | Full Subtitles [Astral] | ASS | English | Default |\n| 2 | Signs & Songs [Astral] | ASS | English | Forced |\n| 3 | Full Subtitles [Chinurarete] | ASS | German | Default |\n\n---\n\n## [BlackRabbit Encodes](https://blackrabbit.si)\n\nBlackRabbit focuses on **mini encodes** made for users who want to save storage space without giving up solid video and audio quality.\nOur goal is simple: find the **best available remux source**, preferably with **dual audio** (**Japanese + English**) when possible, and encode it into:\n- **Video:** AV1\n- **Audio:** Opus\n\nThis makes the releases especially useful for people running automated setups such as **Sonarr**, where smaller file sizes can save a lot of storage over time.\n\n## Our Encoding Approach\n\nOur releases are more than a straight AV1 + Opus re-encode. We **never alter the actual content** — no re-timing of dialogue, no cuts, no aggressive filtering by default — but we **clean up and reorganize the tracks** so every release is tidy, consistent, and behaves correctly across devices and media servers.\n\nThe core changes are:\n- video is encoded to **AV1**\n- audio is encoded to **Opus**\n- overall file size is significantly smaller\n\nAlongside this, we properly handle the **audio and subtitle tracks** (details below). The end result is a release that's effectively the same as the source, just **smaller, cleaner, and better organized**.\n\n## Audio Handling\n\nBeyond re-encoding to Opus, we tidy up the audio tracks so they behave predictably:\n- **Smart bitrates** — the Opus bitrate is chosen per channel layout (mono, stereo, 5.1, 6.1, 7.1, all the way up to 7.1.4).\n- **Logical ordering** — tracks are sorted with **Japanese first, English second**, and any other languages alphabetically after that; main audio always comes before commentary and audio-description tracks.\n- **Deduplication** — redundant tracks are removed, keeping the best source per language and channel layout (lossless preferred, then highest bitrate).\n- **Optional highest-layout pruning** — when enabled, only the highest channel layout is kept per language.\n- **Optional commentary removal** — when enabled, commentary audio tracks are removed.\n- **Correct flags** — default, original, commentary, and audio-description flags are set properly.\n- **Sync correction** — any audio delay/offset baked into the source is corrected so tracks stay in sync.\n- **Clean track names** — messy or inconsistent track titles are cleared.\n\n## Subtitle Handling\n\nSubtitles are **kept as-is** — we don't re-encode or restyle them — but we detect, label, and organize them so the right track shows up at the right time:\n- **Track classification** — every track is identified as **Full**, **Signs & Songs**, **SDH**, **Honorifics**, **Commentary**, or **Storyboards**, including content-based detection for sources with wrong or missing labels.\n- **Clean, consistent names** — e.g. `Full Subtitles`, `Signs & Songs`, `SDH`, with the source or release group tagged where known.\n- **Correct flags** — default, forced, hearing-impaired, commentary, and original flags are set so players automatically pick the intended track.\n- **Logical ordering** — English first, Japanese second, any other languages alphabetically after that; full subtitles before signs & songs; text-based before image-based.\n- **Deduplication** — redundant subtitle tracks are removed.\n\n## Source Quality\n\nSource quality is very important to us. If a **better remux/source** becomes available later, we may **re-encode the entire season** using that source and increase the **version number**.\nIf you know of a better source, **please let us know in the comments**.\n\n## Sonarr Compatibility\n\nCompatibility with automated media systems, especially **Sonarr**, is one of our main priorities. Because of that, we try to keep **file names as Sonarr-compatible as possible** to make library management easier and more reliable.\n\n## Our Priority\n\nOur main goal is to provide **mini AV1 encodes for as many anime as possible** while still maintaining **good video and audio quality**.\nWhen strong AV1 releases from other groups are already available, we would generally recommend using those instead. BlackRabbit's focus is on helping fill the gaps by providing compact, high-quality AV1 encodes across a wide range of titles.\n\n## Optional Support\n\nIf you would like to support and help us continue releasing mini AV1 encodes, donations are appreciated but never expected.\n\n**XMR:** `895pWQCwjJs24bjnkY5SuhAvwjhKtcrL9NXx1aRy7MUbbSk8w7SawbTiRipPvcmKohQNqpNWXDypmHncLSCxzUtkERNJS9h`\n\n---\n\n**Feedback is always welcome.** If you spot a better source, naming issue, or anything else worth improving, let us know in the comments.",
+    "mediainfo": "General\nUnique ID                                : 301334335761129830538513658181688590332 (0xE2B2E1CE1F87160ABA76D9AC2B6D7FFC)\nComplete name                            : Saga of Tanya the Evil (2017) - S01E01 - The Devil of the Rhine [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 202 MiB\nDuration                                 : 23 min 40 s\nOverall bit rate                         : 1 195 kb/s\nFrame rate                               : 23.976 FPS\nTitle                                    : Saga of Tanya the Evil (2017) - S01E01 - The Devil of the Rhine\nEncoded by                               : BlackRabbit\nEncoded date                             : 2026-07-10 20:47:40 UTC\nWriting application                      : mkvmerge 99.0 ('Buka') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1\nAttachments                              : noto_sans.ttf / ACaslonPro-Bold.otf / ACaslonPro-BoldItalic.otf / ACaslonPro-Italic.otf / ACaslonPro-Regular.otf / ACaslonPro-Semibold.otf / ACaslonPro-SemiboldItalic.otf / BASKVILL.TTF / Budhrg.ttf\nLANGUAGE_DETECTOR/VERSION                : v2.5.3\nRABBIT_ENCODER/SETTINGS                  : RE1|c~cp=--film-grain 4 --photon-noise 1000,q=l,sp=sr,cl=0.2,dd=1,kc=1,rc=1|al~v=jpn+eng|sm~sp=f,tb=s,dp=1,cz=1|st~cv=1,ra=1,ru=1\nRABBIT_ENCODER/VERSION                   : v8.2.0\nSOURCE                                   : Vodes\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nFormat profile                           : Main@L4.0\nFormat settings                          : Film Grain Synthesis\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 40 s\nBit rate                                 : 826 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nBits/(Pixel*Frame)                       : 0.017\nStream size                              : 140 MiB (69%)\nTitle                                    : BlackRabbit\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 39 s\nBit rate                                 : 126 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 21.3 MiB (11%)\nWriting library                          : opusenc from opus-tools 0.2\nEncoding settings                        : --bitrate 128 --discard-comments --discard-pictures\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 23 min 39 s\nBit rate                                 : 230 kb/s\nChannel(s)                               : 6 channels\nChannel layout                           : L R C Lb Rb LFE\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.001 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 38.9 MiB (19%)\nWriting library                          : opusenc from opus-tools 0.2\nEncoding settings                        : --bitrate 256 --discard-comments --discard-pictures\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #1\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 35 s\nBit rate                                 : 155 b/s\nFrame rate                               : 0.271 FPS\nCount of elements                        : 368\nCompression mode                         : Lossless\nStream size                              : 25.8 KiB (0%)\nTitle                                    : Full Subtitles [Astral]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 19 min 40 s\nBit rate                                 : 49 b/s\nFrame rate                               : 0.051 FPS\nCount of elements                        : 60\nCompression mode                         : Lossless\nStream size                              : 7.08 KiB (0%)\nTitle                                    : Signs & Songs [Astral]\nLanguage                                 : English\nDefault                                  : No\nForced                                   : Yes\n\nText #3\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 31 s\nBit rate                                 : 167 b/s\nFrame rate                               : 0.261 FPS\nCount of elements                        : 368\nCompression mode                         : Lossless\nStream size                              : 28.9 KiB (0%)\nTitle                                    : Full Subtitles [Chinurarete]\nLanguage                                 : German\nDefault                                  : Yes\nForced                                   : No",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "2492383063",
+    "media_id": "s1453",
+    "media_episode_ids": [
+      "45702",
+      "45703",
+      "45692",
+      "45693",
+      "45694",
+      "45695",
+      "45696",
+      "45697",
+      "45698",
+      "45699",
+      "45700",
+      "45701"
+    ],
+    "anilist_id": 21613,
+    "anilist_ids": [
+      21613
+    ],
+    "audio_lang": "ja,en",
+    "sub_lang": "",
+    "fsub_lang": "en,de",
+    "video_codec": 3,
+    "video_type": 12,
+    "files": [
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E01 - The Devil of the Rhine [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E01 - The Devil of the Rhine [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 212229246,
+        "offset": 0
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E02 - Prologue [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E02 - Prologue [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 204175931,
+        "offset": 212229246
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E03 - Deus Vult [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E03 - Deus Vult [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 219027613,
+        "offset": 416405177
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E04 - Campus Life [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E04 - Campus Life [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 202694668,
+        "offset": 635432790
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E05 - My First Battalion [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E05 - My First Battalion [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 200209508,
+        "offset": 838127458
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E06 - Beginning of Madness [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E06 - Beginning of Madness [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 184027346,
+        "offset": 1038336966
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E07 - The Battle of the Fjord [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E07 - The Battle of the Fjord [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 214833756,
+        "offset": 1222364312
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E08 - Trial by Fire [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E08 - Trial by Fire [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 227649515,
+        "offset": 1437198068
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E09 - Preparations for Advance [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E09 - Preparations for Advance [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 197497173,
+        "offset": 1664847583
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E10 - The Path to Victory [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E10 - The Path to Victory [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 207787730,
+        "offset": 1862344756
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E11 - Resistance [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E11 - Resistance [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 254551937,
+        "offset": 2070132486
+      },
+      {
+        "path": "[BlackRabbit] Saga of Tanya the Evil (2017) - S01 [Bluray-1080p][Opus 2.0][Dual Audio][AV1]/Saga of Tanya the Evil (2017) - S01E12 - How to Use a Victory [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "name": "Saga of Tanya the Evil (2017) - S01E12 - How to Use a Victory [Bluray-1080p][Opus 2.0][AV1]-BlackRabbit.mkv",
+        "length": 167698640,
+        "offset": 2324684423
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:b57f3871d2e26e5b89db39a188e3c6b61efec7fe&dn=%5BBlackRabbit%5D%20Saga%20of%20Tanya%20the%20Evil%20(2017)%20-%20S01%20%5BBluray-1080p%5D%5BOpus%202.0%5D%5BDual%20Audio%5D%5BAV1%5D%20%7BTags%3AL2%3BV12%3BC3%3BA%3Dja%2Cen%3BF%3Den%2Cde%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "b57f3871d2e26e5b89db39a188e3c6b61efec7fe",
+    "anonymous": false,
+    "uploader": {
+      "id": "9816481654296",
+      "username": "blackrabbit",
+      "display_name": "BlackRabbit",
+      "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440"
+    },
+    "groups": [
+      {
+        "id": "9816645665074",
+        "name": "blackrabbit",
+        "display_name": "BlackRabbit",
+        "display_tag": "BlackRabbit",
+        "pfp_hash": "fd626aa9a8c4592bc488674066dadc52844776af31358fbcf7cb2ef13a5ff440",
+        "tagline": "AV1 minis",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      },
+      {
+        "id": "5949517558321",
+        "name": "vodes",
+        "display_name": "Vodes",
+        "display_tag": "Vodes",
+        "pfp_hash": "3fb8122e9f6e34ddb4e47df9cfa8312ac7ace02943ed1df628419a7a463467e4",
+        "tagline": "Sometimes does okay encodes",
+        "open": false,
+        "members": [],
+        "uploading_group": false,
+        "role": "Source"
+      }
+    ],
+    "imported": null,
+    "seeders": "8",
+    "leechers": "0",
+    "completed": "250",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": "not_found",
+    "animetosho_fetch_time": "1783798329425",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": true
+  }
+}

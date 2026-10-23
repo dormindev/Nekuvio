@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "354754",
+      "type": "mappings",
+      "links": {
+        "self": "https://kitsu.io/api/edge/mappings/354754"
+      },
+      "attributes": {
+        "createdAt": "2026-10-12T14:31:07.379Z",
+        "updatedAt": "2026-10-12T14:31:07.379Z",
+        "externalSite": "anilist/anime",
+        "externalId": "218216"
+      },
+      "relationships": {
+        "item": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/mappings/354754/relationships/item",
+            "related": "https://kitsu.io/api/edge/mappings/354754/item"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 1
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime/51128/mappings?page%5Blimit%5D=10&page%5Boffset%5D=0",
+    "last": "https://kitsu.io/api/edge/anime/51128/mappings?page%5Blimit%5D=10&page%5Boffset%5D=0"
+  }
+}

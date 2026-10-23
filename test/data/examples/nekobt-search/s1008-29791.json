@@ -1,0 +1,2763 @@
+{
+  "error": false,
+  "data": {
+    "results": [],
+    "infohash_match": null,
+    "recommended_media": null,
+    "media": {
+      "id": "s1008",
+      "title": "The Irregular at Magic High School",
+      "genres": [
+        "Action",
+        "Romance",
+        "Sci-Fi",
+        "Supernatural"
+      ],
+      "overview": "Magic is a product of neither legends nor fairy tales, but instead has become a technology of reality since a time unknown to people. Supernatural power became a technology systematized through magic, while magic became a technical skill. A \"Supernatural Power User\" became a \"Magic Technician.\" Magic Technicians (in short, Magicians) are nurtured through Magic High Schools and Universities.\n\nThis is a story about: \n\nTatsuya, a defective elder brother low achiever.\n\nMiyuki, a perfect, flawless younger sister high achiever.\n\nAfter both siblings entered a Magic High School,\n\nThe stage of daily turbulence was unveiled—.",
+      "status": "ended",
+      "banner_url": "https://artworks.thetvdb.com/banners/posters/278329-2.jpg",
+      "runtime": 23,
+      "tvdbId": 278329,
+      "tmdbId": 60833,
+      "imdbId": "tt3874528",
+      "year": 2014,
+      "alternate_titles": [
+        "Mahouka",
+        "Mahouka Koukou no Rettousei",
+        "Mahouka Koukou no Rettousei S2",
+        "Mahouka Koukou no Rettousei: Raihousha Hen",
+        "Mahouka Koukou no Rettousei S3",
+        "Mahouka Koukou no Rettousei (2024)",
+        "Mahouka Koukou no Rettousei 3rd Season",
+        "The Irregular at Magic High School Season 3"
+      ],
+      "anilist": {
+        "display_id": 20458,
+        "primary": {
+          "id": 20458,
+          "id_mal": 20785,
+          "title": {
+            "romaji": "Mahouka Koukou no Rettousei",
+            "english": "The Irregular at Magic High School",
+            "native": "魔法科高校の劣等生",
+            "synonyms": [
+              "พี่น้องปริศนาโรงเรียนมหาเวท",
+              "Непутёвый ученик в школе магии"
+            ]
+          },
+          "description": "Magic is a product of neither legends nor fairy tales, but instead has become a technology of reality since a time unknown to people. Supernatural power became a technology systematized through magic, while magic became a technical skill. A \"Supernatural Power User\" became a \"Magic Technician.\" Magic Technicians (in short, Magicians) are nurtured through Magic High Schools and Universities.<br>\n<br>\nThis is a story about: <br>\n<br>\nTatsuya, a defective elder brother low achiever.<br>\nMiyuki, a perfect, flawless younger sister high achiever.<br>\nAfter both siblings entered a Magic High School,<br>\nThe stage of daily turbulence was unveiled—.",
+          "format": "TV",
+          "status": "FINISHED",
+          "episodes": 26,
+          "duration": 23,
+          "season": "SPRING",
+          "season_year": 2014,
+          "start_date": "2014-04-06",
+          "end_date": "2014-09-28",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20458-tGh343Ew10yU.jpg",
+          "cover_color": "#5dbbe4",
+          "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20458-6sHThFCwyd1T.jpg",
+          "genres": [
+            "Action",
+            "Romance",
+            "Sci-Fi",
+            "Supernatural"
+          ],
+          "studios": [
+            {
+              "id": 11,
+              "name": "MADHOUSE"
+            }
+          ],
+          "tags": [
+            {
+              "id": 29,
+              "name": "Magic",
+              "rank": 96,
+              "category": "Theme-Fantasy"
+            },
+            {
+              "id": 46,
+              "name": "School",
+              "rank": 86,
+              "category": "Setting-Scene"
+            },
+            {
+              "id": 82,
+              "name": "Male Protagonist",
+              "rank": 82,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 34,
+              "name": "Military",
+              "rank": 80,
+              "category": "Theme-Other-Organisations"
+            },
+            {
+              "id": 285,
+              "name": "Terrorism",
+              "rank": 75,
+              "category": "Theme-Other"
+            },
+            {
+              "id": 128,
+              "name": "Incest",
+              "rank": 74,
+              "category": "Theme-Romance"
+            },
+            {
+              "id": 157,
+              "name": "Guns",
+              "rank": 63,
+              "category": "Theme-Action"
+            },
+            {
+              "id": 1228,
+              "name": "Primarily Teen Cast",
+              "rank": 60,
+              "category": "Cast-Main Cast"
+            },
+            {
+              "id": 1045,
+              "name": "Heterosexual",
+              "rank": 58,
+              "category": "Theme-Romance"
+            },
+            {
+              "id": 23,
+              "name": "Female Harem",
+              "rank": 53,
+              "category": "Theme-Romance"
+            },
+            {
+              "id": 779,
+              "name": "Kuudere",
+              "rank": 51,
+              "category": "Cast-Traits"
+            },
+            {
+              "id": 103,
+              "name": "Politics",
+              "rank": 50,
+              "category": "Theme-Other"
+            },
+            {
+              "id": 1589,
+              "name": "Criminal Organization",
+              "rank": 50,
+              "category": "Theme-Other-Organisations"
+            },
+            {
+              "id": 90,
+              "name": "CGI",
+              "rank": 40,
+              "category": "Technical"
+            },
+            {
+              "id": 94,
+              "name": "Gore",
+              "rank": 40,
+              "category": "Theme-Other"
+            },
+            {
+              "id": 100,
+              "name": "Nudity",
+              "rank": 33,
+              "category": "Cast-Traits"
+            },
+            {
+              "id": 109,
+              "name": "Primarily Adult Cast",
+              "rank": 25,
+              "category": "Cast-Main Cast"
+            }
+          ],
+          "relations": [
+            {
+              "id": 20679,
+              "type": "ANIME",
+              "title": {
+                "native": "魔法科高校の劣等生 よくわかる魔法科！",
+                "romaji": "Mahouka Koukou no Rettousei: Yoku Wakaru Mahouka",
+                "english": "The Irregular at Magic High School: Get to Know Magic Studies",
+                "synonyms": []
+              },
+              "format": "ONA",
+              "site_url": "https://anilist.co/anime/20679",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20679.jpg",
+              "relation_type": "OTHER"
+            },
+            {
+              "id": 64127,
+              "type": "MANGA",
+              "title": {
+                "native": "魔法科高校の劣等生",
+                "romaji": "Mahouka Koukou no Rettousei",
+                "english": "The Irregular at Magic High School",
+                "synonyms": []
+              },
+              "format": "NOVEL",
+              "site_url": "https://anilist.co/manga/64127",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+              "relation_type": "ADAPTATION"
+            },
+            {
+              "id": 63699,
+              "type": "MANGA",
+              "title": {
+                "native": "魔法科高校の劣等生 入学編",
+                "romaji": "Mahouka Koukou no Rettousei: Nyuugaku-hen",
+                "english": null,
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/63699",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx63699-OtoxejGZBBCp.jpg",
+              "relation_type": "ALTERNATIVE"
+            },
+            {
+              "id": 127688,
+              "type": "ANIME",
+              "title": {
+                "native": "魔法科高校の優等生",
+                "romaji": "Mahouka Koukou no Yuutousei",
+                "english": "The Honor at Magic High School",
+                "synonyms": []
+              },
+              "format": "TV",
+              "site_url": "https://anilist.co/anime/127688",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127688-WDZFupRhW3eX.jpg",
+              "relation_type": "SPIN_OFF"
+            },
+            {
+              "id": 112300,
+              "type": "ANIME",
+              "title": {
+                "native": "魔法科高校の劣等生 来訪者編",
+                "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+                "english": "The Irregular at Magic High School: Visitor Arc",
+                "synonyms": []
+              },
+              "format": "TV",
+              "site_url": "https://anilist.co/anime/112300",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112300-I5ucx66OvqWX.png",
+              "relation_type": "SEQUEL"
+            },
+            {
+              "id": 21685,
+              "type": "ANIME",
+              "title": {
+                "native": "エロマンガ先生",
+                "romaji": "Eromanga Sensei",
+                "english": "Eromanga Sensei",
+                "synonyms": []
+              },
+              "format": "TV",
+              "site_url": "https://anilist.co/anime/21685",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21685-h1SrcpaNnrIq.jpg",
+              "relation_type": "CHARACTER"
+            },
+            {
+              "id": 130389,
+              "type": "ANIME",
+              "title": {
+                "native": "魔法科高校の劣等生 追憶編",
+                "romaji": "Mahouka Koukou no Rettousei: Tsuioku-hen",
+                "english": "The Irregular at Magic High School: Reminiscence Arc",
+                "synonyms": []
+              },
+              "format": "SPECIAL",
+              "site_url": "https://anilist.co/anime/130389",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130389-FVlthC6vlJOV.png",
+              "relation_type": "PREQUEL"
+            },
+            {
+              "id": 85196,
+              "type": "MANGA",
+              "title": {
+                "native": "魔法科高校の劣等生 九校戦編",
+                "romaji": "Mahouka Koukou no Rettousei: Kyuukousen-hen",
+                "english": null,
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/85196",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx85196-fzDKrzXlldDn.jpg",
+              "relation_type": "ALTERNATIVE"
+            },
+            {
+              "id": 100196,
+              "type": "MANGA",
+              "title": {
+                "native": "魔法科高校の劣等生 夏休み編",
+                "romaji": "Mahouka Koukou no Rettousei: Natsuyasumi-hen",
+                "english": "Mahouka Koukou no Rettousei: Natsuyasumi-hen",
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/100196",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx100196-xlzVZXuLUomo.jpg",
+              "relation_type": "ALTERNATIVE"
+            },
+            {
+              "id": 107825,
+              "type": "MANGA",
+              "title": {
+                "native": "魔法科高校の劣等生 会長選挙編",
+                "romaji": "Mahouka Koukou no Rettousei: Kaichou Senkyo-hen",
+                "english": null,
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/107825",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107825-Z0sxOoj2rVRo.png",
+              "relation_type": "ALTERNATIVE"
+            },
+            {
+              "id": 86053,
+              "type": "MANGA",
+              "title": {
+                "native": "魔法科高校の劣等生 横浜騒乱編",
+                "romaji": "Mahouka Koukou no Rettousei: Yokohama Souran-hen",
+                "english": null,
+                "synonyms": []
+              },
+              "format": "MANGA",
+              "site_url": "https://anilist.co/manga/86053",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/56053-XHBOFO63jGUs.jpg",
+              "relation_type": "ALTERNATIVE"
+            }
+          ],
+          "external_links": [
+            {
+              "url": "http://www.crunchyroll.com/the-irregular-at-magic-high-school ",
+              "site": "Crunchyroll",
+              "type": "STREAMING"
+            },
+            {
+              "url": "http://www.hulu.com/the-irregular-at-magic-high-school",
+              "site": "Hulu",
+              "type": "STREAMING"
+            },
+            {
+              "url": "https://twitter.com/mahouka_anime",
+              "site": "Twitter",
+              "type": "SOCIAL"
+            },
+            {
+              "url": "https://www.netflix.com/title/80009361",
+              "site": "Netflix",
+              "type": "STREAMING"
+            },
+            {
+              "url": "https://mahouka.jp/1st/",
+              "site": "Official Site",
+              "type": "INFO"
+            },
+            {
+              "url": "https://x.com/MahoukaUSA",
+              "site": "Twitter",
+              "type": "SOCIAL"
+            },
+            {
+              "url": "https://mahouka.us/1st/",
+              "site": "Official Site",
+              "type": "INFO"
+            }
+          ],
+          "average_score": 70,
+          "popularity": 261335,
+          "favourites": 5474,
+          "country_of_origin": "JP",
+          "is_adult": false,
+          "site_url": "https://anilist.co/anime/20458",
+          "next_airing_episode": null,
+          "next_airing_at": null
+        },
+        "entries": [
+          {
+            "season": 0,
+            "src_start": 1,
+            "src_end": 7,
+            "dst_start": 1,
+            "dst_end": 7,
+            "ratio": null,
+            "anilist_id": 20679,
+            "ord": 1,
+            "media": {
+              "id": 20679,
+              "id_mal": 23341,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei: Yoku Wakaru Mahouka",
+                "english": "The Irregular at Magic High School: Get to Know Magic Studies",
+                "native": "魔法科高校の劣等生 よくわかる魔法科！",
+                "synonyms": [
+                  "Mahouka Koukou no Rettousei: Yoku Wakaru Mahouka! - Saiseitte Nani?"
+                ]
+              },
+              "description": "Special introduction videos posted on the official website.\n<br><br>\n\nThe 7th episode was released exclusively on DVD/BluRay",
+              "format": "ONA",
+              "status": "FINISHED",
+              "episodes": 7,
+              "duration": 3,
+              "season": "WINTER",
+              "season_year": 2014,
+              "start_date": "2014-02-22",
+              "end_date": "2015-02-25",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20679.jpg",
+              "cover_color": "#bbe4f1",
+              "banner_image": null,
+              "genres": [
+                "Comedy"
+              ],
+              "studios": [
+                {
+                  "id": 17,
+                  "name": "Aniplex"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 324,
+                  "name": "Chibi",
+                  "rank": 60,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 779,
+                  "name": "Kuudere",
+                  "rank": 20,
+                  "category": "Cast-Traits"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 20458,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/20458",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20458-tGh343Ew10yU.jpg",
+                  "relation_type": "OTHER"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://www.youtube.com/playlist?list=PLrNN1YufWexw2sk-uxWKO4b1B2DLdyz2M",
+                  "site": "YouTube",
+                  "type": "STREAMING"
+                }
+              ],
+              "average_score": 59,
+              "popularity": 7679,
+              "favourites": 32,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/20679",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 0,
+            "src_start": 8,
+            "src_end": 8,
+            "dst_start": 1,
+            "dst_end": 1,
+            "ratio": null,
+            "anilist_id": 21684,
+            "ord": 2,
+            "media": {
+              "id": 21684,
+              "id_mal": 32900,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei: Hoshi wo Yobu Shoujo",
+                "english": "The Irregular at Magic High School The Movie: The Girl Who Summons the Stars",
+                "native": "劇場版 魔法科高校の劣等生 星を呼ぶ少女",
+                "synonyms": [
+                  "พี่น้องปริศนาโรงเรียนมหาเวท เดอะมูฟวี่",
+                  "Непутёвый ученик в школе магии: Взывающая к звёздам"
+                ]
+              },
+              "description": "In the story, the seasons have changed, and it will soon be the second spring. The poor student older brother Tatsuya and the honor student younger sister Miyuki have finished their first year at their magic high school, and are on their spring break. The two go to their villa on the Ogasawara Island archipelago. After only a small moment of peace, a lone young woman named Kokoa appears before them. She has abandoned the Naval base, and she tells Tatsuya her one wish.\n<br><br>\n(Source: Anime News Network)<br>\n<br>\n<i>Note: The film takes place in between the A and B part of the 11th episode of \"Mahouka Koukou no Rettousei: Raihousha-hen\"</i>",
+              "format": "MOVIE",
+              "status": "FINISHED",
+              "episodes": 1,
+              "duration": 90,
+              "season": "SPRING",
+              "season_year": 2017,
+              "start_date": "2017-06-17",
+              "end_date": "2017-06-17",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21684-MAT6GdCnfPdR.jpg",
+              "cover_color": "#f1e4bb",
+              "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21684-J179SuFPiCsz.jpg",
+              "genres": [
+                "Sci-Fi",
+                "Supernatural"
+              ],
+              "studios": [
+                {
+                  "id": 4418,
+                  "name": "8-bit"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 97,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 34,
+                  "name": "Military",
+                  "rank": 73,
+                  "category": "Theme-Other-Organisations"
+                },
+                {
+                  "id": 103,
+                  "name": "Politics",
+                  "rank": 73,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 494,
+                  "name": "Twins",
+                  "rank": 70,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 46,
+                  "name": "School",
+                  "rank": 67,
+                  "category": "Setting-Scene"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 64,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 43,
+                  "name": "Swordplay",
+                  "rank": 60,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 779,
+                  "name": "Kuudere",
+                  "rank": 45,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 100,
+                  "name": "Nudity",
+                  "rank": 42,
+                  "category": "Cast-Traits"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 121561,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "劇場版 魔法科高校の劣等生 星を呼ぶ少女",
+                    "romaji": "Mahouka Koukou no Rettousei: Hoshi wo Yobu Shoujo",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/121561",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx121561-IVSrpkUkNKr0.png",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 112300,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 来訪者編",
+                    "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+                    "english": "The Irregular at Magic High School: Visitor Arc",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/112300",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112300-I5ucx66OvqWX.png",
+                  "relation_type": "PARENT"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://twitter.com/mahouka_anime",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://movie.mahouka.jp/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://mahouka.us/movie/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://x.com/MahoukaUSA",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                }
+              ],
+              "average_score": 72,
+              "popularity": 53456,
+              "favourites": 592,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/21684",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 0,
+            "src_start": 9,
+            "src_end": 9,
+            "dst_start": 1,
+            "dst_end": 1,
+            "ratio": null,
+            "anilist_id": 130389,
+            "ord": 3,
+            "media": {
+              "id": 130389,
+              "id_mal": 48375,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei: Tsuioku-hen",
+                "english": "The Irregular at Magic High School: Reminiscence Arc",
+                "native": "魔法科高校の劣等生 追憶編",
+                "synonyms": [
+                  "พี่น้องปริศนาโรงเรียนมหาเวท ภาคย้อนความหลัง",
+                  "Непутёвый ученик в школе магии: Воспоминания"
+                ]
+              },
+              "description": "April 2095. A century has passed since magic was established as actual technology. The two siblings enroll at a prestigious school for magicians called the National Magic University Affiliated First High School, better known as “Magic High School.” Tatsuya, the older brother, is an “irregular” with a fatal flaw to his magic powers. The younger sister, Miyuki, is a star student with unmatched magical talent.<br>\n<br>\nThough they are now close enough to be mistaken as a couple, just a few years ago, the two had a dysfunctional relationship, where they were nothing more than a master and servant. One incident, however, alters their relationship forever. Three years ago in Okinawa, an unforgettable experience turns their souls and destinies on their heads.<br>\n<br>\n(Source: Funimation)",
+              "format": "SPECIAL",
+              "status": "FINISHED",
+              "episodes": 1,
+              "duration": 71,
+              "season": "WINTER",
+              "season_year": 2022,
+              "start_date": "2021-12-31",
+              "end_date": "2021-12-31",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130389-FVlthC6vlJOV.png",
+              "cover_color": null,
+              "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130389-Ebwx1yYn20JM.jpg",
+              "genres": [
+                "Action",
+                "Romance",
+                "Sci-Fi",
+                "Supernatural"
+              ],
+              "studios": [
+                {
+                  "id": 4418,
+                  "name": "8-bit"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 100,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 1045,
+                  "name": "Heterosexual",
+                  "rank": 79,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 34,
+                  "name": "Military",
+                  "rank": 76,
+                  "category": "Theme-Other-Organisations"
+                },
+                {
+                  "id": 128,
+                  "name": "Incest",
+                  "rank": 73,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 68,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 85,
+                  "name": "Tragedy",
+                  "rank": 60,
+                  "category": "Theme-Drama"
+                },
+                {
+                  "id": 321,
+                  "name": "Urban Fantasy",
+                  "rank": 60,
+                  "category": "Setting-Universe"
+                },
+                {
+                  "id": 157,
+                  "name": "Guns",
+                  "rank": 55,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 779,
+                  "name": "Kuudere",
+                  "rank": 53,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 46,
+                  "name": "School",
+                  "rank": 33,
+                  "category": "Setting-Scene"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 85460,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 追憶編",
+                    "romaji": "Mahouka Koukou no Rettousei: Tsuioku-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/85460",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/55460.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 64127,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "NOVEL",
+                  "site_url": "https://anilist.co/manga/64127",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+                  "relation_type": "ADAPTATION"
+                },
+                {
+                  "id": 20458,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/20458",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20458-tGh343Ew10yU.jpg",
+                  "relation_type": "SEQUEL"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://mahouka.jp/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://twitter.com/mahouka_anime",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://crunchyroll.com/series/GRMGDGZVR",
+                  "site": "Crunchyroll",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://www.bilibili.tv/media/1036717/",
+                  "site": "Bilibili TV",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://x.com/MahoukaUSA",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://mahouka.us/reminiscence/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                }
+              ],
+              "average_score": 75,
+              "popularity": 34988,
+              "favourites": 495,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/130389",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 0,
+            "src_start": 10,
+            "src_end": 10,
+            "dst_start": 1,
+            "dst_end": 1,
+            "ratio": null,
+            "anilist_id": 178707,
+            "ord": 4,
+            "media": {
+              "id": 178707,
+              "id_mal": 59174,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei: Yotsuba Keishou-hen",
+                "english": "The Irregular at Magic High School THE MOVIE -Yotsuba Succession Arc-",
+                "native": "劇場版 魔法科高校の劣等生 四葉継承編",
+                "synonyms": [
+                  "Непутёвый ученик в школе магии: Наследование Йоцубы"
+                ]
+              },
+              "description": "The invitation has arrived. It is time for the New Year’s Reception at the Yotsuba family residence. This year, Miyuki and other candidates will gather there to decide who will be the next leader of their powerful clan. If chosen as the successor, she would never have to see her brother live as a pariah ever again. At the same time, such a position surely entails a political marriage, plunging her mind into complete turmoil. Complicating matters, the current head of their family sows doubt with the shocking claim that Miyuki is not Tatsuya’s sister. When the new year comes, their relationship may be changed forever...<br>\n<br>\n(Source: Yen Press)",
+              "format": "MOVIE",
+              "status": "FINISHED",
+              "episodes": 1,
+              "duration": 103,
+              "season": "SPRING",
+              "season_year": 2026,
+              "start_date": "2026-05-08",
+              "end_date": null,
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178707-Ys8zvR7BLECi.jpg",
+              "cover_color": "#5086e4",
+              "banner_image": null,
+              "genres": [
+                "Action",
+                "Romance",
+                "Sci-Fi",
+                "Supernatural"
+              ],
+              "studios": [
+                {
+                  "id": 4418,
+                  "name": "8-bit"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 128,
+                  "name": "Incest",
+                  "rank": 79,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 66,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 20,
+                  "category": "Cast-Main Cast"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 64127,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "NOVEL",
+                  "site_url": "https://anilist.co/manga/64127",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+                  "relation_type": "ADAPTATION"
+                },
+                {
+                  "id": 143271,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 第3シーズン",
+                    "romaji": "Mahouka Koukou no Rettousei 3rd Season",
+                    "english": "The Irregular at Magic High School Season 3",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/143271",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143271-o5wry0ohH9R3.jpg",
+                  "relation_type": "PREQUEL"
+                },
+                {
+                  "id": 126065,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 四葉継承編",
+                    "romaji": "Mahouka Koukou no Rettousei: Yotsuba Keishou-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/126065",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx126065-ZliNY3TswZ0J.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 212955,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "『魔法科高校の劣等生』 アニメ第二部",
+                    "romaji": "Mahouka Koukou no Rettousei Anime Part 2",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": null,
+                  "site_url": "https://anilist.co/anime/212955",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212955-bggFA6W9tnwA.jpg",
+                  "relation_type": "SEQUEL"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://x.com/mahouka_anime",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://mahouka.jp/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://x.com/MahoukaUSA",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                }
+              ],
+              "average_score": 71,
+              "popularity": 17958,
+              "favourites": 242,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/178707",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 1,
+            "src_start": 1,
+            "src_end": 26,
+            "dst_start": 1,
+            "dst_end": 26,
+            "ratio": null,
+            "anilist_id": 20458,
+            "ord": 1,
+            "media": {
+              "id": 20458,
+              "id_mal": 20785,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei",
+                "english": "The Irregular at Magic High School",
+                "native": "魔法科高校の劣等生",
+                "synonyms": [
+                  "พี่น้องปริศนาโรงเรียนมหาเวท",
+                  "Непутёвый ученик в школе магии"
+                ]
+              },
+              "description": "Magic is a product of neither legends nor fairy tales, but instead has become a technology of reality since a time unknown to people. Supernatural power became a technology systematized through magic, while magic became a technical skill. A \"Supernatural Power User\" became a \"Magic Technician.\" Magic Technicians (in short, Magicians) are nurtured through Magic High Schools and Universities.<br>\n<br>\nThis is a story about: <br>\n<br>\nTatsuya, a defective elder brother low achiever.<br>\nMiyuki, a perfect, flawless younger sister high achiever.<br>\nAfter both siblings entered a Magic High School,<br>\nThe stage of daily turbulence was unveiled—.",
+              "format": "TV",
+              "status": "FINISHED",
+              "episodes": 26,
+              "duration": 23,
+              "season": "SPRING",
+              "season_year": 2014,
+              "start_date": "2014-04-06",
+              "end_date": "2014-09-28",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20458-tGh343Ew10yU.jpg",
+              "cover_color": "#5dbbe4",
+              "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20458-6sHThFCwyd1T.jpg",
+              "genres": [
+                "Action",
+                "Romance",
+                "Sci-Fi",
+                "Supernatural"
+              ],
+              "studios": [
+                {
+                  "id": 11,
+                  "name": "MADHOUSE"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 96,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 46,
+                  "name": "School",
+                  "rank": 86,
+                  "category": "Setting-Scene"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 82,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 34,
+                  "name": "Military",
+                  "rank": 80,
+                  "category": "Theme-Other-Organisations"
+                },
+                {
+                  "id": 285,
+                  "name": "Terrorism",
+                  "rank": 75,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 128,
+                  "name": "Incest",
+                  "rank": 74,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 157,
+                  "name": "Guns",
+                  "rank": 63,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 1228,
+                  "name": "Primarily Teen Cast",
+                  "rank": 60,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 1045,
+                  "name": "Heterosexual",
+                  "rank": 58,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 23,
+                  "name": "Female Harem",
+                  "rank": 53,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 779,
+                  "name": "Kuudere",
+                  "rank": 51,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 103,
+                  "name": "Politics",
+                  "rank": 50,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 1589,
+                  "name": "Criminal Organization",
+                  "rank": 50,
+                  "category": "Theme-Other-Organisations"
+                },
+                {
+                  "id": 90,
+                  "name": "CGI",
+                  "rank": 40,
+                  "category": "Technical"
+                },
+                {
+                  "id": 94,
+                  "name": "Gore",
+                  "rank": 40,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 100,
+                  "name": "Nudity",
+                  "rank": 33,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 109,
+                  "name": "Primarily Adult Cast",
+                  "rank": 25,
+                  "category": "Cast-Main Cast"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 20679,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 よくわかる魔法科！",
+                    "romaji": "Mahouka Koukou no Rettousei: Yoku Wakaru Mahouka",
+                    "english": "The Irregular at Magic High School: Get to Know Magic Studies",
+                    "synonyms": []
+                  },
+                  "format": "ONA",
+                  "site_url": "https://anilist.co/anime/20679",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20679.jpg",
+                  "relation_type": "OTHER"
+                },
+                {
+                  "id": 64127,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "NOVEL",
+                  "site_url": "https://anilist.co/manga/64127",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+                  "relation_type": "ADAPTATION"
+                },
+                {
+                  "id": 63699,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 入学編",
+                    "romaji": "Mahouka Koukou no Rettousei: Nyuugaku-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/63699",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx63699-OtoxejGZBBCp.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 127688,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の優等生",
+                    "romaji": "Mahouka Koukou no Yuutousei",
+                    "english": "The Honor at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/127688",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127688-WDZFupRhW3eX.jpg",
+                  "relation_type": "SPIN_OFF"
+                },
+                {
+                  "id": 112300,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 来訪者編",
+                    "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+                    "english": "The Irregular at Magic High School: Visitor Arc",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/112300",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112300-I5ucx66OvqWX.png",
+                  "relation_type": "SEQUEL"
+                },
+                {
+                  "id": 21685,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "エロマンガ先生",
+                    "romaji": "Eromanga Sensei",
+                    "english": "Eromanga Sensei",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/21685",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21685-h1SrcpaNnrIq.jpg",
+                  "relation_type": "CHARACTER"
+                },
+                {
+                  "id": 130389,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 追憶編",
+                    "romaji": "Mahouka Koukou no Rettousei: Tsuioku-hen",
+                    "english": "The Irregular at Magic High School: Reminiscence Arc",
+                    "synonyms": []
+                  },
+                  "format": "SPECIAL",
+                  "site_url": "https://anilist.co/anime/130389",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130389-FVlthC6vlJOV.png",
+                  "relation_type": "PREQUEL"
+                },
+                {
+                  "id": 85196,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 九校戦編",
+                    "romaji": "Mahouka Koukou no Rettousei: Kyuukousen-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/85196",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx85196-fzDKrzXlldDn.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 100196,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 夏休み編",
+                    "romaji": "Mahouka Koukou no Rettousei: Natsuyasumi-hen",
+                    "english": "Mahouka Koukou no Rettousei: Natsuyasumi-hen",
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/100196",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx100196-xlzVZXuLUomo.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 107825,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 会長選挙編",
+                    "romaji": "Mahouka Koukou no Rettousei: Kaichou Senkyo-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/107825",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107825-Z0sxOoj2rVRo.png",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 86053,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 横浜騒乱編",
+                    "romaji": "Mahouka Koukou no Rettousei: Yokohama Souran-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/86053",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/56053-XHBOFO63jGUs.jpg",
+                  "relation_type": "ALTERNATIVE"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "http://www.crunchyroll.com/the-irregular-at-magic-high-school ",
+                  "site": "Crunchyroll",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "http://www.hulu.com/the-irregular-at-magic-high-school",
+                  "site": "Hulu",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://twitter.com/mahouka_anime",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://www.netflix.com/title/80009361",
+                  "site": "Netflix",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://mahouka.jp/1st/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://x.com/MahoukaUSA",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://mahouka.us/1st/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                }
+              ],
+              "average_score": 70,
+              "popularity": 261335,
+              "favourites": 5474,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/20458",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 2,
+            "src_start": 1,
+            "src_end": 13,
+            "dst_start": 1,
+            "dst_end": 13,
+            "ratio": null,
+            "anilist_id": 112300,
+            "ord": 1,
+            "media": {
+              "id": 112300,
+              "id_mal": 40497,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+                "english": "The Irregular at Magic High School: Visitor Arc",
+                "native": "魔法科高校の劣等生 来訪者編",
+                "synonyms": [
+                  "The Irregular at Magic High School Season 2",
+                  "พี่น้องปริศนาโรงเรียนมหาเวท ภาค 2",
+                  "พี่น้องปริศนาโรงเรียนมหาเวท บทผู้มาเยือน",
+                  "Непутёвый ученик в школе магии: Гость"
+                ]
+              },
+              "description": "Miyuki Shiba’s classmate Kitayama Shizuku is on her way to study abroad. For magicians, this is normally impossible, since allowing the genes of someone who can use magic outside their home country’s borders is tantamount to giving up national secrets. But it’s allowed to happen in one case—exchange programs.<br>\n<br>\nAnd that’s how Angelina Kudou Shields, known as Lina, has arrived in Japan from the USNA to study at First High. Around the time Lina arrived in Japan, magicians began getting attacked by a mysterious being who leaves his victims drained of blood. Will Tatsuya and Miyuki Shiba be able to discover the identity of the “Vampire”?<br>\n<br>\n(Source: Funimation)",
+              "format": "TV",
+              "status": "FINISHED",
+              "episodes": 13,
+              "duration": 24,
+              "season": "FALL",
+              "season_year": 2020,
+              "start_date": "2020-10-04",
+              "end_date": "2020-12-27",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112300-I5ucx66OvqWX.png",
+              "cover_color": "#B850E4",
+              "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112300-qYRRTys8bmeS.jpg",
+              "genres": [
+                "Action",
+                "Romance",
+                "Sci-Fi",
+                "Supernatural"
+              ],
+              "studios": [
+                {
+                  "id": 4418,
+                  "name": "8-bit"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 95,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 46,
+                  "name": "School",
+                  "rank": 81,
+                  "category": "Setting-Scene"
+                },
+                {
+                  "id": 310,
+                  "name": "Espionage",
+                  "rank": 79,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 34,
+                  "name": "Military",
+                  "rank": 68,
+                  "category": "Theme-Other-Organisations"
+                },
+                {
+                  "id": 285,
+                  "name": "Terrorism",
+                  "rank": 66,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 779,
+                  "name": "Kuudere",
+                  "rank": 60,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 60,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 43,
+                  "name": "Swordplay",
+                  "rank": 60,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 23,
+                  "name": "Female Harem",
+                  "rank": 57,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 172,
+                  "name": "Superhero",
+                  "rank": 47,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 74,
+                  "name": "Vampire",
+                  "rank": 45,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 164,
+                  "name": "Tsundere",
+                  "rank": 40,
+                  "category": "Cast-Traits"
+                },
+                {
+                  "id": 128,
+                  "name": "Incest",
+                  "rank": 40,
+                  "category": "Theme-Romance"
+                },
+                {
+                  "id": 186,
+                  "name": "Crossdressing",
+                  "rank": 35,
+                  "category": "Cast-Traits"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 64127,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "NOVEL",
+                  "site_url": "https://anilist.co/manga/64127",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+                  "relation_type": "ADAPTATION"
+                },
+                {
+                  "id": 98912,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 来訪者編",
+                    "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+                    "english": "The Irregular At Magic High School: Visitor Arc",
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/98912",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/98912-giXIeF40VXho.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 21684,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "劇場版 魔法科高校の劣等生 星を呼ぶ少女",
+                    "romaji": "Mahouka Koukou no Rettousei: Hoshi wo Yobu Shoujo",
+                    "english": "The Irregular at Magic High School The Movie: The Girl Who Summons the Stars",
+                    "synonyms": []
+                  },
+                  "format": "MOVIE",
+                  "site_url": "https://anilist.co/anime/21684",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21684-MAT6GdCnfPdR.jpg",
+                  "relation_type": "SIDE_STORY"
+                },
+                {
+                  "id": 20458,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/20458",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20458-tGh343Ew10yU.jpg",
+                  "relation_type": "PREQUEL"
+                },
+                {
+                  "id": 143271,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 第3シーズン",
+                    "romaji": "Mahouka Koukou no Rettousei 3rd Season",
+                    "english": "The Irregular at Magic High School Season 3",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/143271",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143271-o5wry0ohH9R3.jpg",
+                  "relation_type": "SEQUEL"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://twitter.com/mahouka_anime",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://www.hulu.com/series/the-irregular-at-magic-high-school-80e76834-7c30-45fe-bcaa-1f4ace6a99da",
+                  "site": "Hulu",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://www.netflix.com/title/80009361",
+                  "site": "Netflix",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://mahouka.jp/2nd/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://crunchyroll.com/series/GRMGDGZVR/the-irregular-at-magic-high-school",
+                  "site": "Crunchyroll",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://x.com/MahoukaUSA",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://mahouka.us/2nd/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                }
+              ],
+              "average_score": 72,
+              "popularity": 115554,
+              "favourites": 1685,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/112300",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          },
+          {
+            "season": 3,
+            "src_start": 1,
+            "src_end": 13,
+            "dst_start": 1,
+            "dst_end": 13,
+            "ratio": null,
+            "anilist_id": 143271,
+            "ord": 1,
+            "media": {
+              "id": 143271,
+              "id_mal": 50713,
+              "title": {
+                "romaji": "Mahouka Koukou no Rettousei 3rd Season",
+                "english": "The Irregular at Magic High School Season 3",
+                "native": "魔法科高校の劣等生 第3シーズン",
+                "synonyms": [
+                  "พี่น้องปริศนาโรงเรียนมหาเวท ภาค 3",
+                  "Непутёвый ученик в школе магии 3"
+                ]
+              },
+              "description": "After the battle against The New Breed Front, Tatsuya and Miyuki enter the new \"Magic Engineering Department.\"<br><br>\n\n(Source: Crunchyroll)",
+              "format": "TV",
+              "status": "FINISHED",
+              "episodes": 13,
+              "duration": 24,
+              "season": "SPRING",
+              "season_year": 2024,
+              "start_date": "2024-04-05",
+              "end_date": "2024-06-28",
+              "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143271-o5wry0ohH9R3.jpg",
+              "cover_color": "#f1e4c9",
+              "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143271-llmIgJN9tu3l.jpg",
+              "genres": [
+                "Action",
+                "Sci-Fi",
+                "Supernatural"
+              ],
+              "studios": [
+                {
+                  "id": 4418,
+                  "name": "8-bit"
+                }
+              ],
+              "tags": [
+                {
+                  "id": 29,
+                  "name": "Magic",
+                  "rank": 99,
+                  "category": "Theme-Fantasy"
+                },
+                {
+                  "id": 40,
+                  "name": "Police",
+                  "rank": 79,
+                  "category": "Theme-Other-Organisations"
+                },
+                {
+                  "id": 103,
+                  "name": "Politics",
+                  "rank": 68,
+                  "category": "Theme-Other"
+                },
+                {
+                  "id": 98,
+                  "name": "Female Protagonist",
+                  "rank": 60,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 82,
+                  "name": "Male Protagonist",
+                  "rank": 60,
+                  "category": "Cast-Main Cast"
+                },
+                {
+                  "id": 226,
+                  "name": "Fugitive",
+                  "rank": 60,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 46,
+                  "name": "School",
+                  "rank": 55,
+                  "category": "Setting-Scene"
+                },
+                {
+                  "id": 90,
+                  "name": "CGI",
+                  "rank": 51,
+                  "category": "Technical"
+                },
+                {
+                  "id": 157,
+                  "name": "Guns",
+                  "rank": 40,
+                  "category": "Theme-Action"
+                },
+                {
+                  "id": 1589,
+                  "name": "Criminal Organization",
+                  "rank": 40,
+                  "category": "Theme-Other-Organisations"
+                }
+              ],
+              "relations": [
+                {
+                  "id": 64127,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生",
+                    "romaji": "Mahouka Koukou no Rettousei",
+                    "english": "The Irregular at Magic High School",
+                    "synonyms": []
+                  },
+                  "format": "NOVEL",
+                  "site_url": "https://anilist.co/manga/64127",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+                  "relation_type": "ADAPTATION"
+                },
+                {
+                  "id": 112300,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "魔法科高校の劣等生 来訪者編",
+                    "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+                    "english": "The Irregular at Magic High School: Visitor Arc",
+                    "synonyms": []
+                  },
+                  "format": "TV",
+                  "site_url": "https://anilist.co/anime/112300",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112300-I5ucx66OvqWX.png",
+                  "relation_type": "PREQUEL"
+                },
+                {
+                  "id": 99904,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 ダブルセブン編",
+                    "romaji": "Mahouka Koukou no Rettousei: Double Seven-hen",
+                    "english": "Mahouka Koukou no Rettousei: Double Seven Hen",
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/99904",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/99904-joyh9wDsSdJ0.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 109833,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 スティープルチェース編",
+                    "romaji": "Mahouka Koukou no Rettousei: Steeplechase-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/109833",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx109833-aluyqEWGGic0.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 109656,
+                  "type": "MANGA",
+                  "title": {
+                    "native": "魔法科高校の劣等生 古都内乱編",
+                    "romaji": "Mahouka Koukou no Rettousei: Koto Nairan-hen",
+                    "english": null,
+                    "synonyms": []
+                  },
+                  "format": "MANGA",
+                  "site_url": "https://anilist.co/manga/109656",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx109656-kvChDkMBvJMq.jpg",
+                  "relation_type": "ALTERNATIVE"
+                },
+                {
+                  "id": 178707,
+                  "type": "ANIME",
+                  "title": {
+                    "native": "劇場版 魔法科高校の劣等生 四葉継承編",
+                    "romaji": "Mahouka Koukou no Rettousei: Yotsuba Keishou-hen",
+                    "english": "The Irregular at Magic High School THE MOVIE -Yotsuba Succession Arc-",
+                    "synonyms": []
+                  },
+                  "format": "MOVIE",
+                  "site_url": "https://anilist.co/anime/178707",
+                  "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178707-Ys8zvR7BLECi.jpg",
+                  "relation_type": "SEQUEL"
+                }
+              ],
+              "external_links": [
+                {
+                  "url": "https://mahouka.jp/3rd/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                },
+                {
+                  "url": "https://twitter.com/mahouka_anime",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://www.crunchyroll.com/series/GRMGDGZVR/the-irregular-at-magic-high-school",
+                  "site": "Crunchyroll",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://www.bilibili.tv/en/media/2106884",
+                  "site": "Bilibili TV",
+                  "type": "STREAMING"
+                },
+                {
+                  "url": "https://x.com/MahoukaUSA",
+                  "site": "Twitter",
+                  "type": "SOCIAL"
+                },
+                {
+                  "url": "https://mahouka.us/3rd/",
+                  "site": "Official Site",
+                  "type": "INFO"
+                }
+              ],
+              "average_score": 70,
+              "popularity": 56723,
+              "favourites": 847,
+              "country_of_origin": "JP",
+              "is_adult": false,
+              "site_url": "https://anilist.co/anime/143271",
+              "next_airing_episode": null,
+              "next_airing_at": null
+            }
+          }
+        ],
+        "relations": [
+          {
+            "id": 20679,
+            "type": "ANIME",
+            "title": {
+              "native": "魔法科高校の劣等生 よくわかる魔法科！",
+              "romaji": "Mahouka Koukou no Rettousei: Yoku Wakaru Mahouka",
+              "english": "The Irregular at Magic High School: Get to Know Magic Studies",
+              "synonyms": []
+            },
+            "format": "ONA",
+            "site_url": "https://anilist.co/anime/20679",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20679.jpg",
+            "relation_type": "OTHER",
+            "media_id": "s1008"
+          },
+          {
+            "id": 64127,
+            "type": "MANGA",
+            "title": {
+              "native": "魔法科高校の劣等生",
+              "romaji": "Mahouka Koukou no Rettousei",
+              "english": "The Irregular at Magic High School",
+              "synonyms": []
+            },
+            "format": "NOVEL",
+            "site_url": "https://anilist.co/manga/64127",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx64127-alvevQgBLhF3.jpg",
+            "relation_type": "ADAPTATION",
+            "media_id": null
+          },
+          {
+            "id": 63699,
+            "type": "MANGA",
+            "title": {
+              "native": "魔法科高校の劣等生 入学編",
+              "romaji": "Mahouka Koukou no Rettousei: Nyuugaku-hen",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/63699",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx63699-OtoxejGZBBCp.jpg",
+            "relation_type": "ALTERNATIVE",
+            "media_id": null
+          },
+          {
+            "id": 127688,
+            "type": "ANIME",
+            "title": {
+              "native": "魔法科高校の優等生",
+              "romaji": "Mahouka Koukou no Yuutousei",
+              "english": "The Honor at Magic High School",
+              "synonyms": []
+            },
+            "format": "TV",
+            "site_url": "https://anilist.co/anime/127688",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127688-WDZFupRhW3eX.jpg",
+            "relation_type": "SPIN_OFF",
+            "media_id": "s11628"
+          },
+          {
+            "id": 112300,
+            "type": "ANIME",
+            "title": {
+              "native": "魔法科高校の劣等生 来訪者編",
+              "romaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+              "english": "The Irregular at Magic High School: Visitor Arc",
+              "synonyms": []
+            },
+            "format": "TV",
+            "site_url": "https://anilist.co/anime/112300",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112300-I5ucx66OvqWX.png",
+            "relation_type": "SEQUEL",
+            "media_id": "s1008"
+          },
+          {
+            "id": 21685,
+            "type": "ANIME",
+            "title": {
+              "native": "エロマンガ先生",
+              "romaji": "Eromanga Sensei",
+              "english": "Eromanga Sensei",
+              "synonyms": []
+            },
+            "format": "TV",
+            "site_url": "https://anilist.co/anime/21685",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21685-h1SrcpaNnrIq.jpg",
+            "relation_type": "CHARACTER",
+            "media_id": null
+          },
+          {
+            "id": 130389,
+            "type": "ANIME",
+            "title": {
+              "native": "魔法科高校の劣等生 追憶編",
+              "romaji": "Mahouka Koukou no Rettousei: Tsuioku-hen",
+              "english": "The Irregular at Magic High School: Reminiscence Arc",
+              "synonyms": []
+            },
+            "format": "SPECIAL",
+            "site_url": "https://anilist.co/anime/130389",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130389-FVlthC6vlJOV.png",
+            "relation_type": "PREQUEL",
+            "media_id": "s1008"
+          },
+          {
+            "id": 85196,
+            "type": "MANGA",
+            "title": {
+              "native": "魔法科高校の劣等生 九校戦編",
+              "romaji": "Mahouka Koukou no Rettousei: Kyuukousen-hen",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/85196",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx85196-fzDKrzXlldDn.jpg",
+            "relation_type": "ALTERNATIVE",
+            "media_id": null
+          },
+          {
+            "id": 100196,
+            "type": "MANGA",
+            "title": {
+              "native": "魔法科高校の劣等生 夏休み編",
+              "romaji": "Mahouka Koukou no Rettousei: Natsuyasumi-hen",
+              "english": "Mahouka Koukou no Rettousei: Natsuyasumi-hen",
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/100196",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx100196-xlzVZXuLUomo.jpg",
+            "relation_type": "ALTERNATIVE",
+            "media_id": null
+          },
+          {
+            "id": 107825,
+            "type": "MANGA",
+            "title": {
+              "native": "魔法科高校の劣等生 会長選挙編",
+              "romaji": "Mahouka Koukou no Rettousei: Kaichou Senkyo-hen",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/107825",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107825-Z0sxOoj2rVRo.png",
+            "relation_type": "ALTERNATIVE",
+            "media_id": null
+          },
+          {
+            "id": 86053,
+            "type": "MANGA",
+            "title": {
+              "native": "魔法科高校の劣等生 横浜騒乱編",
+              "romaji": "Mahouka Koukou no Rettousei: Yokohama Souran-hen",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/86053",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/56053-XHBOFO63jGUs.jpg",
+            "relation_type": "ALTERNATIVE",
+            "media_id": null
+          }
+        ],
+        "alt_ids": [
+          {
+            "anilist_id": 20679,
+            "mal_id": 23341,
+            "anidb_id": null,
+            "imdb_ids": []
+          },
+          {
+            "anilist_id": 21684,
+            "mal_id": 32900,
+            "anidb_id": 11980,
+            "imdb_ids": [
+              "tt6580380"
+            ]
+          },
+          {
+            "anilist_id": 130389,
+            "mal_id": 48375,
+            "anidb_id": 16081,
+            "imdb_ids": [
+              "tt15497404"
+            ]
+          },
+          {
+            "anilist_id": 178707,
+            "mal_id": 59174,
+            "anidb_id": 18720,
+            "imdb_ids": [
+              "tt38652027"
+            ]
+          },
+          {
+            "anilist_id": 20458,
+            "mal_id": 20785,
+            "anidb_id": 10182,
+            "imdb_ids": []
+          },
+          {
+            "anilist_id": 112300,
+            "mal_id": 40497,
+            "anidb_id": 15132,
+            "imdb_ids": []
+          },
+          {
+            "anilist_id": 143271,
+            "mal_id": 50713,
+            "anidb_id": 17098,
+            "imdb_ids": []
+          }
+        ],
+        "targets": [
+          {
+            "anilist_id": 20679,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20679.jpg"
+          },
+          {
+            "anilist_id": 21684,
+            "media_id": "m202",
+            "poster": "https://image.tmdb.org/t/p/original/iUttStQFPGp8rCXn7JYfC5IIlQF.jpg"
+          },
+          {
+            "anilist_id": 130389,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130389-FVlthC6vlJOV.png"
+          },
+          {
+            "anilist_id": 178707,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178707-Ys8zvR7BLECi.jpg"
+          },
+          {
+            "anilist_id": 20458,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20458-tGh343Ew10yU.jpg"
+          },
+          {
+            "anilist_id": 112300,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112300-I5ucx66OvqWX.png"
+          },
+          {
+            "anilist_id": 143271,
+            "media_id": null,
+            "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143271-o5wry0ohH9R3.jpg"
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "id": 29782,
+          "title": "Get to Know Magic Studies! - Lesson One: What Is the Magic High School?",
+          "season": 0,
+          "episode": 1,
+          "runtime": 3,
+          "airDateUtc": "2014-02-22T14:30:00Z",
+          "tvdbId": 4839951
+        },
+        {
+          "id": 29783,
+          "title": "Get to Know Magic Studies! - Lesson Two: What is Magic?",
+          "season": 0,
+          "episode": 2,
+          "runtime": 3,
+          "airDateUtc": "2014-03-08T14:30:00Z",
+          "tvdbId": 4839952
+        },
+        {
+          "id": 29784,
+          "title": "Get to Know Magic Studies! - Lesson Three: What are Magicians?",
+          "season": 0,
+          "episode": 3,
+          "runtime": 3,
+          "airDateUtc": "2014-03-22T14:30:00Z",
+          "tvdbId": 4839953
+        },
+        {
+          "id": 29785,
+          "title": "Get to Know Magic Studies! - Lesson Four: What is the Nine School Competition?",
+          "season": 0,
+          "episode": 4,
+          "overview": "Short where Honoka and Shizuku explain the Nine Schools Competition.",
+          "runtime": 3,
+          "airDateUtc": "2014-07-12T14:30:00Z",
+          "tvdbId": 4933361
+        },
+        {
+          "id": 29786,
+          "title": "Get to Know Magic Studies! - Lesson Five: What is Spirit Magic?",
+          "season": 0,
+          "episode": 5,
+          "runtime": 3,
+          "airDateUtc": "2014-08-25T14:30:00Z",
+          "tvdbId": 4993748
+        },
+        {
+          "id": 29787,
+          "title": "Get to Know Magic Studies! - Lesson Six: What Is the Thesis Competition?",
+          "season": 0,
+          "episode": 6,
+          "runtime": 3,
+          "airDateUtc": "2014-09-13T14:30:00Z",
+          "tvdbId": 4993749
+        },
+        {
+          "id": 29788,
+          "title": "Get to Know Magic Studies! - Lesson Seven: What is Regrowth?",
+          "season": 0,
+          "episode": 7,
+          "runtime": 1,
+          "airDateUtc": "2015-02-25T14:30:00Z",
+          "tvdbId": 5741359
+        },
+        {
+          "id": 29789,
+          "title": "The Girl Who Summons The Stars",
+          "season": 0,
+          "episode": 8,
+          "overview": "In the story, the seasons have changed and it will soon be the second spring. Tatsuya and Miyuki have finished their first year at First Magic High School and are on their spring break. The two go to their villa on the Ogasawara Island archipelago. After only a small moment of peace a lone young woman named Kokoa appears before them. She has abandoned the Naval base and she tells Tatsuya her one wish.",
+          "runtime": 90,
+          "airDateUtc": "2017-06-17T14:30:00Z",
+          "tvdbId": 9571832
+        },
+        {
+          "id": 29790,
+          "title": "The Irregular at Magic High School: Reminiscence Arc",
+          "season": 0,
+          "episode": 9,
+          "overview": "April 2095. A century has passed since magic was established as actual technology. The two siblings enroll at a prestigious school for magicians called the National Magic University Affiliated First High School, better known as “Magic High School.” Tatsuya, the older brother, is an “irregular” with a fatal flaw to his magic powers. The younger sister, Miyuki, is a star student with unmatched magical talent. Though they are now close enough to be mistaken as a couple, just a few years ago, the two had a dysfunctional relationship, where they were nothing more than a master and servant. One incident, however, alters their relationship forever. Three years ago in Okinawa, an unforgettable experience turns their souls and destinies on their heads.",
+          "runtime": 71,
+          "airDateUtc": "2021-12-31T14:30:00Z",
+          "tvdbId": 10084250
+        },
+        {
+          "id": 29791,
+          "title": "The Irregular at Magic High School: Yotsuba Succession Arc",
+          "season": 0,
+          "episode": 10,
+          "overview": "The invitation has arrived. It's time for the New Year's Reception at the Yotsuba family residence. This year, Miyuki and other candidates will gather there to decide who will be the next leader of their powerful clan. If chosen as successor, she would never again have to see her brother live as an outcast. At the same time, such a position would surely entail a political marriage, leaving her mind in complete turmoil. To complicate matters, the current head of the family sows doubt with a shocking statement. When the new year arrives, their relationship may change forever...",
+          "runtime": 0,
+          "airDateUtc": "2026-05-08T14:30:00Z",
+          "tvdbId": 10566495
+        },
+        {
+          "id": 29792,
+          "title": "Enrollment Part I",
+          "season": 1,
+          "episode": 1,
+          "absolute": 1,
+          "overview": "A brother and a sister enroll at the Magic High School. In this school, the students are divided into two distinct groups as \"Weeds\" and \"Blooms.\" Tatsuya, the brother, has a secret…",
+          "runtime": 24,
+          "airDateUtc": "2014-04-06T14:30:00Z",
+          "tvdbId": 4794270
+        },
+        {
+          "id": 29793,
+          "title": "Enrollment Part II",
+          "season": 1,
+          "episode": 2,
+          "absolute": 2,
+          "overview": "The President of the Student Council invites Miyuki and Tatsuya to lunch. During lunch, she asks Miyuki to join the Student Council. Miyuki says that her brother should also join them. Will he have to prove himself?",
+          "runtime": 24,
+          "airDateUtc": "2014-04-13T14:30:00Z",
+          "tvdbId": 4829747
+        },
+        {
+          "id": 29794,
+          "title": "Enrollment Part III",
+          "season": 1,
+          "episode": 3,
+          "absolute": 3,
+          "overview": "Everyone is surprised at how quick Tatsuya defeated Hattori in the duel. Tatsuya begins his work as part of the Disciplinary Commitee. Meanwhile, Miyuki starts showing more mixed emotions towards her big brother.",
+          "runtime": 24,
+          "airDateUtc": "2014-04-20T14:30:00Z",
+          "tvdbId": 4829749
+        },
+        {
+          "id": 29795,
+          "title": "Enrollment Part IV",
+          "season": 1,
+          "episode": 4,
+          "absolute": 4,
+          "overview": "Mibu meets with Tatsuya at a cafe. She thanks him for defusing the brawl between her and Kirihara peacefully. She asks Tatsuya to join their kendo team. He suspects that she has an ulterior motive…",
+          "runtime": 24,
+          "airDateUtc": "2014-04-27T14:30:00Z",
+          "tvdbId": 4829750
+        },
+        {
+          "id": 29796,
+          "title": "Enrollment Part V",
+          "season": 1,
+          "episode": 5,
+          "absolute": 5,
+          "overview": "Mibu tells Tatsuya that they are planning to let the school know of their thoughts about the discrimination among the students. An open forum is held at the school regarding the treatment of Course 1 and Course 2 students. However, there is an intrusion…",
+          "runtime": 24,
+          "airDateUtc": "2014-05-04T14:30:00Z",
+          "tvdbId": 4829751
+        },
+        {
+          "id": 29797,
+          "title": "Enrollment Part VI",
+          "season": 1,
+          "episode": 6,
+          "absolute": 6,
+          "overview": "Tatsuya and the others go after the intruders. They are informed that the intruders are in the library, and Mibu is with them. Will they be able to stop them and find out what is going on?",
+          "runtime": 24,
+          "airDateUtc": "2014-05-11T14:30:00Z",
+          "tvdbId": 4829752
+        },
+        {
+          "id": 29798,
+          "title": "Enrollment Part VII",
+          "season": 1,
+          "episode": 7,
+          "absolute": 7,
+          "overview": "Tatsuya has a plan to go after the people from Blance and take them on in battle. He leads the team to an abandoned factory where the people from Blance are. Will they be able to defeat them?",
+          "runtime": 24,
+          "airDateUtc": "2014-05-18T14:30:00Z",
+          "tvdbId": 4829753
+        },
+        {
+          "id": 29799,
+          "title": "Nine Schools Competition Part I",
+          "season": 1,
+          "episode": 8,
+          "absolute": 8,
+          "overview": "Nine Magic University Affiliated High Schools around the country are preparing for the upcoming Nine Schools Competition. The Student Council needs to select engineers. Since Tatsuya knows how to fine-tune CADs, will he take on the role of an engineer?",
+          "runtime": 24,
+          "airDateUtc": "2014-05-25T14:30:00Z",
+          "tvdbId": 4829754
+        },
+        {
+          "id": 29800,
+          "title": "Nine Schools Competition Part II",
+          "season": 1,
+          "episode": 9,
+          "absolute": 9,
+          "overview": "Tatsuya and Miyuki visit FLT where a Flying Spell experiment is taking place. They run into members of the Yotsuba family there. Tatsuya sees Mikihiko practicing Spirit Magic. Since Tatsuya seems to be interested, Mikihiko tells him about Crystal Eyes.",
+          "runtime": 24,
+          "airDateUtc": "2014-06-01T14:30:00Z",
+          "tvdbId": 4829755
+        },
+        {
+          "id": 29801,
+          "title": "Nine Schools Competition Part III",
+          "season": 1,
+          "episode": 10,
+          "absolute": 10,
+          "overview": "The bus that is carrying the students to the Nine Schools Competition is attacked by unknown forces. Tatsuya suspects that it is the work of an insider. At the banquet before the competition, students meet Kudou, the chairman of the Magic Association.",
+          "runtime": 24,
+          "airDateUtc": "2014-06-08T14:30:00Z",
+          "tvdbId": 4829756
+        },
+        {
+          "id": 29802,
+          "title": "Nine Schools Competition Part IV",
+          "season": 1,
+          "episode": 11,
+          "absolute": 11,
+          "overview": "Nine Schools Competition has finally started, and all eyes are on First High School. Tatsuya learns that the intruders from previous night are with the No-Head Dragons. Will the competition continue without any more interruption?",
+          "runtime": 24,
+          "airDateUtc": "2014-06-15T14:30:00Z",
+          "tvdbId": 4829757
+        },
+        {
+          "id": 29803,
+          "title": "Nine Schools Competition Part V",
+          "season": 1,
+          "episode": 12,
+          "absolute": 12,
+          "overview": "During Women's Battle Board, Mari Watanabe has an accident and is taken to the Susono Base Hospital. Tatsuya helps her recover with magic. Still, she has to withdraw from Mirage Bat. Tatsuya suspects that the accident wasn't just an accident at all!",
+          "runtime": 24,
+          "airDateUtc": "2014-06-22T14:30:00Z",
+          "tvdbId": 4829758
+        },
+        {
+          "id": 29804,
+          "title": "Nine Schools Competition Part VI",
+          "season": 1,
+          "episode": 13,
+          "absolute": 13,
+          "overview": "Thanks to Tatsuya's engineering skills, First High School players finish on the podium. Third High School students know that the success of First High is due to Tatsuya's skills. What will they do to beat First High School?",
+          "runtime": 24,
+          "airDateUtc": "2014-06-29T14:30:00Z",
+          "tvdbId": 4829759
+        },
+        {
+          "id": 29805,
+          "title": "Nine Schools Competition Part VII",
+          "season": 1,
+          "episode": 14,
+          "absolute": 14,
+          "overview": "Tatsuya meets Masaki Ichijo and Shinkuro Kichijoji. It takes them by surprise that Tatsuya already knows about their background. Another accident happens at the Nine Schools Competition. First High students think that it was another act of sabotage.",
+          "runtime": 24,
+          "airDateUtc": "2014-07-06T14:30:00Z",
+          "tvdbId": 4829760
+        },
+        {
+          "id": 29806,
+          "title": "Nine Schools Competition Part VIII",
+          "season": 1,
+          "episode": 15,
+          "absolute": 15,
+          "overview": "Tatsuya is asked to compete in Monolith Code. He picks Leonhard and Mikihiko to be his team members. Kichijoji advises Ichijo to figure out a way to force Tatsuya into head-to-head combat to win Monolith Code. Will Tatsuya take the bait as expected?",
+          "runtime": 24,
+          "airDateUtc": "2014-07-13T14:30:00Z",
+          "tvdbId": 4829761
+        },
+        {
+          "id": 29807,
+          "title": "Nine Schools Competition Part IX",
+          "season": 1,
+          "episode": 16,
+          "absolute": 16,
+          "overview": "Finally, the day has arrived for Monolith Code. Tatsuya and his teammates have a strategy against Cardinal George and the Crimson Prince. Miyuki is confident that her brother will be the winner. However, is there a bad surprise in store for First High?",
+          "runtime": 24,
+          "airDateUtc": "2014-07-20T14:30:00Z",
+          "tvdbId": 4829762
+        },
+        {
+          "id": 29808,
+          "title": "Nine Schools Competition Part X",
+          "season": 1,
+          "episode": 17,
+          "absolute": 17,
+          "overview": "Tatsuya has a feeling that an incident might occur during Mirage Bat. He assures Miyuki that he’ll protect her no matter what. Meanwhile, the No-Head Dragons decide to take even harsher actions to make sure that the Nine Schools Competition is called off.",
+          "runtime": 24,
+          "airDateUtc": "2014-07-27T14:30:00Z",
+          "tvdbId": 4829763
+        },
+        {
+          "id": 29809,
+          "title": "Nine Schools Competition Part XI",
+          "season": 1,
+          "episode": 18,
+          "absolute": 18,
+          "overview": "First High School students celebrate their victories in the Nine Schools Competition. Enraged by the actions of No-Head Dragon, Tatsuya pays them a visit. Since Tatsuya is not a member of the Ten Master Clans, Jumonji has a very interesting offer for him.",
+          "runtime": 24,
+          "airDateUtc": "2014-08-03T14:30:00Z",
+          "tvdbId": 4829764
+        },
+        {
+          "id": 29810,
+          "title": "Yokohama Disturbance Part I",
+          "season": 1,
+          "episode": 19,
+          "absolute": 19,
+          "overview": "Lately, Tatsuya has been reading about creating the Philosopher's Stone, thinking that it might have the capability to store Magic Sequences. Surprisingly, he is asked to participate in the Thesis Competition as a member of the First High School team.",
+          "runtime": 24,
+          "airDateUtc": "2014-08-10T14:30:00Z",
+          "tvdbId": 4829765
+        },
+        {
+          "id": 29811,
+          "title": "Yokohama Disturbance Part II",
+          "season": 1,
+          "episode": 20,
+          "absolute": 20,
+          "overview": "Tatsuya's computer is hacked. He starts investigating the identity of the attackers and suspects that it has to do with the upcoming Thesis Competition. First High students sense that they are being watched. Will they be able to find out what is going on?",
+          "runtime": 24,
+          "airDateUtc": "2014-08-17T14:30:00Z",
+          "tvdbId": 4829766
+        },
+        {
+          "id": 29812,
+          "title": "Yokohama Disturbance Part III",
+          "season": 1,
+          "episode": 21,
+          "absolute": 21,
+          "overview": "During the preparations for the Thesis Competition, a girl is seen carrying a wireless password breaker. Erika offers to teach Leo a move that would be lethal against his enemies. Since they are taking the day off together, rumors start flying about them!",
+          "runtime": 24,
+          "airDateUtc": "2014-08-24T14:30:00Z",
+          "tvdbId": 4829767
+        },
+        {
+          "id": 29813,
+          "title": "Yokohama Disturbance Part IV",
+          "season": 1,
+          "episode": 22,
+          "absolute": 22,
+          "overview": "Tatsuya has brought the Relic to FLT. The lab is hacked by the Great Asian Alliance. An insider attempts to go through the personal belongings of Tatsuya at the Robot Research Club. Will the Relic be safe?",
+          "runtime": 24,
+          "airDateUtc": "2014-08-31T14:30:00Z",
+          "tvdbId": 4829768
+        },
+        {
+          "id": 29814,
+          "title": "Yokohama Disturbance Part V",
+          "season": 1,
+          "episode": 23,
+          "absolute": 23,
+          "overview": "The Thesis Competition is underway and everyone is worried about the security for the event.",
+          "runtime": 24,
+          "airDateUtc": "2014-09-07T14:30:00Z",
+          "tvdbId": 4829769
+        },
+        {
+          "id": 29815,
+          "title": "Yokohama Disturbance Part VI",
+          "season": 1,
+          "episode": 24,
+          "absolute": 24,
+          "overview": "After terrorists attack the Thesis Competition, the students have to fight to survive.",
+          "runtime": 24,
+          "airDateUtc": "2014-09-14T14:30:00Z",
+          "tvdbId": 4829770
+        },
+        {
+          "id": 29816,
+          "title": "Yokohama Disturbance Part VII",
+          "season": 1,
+          "episode": 25,
+          "absolute": 25,
+          "overview": "The battle rages on after the attack on the Yokohama Convention Center. Students fight to make it safely to the shelter while forces duke it on the streets.",
+          "runtime": 24,
+          "airDateUtc": "2014-09-21T14:30:00Z",
+          "tvdbId": 4829771
+        },
+        {
+          "id": 29817,
+          "title": "Yokohama Disturbance Part VIII",
+          "season": 1,
+          "episode": 26,
+          "absolute": 26,
+          "overview": "Miyuki reveals the price her brother has to pay in order to use his extraordinary power. Tatsuya, meanwhile, makes use of a destructive weapon. All battles come to a head.",
+          "runtime": 24,
+          "airDateUtc": "2014-09-28T14:30:00Z",
+          "tvdbId": 4829772
+        },
+        {
+          "id": 29818,
+          "title": "Visitor Arc I",
+          "season": 2,
+          "episode": 1,
+          "absolute": 27,
+          "overview": "Two months after the Scorched Halloween incident, Tatsuya and his friends hold a going-away party for Shizuku who will be studying abroad in America. With the start of the new semester, an exchange student from America arrives at First High School.",
+          "runtime": 24,
+          "airDateUtc": "2020-10-04T14:30:00Z",
+          "tvdbId": 7541591
+        },
+        {
+          "id": 29819,
+          "title": "Visitor Arc II",
+          "season": 2,
+          "episode": 2,
+          "absolute": 28,
+          "overview": "A string of bizarre murders occurred where the victims were found to have most of the blood drawn from their bodies. Due to the methods used by the killer, they were called \"vampire incidents,\" and similar incidents were also occurring in America.",
+          "runtime": 24,
+          "airDateUtc": "2020-10-11T14:30:00Z",
+          "tvdbId": 7975787
+        },
+        {
+          "id": 29820,
+          "title": "Visitor Arc III",
+          "season": 2,
+          "episode": 3,
+          "absolute": 29,
+          "overview": "The vampire that attacked Leo was a demon called a \"parasite.\" The Saegusa and Jumonji families decide to join forces to solve this case. Mikihiko and Erika search for the parasite to get revenge for Leo, and they confront a mysterious masked magician.",
+          "runtime": 24,
+          "airDateUtc": "2020-10-18T14:30:00Z",
+          "tvdbId": 7987561
+        },
+        {
+          "id": 29821,
+          "title": "Visitor Arc IV",
+          "season": 2,
+          "episode": 4,
+          "absolute": 30,
+          "overview": "It turns out that the masked magician that engaged in a sword fight with Erika was Lina. With her identity blown, Lina uses the Parade spell to attack Tatsuya. Tatsuya attempts to disable the Parade spell by dismantling it but fails.",
+          "runtime": 24,
+          "airDateUtc": "2020-10-25T14:30:00Z",
+          "tvdbId": 7998790
+        },
+        {
+          "id": 29822,
+          "title": "Visitor Arc V",
+          "season": 2,
+          "episode": 5,
+          "absolute": 31,
+          "overview": "A parasite is an information body that was generated from the spirit dimension. How could an entity from another dimension appear in the physical world? An evil visitor of unknown origin infiltrates its way into First High School.",
+          "runtime": 24,
+          "airDateUtc": "2020-11-01T14:30:00Z",
+          "tvdbId": 8011498
+        },
+        {
+          "id": 29823,
+          "title": "Visitor Arc VI",
+          "season": 2,
+          "episode": 6,
+          "absolute": 32,
+          "overview": "Valentine's Day is a day to gift chocolate to the one you love and confess your feelings. This tradition is a source of joy and grief for many even at a distinguished institution like Magic High School. What will happen this year on Valentine's Day?",
+          "runtime": 24,
+          "airDateUtc": "2020-11-08T14:30:00Z",
+          "tvdbId": 8023204
+        },
+        {
+          "id": 29824,
+          "title": "Visitor Arc VII",
+          "season": 2,
+          "episode": 7,
+          "absolute": 33,
+          "overview": "Colonel Balance orders Lina to capture the caster who was behind Scorched Halloween. Balance gives Lina a custom-made device called \"the Brionac\" which converts Strategic-Class magic into a beam of high-energy plasma.",
+          "runtime": 24,
+          "airDateUtc": "2020-11-15T14:30:00Z",
+          "tvdbId": 8033218
+        },
+        {
+          "id": 29825,
+          "title": "Visitor Arc VIII",
+          "season": 2,
+          "episode": 8,
+          "absolute": 34,
+          "overview": "The Yotsuba Family intervenes to eliminate all threats to Tatsuya from the USNA military forces. After questioning Pixie about the remaining parasites, Tatsuya heads to Aoyama Cemetery with Miyuki and Honoka to lure them out.",
+          "runtime": 24,
+          "airDateUtc": "2020-11-22T14:30:00Z",
+          "tvdbId": 8045440
+        },
+        {
+          "id": 29826,
+          "title": "Visitor Arc IX",
+          "season": 2,
+          "episode": 9,
+          "absolute": 35,
+          "overview": "Thanks to Pixie's psychic powers, Tatsuya and his friends are finally able to capture the parasites. They leave the scene after Erika and her team arrive, but a third faction disguised as the police appear before them and get in their way.",
+          "runtime": 24,
+          "airDateUtc": "2020-11-29T14:30:00Z",
+          "tvdbId": 8058189
+        },
+        {
+          "id": 29827,
+          "title": "Visitor Arc X",
+          "season": 2,
+          "episode": 10,
+          "absolute": 36,
+          "overview": "As instructed by Raymond, one of the Seven Sages, Tatsuya and his friends head to the outdoor training area behind First High School on the night of February 19th. Just as Raymond said, they detect the presence of all active parasites and Lina gathering at the scene. At this rate, clashing with Lina, who is hell-bent on completing her mission as Sirius, will be inevitable. With complex emotions at play, the final battle with the parasites begins.",
+          "runtime": 24,
+          "airDateUtc": "2020-12-06T14:30:00Z",
+          "tvdbId": 8066934
+        },
+        {
+          "id": 29828,
+          "title": "Visitor Arc XI",
+          "season": 2,
+          "episode": 11,
+          "absolute": 37,
+          "overview": "About a month after the parasite incident, Tatsuya and his friends reluctantly bid farewell to Mayumi, Mari, Katsuto and the other seniors at the 29th graduation ceremony at First High School. The time also comes for them to give a send-off to another friend who came from America.",
+          "runtime": 24,
+          "airDateUtc": "2020-12-13T14:30:00Z",
+          "tvdbId": 8077430
+        },
+        {
+          "id": 29829,
+          "title": "Visitor Arc XII",
+          "season": 2,
+          "episode": 12,
+          "absolute": 38,
+          "overview": "Tatsuya and Miyuki are invited to a party celebrating the completion of Japan's first hyperbuilding, Tokyo Offshore Tower. At the party, they are astonished when Hayama introduces them to a young girl named Minami Sakurai.",
+          "runtime": 24,
+          "airDateUtc": "2020-12-20T14:30:00Z",
+          "tvdbId": 8086805
+        },
+        {
+          "id": 29830,
+          "title": "Visitor Arc XIII",
+          "season": 2,
+          "episode": 13,
+          "absolute": 39,
+          "overview": "The New Breed Front announces that they are going to explode the Offshore Tower in one hour. There is no telling whether they might set off the bomb any earlier. In order to foil the New Breed Front's plans, Tatsuya and Miyuki take Minami with them and head for the control center on the first underground floor.",
+          "runtime": 24,
+          "airDateUtc": "2020-12-27T14:30:00Z",
+          "tvdbId": 8089788
+        },
+        {
+          "id": 29831,
+          "title": "Double Seven Part I",
+          "season": 3,
+          "episode": 1,
+          "absolute": 40,
+          "overview": "It has reached the month of April in 2096, and various aspects of Tatsuya's life are changing as he advances to the second year. Tatsuya and Mizuki transferred to the newly established Department of Magical Engineering, and Mikihiko has also transferred out of Course 2 and was now a Course 1 student. Along with this change, Tatsuya and Miyuki were now living with Minami, who was sent to stay with them by the Yotsuba Family. Tatsuya enters the school year hoping they would have a peaceful student life this time around, but the new year meant the arrival of new students, like Kasumi and Izumi, the twins of the Sagusa Family, and Takuma Shippou, the new student valedictorian who feels a rivalry towards the Saegusa Family. All of them have their own quirk or two, for better or for worse...",
+          "runtime": 24,
+          "airDateUtc": "2024-04-05T14:30:00Z",
+          "tvdbId": 10362649
+        },
+        {
+          "id": 29832,
+          "title": "Double Seven Part II",
+          "season": 3,
+          "episode": 2,
+          "absolute": 41,
+          "overview": "The entrance ceremony has ended, and club recruitment of the freshmen has begun. Amidst the competitive recruitment frenzy, the Robot Research Club and Motorcycle Club were getting in a heated stare off over a freshman that both clubs were aiming to recruit. Kasumi, from the Disciplinary Committee, and Shippou, from the Extracurricular Activities Federation, intervene. However, now the two who had come to break up the fight begin arguing amongst themselves over who should have authority over the situation, and were on the brink of initiating a physical fight. Meanwhile, Koichi, the head of the Saegusa Family, was devising a plan to mitigate the Yotsuba Family's power through a false anti-magician campaign that the USNA's Humanist Extremist group was drawing up for the media.",
+          "runtime": 24,
+          "airDateUtc": "2024-04-12T14:30:00Z",
+          "tvdbId": 10362650
+        },
+        {
+          "id": 29833,
+          "title": "Double Seven Part III",
+          "season": 3,
+          "episode": 3,
+          "absolute": 42,
+          "overview": "Information gets out that Kanda, an anti-magic advocate and Diet member, will visit First High School with the media to observe the school's curriculum, claiming that he has heard disturbing rumors about it. He plans to create an uproar with the media and assert that the school is brainwashing students into the military - if he finds anything suspicious of that nature. To stop this ploy, Tatsuya suggests performing an experiment showing the students creating a Sustained Gravity Control-Type Magic Thermonuclear Fusion Reactor = Stellar Furnace. The students plan on demonstrating that the magic education they receive at the school can solve energy problems, and that magic can contribute to the peace of humankind depending on the type of magic they use.",
+          "runtime": 24,
+          "airDateUtc": "2024-04-19T14:30:00Z",
+          "tvdbId": 10362651
+        },
+        {
+          "id": 29834,
+          "title": "Double Seven Part IV",
+          "season": 3,
+          "episode": 4,
+          "absolute": 43,
+          "overview": "News outlets were enthusiastically reporting the great success of the stellar furnace experiment carried out by the students at First High School. However, since Takuma Shippou had heard from his father that the Saegusa Family was going to be the ones to deal with Diet member Kanda, he thinks they used Tatsuya to claim credit for the experiment's success themselves. Takuma then takes his pent-up anger out on Kasumi Saegusa, who he happened to pass by on campus. Kasumi, unable to turn a blind eye to these insults against her family, is on the brink of engaging in a magic fight with Takuma... But then, the Disciplinary Committee intervenes before either of them makes their move, and takes them in for questioning. Tatsuya suggests they let them duke it out in an official match to end this mutual enmity between the two once and for all.",
+          "runtime": 24,
+          "airDateUtc": "2024-04-26T14:30:00Z",
+          "tvdbId": 10362652
+        },
+        {
+          "id": 29835,
+          "title": "Steeplechase Part I",
+          "season": 3,
+          "episode": 5,
+          "absolute": 44,
+          "overview": "A notice has been sent to the magic high schools across the country that a portion of the events in the Nine Schools Competition will be changed. Shockingly, three of the six events will be changed. In order to respond to the sudden change in events, First High School's Student Council is thrown in a frenzy to understand the new rules, reselecting athletes and readjusting their CADs. While everyone was complaining about the Competition's management due to the sudden change in timing, one month before the start of the Nine Schools Competition, Tatsuya had a growing suspicion about the strong military flavor of all the newly added events.",
+          "runtime": 24,
+          "airDateUtc": "2024-05-03T14:30:00Z",
+          "tvdbId": 10362653
+        },
+        {
+          "id": 29836,
+          "title": "Steeplechase Part II",
+          "season": 3,
+          "episode": 6,
+          "absolute": 45,
+          "overview": "Tatsuya and the other Student Council members were spending their days extremely busy in order to deal with the sudden change of events for the Nine Schools Competition. However, out of the blue, Tatsuya receives an email from an unknown sender. The email states that the changes in the competition were due to pressure from the JDF, and that the Kudou Family was planning to piggyback on the JDF's order to test out a secretly developed military weapon at the Steeplechase Cross-country Event. This prompts Tatsuya to head to Nara, where the Kudou Family's stronghold is based, to find out more about the experiments they are conducting.",
+          "runtime": 24,
+          "airDateUtc": "2024-05-10T14:30:00Z",
+          "tvdbId": 10362654
+        },
+        {
+          "id": 29837,
+          "title": "Steeplechase Part III",
+          "season": 3,
+          "episode": 7,
+          "absolute": 46,
+          "overview": "It turns out that the secret experiments that the Kudou Family has been conducting was for developing parasite dolls, a female combat robot possessed by a parasite. Experiments on the dolls' operations are being conducted at the Steeplechase Cross-country venue, where security is abnormally tight - so much so that Tatsuya himself can't even break into the premises. As such, Tatsuya orders Pixie to keep an eye out for the parasites while he conducts adjustments to the CADs and gives instructions to the underclassmen as an engineer. However, this continual sense of nervousness and nonstop days of hard work are tiring out Tatsuya. He's never felt this tired before.",
+          "runtime": 24,
+          "airDateUtc": "2024-05-17T14:30:00Z",
+          "tvdbId": 10362655
+        },
+        {
+          "id": 29838,
+          "title": "Steeplechase Part IV",
+          "season": 3,
+          "episode": 8,
+          "absolute": 47,
+          "overview": "The women's division of the Steeplechase Cross-country Event has finally begun. Tatsuya has Pixie figure out the location of all the parasite dolls and tries to eliminate them before they come into contact with the players. However, the parasite dolls unleash their magic at speeds that exceed Tatsuya's imagination. Though it is difficult, he manages to seal away the first parasite doll. Tatsuya goes on to seal away the remaining parasite dolls one after another, but the highest-performance models, the Prime Four, now stand in his way.",
+          "runtime": 24,
+          "airDateUtc": "2024-05-24T14:30:00Z",
+          "tvdbId": 10362657
+        },
+        {
+          "id": 29839,
+          "title": "Ancient City Insurrection Part I",
+          "season": 3,
+          "episode": 9,
+          "absolute": 48,
+          "overview": "The Nine Schools Competition has ended, and it is now the second semester. Ayako and Fumiya visit Tatsuya to deliver a letter they were entrusted directly from Maya. The letter was a request asking for Tatsuya's cooperation in capturing Gongjin Zhou. The Kurobas were also pursuing him but lost sight of him in the Kyoto area. It seems Gongjin Zhou has been receiving help from the Traditionalists, a faction of Ancient Magicians, in his escape. The Traditionalists and the Kudou Family have been in conflict with each other for many years. So, Tatsuya decides to reach out to Fujibayashi, Retsu Kudou's granddaughter, to ask for Retsu's cooperation in capturing Gongjin Zhou.",
+          "runtime": 24,
+          "airDateUtc": "2024-05-31T14:30:00Z",
+          "tvdbId": 10362659
+        },
+        {
+          "id": 29840,
+          "title": "Ancient City Insurrection Part II",
+          "season": 3,
+          "episode": 10,
+          "absolute": 49,
+          "overview": "In order to obtain cooperation from Retsu Kudou to capture Gongjin Zhou, Tatsuya, Miyuki and Minami visit Nara, the home of the Kudou Family. Retsu Kudou readily accepts Tatsuya's offer and introduces him to his grandson, Minoru. Minoru is one year Tatsuya's junior, and although he is physically weak, he is said to be a very powerful magician. At the dinner table, Minoru hears that Tatsuya and his friends are looking for a traditional magic user and offers his help. The next day, as Tatsuya and the others are scouting the Traditionalists' base in Nara under Minoru's guidance, they are attacked by the Traditionalists at Nara Park.",
+          "runtime": 24,
+          "airDateUtc": "2024-06-07T14:30:00Z",
+          "tvdbId": 10362660
+        },
+        {
+          "id": 29841,
+          "title": "Ancient City Insurrection Part III",
+          "season": 3,
+          "episode": 11,
+          "absolute": 50,
+          "overview": "The nationwide Magic High Schools Thesis Competition held by the Japan Magic Association. Also known as just The Thesis Competition will be held in Kyoto. After experiencing the Thesis Competition being attacked by the Great Asian Alliance last year, Mikihiko, the head of the Disciplinary Committee, proposes to the Student Council that this year they would like to inspect the area around the venue in advance to ensure security. Tatsuya, Miyuki, Minami, Leo and Erika will also be accompanying him. On his way home after the Student Council meeting, Tatsuya learns from the news that Mayumi's bodyguard, Saburo Nakura, was murdered by someone in Kyoto.",
+          "runtime": 24,
+          "airDateUtc": "2024-06-14T14:30:00Z",
+          "tvdbId": 10362661
+        },
+        {
+          "id": 29842,
+          "title": "Ancient City Insurrection Part IV",
+          "season": 3,
+          "episode": 12,
+          "absolute": 51,
+          "overview": "As Tatsuya is researching the Traditionalist bases in Kyoto under Minoru's guidance, he meets the owner of a restaurant, who is also a Traditionalist, on the way to Kiyomizu Temple. The shop owner shares that he is concerned about the current state of Nara's Traditionalist sects being absorbed by casters from the Continent and offers to share information with Tatsuya. Based on the restaurant owner's information, Tatsuya narrows down a place in Kyoto where the Traditionalists are hiding. He meets with Mayumi, who wants to find the culprit who killed Nakura, and Masaki, who happened to come across them during a battle against the Traditionalists, and heads to Arashiyama with them.",
+          "runtime": 24,
+          "airDateUtc": "2024-06-21T14:30:00Z",
+          "tvdbId": 10362662
+        },
+        {
+          "id": 29843,
+          "title": "Ancient City Insurrection Part V",
+          "season": 3,
+          "episode": 13,
+          "absolute": 52,
+          "overview": "The night before the Thesis Competition. Tatsuya receives a report from Fumiya that they have located Gongjin Zhou's whereabouts. He was hiding at the JGDF's 2nd Supply Base in Uji. Tatsuya speculates that he would not have enough offensive power to fight alone at the JGDF's base, so he contacts Masaki. When Masaki hears that they would need to invade an army base to get to him, he hesitates for a moment but decides to accompany Tatsuya to fulfill his responsibilities as a member of the Ten Master Clans. The two invade the army base where soldiers controlled by Gongji Zhou await...",
+          "runtime": 24,
+          "airDateUtc": "2024-06-28T14:30:00Z",
+          "tvdbId": 10442122
+        }
+      ]
+    },
+    "similar_media": null,
+    "debug": {
+      "summary": [],
+      "debug": [
+        "no hints found",
+        "fetched media episodes",
+        "filtering by media_id: s1008",
+        "filtering by episode_ids: 29791",
+        "hiding hidden torrents",
+        "sorting by best (level desc)",
+        "no torrents found"
+      ]
+    },
+    "more": false,
+    "search": {
+      "limit": 20,
+      "offset": 0,
+      "sort_by": "best",
+      "category": 0,
+      "media_id": "s1008",
+      "episode_ids": "29791",
+      "episode_match_any": false,
+      "group_primary": true,
+      "group_secondary": false,
+      "group_childs": true,
+      "group_parents": false,
+      "uploader_uploads": true,
+      "uploader_contributions": false
+    }
+  }
+}

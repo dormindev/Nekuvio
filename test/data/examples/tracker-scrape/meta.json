@@ -1,0 +1,154 @@
+{
+  "records": [
+    {
+      "id": "opentrackr_udp-f667c5061b5e_+2~7b28e7ff",
+      "params": {
+        "tracker": "opentrackr_udp",
+        "announce": "udp://tracker.opentrackr.org:1337/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "scrape response structure for opentrackr_udp (batch of 3); peer counts are time-dependent and never asserted"
+    },
+    {
+      "id": "opentrackr_udp-f667c5061b5e",
+      "params": {
+        "tracker": "opentrackr_udp",
+        "announce": "udp://tracker.opentrackr.org:1337/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "single-hash scrape shape for opentrackr_udp; peer counts are time-dependent and never asserted"
+    },
+    {
+      "id": "nyaa_udp-f667c5061b5e_+2~9f1a6b5f",
+      "params": {
+        "tracker": "nyaa_udp",
+        "announce": "udp://nyaa.tracker.wf:7777/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "observed non-answering tracker (nyaa_udp) — grounds the per-tracker failure path; no peer data"
+    },
+    {
+      "id": "torrent_eu_udp-f667c5061b5e_+2~234adf71",
+      "params": {
+        "tracker": "torrent_eu_udp",
+        "announce": "udp://tracker.torrent.eu.org:451/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "observed non-answering tracker (torrent_eu_udp) — grounds the per-tracker failure path; no peer data"
+    },
+    {
+      "id": "exodus_udp-f667c5061b5e_+2~26a656c3",
+      "params": {
+        "tracker": "exodus_udp",
+        "announce": "udp://exodus.desync.com:6969/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "observed non-answering tracker (exodus_udp) — grounds the per-tracker failure path; no peer data"
+    },
+    {
+      "id": "stealth_udp-f667c5061b5e_+2~c58399c2",
+      "params": {
+        "tracker": "stealth_udp",
+        "announce": "udp://open.stealth.si:80/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "scrape response structure for stealth_udp (batch of 3); peer counts are time-dependent and never asserted"
+    },
+    {
+      "id": "rarbg_udp-f667c5061b5e_+2~2895c3cc",
+      "params": {
+        "tracker": "rarbg_udp",
+        "announce": "udp://9.rarbg.com:2810/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "observed non-answering tracker (rarbg_udp) — grounds the per-tracker failure path; no peer data"
+    },
+    {
+      "id": "nyaa_http-f667c5061b5e_+2~9670f449",
+      "params": {
+        "tracker": "nyaa_http",
+        "announce": "http://nyaa.tracker.wf:7777/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "scrape response structure for nyaa_http (batch of 3); peer counts are time-dependent and never asserted"
+    },
+    {
+      "id": "nyaa_http-f667c5061b5e",
+      "params": {
+        "tracker": "nyaa_http",
+        "announce": "http://nyaa.tracker.wf:7777/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "single-hash scrape shape for nyaa_http; peer counts are time-dependent and never asserted"
+    },
+    {
+      "id": "gbitt_http-f667c5061b5e_+2~49935c0f",
+      "params": {
+        "tracker": "gbitt_http",
+        "announce": "http://tracker.gbitt.info:80/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "observed non-answering tracker (gbitt_http) — grounds the per-tracker failure path; no peer data"
+    },
+    {
+      "id": "nekobt_http-f667c5061b5e_+2~d855d43c",
+      "params": {
+        "tracker": "nekobt_http",
+        "announce": "https://tracker.nekobt.to/api/tracker/public/announce",
+        "infohashes": [
+          "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+          "e6c7a86e970b886911a2211539157e1f1558a728",
+          "1d12d31b817887f33a20a28b6df168da4e4567aa"
+        ]
+      },
+      "fetched": "2026-10-19",
+      "grounds": "scrape response structure for nekobt_http (batch of 3); peer counts are time-dependent and never asserted"
+    }
+  ]
+}

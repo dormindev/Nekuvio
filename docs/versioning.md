@@ -84,7 +84,7 @@ refs/tags/v0.1.0
 
 This allows externally hosted assets to be resolved against the exact release revision.
 
-See [GitHub-hosted assets and build metadata](architecture/github-assets.md).
+See [GitHub-hosted assets and build metadata](github-assets.md).
 
 ## Docker Image Tags
 

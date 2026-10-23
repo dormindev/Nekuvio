@@ -1,0 +1,205 @@
+{
+  "error": false,
+  "data": {
+    "id": "14351917616136",
+    "uploaded_at": 1791751778188,
+    "title": "[HatSubs] One Piece 1169-1180 (WEB 1080p)",
+    "auto_title": "[HatSubs] One Piece 1169-1180 (WEB 1080p) {Tags:L3;V9;C1;A=ja;F=en;}",
+    "description": "Translation: Official\nEditing: Notkama\nTranslation check, Timing, Typesetting: Giraffebirbyuimumei\nQuality check: Toto, Gyro\nSong Translation: bluesun\n\n![NEP ECE](https://i.postimg.cc/NfNfYJm9/OP1169-1180.png)\n\n[Patch for the v1s](https://mega.nz/file/Ud42VbbQ#JWZR7Ds0K1KTVj07kcYDHEYdEbNUsLmukgS9Aj86mis)\n\nBatch for the second half of this year's One Piece run. Almost every episode is v2'd, though mostly it's due to small tweaks here and there. There's only one REALLY BIG change made:\nWe realized that Scopper Gaban should be Scopper Gabin. Oda has confirmed that he's named after the actor Jean Gabin, whose name is spelled in Japan as ギャバン, exactly the same as the One Piece character. So, Scopper Gabin he shall be.\n\nTo avoid running into problems playing any of our releases, [please use mpv!](https://iamscum.wordpress.com/guides/videoplayback-guide/)",
+    "mediainfo": "General\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 1.34 GiB\nDuration                                 : 23 min 35 s\nOverall bit rate                         : 8 146 kb/s\nFrame rate                               : 23.976 FPS\nTitle                                    : [HatSubs] One Piece 1169 (WEB 1080p) v2\nEncoded date                             : 2026-10-11 19:57:28 UTC\nWriting application                      : mkvmerge v63.0.0 ('Everything') 32-bit\nWriting library                          : libebml v1.4.2 + libmatroska v1.6.4\nAttachments                              : Brush Strokes.ttf / BRUSHED.TTF / Candara.ttf / Candarab.ttf / Candaraz.ttf / DFSoGei-W7 & DFPSoGei-W7 & DFGSoGei-W7.ttc / ＤＦ綜藝体 Std W7.otf / Marker SD.ttf / 3666-font.otf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High@L4\nFormat settings                          : CABAC / 4 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, Reference frames        : 4 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 23 min 35 s\nBit rate                                 : 8 000 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 8 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.161\nStream size                              : 1.31 GiB (98%)\nWriting library                          : x264 core 164\nEncoding settings                        : cabac=1 / ref=4 / deblock=1:1:1 / analyse=0x3:0x113 / me=hex / subme=8 / psy=1 / psy_rd=0.40:0.00 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=12 / lookahead_threads=2 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=0 / weightp=2 / keyint=96 / keyint_min=48 / scenecut=40 / intra_refresh=0 / rc_lookahead=48 / rc=2pass / mbtree=1 / bitrate=8000 / ratetol=1.0 / qcomp=0.60 / qpmin=0 / qpmax=69 / qpstep=4 / cplxblur=20.0 / qblur=0.5 / vbv_maxrate=12000 / vbv_bufsize=18000 / nal_hrd=none / filler=0 / ip_ratio=1.40 / aq=1:0.60\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 35 s\nBit rate                                 : 128 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 44.1 kHz\nFrame rate                               : 43.066 FPS (1024 SPF)\nCompression mode                         : Lossy\nDelay relative to video                  : 3 ms\nStream size                              : 21.6 MiB (2%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 19 s\nBit rate                                 : 183 b/s\nFrame rate                               : 0.289 FPS\nCount of elements                        : 404\nCompression mode                         : Lossless\nStream size                              : 31.4 KiB (0%)\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:10.510                             : Opening\n00:01:40.601                             : Part A\n00:16:02.588                             : Part B\n00:21:30.582                             : Ending\n00:23:00.672                             : Preview",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 3,
+    "mtl": false,
+    "filesize": "17324252079",
+    "media_id": "s1545",
+    "media_episode_ids": [
+      "375698",
+      "428331",
+      "443557",
+      "452984",
+      "463006",
+      "470436",
+      "479523",
+      "490598",
+      "503662",
+      "516594",
+      "523891",
+      "529267"
+    ],
+    "anilist_id": 21,
+    "anilist_ids": [
+      21
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 1,
+    "video_type": 9,
+    "files": [
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1173 (WEB 1080p) [46335C14].mkv",
+        "name": "[HatSubs] One Piece 1173 (WEB 1080p) [46335C14].mkv",
+        "length": 1452398357,
+        "offset": 0
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1170 (WEB 1080p) v2 [E7584E2D].mkv",
+        "name": "[HatSubs] One Piece 1170 (WEB 1080p) v2 [E7584E2D].mkv",
+        "length": 1448843583,
+        "offset": 1452398357
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1171 (WEB 1080p) v2 [5D5DE835].mkv",
+        "name": "[HatSubs] One Piece 1171 (WEB 1080p) v2 [5D5DE835].mkv",
+        "length": 1447274394,
+        "offset": 2901241940
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1172 (WEB 1080p) v2 [3CD41FE3].mkv",
+        "name": "[HatSubs] One Piece 1172 (WEB 1080p) v2 [3CD41FE3].mkv",
+        "length": 1447026276,
+        "offset": 4348516334
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1169 (WEB 1080p) v2 [63F92B51].mkv",
+        "name": "[HatSubs] One Piece 1169 (WEB 1080p) v2 [63F92B51].mkv",
+        "length": 1441621705,
+        "offset": 5795542610
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1174 (WEB 1080p) v2 [5B4BF67A].mkv",
+        "name": "[HatSubs] One Piece 1174 (WEB 1080p) v2 [5B4BF67A].mkv",
+        "length": 1443317973,
+        "offset": 7237164315
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1175 (WEB 1080p) v2 [9E9FB5A4].mkv",
+        "name": "[HatSubs] One Piece 1175 (WEB 1080p) v2 [9E9FB5A4].mkv",
+        "length": 1441224220,
+        "offset": 8680482288
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1176 (WEB 1080p) v2 [25C339F3].mkv",
+        "name": "[HatSubs] One Piece 1176 (WEB 1080p) v2 [25C339F3].mkv",
+        "length": 1439394999,
+        "offset": 10121706508
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1177 (WEB 1080p) v2 [FC13900B].mkv",
+        "name": "[HatSubs] One Piece 1177 (WEB 1080p) v2 [FC13900B].mkv",
+        "length": 1445424449,
+        "offset": 11561101507
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1178 (WEB 1080p) v2 [1015388F].mkv",
+        "name": "[HatSubs] One Piece 1178 (WEB 1080p) v2 [1015388F].mkv",
+        "length": 1437063693,
+        "offset": 13006525956
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1179 (WEB 1080p) v2 [9359C311].mkv",
+        "name": "[HatSubs] One Piece 1179 (WEB 1080p) v2 [9359C311].mkv",
+        "length": 1439998825,
+        "offset": 14443589649
+      },
+      {
+        "path": "[HatSubs] One Piece (WEB 1080p)/[HatSubs] One Piece 1180 (WEB 1080p) v2 [569FFFE3].mkv",
+        "name": "[HatSubs] One Piece 1180 (WEB 1080p) v2 [569FFFE3].mkv",
+        "length": 1440663605,
+        "offset": 15883588474
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:7bbef2cd9229c34bd67573dca59bd42593860ccc&dn=%5BHatSubs%5D%20One%20Piece%201169-1180%20(WEB%201080p)%20%7BTags%3AL3%3BV9%3BC1%3BA%3Dja%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "7bbef2cd9229c34bd67573dca59bd42593860ccc",
+    "anonymous": false,
+    "uploader": {
+      "id": "8332941205272",
+      "username": "giraffebirbyuimumei",
+      "display_name": "Giraffebirbyuimumei",
+      "pfp_hash": "da4e6901e28b570406213188613714f227fab8160455c8b737a124633f97ae6b"
+    },
+    "groups": [
+      {
+        "id": "8333650105398",
+        "name": "hatsubs",
+        "display_name": "HatSubs",
+        "display_tag": "HatSubs",
+        "pfp_hash": "edc140c8bf0f6120175797f79aec79a8ea03cc0e71156bf4825caba2f5d9a694",
+        "tagline": "",
+        "open": false,
+        "members": [
+          {
+            "id": "8332941205272",
+            "invite": false,
+            "username": "giraffebirbyuimumei",
+            "display_name": "Giraffebirbyuimumei",
+            "pfp_hash": "da4e6901e28b570406213188613714f227fab8160455c8b737a124633f97ae6b",
+            "role": "Translation Check, Timing, Typesetting",
+            "weight": 1
+          },
+          {
+            "id": "8534310460995",
+            "invite": true,
+            "username": "Notkama",
+            "display_name": "Notkama",
+            "pfp_hash": null,
+            "role": "Editing",
+            "weight": 2
+          },
+          {
+            "id": "10115920817221",
+            "invite": true,
+            "username": "bluesun",
+            "display_name": "bluesun",
+            "pfp_hash": null,
+            "role": "Song Translation",
+            "weight": 3
+          },
+          {
+            "id": "8534310461508",
+            "invite": true,
+            "username": "Gyro",
+            "display_name": "Gyro",
+            "pfp_hash": null,
+            "role": "Quality Check",
+            "weight": 4
+          },
+          {
+            "id": "7251451942429",
+            "invite": false,
+            "username": "totomeister",
+            "display_name": "Totomeister",
+            "pfp_hash": "a75414149faa1e892ad044ce757198e2e6e3574a65646cff6b3d97b9d231931c",
+            "role": "Quality Check",
+            "weight": 5
+          }
+        ],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "8",
+    "leechers": "0",
+    "completed": "32",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

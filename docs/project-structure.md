@@ -63,6 +63,30 @@ It generates GitHub-related build metadata before TypeScript compilation.
 
 The script is intentionally executed during the build rather than by the running application.
 
+## `test/scripts/`
+
+One-off data-maintenance tools — not part of the application build:
+
+```text
+test/scripts/refresh-examples.ts       # re-fetch example payloads + fetched-dates
+test/scripts/compare-fixtures.ts       # always-live fixture comparison vs registry
+test/scripts/check-data.ts             # data-integrity checks over the catalog
+```
+
+These run via `npm run test:*` wrappers and are the maintenance path for the evidence base under `test/data/`.
+
+## `test/setup/`
+
+Vitest `globalSetup` + its tests — currently:
+
+```text
+test/setup/staleness.ts          # pure check: oldest example fetched-date vs threshold
+test/setup/staleness.global.ts   # globalSetup entry — prints the warning once per run
+test/setup/staleness.test.ts     # staleness warning path coverage
+```
+
+The staleness check is warning-only (never a failure) and is covered by its own test.
+
 ## `submodules/`
 
 Contains external repositories consumed by Nekuvio as Git submodules.
@@ -123,7 +147,35 @@ The patches are installed as part of the normal dependency installation process.
 
 ## `test/`
 
-Contains the automated test suite and fixture examples powered by Vitest.
+Contains the automated test suite, its helpers, and the `test/data/` test-data layer, powered by Vitest.
+
+```text
+test/
+├── data/
+│   ├── meta.json          # root registry: services + apis (endpoint/key/defaults)
+│   ├── fixtures/          # REAL — immutable justification evidence
+│   │                      #   (a specific case, pointed at by a test)
+│   ├── examples/          # REAL — refreshable observed responses
+│   │                      #   (used as a whole, by the corpus test)
+│   ├── unsupported/       # REAL — quarantine (excluded from vitest collection)
+│   └── synthetic/         # ASSUMED shapes — never passed off as real
+├── helpers/               # shared test utilities
+│   ├── test-data.ts       # loadFixture / loadFixtureData / loadSynthetic /
+│   │                      #   loadExamples / loadSelfStreamInputs
+│   └── data-catalog.ts    # registry parsing + endpoint spec resolution
+├── scripts/               # data-maintenance tools (tsx-run, not in suite)
+│   ├── refresh-examples.ts
+│   ├── compare-fixtures.ts
+│   └── check-data.ts      # catalog integrity checks
+├── setup/                 # vitest globalSetup + tests
+│   ├── staleness.ts       # oldest example fetched-date vs STALENESS_DAYS
+│   ├── staleness.global.ts # globalSetup entry (prints warning once per run)
+│   └── staleness.test.ts  # staleness warning path coverage
+├── perf/                  # benchmarks
+└── *.test.ts
+```
+
+Each endpoint folder under `data/` is named `<service>-<api>` and pairs a records-only `meta.json` with payload files named `<id>.json`.
 
 Tests are executed through:
 
@@ -139,9 +191,14 @@ Contains project documentation that is not intended to be part of the normal use
 ```text
 docs/
 ├── decisions/
-│   ├── 001-directory-structure.md
+│   ├── 001-id-resolution.md
 │   ├── 002-episode-filename-matching.md
-│   └── 003-vitest-test-migration.md
+│   ├── 003-vitest-test-migration.md
+│   ├── 004-pipeline-parallelization.md
+│   └── 005-test-data-organization.md
+├── README.md
+├── conventions.md
+├── data-catalog.md
 ├── development.md
 ├── docker.md
 ├── github-assets.md
@@ -150,6 +207,8 @@ docs/
 ```
 
 Decisions documentation records architecture decisions and their reasoning.
+
+The top-level `README.md` indexes the documentation set, and `conventions.md` records shared conventions (currently import layout).
 
 Development documentation describes how to work with the project.
 

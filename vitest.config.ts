@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { configDefaults, defineConfig } from 'vitest/config';
 
 export default defineConfig({
   resolve: {
@@ -6,7 +6,9 @@ export default defineConfig({
   },
   test: {
     environment: 'node',
+    globalSetup: ['test/setup/staleness.global.ts'],
     include: ['test/**/*.test.ts'],
+    exclude: [...configDefaults.exclude, 'test/data/unsupported/**'],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'lcov', 'json-summary'],

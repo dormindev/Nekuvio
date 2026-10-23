@@ -1,0 +1,11 @@
+{
+  "tracker": "udp://exodus.desync.com:6969/announce",
+  "requested": [
+    "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+    "e6c7a86e970b886911a2211539157e1f1558a728",
+    "1d12d31b817887f33a20a28b6df168da4e4567aa"
+  ],
+  "outcome": "no-response",
+  "error": "timeout after 5000ms",
+  "note": "live-observed failure: the addon logs this at debug level and continues with the remaining trackers"
+}

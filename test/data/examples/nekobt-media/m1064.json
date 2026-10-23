@@ -1,0 +1,474 @@
+{
+  "error": false,
+  "data": {
+    "id": "m1064",
+    "title": "THE RIBBON HERO",
+    "year": 2026,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Mahou Shoujo"
+    ],
+    "overview": "Princess Sapphire of the lost kingdom. Stripped of everything in her homeland, Silverland, by the calamity known as \"Nergal,\" she arrived in Goldland at the very depths of despair. While carrying the weight of her past, she began to find a glimmer of hope through the kindness of the people. Yet, as if mocking her peaceful daily life, the calamity \"Nergal\" appears once more. The same despair that reduced her homeland to ashes is now threatening to steal the light from this land as well.\n\n\"No more loss for me. No more loss for anyone.” \n\nWiping way her fears of sorrow, the young girl takes up her sword. \nThis is the story of a hero who ties her ribbon and resolves to defy fate. \n\n(Source: THE RIBBON HERO Official Site)\n\n Note: This anime is inspired by Osamu Tezuka's manga \"Princess Knight”.",
+    "status": "ended",
+    "banner_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211308-KG8w6IyCI3r0.png",
+    "runtime": 109,
+    "tmdbId": 1679730,
+    "imdbId": "tt42186253",
+    "alternate_titles": [
+      "リボンヒーロー",
+      "THE RIBBON HERO Ribon Hīrō",
+      "Ribon Hīrō",
+      "리본의 기사",
+      "缎带骑士",
+      "缎带英雄"
+    ],
+    "anilist": {
+      "display_id": 211308,
+      "primary": {
+        "id": 211308,
+        "id_mal": 64012,
+        "title": {
+          "romaji": "THE RIBBON HERO",
+          "english": "THE RIBBON HERO",
+          "native": "THE RIBBON HERO",
+          "synonyms": [
+            "リボンへーロー",
+            "La heroína del lazo",
+            "เดอะริบบิ้นฮีโร่",
+            "A Heroína da Fita",
+            "Герой ленты"
+          ]
+        },
+        "description": "Princess Sapphire of the lost kingdom. Stripped of everything in her homeland, Silverland, by the calamity known as \"Nergal,\" she arrived in Goldland at the very depths of despair. While carrying the weight of her past, she began to find a glimmer of hope through the kindness of the people. Yet, as if mocking her peaceful daily life, the calamity \"Nergal\" appears once more. The same despair that reduced her homeland to ashes is now threatening to steal the light from this land as well.<br><br>\n<i>\"No more loss for me. No more loss for anyone.”</i> <br><br>Wiping way her fears of sorrow, the young girl takes up her sword. <br>This is the story of a hero who ties her ribbon and resolves to defy fate. <br><br>\n\n(Source: THE RIBBON HERO Official Site)\n<br><br>\n\n<i> Note: This anime is inspired by Osamu Tezuka's manga \"Princess Knight”.",
+        "format": "MOVIE",
+        "status": "FINISHED",
+        "episodes": 1,
+        "duration": 109,
+        "season": "SUMMER",
+        "season_year": 2026,
+        "start_date": "2026-08-08",
+        "end_date": "2026-08-08",
+        "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211308-KG8w6IyCI3r0.png",
+        "cover_color": "#e42843",
+        "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/211308-4RLMAhvtMh68.jpg",
+        "genres": [
+          "Action",
+          "Fantasy",
+          "Mahou Shoujo"
+        ],
+        "studios": [
+          {
+            "id": 6912,
+            "name": "OUTLINE"
+          }
+        ],
+        "tags": [
+          {
+            "id": 98,
+            "name": "Female Protagonist",
+            "rank": 91,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 172,
+            "name": "Superhero",
+            "rank": 82,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 43,
+            "name": "Swordplay",
+            "rank": 80,
+            "category": "Theme-Action"
+          },
+          {
+            "id": 53,
+            "name": "Shoujo",
+            "rank": 80,
+            "category": "Demographic"
+          },
+          {
+            "id": 99,
+            "name": "Henshin",
+            "rank": 80,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 1752,
+            "name": "Medieval",
+            "rank": 79,
+            "category": "Setting-Time"
+          },
+          {
+            "id": 85,
+            "name": "Tragedy",
+            "rank": 79,
+            "category": "Theme-Drama"
+          },
+          {
+            "id": 400,
+            "name": "Fairy Tale",
+            "rank": 75,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 29,
+            "name": "Magic",
+            "rank": 72,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 144,
+            "name": "Meta",
+            "rank": 72,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 1742,
+            "name": "Mixed Media",
+            "rank": 60,
+            "category": "Technical"
+          },
+          {
+            "id": 276,
+            "name": "Kaiju",
+            "rank": 60,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 1456,
+            "name": "Femboy",
+            "rank": 45,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 801,
+            "name": "Cyborg",
+            "rank": 44,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 186,
+            "name": "Crossdressing",
+            "rank": 43,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 483,
+            "name": "LGBTQ+ Themes",
+            "rank": 41,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 931,
+            "name": "Tomboy",
+            "rank": 35,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 1327,
+            "name": "Royal Affairs",
+            "rank": 26,
+            "category": "Theme-Other"
+          }
+        ],
+        "relations": [
+          {
+            "id": 31676,
+            "type": "MANGA",
+            "title": {
+              "native": "リボンの騎士",
+              "romaji": "Ribbon no Kishi",
+              "english": "Princess Knight",
+              "synonyms": []
+            },
+            "format": "MANGA",
+            "site_url": "https://anilist.co/manga/31676",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31676-ReKRBqwbdml1.jpg",
+            "relation_type": "PARENT"
+          }
+        ],
+        "external_links": [
+          {
+            "url": "https://www.netflix.com/title/81493703",
+            "site": "Netflix",
+            "type": "STREAMING"
+          },
+          {
+            "url": "https://www.theribbonhero.com/",
+            "site": "Official Site",
+            "type": "INFO"
+          },
+          {
+            "url": "https://x.com/the_ribbon_hero",
+            "site": "Twitter",
+            "type": "SOCIAL"
+          },
+          {
+            "url": "https://www.tiktok.com/@the_ribbon_hero",
+            "site": "TikTok",
+            "type": "SOCIAL"
+          }
+        ],
+        "average_score": 66,
+        "popularity": 16365,
+        "favourites": 195,
+        "country_of_origin": "JP",
+        "is_adult": false,
+        "site_url": "https://anilist.co/anime/211308",
+        "next_airing_episode": null,
+        "next_airing_at": null
+      },
+      "entries": [
+        {
+          "season": null,
+          "src_start": 1,
+          "src_end": 1,
+          "dst_start": 1,
+          "dst_end": 1,
+          "ratio": null,
+          "anilist_id": 211308,
+          "ord": 1,
+          "media": {
+            "id": 211308,
+            "id_mal": 64012,
+            "title": {
+              "romaji": "THE RIBBON HERO",
+              "english": "THE RIBBON HERO",
+              "native": "THE RIBBON HERO",
+              "synonyms": [
+                "リボンへーロー",
+                "La heroína del lazo",
+                "เดอะริบบิ้นฮีโร่",
+                "A Heroína da Fita",
+                "Герой ленты"
+              ]
+            },
+            "description": "Princess Sapphire of the lost kingdom. Stripped of everything in her homeland, Silverland, by the calamity known as \"Nergal,\" she arrived in Goldland at the very depths of despair. While carrying the weight of her past, she began to find a glimmer of hope through the kindness of the people. Yet, as if mocking her peaceful daily life, the calamity \"Nergal\" appears once more. The same despair that reduced her homeland to ashes is now threatening to steal the light from this land as well.<br><br>\n<i>\"No more loss for me. No more loss for anyone.”</i> <br><br>Wiping way her fears of sorrow, the young girl takes up her sword. <br>This is the story of a hero who ties her ribbon and resolves to defy fate. <br><br>\n\n(Source: THE RIBBON HERO Official Site)\n<br><br>\n\n<i> Note: This anime is inspired by Osamu Tezuka's manga \"Princess Knight”.",
+            "format": "MOVIE",
+            "status": "FINISHED",
+            "episodes": 1,
+            "duration": 109,
+            "season": "SUMMER",
+            "season_year": 2026,
+            "start_date": "2026-08-08",
+            "end_date": "2026-08-08",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211308-KG8w6IyCI3r0.png",
+            "cover_color": "#e42843",
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/211308-4RLMAhvtMh68.jpg",
+            "genres": [
+              "Action",
+              "Fantasy",
+              "Mahou Shoujo"
+            ],
+            "studios": [
+              {
+                "id": 6912,
+                "name": "OUTLINE"
+              }
+            ],
+            "tags": [
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 91,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 172,
+                "name": "Superhero",
+                "rank": 82,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 43,
+                "name": "Swordplay",
+                "rank": 80,
+                "category": "Theme-Action"
+              },
+              {
+                "id": 53,
+                "name": "Shoujo",
+                "rank": 80,
+                "category": "Demographic"
+              },
+              {
+                "id": 99,
+                "name": "Henshin",
+                "rank": 80,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 1752,
+                "name": "Medieval",
+                "rank": 79,
+                "category": "Setting-Time"
+              },
+              {
+                "id": 85,
+                "name": "Tragedy",
+                "rank": 79,
+                "category": "Theme-Drama"
+              },
+              {
+                "id": 400,
+                "name": "Fairy Tale",
+                "rank": 75,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 29,
+                "name": "Magic",
+                "rank": 72,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 144,
+                "name": "Meta",
+                "rank": 72,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 1742,
+                "name": "Mixed Media",
+                "rank": 60,
+                "category": "Technical"
+              },
+              {
+                "id": 276,
+                "name": "Kaiju",
+                "rank": 60,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 1456,
+                "name": "Femboy",
+                "rank": 45,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 801,
+                "name": "Cyborg",
+                "rank": 44,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 186,
+                "name": "Crossdressing",
+                "rank": 43,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 483,
+                "name": "LGBTQ+ Themes",
+                "rank": 41,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 931,
+                "name": "Tomboy",
+                "rank": 35,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 1327,
+                "name": "Royal Affairs",
+                "rank": 26,
+                "category": "Theme-Other"
+              }
+            ],
+            "relations": [
+              {
+                "id": 31676,
+                "type": "MANGA",
+                "title": {
+                  "native": "リボンの騎士",
+                  "romaji": "Ribbon no Kishi",
+                  "english": "Princess Knight",
+                  "synonyms": []
+                },
+                "format": "MANGA",
+                "site_url": "https://anilist.co/manga/31676",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31676-ReKRBqwbdml1.jpg",
+                "relation_type": "PARENT"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "https://www.netflix.com/title/81493703",
+                "site": "Netflix",
+                "type": "STREAMING"
+              },
+              {
+                "url": "https://www.theribbonhero.com/",
+                "site": "Official Site",
+                "type": "INFO"
+              },
+              {
+                "url": "https://x.com/the_ribbon_hero",
+                "site": "Twitter",
+                "type": "SOCIAL"
+              },
+              {
+                "url": "https://www.tiktok.com/@the_ribbon_hero",
+                "site": "TikTok",
+                "type": "SOCIAL"
+              }
+            ],
+            "average_score": 66,
+            "popularity": 16365,
+            "favourites": 195,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/211308",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        }
+      ],
+      "relations": [
+        {
+          "id": 31676,
+          "type": "MANGA",
+          "title": {
+            "native": "リボンの騎士",
+            "romaji": "Ribbon no Kishi",
+            "english": "Princess Knight",
+            "synonyms": []
+          },
+          "format": "MANGA",
+          "site_url": "https://anilist.co/manga/31676",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31676-ReKRBqwbdml1.jpg",
+          "relation_type": "PARENT",
+          "media_id": null
+        }
+      ],
+      "alt_ids": [
+        {
+          "anilist_id": 211308,
+          "mal_id": 64012,
+          "anidb_id": 20023,
+          "imdb_ids": []
+        }
+      ],
+      "targets": [
+        {
+          "anilist_id": 211308,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211308-KG8w6IyCI3r0.png"
+        }
+      ]
+    },
+    "notes": null,
+    "stats": {
+      "uploads": 11,
+      "seeders": "110",
+      "leechers": "0",
+      "downloads": "5338"
+    },
+    "series": null,
+    "episodes": [],
+    "groups": null
+  }
+}

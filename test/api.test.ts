@@ -1,20 +1,21 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-import fetch, { Response } from 'node-fetch';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+
 import Client from 'bittorrent-tracker';
+import fetch, { type Response } from 'node-fetch';
+
 import { resolveKitsuToExternal } from '../src/api/kitsu.js';
-import { resolveMediaId, getMedia, searchTorrents, getTorrent, nekoFetch } from '../src/api/nekobt.js';
+import {
+  getMedia,
+  getTorrent,
+  nekoFetch,
+  resolveMediaId,
+  searchTorrents
+} from '../src/api/nekobt.js';
 import { scrapeTorrents } from '../src/api/tracker-scrapper.js';
-import { NekoTorrentItem } from '../src/types.js';
+import type { NekoMediaData, NekoTorrentItem } from '../src/types.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import { loadFixture, loadFixtureData, loadSynthetic } from './helpers/test-data.js';
 
-function loadFixture<T>(filename: string): T {
-  const filepath = path.join(__dirname, 'fixtures', filename);
-  return JSON.parse(fs.readFileSync(filepath, 'utf8'));
-}
 
 vi.mock('node-fetch', () => {
   return {
@@ -43,7 +44,7 @@ describe('api/kitsu', () => {
   });
 
   it('resolves Kitsu ID to MAL mapping using fixture', async () => {
-    const fixtureData = loadFixture('kitsu_49235_mappings.json');
+    const fixtureData = loadFixture('kitsu-mappings', '49235');
     const mockResponse = {
       ok: true,
       status: 200,
@@ -68,6 +69,26 @@ describe('api/kitsu', () => {
     );
   });
 
+  it('falls back to the AniList mapping when the anime has no MAL entry', async () => {
+    // A real AniList-only mapping — the MAL provider finds nothing, so the
+    // addon has to fall back to AniList.
+    const fixtureData = loadFixture('kitsu-mappings', '51128');
+    const mockResponse = {
+      ok: true,
+      status: 200,
+      statusText: 'OK',
+      json: async () => fixtureData
+    } as unknown as Response;
+
+    mockedFetch.mockResolvedValueOnce(mockResponse);
+
+    const result = await resolveKitsuToExternal('51128');
+    expect(result).toEqual({
+      name: 'anilist',
+      id: '218216'
+    });
+  });
+
   it('throws error when kitsu response is not ok', async () => {
     const mockResponse = {
       ok: false,
@@ -86,7 +107,7 @@ describe('api/kitsu', () => {
     const mockResponse = {
       ok: true,
       status: 200,
-      json: async () => ({ data: [] })
+      json: async () => loadSynthetic('kitsu-mappings', 'empty-mappings')
     } as unknown as Response;
 
     mockedFetch.mockResolvedValueOnce(mockResponse);
@@ -100,7 +121,7 @@ describe('api/kitsu', () => {
     const mockResponse = {
       ok: true,
       status: 200,
-      json: async () => ({ data: null })
+      json: async () => loadSynthetic('kitsu-mappings', 'null-data')
     } as unknown as Response;
 
     mockedFetch.mockResolvedValueOnce(mockResponse);
@@ -117,12 +138,7 @@ describe('api/nekobt', () => {
   });
 
   it('resolveMediaId returns media ID resolution info with isMovie=false for series', async () => {
-    const mockPayload = {
-      data: {
-        media_id: 's172',
-        anilist_id: 182205
-      }
-    };
+    const mockPayload = loadSynthetic('nekobt-resolve', 'series');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -139,12 +155,7 @@ describe('api/nekobt', () => {
   });
 
   it('resolveMediaId marks isMovie=true for movie IDs starting with m', async () => {
-    const mockPayload = {
-      data: {
-        media_id: 'm145',
-        anilist_id: 199
-      }
-    };
+    const mockPayload = loadSynthetic('nekobt-resolve', 'movie');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -171,13 +182,14 @@ describe('api/nekobt', () => {
     expect(result).toBeNull();
   });
 
-  it('getMedia retrieves media details using media_s172 fixture', async () => {
-    const realMedia = loadFixture('media_s172.json');
+  it('getMedia retrieves media details using nekobt-media/s172 fixture', async () => {
+    const rawBody = loadFixture('nekobt-media', 's172');
+    const realMedia = loadFixtureData<NekoMediaData>('nekobt-media', 's172');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({ data: realMedia })
+      json: async () => rawBody
     } as unknown as Response);
 
     const result = await getMedia('s172');
@@ -195,7 +207,7 @@ describe('api/nekobt', () => {
   });
 
   it('searchTorrents returns torrent list matching episode', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -219,12 +231,13 @@ describe('api/nekobt', () => {
   });
 
   it('getTorrent returns torrent info by ID', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const rawBody = loadFixture('nekobt-torrents', '14064189768715');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({ data: realTorrent })
+      json: async () => rawBody
     } as unknown as Response);
 
     const result = await getTorrent('14064189768715');
@@ -332,7 +345,7 @@ describe('api/nekobt', () => {
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({})
+      json: async () => loadSynthetic('nekobt-media', 'null-data')
     } as unknown as Response);
 
     const result = await getMedia('s172');
@@ -340,7 +353,7 @@ describe('api/nekobt', () => {
   });
 
   it('searchTorrents omits the episode filter when episodeId is null', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedFetch.mockResolvedValueOnce({
       ok: true,
@@ -356,7 +369,7 @@ describe('api/nekobt', () => {
     mockedFetch.mockResolvedValueOnce({
       ok: true,
       status: 200,
-      json: async () => ({ data: {} })
+      json: async () => loadSynthetic('nekobt-search', 'non-array-results')
     } as unknown as Response);
 
     const result = await searchTorrents('s172', 220940);
@@ -381,7 +394,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('scrapeTorrents collects scrape stats and builds swarms', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((opts: any, cb: any) => {
       const infoHash = realTorrent.infohash.toLowerCase();
@@ -404,7 +417,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('handles tracker error gracefully and defaults seeders and leechers', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((opts: any, cb: any) => {
       cb(new Error('Connection refused'), null);
@@ -419,7 +432,7 @@ describe('api/tracker-scrapper', () => {
 
   it('times out and defaults stats when a tracker never responds', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const destroy = vi.fn();
 
     mockedTracker.scrape.mockImplementation(() => ({ destroy }) as any);
@@ -436,7 +449,7 @@ describe('api/tracker-scrapper', () => {
 
   it('ignores a tracker callback that arrives after the timeout', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     let capturedCb: ((error: any, data: any) => void) | undefined;
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
@@ -457,7 +470,7 @@ describe('api/tracker-scrapper', () => {
 
   it('safely ignores a timeout that fires after the scrape already settled', async () => {
     vi.useFakeTimers();
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     // Simulate the defensive case where the timeout is not cleared in time, so it
     // can fire after the scrape callback has already settled the request.
     const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout').mockImplementation(() => {});
@@ -483,7 +496,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('handles a single ScrapeResult response', async () => {
-    const realTorrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const realTorrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
       cb(null, {
@@ -501,7 +514,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('groups multiple torrents under their shared trackers', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const otherTorrent = { ...torrent, infohash: 'b'.repeat(40) };
 
     mockedTracker.scrape.mockImplementation((_opts: any, cb: any) => {
@@ -516,7 +529,7 @@ describe('api/tracker-scrapper', () => {
   });
 
   it('normalizes hex-of-hex infohash keys returned by trackers', async () => {
-    const torrent = loadFixture<NekoTorrentItem>('torrent_s172.json');
+    const torrent = loadFixtureData<NekoTorrentItem>('nekobt-torrents', '14064189768715');
     const infohash = 'abcdef0123456789abcdef0123456789abcdef01';
     const hexOfHex = Buffer.from(infohash).toString('hex');
     const shapedTorrent = { ...torrent, infohash };
@@ -533,3 +546,5 @@ describe('api/tracker-scrapper', () => {
     expect(swarms[0].leechers).toBe(1);
   });
 });
+
+

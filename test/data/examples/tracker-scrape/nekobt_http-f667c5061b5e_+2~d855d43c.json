@@ -1,0 +1,32 @@
+{
+  "tracker": "https://tracker.nekobt.to/api/tracker/public/announce",
+  "requested": [
+    "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+    "e6c7a86e970b886911a2211539157e1f1558a728",
+    "1d12d31b817887f33a20a28b6df168da4e4567aa"
+  ],
+  "responseShape": "map keyed by infohash",
+  "answers": [
+    {
+      "infohash": "31643132643331623831373838376633336132306132386236646631363864613465343536376161",
+      "normalized": "1d12d31b817887f33a20a28b6df168da4e4567aa",
+      "complete": 1,
+      "incomplete": 2,
+      "downloaded": 215
+    },
+    {
+      "infohash": "65366337613836653937306238383639313161323231313533393135376531663135353861373238",
+      "normalized": "e6c7a86e970b886911a2211539157e1f1558a728",
+      "complete": 2,
+      "incomplete": 2,
+      "downloaded": 48
+    },
+    {
+      "infohash": "66363637633530363162356531366138316164616639666531393361343538653064326164353966",
+      "normalized": "f667c5061b5e16a81adaf9fe193a458e0d2ad59f",
+      "complete": 2,
+      "incomplete": 1,
+      "downloaded": 66
+    }
+  ]
+}

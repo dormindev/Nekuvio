@@ -1,0 +1,539 @@
+{
+  "error": false,
+  "data": {
+    "id": "m517",
+    "title": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "overview": "On the way to their new home, 10-year-old Chihiro Ogino's family stumbles upon a deserted theme park. Intrigued, the family investigates the park, though unbeknownst to them, it is secretly inhabited by spirits who sleep by day and appear at night. When Chihiro's mother and father eat food from a restaurant in the street, angry spirits turn them into pigs. Furthermore, a wide sea has appeared between the spirit world and the human one, trapping Chihiro, the sole human, in a land of spirits. Luckily for her though, a mysterious boy named Haku appears, claiming to know her from the past. Under his instructions, Chihiro secures a job in the bathhouse where Haku works. With only her courage and some new found friends to aid her, Chihiro embarks on a journey to turn her parents back to their original forms and return home.",
+    "status": "ended",
+    "banner_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+    "runtime": 125,
+    "tmdbId": 129,
+    "imdbId": "tt0245429",
+    "alternate_titles": [
+      "Sen to Chihiro no Kamikakushi",
+      "Unesenniye prizrakami",
+      "Chihiro ilmmiid gaskkas",
+      "El viatge de Chihiro",
+      "Shahr Ashbah",
+      "千與千尋",
+      "Ruhların Qaçışı",
+      "Sen gwa Chihiro ui Haengbang Bulmyeong",
+      "Shahre Ashbah",
+      "The Spiriting Away of Sen and Chihiro",
+      "Vùng đất linh hồn",
+      "המסע המופלא",
+      "神隐少女",
+      "Ուրվականներից քշվածները",
+      "Urvakanneric Crvatsnery",
+      "센과 치히로의 행방불명",
+      "El viaje de Chihiro",
+      "Miyazaki's Spirited Away",
+      "A Viagem de Chihiro",
+      "Le Voyage de Chihiro",
+      "มิติวิญญาณมหัศจรรย์",
+      "Унесённые призраками",
+      "Začarani grad",
+      "მოჩვენებებით გატაცებულნი"
+    ],
+    "anilist": {
+      "display_id": 199,
+      "primary": {
+        "id": 199,
+        "id_mal": 199,
+        "title": {
+          "romaji": "Sen to Chihiro no Kamikakushi",
+          "english": "Spirited Away",
+          "native": "千と千尋の神隠し",
+          "synonyms": [
+            "Le Voyage de Chihiro",
+            "La Città Incantata",
+            "El Viaje de Chihiro",
+            "Chihiros Reise ins Zauberland",
+            "Ruhların Kaçışı",
+            "המסע המופלא",
+            "Călătoria lui Chihiro",
+            "Spirited Away: W krainie bogów",
+            "Chihiro Szellemországban",
+            "A Viagem de Chihiro",
+            "千与千寻",
+            "Унесённые призраками",
+            "Chihiro og heksene",
+            "Ταξίδι στην Χώρα των Θαυμάτων",
+            "มิติวิญญาณมหัศจรรย์",
+            "Henkien kätkemä",
+            "Chihiro ilmmiid gaskkas",
+            "Vaimudest viidud",
+            "Chihiro og álögin"
+          ]
+        },
+        "description": "On the way to their new home, 10-year-old Chihiro Ogino's family stumbles upon a deserted theme park. Intrigued, the family investigates the park, though unbeknownst to them, it is secretly inhabited by spirits who sleep by day and appear at night. When Chihiro's mother and father eat food from a restaurant in the street, angry spirits turn them into pigs. Furthermore, a wide sea has appeared between the spirit world and the human one, trapping Chihiro, the sole human, in a land of spirits. Luckily for her though, a mysterious boy named Haku appears, claiming to know her from the past. Under his instructions, Chihiro secures a job in the bathhouse where Haku works. With only her courage and some new found friends to aid her, Chihiro embarks on a journey to turn her parents back to their original forms and return home.\n",
+        "format": "MOVIE",
+        "status": "FINISHED",
+        "episodes": 1,
+        "duration": 125,
+        "season": "SUMMER",
+        "season_year": 2001,
+        "start_date": "2001-07-20",
+        "end_date": "2001-07-20",
+        "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+        "cover_color": "#e45d5d",
+        "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199-Sm2RU5PSqw7T.jpg",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "studios": [
+          {
+            "id": 21,
+            "name": "Studio Ghibli"
+          }
+        ],
+        "tags": [
+          {
+            "id": 98,
+            "name": "Female Protagonist",
+            "rank": 89,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 233,
+            "name": "Youkai",
+            "rank": 89,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 102,
+            "name": "Coming of Age",
+            "rank": 86,
+            "category": "Theme-Drama"
+          },
+          {
+            "id": 1689,
+            "name": "Curses",
+            "rank": 80,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 29,
+            "name": "Magic",
+            "rank": 79,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 772,
+            "name": "Shapeshifting",
+            "rank": 78,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 208,
+            "name": "Mythology",
+            "rank": 77,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 145,
+            "name": "Work",
+            "rank": 77,
+            "category": "Setting-Scene"
+          },
+          {
+            "id": 244,
+            "name": "Isekai",
+            "rank": 75,
+            "category": "Theme-Fantasy"
+          },
+          {
+            "id": 321,
+            "name": "Urban Fantasy",
+            "rank": 74,
+            "category": "Setting-Universe"
+          },
+          {
+            "id": 253,
+            "name": "Gods",
+            "rank": 67,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 179,
+            "name": "Witch",
+            "rank": 62,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 224,
+            "name": "Dragons",
+            "rank": 58,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 1310,
+            "name": "Travel",
+            "rank": 58,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 365,
+            "name": "Memory Manipulation",
+            "rank": 57,
+            "category": "Theme-Other"
+          },
+          {
+            "id": 1304,
+            "name": "Anthropomorphism",
+            "rank": 55,
+            "category": "Cast-Traits"
+          },
+          {
+            "id": 1523,
+            "name": "Inn",
+            "rank": 53,
+            "category": "Setting-Scene"
+          },
+          {
+            "id": 446,
+            "name": "Primarily Child Cast",
+            "rank": 50,
+            "category": "Cast-Main Cast"
+          },
+          {
+            "id": 122,
+            "name": "Trains",
+            "rank": 47,
+            "category": "Theme-Other-Vehicle"
+          },
+          {
+            "id": 494,
+            "name": "Twins",
+            "rank": 42,
+            "category": "Cast-Traits"
+          }
+        ],
+        "relations": [
+          {
+            "id": 211260,
+            "type": "ANIME",
+            "title": {
+              "native": "ぴよぴよバーバ",
+              "romaji": "Piyopiyo Baba",
+              "english": null,
+              "synonyms": []
+            },
+            "format": "MOVIE",
+            "site_url": "https://anilist.co/anime/211260",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b211260-HfShBt2C4Etb.png",
+            "relation_type": "CHARACTER"
+          }
+        ],
+        "external_links": [
+          {
+            "url": "https://www.netflix.com/title/60023642",
+            "site": "Netflix",
+            "type": "STREAMING"
+          },
+          {
+            "url": "https://www.max.com/movies/3deab668-d0a4-4a8d-9bc8-0952a0ad836e",
+            "site": "Max",
+            "type": "STREAMING"
+          },
+          {
+            "url": "https://www.max.com/movies/00ad6746-f3f0-4f6b-b8ea-0997f5880aa5",
+            "site": "Max",
+            "type": "STREAMING"
+          }
+        ],
+        "average_score": 86,
+        "popularity": 483804,
+        "favourites": 22564,
+        "country_of_origin": "JP",
+        "is_adult": false,
+        "site_url": "https://anilist.co/anime/199",
+        "next_airing_episode": null,
+        "next_airing_at": null
+      },
+      "entries": [
+        {
+          "season": null,
+          "src_start": 1,
+          "src_end": 1,
+          "dst_start": 1,
+          "dst_end": 1,
+          "ratio": null,
+          "anilist_id": 199,
+          "ord": 1,
+          "media": {
+            "id": 199,
+            "id_mal": 199,
+            "title": {
+              "romaji": "Sen to Chihiro no Kamikakushi",
+              "english": "Spirited Away",
+              "native": "千と千尋の神隠し",
+              "synonyms": [
+                "Le Voyage de Chihiro",
+                "La Città Incantata",
+                "El Viaje de Chihiro",
+                "Chihiros Reise ins Zauberland",
+                "Ruhların Kaçışı",
+                "המסע המופלא",
+                "Călătoria lui Chihiro",
+                "Spirited Away: W krainie bogów",
+                "Chihiro Szellemországban",
+                "A Viagem de Chihiro",
+                "千与千寻",
+                "Унесённые призраками",
+                "Chihiro og heksene",
+                "Ταξίδι στην Χώρα των Θαυμάτων",
+                "มิติวิญญาณมหัศจรรย์",
+                "Henkien kätkemä",
+                "Chihiro ilmmiid gaskkas",
+                "Vaimudest viidud",
+                "Chihiro og álögin"
+              ]
+            },
+            "description": "On the way to their new home, 10-year-old Chihiro Ogino's family stumbles upon a deserted theme park. Intrigued, the family investigates the park, though unbeknownst to them, it is secretly inhabited by spirits who sleep by day and appear at night. When Chihiro's mother and father eat food from a restaurant in the street, angry spirits turn them into pigs. Furthermore, a wide sea has appeared between the spirit world and the human one, trapping Chihiro, the sole human, in a land of spirits. Luckily for her though, a mysterious boy named Haku appears, claiming to know her from the past. Under his instructions, Chihiro secures a job in the bathhouse where Haku works. With only her courage and some new found friends to aid her, Chihiro embarks on a journey to turn her parents back to their original forms and return home.\n",
+            "format": "MOVIE",
+            "status": "FINISHED",
+            "episodes": 1,
+            "duration": 125,
+            "season": "SUMMER",
+            "season_year": 2001,
+            "start_date": "2001-07-20",
+            "end_date": "2001-07-20",
+            "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+            "cover_color": "#e45d5d",
+            "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199-Sm2RU5PSqw7T.jpg",
+            "genres": [
+              "Adventure",
+              "Drama",
+              "Fantasy",
+              "Supernatural"
+            ],
+            "studios": [
+              {
+                "id": 21,
+                "name": "Studio Ghibli"
+              }
+            ],
+            "tags": [
+              {
+                "id": 98,
+                "name": "Female Protagonist",
+                "rank": 89,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 233,
+                "name": "Youkai",
+                "rank": 89,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 102,
+                "name": "Coming of Age",
+                "rank": 86,
+                "category": "Theme-Drama"
+              },
+              {
+                "id": 1689,
+                "name": "Curses",
+                "rank": 80,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 29,
+                "name": "Magic",
+                "rank": 79,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 772,
+                "name": "Shapeshifting",
+                "rank": 78,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 208,
+                "name": "Mythology",
+                "rank": 77,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 145,
+                "name": "Work",
+                "rank": 77,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 244,
+                "name": "Isekai",
+                "rank": 75,
+                "category": "Theme-Fantasy"
+              },
+              {
+                "id": 321,
+                "name": "Urban Fantasy",
+                "rank": 74,
+                "category": "Setting-Universe"
+              },
+              {
+                "id": 253,
+                "name": "Gods",
+                "rank": 67,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 179,
+                "name": "Witch",
+                "rank": 62,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 224,
+                "name": "Dragons",
+                "rank": 58,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 1310,
+                "name": "Travel",
+                "rank": 58,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 365,
+                "name": "Memory Manipulation",
+                "rank": 57,
+                "category": "Theme-Other"
+              },
+              {
+                "id": 1304,
+                "name": "Anthropomorphism",
+                "rank": 55,
+                "category": "Cast-Traits"
+              },
+              {
+                "id": 1523,
+                "name": "Inn",
+                "rank": 53,
+                "category": "Setting-Scene"
+              },
+              {
+                "id": 446,
+                "name": "Primarily Child Cast",
+                "rank": 50,
+                "category": "Cast-Main Cast"
+              },
+              {
+                "id": 122,
+                "name": "Trains",
+                "rank": 47,
+                "category": "Theme-Other-Vehicle"
+              },
+              {
+                "id": 494,
+                "name": "Twins",
+                "rank": 42,
+                "category": "Cast-Traits"
+              }
+            ],
+            "relations": [
+              {
+                "id": 211260,
+                "type": "ANIME",
+                "title": {
+                  "native": "ぴよぴよバーバ",
+                  "romaji": "Piyopiyo Baba",
+                  "english": null,
+                  "synonyms": []
+                },
+                "format": "MOVIE",
+                "site_url": "https://anilist.co/anime/211260",
+                "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b211260-HfShBt2C4Etb.png",
+                "relation_type": "CHARACTER"
+              }
+            ],
+            "external_links": [
+              {
+                "url": "https://www.netflix.com/title/60023642",
+                "site": "Netflix",
+                "type": "STREAMING"
+              },
+              {
+                "url": "https://www.max.com/movies/3deab668-d0a4-4a8d-9bc8-0952a0ad836e",
+                "site": "Max",
+                "type": "STREAMING"
+              },
+              {
+                "url": "https://www.max.com/movies/00ad6746-f3f0-4f6b-b8ea-0997f5880aa5",
+                "site": "Max",
+                "type": "STREAMING"
+              }
+            ],
+            "average_score": 86,
+            "popularity": 483804,
+            "favourites": 22564,
+            "country_of_origin": "JP",
+            "is_adult": false,
+            "site_url": "https://anilist.co/anime/199",
+            "next_airing_episode": null,
+            "next_airing_at": null
+          }
+        }
+      ],
+      "relations": [
+        {
+          "id": 211260,
+          "type": "ANIME",
+          "title": {
+            "native": "ぴよぴよバーバ",
+            "romaji": "Piyopiyo Baba",
+            "english": null,
+            "synonyms": []
+          },
+          "format": "MOVIE",
+          "site_url": "https://anilist.co/anime/211260",
+          "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b211260-HfShBt2C4Etb.png",
+          "relation_type": "CHARACTER",
+          "media_id": null
+        }
+      ],
+      "alt_ids": [
+        {
+          "anilist_id": 199,
+          "mal_id": 199,
+          "anidb_id": 112,
+          "imdb_ids": [
+            "tt0245429"
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "anilist_id": 199,
+          "media_id": null,
+          "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg"
+        }
+      ]
+    },
+    "notes": null,
+    "stats": {
+      "uploads": 3,
+      "seeders": "5",
+      "leechers": "0",
+      "downloads": "67"
+    },
+    "series": null,
+    "episodes": [],
+    "groups": null
+  }
+}

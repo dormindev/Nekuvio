@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "id": "empty-mappings",
+      "params": { "path": { "id": "<kitsu-id>" } },
+      "fetched": null,
+      "grounds": "assumed Kitsu mappings body with an empty `data` array — `kitsu.ts` guards `Array.isArray(data?.data) ? data.data : []` then throws \"No useful mapping found\"; migrated from api.test.ts (\"throws error when no useful mapping is found\")",
+      "verdict": "ungrounded"
+    },
+    {
+      "id": "null-data",
+      "params": { "path": { "id": "<kitsu-id>" } },
+      "fetched": null,
+      "grounds": "assumed Kitsu mappings body with a non-array `data: null` — `kitsu.ts` treats non-array data as having no mappings; migrated from api.test.ts (\"treats a non-array data payload as having no mappings\")",
+      "verdict": "ungrounded"
+    }
+  ]
+}

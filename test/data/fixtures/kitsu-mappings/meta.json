@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "id": "49235",
+      "params": {
+        "path": {
+          "id": "49235"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "kitsu 49235 \u2192 mal 59970 mapping (README fixture table)"
+    },
+    {
+      "id": "51128",
+      "params": {
+        "path": {
+          "id": "51128"
+        }
+      },
+      "fetched": "2026-10-19",
+      "grounds": "AniList-only mapping (no MAL) \u2014 exercises the resolveKitsuToExternal fallback to the anilist provider"
+    }
+  ]
+}

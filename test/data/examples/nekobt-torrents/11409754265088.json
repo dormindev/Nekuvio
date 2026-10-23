@@ -1,0 +1,80 @@
+{
+  "error": false,
+  "data": {
+    "id": "11409754265088",
+    "uploaded_at": 1780258952598,
+    "title": "[nekotan] Bleach the Movie Hell Verse 2010 (BD 1080p x264 10-bit DTS-HD MA) | Movie 4 Jigoku-hen",
+    "auto_title": "[nekotan] Bleach the Movie Hell Verse 2010 (BD 1080p x264 10-bit DTS-HD MA) | Movie 4 Jigoku-hen {Tags:L2;V13;C1;A=ja;F=en;}",
+    "description": "Restyled subtitles from kuchikirukia (matching ParanDark) with a few tweaks, taken DTS-HD MA track from FraMeSToR, included Opus track for compability.\n\nVideo: Beatrice-Raws\nAudio: Japanese DTS-HD MA 5.1 [default] (FraMeSToR), Japanese Opus 2.0 (Beatrice-Raws)\nSubtitles: English Full Subtitles [kuchikirukia modified]",
+    "mediainfo": "General\nUnique ID                                : 21698945127081330146008872003519905012 (0x10531097ECB5AB6BDF28B1420487FCF4)\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 8.09 GiB\nDuration                                 : 1 h 33 min\nOverall bit rate mode                    : Variable\nOverall bit rate                         : 12.3 Mb/s\nFrame rate                               : 23.976 FPS\nEncoded date                             : 2026-05-31 19:28:31 UTC\nWriting application                      : mkvmerge 96.0 ('It's My Life') 64-bit\nWriting library                          : libebml v1.4.5 + libmatroska v1.7.1\nAttachments                              : RaleighLTStd-Medium.otf / QlassikBold_TB.otf / arial.ttf\n\nVideo\nID                                       : 1\nFormat                                   : AVC\nFormat/Info                              : Advanced Video Codec\nFormat profile                           : High 10@L4.2\nFormat settings                          : CABAC / 4 Ref Frames\nFormat settings, CABAC                   : Yes\nFormat settings, Reference frames        : 4 frames\nCodec ID                                 : V_MPEG4/ISO/AVC\nDuration                                 : 1 h 33 min\nBit rate                                 : 8 142 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 040 pixels\nDisplay aspect ratio                     : 1.85:1\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nChroma subsampling                       : 4:2:0\nBit depth                                : 10 bits\nScan type                                : Progressive\nBits/(Pixel*Frame)                       : 0.170\nStream size                              : 5.34 GiB (66%)\nTitle                                    : BDRip by CaypoH\nWriting library                          : x264 core 152 r2851 ba24899 (DJATOM's build)\nEncoding settings                        : cabac=1 / ref=4 / deblock=1:1:-1 / analyse=0x3:0x133 / me=umh / subme=9 / psy=1 / psy_rd=1.00:0.00 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=32 / lookahead_threads=5 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=9 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=23 / scenecut=40 / intra_refresh=0 / rc=crf / mbtree=0 / crf=14.0000 / qcomp=0.72 / qpmin=0 / qpmax=81 / qpstep=4 / ip_ratio=1.40 / pb_ratio=1.30 / aq=1:0.85\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio #1\nID                                       : 2\nFormat                                   : DTS XLL\nFormat/Info                              : Digital Theater Systems\nCommercial name                          : DTS-HD Master Audio\nCodec ID                                 : A_DTS\nDuration                                 : 1 h 33 min\nBit rate mode                            : Variable\nBit rate                                 : 4 009 kb/s\nChannel(s)                               : 6 channels\nChannel layout                           : C L R Ls Rs LFE\nSampling rate                            : 48.0 kHz\nFrame rate                               : 93.750 FPS (512 SPF)\nBit depth                                : 24 bits\nCompression mode                         : Lossless\nDelay relative to video                  : 4 ms\nStream size                              : 2.63 GiB (33%)\nTitle                                    : DTS-HD MA 5.1\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nAudio #2\nID                                       : 3\nFormat                                   : Opus\nCodec ID                                 : A_OPUS\nDuration                                 : 1 h 33 min\nBit rate                                 : 177 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 50.000 FPS (960 SPF)\nCompression mode                         : Lossy\nStream size                              : 119 MiB (1%)\nTitle                                    : Opus 2.0 @ 192kb/s\nLanguage                                 : Japanese\nDefault                                  : No\nForced                                   : No\n\nText\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 1 h 30 min\nBit rate                                 : 104 b/s\nFrame rate                               : 0.222 FPS\nCount of elements                        : 1210\nCompression mode                         : Lossless\nStream size                              : 69.4 KiB (0%)\nTitle                                    : Full Subtitles [kuchikirukia modified]\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nMenu\n00:00:00.000                             : en:Part A\n00:02:56.218                             : en:Part B\n00:05:31.331                             : en:Part C\n00:09:11.801                             : en:Part D\n00:11:54.714                             : en:Part E\n00:14:33.331                             : en:Part F\n00:17:33.552                             : en:Part G\n00:22:36.355                             : en:Part H\n00:27:45.163                             : en:Part I\n00:32:53.305                             : en:Part J\n00:39:06.344                             : en:Part K\n00:47:06.824                             : en:Part L\n00:49:54.575                             : en:Part M\n00:54:27.222                             : en:Part N\n00:59:47.292                             : en:Part O\n01:04:16.853                             : en:Part P\n01:07:32.632                             : en:Part Q\n01:10:18.548                             : en:Part R\n01:12:35.726                             : en:Part S\n01:14:47.983                             : en:Part T\n01:18:00.509                             : en:Part U\n01:21:50.239                             : en:Part V\n01:26:09.456                             : en:Part W\n01:29:10.220                             : en:End",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 2,
+    "mtl": false,
+    "filesize": "8686345048",
+    "media_id": "m884",
+    "media_episode_ids": [],
+    "anilist_id": 8247,
+    "anilist_ids": [
+      8247
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "",
+    "fsub_lang": "en",
+    "video_codec": 1,
+    "video_type": 13,
+    "files": [
+      {
+        "path": "[nekotan] Bleach the Movie Hell Verse 2010 (BD 1080p x264 10-bit DTS-HD MA).mkv",
+        "name": "[nekotan] Bleach the Movie Hell Verse 2010 (BD 1080p x264 10-bit DTS-HD MA).mkv",
+        "length": 8686345048,
+        "offset": 0
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:bfa8102422aea532a576baa3c8900a04cae13566&dn=%5Bnekotan%5D%20Bleach%20the%20Movie%20Hell%20Verse%202010%20(BD%201080p%20x264%2010-bit%20DTS-HD%20MA)%20%7C%20Movie%204%20Jigoku-hen%20%7BTags%3AL2%3BV13%3BC1%3BA%3Dja%3BF%3Den%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Ftracker.anirena.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+    "private_magnet": null,
+    "infohash": "bfa8102422aea532a576baa3c8900a04cae13566",
+    "anonymous": false,
+    "uploader": {
+      "id": "10162290506000",
+      "username": "nekotan",
+      "display_name": "nekotan",
+      "pfp_hash": null
+    },
+    "groups": [
+      {
+        "id": "10162550215740",
+        "name": "nekotan",
+        "display_name": "nekotan",
+        "display_tag": "nekotan",
+        "pfp_hash": "cae0315a7b06e0094c1bf2e85ee7aa4ba75a9a2fe5f16a34bd6a2803b67be563",
+        "tagline": "",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "3",
+    "leechers": "0",
+    "completed": "234",
+    "activity": "323955",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": "not_found",
+    "animetosho_fetch_time": "1780262749359",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

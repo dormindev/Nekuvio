@@ -1,0 +1,82 @@
+{
+  "error": false,
+  "data": {
+    "id": "14043193918217",
+    "uploaded_at": 1790545826243,
+    "title": "[Onalrie] One Piece - E1180 [1080p WEBRip AV1]",
+    "auto_title": "[Onalrie] One Piece - E1180 [1080p WEBRip AV1] {Tags:L0;V7;C3;A=ja;S=en,ptpt,es419,eses,ar,frfr,de;}",
+    "description": "# [Feedback](https://onalrie.app/torrent/a64c982a-678b-4a2e-b65c-0449ba76ff67) [Donate](https://onalrie.app/donate)\n### General\n- **Duration**: 0:23:35\n\n### Video\n- **Codec**: AV1\n- **Resolution**: 1920×1080\n- **Bit depth**: None bits\n- **Bitrate**: 6753 kbps\n- **Framerate**: 23.976 FPS\n- **Language**: Japanese\n\n### Audio\n- **Codec**: AAC\n- **Channels**: 2 channels\n- **Bitrate**: 192 kbps\n- **Language**: Japanese\n\n### Subtitles\n\n\n\n|Language|Codec|Name|\n| :---: | :---: | :---: |\n|English|ASS|CR_English|\n|Portuguese|ASS|CR_Portuguese(Brazil)|\n|Spanish|ASS|CR_Spanish(Latin_America)|\n|Spanish|ASS|CR_Spanish|\n|Arabic|ASS|CR_Arabic|\n|French|ASS|CR_French|\n|German|ASS|CR_German|",
+    "mediainfo": "General\nUnique ID                                : 209044633202093661225773484180682418760 (0x9D4488294536D262ACB8A7F463F9AA48)\nComplete name                            : [Onalrie] One Piece - E1180 [1080p WEBRip AV1]\nFormat                                   : Matroska\nFormat version                           : Version 4\nFile size                                : 330 MiB\nDuration                                 : 23 min 35 s\nOverall bit rate                         : 1 955 kb/s\nFrame rate                               : 23.976 FPS\nWriting application                      : Lavf63.1.101\nWriting library                          : Lavf63.1.101\nErrorDetectionType                       : Per level 1\nAttachments                              : arialbd_3.ttf / arialbi_2.ttf / ariali_1.ttf / Arial_2.ttf / ariblk_1.TTF / comicbd_0.ttf / COOPBL.ttf / georgiab_0.ttf / georgiai_0.ttf / georgiaz_0.ttf / georgia_0.ttf / impact_0.ttf / tahomabd_2.ttf / Tahoma_0.ttf / timesbd_3.ttf / trebucbd_0.ttf / trebucbi_0.ttf / trebucit_0.ttf / trebuc_0.ttf / verdanab_0.ttf / verdanaz_0.ttf / verdana_0.ttf / AdobeArabic-Bold.otf / AdobeArabic-BoldItalic.otf / AdobeArabic-Regular.otf\n\nVideo\nID                                       : 1\nFormat                                   : AV1\nFormat/Info                              : AOMedia Video 1\nCodec ID                                 : V_AV1\nDuration                                 : 23 min 35 s\nBit rate                                 : 6 753 kb/s\nWidth                                    : 1 920 pixels\nHeight                                   : 1 080 pixels\nDisplay aspect ratio                     : 16:9\nFrame rate mode                          : Constant\nFrame rate                               : 23.976 (24000/1001) FPS\nColor space                              : YUV\nBits/(Pixel*Frame)                       : 0.136\nStream size                              : 1.11 GiB\nWriting library                          : Lavc63.1.101 libsvtav1\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\nColor range                              : Limited\nColor primaries                          : BT.709\nTransfer characteristics                 : BT.709\nMatrix coefficients                      : BT.709\n\nAudio\nID                                       : 2\nFormat                                   : AAC LC\nFormat/Info                              : Advanced Audio Codec Low Complexity\nCodec ID                                 : A_AAC-2\nDuration                                 : 23 min 35 s\nBit rate                                 : 192 kb/s\nChannel(s)                               : 2 channels\nChannel layout                           : L R\nSampling rate                            : 48.0 kHz\nFrame rate                               : 46.875 FPS (1024 SPF)\nCompression mode                         : Lossy\nStream size                              : 32.0 MiB (10%)\nLanguage                                 : Japanese\nDefault                                  : Yes\nForced                                   : No\n\nText #1\nID                                       : 3\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 4 s\nBit rate                                 : 84 b/s\nFrame rate                               : 0.207 FPS\nCount of elements                        : 286\nCompression mode                         : Lossless\nStream size                              : 14.2 KiB (0%)\nTitle                                    : CR_English\nLanguage                                 : English\nDefault                                  : Yes\nForced                                   : No\n\nText #2\nID                                       : 4\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 55 s\nBit rate                                 : 96 b/s\nFrame rate                               : 0.196 FPS\nCount of elements                        : 270\nCompression mode                         : Lossless\nStream size                              : 16.1 KiB (0%)\nTitle                                    : CR_Portuguese(Brazil)\nLanguage                                 : Portuguese\nDefault                                  : No\nForced                                   : No\n\nText #3\nID                                       : 5\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 55 s\nBit rate                                 : 63 b/s\nFrame rate                               : 0.149 FPS\nCount of elements                        : 205\nCompression mode                         : Lossless\nStream size                              : 9.85 KiB (0%)\nTitle                                    : CR_Spanish(Latin_America)\nLanguage                                 : Spanish\nDefault                                  : No\nForced                                   : No\n\nText #4\nID                                       : 6\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 23 s\nBit rate                                 : 70 b/s\nFrame rate                               : 0.151 FPS\nCount of elements                        : 212\nCompression mode                         : Lossless\nStream size                              : 11.0 KiB (0%)\nTitle                                    : CR_Spanish\nLanguage                                 : Spanish\nDefault                                  : No\nForced                                   : No\n\nText #5\nID                                       : 7\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 30 s\nBit rate                                 : 106 b/s\nFrame rate                               : 0.168 FPS\nCount of elements                        : 237\nCompression mode                         : Lossless\nStream size                              : 18.2 KiB (0%)\nTitle                                    : CR_Arabic\nLanguage                                 : Arabic\nDefault                                  : No\nForced                                   : No\n\nText #6\nID                                       : 8\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 23 min 30 s\nBit rate                                 : 66 b/s\nFrame rate                               : 0.141 FPS\nCount of elements                        : 199\nCompression mode                         : Lossless\nStream size                              : 10.5 KiB (0%)\nTitle                                    : CR_French\nLanguage                                 : French\nDefault                                  : No\nForced                                   : No\n\nText #7\nID                                       : 9\nFormat                                   : ASS\nCodec ID                                 : S_TEXT/ASS\nCodec ID/Info                            : Advanced Sub Station Alpha\nDuration                                 : 22 min 55 s\nBit rate                                 : 88 b/s\nFrame rate                               : 0.181 FPS\nCount of elements                        : 249\nCompression mode                         : Lossless\nStream size                              : 14.7 KiB (0%)\nTitle                                    : CR_German\nLanguage                                 : German\nDefault                                  : No\nForced                                   : No\n\nMenu\n00:00:00.000                             : Episode\n00:00:11.000                             : Intro\n00:02:16.000                             : Episode\n00:23:21.000                             : Credits",
+    "category": 1,
+    "deleted": null,
+    "hidden": false,
+    "otl": false,
+    "hardsub": false,
+    "level": 0,
+    "mtl": false,
+    "filesize": "346006964",
+    "media_id": "s1545",
+    "media_episode_ids": [
+      "529267"
+    ],
+    "anilist_id": 21,
+    "anilist_ids": [
+      21
+    ],
+    "audio_lang": "ja",
+    "sub_lang": "en,pt-pt,es-419,es-es,ar,fr-fr,de",
+    "fsub_lang": "",
+    "video_codec": 3,
+    "video_type": 7,
+    "files": [
+      {
+        "path": "[Onalrie] One Piece - E1180 [1080p WEBRip AV1].mkv",
+        "name": "[Onalrie] One Piece - E1180 [1080p WEBRip AV1].mkv",
+        "length": 346006964,
+        "offset": 0
+      }
+    ],
+    "magnet": "magnet:?xt=urn:btih:52c8edc5dbaa2bef7cfe262ad77c0c4ceebc836e&dn=%5BOnalrie%5D%20One%20Piece%20-%20E1180%20%5B1080p%20WEBRip%20AV1%5D%20%7BTags%3AL0%3BV7%3BC3%3BA%3Dja%3BS%3Den%2Cptpt%2Ces419%2Ceses%2Car%2Cfrfr%2Cde%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=http%3A%2F%2Ftracker.onalrie.app%3A7070%2Fannounce&tr=udp%3A%2F%2Ftracker.onalrie.app%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.beeimg.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker.hotplug.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
+    "private_magnet": null,
+    "infohash": "52c8edc5dbaa2bef7cfe262ad77c0c4ceebc836e",
+    "anonymous": false,
+    "uploader": {
+      "id": "8881709087250",
+      "username": "onalrie",
+      "display_name": "Onalrie",
+      "pfp_hash": null
+    },
+    "groups": [
+      {
+        "id": "10913309520177",
+        "name": "onalrie",
+        "display_name": "Onalrie",
+        "display_tag": "Onalrie",
+        "pfp_hash": "6592be00da33e445a00820c83e02bb1f44adf96bd6d6f87e43d64380a3e3fd63",
+        "tagline": "Onalrie",
+        "open": false,
+        "members": [],
+        "uploading_group": true,
+        "role": null
+      }
+    ],
+    "imported": null,
+    "seeders": "2",
+    "leechers": "0",
+    "completed": "71",
+    "activity": "0",
+    "torrent_health": "100",
+    "upgraded": null,
+    "animetosho": null,
+    "animetosho_fetch_time": "1",
+    "screenshots": [],
+    "can_edit": false,
+    "waiting_approve": false,
+    "auto_approve_on_fix": false,
+    "disable_comments": false,
+    "lock_comments": false,
+    "disable_edits": false,
+    "nyaa_upload_time": null,
+    "batch": false
+  }
+}

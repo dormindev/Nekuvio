@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": "underscore-separated",
+      "params": {
+        "path": {
+          "id": "15048172639321"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "episode file naming with an underscore inside the SxxEyy token (S04_E23) \u2014 the matcher's separator class accepts it, but no real anime release uses it: 0 of 1,270 real file names (572 in the catalog + 698 fetched live from the NekoBT search/torrents API) contain a separator other than none between S## and E##"
+    },
+    {
+      "id": "episode-range",
+      "params": {
+        "path": {
+          "id": "15048172639384"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "multi-episode range file naming (S04E20-E24) \u2014 a real case does not exist: 0 of the 60 real torrents in the catalog contain a range name, and none of the 698 file names fetched live from the NekoBT API"
+    },
+    {
+      "id": "named-season",
+      "params": {
+        "path": {
+          "id": "15048172639401"
+        }
+      },
+      "fetched": null,
+      "verdict": "ungrounded",
+      "grounds": "a file named after a series title that carries **no synonyms** \u2014 the named-season strategy has to work without them. The with-synonyms half has a real instance (Attack on Titan's season-1 batch, \"[MiniMTBB] Shingeki no Kyojin - 01\"), but no real release is named after a title that has an empty synonym list: 0 of the 17 empty-synonym titles in the corpus (plus ~90 media checked live) appear in any captured torrent name"
+    }
+  ]
+}
